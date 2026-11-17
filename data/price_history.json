@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 17:50 KST",
+  "updatedAt": "2026-11-17 18:52 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5855,14 +5855,19 @@
           "at": "2026-11-17 17:50 KST",
           "price": 22530,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 22530,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 23915,
+      "priceCount": 3,
+      "avgPrice": 23453,
       "minPrice": 22530,
       "maxPrice": 25300,
       "lastPrice": 22530,
-      "lastAt": "2026-11-17 17:50 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5878,7 +5883,7 @@
           22530,
           22530,
           22530,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -6816,14 +6821,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 45000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 149000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 45000,
+      "priceCount": 2,
+      "avgPrice": 97000,
       "minPrice": 45000,
-      "maxPrice": 45000,
-      "lastPrice": 45000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "maxPrice": 149000,
+      "lastPrice": 149000,
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6832,9 +6842,17 @@
           45000,
           45000,
           1
+        ],
+        [
+          "2026-11-17",
+          149000,
+          149000,
+          149000,
+          149000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "6702238120": {
       "productName": "토스키 레몬 시럽, 1L, 2개",
@@ -6844,14 +6862,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 30000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 41820,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 30000,
+      "priceCount": 2,
+      "avgPrice": 35910,
       "minPrice": 30000,
-      "maxPrice": 30000,
-      "lastPrice": 30000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "maxPrice": 41820,
+      "lastPrice": 41820,
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6860,9 +6883,17 @@
           30000,
           30000,
           1
+        ],
+        [
+          "2026-11-17",
+          41820,
+          41820,
+          41820,
+          41820,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8438651907": {
       "productName": "자연정미 유기농 비정제 원당 설탕, 1개, 5kg",
@@ -7005,7 +7036,7 @@
       "uniqueDays": 1
     },
     "7278937307": {
-      "productName": "토스키 피치 시럽, 1L, 4개",
+      "productName": "토스키 피치 시럽, 1L, 1개",
       "category": "시럽·소스",
       "observations": [
         {
@@ -7176,7 +7207,7 @@
       "uniqueDays": 1
     },
     "7243710171": {
-      "productName": "누티푸드 크리머 스위텐드, 385g, 3개",
+      "productName": "누티푸드 크리머 스위텐드 연유 시럽, 385g, 24개",
       "category": "크림·연유",
       "observations": [
         {
@@ -7227,7 +7258,7 @@
       "uniqueDays": 2
     },
     "8421621861": {
-      "productName": "누티푸드 크리머 스위텐드, 385g, 2개",
+      "productName": "누티푸드 크리머 스위텐드, 385g, 1개",
       "category": "크림·연유",
       "observations": [
         {
@@ -9524,20 +9555,25 @@
     },
     "2446668": {
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
-      "category": "과일·베이스",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-16 23:08 KST",
           "price": 14460,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 14460,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
       "lastPrice": 14460,
-      "lastAt": "2026-11-16 23:08 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9546,9 +9582,17 @@
           14460,
           14460,
           1
+        ],
+        [
+          "2026-11-17",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7764750064": {
       "productName": "배대감 대용량 국산 고소한 미숫가루, 2kg, 1개",
@@ -10278,14 +10322,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 7180,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 7180,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7180,
       "minPrice": 7180,
       "maxPrice": 7180,
       "lastPrice": 7180,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -10293,7 +10342,7 @@
           7180,
           7180,
           7180,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -11474,14 +11523,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 7600,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 7600,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7600,
       "minPrice": 7600,
       "maxPrice": 7600,
       "lastPrice": 7600,
-      "lastAt": "2026-11-17 05:17 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -11489,7 +11543,7 @@
           7600,
           7600,
           7600,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -12592,7 +12646,7 @@
       "uniqueDays": 1
     },
     "6702278654": {
-      "productName": "토스키 스트로베리 시럽, 1L, 10개",
+      "productName": "토스키 스트로베리 시럽, 1L, 1개",
       "category": "시럽·소스",
       "observations": [
         {
@@ -13398,22 +13452,27 @@
           "at": "2026-11-17 16:49 KST",
           "price": 30000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 30000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 24000,
+      "priceCount": 3,
+      "avgPrice": 26000,
       "minPrice": 18000,
       "maxPrice": 30000,
       "lastPrice": 30000,
-      "lastAt": "2026-11-17 16:49 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           18000,
           30000,
-          24000,
+          26000,
           30000,
-          2
+          3
         ]
       ],
       "uniqueDays": 1
@@ -13426,14 +13485,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 45000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 45000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 45000,
       "minPrice": 45000,
       "maxPrice": 45000,
       "lastPrice": 45000,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13441,7 +13505,7 @@
           45000,
           45000,
           45000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13678,14 +13742,19 @@
           "at": "2026-11-17 17:50 KST",
           "price": 41000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 41000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 41000,
       "minPrice": 41000,
       "maxPrice": 41000,
       "lastPrice": 41000,
-      "lastAt": "2026-11-17 17:50 KST",
+      "lastAt": "2026-11-17 18:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13693,7 +13762,7 @@
           41000,
           41000,
           41000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13861,6 +13930,258 @@
           149000,
           149000,
           149000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9186445315": {
+      "productName": "[종이컵 리드 세트] 아이스 전용 종이컵 PLA개폐형 12온스 세트 양면 PLA코팅 종이컵 생분해 세트 50개, 50세트, 50개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 16730,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16730,
+      "minPrice": 16730,
+      "maxPrice": 16730,
+      "lastPrice": 16730,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16730,
+          16730,
+          16730,
+          16730,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9632198895": {
+      "productName": "플라마트 테이크아웃 컵 홀더 32온스(107파이) 800개입 무지 에어 카페 커피 대용량 아이스 종이",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 16500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16500,
+      "minPrice": 16500,
+      "maxPrice": 16500,
+      "lastPrice": 16500,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16500,
+          16500,
+          16500,
+          16500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9739004686": {
+      "productName": "플라마트 테이크아웃 컵 홀더 8온스 1000개입 무지 에어 카페 커피 대용량 아이스 종이",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 15600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15600,
+      "minPrice": 15600,
+      "maxPrice": 15600,
+      "lastPrice": 15600,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15600,
+          15600,
+          15600,
+          15600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9675500108": {
+      "productName": "세리오닉 투명 버블티 스트로우 빨대 벌크포장 12 x 210 mm, 1개, 200개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 8950,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8950,
+      "minPrice": 8950,
+      "maxPrice": 8950,
+      "lastPrice": 8950,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8950,
+          8950,
+          8950,
+          8950,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7047311844": {
+      "productName": "네이쳐티 넘치는 망고 베이스, 1kg, 4개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 45700,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 45700,
+      "minPrice": 45700,
+      "maxPrice": 45700,
+      "lastPrice": 45700,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          45700,
+          45700,
+          45700,
+          45700,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7398453752": {
+      "productName": "엔칸토 망고 베이스, 1.8kg, 2개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 35000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 35000,
+      "minPrice": 35000,
+      "maxPrice": 35000,
+      "lastPrice": 35000,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          35000,
+          35000,
+          35000,
+          35000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6319872570": {
+      "productName": "[로켓프레시] 안단잼 딸기 80% 신선 과일 잼, 380g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 10400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10400,
+      "minPrice": 10400,
+      "maxPrice": 10400,
+      "lastPrice": 10400,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10400,
+          10400,
+          10400,
+          10400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9603252740": {
+      "productName": "와이즈셀렉션 일회용 앞치마 업소용 손님용, 1000개, 흰색",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 30900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 30900,
+      "minPrice": 30900,
+      "maxPrice": 30900,
+      "lastPrice": 30900,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          30900,
+          30900,
+          30900,
+          30900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9523087477": {
+      "productName": "올데이키친 플랫컷 일회용 앞치마, 화이트, 100개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 18:51 KST",
+          "price": 5600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5600,
+      "minPrice": 5600,
+      "maxPrice": 5600,
+      "lastPrice": 5600,
+      "lastAt": "2026-11-17 18:51 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5600,
+          5600,
+          5600,
+          5600,
           1
         ]
       ],
