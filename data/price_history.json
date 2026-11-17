@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 03:02 KST",
+  "updatedAt": "2026-11-18 04:04 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5369,14 +5369,19 @@
           "at": "2026-11-17 19:53 KST",
           "price": 29700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 29700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
       "lastPrice": 29700,
-      "lastAt": "2026-11-17 19:53 KST",
+      "lastAt": "2026-11-18 04:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5393,9 +5398,17 @@
           29700,
           29700,
           3
+        ],
+        [
+          "2026-11-18",
+          29700,
+          29700,
+          29700,
+          29700,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "8605970169": {
       "productName": "탐사 일회용 컵홀더",
@@ -16144,7 +16157,7 @@
     },
     "9512306598": {
       "productName": "네이쳐티 초코렛파우더, 800g, 1개, 1개입",
-      "category": "베이킹 재료",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-18 03:02 KST",
@@ -16361,6 +16374,314 @@
           14500,
           14500,
           14500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8732972722": {
+      "productName": "원스쿱 아몬드버터 100% Smooth 스무스타입 대용량 넌패럴 스프레드 잼 버터 페이스트, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 26420,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26420,
+      "minPrice": 26420,
+      "maxPrice": 26420,
+      "lastPrice": 26420,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          26420,
+          26420,
+          26420,
+          26420,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8498860035": {
+      "productName": "자연습관 100프로 넛 버터 아몬드 스무스, 1개, 220g",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 9900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9720769191": {
+      "productName": "넛츠그린 무가당 아몬드버터 크런치, 200g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 9660,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9660,
+      "minPrice": 9660,
+      "maxPrice": 9660,
+      "lastPrice": 9660,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9660,
+          9660,
+          9660,
+          9660,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8504855650": {
+      "productName": "오감식탁 아몬드빠다 스무스, 260g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 11900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11900,
+      "minPrice": 11900,
+      "maxPrice": 11900,
+      "lastPrice": 11900,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          11900,
+          11900,
+          11900,
+          11900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9691201783": {
+      "productName": "원스쿱 아몬드버터 100% Smooth 스무스타입 넌패럴 스프레드 잼 버터 페이스트, 1개, 200g",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 10200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10200,
+      "minPrice": 10200,
+      "maxPrice": 10200,
+      "lastPrice": 10200,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10200,
+          10200,
+          10200,
+          10200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9360653682": {
+      "productName": "산들약초 건조 코코넛분말 글루텐프리 엑스트라파인, 1개, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 7130,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7130,
+      "minPrice": 7130,
+      "maxPrice": 7130,
+      "lastPrice": 7130,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7130,
+          7130,
+          7130,
+          7130,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "288605903": {
+      "productName": "카일스 코코넛크림 파우더, 1kg, 1개입, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 19490,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19490,
+      "minPrice": 19490,
+      "maxPrice": 19490,
+      "lastPrice": 19490,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          19490,
+          19490,
+          19490,
+          19490,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6357560398": {
+      "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 24개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 170880,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 170880,
+      "minPrice": 170880,
+      "maxPrice": 170880,
+      "lastPrice": 170880,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          170880,
+          170880,
+          170880,
+          170880,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7480978890": {
+      "productName": "아임힐링 오르조 유기농 보리차 식약청 인증 한잔용 보리차, 700mg, 100개입, 3개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 71070,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 71070,
+      "minPrice": 71070,
+      "maxPrice": 71070,
+      "lastPrice": 71070,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          71070,
+          71070,
+          71070,
+          71070,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7851945409": {
+      "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 7120,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7120,
+      "minPrice": 7120,
+      "maxPrice": 7120,
+      "lastPrice": 7120,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7120,
+          7120,
+          7120,
+          7120,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "2360002003": {
+      "productName": "다다 감열라벨 500매 100*80mm",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 04:03 KST",
+          "price": 95500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 95500,
+      "minPrice": 95500,
+      "maxPrice": 95500,
+      "lastPrice": 95500,
+      "lastAt": "2026-11-18 04:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          95500,
+          95500,
+          95500,
+          95500,
           1
         ]
       ],

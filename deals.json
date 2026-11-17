@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18 03:02 KST",
-  "statsAt": "2026-11-18 03:02 KST",
+  "updatedAt": "2026-11-18 04:03 KST",
+  "statsAt": "2026-11-18 04:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 340,
+  "count": 349,
   "priceStats": {
-    "products": 491,
+    "products": 502,
     "discounts": 8
   },
   "deals": [
@@ -3922,6 +3922,43 @@
       ]
     },
     {
+      "productId": "9512306598",
+      "vendorItemId": "",
+      "productName": "네이쳐티 초코렛파우더, 800g, 1개, 1개입",
+      "productPrice": 8660,
+      "productImage": "https://ads-partners.coupang.com/image1/9vmkFJDX26IR5nZY9h77LxmAU5_03I56FJPQLLZBoecP2qQ1C36qMtRH8EBJxuu6RxFNXcK_pDT6P9njDh9BaMOR2Lyhnd34tmW1UanS8-DfXBmpEYWhLDNGn0VbPphY3w3njgDVSd-mjVeEhRFajk6v686yzMvjoyqSK2pNgH9r7AUDPUXkFpGgFfyOyaxTqJ0yeAVdbokTjN9c4b9FngdF9R153iG_MpNIBXNm8fq8Wff9XdgcCq2ElXYrpbQq9SJ6sLDEhc8pdk4BF4grhILtK_dDMazAVQ4wnt8f718F25lReOqalPGhrrM2Tjr9f6TgFGK2DNezkI1rIxl-q8ssu06klvjNAnFWz4dmrAOX1zDUqwqVFsLxhQqyfkQVregmqaQAzIw0FrPAwjL5yX7DjuhUzdy3qIyAaVEeG1d66FdJJtRwTb8dJ-T5sSRvUB6v4xzKXGFTRnOh57KfdONPtT_LvJjJQfpJFDcV1tjqhpZ2S3AKV2HinEQdHk23MOmkplx5Vw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9512306598&itemId=28347390942&vendorItemId=95299548495&traceid=V0-153-12b4287766b2795e&clickBeacon=e553c570-e2b0-11f1-b24c-78ad29245559%7E3&requestid=20261118030121407292588587&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "코코아 파우더 250g",
+      "unitPrice": 1082,
+      "unitBasis": "100g당",
+      "packNote": "800g",
+      "avgPrice": 8660,
+      "minPrice": 8660,
+      "maxPrice": 8660,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          8660,
+          8660,
+          8660,
+          8660,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 03:02 KST",
+          8660
+        ]
+      ]
+    },
+    {
       "productId": "7764750064",
       "vendorItemId": "",
       "productName": "배대감 대용량 국산 고소한 미숫가루, 2kg, 1개",
@@ -4930,6 +4967,43 @@
         [
           "2026-11-17 01:11 KST",
           8400
+        ]
+      ]
+    },
+    {
+      "productId": "288605903",
+      "vendorItemId": "",
+      "productName": "카일스 코코넛크림 파우더, 1kg, 1개입, 1개",
+      "productPrice": 19490,
+      "productImage": "https://ads-partners.coupang.com/image1/I-AKuB7IGn6jON2MI9cpltSUa6hroMGd-ThAZxJ6sXNGXIviCTJotuIUFMQPHuPEL9JBciMyZcKyEP_N51U-Gi-ui-YPLgj8AruwC9MbObV5AMi9xyhGiimBtcsqrd3y_scMHCYlBi2NjDEj6uwgfxxXYvlpzZ_9Tow5EhKwIzsAwcIK0A8AuMvzZ3KXpK8AbWGlZ4WqZZfN3ZIQNnjiEE8WSbr3i77JuYEj3h9B8Xxby5hf24JZT78O4-4ZF34E2jK9_EDzJdl6_iRd_75bdGB5lWeEw5VjmWh6riVU71oqMJtcWwCU0uWG0FDm3_Y0UZlWvKy4a_YzB9xV2cvV7cUBTL6E9Q8XJQZcFpRyPo8Ft9FJIQuFCBXDfmt0GE5TsrRZEKnMwbnyQC1kQgB9Y2TB_UBapBHXMxKLoA8Bjve10T0ehwHlHJzmcMXupd8dSk2-w30UME-Avm_wtQV4rnyDUU-xQpZKURyogBrRF6in9R39gdTEpXY0CjiRGjNQjErAjCpW",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=288605903&itemId=322398037&vendorItemId=3789427842&traceid=V0-153-eea6ad8a424e4aa5&clickBeacon=8cc25850-e2b9-11f1-9f98-d765913e7efe%7E3&requestid=20261118040318306292152203&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "코코넛 분말 1kg",
+      "unitPrice": 1949,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 19490,
+      "minPrice": 19490,
+      "maxPrice": 19490,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          19490,
+          19490,
+          19490,
+          19490,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          19490
         ]
       ]
     },
@@ -7071,6 +7145,43 @@
       ]
     },
     {
+      "productId": "8732972722",
+      "vendorItemId": "",
+      "productName": "원스쿱 아몬드버터 100% Smooth 스무스타입 대용량 넌패럴 스프레드 잼 버터 페이스트, 1개, 1kg",
+      "productPrice": 26420,
+      "productImage": "https://ads-partners.coupang.com/image1/C962meLR2n1-UKVnC2kAzybtY_uOH7mAr8JOx9yEow3VKgAiQS2UME6Wxfct1ar2N8BSiAmdt8ok2i9bYJV0mgxUciescOdfgdjJrCdUuRPvw5FJamQhV1HLofyMJ78qTBNX9hvb742Zez1HX9G8GLTFiyfaV4C5NLKfcnnXWTuvadbNnZA9UsJ0UA9bbXkMtUBRCOJiJWFt_V6rjvdL-8ZtCPVNMq3v1Ub_94fMKoXkzFq_jJTwMp1K2ZjU6mM-95vI0os0OLIAbG0-zMaP0n7F8Z5xUJ3nBnf1yKmIyMCBn2Q4lV65Il0jXneP_jaQOe_b8kYhTfRGGf7zFWZ6VA_O2UEqTOHx40yW7C_O0IjZ-FsC6tUeGvowAyGsQ2nFBLu7o6npyjQngI-aDqj-t4y2eH0Slkwm2iTZEGvn4llWZEy6LyKMcJ98OXqDMGlEFbBsc2skqyKy4e2OseNH2X7oKsT-azVo2xcnqg31xF-ZFJDnED6wrfA52uxe4uGScNG0RMhY3kgPkkhz8DAZGalJysYLrPE1PTiDCKshLpvwD1d8ab2-9yNVUzEEJz_cvFyZ67ay0VeQcySKGz6PPKAlUQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8732972722&itemId=25376264273&vendorItemId=92500494235&traceid=V0-153-95fdef6fcef77c62&clickBeacon=87b9bd80-e2b9-11f1-adb1-9fb54dce43ac%7E3&requestid=20261118040309855178743994&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "아몬드 버터 1kg",
+      "unitPrice": 2642,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 26420,
+      "minPrice": 26420,
+      "maxPrice": 26420,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          26420,
+          26420,
+          26420,
+          26420,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          26420
+        ]
+      ]
+    },
+    {
       "productId": "7522711904",
       "vendorItemId": "",
       "productName": "야스티 순 땅콩버터 크리미 100% 무첨가, 500g, 1개",
@@ -7177,6 +7288,117 @@
         [
           "2026-11-17 03:14 KST",
           14900
+        ]
+      ]
+    },
+    {
+      "productId": "8498860035",
+      "vendorItemId": "",
+      "productName": "자연습관 100프로 넛 버터 아몬드 스무스, 1개, 220g",
+      "productPrice": 9900,
+      "productImage": "https://ads-partners.coupang.com/image1/b7Yl2B7L0vIlb_40b4YSeddtI6JjGd0x2lwAY16eoLgvnbJRpsauyX6t4WhPnx5myf6y4WvVtzrFNPRB5OdXvShUEEjs0VkgjcUWkXCaAttV4DDtq2xEzz5rCD78Eo0wEF1uMlEHvv8Fibx6sVC5ZrYaJAmUt7ljTmfK3m3orCuIh2hgz_vX4vrPDQuUCAuh0a-mVRCsR-a05PObzIhjd3F6bJrIC5Ax0qL5gTymTKUnLbweczkueT0i7YKCa9TlJQS0_P38tbrme42HL8T0zQDbS3Ui1_sUYU_qKbrWVbLN1qWnwzP-iZRhupWV0TajZW3OYISORWoynpFiiboTsVg5hN4zj_1BgGa6dSF82STLLZRpOafV1EYaYh3eG_fjYanlK8l1MInpy8GlMoB8kGOJFnH7UOHc4Fsu0b39XeXXf3ZUH_gKEvGiytlSam3oQNim1WuOQ9oJisXpZzT436yPUvyDH08Mb5JCOHUWxlQ7vh_MGvhXXJlry5M0zoHzXbyXDpeaDITj7v0nFds31BfpuvSgOE0STdUAEqBGoBEjVmUhDFlCyOILIuVGktQMKzr-UkQT53ktFZ_CLwKidJnGBw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8498860035&itemId=24600571591&vendorItemId=91612083900&traceid=V0-153-c85e80a220092070&clickBeacon=87b9bd80-e2b9-11f1-98e8-32634aed2f28%7E3&requestid=20261118040309855178743994&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "아몬드 버터 1kg",
+      "unitPrice": 4500,
+      "unitBasis": "100g당",
+      "packNote": "220g",
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          9900
+        ]
+      ]
+    },
+    {
+      "productId": "9720769191",
+      "vendorItemId": "",
+      "productName": "넛츠그린 무가당 아몬드버터 크런치, 200g, 1개",
+      "productPrice": 9660,
+      "productImage": "https://ads-partners.coupang.com/image1/Vg2mATZSDRfLieZPVuS2FDDekf-7WywibvMqxCYtwo2guPLVyEr6hoWE2WP4q6KwhyzDNMBajgUaBe3MUR3HUez4Asn0XsSAptI3fVu9ok_Il0FbApoD0Psw9kf9vXG_5ipZW19ilXwdwgopnHukfW_14Wd-ETbgCFEBUrjQGiF7FGjgmO45gmkQOy2jVnm0JZ09JWQUcUm7ehfiI0K9zdAegzycQLMtUtbcTMN2yk81pm4m9pRHkhUOrYhWEuI1O4ohquLDuaQMFAzpWZ67kKbV1fXRJd3L8cathZbSjbO1u30te-E0T9I4fP70KUozLxjRLXoh2p_zeI956q3JZBeq0osMFlhOrgUz3k9Y0kZ_6jcWq7BqvWCX4oPIV5BXODUIs_maGj3JVJ_yrhTMIyrcWX1qVT6Lxa3DPIZhOc9uJap7qQmpuAmL-2mCoLkI0s8r3sMScobhSbXqNK_SqS6Df-49OkIuGCwmAkaBfVp32AfSXCXfISXRtYboWf4zTIWI84G0lHXyV2LWJcnZVJcneZaZ_BpxqRufZJZtX-n7uJBqYQbeL_1DZGmosibZ2Agp",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9720769191&itemId=29090393538&vendorItemId=96015895563&traceid=V0-153-99c1cad72e086ef9&clickBeacon=87b9bd80-e2b9-11f1-abdc-3e3b9188ecd6%7E3&requestid=20261118040309855178743994&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "아몬드 버터 1kg",
+      "unitPrice": 4830,
+      "unitBasis": "100g당",
+      "packNote": "200g",
+      "avgPrice": 9660,
+      "minPrice": 9660,
+      "maxPrice": 9660,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9660,
+          9660,
+          9660,
+          9660,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          9660
+        ]
+      ]
+    },
+    {
+      "productId": "9691201783",
+      "vendorItemId": "",
+      "productName": "원스쿱 아몬드버터 100% Smooth 스무스타입 넌패럴 스프레드 잼 버터 페이스트, 1개, 200g",
+      "productPrice": 10200,
+      "productImage": "https://ads-partners.coupang.com/image1/zqk0AkY0ipTGrwYUzpsqevN1eM2XaxDyQ98jy1lpzXdhf_85T1ESiDtbwIll10uLMqff3XdAGHF6prmOcLeHYpjXlbdHgmjLFKXLMqVL9R_lbCjhdULbZ8tPuuJaOwknf1LkPzp9pL0-2_IenLu0vrtYHtptns1j0KMpIzhzblOdhLHNhctUG99E6PhJeDWggou-WJdIYqMG-pqzD8m4R-UzWl767oaOf_3xkcL2E_xOVPQII_91igUMQIilOFgWu2POY3qNTaDNpNmais4ROLJOD89U_G3P2OIJ51ecCUFIiUWB-UvErQSErNrM783uGwczSrQye9ewhrWKXHHHyjJx6nLZPsiNevUN-ImTAKneg4khfPRNCpG2KqLoqBlJFyqnVFk-xQPyZ7fhUHD9IhdSGmizyDtbGTLMuJITfUM_70iLPZRhbvfTwfsubWQNASi1dWk_PKxFzjPB9NZHmnlQXgIJvqQ8-xaoq85g0QJfQ-H2IANpSIysNtdmVmkgjCnbkn1ZZTkF8iHr8tsj0Z0aiLkDuRWUVKYZabhlhmjpHT_qJPFRCk5vqVouBonMaGfJY_7LhzAZUup3AuNs6IkAnw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9691201783&itemId=28972327127&vendorItemId=92379070897&traceid=V0-153-15e00f0e3f035afe&clickBeacon=87b9bd80-e2b9-11f1-9072-c5131458f056%7E3&requestid=20261118040309855178743994&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "아몬드 버터 1kg",
+      "unitPrice": 5100,
+      "unitBasis": "100g당",
+      "packNote": "200g",
+      "avgPrice": 10200,
+      "minPrice": 10200,
+      "maxPrice": 10200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10200,
+          10200,
+          10200,
+          10200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          10200
         ]
       ]
     },
@@ -7824,43 +8046,6 @@
       ]
     },
     {
-      "productId": "9512306598",
-      "vendorItemId": "",
-      "productName": "네이쳐티 초코렛파우더, 800g, 1개, 1개입",
-      "productPrice": 8660,
-      "productImage": "https://ads-partners.coupang.com/image1/9vmkFJDX26IR5nZY9h77LxmAU5_03I56FJPQLLZBoecP2qQ1C36qMtRH8EBJxuu6RxFNXcK_pDT6P9njDh9BaMOR2Lyhnd34tmW1UanS8-DfXBmpEYWhLDNGn0VbPphY3w3njgDVSd-mjVeEhRFajk6v686yzMvjoyqSK2pNgH9r7AUDPUXkFpGgFfyOyaxTqJ0yeAVdbokTjN9c4b9FngdF9R153iG_MpNIBXNm8fq8Wff9XdgcCq2ElXYrpbQq9SJ6sLDEhc8pdk4BF4grhILtK_dDMazAVQ4wnt8f718F25lReOqalPGhrrM2Tjr9f6TgFGK2DNezkI1rIxl-q8ssu06klvjNAnFWz4dmrAOX1zDUqwqVFsLxhQqyfkQVregmqaQAzIw0FrPAwjL5yX7DjuhUzdy3qIyAaVEeG1d66FdJJtRwTb8dJ-T5sSRvUB6v4xzKXGFTRnOh57KfdONPtT_LvJjJQfpJFDcV1tjqhpZ2S3AKV2HinEQdHk23MOmkplx5Vw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9512306598&itemId=28347390942&vendorItemId=95299548495&traceid=V0-153-12b4287766b2795e&clickBeacon=e553c570-e2b0-11f1-b24c-78ad29245559%7E3&requestid=20261118030121407292588587&token=31850C%7CMIXED&pt=1&slot=5",
-      "isRocket": true,
-      "isFreeShipping": false,
-      "category": "파우더",
-      "query": "코코아 파우더 250g",
-      "unitPrice": 1082,
-      "unitBasis": "100g당",
-      "packNote": "800g",
-      "avgPrice": 8660,
-      "minPrice": 8660,
-      "maxPrice": 8660,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
-      "dailyHistory": [
-        [
-          "2026-11-18",
-          8660,
-          8660,
-          8660,
-          8660,
-          1
-        ]
-      ],
-      "priceHistory": [
-        [
-          "2026-11-18 03:02 KST",
-          8660
-        ]
-      ]
-    },
-    {
       "productId": "9531601037",
       "vendorItemId": "",
       "productName": "킹너츠 씨드견과믹스 아몬드슬라이스 볶음땅콩분태 호박씨 해바라기씨 4종 견과믹스, 1개, 1kg",
@@ -8027,6 +8212,43 @@
         [
           "2026-11-18 00:59 KST",
           14000
+        ]
+      ]
+    },
+    {
+      "productId": "9360653682",
+      "vendorItemId": "",
+      "productName": "산들약초 건조 코코넛분말 글루텐프리 엑스트라파인, 1개, 500g",
+      "productPrice": 7130,
+      "productImage": "https://ads-partners.coupang.com/image1/ITe9qBx5F1eS4ck_IX_y9r2HyPiL-1aW9Li2mcvZ6c-O2J4h4iw0aaxgS1IBfcaYdfIcsz3Vkm8vzv0O5tYCrlj7MeRFubG6phVGxwldIprWPUDLnwycbGF5kkFNqQtIMVY9FnTomsNExIEE51b7Veg8a5a-b13igfuZMyF_GSZoR5qNB2etxFtK5twEvRXQyJv7g8MRCNdPetm_WjLrTCSN1VEmGXYTknxlxLA7wz0cBHfVAZvKx2xdQbliYXPUTRzrMz93BY4HQ_4TeJApyFXcuNnuHxhW8kCrs0XePZ8aziFjCRU7LzB6sbSbaYjp1_4IGI6NtlbQuswStiGg_sx3rvDuRZ8dt15eHFs51cGnKjGGrj-ybrVf6iRckPL4nNC6AYLzoL_gIXjsyl6Vxe4pfBGpG10JpqdXQR4da10_ugkTlgH1lTUyygarH3SBqiT0v2N0UGwSQ2k7J1kguEyqOibCGwuLvrIVPVTVSattGQc9AuEsAYyGKtbF97_J2nYc951sUejDfGwlM-ooNjk0OfEt7Mkg",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9360653682&itemId=27774094806&vendorItemId=94734773267&traceid=V0-153-eea5c4e379325ee6&clickBeacon=8cc25850-e2b9-11f1-b2d6-6b92774ebdbd%7E3&requestid=20261118040318306292152203&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "코코넛 분말 1kg",
+      "unitPrice": 1426,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 7130,
+      "minPrice": 7130,
+      "maxPrice": 7130,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7130,
+          7130,
+          7130,
+          7130,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          7130
         ]
       ]
     },
@@ -8888,6 +9110,80 @@
       ]
     },
     {
+      "productId": "6357560398",
+      "vendorItemId": "",
+      "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 24개",
+      "productPrice": 170880,
+      "productImage": "https://ads-partners.coupang.com/image1/0eT2sNfCsjeGCkCb0cmAWnwchrXpFgm4Spatudi-MGks_0W5_GlAhRPeNdocMoeKhnH7Pu7HsktQkY6zvuuyAiyxbHpBXpqYevAlQ4bc6ZqR0xULLdY-J_FnmyxCzylPoDGnNQZuU602uvF1nSNwgmTdc7apLFFO-XiL1H-zNPVBe7bQ3ilfoXfNEB1tCJTQ7xBdPF_Vp76u9zisrQTGLyzn-3NyMs_jDHey5fbyvPHBK9xn3g-0P_4rg3F2JTZ1chr6AFQhnsG4sy_EBJnBmhNMctXVTKZlXqC0RgrpgbvVlK2tDaZQ4a3kpsSaLs75UXrW6rRUZ2HH3wBwVfT9Qfuxp0hDOh4dDp5wX6G5NLu2IiPI63bItoj74TnLoBCVxlkRsI_lHPC7GcHk32zXwGcX5ctHYU83KZdWtnhy76ze_jrfrvKIzc44AUyFEvqONVAfsDMGGHs157rx1TAcGvF5e7SSCiEhmYLKtZHuVYv-JJo4sK5j1i8tS-dgLH88iSr3QhjWpQWj37zTX2SS2ZFm2r7RixokWwjo1vyc2-664lbicdYA7uEIzHomqw-aLaccsnCTww==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6357560398&itemId=29304993691&vendorItemId=96220392451&traceid=V0-153-2aa26a4a48e3e1f9&clickBeacon=9c36f2f0-e2b9-11f1-a494-b5222d770368%7E3&requestid=20261118040344208116721881&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "보리차 티백 100개입",
+      "unitPrice": 119,
+      "unitBasis": "개당",
+      "packNote": "60개×24개",
+      "avgPrice": 170880,
+      "minPrice": 170880,
+      "maxPrice": 170880,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          170880,
+          170880,
+          170880,
+          170880,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          170880
+        ]
+      ]
+    },
+    {
+      "productId": "7851945409",
+      "vendorItemId": "",
+      "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 1개",
+      "productPrice": 7120,
+      "productImage": "https://ads-partners.coupang.com/image1/Br3bscgdcUuOgwfaBmRwLXTQ9ss0-i7ukOjTjqwi2soM1y9y4jRLj5wqj93WPDfSRvGwoyufqBbdSj1WW8TCNNqLMyCuf-ipZwmy7sIJpz-zMGmC3JyrtAdqqNGj9UUnzN0BTqihgacEq4JGPwGxNXKsBY_RNBS8z6b1p9UTuseeqNwzKRvYSkP6uxqA9csFFHn5lvdxe6TisANI90QyziaaU_RvELfSk4Y0rMetenKC2w-hkgQH7aXOgw-ULBUGJzlwWDg0Z6kWr7QUUiN1Yn-wtMRS2ZaYDJny1TueXB9YXg_lA0tZYurfiEMHTmQEMOzh9rSyHc7QZAsK86N27CIvzkdyrVkIWlF2VJJqz66Evz6JbPwjm8wkArDpBp2WmAzBQw8zEDf7L5ESDNuN6ZDCuPWzo1HpEEcnjZJEMXUM4iHLYH3vC_a7Jmxc_hrtTdxcTWl406j6jQhVL1SfkMzMUPZvwbreO2XYu76DvHZBXQHAWFAIuwX-nYGvpnHVkwoFibMjnpA1IdIZaEGEFpN7p1ztly5KrwCm9WUs-p1X459iDMDoNW9FY4_O3ShF-zCkQypAb3lvwfyk1_Dl6ZY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7851945409&itemId=21403800555&vendorItemId=88460385441&traceid=V0-153-c9a8ecb2552a445b&clickBeacon=9c36f2f0-e2b9-11f1-a0eb-6f4ba6358ab7%7E3&requestid=20261118040344208116721881&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "보리차 티백 100개입",
+      "unitPrice": 119,
+      "unitBasis": "개당",
+      "packNote": "60개입",
+      "avgPrice": 7120,
+      "minPrice": 7120,
+      "maxPrice": 7120,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7120,
+          7120,
+          7120,
+          7120,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          7120
+        ]
+      ]
+    },
+    {
       "productId": "7679941576",
       "vendorItemId": "",
       "productName": "닥터루트 페퍼민트 삼각티백, 1.2g, 100개입, 1개",
@@ -9437,6 +9733,43 @@
         [
           "2026-11-17 03:14 KST",
           11600
+        ]
+      ]
+    },
+    {
+      "productId": "7480978890",
+      "vendorItemId": "",
+      "productName": "아임힐링 오르조 유기농 보리차 식약청 인증 한잔용 보리차, 700mg, 100개입, 3개",
+      "productPrice": 71070,
+      "productImage": "https://ads-partners.coupang.com/image1/NATusIOYcA1iuIfINOaIBpuBdatri9dr_8tL-ZZWc5KGFzvIPq40XIx-pxcO4yFHveM_zQq0f_jRVWEi8Xe7f6qvyDMZQX8dD_XN_bgs_s4Ld6O5Efd-XdYF4tGRgUiNRrDWD71UcFkVUceEwMKmIsAtfyHraLnDx9CDoiIz2-yQNInxeU3U-zhPFzjfmcfKvwScqmmrZJr_Da4N8QCRiQKGtckiwwMgIz0yptwXVs9b1ZO01530euXU1p3lCfgH6vYUcirZdE8GrYvTt6BK0wi6kvwJxKgQ4Yni7eHY6rn-ynB1uYkyjrS-3x7aQlkl9U1QXgBqK0_BhCOtxaHLqYrW25GmRLPCbPs50Fk7sr6AIUEmd3H3ttTI9tyFSkMLcW6Oct20egY1BLjdY7Evt8v2spaheC0Ur1EAWg3SXckvTGvIqWxNku9EJCwRwCT7d26h9nWjmqysy1GnoO2NTOazhLK4L2RcRKPYO9w1XQg-nW3YXe_xiGRtBDaxnKmpHJ9OB6ID3gqPVgbStKWv-635r-vg2lCL6CedwZTBtWAik8FmSQsmPeBsrdQzfjvkCk39xvLwrOSOkt_VdDOA5K8H9w==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7480978890&itemId=26957080374&vendorItemId=93926093966&traceid=V0-153-06b0ea6317b7acc4&clickBeacon=9c36f2f0-e2b9-11f1-9bdf-eebee6d20266%7E3&requestid=20261118040344208116721881&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "보리차 티백 100개입",
+      "unitPrice": 237,
+      "unitBasis": "개당",
+      "packNote": "100개×3개",
+      "avgPrice": 71070,
+      "minPrice": 71070,
+      "maxPrice": 71070,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          71070,
+          71070,
+          71070,
+          71070,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 04:03 KST",
+          71070
         ]
       ]
     },
@@ -11858,21 +12191,21 @@
       "vendorItemId": "",
       "productName": "포담팩 카페테이크아웃 종이컵홀더 16 20온스 레드 쿠키, 1개, 1000개",
       "productPrice": 29700,
-      "productImage": "https://ads-partners.coupang.com/image1/erTaXMz3zypl2fgEegfHkCdEuUQ-bJeJTBmcHx87jWZ-C5ZPtkfzPkopmxjv0LJnpebv-_UA4ntcftJSxHSYyemm9MLPuuYSOV_KPiSCJ1a1kc8tZfUYdUj6rG9ZOGnlyucYNG3c5ULFOH-VKKHf0lZrA2EY8IFNLSGqh_iIUGPtTgLDrogAqjMRx1zoRoD_u--_Qx8ttSsnPdpIZlvMnOxXKrHLoD1aPUrxxc_0jZZQ60ThH-DbuDYHKI2TFJ5sTgj53WEHqa2axrhuQn3yvvtQNz3aWV-n2xevE7Hg0AscVJ-o4pZrUP8sYak0zJxtcC1UnUi8auzqSPpWZpd7ikhmljNIeXbJMDUQDmEc-_uC0K3De-zUuYmL35qrXvgTnlT9eCJk_35pGKW28_hEDFplOVjv8GwXSeytsnrhuH3vm3j7DilZnPDsduWxRFE-JOWwkR5ksIgrJufAK2OsTv4fovjcHsUnDy5r1fSzeDlAYF9KsBQ4Dcsc_rIGebg_B3xILLSh26AoV48HEp08-MqBnsgdnmxS8ZgvN0cQmVBbf0dE_g9z_7QK-GrCpiOzr9EOkRBPWhfOs3UQ62wmynT-",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8420892270&itemId=24356251768&vendorItemId=91371634507&traceid=V0-153-2d43907174e77825&clickBeacon=046190f0-e275-11f1-9391-2fe6f50d27d7%7E3&requestid=20261117195243712141089885&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/wqvq1uGihxRhRSfowlIhyDerTT057dFOBFv0un-1EmUzd37dtZc1HhQync2x8D5ilcqlmE4txn195RQBmcoX7CmQF6XSHPRyTSLoZQebcReef81Waukpu5wndFO2Q_JqN21IKzGK72CIP4QU5ZfA7nP1TlrgZWii998OGWcObw7Mlt6Ju9PHKN_VQFvWGjo-nIUtYehgRXOAe0fgShQ3_Io0iB73ktLWBOzupyMYEqEyMtNtErGP71yaMX92h8KTMnRvDGxlq_sXRfQs9ftOe_qhYtDLB-ouQUda8Bh1ccEr1VksB6VuXhMtCEvCvpwQH6WAkfhKcRLCkTiYelztwviS9JET4trxuTiRYsUnQE68yub3blfTOH100sDlUgrgH6v6TPGUE78j5aOy5pA5Uwd6qF-2fQkwtS04NDl1YOYpW6-kK0u5WN6kvZHktkOBpWTGxnW158Ot0iKlwUaQ_u0nu1xuDp-3JzfM2a2PRVQefxuPVEMUhe2dTUTJxRzGDA22l3RmdpOQmljDm3D9EJuy0dZJ",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8420892270&itemId=24356251768&vendorItemId=91371634507&traceid=V0-153-2d43907174e77825&clickBeacon=8299ca20-e2b9-11f1-91bf-a6f4be3cecbb%7E3&requestid=20261118040301232022854574&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "컵홀더 12온스 1000개",
+      "query": "컵홀더 10온스 1000개",
       "unitPrice": 30,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -11889,6 +12222,14 @@
           29700,
           29700,
           3
+        ],
+        [
+          "2026-11-18",
+          29700,
+          29700,
+          29700,
+          29700,
+          1
         ]
       ],
       "priceHistory": [
@@ -11910,6 +12251,10 @@
         ],
         [
           "2026-11-17 19:53 KST",
+          29700
+        ],
+        [
+          "2026-11-18 04:03 KST",
           29700
         ]
       ]
