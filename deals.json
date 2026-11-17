@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 20:54 KST",
-  "statsAt": "2026-11-17 20:54 KST",
+  "updatedAt": "2026-11-17 21:55 KST",
+  "statsAt": "2026-11-17 21:56 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 285,
+  "count": 296,
   "priceStats": {
-    "products": 431,
+    "products": 446,
     "discounts": 22
   },
   "deals": [
@@ -3688,19 +3688,19 @@
       "vendorItemId": "",
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
       "productPrice": 14460,
-      "productImage": "https://ads-partners.coupang.com/image1/7SOhVF2jXYJ2g0-v7Zag1HgYt1s7kikeUZXxRx7EXUYGU5NRzRaDJEnHW3J4uD-4Po1Y1xVc6J5FOl0zYJK-QA-YuL3bcYYqL6Y0snsVtS5RfVy-PPlMjRYceX3NOzVzmhw0eMHfkbJQc_FaIhX_Dkt83KqC5Skan0UnX7FcftN0y_mx3ljJstr0XDRd5l-6yioM1nDt2QQ_R4AkWUjiurpP4OKBuPiXApOsxgWchvf1mYtfSXRGY-a8MIasORQxp1pINA0uchuNk6lYcRZG6rOLjzINnyY8Ob4rsFfzmanaGC0qDgNc4Ovt3N1fuLPmNmPoeEvujdTmfs_MutqK6ZQHQ_c_FLrwfo9iLIfH-WvNGCPBwEOFOjuyYPBIi-yfU_ohRkWPgVBVMElcejC3HYJHHtnSMp6ps2HpJutv_BwI9ZOon5jcbQWWSB6_fNyJY3Vff0hhvcYtC0GlnZgmFHx5guCcdaFVSXWmTcYk-TJYYjvKEswQOdaaN76U8i-0f1EOW_E=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=72ebd700-e26c-11f1-952f-b36c4930369e%7E3&requestid=20261117185123647181853156&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/b-RatHwU39lHyySdb9TgSDCjADcYcx2a03ZEkr0d2-pvTHdZevf1Rbeita94vPoSIdS8PIcuXdgJnNtIUWVkH12qlcUai7nX04mfqrTayXjPDgXrXU95JbyH8VaV4xJuP85e7I-pbLo_F293UX07iTwG12W8eDOmZCA0rBtqUiZNAYP0A5uPnHnzFL2yssw4B-oewk9OEKcKhjuPp78YB9ThW7Wf_usXWQgtT8qZcX4n7mGsysMW3no2PmA1sipdA7CXYFJvHYjP13aO_WM99lnOP6DoQRso9bWZYyGzVbWZbPjQZ3_hzzdK9jNLzoRKXDIBI-SrlFMQSfNRS4n_oNcm6EbAfxxBiGYfnKilOxMCxgXsLQmgXhZ4i7tYIq54G090FUJ1XqkkDCdBfhqO0-iFaEXdXqjowVZ75vLQHnrwO07_ibBU9aOgqgG14ygW5JGO7PDT0tutP52lcPjWg-T44PsHm5ROlBUTIht5v09r2VqUmoPRul4NICCzS-78PiQwcX2yur3yBcKvxeDhx0yI2zqWZxmOwmv5eH8NpdUOLsN-UGPGIvWeNDK-Hu27MQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=1d8fbb90-e286-11f1-9470-a2f97be02a17%7E3&requestid=20261117215507332107567016&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "망고 파우더 1kg",
+      "query": "망고 라떼 파우더 1kg",
       "unitPrice": 1446,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -3718,7 +3718,7 @@
           14460,
           14460,
           14460,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -3728,6 +3728,10 @@
         ],
         [
           "2026-11-17 18:51 KST",
+          14460
+        ],
+        [
+          "2026-11-17 21:55 KST",
           14460
         ]
       ]
@@ -7769,6 +7773,43 @@
       ]
     },
     {
+      "productId": "7802393361",
+      "vendorItemId": "",
+      "productName": "닥터루트 루이보스 삼각티백, 1.2g, 100개입, 1개",
+      "productPrice": 12930,
+      "productImage": "https://ads-partners.coupang.com/image1/kgv5vVt7oAR8ADRVkii03r9Xqh1ARQu1V5DrRckIbTIadtlRRAqUfeihCz3JUmncrUkz9aN4WeBR1sAcXBFbpt796VA7BOkMzgsxgSWdLrJdBCe_W3nAa4TVqGWQC75joZz9IElTOrJtgMe_pgT5Y_PBnrDtXnYKuqmbi9y4pASXQ_-74Cx6wj-Ms0-hJRevIqhPO6iNgghQIrnFyfnyR6BeQ6GvgwyyDsrXWgtcqugMW8ymeuQpq2CM8JO2ge3saO2VpZaKCRC4XRrx-ZQ7Sb8-UpHEt9Jdjwr2G_dMbnxJPeYMNWzEHh58bkyC-xvobmSEtFJ9GFVC-BM2LnophQB9XSvXs0OwmD40OXPmd_JQ59TZABU5uftYLczXj6Ef_jHXaKMC6dCBxdoXAosOFizJ-DNtul26m7LOhOrRHMZ2cNAt3C-5rUveO0VCCvuGbvEzR91QWtNBlI3Ce9nNQ1TFEh0ELtcRfkPsUlKkx5I2CH9Qq434T5gj0O5Ve-Nbj9-LXpRLNieAWJn2j17am-GcPrVzTKTwHYmvwm1rm26pnQgWBTTRuYNkPxLTHLH1ujjyUVTn",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7802393361&itemId=21134811491&vendorItemId=71300505760&traceid=V0-153-b1790afa8a6970ef&clickBeacon=187c9970-e286-11f1-9c34-79e731c05a7a%7E3&requestid=20261117215458860209017009&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "루이보스 티백 100개입",
+      "unitPrice": 129,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 12930,
+      "minPrice": 12930,
+      "maxPrice": 12930,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12930,
+          12930,
+          12930,
+          12930,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          12930
+        ]
+      ]
+    },
+    {
       "productId": "7226088126",
       "vendorItemId": "",
       "productName": "유리아 페퍼민트 삼각티백, 1.2g, 100개입, 15개",
@@ -7876,6 +7917,43 @@
         [
           "2026-11-17 03:14 KST",
           14160
+        ]
+      ]
+    },
+    {
+      "productId": "7103025171",
+      "vendorItemId": "",
+      "productName": "유리아 루이보스 삼각티백, 1.2g, 100개입, 1개",
+      "productPrice": 14900,
+      "productImage": "https://ads-partners.coupang.com/image1/PZmvuKa8Y1PavafaPW1Rj3Zu3E4o6T0YrZFr-6nrPA37rT73tL0Qvpfb_iUeosawB5ntjar8NAyPlOcC-PhgjB4l9xaAGxAQyPN6Lpw0FnneDrNat-5KJrKpbnTj6w2joFXxux8zZKH_wUYrTu3TNYWAciKZAvc4AE_pNIIG-m43MV2aVU-DHs5OP66BldXAYhf71o_h8EqdfJKCxostns_W4VOCsYF9DeKzfAVnanl7w1_M0gNNQkLaIYWTWdmXLhhpoj3mSJA1Bax-tbBXYWuemlRidz_sWCmb4ivWcsrf_Pq3F5V5wEXEGb8tMFcfWe3Ua_pHP2tT_3awRQmLi63pIJKK6-dOoPvA7455IvPoKgR0YjQw_BrSP_tryKrKzW30fKh0fcoBpwz0ptIhmjQkuvEoWKfvhL2GSiKgdpf5v0rm31swF20G0SnjmtkyKWDw-3V2r-oARyLnh6nwfCAaN09QfT5FTqPS4TZti2P_MJxsY2RjuLTEs2roTDFZrd2m7sfeBzaYqTcQWB184Bd96TNuqWoumUFND0ZKZFCSYTZaBey5h5LsafUYdmBXvmDmYbnIujg1KgQMzINbp9loV6t7",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7103025171&itemId=17734961281&vendorItemId=96236036835&traceid=V0-153-5a00bf3999a654f4&clickBeacon=187c9970-e286-11f1-8a6c-4c931fc14d5d%7E3&requestid=20261117215458860209017009&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "루이보스 티백 100개입",
+      "unitPrice": 149,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          14900
         ]
       ]
     },
@@ -8174,6 +8252,43 @@
       ]
     },
     {
+      "productId": "6802101642",
+      "vendorItemId": "",
+      "productName": "VOTEM 히비스커스 삼각티백, 1.2g, 50개입, 25개",
+      "productPrice": 300000,
+      "productImage": "https://ads-partners.coupang.com/image1/HcJ8hpYzR8FmQxgmHUEXgzGKlrjsmUM0YilOvYeyXO4Bnd8wkOb_ptofFg7SDWnuo2NJgv8sYL8jTT12LFpE7zDW72ofdNKVCbZ-58GzoUoRyeoj93WFsYizvFPnL4GRpJJ4wlsbHmYCJiuicSe5fi4uV3sBDDz0IaFRmlgyLX9b1sU5iHqhHP1IZecjK6W9eyx4esmUoV8tEyaLkq3TYHlR9YojELEUUxOhzAhJ_MjiwuVe4mJWwUTAIdVLttZRuDZ-PJSqVqDjouzU7Wwll3bN0Sj8-Q7t2Hb6DfKuMplg2ZEOx_CRdiGDsWJ3GeEEyzX1w2t5a9ulGowCACxhGtHZDtNpsQ-tMhV8yItS_l3KV1O2zAfO2J9bO7VG09Fly-jWku3xJ9KxFL8a8aQ8C5UEE06yPyUxpSOqoihs_A6mRpq5s_BqI5Zp0x-OxW-OvIfSppYyoPklnsF0QiBtTGLjXfiWqFEyTexAWyR5C8d-BU2xvyqV4Spqie3IXy-o39LP4ovCYRELMNM=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6802101642&itemId=29201889134&vendorItemId=96122199352&traceid=V0-153-c4e29d284e75b7f2&clickBeacon=135ca610-e286-11f1-9079-eccc96dc2b77%7E3&requestid=20261117215450266214618496&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "히비스커스 티백 100개입",
+      "unitPrice": 240,
+      "unitBasis": "개당",
+      "packNote": "50개×25개",
+      "avgPrice": 300000,
+      "minPrice": 300000,
+      "maxPrice": 300000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          300000,
+          300000,
+          300000,
+          300000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          300000
+        ]
+      ]
+    },
+    {
       "productId": "8457111396",
       "productName": "국산 100% 미담식품 깊고 구수한 돼지감자차 티백, 1g, 1개, 100개입",
       "productPrice": 24900,
@@ -8358,6 +8473,117 @@
       ]
     },
     {
+      "productId": "7447471227",
+      "vendorItemId": "",
+      "productName": "청년농원 저온가공 히비스커스 삼각티백, 1g, 50개입, 1개",
+      "productPrice": 12900,
+      "productImage": "https://ads-partners.coupang.com/image1/wvZQGi2kKw0A9YD1wk0hyHfrx_U7FjIDwMNj_3ukgrvzC3OAVV2w50YIdrjBLn7VMyfqHHMhSDIpOAxsUoJIawz3-WcJRsJhkNL7uxYedDQQY7Bzln79Us41r9AO5pTFCXbG7-2gB6Ilt6E1fWiv52Mx5W7ATGYvEz2er3eAsvwxsz1gF19-Juid1CsancgmKF-lmi2rEwfZL4WXavCVZohMuAApJUY9INwXHbjl9Bb9JtaW1OoxVQQQkbEXkeSGyZB_lqczUgVhpZkwjCV_sGogXs2bnV4LaTyzXC-qEoLBU031YglazYXNNoJrFfd03G_rb57t5XPcnhLulxPyYnXCsxsQxMuLZO1aD5deGhcud3yE6EJcOINuzLvUSdS_1Vjs71snHTGJonMY7cAkZNNBpAm65an3439QWNM60C9CRqI00TAtB2eSLkCsNkJDaGhWgj6eKokaim8whJJloLBwdJCsbLosY2sL3aSM0qIji5IQk2HWqmLArYygOdoycfxzsWKf3JI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7447471227&itemId=19380472054&vendorItemId=74498826632&traceid=V0-153-4c5671fd57191642&clickBeacon=135ccd20-e286-11f1-91cb-8de33c042eda%7E3&requestid=20261117215450266214618496&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "히비스커스 티백 100개입",
+      "unitPrice": 258,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          12900
+        ]
+      ]
+    },
+    {
+      "productId": "8570465707",
+      "vendorItemId": "",
+      "productName": "미세플라스틱 없는 생분해필터 미담식품 히비스커스 차 삼각티백, 1개, 100개입, 1.2g",
+      "productPrice": 25900,
+      "productImage": "https://ads-partners.coupang.com/image1/rg8oNIEoIXKYpY3CrlZImcbh-8tss8XYzzVToSIVYy-krf0CcxR-H1jQ5PjjCkGr9C48hWXBKha4s5w3pfN78RIVC8iDPaPZUv5C1Ki7IK3xgAbhlMwNMq1f8iQMYHx0zd2ta_hJXGIFQ9tDSGXRX1hqHHgPvpEBCZtzw139QaWYrURs7zZVbZPDztPlW6Yz20J9BBFbEHu56RB4is9V-ctoptCv36FuEhxyhhZU_zOgTOzOH60mLochpEKl0zaKGBCuNsGPshoVz3KEq50SkRDW9xAlmbQZrrCGlPk8i9nTU64BTeFkpuh_IlmC0qLrCI4ePrmQ2bq-fd0oYJFQxv6Vg36ymhMfrLH30_0iQb-gqnKOfnqrEnyx3y2zHaiDXb0o59gI6BJ3wY4QUN-vDCN_t5ModZvkqNBI8JSUfzbrMRcjCIAg7tPFa-uDMIhy4oVuFXX-2FCZDIaPgpsAUBXMOZ5TlZVKJ-8ahfTDylAgad1Uuoj0uE5eKLA5_dPwSTN_gPQDlV8wsoT00cz2Z50zkMtv2eE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8570465707&itemId=24829456822&vendorItemId=93625704638&traceid=V0-153-cc32ee83b6ad58fd&clickBeacon=135ccd20-e286-11f1-8711-7d5edc1750a1%7E3&requestid=20261117215450266214618496&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "히비스커스 티백 100개입",
+      "unitPrice": 259,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 25900,
+      "minPrice": 25900,
+      "maxPrice": 25900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25900,
+          25900,
+          25900,
+          25900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          25900
+        ]
+      ]
+    },
+    {
+      "productId": "9517670495",
+      "vendorItemId": "",
+      "productName": "히비스커스 차 티백 100% 꽃차 히비스커스차 삼각티백, 1개, 50개입, 1g",
+      "productPrice": 14800,
+      "productImage": "https://ads-partners.coupang.com/image1/DlYO4bABPARyvqa-DjQb4uu_obk_Y1TEHdSJN_lyJqD6J3OUyv0U9M1Exu4NF6qJrZeNXpR1hu1nLT8XgWXsysYTbOuewOXJJk8_E8ORIMPMkn_I6VgpAPsFWVGWgIdrFiBS2N6kL4uCgRXfYWLPgbFCmd2fQ6l9NADY7bD9rkN4NjEnj7h1KNnNEODc2R8v1GapjlkpHP3ld5yk5s80THuPkFttrHPQT7cdSI1n46iTMjndFv-A2eKjRqfzu_JaH5Wo2Z717pKr1QI9rECAbZyCTNGRkRFwZm_AECIKB0xljDZTZRc3zx8FUQnG4mG1phTg6F0oCw-fRU59PyRkJAWzGZrGHHrkinlQqtLTsavZWRF7Evs25gBemf7EfmB9xrcFP--tFozsEx3Wy0HJ_K4HG5JgJn_1Taooint0QdPYMDBD6YdyaTYCg2aEnlf-3eh5YZBgyheQw97kpXhhy7GHCfi4RBTG6gTDsW3PihviDP-1TaHPflYwIANxebG2yaKc-O78TG0m9qjkpuvFQUgZKN1GAs4=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9517670495&itemId=28369338471&vendorItemId=95321765651&traceid=V0-153-b08163b356b272e2&clickBeacon=135ccd20-e286-11f1-951f-14c3cedd3f27%7E3&requestid=20261117215450266214618496&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "히비스커스 티백 100개입",
+      "unitPrice": 296,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 14800,
+      "minPrice": 14800,
+      "maxPrice": 14800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14800,
+          14800,
+          14800,
+          14800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          14800
+        ]
+      ]
+    },
+    {
       "productId": "7136551215",
       "vendorItemId": "",
       "productName": "티칸 아쌈홍차, 1.75g, 20개입, 25개",
@@ -8391,6 +8617,43 @@
         [
           "2026-11-17 01:11 KST",
           160000
+        ]
+      ]
+    },
+    {
+      "productId": "7136525320",
+      "vendorItemId": "",
+      "productName": "티칸 루이보스 카라멜, 1.75g, 20개입, 2개",
+      "productPrice": 13600,
+      "productImage": "https://ads-partners.coupang.com/image1/uKBniXMy_f4ayIMbuB4UIUXsb23Fj_Mdm5KMr_klNdzCxF3qnwyRzp1_WrMY7_De4aaDq_Jt4vHA9ydFuyvSQ5XrEEwYm_TAXOU6XS4nFJ7ixEnV6oDQcnpb0c4Jgf19KmOjFqeusI7V4W8tiTDGFo6EBaUtFRLvD3qq2l1RVunwv7qMWGg_4YrL9SBAnqAqcGWbNG171s611RFXqj2RFIyg7EUyU1byWcgdVn-nqd0wI2gmBHorQ8anQwvjlKomhIkuM_l7GHxD2XL6AuUreJ5dbWuVgKlfLIk1PqXi5C9hSP4tB4Wz4GTZ7ry-kI8HTXzUe-wlrYc6hb_vABP6YAaGyRBI4fyf6f2g4oZG_QBtESBEuIOwOqhudgJA1O3LyEtq634kz1dY_sqo5N9Itc-g1DbtT93QU50U6h-0eP_xdPvRv9eICvIXTeTS0Trn3P93J6VHl_9tIZc5mk31FJ0k2UoyQbxp7Y0DsTuQznwTAltGa148mQTUFRbYs_r3fQ_IOC0K26OpA22neCYKvbALHtmnQz64LFymS6klUWze2B1_RyurE3qBMBLgwO0xxAXvdg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7136525320&itemId=17907905369&vendorItemId=85055102480&traceid=V0-153-5f33db03e756d494&clickBeacon=187c9970-e286-11f1-8fa0-c8a636ed8bb1%7E3&requestid=20261117215458860209017009&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "루이보스 티백 100개입",
+      "unitPrice": 340,
+      "unitBasis": "개당",
+      "packNote": "20개×2개",
+      "avgPrice": 13600,
+      "minPrice": 13600,
+      "maxPrice": 13600,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13600,
+          13600,
+          13600,
+          13600,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          13600
         ]
       ]
     },
@@ -10418,6 +10681,43 @@
       ]
     },
     {
+      "productId": "8325429778",
+      "vendorItemId": "",
+      "productName": "사자팩 버블티 빨대 이지컷 개별포장 12mm 210mm, 1개, 200개",
+      "productPrice": 7850,
+      "productImage": "https://ads-partners.coupang.com/image1/GvgNgzn3TOcYuIa9GoF9Cf_nohWiHdGFci3_zSlZeJ_EfsghmdR-6hff_Yuo9Q9hhWdLanf3Dg7mTt52X86bYApC68hC9ztVhZpSffgoauB0OlTzpt9JO0CgkKR-NqPRXfGZOUMqYNrCI7xH1t7-nqy0wRbJmVsB56YK3dy1BTMwY0uUOkexjbHYAHby5zZ6h8xHrwxxvNm_BUtiSrFy8RhlN2q_CQY8ize40hoe1iAFoE7Qd88q43X6ds1ODX0lxkqsS47oO_G45gwK336US45Nwb26xKLGCWInoTEaEXHjh9ZezlRaohFsMANWMXlY1E9p2Dl6VkQhLrJDKHVm2zSgA0drHZi4fClGNQ0PIiRjxODMUHqbjNO9iw8SpAIW_GaSAk4og3qs_R6O6cMLipXdfnAi6y34C6cRG-aUseD5MLISkZjUxVN1xrSI918aPOqGkYZpEP1aMmJZ7uo4IkawVS-vA_RXPAZrRGimR-RlP5wYRkvMfb0Mtj1QFLo85oxPF-qZsmz3YYRnplVrJak=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8325429778&itemId=25564489969&vendorItemId=93535458151&traceid=V0-153-749e884284d39e61&clickBeacon=37285080-e286-11f1-9d06-a36cb3399638%7E3&requestid=20261117215550335090807562&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "빨대 10mm 1000개",
+      "unitPrice": 39,
+      "unitBasis": "개당",
+      "packNote": "200개입",
+      "avgPrice": 7850,
+      "minPrice": 7850,
+      "maxPrice": 7850,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7850,
+          7850,
+          7850,
+          7850,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          7850
+        ]
+      ]
+    },
+    {
       "productId": "7539257331",
       "vendorItemId": "",
       "productName": "버블빨대 투명 개별포장, 100개입, 1개",
@@ -11005,6 +11305,43 @@
       ]
     },
     {
+      "productId": "7694396765",
+      "vendorItemId": "",
+      "productName": "The좋은 일회용 위생 비닐장갑 알뜰형, 8개, 500개입",
+      "productPrice": 37900,
+      "productImage": "https://ads-partners.coupang.com/image1/7PaE-xRrEPuc0-9O7OAma8FQ-6PLRh4b3zBRhJYUuxgTpVYa-iiYQNlcZ-Wd1xowuyCHnryUe8jSZXkxlEssVOPb0yuq3jFVtVGA_ZKm3oO58nV6yG1u4LMgQFT0gBk7zKuY5T0Cx99iXuubmnbLI89wEJaNJ9AUszxiQp94v8rB1VgsLNZi7PEpb09bAwBtMhIHyGBW4JTxbdqfSTvrj6dA5tN2xxcUpWunqSbct9Xbe_qOIjYxgbMfmeYzVqJAO9lYMu_NdoQMHVPFVq787Vsdo2E2sU6o9B1EY8mRIJpz4no9msGJKeoHlvNi2mqCnjM5QWQr2PhUZJRC9SjecSDnzqf35DrOjqk-cze25ViVMG0XHWzCI_ZcP9lUoInoJpKDzyrYjeTXHXe3KphaWmXN-yhPY2rtS5d16MBqI2glcIELbrPF8EIDxkX0q-rVqUPtRhnbf_nchSh1jEjLvZtSOKUnYEgMIjRS57okUd0wcVjF6S8ZJ5MgyeJnl7xtJlhzi-Y7S-a_Ry_vElWxJ1rjsQCnnb-P-gKF1wXTN2aPYvMIzyoTw5Bi4vubYriw3KGUmHao0CDfb5TExx8Zl8NhwNE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7694396765&itemId=20584077958&vendorItemId=87659145275&traceid=V0-153-4e9e4b8ad7ec82cb&clickBeacon=2291edc0-e286-11f1-8403-b782cf90498c%7E3&requestid=20261117215515843192235108&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "위생장갑 500매",
+      "unitPrice": 9,
+      "unitBasis": "개당",
+      "packNote": "8개×500개",
+      "avgPrice": 37900,
+      "minPrice": 37900,
+      "maxPrice": 37900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          37900,
+          37900,
+          37900,
+          37900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          37900
+        ]
+      ]
+    },
+    {
       "productId": "9668226659",
       "productName": "하우스클래스 2겹 대나무 키친타올, 6개, 150매",
       "productPrice": 9090,
@@ -11118,6 +11455,43 @@
       ]
     },
     {
+      "productId": "8000440770",
+      "vendorItemId": "",
+      "productName": "EZn이지엔 위생 장갑 라이트, 500개입, 1개",
+      "productPrice": 8370,
+      "productImage": "https://ads-partners.coupang.com/image1/SyDaBTsaIpCL3K5YS64EYGyZg_Q0kbrm-PZr_7gwfBacDcuu0NdNB-MzGQWSovFw3w7iUh6Yr1jn08X-cjpQnm7zbQOngClkU4wYtlO5GOciM3Ptg3ZxyVZ1jhxXtB0kE8Q_U2SsPqo9flzuW2r8NJz2anPU0U2cxBZCzGuR0vKPET61UT81pc68RqeCO9UFIwPhGs9qz5FG8medIuR-gu96UX0O9iJDH1u2iXJ3DjXK6nZNKWRpICp66xyN0ag44xCxRVuMD4Y8Fd0A1fqcYlahBjt-_NnFrMth7yOHPlRe5thNtQYzdy6CuJ1jW_INPmJ35Xedq06CllpjgXUjtZG_IHj9FA3WS9IfzlSTsIhNkb9r9pAORn-azoNmUT6MzOz3QS96Y4BackgoD7N3nT8rXBak2rmaMT55yFK83fHh4iez4PUTE8RjEAj6_Sk8t4mMOgCUIELj62QbIgmAYpB-w_qgh_P-3slXaaxf7j_-9AlX3JwVCseiE8ZfD5FtNAGU7ACC4ryhbF51ODQFzYpQ2k4EuGP-DptHG1PJwKLcuIpMtyWH2vmUVxaf5AIaBMnbwA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8000440770&itemId=22277294005&vendorItemId=89322918009&traceid=V0-153-34c97e8c7a54524e&clickBeacon=2291edc0-e286-11f1-ae27-a1a4ecaa1982%7E3&requestid=20261117215515843192235108&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "위생장갑 500매",
+      "unitPrice": 17,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 8370,
+      "minPrice": 8370,
+      "maxPrice": 8370,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8370,
+          8370,
+          8370,
+          8370,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          8370
+        ]
+      ]
+    },
+    {
       "productId": "7485430140",
       "productName": "브릭글로 엠보싱 비닐 위생장갑 도톰형, 500개입, 2개",
       "productPrice": 17800,
@@ -11224,6 +11598,43 @@
         [
           "2026-11-17 07:19 KST",
           19850
+        ]
+      ]
+    },
+    {
+      "productId": "7991324082",
+      "vendorItemId": "",
+      "productName": "EZn이지엔 위생장갑 플러스, 500개입, 1개",
+      "productPrice": 12370,
+      "productImage": "https://ads-partners.coupang.com/image1/8FgqJdX209gQlWUs8FT756EI99e0vAnSVatqyQMpZ25lZWr-fiegVzpCD6ZF8K0ZQboTgYTdc1L2DH8uA7DkcmbORIReNDRs0uiZTEPJPexXmp1eO0xyXG-_EhHIdk9rCDp_7FJkg8sfVHAW4WcXCHNm5Dt-tmZ2qbwZ-Ul83xQKUZvhzpI7vnjgRzH1dS4gxBGKQntq1r85zcnflFaDR7rZCMnhiBpkMukWIvYNr8CVE4xdP4POJ6HOFB_dzHfVsFKOAW2izDrJ-yjec6sN_CWHtF353kfw2M5rQpv1B-UmPQLyml42FBUxtFFJFkClAkYprMxcPgNYD49nE0A3aLC4G-Ct6oHCfDQ-VdROHDTDdEfV_S5XhQm5v5DLC2ktwDAovor1H3B1hegUv2hnH2vAU4uZywDXifLzBsJUfe5dE3r36iV52v_8TuKEUIGzgWYTDJXtwtoUIu4XTEKHaWDt69ktuPTzKDP65c0n2J6cnt79QytrLn6HRLXsRtOYZiyMo1n4slomB10fN9qgU7-QHSkMZc9hv3zJgfnRCqffPpDzrqgE8GzIqjbMfT7rcpE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7991324082&itemId=23082230231&vendorItemId=83984545473&traceid=V0-153-eef8399b568ddf87&clickBeacon=2291edc0-e286-11f1-84c9-44280a0888d0%7E3&requestid=20261117215515843192235108&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "위생장갑 500매",
+      "unitPrice": 25,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 12370,
+      "minPrice": 12370,
+      "maxPrice": 12370,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12370,
+          12370,
+          12370,
+          12370,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 21:55 KST",
+          12370
         ]
       ]
     },
@@ -11613,7 +12024,7 @@
       "avgPrice": 26060,
       "minPrice": 26060,
       "maxPrice": 26060,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -11623,12 +12034,16 @@
           26060,
           26060,
           26060,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 04:15 KST",
+          26060
+        ],
+        [
+          "2026-11-17 21:55 KST",
           26060
         ]
       ]

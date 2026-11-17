@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 20:54 KST",
+  "updatedAt": "2026-11-17 21:56 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -9681,14 +9681,19 @@
           "at": "2026-11-17 18:51 KST",
           "price": 14460,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 14460,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
       "lastPrice": 14460,
-      "lastAt": "2026-11-17 18:51 KST",
+      "lastAt": "2026-11-17 21:55 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9704,7 +9709,7 @@
           14460,
           14460,
           14460,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -11391,14 +11396,19 @@
           "at": "2026-11-17 04:15 KST",
           "price": 26060,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 26060,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 26060,
       "minPrice": 26060,
       "maxPrice": 26060,
       "lastPrice": 26060,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastAt": "2026-11-17 21:55 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -11406,7 +11416,7 @@
           26060,
           26060,
           26060,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -14676,6 +14686,426 @@
           6200,
           6200,
           6200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6802101642": {
+      "productName": "VOTEM 히비스커스 삼각티백, 1.2g, 50개입, 25개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 300000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 300000,
+      "minPrice": 300000,
+      "maxPrice": 300000,
+      "lastPrice": 300000,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          300000,
+          300000,
+          300000,
+          300000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8570465707": {
+      "productName": "미세플라스틱 없는 생분해필터 미담식품 히비스커스 차 삼각티백, 1개, 100개입, 1.2g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 25900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25900,
+      "minPrice": 25900,
+      "maxPrice": 25900,
+      "lastPrice": 25900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25900,
+          25900,
+          25900,
+          25900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7447471227": {
+      "productName": "청년농원 저온가공 히비스커스 삼각티백, 1g, 50개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9517670495": {
+      "productName": "히비스커스 차 티백 100% 꽃차 히비스커스차 삼각티백, 1개, 50개입, 1g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 14800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14800,
+      "minPrice": 14800,
+      "maxPrice": 14800,
+      "lastPrice": 14800,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14800,
+          14800,
+          14800,
+          14800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7103025171": {
+      "productName": "유리아 루이보스 삼각티백, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 14900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7802393361": {
+      "productName": "닥터루트 루이보스 삼각티백, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 12930,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12930,
+      "minPrice": 12930,
+      "maxPrice": 12930,
+      "lastPrice": 12930,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12930,
+          12930,
+          12930,
+          12930,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7136525320": {
+      "productName": "티칸 루이보스 카라멜, 1.75g, 20개입, 2개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 13600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13600,
+      "minPrice": 13600,
+      "maxPrice": 13600,
+      "lastPrice": 13600,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13600,
+          13600,
+          13600,
+          13600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7170216199": {
+      "productName": "[로켓프레시] 냉동 망고미트, 500g, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 4500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 4500,
+      "minPrice": 4500,
+      "maxPrice": 4500,
+      "lastPrice": 4500,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          4500,
+          4500,
+          4500,
+          4500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9621668840": {
+      "productName": "퍼스트미 망고커피 망고라떼 mango coffee 아이스커피 커피믹스 커피스틱 스틱커피, 1박스, 10개입, 18g",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8000440770": {
+      "productName": "EZn이지엔 위생 장갑 라이트, 500개입, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 8370,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8370,
+      "minPrice": 8370,
+      "maxPrice": 8370,
+      "lastPrice": 8370,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8370,
+          8370,
+          8370,
+          8370,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7694396765": {
+      "productName": "The좋은 일회용 위생 비닐장갑 알뜰형, 8개, 500개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 37900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 37900,
+      "minPrice": 37900,
+      "maxPrice": 37900,
+      "lastPrice": 37900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          37900,
+          37900,
+          37900,
+          37900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7991324082": {
+      "productName": "EZn이지엔 위생장갑 플러스, 500개입, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 12370,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12370,
+      "minPrice": 12370,
+      "maxPrice": 12370,
+      "lastPrice": 12370,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12370,
+          12370,
+          12370,
+          12370,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7851780172": {
+      "productName": "오뚜기 스낵면 108g",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 3130,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 3130,
+      "minPrice": 3130,
+      "maxPrice": 3130,
+      "lastPrice": 3130,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          3130,
+          3130,
+          3130,
+          3130,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9353732491": {
+      "productName": "씬 피넛버터샌드, 1개, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 11900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11900,
+      "minPrice": 11900,
+      "maxPrice": 11900,
+      "lastPrice": 11900,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          11900,
+          11900,
+          11900,
+          11900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8325429778": {
+      "productName": "사자팩 버블티 빨대 이지컷 개별포장 12mm 210mm, 1개, 200개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 21:55 KST",
+          "price": 7850,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7850,
+      "minPrice": 7850,
+      "maxPrice": 7850,
+      "lastPrice": 7850,
+      "lastAt": "2026-11-17 21:55 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7850,
+          7850,
+          7850,
+          7850,
           1
         ]
       ],
