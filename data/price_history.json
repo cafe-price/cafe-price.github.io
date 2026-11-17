@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 16:49 KST",
+  "updatedAt": "2026-11-17 17:50 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -734,14 +734,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 30000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 30000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 30000,
       "minPrice": 30000,
       "maxPrice": 30000,
       "lastPrice": 30000,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -750,9 +755,17 @@
           30000,
           30000,
           4
+        ],
+        [
+          "2026-11-17",
+          30000,
+          30000,
+          30000,
+          30000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9552873620": {
       "productName": "[98파이 아이스컵+롱톨리드]에코윌 일회용 테이크아웃 플라스틱PET컵 뚜껑포함, 100개, 720ml, 1세트",
@@ -5837,14 +5850,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 25300,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 22530,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 25300,
-      "minPrice": 25300,
+      "priceCount": 2,
+      "avgPrice": 23915,
+      "minPrice": 22530,
       "maxPrice": 25300,
-      "lastPrice": 25300,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 22530,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5853,9 +5871,17 @@
           25300,
           25300,
           1
+        ],
+        [
+          "2026-11-17",
+          22530,
+          22530,
+          22530,
+          22530,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "112882627": {
       "productName": "콩볶는사람들 베트남 로부스타 G1 원두커피 1kg, 홀빈(분쇄안함), 1kg, 1개",
@@ -6624,14 +6650,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 102630,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 102630,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 102630,
       "minPrice": 102630,
       "maxPrice": 102630,
       "lastPrice": 102630,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6640,9 +6671,17 @@
           102630,
           102630,
           1
+        ],
+        [
+          "2026-11-17",
+          102630,
+          102630,
+          102630,
+          102630,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8425476120": {
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
@@ -6966,7 +7005,7 @@
       "uniqueDays": 1
     },
     "7278937307": {
-      "productName": "토스키 피치 시럽, 1L, 1개",
+      "productName": "토스키 피치 시럽, 1L, 4개",
       "category": "시럽·소스",
       "observations": [
         {
@@ -6978,14 +7017,19 @@
           "at": "2026-11-17 13:10 KST",
           "price": 45000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 60000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 30500,
+      "priceCount": 3,
+      "avgPrice": 40333,
       "minPrice": 16000,
-      "maxPrice": 45000,
-      "lastPrice": 45000,
-      "lastAt": "2026-11-17 13:10 KST",
+      "maxPrice": 60000,
+      "lastPrice": 60000,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6998,10 +7042,10 @@
         [
           "2026-11-17",
           45000,
-          45000,
-          45000,
-          45000,
-          1
+          60000,
+          52500,
+          60000,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -7132,7 +7176,7 @@
       "uniqueDays": 1
     },
     "7243710171": {
-      "productName": "누티푸드 크리머 스위텐드 연유 시럽, 385g, 24개",
+      "productName": "누티푸드 크리머 스위텐드, 385g, 3개",
       "category": "크림·연유",
       "observations": [
         {
@@ -7149,14 +7193,19 @@
           "at": "2026-11-17 13:10 KST",
           "price": 6670,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 6670,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 33463,
+      "priceCount": 4,
+      "avgPrice": 26765,
       "minPrice": 6670,
       "maxPrice": 46860,
       "lastPrice": 6670,
-      "lastAt": "2026-11-17 13:10 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7170,15 +7219,15 @@
           "2026-11-17",
           6670,
           46860,
-          26765,
+          20067,
           6670,
-          2
+          3
         ]
       ],
       "uniqueDays": 2
     },
     "8421621861": {
-      "productName": "누티푸드 크리머 스위텐드, 385g, 1개",
+      "productName": "누티푸드 크리머 스위텐드, 385g, 2개",
       "category": "크림·연유",
       "observations": [
         {
@@ -7190,14 +7239,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 2490,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 4780,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 2490,
+      "priceCount": 3,
+      "avgPrice": 3253,
       "minPrice": 2490,
-      "maxPrice": 2490,
-      "lastPrice": 2490,
-      "lastAt": "2026-11-17 15:47 KST",
+      "maxPrice": 4780,
+      "lastPrice": 4780,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7210,10 +7264,10 @@
         [
           "2026-11-17",
           2490,
-          2490,
-          2490,
-          2490,
-          1
+          4780,
+          3635,
+          4780,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -7809,14 +7863,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 11190,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 11190,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 11190,
       "minPrice": 11190,
       "maxPrice": 11190,
       "lastPrice": 11190,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7825,26 +7884,39 @@
           11190,
           11190,
           1
+        ],
+        [
+          "2026-11-17",
+          11190,
+          11190,
+          11190,
+          11190,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9714957086": {
-      "productName": "[로켓프레시] 네이쳐티 딸기타피오카 즉석컵펄 12개입 (냉동), 720g, 2개",
+      "productName": "[로켓프레시] 네이쳐티 딸기타피오카 즉석컵펄 12개입 (냉동), 720g, 1개",
       "category": "당류·토핑",
       "observations": [
         {
           "at": "2026-11-16 19:03 KST",
           "price": 22020,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 11760,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 22020,
-      "minPrice": 22020,
+      "priceCount": 2,
+      "avgPrice": 16890,
+      "minPrice": 11760,
       "maxPrice": 22020,
-      "lastPrice": 22020,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastPrice": 11760,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7853,9 +7925,17 @@
           22020,
           22020,
           1
+        ],
+        [
+          "2026-11-17",
+          11760,
+          11760,
+          11760,
+          11760,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7787581793": {
       "productName": "[로켓프레시] 버블펄스 타피오카 블랙 펄 (냉동), 70g, 50개",
@@ -7921,14 +8001,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 17500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 17500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 17500,
       "minPrice": 17500,
       "maxPrice": 17500,
       "lastPrice": 17500,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7937,9 +8022,17 @@
           17500,
           17500,
           1
+        ],
+        [
+          "2026-11-17",
+          17500,
+          17500,
+          17500,
+          17500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8461281908": {
       "productName": "이노라이즈 이노미 초콜릿 소스, 1개, 1.25kg",
@@ -7977,14 +8070,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 27800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 27800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 27800,
       "minPrice": 27800,
       "maxPrice": 27800,
       "lastPrice": 27800,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7993,9 +8091,17 @@
           27800,
           27800,
           1
+        ],
+        [
+          "2026-11-17",
+          27800,
+          27800,
+          27800,
+          27800,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9061110194": {
       "productName": "파베글라스 루미에르 다크초코칩, 1kg, 1개",
@@ -10294,14 +10400,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 5100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 5100,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 5100,
       "minPrice": 5100,
       "maxPrice": 5100,
       "lastPrice": 5100,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -10309,7 +10420,7 @@
           5100,
           5100,
           5100,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -12481,29 +12592,34 @@
       "uniqueDays": 1
     },
     "6702278654": {
-      "productName": "토스키 스트로베리 시럽, 1L, 1개",
+      "productName": "토스키 스트로베리 시럽, 1L, 10개",
       "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 11:06 KST",
           "price": 16000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 133500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 16000,
+      "priceCount": 2,
+      "avgPrice": 74750,
       "minPrice": 16000,
-      "maxPrice": 16000,
-      "lastPrice": 16000,
-      "lastAt": "2026-11-17 11:06 KST",
+      "maxPrice": 133500,
+      "lastPrice": 133500,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           16000,
-          16000,
-          16000,
-          16000,
-          1
+          133500,
+          74750,
+          133500,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13549,6 +13665,202 @@
           16000,
           16000,
           16000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9731779785": {
+      "productName": "아이팩피앤디 92파이 9온스 PET 아이스컵 국산 투명, 1박스, 1000개, 260ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 41000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 41000,
+      "minPrice": 41000,
+      "maxPrice": 41000,
+      "lastPrice": 41000,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          41000,
+          41000,
+          41000,
+          41000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7908196871": {
+      "productName": "250ml(9온스) 음료컵 커피컵 자판기컵 1000개입 1박스",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 25000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25000,
+      "minPrice": 25000,
+      "maxPrice": 25000,
+      "lastPrice": 25000,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7444273257": {
+      "productName": "250ml(9온스) 음료컵  1000개입 1박스",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 28000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28000,
+      "minPrice": 28000,
+      "maxPrice": 28000,
+      "lastPrice": 28000,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          28000,
+          28000,
+          28000,
+          28000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8870714034": {
+      "productName": "친환경PLA빨대 카페용 대용량박스 환경부 인증 EL724, 1개, 2000개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 55000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 55000,
+      "minPrice": 55000,
+      "maxPrice": 55000,
+      "lastPrice": 55000,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          55000,
+          55000,
+          55000,
+          55000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9690864109": {
+      "productName": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산, 6개, 100개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 54290,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 54290,
+      "minPrice": 54290,
+      "maxPrice": 54290,
+      "lastPrice": 54290,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          54290,
+          54290,
+          54290,
+          54290,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9072084606": {
+      "productName": "소울백서 타피오카 버플티펄 카페 업소용, 100g, 3개, 1개입",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 5910,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5910,
+      "minPrice": 5910,
+      "maxPrice": 5910,
+      "lastPrice": 5910,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          5910,
+          5910,
+          5910,
+          5910,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6702295080": {
+      "productName": "토스키 마라쿠자 패션후르츠 시럽, 1L, 10개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 17:50 KST",
+          "price": 149000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 149000,
+      "minPrice": 149000,
+      "maxPrice": 149000,
+      "lastPrice": 149000,
+      "lastAt": "2026-11-17 17:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          149000,
+          149000,
+          149000,
+          149000,
           1
         ]
       ],
