@@ -1,0 +1,18 @@
+# 비밀값 — 절대 커밋 금지 (GitHub Actions Secrets 로만 등록)
+.env
+.env.*
+*.env
+
+# 로컬 메모/임시 파일
+__pycache__/
+*.pyc
+.DS_Store
+tmp_*
+*.log
+
+# 로컬 전용 — GitHub 연결(Pickle GitHub App)에 workflows 권한이 없어 워크플로 파일은 push 불가
+# 원본 사본: automation/update-deals.yml
+.github/
+
+# 쿠팡 API 호출 사용기록 (로컬 전용)
+scripts/.api_usage.json

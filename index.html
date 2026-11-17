@@ -1,0 +1,956 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f172a" />
+<title>카페발주 단가표 · 사장님 발주 단가 비교</title>
+<meta name="description" content="카페 사장님을 위한 12개 카테고리 발주 품목 중 로켓배송이면서 단가를 계산할 수 있는 상품의 가격과 개당·100ml당·100g당 단가를 한눈에 비교하고, 당일 시간대별·최근 30일 가격 추이까지 확인하는 표입니다." />
+<style>
+  :root {
+    --bg: #f4f5f7;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #6b7280;
+    --line: #e6e8ec;
+    --accent: #0f766e;
+    --accent-soft: #ecfdf5;
+    --rocket: #2563eb;
+    --down: #e11d48;
+    --up: #b45309;
+    --warn-bg: #fff8e6;
+    --warn-line: #f2d38a;
+    --warn-text: #7a5300;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .app { max-width: 520px; margin: 0 auto; min-height: 100vh; background: #fff; padding-bottom: 56px; box-shadow: 0 0 0 1px rgba(15,23,42,.04); }
+
+  header { position: sticky; top: 0; z-index: 30; background: rgba(255,255,255,.97); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); padding: 14px 16px 10px; }
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .brand { font-size: 19px; font-weight: 800; letter-spacing: -.03em; }
+  .brand .dot { color: var(--accent); }
+  .stamp { font-size: 11px; color: var(--muted); text-align: right; white-space: nowrap; }
+  .disclosure { margin-top: 8px; font-size: 10.5px; line-height: 1.45; color: #64748b; background: #f8fafc; border: 1px solid #eef1f5; padding: 6px 9px; border-radius: 8px; }
+  .search { margin-top: 10px; position: relative; }
+  .search input { width: 100%; padding: 11px 14px 11px 36px; border-radius: 12px; border: 1px solid var(--line); background: #f7f8fa; font-size: 14px; outline: none; color: var(--text); }
+  .search input:focus { border-color: var(--accent); background: #fff; }
+  .search .icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; color: #94a3b8; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px 2px; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line); background: #fff; font-size: 11.5px; font-weight: 700; color: #475569; cursor: pointer; letter-spacing: -.01em; }
+  .chip.active { background: #0f172a; color: #fff; border-color: #0f172a; }
+
+  .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; padding: 12px 16px 0; }
+  .scope { display: inline-flex; align-items: center; gap: 5px; font-size: 11.5px; font-weight: 800; color: #1d4ed8; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 999px; padding: 5px 10px; letter-spacing: -.01em; }
+  .scope .n { font-weight: 700; color: #3b82f6; }
+  .scope-note { margin: 7px 16px 0; font-size: 10.5px; color: #94a3b8; line-height: 1.5; }
+  .scope-note b { color: #64748b; }
+  .toolbar select { font-size: 12.5px; font-weight: 700; color: #475569; background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 6px 8px; }
+
+  .banner { margin: 12px 16px 0; background: var(--warn-bg); border: 1px solid var(--warn-line); color: var(--warn-text); border-radius: 12px; padding: 11px 13px; font-size: 12.5px; line-height: 1.55; }
+  .banner b { display: block; font-size: 13px; margin-bottom: 2px; }
+  .banner .sub { color: #8a6a1f; font-size: 11.5px; }
+
+  .section-title { display: flex; align-items: baseline; justify-content: space-between; padding: 18px 16px 8px; }
+  .section-title h2 { margin: 0; font-size: 13.5px; font-weight: 800; letter-spacing: -.01em; }
+  .section-title .count { font-size: 11.5px; color: var(--muted); }
+
+  .watch { display: grid; gap: 8px; padding: 0 16px 4px; }
+  .watch-row { display: flex; align-items: center; gap: 10px; border: 1px dashed #d7dbe2; border-radius: 12px; padding: 10px 12px; background: #fcfcfd; }
+  .watch-row .num { flex: 0 0 22px; height: 22px; border-radius: 50%; background: #eef2f6; color: #64748b; font-size: 11.5px; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+  .watch-row .name { flex: 1; font-size: 13px; font-weight: 650; }
+  .watch-row .tag { font-size: 10.5px; font-weight: 700; color: #64748b; background: #f1f5f9; border-radius: 999px; padding: 3px 8px; white-space: nowrap; }
+
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; padding: 4px 16px 8px; }
+  .card { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: #fff; text-decoration: none; color: inherit; cursor: pointer; text-align: left; padding: 0; font: inherit; }
+  .card:active { transform: scale(.995); }
+  .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .card .thumb { position: relative; aspect-ratio: 1/1; background: #f7f8fa; display: flex; align-items: center; justify-content: center; padding: 10px; }
+  .card .thumb img { max-width: 100%; max-height: 100%; object-fit: contain; }
+  .card .badge { position: absolute; top: 7px; left: 7px; font-size: 10px; font-weight: 800; padding: 3px 7px; border-radius: 999px; background: var(--rocket); color: #fff; }
+  .card .box.down { color: var(--down); }
+  .card .avg { margin-top: 2px; font-size: 10px; font-weight: 600; color: #94a3b8; line-height: 1.45; }
+  .card .avg b { font-weight: 700; color: #64748b; }
+  .card .body { padding: 9px 10px 9px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .card .cat { font-size: 10.5px; font-weight: 700; color: var(--accent); }
+  .card .name { font-size: 12.5px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .box { margin-top: 6px; font-size: 15.5px; font-weight: 800; letter-spacing: -.01em; }
+  .card .box small { font-size: 10.5px; font-weight: 600; color: var(--muted); margin-left: 3px; }
+  .card .unit { font-size: 11.5px; font-weight: 800; color: var(--accent); background: var(--accent-soft); border-radius: 7px; padding: 3px 7px; align-self: flex-start; }
+  .card .status { display: block; border-top: 1px solid #eef1f5; padding: 6px 10px; font-size: 10.5px; font-weight: 800; letter-spacing: -.01em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card .status.down { color: #be123c; background: #fff1f2; }
+  .card .status.up { color: var(--up); background: #fffbeb; }
+  .card .status.flat { color: #475569; background: #f1f5f9; }
+  .card .status.new { color: #1d4ed8; background: #eff6ff; }
+
+  .empty { padding: 4px 16px 24px; }
+  .empty-box { border: 1px dashed #d7dbe2; border-radius: 14px; padding: 22px 16px; text-align: center; background: #fcfcfd; }
+  .empty-box .emoji { font-size: 22px; }
+  .empty-box p { margin: 8px 0 0; font-size: 12.5px; color: var(--muted); line-height: 1.6; }
+
+  footer { padding: 18px 16px 10px; border-top: 1px solid var(--line); margin-top: 12px; }
+  footer p { margin: 0 0 6px; font-size: 10.5px; color: #94a3b8; line-height: 1.55; }
+  footer .disclosure { margin-top: 10px; }
+
+  /* ---------- 30일 가격 추이 모달 ---------- */
+  .sheet { position: fixed; inset: 0; z-index: 80; display: flex; align-items: flex-end; justify-content: center; }
+  .sheet[hidden] { display: none; }
+  .sheet .backdrop { position: absolute; inset: 0; background: rgba(15,23,42,.48); }
+  .sheet .panel { position: relative; width: 100%; max-width: 520px; max-height: 92vh; max-height: 92dvh; display: flex; flex-direction: column; background: #fff; border-radius: 20px 20px 0 0; box-shadow: 0 -10px 40px rgba(15,23,42,.24); overflow: hidden; animation: sheet-up .2s ease-out; }
+  @keyframes sheet-up { from { transform: translateY(20px); opacity: .6; } to { transform: none; opacity: 1; } }
+  /* 상단 헤더는 스크롤해도 사라지지 않는다(모바일 주소창 때문에 위로 잘리지 않도록 dvh 사용) */
+  .sheet .head { position: sticky; top: 0; z-index: 3; flex: 0 0 auto; padding: 8px 12px 11px; border-bottom: 1px solid var(--line); background: #fff; box-shadow: 0 1px 0 rgba(15,23,42,.04); }
+  .sheet .headbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 4px; }
+  .sheet .back { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; min-width: 44px; padding: 0 14px 0 10px; border: 1px solid var(--line); border-radius: 12px; background: #fff; color: var(--accent); font: inherit; font-size: 13px; font-weight: 800; letter-spacing: -.01em; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .sheet .back:active { background: #f0fdfa; }
+  .sheet .back .arw { font-size: 17px; line-height: 1; margin-top: -1px; }
+  .sheet .head .cat { font-size: 11px; font-weight: 800; color: var(--accent); }
+  .sheet .head h2 { margin: 3px 0 0; font-size: 15.5px; font-weight: 800; line-height: 1.35; letter-spacing: -.02em; }
+  .sheet .head .now { margin-top: 6px; font-size: 19px; font-weight: 800; letter-spacing: -.02em; }
+  .sheet .head .now small { font-size: 11px; font-weight: 600; color: var(--muted); margin-left: 4px; }
+  .sheet .close { position: static; display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; flex: 0 0 auto; border-radius: 50%; border: 1px solid var(--line); background: #fff; color: #64748b; font: inherit; font-size: 15px; line-height: 1; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .sheet .close:active { background: #f1f5f9; }
+  .sheet .body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; padding: 14px 16px 16px; }
+  .sheet .foot { border-top: 1px solid var(--line); padding: 10px 16px calc(12px + env(safe-area-inset-bottom)); background: #fff; }
+  .cta { display: block; text-align: center; background: var(--accent); color: #fff; font-size: 14px; font-weight: 800; padding: 13px; border-radius: 12px; text-decoration: none; letter-spacing: -.01em; }
+  .cta:active { background: #115e59; }
+  .cta-note { margin: 7px 0 0; font-size: 10px; color: #94a3b8; text-align: center; line-height: 1.4; }
+
+  .m-meta { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 11px; }
+  .m-status { font-size: 11px; font-weight: 800; padding: 4px 9px; border-radius: 999px; white-space: nowrap; }
+  .m-status.down { color: #be123c; background: #fff1f2; }
+  .m-status.up { color: var(--up); background: #fffbeb; }
+  .m-status.flat { color: #475569; background: #f1f5f9; }
+  .m-status.new { color: #1d4ed8; background: #eff6ff; }
+  .m-track { font-size: 10.5px; color: var(--muted); font-weight: 700; white-space: nowrap; }
+
+  .m-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-bottom: 13px; }
+  .m-stat { border: 1px solid var(--line); border-radius: 10px; padding: 8px 4px; text-align: center; background: #fcfcfd; }
+  .m-stat .k { font-size: 9.5px; color: var(--muted); font-weight: 700; white-space: nowrap; }
+  .m-stat .v { display: block; margin-top: 2px; font-size: 11.5px; font-weight: 800; letter-spacing: -.02em; }
+  .m-stat.cur { background: var(--accent-soft); border-color: #a7f3d0; }
+  .m-stat.cur .v { color: var(--accent); }
+  .m-stat.low .v { color: #2563eb; }
+
+  .m-chart { border: 1px solid var(--line); border-radius: 12px; padding: 9px 8px 3px; background: #fcfdfd; }
+  .m-chart .cap { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 0 4px 5px; }
+  .m-chart .cap b { font-size: 11.5px; font-weight: 800; color: #334155; }
+  .m-chart .cap span { font-size: 9.5px; font-weight: 700; color: #94a3b8; white-space: nowrap; }
+  .m-chart svg { display: block; width: 100%; height: auto; }
+  .m-note { margin: 8px 2px 13px; font-size: 10.5px; color: #94a3b8; line-height: 1.55; }
+  .m-note b { color: #64748b; }
+
+  .m-days { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .m-days .hd { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 11px; background: #f8fafc; border-bottom: 1px solid var(--line); font-size: 10.5px; font-weight: 800; color: #475569; }
+  .m-days .hd span { font-weight: 700; color: #94a3b8; }
+  .day-row { display: flex; align-items: baseline; gap: 8px; padding: 8px 11px; border-bottom: 1px solid #f4f6f8; font-size: 11px; }
+  .day-row:last-child { border-bottom: 0; }
+  .day-row .d { flex: 0 0 72px; font-weight: 800; color: #334155; }
+  .day-row .v { flex: 1; color: #475569; font-size: 10.5px; line-height: 1.5; }
+  .day-row .v b { color: #0f172a; font-weight: 800; }
+  .day-row .n { flex: 0 0 auto; font-size: 9.5px; font-weight: 700; color: #94a3b8; }
+
+  /* 당일·30일 추이 전환 탭 */
+  .m-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px; background: #f1f5f9; border-radius: 12px; margin-bottom: 10px; }
+  .m-tabs button { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; padding: 7px 4px; border: 0; border-radius: 9px; background: transparent; color: #64748b; font: inherit; cursor: pointer; }
+  .m-tabs button .lb { font-size: 12px; font-weight: 800; letter-spacing: -.01em; line-height: 1.25; }
+  .m-tabs button .sm { font-size: 9.5px; font-weight: 700; color: #94a3b8; line-height: 1.25; }
+  .m-tabs button[aria-selected="true"] { background: #fff; color: #0f172a; box-shadow: 0 1px 3px rgba(15,23,42,.14); }
+  .m-tabs button[aria-selected="true"] .sm { color: var(--accent); }
+  .m-tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .m-panel[hidden] { display: none; }
+
+  .i-sum { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 1px 3px 8px; }
+  .i-sum .d { font-size: 11px; font-weight: 800; color: #475569; }
+  .i-sum .chg { font-size: 10.5px; font-weight: 800; border-radius: 999px; padding: 3px 8px; white-space: nowrap; }
+  .i-sum .chg.up { color: var(--up); background: #fffbeb; }
+  .i-sum .chg.down { color: #be123c; background: #fff1f2; }
+  .i-sum .chg.flat { color: #475569; background: #f1f5f9; }
+  .m-empty { margin: 4px 4px 6px; font-size: 10.5px; color: #94a3b8; line-height: 1.6; }
+
+  .i-list { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; margin-top: 9px; }
+  .i-list .hd { display: flex; justify-content: space-between; align-items: baseline; padding: 8px 11px; background: #f8fafc; border-bottom: 1px solid var(--line); font-size: 10.5px; font-weight: 800; color: #475569; }
+  .i-list .hd span { font-weight: 700; color: #94a3b8; }
+  .i-row { display: flex; align-items: baseline; gap: 8px; padding: 7px 11px; border-bottom: 1px solid #f4f6f8; font-size: 11px; }
+  .i-row:last-child { border-bottom: 0; }
+  .i-row .t { flex: 0 0 44px; font-weight: 800; color: #334155; }
+  .i-row .v { flex: 1; font-weight: 800; color: #0f172a; }
+  .i-row .c { flex: 0 0 auto; font-size: 9.5px; font-weight: 800; }
+  .i-row .c.up { color: var(--up); }
+  .i-row .c.down { color: #be123c; }
+  .i-row .c.flat { color: #94a3b8; }
+
+  .m-unit { margin-top: 11px; font-size: 10.5px; color: var(--muted); background: #f8fafc; border-radius: 9px; padding: 8px 10px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="top">
+      <div class="brand">카페발주 단가표<span class="dot">.</span></div>
+      <div class="stamp" id="stamp">불러오는 중…</div>
+    </div>
+    <div class="disclosure">
+      이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </div>
+    <div class="search">
+      <span class="icon">🔍</span>
+      <input id="q" type="search" placeholder="품목 검색 (예: 우유, 원두, 16oz 컵)" autocomplete="off" />
+    </div>
+  </header>
+
+  <div class="chips" id="chips">
+    <button class="chip active" data-cat="전체">전체</button>
+    <button class="chip" data-cat="우유·대체유">우유·대체유</button>
+    <button class="chip" data-cat="원두">원두</button>
+    <button class="chip" data-cat="시럽·소스">시럽·소스</button>
+    <button class="chip" data-cat="파우더">파우더</button>
+    <button class="chip" data-cat="과일·베이스">과일·베이스</button>
+    <button class="chip" data-cat="당류·토핑">당류·토핑</button>
+    <button class="chip" data-cat="크림·연유">크림·연유</button>
+    <button class="chip" data-cat="베이킹 재료">베이킹 재료</button>
+    <button class="chip" data-cat="티·탄산수">티·탄산수</button>
+    <button class="chip" data-cat="컵·뚜껑">컵·뚜껑</button>
+    <button class="chip" data-cat="빨대·홀더">빨대·홀더</button>
+    <button class="chip" data-cat="매장소모품">매장소모품</button>
+  </div>
+
+  <div class="toolbar">
+    <span class="scope" id="scopeBadge">🚀 로켓배송 · 단가 확인 품목만</span>
+    <select id="sort" aria-label="정렬">
+      <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
+      <option value="discount">할인율 높은 순</option>
+      <option value="price">박스 가격 낮은 순</option>
+      <option value="name">이름 순</option>
+    </select>
+  </div>
+
+  <p class="scope-note" id="scopeNote">상품명에 용량·수량이 적혀 <b>단가를 계산할 수 있는 로켓배송 품목</b>만 담았습니다.</p>
+
+  <div id="bannerSlot"></div>
+
+  <div id="watchSlot"></div>
+
+  <div class="section-title">
+    <h2>발주 후보</h2>
+    <span class="count" id="resultCount"></span>
+  </div>
+
+  <main class="grid" id="grid"></main>
+  <div class="empty" id="empty" style="display:none">
+    <div class="empty-box">
+      <div class="emoji">🧾</div>
+      <p id="emptyText">표시할 품목이 아직 없습니다.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다. 그래서 <b>단가를 낼 수 없는 품목은 싣지 않습니다</b>.</p>
+    <p>· <b>로켓배송 상품만</b> 담습니다. 상품명에 용량·수량이 없어 단가 계산이 안 되는 상품과 비로켓 상품은 목록에서 빠지며, 가격 기록은 다음 수집을 위해 내부에 계속 보관합니다.</p>
+    <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
+    <p>· <b>상품 카드를 누르면</b> <b>당일 추이</b>(오늘 시간대별)와 <b>30일 추이</b>(일별)를 탭으로 나눠 확인할 수 있습니다. 구매는 모달 안의 <b>쿠팡에서 최저가 확인 / 발주하기</b> 버튼으로 이동합니다.</p>
+    <p>· 가격 배지: <b>평균 대비 N%↓</b> 누적 평균보다 낮음 · <b>평균 대비 +N%↑</b> 누적 평균보다 높음 · <b>평균가 유지</b> 평균과 같은 가격 · <b>추적 1일차</b> 관측 1회. 모든 배지는 실제로 수집된 가격 기록으로만 계산하며, 0%·가짜 정가는 표시하지 않습니다.</p>
+    <div class="disclosure">
+      이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
+    </div>
+  </footer>
+</div>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="backdrop" data-close="1"></div>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="head">
+      <div class="headbar">
+        <button class="back" id="sheetBack" type="button" aria-label="목록으로 돌아가기"><span class="arw" aria-hidden="true">←</span> 목록으로</button>
+        <button class="close" id="sheetClose" type="button" aria-label="닫기">✕</button>
+      </div>
+      <div class="cat" id="sheetCat"></div>
+      <h2 id="sheetTitle"></h2>
+      <div class="now" id="sheetNow"></div>
+    </div>
+    <div class="body" id="sheetBody"></div>
+    <div class="foot">
+      <a class="cta" id="sheetCta" href="#" target="_blank" rel="noopener noreferrer">쿠팡에서 최저가 확인 / 발주하기</a>
+      <p class="cta-note">이 링크는 쿠팡 파트너스 활동의 일환으로, 일정액의 수수료를 제공받습니다.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var state = { cat: "전체", q: "", sort: "unit", data: null, byId: {}, lastFocus: null };
+  var el = {
+    q: document.getElementById("q"),
+    chips: document.getElementById("chips"),
+    scope: document.getElementById("scopeBadge"),
+    sort: document.getElementById("sort"),
+    banner: document.getElementById("bannerSlot"),
+    watch: document.getElementById("watchSlot"),
+    grid: document.getElementById("grid"),
+    empty: document.getElementById("empty"),
+    emptyText: document.getElementById("emptyText"),
+    count: document.getElementById("resultCount"),
+    stamp: document.getElementById("stamp"),
+    sheet: document.getElementById("sheet"),
+    sheetCat: document.getElementById("sheetCat"),
+    sheetTitle: document.getElementById("sheetTitle"),
+    sheetNow: document.getElementById("sheetNow"),
+    sheetBody: document.getElementById("sheetBody"),
+    sheetCta: document.getElementById("sheetCta"),
+    sheetClose: document.getElementById("sheetClose"),
+    sheetBack: document.getElementById("sheetBack")
+  };
+
+  var WEEK = ["일", "월", "화", "수", "목", "금", "토"];
+  var DAY_MS = 24 * 60 * 60 * 1000;
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function won(n) { return Number(n || 0).toLocaleString("ko-KR") + "원"; }
+  function num(n) { return Number(n || 0).toLocaleString("ko-KR"); }
+
+  // 사이트에 실리는 품목의 조건 — 로켓배송이면서 단가가 계산된 상품만.
+  // (deals.json 은 스크립트가 이미 이 조건으로 추려서 내려주지만, 캐시된 예전 파일이
+  //  섞여 들어와도 화면이 조건 밖 품목을 노출하지 않도록 한 번 더 확인한다.)
+  function passesFilter(x) {
+    return !!x && x.isRocket === true && x.unitPrice != null;
+  }
+
+  function renderBanner(d) {
+    if (!d) return;
+    if (d.status && d.status !== "ok") {
+      var unlocks = d.unlocksAt ? esc(d.unlocksAt) : "";
+      var msg = d.notice || "쿠팡 API 연동 대기 중";
+      el.banner.innerHTML =
+        '<div class="banner"><b>' + esc(msg) + '</b>' +
+        '<span class="sub">' +
+        (unlocks ? "해제 시각 " + unlocks + " · " : "") +
+        "가짜 가격 대신 실제 수집이 끝난 뒤 이 자리에 표시됩니다.</span></div>";
+    } else {
+      el.banner.innerHTML = "";
+    }
+  }
+
+  function renderWatch(d) {
+    if (d && d.status === "ok") { el.watch.innerHTML = ""; return; }
+    var list = (d && d.watchlist) || [];
+    if (!list.length) { el.watch.innerHTML = ""; return; }
+    var rows = list.map(function (w, i) {
+      return '<div class="watch-row">' +
+        '<span class="num">' + (i + 1) + '</span>' +
+        '<span class="name">' + esc(w.label) + '</span>' +
+        '<span class="tag">' + esc(w.category || "") + '</span>' +
+        '</div>';
+    }).join("");
+    el.watch.innerHTML =
+      '<div class="section-title"><h2>수집 예정 품목</h2><span class="count">' + list.length + '종</span></div>' +
+      '<div class="watch">' + rows + '</div>';
+  }
+
+  function unitText(deal) {
+    if (!deal.unitPrice) return "";
+    return won(deal.unitPrice) + (deal.unitBasis ? " / " + deal.unitBasis : "") +
+      (deal.packNote ? " · " + deal.packNote : "");
+  }
+
+  // 실제 관측 횟수(가격 이력 기준). 데이터가 오래된 형식이어도 동작하도록 보정.
+  function countOf(deal) {
+    if (typeof deal.priceCount === "number") return deal.priceCount;
+    if (Array.isArray(deal.priceHistory)) return deal.priceHistory.length;
+    return 0;
+  }
+
+  // 모든 상품에 실제 데이터 기반 상태 배지를 붙인다.
+  //  - 평균보다 1% 이상 낮음 → 빨강 (discountRate)
+  //  - 평균보다 높음 → 주황 (+N%↑)
+  //  - 평균과 같거나 1% 미만 차이 → 회색(평균가 유지)
+  //  - 관측 1회 → 파랑(추적 1일차)
+  // 가짜 할인율·가짜 정가는 만들지 않는다.
+  function statusOf(deal) {
+    var avg = deal.avgPrice;
+    var price = deal.productPrice;
+    var cnt = countOf(deal);
+    if (cnt < 2 || !avg || !price) {
+      return { kind: "new", text: "추적 1일차" };
+    }
+    if (typeof deal.discountRate === "number" && deal.discountRate >= 1) {
+      return { kind: "down", text: "평균 대비 " + deal.discountRate + "%↓" };
+    }
+    if (price > avg) {
+      var up = Math.round((price - avg) / avg * 100);
+      if (up >= 1) return { kind: "up", text: "평균 대비 +" + up + "%↑" };
+      return { kind: "flat", text: "평균가 근접 · " + cnt + "회 관측" };
+    }
+    if (price === avg) {
+      return { kind: "flat", text: "평균가 유지 · " + cnt + "회 동일" };
+    }
+    return { kind: "flat", text: "평균가 근접 · " + cnt + "회 관측" };
+  }
+
+  function cardHTML(deal, i) {
+    var img = deal.productImage
+      ? '<img src="' + esc(deal.productImage) + '" alt="' + esc(deal.productName) + '" loading="lazy" referrerpolicy="no-referrer" />'
+      : '';
+    var st = statusOf(deal);
+    var avgLine = (deal.avgPrice && deal.priceCount)
+      ? '<div class="avg">평균 <b>' + num(deal.avgPrice) + '원</b> · 최저 <b>' + num(deal.minPrice) + '원</b></div>'
+      : '<div class="avg">가격 기록 수집 중</div>';
+    return '<button type="button" class="card" data-id="' + esc(deal.productId) + '" data-i="' + i + '" aria-label="' + esc(deal.productName) + ' 가격 추이 보기">' +
+      '<div class="thumb">' +
+        (deal.isRocket ? '<span class="badge">🚀 로켓</span>' : '') +
+        img +
+      '</div>' +
+      '<div class="body">' +
+        '<div class="cat">' + esc(deal.category || "") + '</div>' +
+        '<div class="name">' + esc(deal.productName) + '</div>' +
+        '<div class="box' + (st.kind === "down" ? ' down' : '') + '">' + won(deal.productPrice) + '<small>상품가</small></div>' +
+        avgLine +
+        (unitText(deal) ? '<div class="unit">' + esc(unitText(deal)) + '</div>' : '') +
+      '</div>' +
+      '<span class="status ' + st.kind + '">' + esc(st.text) + '</span>' +
+      '</button>';
+  }
+
+  function renderScope(d) {
+    var all = (d && d.deals) || [];
+    var hidden = all.filter(function (x) { return !passesFilter(x); }).length;
+    el.scope.innerHTML = "🚀 로켓배송 · 단가 확인 품목만" +
+      (hidden > 0 ? ' <span class="n">· 조건 밖 ' + hidden + '건 숨김</span>' : "");
+  }
+
+  function render() {
+    var d = state.data || {};
+    var all = (d.deals || []);
+    var q = state.q.trim().toLowerCase();
+    var deals = all.filter(passesFilter).filter(function (x) {
+      if (state.cat !== "전체" && (x.category || "") !== state.cat) return false;
+      if (q && String(x.productName || "").toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    if (state.sort === "unit") deals.sort(function (a, b) { return (a.unitPrice || 1e12) - (b.unitPrice || 1e12); });
+    else if (state.sort === "discount") deals.sort(function (a, b) {
+      var ra = (typeof a.discountRate === "number" && a.discountRate >= 1) ? a.discountRate : 0;
+      var rb = (typeof b.discountRate === "number" && b.discountRate >= 1) ? b.discountRate : 0;
+      if (rb !== ra) return rb - ra;
+      return (a.unitPrice || 1e12) - (b.unitPrice || 1e12);
+    });
+    else if (state.sort === "price") deals.sort(function (a, b) { return (a.productPrice || 0) - (b.productPrice || 0); });
+    else deals.sort(function (a, b) { return String(a.productName).localeCompare(String(b.productName), "ko"); });
+
+    el.grid.innerHTML = deals.map(cardHTML).join("");
+    el.count.textContent = deals.length ? deals.length + "개" : "";
+    if (!deals.length) {
+      el.empty.style.display = "";
+      var pending = d.status && d.status !== "ok";
+      var catTotal = all.filter(function (x) { return (x.category || "") === state.cat; }).length;
+      if (pending) {
+        el.emptyText.textContent = "쿠팡 API 연동이 완료되면 실제 발주 후보가 여기에 표시됩니다. (현재는 수집 대기 상태)";
+      } else if (state.cat !== "전체" && catTotal === 0) {
+        el.emptyText.textContent = "‘" + state.cat + "’ 카테고리는 아직 조건에 맞는 수집 상품이 없습니다. 다음 자동 수집에서 로켓배송·단가 확인 품목으로 채워집니다.";
+      } else if (q) {
+        el.emptyText.textContent = "‘" + state.q.trim() + "’ 검색 결과가 없습니다. 다른 검색어로 찾아보세요.";
+      } else {
+        el.emptyText.textContent = "조건에 맞는 품목이 없습니다. 검색어나 카테고리를 바꿔 보세요.";
+      }
+    } else {
+      el.empty.style.display = "none";
+    }
+  }
+
+  function setStamp(d) {
+    if (d && d.updatedAt) {
+      el.stamp.textContent = (d.status === "ok" ? "업데이트 " : "기준 ") + d.updatedAt;
+    } else {
+      el.stamp.textContent = "오프라인";
+    }
+  }
+
+  // ---------------- 30일 일별 가격 추이 ----------------
+  // 상품의 dailyHistory([날짜, 최저, 평균, 마지막, 횟수])를 우선 사용하고,
+  // 없으면 priceHistory(관측 시각·가격)를 프론트에서 날짜별로 묶는다.
+  function dailySeries(deal) {
+    var out = [];
+    if (Array.isArray(deal.dailyHistory) && deal.dailyHistory.length) {
+      // 형식: [날짜, 최저, 최고, 평균, 마지막, 횟수] (5칸짜리 예전 형식도 읽는다)
+      deal.dailyHistory.forEach(function (a) {
+        if (!a || !a[0]) return;
+        if (a.length >= 6) {
+          out.push({ d: String(a[0]), min: +a[1], max: +a[2], avg: +a[3], last: +a[4], n: +a[5] || 1 });
+        } else {
+          out.push({ d: String(a[0]), min: +a[1], max: Math.max(+a[1], +a[3]), avg: +a[2], last: +a[3], n: +a[4] || 1 });
+        }
+      });
+      return out.slice(-30);
+    }
+    if (!Array.isArray(deal.priceHistory)) return out;
+    var map = {};
+    deal.priceHistory.forEach(function (p) {
+      if (!p || !p[0]) return;
+      var day = String(p[0]).slice(0, 10);
+      var price = +(p[1] || 0);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !price) return;
+      (map[day] || (map[day] = [])).push(price);
+    });
+    return Object.keys(map).sort().slice(-30).map(function (day) {
+      var arr = map[day];
+      var sum = arr.reduce(function (s, v) { return s + v; }, 0);
+      return { d: day, min: Math.min.apply(null, arr), max: Math.max.apply(null, arr), avg: Math.round(sum / arr.length), last: arr[arr.length - 1], n: arr.length };
+    });
+  }
+
+  function stats30(days) {
+    var sum = 0, n = 0, mn = null, mx = null;
+    days.forEach(function (p) {
+      sum += p.avg * p.n;
+      n += p.n;
+      mn = (mn == null || p.min < mn) ? p.min : mn;
+      mx = (mx == null || p.max > mx) ? (p.max || p.avg) : mx;
+    });
+    return { avg: n ? Math.round(sum / n) : null, min: mn, max: mx, days: days.length, obs: n };
+  }
+
+  function md(iso, withDow) {
+    var parts = String(iso).split("-");
+    if (parts.length !== 3) return iso;
+    var s = Number(parts[1]) + "." + Number(parts[2]);
+    if (withDow) {
+      var dt = new Date(parts[0] + "-" + parts[1] + "-" + parts[2] + "T00:00:00");
+      if (!isNaN(dt.getTime())) s += " (" + WEEK[dt.getDay()] + ")";
+    }
+    return s;
+  }
+
+  function svgChart(days, avg) {
+    var W = 320, H = 178, L = 46, R = days.length === 1 ? 34 : 13, T = 15, B = 27;
+    var vals = [];
+    days.forEach(function (p) { vals.push(p.min, p.avg, p.max || p.avg); });
+    if (avg) vals.push(avg);
+    if (!vals.length) vals.push(0);
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    if (hi === lo) {
+      var pad = Math.max(Math.round(hi * 0.04), 200);
+      lo = Math.max(0, lo - pad); hi = hi + pad;
+    } else {
+      var span = hi - lo;
+      lo = Math.max(0, lo - span * 0.14); hi = hi + span * 0.12;
+    }
+    lo = Math.floor(lo); hi = Math.ceil(hi);
+    var last = days[days.length - 1].d;
+    var t1 = Date.parse(last + "T00:00:00");
+    var t0 = t1 - 29 * DAY_MS;
+    function xOf(iso) { return L + (Date.parse(iso + "T00:00:00") - t0) / (t1 - t0) * (W - L - R); }
+    function yOf(v) { return T + (hi - v) / (hi - lo || 1) * (H - T - B); }
+
+    var parts = [];
+    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="최근 30일 일별 가격 추이">');
+    parts.push('<defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0%" stop-color="#0f766e" stop-opacity=".16"/>' +
+      '<stop offset="100%" stop-color="#0f766e" stop-opacity="0"/></linearGradient></defs>');
+
+    // 가로 기준선 3개 + 가격 눈금
+    [hi, (hi + lo) / 2, lo].forEach(function (v, idx) {
+      var y = yOf(v);
+      parts.push('<line x1="' + L + '" y1="' + y.toFixed(1) + '" x2="' + (W - R) + '" y2="' + y.toFixed(1) + '" stroke="#eef1f5" stroke-width="1"/>');
+      parts.push('<text x="' + (L - 6) + '" y="' + (y + 3).toFixed(1) + '" font-size="8.5" fill="#94a3b8" text-anchor="end">' + num(Math.round(v)) + '</text>');
+    });
+
+    var pts = days.map(function (p) { return { x: xOf(p.d), y: yOf(p.avg), p: p }; });
+    var single = pts.length === 1;
+
+    // 일별 최저~최고 범위 표시
+    pts.forEach(function (pt) {
+      if (pt.p.max != null && pt.p.max > pt.p.min) {
+        parts.push('<line x1="' + pt.x.toFixed(1) + '" y1="' + yOf(pt.p.min).toFixed(1) + '" x2="' + pt.x.toFixed(1) + '" y2="' + yOf(pt.p.max).toFixed(1) + '" stroke="#d9e2e8" stroke-width="3.5" stroke-linecap="round"/>');
+      }
+    });
+
+    var linePath = pts.map(function (pt, i) { return (i ? 'L' : 'M') + pt.x.toFixed(1) + ' ' + pt.y.toFixed(1); }).join(' ');
+    if (single) {
+      // 하루치뿐이어도 가격 수평선과 점을 그려 추이가 시작됐음을 보여준다.
+      parts.push('<path d="M' + L + ' ' + pts[0].y.toFixed(1) + ' L' + pts[0].x.toFixed(1) + ' ' + pts[0].y.toFixed(1) + '" fill="none" stroke="#0f766e" stroke-width="2" stroke-linecap="round"/>');
+      parts.push('<path d="M' + L + ' ' + pts[0].y.toFixed(1) + ' L' + pts[0].x.toFixed(1) + ' ' + pts[0].y.toFixed(1) + ' L' + pts[0].x.toFixed(1) + ' ' + (H - B) + ' L' + L + ' ' + (H - B) + ' Z" fill="url(#fill)"/>');
+    } else {
+      parts.push('<path d="' + linePath + ' L' + pts[pts.length - 1].x.toFixed(1) + ' ' + (H - B) + ' L' + pts[0].x.toFixed(1) + ' ' + (H - B) + ' Z" fill="url(#fill)"/>');
+      parts.push('<path d="' + linePath + '" fill="none" stroke="#0f766e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>');
+    }
+
+    // 평균가 기준선 (라벨은 왼쪽, 현재가 라벨과 겹치지 않게)
+    if (avg) {
+      var ay = yOf(avg);
+      parts.push('<line x1="' + L + '" y1="' + ay.toFixed(1) + '" x2="' + (W - R) + '" y2="' + ay.toFixed(1) + '" stroke="#94a3b8" stroke-width="1" stroke-dasharray="4 3"/>');
+      parts.push('<text x="' + (L + 4) + '" y="' + (ay - 4).toFixed(1) + '" font-size="8.5" fill="#94a3b8" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">평균</text>');
+    }
+
+    // 아직 하루치뿐이면 빈 영역에 안내를 둔다.
+    if (single) {
+      parts.push('<text x="' + (L + 10) + '" y="' + (T + 14) + '" font-size="8.5" fill="#c3ccd6">기록이 쌓이면 여기에 30일 추이가 그려집니다</text>');
+    }
+
+    pts.forEach(function (pt) {
+      parts.push('<circle cx="' + pt.x.toFixed(1) + '" cy="' + pt.y.toFixed(1) + '" r="3" fill="#fff" stroke="#0f766e" stroke-width="1.8"/>');
+    });
+
+    // 마지막(현재) 점 가격 라벨 — 점 왼쪽에 두고 흰 테두리로 기준선과 겹쳐도 읽히게 한다.
+    var lp = pts[pts.length - 1];
+    var labelY = Math.min(Math.max(lp.y - 9, T + 8), H - B - 4);
+    parts.push('<text x="' + (lp.x - 8).toFixed(1) + '" y="' + labelY.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="end" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(lp.p.avg) + '원</text>');
+
+    // x축 날짜 눈금 (시작·중간·마지막)
+    var todayIso = new Date().getFullYear() + '-' + ('0' + (new Date().getMonth() + 1)).slice(-2) + '-' + ('0' + new Date().getDate()).slice(-2);
+    var ticks = [
+      { t: t0, anchor: "start" },
+      { t: t0 + (t1 - t0) / 2, anchor: "middle" },
+      { t: t1, anchor: "end", today: last === todayIso }
+    ];
+    ticks.forEach(function (tk, i) {
+      if (i === 1 && days.length < 3) return;
+      var x = L + (tk.t - t0) / (t1 - t0) * (W - L - R);
+      var d = new Date(tk.t);
+      var label = (d.getMonth() + 1) + "." + d.getDate() + (tk.today && i === 2 ? " 오늘" : "");
+      parts.push('<text x="' + x.toFixed(1) + '" y="' + (H - 8) + '" font-size="8.5" fill="#94a3b8" text-anchor="' + tk.anchor + '">' + label + '</text>');
+    });
+
+    parts.push('</svg>');
+    return parts.join('');
+  }
+
+  // ---------------- 당일 시간대별 가격 추이 ----------------
+  // priceHistory(['YYYY-MM-DD HH:MM KST', 가격])에서 가장 최근 관측일의
+  // 관측 시각·가격을 시간순으로 모은다. 보간·추정값은 만들지 않는다.
+  function intradaySeries(deal) {
+    var ph = Array.isArray(deal.priceHistory) ? deal.priceHistory : [];
+    var map = {};
+    ph.forEach(function (p) {
+      if (!p || !p[0]) return;
+      var s = String(p[0]);
+      var day = s.slice(0, 10), tm = s.slice(11, 16);
+      var price = +(p[1] || 0);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) return;
+      if (!/^\d{2}:\d{2}$/.test(tm) || !price) return;
+      (map[day] || (map[day] = [])).push({ t: tm, price: price });
+    });
+    var keys = Object.keys(map).sort();
+    if (!keys.length) return { day: null, points: [], days: 0 };
+    var day = keys[keys.length - 1];
+    var pts = map[day].sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
+    var out = [];
+    pts.forEach(function (p) {
+      var last = out[out.length - 1];
+      if (last && last.t === p.t) last.price = p.price; // 같은 시각 중복은 마지막 값만
+      else out.push({ t: p.t, price: p.price });
+    });
+    return { day: day, points: out, days: keys.length };
+  }
+
+  // 눈금 간격을 1·2·5 × 10^n 으로 맞춰 축 라벨이 21,172 같은 값 대신 둥근 숫자가 되게 한다.
+  function niceStep(v) {
+    if (!(v > 0)) return 1;
+    var p = Math.pow(10, Math.floor(Math.log(v) / Math.LN10));
+    var m = v / p;
+    var f = m <= 1 ? 1 : m <= 2 ? 2 : m <= 5 ? 5 : 10;
+    return Math.max(1, f * p);
+  }
+
+  function svgIntraday(intra) {
+    var pts = intra.points, n = pts.length;
+    var W = 320, H = 176, L = 48, R = 16, T = 22, B = 30;
+    var vals = pts.map(function (p) { return p.price; });
+    var rawLo = Math.min.apply(null, vals), rawHi = Math.max.apply(null, vals);
+    var pad = rawHi === rawLo
+      ? Math.max(Math.round(rawHi * 0.035), 120)
+      : (rawHi - rawLo) * 0.30;
+    var step = niceStep(pad || 1);
+    var lo = Math.floor((rawLo - pad) / step) * step;
+    var hi = Math.ceil((rawHi + pad) / step) * step;
+    if (lo < 0) lo = 0;
+    if (hi === lo) hi = lo + step;
+    var span = (hi - lo) || 1;
+    var plotW = W - L - R, plotH = H - T - B;
+    function yOf(v) { return T + (hi - v) / span * plotH; }
+    function xOf(i) { return n === 1 ? L + plotW * 0.6 : L + (i * plotW) / (n - 1); }
+
+    var parts = [];
+    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="오늘 관측 시각별 가격 추이">');
+    parts.push('<defs><linearGradient id="fillI" x1="0" y1="0" x2="0" y2="1">' +
+      '<stop offset="0%" stop-color="#0f766e" stop-opacity=".18"/>' +
+      '<stop offset="100%" stop-color="#0f766e" stop-opacity="0"/></linearGradient></defs>');
+
+    [hi, (hi + lo) / 2, lo].forEach(function (v) {
+      var y = yOf(v);
+      parts.push('<line x1="' + L + '" y1="' + y.toFixed(1) + '" x2="' + (W - R) + '" y2="' + y.toFixed(1) + '" stroke="#eef1f5" stroke-width="1"/>');
+      parts.push('<text x="' + (L - 6) + '" y="' + (y + 3).toFixed(1) + '" font-size="8.5" fill="#94a3b8" text-anchor="end">' + num(Math.round(v)) + '</text>');
+    });
+
+    var px = pts.map(function (p, i) { return { x: xOf(i), y: yOf(p.price), p: p, i: i }; });
+
+    if (n === 1) {
+      // 관측 1회: 가로 기준선 + 점 + 안내 문구
+      var q = px[0];
+      parts.push('<path d="M' + L + ' ' + q.y.toFixed(1) + ' L' + (W - R) + ' ' + q.y.toFixed(1) + ' L' + (W - R) + ' ' + (H - B) + ' L' + L + ' ' + (H - B) + ' Z" fill="url(#fillI)"/>');
+      parts.push('<line x1="' + L + '" y1="' + q.y.toFixed(1) + '" x2="' + (W - R) + '" y2="' + q.y.toFixed(1) + '" stroke="#0f766e" stroke-width="2" stroke-linecap="round" opacity=".6"/>');
+      parts.push('<text x="' + ((L + W - R) / 2).toFixed(1) + '" y="' + (H - B - 12) + '" font-size="8.5" fill="#b9c3cd" text-anchor="middle">오늘 1회 관측 · 다음 수집부터 선이 이어집니다</text>');
+    } else {
+      var linePath = px.map(function (q, i) { return (i ? 'L' : 'M') + q.x.toFixed(1) + ' ' + q.y.toFixed(1); }).join(' ');
+      parts.push('<path d="' + linePath + ' L' + px[n - 1].x.toFixed(1) + ' ' + (H - B) + ' L' + px[0].x.toFixed(1) + ' ' + (H - B) + ' Z" fill="url(#fillI)"/>');
+      parts.push('<path d="' + linePath + '" fill="none" stroke="#0f766e" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>');
+    }
+
+    px.forEach(function (q) {
+      parts.push('<circle cx="' + q.x.toFixed(1) + '" cy="' + q.y.toFixed(1) + '" r="3.2" fill="#fff" stroke="#0f766e" stroke-width="1.8"/>');
+    });
+
+    // 가격 라벨: 첫 관측·가격이 바뀐 관측·마지막 관측에만 붙여 겹치지 않게 한다.
+    px.forEach(function (q) {
+      var prev = q.i > 0 ? pts[q.i - 1].price : null;
+      if (!(q.i === 0 || q.i === n - 1 || (prev != null && prev !== q.p.price))) return;
+      var anchor = q.x < L + 18 ? "start" : (q.x > W - R - 12 ? "end" : "middle");
+      var lx = anchor === "start" ? q.x - 2 : anchor === "end" ? q.x + 2 : q.x;
+      var ly = q.y - 8;
+      if (ly < T + 6) ly = q.y + 13;
+      parts.push('<text x="' + lx.toFixed(1) + '" y="' + ly.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="' + anchor + '" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(q.p.price) + '원</text>');
+    });
+
+    // x축: 실제 관측 시각 (많으면 솎아서)
+    var step = n <= 6 ? 1 : Math.ceil(n / 5);
+    px.forEach(function (q) {
+      if (q.i !== 0 && q.i !== n - 1 && q.i % step !== 0) return;
+      var anchor = q.i === 0 ? "start" : q.i === n - 1 ? "end" : "middle";
+      parts.push('<text x="' + q.x.toFixed(1) + '" y="' + (H - 9) + '" font-size="8.5" fill="#94a3b8" text-anchor="' + anchor + '">' + esc(q.p.t) + '</text>');
+    });
+
+    parts.push('</svg>');
+    return parts.join('');
+  }
+
+  function intradayPanel(intra) {
+    var pts = intra.points;
+    if (!pts.length) {
+      return '<div class="m-chart"><div class="cap"><b>당일 시간대별 가격 추이</b><span>오늘 관측 0회</span></div>' +
+        '<p class="m-empty">오늘 수집된 관측이 없습니다. 다음 수집부터 오늘 시간대별 추이가 여기에 쌓입니다.</p></div>';
+    }
+    var first = pts[0], last = pts[pts.length - 1];
+    var diff = last.price - first.price;
+    var pct = first.price ? Math.round(diff / first.price * 1000) / 10 : 0;
+    var chgKind = diff > 0 ? "up" : diff < 0 ? "down" : "flat";
+    var chgText = diff > 0 ? "▲ " + num(diff) + "원 (+" + pct + "%)"
+      : diff < 0 ? "▼ " + num(-diff) + "원 (" + pct + "%)"
+      : "오늘 변동 없음";
+
+    var html = '';
+    html += '<div class="i-sum"><span class="d">오늘 ' + md(intra.day, true) + '</span><span class="chg ' + chgKind + '">' + chgText + '</span></div>';
+    html += '<div class="m-chart"><div class="cap"><b>시간대별 가격 추이</b><span>선 = 관측가 · ' + pts.length + '회</span></div>' + svgIntraday(intra) + '</div>';
+    html += '<p class="m-note">' + (pts.length > 1
+      ? '오늘 관측된 <b>' + pts.length + '개 시각</b>의 가격을 관측 순서대로 이은 선입니다. 가로 위치는 관측 순서이고, 축 아래에 실제 관측 시각을 적었습니다.'
+      : '오늘 <b>1회</b>만 관측되어 가격선과 점으로 표시했습니다. 다음 수집부터 시간대별 선이 이어집니다.') + '</p>';
+
+    var rows = pts.map(function (p, i) { return { p: p, i: i }; }).reverse().map(function (o) {
+      var d = o.i > 0 ? o.p.price - pts[o.i - 1].price : null;
+      var cls = d == null || d === 0 ? "flat" : d > 0 ? "up" : "down";
+      var txt = d == null ? "첫 관측" : d === 0 ? "동일" : (d > 0 ? "▲ " : "▼ ") + num(Math.abs(d));
+      return '<div class="i-row">' +
+        '<span class="t">' + esc(o.p.t) + '</span>' +
+        '<span class="v">' + num(o.p.price) + '원</span>' +
+        '<span class="c ' + cls + '">' + txt + '</span>' +
+        '</div>';
+    }).join("");
+    html += '<div class="i-list"><div class="hd"><b>오늘 관측 기록</b><span>' + pts.length + '회 · 최근 순</span></div>' + rows + '</div>';
+    return html;
+  }
+
+  function dailyPanel(days, stats) {
+    if (!days.length) return '<p class="m-note">아직 가격 기록이 없습니다. 내일 수집부터 30일 추이가 그려집니다.</p>';
+    var html = '';
+    html += '<div class="m-chart"><div class="cap"><b>최근 30일 일별 가격 추이</b><span>선 = 일별 평균가 · 막대 = 당일 최저~최고</span></div>' +
+      svgChart(days, stats.avg) + '</div>';
+    html += '<p class="m-note">매일 누적되어 최대 30일 추이가 그려집니다. ' +
+      (days.length < 30 ? '현재 <b>' + days.length + '일치</b> 기록이 쌓였습니다.' : '최근 30일 기록입니다.') +
+      ' 점선은 30일 평균가입니다.</p>';
+    var rows = days.slice().reverse().map(function (p) {
+      return '<div class="day-row">' +
+        '<span class="d">' + md(p.d, true) + '</span>' +
+        '<span class="v">최저 ' + num(p.min) + ' · 평균 <b>' + num(p.avg) + '</b> · 마지막 ' + num(p.last) + '원</span>' +
+        '<span class="n">' + p.n + '회</span>' +
+        '</div>';
+    }).join("");
+    html += '<div class="m-days"><div class="hd"><b>일별 가격 기록</b><span>최근 ' + days.length + '일</span></div>' + rows + '</div>';
+    return html;
+  }
+
+  function buildSheet(deal) {
+    var days = dailySeries(deal);
+    var stats = stats30(days);
+    var intra = intradaySeries(deal);
+    var st = statusOf(deal);
+    var cur = deal.productPrice;
+    el.sheetCat.textContent = deal.category || "";
+    el.sheetTitle.textContent = deal.productName || "";
+    el.sheetNow.innerHTML = won(cur) + '<small>현재 상품가</small>';
+
+    if (deal.productUrl) {
+      el.sheetCta.href = deal.productUrl;
+      el.sheetCta.style.display = "";
+    } else {
+      el.sheetCta.removeAttribute("href");
+      el.sheetCta.style.display = "none";
+    }
+
+    var track = days.length
+      ? '기록 ' + days.length + '일 · 관측 ' + stats.obs + '회'
+      : '기록 없음';
+
+    // 당일 관측이 2회 이상이면 첫 화면을 '당일 추이'로, 아니면 '30일 추이'로 연다.
+    var def = intra.points.length >= 2 ? "intraday" : "daily";
+
+    var html = '';
+    html += '<div class="m-meta"><span class="m-status ' + st.kind + '">' + esc(st.text) + '</span><span class="m-track">' + esc(track) + '</span></div>';
+
+    html += '<div class="m-stats">' +
+      '<div class="m-stat cur"><span class="k">현재가</span><span class="v">' + num(cur) + '원</span></div>' +
+      '<div class="m-stat"><span class="k">30일 평균</span><span class="v">' + (stats.avg ? num(stats.avg) + '원' : '-') + '</span></div>' +
+      '<div class="m-stat low"><span class="k">30일 최저</span><span class="v">' + (stats.min ? num(stats.min) + '원' : '-') + '</span></div>' +
+      '<div class="m-stat"><span class="k">30일 최고</span><span class="v">' + (stats.max ? num(stats.max) + '원' : '-') + '</span></div>' +
+      '</div>';
+
+    // 당일 / 30일 추이 전환 탭
+    html += '<div class="m-tabs" role="tablist" aria-label="가격 추이 구간">' +
+      '<button type="button" role="tab" id="tab-intraday" data-tab="intraday" aria-controls="panel-intraday" aria-selected="' + (def === "intraday") + '">' +
+        '<span class="lb">당일 추이</span>' +
+        '<span class="sm">' + (intra.points.length ? (intra.points.length > 1 ? '오늘 ' + intra.points.length + '회 관측' : '오늘 1회 관측') : '오늘 관측 전') + '</span>' +
+      '</button>' +
+      '<button type="button" role="tab" id="tab-daily" data-tab="daily" aria-controls="panel-daily" aria-selected="' + (def === "daily") + '">' +
+        '<span class="lb">30일 추이</span>' +
+        '<span class="sm">' + (days.length ? days.length + '일 기록' : '기록 전') + '</span>' +
+      '</button>' +
+      '</div>';
+
+    html += '<div class="m-panel" role="tabpanel" data-panel="intraday" id="panel-intraday" aria-labelledby="tab-intraday"' + (def === "intraday" ? '' : ' hidden') + '>' + intradayPanel(intra) + '</div>';
+    html += '<div class="m-panel" role="tabpanel" data-panel="daily" id="panel-daily" aria-labelledby="tab-daily"' + (def === "daily" ? '' : ' hidden') + '>' + dailyPanel(days, stats) + '</div>';
+
+    var unit = unitText(deal);
+    if (unit) html += '<div class="m-unit">단가 환산 · <b>' + esc(unit) + '</b><br>상품명에 적힌 박스 구성 수량·용량으로 나눈 값이며 배송비·쿠폰은 반영되지 않습니다.</div>';
+
+    el.sheetBody.innerHTML = html;
+  }
+
+  // 모달이 열려 있는 동안 히스토리 한 칸을 차지한다.
+  // 그래야 휴대폰·브라우저 뒤로가기가 페이지를 떠나지 않고 모달만 닫는다.
+  function openSheet(deal) {
+    if (!deal) return;
+    state.lastFocus = document.activeElement;
+    buildSheet(deal);
+    el.sheet.hidden = false;
+    el.sheetBody.scrollTop = 0;   // 다시 열 때 항상 맨 위(요약·통계)부터 보이도록
+    document.body.style.overflow = "hidden";
+    try {
+      if (!(history.state && history.state.modalOpen)) history.pushState({ modalOpen: true }, "");
+    } catch (err) { /* 파일 직접 열기 등 pushState가 막힌 환경에서는 그냥 동작 */ }
+    el.sheetBack.focus();
+  }
+
+  // fromHistory=true 는 뒤로가기(popstate)로 닫히는 경우 — 히스토리를 다시 건드리지 않는다.
+  function closeSheet(fromHistory) {
+    if (el.sheet.hidden) return;
+    el.sheet.hidden = true;
+    document.body.style.overflow = "";
+    if (state.lastFocus && state.lastFocus.focus) state.lastFocus.focus();
+    if (!fromHistory && history.state && history.state.modalOpen) {
+      // 모달용으로 넣은 히스토리를 정리한다. 여기서 발생하는 popstate는 모달이 이미 닫혀 있어 무시된다.
+      history.back();
+    }
+  }
+
+  window.addEventListener("popstate", function () {
+    if (!el.sheet.hidden) closeSheet(true);
+  });
+
+  // 당일 추이 / 30일 추이 전환
+  function switchTab(name) {
+    Array.prototype.forEach.call(el.sheetBody.querySelectorAll("[data-tab]"), function (b) {
+      b.setAttribute("aria-selected", String(b.getAttribute("data-tab") === name));
+    });
+    Array.prototype.forEach.call(el.sheetBody.querySelectorAll(".m-panel"), function (p) {
+      p.hidden = p.getAttribute("data-panel") !== name;
+    });
+  }
+  el.sheetBody.addEventListener("click", function (e) {
+    var btn = e.target.closest ? e.target.closest("[data-tab]") : null;
+    if (!btn) return;
+    switchTab(btn.getAttribute("data-tab"));
+  });
+  el.sheetBody.addEventListener("keydown", function (e) {
+    if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+    var btn = e.target.closest ? e.target.closest("[data-tab]") : null;
+    if (!btn) return;
+    e.preventDefault();
+    var next = btn.getAttribute("data-tab") === "intraday" ? "daily" : "intraday";
+    switchTab(next);
+    var target = el.sheetBody.querySelector('[data-tab="' + next + '"]');
+    if (target) target.focus();
+  });
+
+  el.chips.addEventListener("click", function (e) {
+    var btn = e.target.closest(".chip");
+    if (!btn) return;
+    Array.prototype.forEach.call(el.chips.querySelectorAll(".chip"), function (c) { c.classList.remove("active"); });
+    btn.classList.add("active");
+    state.cat = btn.dataset.cat;
+    render();
+  });
+  el.sort.addEventListener("change", function () { state.sort = el.sort.value; render(); });
+  el.q.addEventListener("input", function () { state.q = el.q.value; render(); });
+
+  el.grid.addEventListener("click", function (e) {
+    var card = e.target.closest(".card");
+    if (!card) return;
+    openSheet(state.byId[card.dataset.id]);
+  });
+  el.grid.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    var card = e.target.closest(".card");
+    if (!card) return;
+    e.preventDefault();
+    openSheet(state.byId[card.dataset.id]);
+  });
+  el.sheetClose.addEventListener("click", function () { closeSheet(); });
+  el.sheetBack.addEventListener("click", function () { closeSheet(); });
+  el.sheet.addEventListener("click", function (e) {
+    if (e.target.getAttribute("data-close")) closeSheet();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !el.sheet.hidden) closeSheet();
+  });
+
+  fetch("./deals.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (d) {
+      state.data = d;
+      state.byId = {};
+      (d.deals || []).forEach(function (x) { state.byId[String(x.productId)] = x; });
+      setStamp(d);
+      renderBanner(d);
+      renderWatch(d);
+      renderScope(d);
+      render();
+    })
+    .catch(function () {
+      state.data = { status: "offline", deals: [], watchlist: [] };
+      el.stamp.textContent = "데이터 없음";
+      renderScope(null);
+      render();
+    });
+})();
+</script>
+</body>
+</html>
