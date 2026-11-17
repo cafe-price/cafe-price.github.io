@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 15:47 KST",
+  "updatedAt": "2026-11-17 16:49 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -1973,14 +1973,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 26860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 17980,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 56647,
-      "minPrice": 26860,
+      "priceCount": 7,
+      "avgPrice": 51123,
+      "minPrice": 17980,
       "maxPrice": 71540,
-      "lastPrice": 26860,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastPrice": 17980,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1992,11 +1997,11 @@
         ],
         [
           "2026-11-17",
-          26860,
+          17980,
           71540,
-          49200,
-          26860,
-          2
+          38793,
+          17980,
+          3
         ]
       ],
       "uniqueDays": 2
@@ -6731,14 +6736,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 75000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 45000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 75000,
-      "minPrice": 75000,
+      "priceCount": 2,
+      "avgPrice": 60000,
+      "minPrice": 45000,
       "maxPrice": 75000,
-      "lastPrice": 75000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastPrice": 45000,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6747,9 +6757,17 @@
           75000,
           75000,
           1
+        ],
+        [
+          "2026-11-17",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "6702247311": {
       "productName": "토스키 바나나 시럽, 1L, 3개",
@@ -7600,14 +7618,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 18900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 37700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 18900,
+      "priceCount": 2,
+      "avgPrice": 28300,
       "minPrice": 18900,
-      "maxPrice": 18900,
-      "lastPrice": 18900,
-      "lastAt": "2026-11-16 19:03 KST",
+      "maxPrice": 37700,
+      "lastPrice": 37700,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7616,9 +7639,17 @@
           18900,
           18900,
           1
+        ],
+        [
+          "2026-11-17",
+          37700,
+          37700,
+          37700,
+          37700,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9434882675": {
       "productName": "스페셜 블렌드 브라질, 콜롬비아, 에티오피아 원두커피 커피콩 맛있는 고소한 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
@@ -10375,22 +10406,27 @@
           "at": "2026-11-17 02:12 KST",
           "price": 9500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 19000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 9500,
+      "priceCount": 2,
+      "avgPrice": 14250,
       "minPrice": 9500,
-      "maxPrice": 9500,
-      "lastPrice": 9500,
-      "lastAt": "2026-11-17 02:12 KST",
+      "maxPrice": 19000,
+      "lastPrice": 19000,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           9500,
-          9500,
-          9500,
-          9500,
-          1
+          19000,
+          14250,
+          19000,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13012,22 +13048,27 @@
           "at": "2026-11-17 14:11 KST",
           "price": 20000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 9000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 20000,
-      "minPrice": 20000,
+      "priceCount": 2,
+      "avgPrice": 14500,
+      "minPrice": 9000,
       "maxPrice": 20000,
-      "lastPrice": 20000,
-      "lastAt": "2026-11-17 14:11 KST",
+      "lastPrice": 9000,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-17",
+          9000,
           20000,
-          20000,
-          20000,
-          20000,
-          1
+          14500,
+          9000,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13146,7 +13187,7 @@
     },
     "9443353722": {
       "productName": "골든브릭스 크림 바닐라 소스, 1개, 2kg",
-      "category": "크림·연유",
+      "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 15:47 KST",
@@ -13236,22 +13277,27 @@
           "at": "2026-11-17 15:47 KST",
           "price": 18000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 30000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 18000,
+      "priceCount": 2,
+      "avgPrice": 24000,
       "minPrice": 18000,
-      "maxPrice": 18000,
-      "lastPrice": 18000,
-      "lastAt": "2026-11-17 15:47 KST",
+      "maxPrice": 30000,
+      "lastPrice": 30000,
+      "lastAt": "2026-11-17 16:49 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           18000,
-          18000,
-          18000,
-          18000,
-          1
+          30000,
+          24000,
+          30000,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13307,6 +13353,202 @@
           16780,
           16780,
           16780,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9066672327": {
+      "productName": "[완판템] 약산성 클렌징밀크 500ml, 민감피부 안심 저자극 보습 세안제, 대용량 팜스 수딩 에스테틱 전용 [한정수량]",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 17400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17400,
+      "minPrice": 17400,
+      "maxPrice": 17400,
+      "lastPrice": 17400,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          17400,
+          17400,
+          17400,
+          17400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8818611683": {
+      "productName": "클로에코 6mm 21cm PHA 빨대 개별포장 화이트 해양분해, 100개, 1개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 7350,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7350,
+      "minPrice": 7350,
+      "maxPrice": 7350,
+      "lastPrice": 7350,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7350,
+          7350,
+          7350,
+          7350,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8704888771": {
+      "productName": "제이디팩 일자 빨대 7*210mm 투명 개별포장 500개 4000개 10000개, 1세트, 500개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 7580,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7580,
+      "minPrice": 7580,
+      "maxPrice": 7580,
+      "lastPrice": 7580,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7580,
+          7580,
+          7580,
+          7580,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8089929761": {
+      "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 17130,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17130,
+      "minPrice": 17130,
+      "maxPrice": 17130,
+      "lastPrice": 17130,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          17130,
+          17130,
+          17130,
+          17130,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1279958822": {
+      "productName": "토스키 카라멜 소스, 2kg, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 25000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25000,
+      "minPrice": 25000,
+      "maxPrice": 25000,
+      "lastPrice": 25000,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6702281973": {
+      "productName": "토스키 모히또 민트 시럽, 1L, 10개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 145000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 145000,
+      "minPrice": 145000,
+      "maxPrice": 145000,
+      "lastPrice": 145000,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          145000,
+          145000,
+          145000,
+          145000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6175779044": {
+      "productName": "토스키 핑크 자몽 시럽, 1L, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 16:49 KST",
+          "price": 16000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16000,
+      "minPrice": 16000,
+      "maxPrice": 16000,
+      "lastPrice": 16000,
+      "lastAt": "2026-11-17 16:49 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16000,
+          16000,
+          16000,
+          16000,
           1
         ]
       ],

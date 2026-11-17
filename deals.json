@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 15:47 KST",
-  "statsAt": "2026-11-17 15:47 KST",
+  "updatedAt": "2026-11-17 16:49 KST",
+  "statsAt": "2026-11-17 16:49 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 254,
+  "count": 260,
   "priceStats": {
-    "products": 395,
-    "discounts": 10
+    "products": 402,
+    "discounts": 13
   },
   "deals": [
     {
@@ -909,12 +909,12 @@
       "unitPrice": 1890,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 18900,
+      "avgPrice": 28300,
       "minPrice": 18900,
-      "maxPrice": 18900,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "maxPrice": 37700,
+      "priceCount": 2,
+      "discountRate": 33,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -923,12 +923,24 @@
           18900,
           18900,
           1
+        ],
+        [
+          "2026-11-17",
+          37700,
+          37700,
+          37700,
+          37700,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 19:03 KST",
           18900
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          37700
         ]
       ]
     },
@@ -1113,11 +1125,11 @@
       "unitPrice": 2686,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 56647,
-      "minPrice": 26860,
+      "avgPrice": 51123,
+      "minPrice": 17980,
       "maxPrice": 71540,
-      "priceCount": 6,
-      "discountRate": 53,
+      "priceCount": 7,
+      "discountRate": 47,
       "uniqueDays": 2,
       "dailyHistory": [
         [
@@ -1130,11 +1142,11 @@
         ],
         [
           "2026-11-17",
-          26860,
+          17980,
           71540,
-          49200,
-          26860,
-          2
+          38793,
+          17980,
+          3
         ]
       ],
       "priceHistory": [
@@ -1161,6 +1173,10 @@
         [
           "2026-11-17 15:47 KST",
           26860
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          17980
         ]
       ]
     },
@@ -1537,26 +1553,30 @@
       "unitPrice": 4000,
       "unitBasis": "100g당",
       "packNote": "500g",
-      "avgPrice": 20000,
-      "minPrice": 20000,
+      "avgPrice": 14500,
+      "minPrice": 9000,
       "maxPrice": 20000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
         [
           "2026-11-17",
+          9000,
           20000,
-          20000,
-          20000,
-          20000,
-          1
+          14500,
+          9000,
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 14:11 KST",
           20000
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          9000
         ]
       ]
     },
@@ -1705,6 +1725,43 @@
         [
           "2026-11-17 06:18 KST",
           12900
+        ]
+      ]
+    },
+    {
+      "productId": "8089929761",
+      "vendorItemId": "",
+      "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
+      "productPrice": 17130,
+      "productImage": "https://ads-partners.coupang.com/image1/bIqGEci67V84GHPebLLHuObR99A9Gbgmwuseq5SWBjn_N7Ybj5lDwcmZQ6TWR5r_cOs5rmObKXTdAoo_hy0G7SCzGFqrsptj1d2x36xXI50eDuLPxBqKGAPe5bd4IDjVMYVdxmxRsHG_N0d4VaAIbvgcgfsFNixJVsTlPFsoU2W0RnPo-PEBpnT7-5GyNFQXPBUnMLKPxo-SVdYfI38iJqJMaXz37seeloVDlQV6uiRw5KvMJQeQv4kYWArhrg3F28LbQ-VahRwadA7uG2KSEfzUQUz_o41Y5Jr2O5pG_FBkLngInrMxqxVEWUoSEzMpwUGYJyQt9ojtibP08ERe1PbGsBF_sTbKYFlErpS2XR_fgqVISYXS15FjVdVfmvudOIU4PjHtsMPC56bJQRT5VYxdAHGcJH1Jt57GnN7_dGT6qWv8-X0ch33bkRkuSDgjAwaZPYhC4NLDsOoxgKVL5_wjpXoG5NIESch0Er3ySfp8swTN_u-ETt2JB8Oa9HwLKYvUrnHi6s8=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8089929761&itemId=28511109761&vendorItemId=95460129404&traceid=V0-153-a9ac8d09548bb61f&clickBeacon=5661fe40-e25b-11f1-9808-dcd325f0e507%7E3&requestid=20261117164854348127373146&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "카라멜 소스 2kg",
+      "unitPrice": 856,
+      "unitBasis": "100g당",
+      "packNote": "2,000g",
+      "avgPrice": 17130,
+      "minPrice": 17130,
+      "maxPrice": 17130,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          17130,
+          17130,
+          17130,
+          17130,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          17130
         ]
       ]
     },
@@ -2038,6 +2095,43 @@
       ]
     },
     {
+      "productId": "1279958822",
+      "vendorItemId": "",
+      "productName": "토스키 카라멜 소스, 2kg, 1개",
+      "productPrice": 25000,
+      "productImage": "https://ads-partners.coupang.com/image1/lWStJ_hqHMsxEHPUlfnHMtV1fTKinFUmdsdi6Q-1S6hana6hgx8ca_oY6bECrldVXlB2MuX_HdIVigsUGu5fyOpmukq-d48VpLEORumtU9Jh24zE9R0SN7HfNf6RrsguRmL8wYBGWTTip8rkamurl-Bo7XMzYSatCaNdXoWBkJwlUes417toWL_t_28TXwb_QGdjyfh9j7UIi3oS_N0H1bXDj4DXTpv9Ovffajac2yuPvOiPIF16DtMnQgndrN2O97ARuNVooxs9byb8mshh6IJN05fd8W_c82ftE-qdgbW93vAAyxKegF2Qs592BGEZH28hHvRpCXZkwn27TCg_E5rgufzMOq-YUGhC1b12G9eTqXZhPfAQvp_bIFiA2mEcLCPu-BHC4DyjGedroEYsvWaAIBzmiPVnMHHxOrsstsazlM3GCb9mBFRdKSDHS7b5uiX3-EZi-JiEtDqDdlEJzn-9eInMBWaVTsnfSnyK5LHS5p8gfiZ-vQQNh9vXy9U8HYKWkgfgXPM=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1279958822&itemId=26521858442&vendorItemId=93496205282&traceid=V0-153-a5a50897cc52d1a6&clickBeacon=5661fe40-e25b-11f1-8033-46282ea41973%7E3&requestid=20261117164854348127373146&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "카라멜 소스 2kg",
+      "unitPrice": 1250,
+      "unitBasis": "100g당",
+      "packNote": "2,000g",
+      "avgPrice": 25000,
+      "minPrice": 25000,
+      "maxPrice": 25000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          25000
+        ]
+      ]
+    },
+    {
       "productId": "9493852898",
       "vendorItemId": "",
       "productName": "토스키 카라멜 시럽 750ml, 1개, 750ml",
@@ -2051,26 +2145,30 @@
       "unitPrice": 1267,
       "unitBasis": "100ml당",
       "packNote": "750ml",
-      "avgPrice": 9500,
+      "avgPrice": 14250,
       "minPrice": 9500,
-      "maxPrice": 9500,
-      "priceCount": 1,
-      "discountRate": null,
+      "maxPrice": 19000,
+      "priceCount": 2,
+      "discountRate": 33,
       "uniqueDays": 1,
       "dailyHistory": [
         [
           "2026-11-17",
           9500,
-          9500,
-          9500,
-          9500,
-          1
+          19000,
+          14250,
+          19000,
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 02:12 KST",
           9500
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          19000
         ]
       ]
     },
@@ -2296,6 +2394,43 @@
       ]
     },
     {
+      "productId": "6702281973",
+      "vendorItemId": "",
+      "productName": "토스키 모히또 민트 시럽, 1L, 10개",
+      "productPrice": 145000,
+      "productImage": "https://ads-partners.coupang.com/image1/DcBIeOTZ11OkhypkDeEsv0XWSfJos-c-Ya1UMhSRh2JG1uNq_ez6vvlRhSdIC1RfuvsHwuJ7WNVFs1f0K3YcoJRbcE0StLr70KS9VkrDCe5qbcBPy2-xT_hl4ytrhMzk1xP4b7kUT-R6sdOlB7mRPPSafmY4gvrBW2Hx-npeqSziydHlHZEKRGe8DRwH3tDM4RYEJ5DpQCTQSBM67p_MnTH3LwqsmdG0R1NQdtkNSDh9M_CfaVNQdfP9LPcWSSZeqamxuc2bFrXs2Yle3PtrwmsTGaB9-C9i0-Z_l63qDVKv6sUQKs_rrp_4U3qNvpntZO3h5YrhWXiX8SnorB2YNI62dEr0vCNDrNucu5TdCD0VjVuwg1zJ1STsVKz4Lxd4t4XgfCuRyWe53mkKicRRMvrrNJS14I47MnuyFGW56pYE2-SPlVosw3Z3uT2zo0hzhM66BC3Y7F5PMaTvU5kEAJ_j3xSnNCcfFr15C_pnN4EqtcIvzm-R0TwAUy1bMg0BTvbx2fbrOW_RYGbi",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6702281973&itemId=29199696962&vendorItemId=96120147678&traceid=V0-153-6596372d9e91dde6&clickBeacon=5b684f20-e25b-11f1-bb10-cda0389f84b5%7E3&requestid=20261117164902799158142185&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "민트 시럽 1L",
+      "unitPrice": 1450,
+      "unitBasis": "100ml당",
+      "packNote": "1,000ml×10",
+      "avgPrice": 145000,
+      "minPrice": 145000,
+      "maxPrice": 145000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          145000,
+          145000,
+          145000,
+          145000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          145000
+        ]
+      ]
+    },
+    {
       "productId": "6702258615",
       "productName": "토스키 라임 시럽, 1L, 5개",
       "productPrice": 75000,
@@ -2308,12 +2443,12 @@
       "unitPrice": 1500,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×5",
-      "avgPrice": 75000,
-      "minPrice": 75000,
+      "avgPrice": 60000,
+      "minPrice": 45000,
       "maxPrice": 75000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2322,12 +2457,24 @@
           75000,
           75000,
           1
+        ],
+        [
+          "2026-11-17",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 16:51 KST",
           75000
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          45000
         ]
       ]
     },
@@ -2647,6 +2794,43 @@
       ]
     },
     {
+      "productId": "6175779044",
+      "vendorItemId": "",
+      "productName": "토스키 핑크 자몽 시럽, 1L, 1개",
+      "productPrice": 16000,
+      "productImage": "https://ads-partners.coupang.com/image1/sDiwANHVGsqOI19rsOW7gJ6FWBYWqeIQfQEcQXnsHRBLOZWAVOCzBhPnOOVDQtMTAlapKtd1ED2O13H7IXEosNpHTmUZzbZKvlBqXI8974vNAwJ5ssHl9CLAWOhv1yreE_9MAF2ky96B_mYui7LSwNY6MImJ64NP6pF0C2KBLpA3v5PmMPi-8HrHqPchbgVqPUQRr3WUmHUjs2h2mb8ieycRhh4_IeQZF4Dsr3SKq6MiVd3lupIkN9ikpAj-wgg_vjlDalgy0T9crTGDhr0cZm0uhsSORpOVjlbBMtts64LlZx39u8NyjkZRJVn3X6jcp5wns_V1ko6VRQtRmoOPXj_89S8VEIJiGZYH4fl-R-VvRJkkQbIBeApylJkCnCeMqmL-cTz3KSNGpvvzmzIIZd7Xx2oIiqUiVEINFLx9VRcQBaowac9ujHU5iHirAw53bYfE2hUvM9UO6KO_S2F2BYAyaPIuIaY4pTz4gs9aXlCCk6JKN_1kLlc3FSqaQ2tJ4wKf4iUjwA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6175779044&itemId=15528790356&vendorItemId=70599790996&traceid=V0-153-836c644e14fd65cc&clickBeacon=5b687630-e25b-11f1-87e4-257057086bef%7E3&requestid=20261117164902799158142185&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "민트 시럽 1L",
+      "unitPrice": 1600,
+      "unitBasis": "100ml당",
+      "packNote": "1,000ml",
+      "avgPrice": 16000,
+      "minPrice": 16000,
+      "maxPrice": 16000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16000,
+          16000,
+          16000,
+          16000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          16000
+        ]
+      ]
+    },
+    {
       "productId": "335762157",
       "vendorItemId": "",
       "productName": "샷 시럽 헤이즐넛 1000ml",
@@ -2697,26 +2881,30 @@
       "unitPrice": 1800,
       "unitBasis": "100ml당",
       "packNote": "1,000ml",
-      "avgPrice": 18000,
+      "avgPrice": 24000,
       "minPrice": 18000,
-      "maxPrice": 18000,
-      "priceCount": 1,
-      "discountRate": null,
+      "maxPrice": 30000,
+      "priceCount": 2,
+      "discountRate": 25,
       "uniqueDays": 1,
       "dailyHistory": [
         [
           "2026-11-17",
           18000,
-          18000,
-          18000,
-          18000,
-          1
+          30000,
+          24000,
+          30000,
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 15:47 KST",
           18000
+        ],
+        [
+          "2026-11-17 16:49 KST",
+          30000
         ]
       ]
     },
@@ -8688,6 +8876,43 @@
       ]
     },
     {
+      "productId": "8704888771",
+      "vendorItemId": "",
+      "productName": "제이디팩 일자 빨대 7*210mm 투명 개별포장 500개 4000개 10000개, 1세트, 500개입",
+      "productPrice": 7580,
+      "productImage": "https://ads-partners.coupang.com/image1/bTDdF1pBD_VWplyPbQ8rkeM8mAfQerC7oe-I0iO2JRMElvurQ000kEnRcEUHGQFDBq6ccwDnL0XQulZlLmqLxp9LHc2WMaT7mcVjuIvs6s0UedzrGz2grjpGdR85O5cBTNfzIl7gXcweTQ4pDWs6Y5Fq7rx2Sr2y_ukKMh1t4bK2dPTCurFlnfcUrfDQyS9pLQhF_OAvg3OxZhxfCBCumEs9a4hQMqcl8-O6f2mQL1jSXJ1ZW2Xl-dYMbi36K6K3QKf4Y3t3Zlurud7BfoHR_gmKiaz-XygJ_Tguk612laXHrEic4nVJ0cjlpghoYtMOB8aW2Sd22jlbtizR7gYVXPwAXLpN22xiE8ncIrANMEPBLcmkT9M7iFD2EDIOeSsZq9flkpJqSE8auzS1GfSGgI1hA0-1rPZRtg0Nw4Eae2k6FmFVyxRRNvUADEaZYmcA6tGKb-2aw_-JdX4Fx3Al6fgoBGCPJzAm8HywDRgfVigSa9Wg6FmPNpPX8bnz0191Llll-EPgKSKub5fVaRYy9hPP5DIMuQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8704888771&itemId=25279925926&vendorItemId=91688990115&traceid=V0-153-dbeb02ef4314e301&clickBeacon=46cc4710-e25b-11f1-bffd-c3b8294ff15a%7E3&requestid=20261117164828179088811031&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "빨대 6mm 1000개",
+      "unitPrice": 15,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 7580,
+      "minPrice": 7580,
+      "maxPrice": 7580,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7580,
+          7580,
+          7580,
+          7580,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          7580
+        ]
+      ]
+    },
+    {
       "productId": "8900660404",
       "vendorItemId": "",
       "productName": "제이디팩 일자 빨대 7*280mm 검정 개별포장 500개, 1세트, 500개입",
@@ -9261,6 +9486,43 @@
           6800,
           6800,
           4
+        ]
+      ]
+    },
+    {
+      "productId": "8818611683",
+      "vendorItemId": "",
+      "productName": "클로에코 6mm 21cm PHA 빨대 개별포장 화이트 해양분해, 100개, 1개입",
+      "productPrice": 7350,
+      "productImage": "https://ads-partners.coupang.com/image1/bry_mLhGr-O9kWgbbuJ2uLq-2eCOpIHuCXt19lgbVpHAQm2GpGm-9eSMFSWuh2vLUl0AyGi08pSRoY1ewkxtKqAUi5ekOELxZDOO4i6MKRh0iJ4nDJ6A6I-_KnJ8h90bISvz1u2ovYoLPCY6hMscI11hO8e8MGB6TdpfdxMA2sydxK6zwKwHE-jkROhwNadMbm9KuGiEUhJU5S1GNdFy_VY372n4bJYFj6_c4_E9qQR29wprkcxlDylYCOFaQIIEDg7SoB4bluNffIIeIt-I3fYWQsKBB3qMaBe92Px-g9_Wtp6lFByWwERjW5_o1eMeakinroHuIok7Ga3dD9cPgC1w-zS1H0NT9kVnwH6eJvDwdx7plcU_ryrflCFJcUp-Ddh3j00AY79jUGjpz20XizHg2ybzKi3fmBxW6t2C2kssMWhzvdDhXk68OlY1L_KMs3DYGwz9Vyb5FoN-WFWHvyDYH6DQoiLx-x2gEYkyUtslomxcVepSremg5DAUEjXM5mBXAjicmYZejUXODBIgI1MUrM9wdw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8818611683&itemId=25697681517&vendorItemId=92686772755&traceid=V0-153-52730b5ab2ae8bfa&clickBeacon=46cc4710-e25b-11f1-af4b-6f42a30bca96%7E3&requestid=20261117164828179088811031&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "빨대 6mm 1000개",
+      "unitPrice": 74,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 7350,
+      "minPrice": 7350,
+      "maxPrice": 7350,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7350,
+          7350,
+          7350,
+          7350,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 16:49 KST",
+          7350
         ]
       ]
     },
