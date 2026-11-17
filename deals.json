@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-17 19:53 KST",
-  "statsAt": "2026-11-17 19:53 KST",
+  "updatedAt": "2026-11-17 20:54 KST",
+  "statsAt": "2026-11-17 20:54 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 282,
+  "count": 285,
   "priceStats": {
-    "products": 427,
+    "products": 431,
     "discounts": 22
   },
   "deals": [
@@ -268,10 +268,10 @@
       "unitPrice": 368,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×12",
-      "avgPrice": 47040,
+      "avgPrice": 49000,
       "minPrice": 44100,
-      "priceCount": 5,
-      "discountRate": 6,
+      "priceCount": 6,
+      "discountRate": 10,
       "priceHistory": [
         [
           "2026-11-16 00:12 KST",
@@ -292,6 +292,10 @@
         [
           "2026-11-17 19:53 KST",
           58800
+        ],
+        [
+          "2026-11-17 20:54 KST",
+          58800
         ]
       ],
       "maxPrice": 58800,
@@ -311,7 +315,7 @@
           58800,
           58800,
           58800,
-          1
+          2
         ]
       ]
     },
@@ -922,20 +926,20 @@
       "vendorItemId": "",
       "productName": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 15890,
-      "productImage": "https://ads-partners.coupang.com/image1/xPo3kkmmnDqdXnDaxDhuMTuX85GVqVG0gmM66NSSFOksbwO8JGuxPqeUkiCn2ggGHHskATkfGZ0x7NLNVR9kbipavMg2B-7DdWxiZVIiySc1mHWaz0gBk-ZgyYss9ABgW5I7SOTgeB6_LNChlRDXTf8Els-VmkyzIiFKb6GyZva2Aq-ULj0p3udKMPidWFjRpj9Cr_8BoKVM_fwrdkcLihst5XwlUjQBuoasgMwpuhjDiwatFcBzwFp3EvlVeCRgs9O-Abfhf0reyw-ND9SBmuMOF4M80eKdjkEOV-gMv_g8_MdQX8KZEtFK2V7fWTwvCCgmluM6Kv4mPQIkIk4ojywTnZeIZSQiT9Dy9f2vdi_RYWQx0mSI5mxnGfq60kPAomoiMHxJ1ETg94Eu0TpcDzZ9LkPKhxB16Wh9eJcWT-9EvoBELWfK_y67_a1J3ol0kXG0WHw4nj_bz9CzqTPHU68j0-rfUJFmDWylPzA91QkPRX5rmoF3x4FhK9ANKx1gYDdvWBZeOsmJ9IYpRXszlyvpOKs-f5UP4Gexo0PxzMA-pQJkcZHXvO-K0qKejc37fWObExhEdFSYCEbLzjEPKi5oTN4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9136027887&itemId=26957283832&vendorItemId=94780941238&traceid=V0-153-b9f45964ab2b00f2&clickBeacon=ad251400-e252-11f1-a3be-66d687fbc5dd%7E3&requestid=20261117154654432034670148&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/7e8Lk2k-h0kO3GFB7ba6to0XiU8ENRysoqcdItB0u2MF8vF3LGQx9wHnYdaQ8kmiuVR8aFxR9DLbU7qU1Rc8QjaV9jOrcXQMrWjtgrU1pfhym6WhumsYgjKnFS1IU9BjXSw_Y0809Tx28Lizb1I3il9f4q1Eg3ft90w9rQvGipefaNT8-kjm-thBXK_xRMgNRI4cmBwD4D7lsk8E_iQIQv84-CKXVymcKCyVNUZ5Xek9VMtbVRg7YRW7SK-HlUAJGHNNYRZBGb4G41PXl1NjKCfF-tI9tTBLJmlLfO9oL7-q37bwK6kSm7MxfXp9_6UQsu8Bx7h7SjoP1IuLq5Exo1SgZY-Ccti8VH5kboPzzlcbAOavFfXTCvy02qzZlu-8-BtLGAzWjMWq7Xb7sKiO6u8kebttR4O4rMxB8rm493wHeXkgbJp0oJ2Y2BtU0qvK4Bcn1CzxdzbL1iJA-k7ppC5ax32l-A3pqMv_6myIixup77vQKY3Ccw1h12ERzOoHZN2xGuosVJu04kRBRJo78v3fg_cU6lqjtTeR4A5uxjjjxY2H_TkJtI0uNyW4I3dI5R6UkrGcxttu9IjfEJcgtw_gp63e",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9136027887&itemId=26957283832&vendorItemId=94780941238&traceid=V0-153-b9f45964ab2b00f2&clickBeacon=8a95ab90-e27d-11f1-b2da-6558778daf3c%7E3&requestid=20261117205344806209018286&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "콜드브루 원두 1kg",
+      "query": "탄자니아 원두 1kg",
       "unitPrice": 1589,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 20330,
+      "avgPrice": 19696,
       "minPrice": 15890,
       "maxPrice": 42530,
-      "priceCount": 6,
-      "discountRate": 22,
+      "priceCount": 7,
+      "discountRate": 19,
       "uniqueDays": 2,
       "dailyHistory": [
         [
@@ -950,9 +954,9 @@
           "2026-11-17",
           15890,
           42530,
-          24770,
+          22550,
           15890,
-          3
+          4
         ]
       ],
       "priceHistory": [
@@ -978,6 +982,10 @@
         ],
         [
           "2026-11-17 15:47 KST",
+          15890
+        ],
+        [
+          "2026-11-17 20:54 KST",
           15890
         ]
       ]
@@ -1182,19 +1190,19 @@
       "vendorItemId": "",
       "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 26800,
-      "productImage": "https://ads-partners.coupang.com/image1/g15687zNdrtWoyh6g2nYPQJ_Jp3j0yM5Ry74GtUpsI8zu-5dD6xgqknOaXgl8L1N4PT4VFtnINrleZwnVf_P6erXWzPbTzfvwSdVX-rMbtzAR99sIWk4lZVdwutwxX2IlnL657_w1mgpLfsZSKy5hwarai4SpiwNAKxOOrZ0C_0I9hF3i35giasLTS9KMRXQ3ZXSUUpMBjXVDbUDCZBPbXD0Aj1ypw5px-KNiS7GDW-aPoHptq26EqNtJzZ267MQlLFvAsrooT9eQIZn7TYUhyfvA9UyFNuN1ndABD-saXegO4C3beAla0PRxG_paB8y2jdKUiMRvvk9XwkZ2g0pWWWKQYIQ8KcKga30-hTiXLgL3Yc50OOEmbjDQoaXyhmjYXCzL87SvzYBzKXCvG2YzmKCNbJKY9mrYLc8RvzbZ4yhnre75lHbVlC8XTZ_HSBTGkt9G0MVm_3Am3OI269lernmaTRRedtRcRFUs8S8qCQOo5uFMxrx2nMvQhI5ZNo5UKls77PhZsRCoJEPZW6Rb1f0OMbF2iv7lQ-Vm4LXWTpyuQtql83ahkMWERKDlWql0M1jcCdAwQb6tKxHACsxjZi1PR4w",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8360433211&itemId=24160594371&vendorItemId=91179185467&traceid=V0-153-fac61372da0a0df5&clickBeacon=ad251400-e252-11f1-8b36-33376277ec24%7E3&requestid=20261117154654432034670148&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/ndtkU8by_8C0N2JrnSckrRprSGz06rDxeCIZSdPidH-vt_OLJD__gUSa6OMsiK5GHM975S2dqKTplOoj-0ovZBRjJpItPZZiK_JyZSz_beov_9IBp_jn2nDms-3Zx2iuz4ZJEwdz1gjuvW4JY0Thpm-xQM43GpPRADnj2d1vQCyd9KvX_ukJaT9i2xTu3Vd3TMghphBTxxyUyNSc7wynj1-0CXEX63nwEZIUNCdCJXQmsvVrY5xIlg5GIDak8B_KjSpYqA3wJPPFzoEdzl5LhYSSVT0dtFgia9u0sHptqTCLQ5YwJ4ogtntCrEBgldFSeuNTZ4S2El5XZ0OA2PI0PXxBcCr7ZcgWogOerQNxkzYaOJrZv-rnbLYCHgkQbrvfLTa-H_daq4uNR9IHVvYfjR1lVNbkl9q6vadsktCZuvtX89wPE-V4xBCXttJTHcjg5fJfap-DRXhxq7RJp_cli_sLJLZdgGoZ4W6ZmJ5btl-G9u77LSy7zl8Cl0d8xW34D7kbHnMrPJNeFGt6eaZ82Zsg_xd1ZJuqi3DVvl5Cs9M7ODcfNLAGwWtENxSfq1Q_Kx1z9aTVLDFx_0bPazvIwZhvfw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8360433211&itemId=24160594371&vendorItemId=91179185467&traceid=V0-153-fac61372da0a0df5&clickBeacon=8a95ab90-e27d-11f1-9376-05f05114e057%7E3&requestid=20261117205344806209018286&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "콜드브루 원두 1kg",
+      "query": "탄자니아 원두 1kg",
       "unitPrice": 2680,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -1212,7 +1220,7 @@
           26800,
           26800,
           26800,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -1231,6 +1239,10 @@
         [
           "2026-11-17 15:47 KST",
           26800
+        ],
+        [
+          "2026-11-17 20:54 KST",
+          26800
         ]
       ]
     },
@@ -1239,20 +1251,20 @@
       "vendorItemId": "",
       "productName": "래빗커피 고소고소 블렌드 브라질, 콜롬비아, 인도 원두커피 원두콩, 가성비, 갓볶은 원두, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 26860,
-      "productImage": "https://ads-partners.coupang.com/image1/YiSB-8iSVrlzrFpjYgpgxuK_SUrwUpHSS-KYQg44GhzFZ4Tw4rVsw6_ycppdEzbBgsGTszcl_uuLLmpspXd5E7qbVvNhvS5SVzBAZ5UV5QGiAIfc_2QdmLz915SRI_KoBC7_T5OTOtvD_-TzZOEmMIMT3gjJwPQm28OhcuZTu5iyLW7jKO_62OmdgLsJslzl5aFcetW131ez_rmWAzQRBAyCjGpX84VShjlcZ7Fiq_YQyzqWSX8_iIq_2fdig5qiXm6vaD9z8b1mJGLj0rEzbplaDYUOuaeyVxyCSI28E4XlAlVNpy5iUxYZlsKD26KJiW03k1fsK-xov3z3brD7YEUFzR74PYqiLabwdD4Vf10Pf-QrEaoAug7_0VojpBqAWhIsNnYbIUn1l9zpOzJ-3zW24JDjFfe0YkSqKzDNgNEiM6ij82zrJtaCqCmwYbW-eCklWP0IrmADitdJ99x-B0NuzgCzIsxq0Wr7hwnTVOeInmyWCThRIfAUdhayVOE85JvLyOepwm9tGqcwdf5nJvC-AXefkG7b2ANRigRYXKgmPzwX7HtDP0dNtnVInRCSjRn2oSnDnrhBF9IDlqWPJ0wxgQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9267059189&itemId=21729048746&vendorItemId=94283388692&traceid=V0-153-17e16173e8eeccc0&clickBeacon=ad251400-e252-11f1-a9ba-e7b90cc37812%7E3&requestid=20261117154654432034670148&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/7LCPTHb9RaugBr037C6Fdnawj7sUhwkOJH07c83ktwIIaP8u61ALx7JUNc7nSzbmBop1P3OcvT1sNUXvyjkxAQOXfx4ikZ6IP5gkBeO9PnGypiAsSoRIfRzcJWbORy6xigoZ2JZq9mDWcvp-vfoh5v8JQN8WkVUKWEKdP2MPgs-Ti4m-dvX713woCZ1fRuwa1mT3wqSY_vnWadTn0lpULEv5bJc7vGq1FArhMsrQWs9hLEQJQC0kcTmX06bS5zxl46h1OjbPKrPkiLPG1JreGm6GVJdTxyz6y3blvhy5l8I6_LzSnQw4ZR2KCki1tQRVPdDdmax-bg_J1658tmj-I25WyQ77hPASI-DZF-HjHr1xr2QD630XRdlWbK0adlsDLlS7xaV2iphawJZ7xxH5OK4dysI9sySuv9TPM9HmM7UuWsh9S93qqdj2IZhf9DhVSPmfKeZGPHxSxjI4G6wVWm7M7cd_oFEF155ugmhqH2FhaLAM4yeJy_e3g0-2arT_KXxVHp3953vWG-yWHBzTaIlbI896KOUcgqaosjOS2WGQqFeE_2fNZb9o9AIQ3wofHsdvcloZ1UVSt44BWyHVhIGSrw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9267059189&itemId=21729048746&vendorItemId=94283388692&traceid=V0-153-17e16173e8eeccc0&clickBeacon=8a95ab90-e27d-11f1-9fc3-c9aa0aa36843%7E3&requestid=20261117205344806209018286&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "콜드브루 원두 1kg",
+      "query": "탄자니아 원두 1kg",
       "unitPrice": 2686,
       "unitBasis": "100g당",
       "packNote": "1,000g",
-      "avgPrice": 51123,
+      "avgPrice": 48090,
       "minPrice": 17980,
       "maxPrice": 71540,
-      "priceCount": 7,
-      "discountRate": 47,
+      "priceCount": 8,
+      "discountRate": 44,
       "uniqueDays": 2,
       "dailyHistory": [
         [
@@ -1267,9 +1279,9 @@
           "2026-11-17",
           17980,
           71540,
-          38793,
-          17980,
-          3
+          35810,
+          26860,
+          4
         ]
       ],
       "priceHistory": [
@@ -1300,6 +1312,10 @@
         [
           "2026-11-17 16:49 KST",
           17980
+        ],
+        [
+          "2026-11-17 20:54 KST",
+          26860
         ]
       ]
     },
@@ -6436,10 +6452,10 @@
       "unitPrice": 507,
       "unitBasis": "100g당",
       "packNote": "385g×24",
-      "avgPrice": 26765,
+      "avgPrice": 23920,
       "minPrice": 6670,
       "maxPrice": 46860,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -6455,9 +6471,9 @@
           "2026-11-17",
           6670,
           46860,
-          20067,
-          6670,
-          3
+          18185,
+          12540,
+          4
         ]
       ],
       "priceHistory": [
@@ -6476,6 +6492,10 @@
         [
           "2026-11-17 17:50 KST",
           6670
+        ],
+        [
+          "2026-11-17 20:54 KST",
+          12540
         ]
       ]
     },
@@ -6550,11 +6570,11 @@
       "unitPrice": 647,
       "unitBasis": "100g당",
       "packNote": "385g",
-      "avgPrice": 3253,
+      "avgPrice": 3635,
       "minPrice": 2490,
       "maxPrice": 4780,
-      "priceCount": 3,
-      "discountRate": 23,
+      "priceCount": 4,
+      "discountRate": 31,
       "uniqueDays": 2,
       "dailyHistory": [
         [
@@ -6569,9 +6589,9 @@
           "2026-11-17",
           2490,
           4780,
-          3635,
+          4017,
           4780,
-          2
+          3
         ]
       ],
       "priceHistory": [
@@ -6585,6 +6605,10 @@
         ],
         [
           "2026-11-17 17:50 KST",
+          4780
+        ],
+        [
+          "2026-11-17 20:54 KST",
           4780
         ]
       ]
@@ -8076,6 +8100,43 @@
       ]
     },
     {
+      "productId": "7797084513",
+      "vendorItemId": "",
+      "productName": "유리아 자스민차 삼각티백, 1.2g, 30개입, 1개",
+      "productPrice": 6900,
+      "productImage": "https://ads-partners.coupang.com/image1/jKxJ6YzN4wq5MDK1jDSI_VfwyorKcI7Lq1TNptJjkNRFAVFDLvJbktKC9ZvH7xtBxUfX8MwFO1eo4tYWSCQuB9JUQCp_OnbZbNPuLqqVAcX2enbqsTwS0c49GJGyJu3A6qcDzMS1YgGL3bTJdUn8vp7aZgMeR48qwdqtyjvayypaFh2ZNo6iXj3jUKFqUlNiTzocl0qxEUa8I7fi0CrEgkobyPCknnPr1WenAvygGJ3-L6LcSHqW66OjGcZY4wVS7dSZVacvrZYqF-_9r-76bGRvNwkyDqhCEYRs2OZpA-oq2RUyQCXjwavXgdEpRQG3DPoIDnwI5wjM0SHuL8qQVPuL-wdMwCY1if78zOgvYDmaORlbU8kLBGw3yMtoo8ZRZk3zK6wDAurp0UwgPYdod2tduP4QXlIWkw7fs7ZaKxapa0li6mT-eWmh2g5HPfGIGoOqjU10zIqg-NbpkKpE_eBqkocPwv8G6cjrfIZ0o9OLTYeMc-ymTIB6fcEjGrnJcxxHQCOc",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7797084513&itemId=27799726881&vendorItemId=94789402422&traceid=V0-153-f9dc585b5fbfeb87&clickBeacon=99c68670-e27d-11f1-bdc1-7eb02d1bb4cb%7E3&requestid=20261117205410312024856720&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "자스민 티백 100개입",
+      "unitPrice": 230,
+      "unitBasis": "개당",
+      "packNote": "30개입",
+      "avgPrice": 6900,
+      "minPrice": 6900,
+      "maxPrice": 6900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6900,
+          6900,
+          6900,
+          6900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 20:54 KST",
+          6900
+        ]
+      ]
+    },
+    {
       "productId": "9619984543",
       "vendorItemId": "",
       "productName": "유리아 더진한 캐모마일 삼각티백, 1개, 50개입, 1.5g",
@@ -8186,6 +8247,43 @@
       ]
     },
     {
+      "productId": "9612696416",
+      "vendorItemId": "",
+      "productName": "더 진한 자스민차 생분해 삼각티백 PLA원단, 1개, 50개입, 1.5g",
+      "productPrice": 12860,
+      "productImage": "https://ads-partners.coupang.com/image1/VRj47f8n92i_ZLQPVcxhLZdk56eqJ2HfOPG2GxNqK9NShBHvPUFy-RMek__8MTwjCjCq1HJgWmgonYKsJHYjAbesd-Nu8WTWFP9CcIlv-x6ZG1ds0cQfVQg80GfRlL3HWGP0ZuuAzBt0UjDP4S5k-vlSfECmTGSGZDnZVePkojQOv5ChAc0btOz4Gt3OGoqiDLbZKTxGh4g-gImM9LB-J8rQwP_0Z4bHSJmPMLpqoInVk_5ltpHbqN3HnxqqV30sK_vPiBOnZOyDC1AbzaeovJG_jSUwRh_hYyfGF-tVKXn_2NPU8L_e9zwo1n-OO_cP94SM4eMXbWHP2tP6sBuuWKr-DyDUpb5BYOfqT82TUubIUB3zInJ4QCsQ76o_LkCtpvVg3H7xjl-oWaw_Oal8w-GXXYMeIw48BlkCNb7uF9b7da-_R_LunY_E457KIjBs3Xys_qU-ot_iJElMj3d7Dkz_pG4FDK2NAZXS6hFSvpzr1E7mBwRiqc9hg_kZtI2e9tfJNsq5uNVGNDFjQLPM7AvLGFbODKg=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9612696416&itemId=28700066668&vendorItemId=95641127754&traceid=V0-153-16dd208c391891fe&clickBeacon=99c68670-e27d-11f1-8f08-f947c5fb4595%7E3&requestid=20261117205410312024856720&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "자스민 티백 100개입",
+      "unitPrice": 257,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 12860,
+      "minPrice": 12860,
+      "maxPrice": 12860,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12860,
+          12860,
+          12860,
+          12860,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 20:54 KST",
+          12860
+        ]
+      ]
+    },
+    {
       "productId": "2046090668",
       "vendorItemId": "",
       "productName": "난다라이프 얼그레이 홍차 티백, 2g, 30개입, 3개",
@@ -8219,6 +8317,43 @@
         [
           "2026-11-17 07:19 KST",
           23200
+        ]
+      ]
+    },
+    {
+      "productId": "7358438826",
+      "vendorItemId": "",
+      "productName": "청년농원 자스민차 티백 100% 순수 건강 허브차 대용량 허브티, 50개입, 1개, 1g",
+      "productPrice": 12900,
+      "productImage": "https://ads-partners.coupang.com/image1/X2Iq6v8dH5iTvHVcX23E_1UxfoLnyo2WbK2ax7E62r1Ntxl2JJQGMLjYxokwfP6vHotynj1TtKly8-QZCWiih0aEp2wXJI0ORjro9zLSr8ywMUUr1khLWuf1IAJDH78txnGetnnn4ceWS4W-IEgfR6EtQJ1IMRVZOgc9Q2PMN_yqss9vIeHCEgrAVgvc6bPRW1E7yhzU4zsJ_qB-XoDGcz0D5swJ_gBr2u0J_uXqE5iLCq5Uube04yRrrpRp_sU_6F47IY4sVcGqZZCYIKigP_31i2SdbjKmRZxFi5hK6UeB42gM9DJkT0244pyP6fjrt_7hBQAxSR7NhYVBxNClEV7o-ClsmdYzBv7BS_lRBPd2NAKP2VCmNYMww6HhS0UaYMif8VgbpD0UELRMl0mM-gThiaX_hDax0n0NNDbLqn81H1OFw4hDWlVHxKqlVDd-Uj7XVam_UYYZxu3ZbN6PkCq52Z1nndV08ClWhWya0t7tP6DEzGzKbzEV3u2gOkaHjVtx5lU31K740M8NKfYKd0N4cTh5ZvQ=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7358438826&itemId=18952457091&vendorItemId=90052740688&traceid=V0-153-e5a1a2b8bbf63342&clickBeacon=99c68670-e27d-11f1-8c7c-7ff0f96931e5%7E3&requestid=20261117205410312024856720&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "자스민 티백 100개입",
+      "unitPrice": 258,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 20:54 KST",
+          12900
         ]
       ]
     },
@@ -9136,10 +9271,10 @@
       "unitPrice": 50,
       "unitBasis": "개당",
       "packNote": "1,000개입",
-      "avgPrice": 46625,
+      "avgPrice": 48667,
       "minPrice": 20300,
-      "maxPrice": 58700,
-      "priceCount": 8,
+      "maxPrice": 65000,
+      "priceCount": 9,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -9154,10 +9289,10 @@
         [
           "2026-11-17",
           20300,
-          58700,
-          41167,
-          58700,
-          3
+          65000,
+          47125,
+          65000,
+          4
         ]
       ],
       "priceHistory": [
@@ -9192,6 +9327,10 @@
         [
           "2026-11-17 15:47 KST",
           58700
+        ],
+        [
+          "2026-11-17 20:54 KST",
+          65000
         ]
       ]
     },

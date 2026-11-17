@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 19:53 KST",
+  "updatedAt": "2026-11-17 20:54 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -544,14 +544,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 58700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 65000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 8,
-      "avgPrice": 46625,
+      "priceCount": 9,
+      "avgPrice": 48667,
       "minPrice": 20300,
-      "maxPrice": 58700,
-      "lastPrice": 58700,
-      "lastAt": "2026-11-17 15:47 KST",
+      "maxPrice": 65000,
+      "lastPrice": 65000,
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -564,10 +569,10 @@
         [
           "2026-11-17",
           20300,
-          58700,
-          41167,
-          58700,
-          3
+          65000,
+          47125,
+          65000,
+          4
         ]
       ],
       "uniqueDays": 2
@@ -843,14 +848,19 @@
           "at": "2026-11-17 19:53 KST",
           "price": 58800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 58800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 47040,
+      "priceCount": 6,
+      "avgPrice": 49000,
       "minPrice": 44100,
       "maxPrice": 58800,
       "lastPrice": 58800,
-      "lastAt": "2026-11-17 19:53 KST",
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -866,7 +876,7 @@
           58800,
           58800,
           58800,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -2004,14 +2014,19 @@
           "at": "2026-11-17 16:49 KST",
           "price": 17980,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 26860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
-      "avgPrice": 51123,
+      "priceCount": 8,
+      "avgPrice": 48090,
       "minPrice": 17980,
       "maxPrice": 71540,
-      "lastPrice": 17980,
-      "lastAt": "2026-11-17 16:49 KST",
+      "lastPrice": 26860,
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2025,9 +2040,9 @@
           "2026-11-17",
           17980,
           71540,
-          38793,
-          17980,
-          3
+          35810,
+          26860,
+          4
         ]
       ],
       "uniqueDays": 2
@@ -5985,14 +6000,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 26800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 26800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
       "lastPrice": 26800,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6008,7 +6028,7 @@
           26800,
           26800,
           26800,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -7286,14 +7306,19 @@
           "at": "2026-11-17 17:50 KST",
           "price": 6670,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 12540,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 26765,
+      "priceCount": 5,
+      "avgPrice": 23920,
       "minPrice": 6670,
       "maxPrice": 46860,
-      "lastPrice": 6670,
-      "lastAt": "2026-11-17 17:50 KST",
+      "lastPrice": 12540,
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7307,9 +7332,9 @@
           "2026-11-17",
           6670,
           46860,
-          20067,
-          6670,
-          3
+          18185,
+          12540,
+          4
         ]
       ],
       "uniqueDays": 2
@@ -7332,14 +7357,19 @@
           "at": "2026-11-17 17:50 KST",
           "price": 4780,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 4780,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 3253,
+      "priceCount": 4,
+      "avgPrice": 3635,
       "minPrice": 2490,
       "maxPrice": 4780,
       "lastPrice": 4780,
-      "lastAt": "2026-11-17 17:50 KST",
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7353,9 +7383,9 @@
           "2026-11-17",
           2490,
           4780,
-          3635,
+          4017,
           4780,
-          2
+          3
         ]
       ],
       "uniqueDays": 2
@@ -7859,14 +7889,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 20330,
+      "priceCount": 7,
+      "avgPrice": 19696,
       "minPrice": 15890,
       "maxPrice": 42530,
       "lastPrice": 15890,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7880,9 +7915,9 @@
           "2026-11-17",
           15890,
           42530,
-          24770,
+          22550,
           15890,
-          3
+          4
         ]
       ],
       "uniqueDays": 2
@@ -13709,7 +13744,7 @@
     },
     "8089929761": {
       "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
-      "category": "파우더",
+      "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 16:49 KST",
@@ -13742,7 +13777,7 @@
     },
     "1279958822": {
       "productName": "토스키 카라멜 소스, 2kg, 1개",
-      "category": "파우더",
+      "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 16:49 KST",
@@ -14368,7 +14403,7 @@
     },
     "9454703444": {
       "productName": "[로켓프레시] 카페 57 딸기청 (냉동), 1kg, 2개",
-      "category": "시럽·소스",
+      "category": "과일·베이스",
       "observations": [
         {
           "at": "2026-11-17 19:53 KST",
@@ -14424,7 +14459,7 @@
     },
     "9311863170": {
       "productName": "더와이 카라멜시럽 (리필용), 1개, 1kg",
-      "category": "파우더",
+      "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 19:53 KST",
@@ -14452,7 +14487,7 @@
     },
     "9560776821": {
       "productName": "비에스필 카라멜시럽 펌프증정, 1개, 1.3kg",
-      "category": "파우더",
+      "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 19:53 KST",
@@ -14529,6 +14564,118 @@
           51000,
           51000,
           51000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7797084513": {
+      "productName": "유리아 자스민차 삼각티백, 1.2g, 30개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 6900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6900,
+      "minPrice": 6900,
+      "maxPrice": 6900,
+      "lastPrice": 6900,
+      "lastAt": "2026-11-17 20:54 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6900,
+          6900,
+          6900,
+          6900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9612696416": {
+      "productName": "더 진한 자스민차 생분해 삼각티백 PLA원단, 1개, 50개입, 1.5g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 12860,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12860,
+      "minPrice": 12860,
+      "maxPrice": 12860,
+      "lastPrice": 12860,
+      "lastAt": "2026-11-17 20:54 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12860,
+          12860,
+          12860,
+          12860,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7358438826": {
+      "productName": "청년농원 자스민차 티백 100% 순수 건강 허브차 대용량 허브티, 50개입, 1개, 1g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-17 20:54 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9510529755": {
+      "productName": "편리장터 헤어 가발망 머리망 통기성, 8개, 아이보리",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 20:54 KST",
+          "price": 6200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6200,
+      "minPrice": 6200,
+      "maxPrice": 6200,
+      "lastPrice": 6200,
+      "lastAt": "2026-11-17 20:54 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6200,
+          6200,
+          6200,
+          6200,
           1
         ]
       ],
