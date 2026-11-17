@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 05:05 KST",
+  "updatedAt": "2026-11-18 06:06 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5842,14 +5842,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 8800,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 8800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 8800,
       "minPrice": 8800,
       "maxPrice": 8800,
       "lastPrice": 8800,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-18 06:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5858,9 +5863,17 @@
           8800,
           8800,
           1
+        ],
+        [
+          "2026-11-18",
+          8800,
+          8800,
+          8800,
+          8800,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "4884130139": {
       "productName": "[건국우유] 멸균우유 200ml 48입, 200ml, 48개",
@@ -16815,6 +16828,286 @@
       "maxPrice": 13900,
       "lastPrice": 13900,
       "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9702204514": {
+      "productName": "대한다업 결명자차, 1.2g, 1개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 7400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7400,
+      "minPrice": 7400,
+      "maxPrice": 7400,
+      "lastPrice": 7400,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7400,
+          7400,
+          7400,
+          7400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6592878522": {
+      "productName": "조은약초 결명자 삼각티백, 100g, 100개입, 10개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 148800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 148800,
+      "minPrice": 148800,
+      "maxPrice": 148800,
+      "lastPrice": 148800,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          148800,
+          148800,
+          148800,
+          148800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9699363290": {
+      "productName": "국산 볶은 결명자차 HACCP 인증 생분해 삼각티백, 1g, 2개, 30개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 19900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "lastPrice": 19900,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          19900,
+          19900,
+          19900,
+          19900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9702217225": {
+      "productName": "넛츠피아 피칸 반태, 1kg, 6개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 179400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 179400,
+      "minPrice": 179400,
+      "maxPrice": 179400,
+      "lastPrice": 179400,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          179400,
+          179400,
+          179400,
+          179400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6484304556": {
+      "productName": "넛츠피아 피칸 분태, 1개, 1kg",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 29900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "maxPrice": 29900,
+      "lastPrice": 29900,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          29900,
+          29900,
+          29900,
+          29900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9288488595": {
+      "productName": "통 마카다미아 햇견과 스테어팜 (26년 8월 수확), 2세트, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 33900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 33900,
+      "minPrice": 33900,
+      "maxPrice": 33900,
+      "lastPrice": 33900,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          33900,
+          33900,
+          33900,
+          33900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9689538472": {
+      "productName": "문경 오미담 오미자청 냉침추출액 건오미자 생오미자 조합 1L 용량, 1개, 1L",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 15000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15000,
+      "minPrice": 15000,
+      "maxPrice": 15000,
+      "lastPrice": 15000,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          15000,
+          15000,
+          15000,
+          15000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9060991879": {
+      "productName": "와치아테 멸균우유 1.5%, 1L, 4개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 8800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8800,
+      "minPrice": 8800,
+      "maxPrice": 8800,
+      "lastPrice": 8800,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          8800,
+          8800,
+          8800,
+          8800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9683149195": {
+      "productName": "천운패키지 1온스 소스컵 세트, 100개, 1개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 11250,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11250,
+      "minPrice": 11250,
+      "maxPrice": 11250,
+      "lastPrice": 11250,
+      "lastAt": "2026-11-18 06:06 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          11250,
+          11250,
+          11250,
+          11250,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9743162687": {
+      "productName": "플라하반 하이 프로틴 그래놀라 시리얼 아몬드 & 캐슈넛, 300g, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 06:06 KST",
+          "price": 13900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "lastPrice": 13900,
+      "lastAt": "2026-11-18 06:06 KST",
       "dailyHistory": [
         [
           "2026-11-18",
