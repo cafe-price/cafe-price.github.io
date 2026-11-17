@@ -1374,6 +1374,18 @@ def main(argv: list[str]) -> int:
         print("[error] COUPANG_ACCESS_KEY / COUPANG_SECRET_KEY 가 없습니다.", file=sys.stderr)
         return 2
 
+    # 시간당 한도 안전장치(2026-11-17 18시 회차 추가): 실행이 늦어져 60분 윈도우에 직전 회차 호출이
+    # 남아 있는 상태로 8회를 더 보내면 한 시간에 10회를 넘길 수 있다. 남은 여유가 2회 미만이면
+    # 아예 호출하지 않고 끝내고, 그보다 많으면 이번 실행 상한을 남은 여유까지 낮춘다.
+    remaining = HOURLY_CAP - len(recent) - assume_used
+    if remaining < 2:
+        print(f"[skip] 최근 1시간 호출 {len(recent) + assume_used}회 — 남은 여유 {max(remaining, 0)}회(2회 미만)라 "
+              "이번 회차는 API를 호출하지 않고 종료합니다.")
+        return 0
+    if max_requests > remaining:
+        print(f"[info] 남은 여유 {remaining}회에 맞춰 이번 실행 상한을 {max_requests} → {remaining}회로 낮춥니다.")
+        max_requests = remaining
+
     try:
         deals, failed = collect(access_key, secret_key, sub_id, targets, max_requests, assume_used)
     except urllib.error.HTTPError as exc:
