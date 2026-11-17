@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 14:12 KST",
+  "updatedAt": "2026-11-17 15:47 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -197,14 +197,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 9970,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 9970,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 9970,
       "minPrice": 9970,
       "maxPrice": 9970,
       "lastPrice": 9970,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -213,9 +218,17 @@
           9970,
           9970,
           4
+        ],
+        [
+          "2026-11-17",
+          9970,
+          9970,
+          9970,
+          9970,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9628021737": {
       "productName": "SR 자바라 일회용 투명 빨대, 1세트, 45개입",
@@ -298,14 +311,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 12570,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 12570,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
       "lastPrice": 12570,
-      "lastAt": "2026-11-17 05:17 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -321,7 +339,7 @@
           12570,
           12570,
           12570,
-          2
+          3
         ]
       ],
       "uniqueDays": 2
@@ -521,14 +539,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 20300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 58700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
-      "avgPrice": 44900,
+      "priceCount": 8,
+      "avgPrice": 46625,
       "minPrice": 20300,
-      "maxPrice": 49900,
-      "lastPrice": 20300,
-      "lastAt": "2026-11-17 05:17 KST",
+      "maxPrice": 58700,
+      "lastPrice": 58700,
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -541,10 +564,10 @@
         [
           "2026-11-17",
           20300,
-          44500,
-          32400,
-          20300,
-          2
+          58700,
+          41167,
+          58700,
+          3
         ]
       ],
       "uniqueDays": 2
@@ -1945,14 +1968,19 @@
           "at": "2026-11-17 14:11 KST",
           "price": 71540,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 26860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 62604,
+      "priceCount": 6,
+      "avgPrice": 56647,
       "minPrice": 26860,
       "maxPrice": 71540,
-      "lastPrice": 71540,
-      "lastAt": "2026-11-17 14:11 KST",
+      "lastPrice": 26860,
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1964,11 +1992,11 @@
         ],
         [
           "2026-11-17",
+          26860,
           71540,
-          71540,
-          71540,
-          71540,
-          1
+          49200,
+          26860,
+          2
         ]
       ],
       "uniqueDays": 2
@@ -5898,14 +5926,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 26800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 26800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
       "lastPrice": 26800,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5914,9 +5947,17 @@
           26800,
           26800,
           3
+        ],
+        [
+          "2026-11-17",
+          26800,
+          26800,
+          26800,
+          26800,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9444853494": {
       "productName": "컬트커피랩 진한 바디 쌉쌀한 다크 로브스타 G1 싱글오리진 커피원두",
@@ -6038,14 +6079,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 50380,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 50380,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 50380,
       "minPrice": 50380,
       "maxPrice": 50380,
       "lastPrice": 50380,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6054,9 +6100,17 @@
           50380,
           50380,
           1
+        ],
+        [
+          "2026-11-17",
+          50380,
+          50380,
+          50380,
+          50380,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8810869296": {
       "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 자주 하트, 1개, 1000개",
@@ -7113,14 +7167,19 @@
           "at": "2026-11-16 18:02 KST",
           "price": 2490,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 2490,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 2490,
       "minPrice": 2490,
       "maxPrice": 2490,
       "lastPrice": 2490,
-      "lastAt": "2026-11-16 18:02 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7129,9 +7188,17 @@
           2490,
           2490,
           1
+        ],
+        [
+          "2026-11-17",
+          2490,
+          2490,
+          2490,
+          2490,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "5803499574": {
       "productName": "서강 라미스 휘핑크림, 1L, 2개",
@@ -7614,14 +7681,19 @@
           "at": "2026-11-17 09:22 KST",
           "price": 42530,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 21218,
+      "priceCount": 6,
+      "avgPrice": 20330,
       "minPrice": 15890,
       "maxPrice": 42530,
-      "lastPrice": 42530,
-      "lastAt": "2026-11-17 09:22 KST",
+      "lastPrice": 15890,
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7635,9 +7707,9 @@
           "2026-11-17",
           15890,
           42530,
-          29210,
-          42530,
-          2
+          24770,
+          15890,
+          3
         ]
       ],
       "uniqueDays": 2
@@ -8563,14 +8635,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 12500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 12500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 12500,
       "minPrice": 12500,
       "maxPrice": 12500,
       "lastPrice": 12500,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8579,9 +8656,17 @@
           12500,
           12500,
           1
+        ],
+        [
+          "2026-11-17",
+          12500,
+          12500,
+          12500,
+          12500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9699325436": {
       "productName": "믹소 보성말차 파우더, 1kg, 1개, 1개입",
@@ -8591,14 +8676,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 15850,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 15850,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 15850,
       "minPrice": 15850,
       "maxPrice": 15850,
       "lastPrice": 15850,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8607,9 +8697,17 @@
           15850,
           15850,
           1
+        ],
+        [
+          "2026-11-17",
+          15850,
+          15850,
+          15850,
+          15850,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8243734142": {
       "productName": "이노라이즈 이노미 그린티 파우더 1kg, 1kg, 1개, 1개입",
@@ -8619,14 +8717,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 17100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 17100,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 17100,
       "minPrice": 17100,
       "maxPrice": 17100,
       "lastPrice": 17100,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8635,9 +8738,17 @@
           17100,
           17100,
           1
+        ],
+        [
+          "2026-11-17",
+          17100,
+          17100,
+          17100,
+          17100,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9539597830": {
       "productName": "가루박사 보성 말차 파우더, 500g, 1개, 1개입",
@@ -8647,14 +8758,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 9190,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 9190,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 9190,
       "minPrice": 9190,
       "maxPrice": 9190,
       "lastPrice": 9190,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastAt": "2026-11-17 15:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8663,9 +8779,17 @@
           9190,
           9190,
           1
+        ],
+        [
+          "2026-11-17",
+          9190,
+          9190,
+          9190,
+          9190,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7665162360": {
       "productName": "아빠랑 과육 그대로 갈아만든 고흥 유자 1kg, 1kg, 1개",
@@ -12826,7 +12950,7 @@
     },
     "9307955806": {
       "productName": "HD 배달 비닐쇼핑백 카페 커피 종이캐리어4구 음료 컵 포장 테이크아웃 비닐봉투, 100개, 15L",
-      "category": "빨대·홀더",
+      "category": "매장소모품",
       "observations": [
         {
           "at": "2026-11-17 14:11 KST",
@@ -13015,6 +13139,174 @@
           18280,
           18280,
           18280,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9443353722": {
+      "productName": "골든브릭스 크림 바닐라 소스, 1개, 2kg",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 19800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19800,
+      "minPrice": 19800,
+      "maxPrice": 19800,
+      "lastPrice": 19800,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19800,
+          19800,
+          19800,
+          19800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8543337587": {
+      "productName": "블랙빈스 베트남 로부스타 워시드, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 17500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17500,
+      "minPrice": 17500,
+      "maxPrice": 17500,
+      "lastPrice": 17500,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          17500,
+          17500,
+          17500,
+          17500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6702262397": {
+      "productName": "토스키 초콜렛향 시럽, 1L, 6개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 87000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 87000,
+      "minPrice": 87000,
+      "maxPrice": 87000,
+      "lastPrice": 87000,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          87000,
+          87000,
+          87000,
+          87000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8790035989": {
+      "productName": "토스키 그레나딘 시럽, 1개, 1L",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 18000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18000,
+      "minPrice": 18000,
+      "maxPrice": 18000,
+      "lastPrice": 18000,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          18000,
+          18000,
+          18000,
+          18000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6702243792": {
+      "productName": "토스키 코코넛 시럽, 1L, 3개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 45000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 45000,
+      "minPrice": 45000,
+      "maxPrice": 45000,
+      "lastPrice": 45000,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "335762157": {
+      "productName": "샷 시럽 헤이즐넛 1000ml",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 15:47 KST",
+          "price": 16780,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 16780,
+      "minPrice": 16780,
+      "maxPrice": 16780,
+      "lastPrice": 16780,
+      "lastAt": "2026-11-17 15:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          16780,
+          16780,
+          16780,
+          16780,
           1
         ]
       ],
