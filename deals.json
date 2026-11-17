@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18 04:03 KST",
-  "statsAt": "2026-11-18 04:04 KST",
+  "updatedAt": "2026-11-18 05:05 KST",
+  "statsAt": "2026-11-18 05:05 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 349,
+  "count": 353,
   "priceStats": {
-    "products": 502,
+    "products": 507,
     "discounts": 8
   },
   "deals": [
@@ -8155,6 +8155,43 @@
       ]
     },
     {
+      "productId": "9472787836",
+      "vendorItemId": "",
+      "productName": "해맑음푸드 넛츠하우스 호두, 1kg, 1개",
+      "productPrice": 12900,
+      "productImage": "https://ads-partners.coupang.com/image1/tXvuY32ASvAtGIg7teGMAdvykYQCAOFHVJsSK4Q7d-GHiqe9LPOd9d-0k9lcZeC-PsP0id_ikDhqjVQawHZnsqkbvxBecVaQmupFPRn0T9JeptR7ByrvQGyBPHuFBlqBU5uQE9H214ELrFrer5WVRE2w-b894smZJRsUg_V6muGIN8utyDO91IhZcexeCCqnRNqKvS7T97_dGhl6eKKEyZqd5j9LC3PDSBP0aTV3FhY4jGoSC6zFHDVKJwlR8ERndgBZTZS-2ajp9cvngOXQ4iE-ALWhxzd015zC_BQi257tsqgIlCU3tFLMpmR9Nsm0lbG_2YkbzY-z9i9XXr_aOLK3zFuQyHO8H_SB-AzLL9FllOJRtsANXBbdiN1DcM0x4f2eRGZmD5miQSeihTs_or55mB9PN6WMutH8QbnNEioJKJAlP9AZ2NlFIbRan0JbxgxflzfKezcoyMj4YhcOyzkK9BNB2bDSbQVDSM-pEV0mV5zCI8iU-Ba8mSgnIpZJzmiBkt_lKQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9472787836&itemId=28196639872&vendorItemId=95151022517&traceid=V0-153-0892269821dd185b&clickBeacon=280f4c20-e2c2-11f1-81ab-fb31c8a47b00%7E3&requestid=20261118050454824116726960&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "호두 1kg",
+      "unitPrice": 1290,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 05:05 KST",
+          12900
+        ]
+      ]
+    },
+    {
       "productId": "7214066444",
       "vendorItemId": "",
       "productName": "카페57 프리미엄 코코아 파우더, 1kg, 1개입, 1개",
@@ -9001,6 +9038,43 @@
       ]
     },
     {
+      "productId": "7831276366",
+      "vendorItemId": "",
+      "productName": "우리차 우엉차, 1g, 100개입, 15개",
+      "productPrice": 105750,
+      "productImage": "https://ads-partners.coupang.com/image1/1oxxvFuJmc_CsLtb1siBT-vmc5UnXss6WcI82r04aACVUtE73pF2cH3uWZs77H1mOEVVB6TdcNeJzv-qQj2_PbaLjXN3QPJ0B91auNB5J8UKvFJjGn8V2-n4IVOKwN0EAy8CbX0lxVXdwjLPNi5zl83v9Eb8dE04N5676-OSmz06s5gau98o2t-rwPlYVRuYwZmhwOw9ZPtLDQVCoptEsIw8Tjtg88z19krizw9yaxbNmaplGqN6xF8mlTmGsjjPUaAhma-dDe0LfyVI27DJz2XhTyyEP44QXDdB6oSl9mIU4tPBrAT9eUFthc4kvdALMyZazIBeMGVWO7QO2omwOaT15LIUKo8lS4Hqye9DRzgYvqTyeiHlPw_pScWue-yfqyFNTidfzsxDmCYOlpH5oirnto_04355Vvnvb0AOu-N63RoBY8kavqmteZY_ENA3-E4_6LWBNDuZUUEWGrqJ1qy_j1MvAupPjkA5s30a8JMIucUtGcL8cEKyj4ZK7zyHUXvesgsg7jTiCSXcrsNWmdJnSv2vCp5b-yL8tfSCcETyHVn7K8_FAV759rauGXMzoIiEL8sZoiY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7831276366&itemId=29199992550&vendorItemId=96120434112&traceid=V0-153-0631c011d1ee4ee2&clickBeacon=322abaf0-e2c2-11f1-8bcc-691ba0dc962f%7E3&requestid=20261118050511766010449037&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "우엉차 티백 100개입",
+      "unitPrice": 70,
+      "unitBasis": "개당",
+      "packNote": "100개×15개",
+      "avgPrice": 105750,
+      "minPrice": 105750,
+      "maxPrice": 105750,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          105750,
+          105750,
+          105750,
+          105750,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 05:05 KST",
+          105750
+        ]
+      ]
+    },
+    {
       "productId": "6346850048",
       "productName": "우리차 누룽지 둥굴레차, 1.5g, 100개입, 1개",
       "productPrice": 7460,
@@ -9180,6 +9254,43 @@
         [
           "2026-11-18 04:03 KST",
           7120
+        ]
+      ]
+    },
+    {
+      "productId": "7870447769",
+      "vendorItemId": "",
+      "productName": "이너블릭 볶은 우엉차 삼각티백, 1g, 100개입, 5개",
+      "productPrice": 62200,
+      "productImage": "https://ads-partners.coupang.com/image1/-aBuIpeAjqRqCLmn-dkGAOjqu7yXGqoCJlmF8_MjX-SnN18CIVV12lWU4RKzso4BUIpDXr-sU9qEiDkruboV5mDEtjS-v_oEdpyRoo9YN3ygN4X3XWcb79Neu1ddqRWGyzH0dwvmp0MkpyxJz0qNFTWHYJVVPycCb84aukN4P0LYiDyS3WjtKeCA-L5iQDZ9DppP0Us9Mt44U97cyKc7U47OH7fZSdh3a64azfYFjCyFetZqI0gsvLDnTWDfWlUTViHHp6VSHDNeeDvCYa5Lo0m8ne3wnI-irZhxmDPvvkEyHZchwdHDz_SwzQCJ9ZS1nXzXKMMiOImyDynepxrZzyzDv7mX9OSRevyD5RPWGa2I77R9HsSUo-mr4wqQP_JCnV6S86DMQFXYvWQz0ADYw9IUTKbnjHzFxSwLiz2wjg8eL6OSF173IkBfLIScdKFOFNZq7F17f4SlaRqlOM3nlNMYI2mo1u2mU1RYigb-iYmZEBwl31h_CqPZeHxfe5mJzIJG0CT-LS-CCIiJ1WtpSr-rMawBcn3dDWZwtIS7-ksuxNgM8AvJyv3nAwcqK_ZCfp-yoAlmVn20",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7870447769&itemId=29198988218&vendorItemId=96119456886&traceid=V0-153-fb709742d7ccf220&clickBeacon=322abaf0-e2c2-11f1-8cec-9b2ae90bfcdc%7E3&requestid=20261118050511766010449037&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "우엉차 티백 100개입",
+      "unitPrice": 124,
+      "unitBasis": "개당",
+      "packNote": "100개×5개",
+      "avgPrice": 62200,
+      "minPrice": 62200,
+      "maxPrice": 62200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          62200,
+          62200,
+          62200,
+          62200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 05:05 KST",
+          62200
         ]
       ]
     },
@@ -10065,6 +10176,43 @@
         [
           "2026-11-17 21:55 KST",
           25900
+        ]
+      ]
+    },
+    {
+      "productId": "7420610611",
+      "vendorItemId": "",
+      "productName": "청년농원 저온가공 우엉차 삼각티백, 50개입, 1개, 1g",
+      "productPrice": 13900,
+      "productImage": "https://ads-partners.coupang.com/image1/LAG0KXxGi3QkpPLRLG6IT3O-pV_iKrxlr2LYfki5Z2WIzDz5x2_zJHRdPSG9eBfpw3-as7Ws9p778wI_nxL03MKJp1f3Kr3-pg5lYvZd7vT-jCqumrxwgg0hIqEPdDO_1Z9A_lmT7JY96WIqOf0ua-VxbywXgt5opxLGY3NNHgQWQtQGBggTUQdBIkJvGd_SAUZJQK_1H7Dzg4vIU1OTSa1MkWD2NKIDaR3jEMke_k3fMEaxa32pXtP7UpSNTTBfQSmBJo0wNGGeLbVpDmTf4Y3tEJTbdu8fsnKL0oNApbzuTcG38xSRLGS_Dv4clcYaLaurgOF3gA06kxkANEtClwumY1ewh4368u9vBsPmmOLMOALkl_7gNwEghzqcAy000-EkLwc8481n-qN9oxV8go_sEUCdyUvlCg-4AI7cbwWzVAyGbutQsXZ53c51tnZW68oNB6PEG-Dist75KEh72ircrNRl0jWhh7p4nZch8ntKowIfbP2OK_nClwXDbWw12Kx65RaKwCBp0McvvW6lF5_MGc1C-hgwWQZJZlCymh2jq_LtemGshEXg93V1WCbG-783EwY=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7420610611&itemId=19248372453&vendorItemId=74498825565&traceid=V0-153-3a0c7cd989343f3a&clickBeacon=322abaf0-e2c2-11f1-9478-d968501450dc%7E3&requestid=20261118050511766010449037&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "우엉차 티백 100개입",
+      "unitPrice": 278,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 05:05 KST",
+          13900
         ]
       ]
     },

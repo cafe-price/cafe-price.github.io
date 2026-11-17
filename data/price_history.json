@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 04:04 KST",
+  "updatedAt": "2026-11-18 05:05 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -16549,7 +16549,7 @@
     },
     "288605903": {
       "productName": "카일스 코코넛크림 파우더, 1kg, 1개입, 1개",
-      "category": "베이킹 재료",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-18 04:03 KST",
@@ -16682,6 +16682,146 @@
           95500,
           95500,
           95500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8969500757": {
+      "productName": "[로켓프레시] 조인 국내산 100% 계란 살균 난백액 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 05:05 KST",
+          "price": 15040,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15040,
+      "minPrice": 15040,
+      "maxPrice": 15040,
+      "lastPrice": 15040,
+      "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          15040,
+          15040,
+          15040,
+          15040,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9472787836": {
+      "productName": "해맑음푸드 넛츠하우스 호두, 1kg, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 05:05 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7831276366": {
+      "productName": "우리차 우엉차, 1g, 100개입, 15개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 05:05 KST",
+          "price": 105750,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 105750,
+      "minPrice": 105750,
+      "maxPrice": 105750,
+      "lastPrice": 105750,
+      "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          105750,
+          105750,
+          105750,
+          105750,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7870447769": {
+      "productName": "이너블릭 볶은 우엉차 삼각티백, 1g, 100개입, 5개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 05:05 KST",
+          "price": 62200,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 62200,
+      "minPrice": 62200,
+      "maxPrice": 62200,
+      "lastPrice": 62200,
+      "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          62200,
+          62200,
+          62200,
+          62200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7420610611": {
+      "productName": "청년농원 저온가공 우엉차 삼각티백, 50개입, 1개, 1g",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 05:05 KST",
+          "price": 13900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "lastPrice": 13900,
+      "lastAt": "2026-11-18 05:05 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13900,
+          13900,
+          13900,
+          13900,
           1
         ]
       ],
