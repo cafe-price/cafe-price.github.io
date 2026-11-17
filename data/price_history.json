@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 07:11 KST",
+  "updatedAt": "2026-11-18 08:46 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5860,14 +5860,19 @@
           "at": "2026-11-18 06:06 KST",
           "price": 8800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 8800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 8800,
       "minPrice": 8800,
       "maxPrice": 8800,
       "lastPrice": 8800,
-      "lastAt": "2026-11-18 06:06 KST",
+      "lastAt": "2026-11-18 08:45 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5883,7 +5888,7 @@
           8800,
           8800,
           8800,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -17118,14 +17123,19 @@
           "at": "2026-11-18 06:06 KST",
           "price": 33900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 33900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 33900,
       "minPrice": 33900,
       "maxPrice": 33900,
       "lastPrice": 33900,
-      "lastAt": "2026-11-18 06:06 KST",
+      "lastAt": "2026-11-18 08:45 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -17133,7 +17143,7 @@
           33900,
           33900,
           33900,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -17329,6 +17339,398 @@
           12510,
           12510,
           12510,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "24702790": {
+      "productName": "우리차 옥수수수염차, 1.5g, 150개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 10060,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10060,
+      "minPrice": 10060,
+      "maxPrice": 10060,
+      "lastPrice": 10060,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10060,
+          10060,
+          10060,
+          10060,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7842617593": {
+      "productName": "[본사직영] 다예 100% 국산 옥수수수염차 개별포장 사각티백 40티백, 500mg, 40개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 15800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15800,
+      "minPrice": 15800,
+      "maxPrice": 15800,
+      "lastPrice": 15800,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          15800,
+          15800,
+          15800,
+          15800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "82802": {
+      "productName": "녹차원 팔방미인 옥수수수염차, 1.5g, 50개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 4660,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 4660,
+      "minPrice": 4660,
+      "maxPrice": 4660,
+      "lastPrice": 4660,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          4660,
+          4660,
+          4660,
+          4660,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9750362565": {
+      "productName": "김소형 원장 저당 생강청 생강즙 100% 국산 생강 물 한방울 넣지 않은 생강 약 1kg 착즙, 1개, 1개입, 525g",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 28800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28800,
+      "minPrice": 28800,
+      "maxPrice": 28800,
+      "lastPrice": 28800,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          28800,
+          28800,
+          28800,
+          28800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7802188371": {
+      "productName": "다하 제주 청귤청, 1kg, 1개입, 3개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 39190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 39190,
+      "minPrice": 39190,
+      "maxPrice": 39190,
+      "lastPrice": 39190,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          39190,
+          39190,
+          39190,
+          39190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9701908391": {
+      "productName": "넛츠피아 볶음 아몬드 분태, 1kg, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 25900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25900,
+      "minPrice": 25900,
+      "maxPrice": 25900,
+      "lastPrice": 25900,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          25900,
+          25900,
+          25900,
+          25900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9785699355": {
+      "productName": "넛츠피아 마카다미아 반태, 500g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 15940,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15940,
+      "minPrice": 15940,
+      "maxPrice": 15940,
+      "lastPrice": 15940,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          15940,
+          15940,
+          15940,
+          15940,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7284840408": {
+      "productName": "투데이넛 마카다미아, 300g, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 12980,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12980,
+      "minPrice": 12980,
+      "maxPrice": 12980,
+      "lastPrice": 12980,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          12980,
+          12980,
+          12980,
+          12980,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9611442139": {
+      "productName": "리치너츠 건크랜베리 미국산, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 12500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12500,
+      "minPrice": 12500,
+      "maxPrice": 12500,
+      "lastPrice": 12500,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          12500,
+          12500,
+          12500,
+          12500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1518972571": {
+      "productName": "[로켓프레시] 산들 건크랜베리, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 14000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14000,
+      "minPrice": 14000,
+      "maxPrice": 14000,
+      "lastPrice": 14000,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          14000,
+          14000,
+          14000,
+          14000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8730445626": {
+      "productName": "빈플랜트 벨크리머 스텐 304 샷잔 150ml, 단일색상, 1개",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 3930,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 3930,
+      "minPrice": 3930,
+      "maxPrice": 3930,
+      "lastPrice": 3930,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          3930,
+          3930,
+          3930,
+          3930,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9785160350": {
+      "productName": "FATTYS 내열유리 에스프레소 샷잔 계량컵, 1개, 유리 손잡이 250ml",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 9900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9533680501": {
+      "productName": "연세두유 고단백 Pro 플레인, 16개, 240ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 20800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20800,
+      "minPrice": 20800,
+      "maxPrice": 20800,
+      "lastPrice": 20800,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          20800,
+          20800,
+          20800,
+          20800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9376343676": {
+      "productName": "[로켓프레시] 덴마크 국내산 무항생제 인증 All Day Milk 신선한 1A등급 우유, 1.8L, 2개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 08:45 KST",
+          "price": 11600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11600,
+      "minPrice": 11600,
+      "maxPrice": 11600,
+      "lastPrice": 11600,
+      "lastAt": "2026-11-18 08:45 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          11600,
+          11600,
+          11600,
+          11600,
           1
         ]
       ],
