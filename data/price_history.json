@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 21:56 KST",
+  "updatedAt": "2026-11-17 22:57 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5950,21 +5950,26 @@
       "uniqueDays": 1
     },
     "9618453633": {
-      "productName": "브로일링커피 화로 블렌드 Brazier 홀빈 에스프레소 원두 직화로스팅 당일로스팅 다크로스트 라떼 카푸치노 카페 원두, 10개, 1kg",
+      "productName": "브로일링커피 화로 블렌드 Brazier 홀빈 에스프레소 원두 직화로스팅 당일로스팅 다크로스트 라떼 카푸치노 카페 원두, 1개, 1kg",
       "category": "원두",
       "observations": [
         {
           "at": "2026-11-16 07:02 KST",
           "price": 178480,
           "source": "deals.json@9b03795"
+        },
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 18000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 178480,
-      "minPrice": 178480,
+      "priceCount": 2,
+      "avgPrice": 98240,
+      "minPrice": 18000,
       "maxPrice": 178480,
-      "lastPrice": 178480,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 18000,
+      "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5973,9 +5978,17 @@
           178480,
           178480,
           1
+        ],
+        [
+          "2026-11-17",
+          18000,
+          18000,
+          18000,
+          18000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8360433211": {
       "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
@@ -7894,14 +7907,19 @@
           "at": "2026-11-17 20:54 KST",
           "price": 15890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 15890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
-      "avgPrice": 19696,
+      "priceCount": 8,
+      "avgPrice": 19220,
       "minPrice": 15890,
       "maxPrice": 42530,
       "lastPrice": 15890,
-      "lastAt": "2026-11-17 20:54 KST",
+      "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7915,9 +7933,9 @@
           "2026-11-17",
           15890,
           42530,
-          22550,
+          21218,
           15890,
-          4
+          5
         ]
       ],
       "uniqueDays": 2
@@ -9383,14 +9401,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 24900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 105000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 24900,
+      "priceCount": 2,
+      "avgPrice": 64950,
       "minPrice": 24900,
-      "maxPrice": 24900,
-      "lastPrice": 24900,
-      "lastAt": "2026-11-16 22:07 KST",
+      "maxPrice": 105000,
+      "lastPrice": 105000,
+      "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9399,9 +9422,17 @@
           24900,
           24900,
           1
+        ],
+        [
+          "2026-11-17",
+          105000,
+          105000,
+          105000,
+          105000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9723407913": {
       "productName": "26년산 햇밀 가정용 속이 편한 양평 우리밀 통밀가루 강력분, 500g, 1개",
@@ -13264,22 +13295,27 @@
           "at": "2026-11-17 14:11 KST",
           "price": 61400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 99700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 61400,
+      "priceCount": 2,
+      "avgPrice": 80550,
       "minPrice": 61400,
-      "maxPrice": 61400,
-      "lastPrice": 61400,
-      "lastAt": "2026-11-17 14:11 KST",
+      "maxPrice": 99700,
+      "lastPrice": 99700,
+      "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           61400,
-          61400,
-          61400,
-          61400,
-          1
+          99700,
+          80550,
+          99700,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -15106,6 +15142,202 @@
           7850,
           7850,
           7850,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7136972423": {
+      "productName": "우롱차잎 100g 중국 우롱차 우롱티 오룡차, 100g, 1개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 10500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10500,
+      "minPrice": 10500,
+      "maxPrice": 10500,
+      "lastPrice": 10500,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          10500,
+          10500,
+          10500,
+          10500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7958862797": {
+      "productName": "더블데이 로얄 밀크티 파우더, 800g, 1개입, 4개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 47960,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 47960,
+      "minPrice": 47960,
+      "maxPrice": 47960,
+      "lastPrice": 47960,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          47960,
+          47960,
+          47960,
+          47960,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5857051058": {
+      "productName": "도밍고 꿀홍차, 1.5g, 20개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 7800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7800,
+      "minPrice": 7800,
+      "maxPrice": 7800,
+      "lastPrice": 7800,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7800,
+          7800,
+          7800,
+          7800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9057363615": {
+      "productName": "그레인랩 든든한 21곡 미숫가루 두유, 40개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 13890,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13890,
+      "minPrice": 13890,
+      "maxPrice": 13890,
+      "lastPrice": 13890,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13890,
+          13890,
+          13890,
+          13890,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9234396746": {
+      "productName": "소이비랩 검은콩 저당두유, 72개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 34900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 34900,
+      "minPrice": 34900,
+      "maxPrice": 34900,
+      "lastPrice": 34900,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          34900,
+          34900,
+          34900,
+          34900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9510137076": {
+      "productName": "[초특가 할인] 로스터랩 고소다크 산미없는 블렌드 커피원두, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 25890,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25890,
+      "minPrice": 25890,
+      "maxPrice": 25890,
+      "lastPrice": 25890,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25890,
+          25890,
+          25890,
+          25890,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8116149114": {
+      "productName": "보난자커피 다크 로스트 원두, 1kg, 1개, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 22:57 KST",
+          "price": 49720,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 49720,
+      "minPrice": 49720,
+      "maxPrice": 49720,
+      "lastPrice": 49720,
+      "lastAt": "2026-11-17 22:57 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          49720,
+          49720,
+          49720,
+          49720,
           1
         ]
       ],
