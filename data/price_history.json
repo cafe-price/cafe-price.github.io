@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 22:57 KST",
+  "updatedAt": "2026-11-17 23:58 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -13300,22 +13300,27 @@
           "at": "2026-11-17 22:57 KST",
           "price": 99700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 42000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 80550,
-      "minPrice": 61400,
+      "priceCount": 3,
+      "avgPrice": 67700,
+      "minPrice": 42000,
       "maxPrice": 99700,
-      "lastPrice": 99700,
-      "lastAt": "2026-11-17 22:57 KST",
+      "lastPrice": 42000,
+      "lastAt": "2026-11-17 23:58 KST",
       "dailyHistory": [
         [
           "2026-11-17",
-          61400,
+          42000,
           99700,
-          80550,
-          99700,
-          2
+          67700,
+          42000,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -15338,6 +15343,342 @@
           49720,
           49720,
           49720,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6089945839": {
+      "productName": "해밀생활건강 100일동안 삼각티백 보이차, 1.2g, 100개입, 1개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 13250,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13250,
+      "minPrice": 13250,
+      "maxPrice": 13250,
+      "lastPrice": 13250,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13250,
+          13250,
+          13250,
+          13250,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "13675509": {
+      "productName": "악마다이어트 바로 느껴지는 보이차, 1g, 14개입, 5박스",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 50800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 50800,
+      "minPrice": 50800,
+      "maxPrice": 50800,
+      "lastPrice": 50800,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          50800,
+          50800,
+          50800,
+          50800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9413440319": {
+      "productName": "프렌즈블랜드 스페셜티 커피원두 미디엄로스팅 망고 복숭아 열대과일 아로마 와이니 코에코에, 1개, 1kg, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 44400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 44400,
+      "minPrice": 44400,
+      "maxPrice": 44400,
+      "lastPrice": 44400,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          44400,
+          44400,
+          44400,
+          44400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9417321086": {
+      "productName": "안녕블랜드 산미없는 고소한 커피원두 미디엄다크로스팅 견과류 데일리 홈카페원두 코에코에, 1개, 200g, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 13000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9664703189": {
+      "productName": "헤베커피 스탠다드 블렌드 고소한 원두, 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 36900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 36900,
+      "minPrice": 36900,
+      "maxPrice": 36900,
+      "lastPrice": 36900,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          36900,
+          36900,
+          36900,
+          36900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9716442678": {
+      "productName": "쿡앤팩 일회용 둥근 대나무 젓가락 20cm 백색 개별 포장 - 좋은 재료, 1000개, 1세트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 26000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 26000,
+      "minPrice": 26000,
+      "maxPrice": 26000,
+      "lastPrice": 26000,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          26000,
+          26000,
+          26000,
+          26000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8626920610": {
+      "productName": "사자팩 일회용 누운수저세트 (수저+나무젓가락), 1개, 50개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 8480,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8480,
+      "minPrice": 8480,
+      "maxPrice": 8480,
+      "lastPrice": 8480,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8480,
+          8480,
+          8480,
+          8480,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8325011524": {
+      "productName": "일회용 수저세트 포장 인쇄 500개 (검정)",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 25190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 25190,
+      "minPrice": 25190,
+      "maxPrice": 25190,
+      "lastPrice": 25190,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          25190,
+          25190,
+          25190,
+          25190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7202013533": {
+      "productName": "26년산 국산 토종 앉은뱅이 통밀가루(중력분) 앉은키 밀가루, 1개, 700g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 6070,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 6070,
+      "minPrice": 6070,
+      "maxPrice": 6070,
+      "lastPrice": 6070,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          6070,
+          6070,
+          6070,
+          6070,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "5638504159": {
+      "productName": "바디랩 서리태 순수 두유 99.9, 190ml, 24개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 20900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 20900,
+      "minPrice": 20900,
+      "maxPrice": 20900,
+      "lastPrice": 20900,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          20900,
+          20900,
+          20900,
+          20900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9226007194": {
+      "productName": "두유본색 식사대용 국산콩 자색고구마 두유, 10개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 21900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21900,
+      "minPrice": 21900,
+      "maxPrice": 21900,
+      "lastPrice": 21900,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          21900,
+          21900,
+          21900,
+          21900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9452733178": {
+      "productName": "오프라이스 고칼슘 검은콩두유, 190ml, 20개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 23:58 KST",
+          "price": 12490,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12490,
+      "minPrice": 12490,
+      "maxPrice": 12490,
+      "lastPrice": 12490,
+      "lastAt": "2026-11-17 23:58 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12490,
+          12490,
+          12490,
+          12490,
           1
         ]
       ],
