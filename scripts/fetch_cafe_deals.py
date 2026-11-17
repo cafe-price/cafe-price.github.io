@@ -652,6 +652,30 @@ TARGETS = [
     {"label": "물엿 5kg",            "category": "당류·토핑",   "query": "물엿 5kg",            "bases": ["100g"], "wave": 33},
     {"label": "두유 500ml",          "category": "우유·대체유", "query": "두유 500ml",          "bases": ["100ml"], "wave": 33},
 
+    # ---- 34차 보강 키워드 (wave=34, 2026-11-18 00시 회차) ----
+    # 23시 회차 노트의 '다음 회차 후보' 3개(`아이스컵 32온스 1000개`·`카페라떼 파우더 1kg`·`니트릴 장갑 100매`)를
+    # 그대로 쓰고, 나머지 5회를 건수가 가장 적은 카테고리(컵·뚜껑 20 · 당류·토핑 23 · 베이킹 재료 23 ·
+    # 우유·대체유 24 · 빨대·홀더 25 · 원두 27)의 **미조회 규격·원료 축**에 배분했습니다.
+    # `크림·연유`(6건)는 500g·1kg·2kg·3kg·휘핑크림·프리마·에바밀크·가당연유·크리머를 6회 연속 조회해
+    # 포화로 판정, 이번에도 후보에서 제외했습니다.
+    # 모두 **제목에 용량·개수가 명시되는** 키워드만 씁니다(사용자 확정 규칙). `생크림 1L`·`생크림 500ml` 금지 규칙 준수.
+    # 중복 점검: `아이스컵 32온스 1000개`(≠ 9·10·12·13·14·16·18·20·22·24온스 아이스컵 — 보유 32온스는 500개입 107파이) ·
+    #   `백설탕 3kg`(≠ 설탕 3kg — 기존 응답은 비정제 원당·유기농 원당이었고 정백당 축은 미조회 · 꿀·흑당·블랙슈가와 다른 품목) ·
+    #   `코코아 파우더 1kg`(≠ 코코아매스 1kg — 보유 코코아 파우더는 300g 소매팩 1건뿐) ·
+    #   `카페라떼 파우더 1kg`(≠ 카페 파우더 1kg·딸기/녹차/망고/밀크티/치즈 라떼 파우더) ·
+    #   `빨대 5mm 1000개`(≠ 빨대 6mm·8mm·10mm·12mm·500/1000개입·개별포장·종이·우드·트위스트·PLA 빨대) ·
+    #   `원두 500g`(≠ 원두 5kg·원산지·로스팅별 1kg — 보유 500g은 디카페인·싱글오리진 2건) ·
+    #   `니트릴 장갑 100매`(≠ 위생장갑 1000매·500매·라텍스 장갑 100매 — 재질 축 미조회) ·
+    #   `멸균우유 1L 24개`(≠ 멸균우유·120·180·200ml·900ml·우유 200ml·우유 2.3L·바리스타 우유 1L — 24입 박스 축 미조회)
+    {"label": "아이스컵 32온스 1000개", "category": "컵·뚜껑",    "query": "아이스컵 32온스 1000개", "bases": ["개당"], "wave": 34},
+    {"label": "카페라떼 파우더 1kg",    "category": "파우더",      "query": "카페라떼 파우더 1kg",    "bases": ["100g"], "wave": 34},
+    {"label": "니트릴 장갑 100매",      "category": "매장소모품",  "query": "니트릴 장갑 100매",      "bases": ["개당"], "wave": 34},
+    {"label": "백설탕 3kg",           "category": "당류·토핑",   "query": "백설탕 3kg",           "bases": ["100g"], "wave": 34},
+    {"label": "코코아 파우더 1kg",      "category": "베이킹 재료", "query": "코코아 파우더 1kg",      "bases": ["100g"], "wave": 34},
+    {"label": "빨대 5mm 1000개",       "category": "빨대·홀더",   "query": "빨대 5mm 1000개",       "bases": ["개당"], "wave": 34},
+    {"label": "원두 500g",            "category": "원두",        "query": "원두 500g",            "bases": ["100g"], "wave": 34},
+    {"label": "멸균우유 1L 24개",      "category": "우유·대체유", "query": "멸균우유 1L 24개",      "bases": ["100ml"], "wave": 34},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -914,6 +938,10 @@ VOL_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(kg|킬로그램|g|그램|ml|mL|ML|Ml|�
 # "4팩 2000개입" 처럼 팩 수 뒤에 세트 전체 수량이 바로 적힌 경우: 4×2000 이 아니라 2000개가 총량이다.
 # (예: 개별포장 자바라빨대 "4팩 2000개입, 1세트, 2000개" → 실제 2,000개)
 PACK_TOTAL_RE = re.compile(r"(\d+)\s*팩\s*(\d+)\s*(개입|개)")
+# `니트릴 장갑 100p` 처럼 영문 p 표기로 개수를 적는 벌크 포장이 있습니다. 다만 `버터 10p` 같은
+# 소수 표기는 세트 구성과 해석이 갈려 단가가 왜곡되므로, 벌크로 볼 수 있는 50p 이상만 수량으로 인정합니다.
+PACK_P_RE = re.compile(r"(\d+)\s*(?:p|P|pcs|PCS)(?![A-Za-z])")
+PACK_P_MIN = 50
 MAX_PLAUSIBLE_UNITS = 20000
 
 
@@ -951,6 +979,11 @@ def _counts(name: str) -> list[int]:
                 used_spans.append((m.start(), m.end()))
     for m in PACK_TOTAL_RE.finditer(text):
         used_spans.append((m.start(1), m.start(2)))   # 'N팩' 은 포장 단위 표기 — 총량은 뒤 숫자
+    for m in PACK_P_RE.finditer(text):
+        v = int(m.group(1))
+        if PACK_P_MIN <= v <= 100000:
+            vals.append(v)
+            used_spans.append((m.start(), m.end()))
     for m in COUNT_RE.finditer(text):
         if any(s <= m.start() < e or s < m.end() <= e for s, e in used_spans):
             continue                         # 곱셈·팩 표기로 이미 처리한 수량
@@ -1384,6 +1417,12 @@ def load_previous() -> dict:
         return {}
 
 
+# 같은 상품 페이지의 다른 옵션(예: 12개입 상품에 24개입 옵션 가격)이 온 경우, 그 가격을
+# 기존 상품의 관측 이력에 넣으면 평균가·할인 배지가 왜곡된다. 병합에서 걸러낸 id를 모아
+# 가격 이력 기록에서 제외한다.
+SKIPPED_OPTION_IDS: set[str] = set()
+
+
 def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     """productId 기준 중복 제거 병합. 새 수집 결과가 같은 상품이면 최신 값으로 갱신한다.
 
@@ -1391,6 +1430,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     """
     merged: dict[str, dict] = {}
     order: list[str] = []
+    SKIPPED_OPTION_IDS.clear()
     for d in previous:
         if is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
@@ -1410,6 +1450,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         if pid in merged and is_other_option(merged[pid], d):
             print(f"[skip] 같은 상품 페이지(productId {pid})의 다른 옵션 — 기존 상품 유지: "
                   f"{(d.get('productName') or '')[:48]}")
+            SKIPPED_OPTION_IDS.add(pid)   # 이 가격은 다른 옵션 가격이므로 이력에 남기지 않는다
             continue
         d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
         if pid not in merged:
@@ -1583,7 +1624,9 @@ def main(argv: list[str]) -> int:
     # 가격 이력에는 **사이트에 실리는 상품(로켓+단가 확인)만** 기록한다.
     # 검색 결과에 섞여 온 같은 productId 의 다른 옵션(비로켓 낱개 등) 가격이 이력에 섞이면
     # 평균가·최저가·할인 배지가 실제 노출 상품과 다른 가격을 기준으로 계산된다.
-    recorded = sum(1 for d in deals if passes_listing_filter(d) and add_observation(hist, d, updated_at, "수집 결과"))
+    recorded = sum(1 for d in deals if passes_listing_filter(d)
+                   and str(d.get("productId") or "") not in SKIPPED_OPTION_IDS
+                   and add_observation(hist, d, updated_at, "수집 결과"))
     finalize_history(hist)
     discounted = apply_price_stats(merged, hist)
     save_history(hist)

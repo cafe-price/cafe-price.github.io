@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 23:58 KST",
+  "updatedAt": "2026-11-18 01:01 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -202,14 +202,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 9970,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 9970,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 9970,
       "minPrice": 9970,
       "maxPrice": 9970,
       "lastPrice": 9970,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -226,9 +231,17 @@
           9970,
           9970,
           1
+        ],
+        [
+          "2026-11-18",
+          9970,
+          9970,
+          9970,
+          9970,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "9628021737": {
       "productName": "SR 자바라 일회용 투명 빨대, 1세트, 45개입",
@@ -696,14 +709,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 47960,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 47960,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 47960,
       "minPrice": 47960,
       "maxPrice": 47960,
       "lastPrice": 47960,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -712,9 +730,17 @@
           47960,
           47960,
           5
+        ],
+        [
+          "2026-11-18",
+          47960,
+          47960,
+          47960,
+          47960,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "332850485": {
       "productName": "데이리스타 밀쉬 멸균우유, 1L, 12개",
@@ -843,24 +869,14 @@
           "at": "2026-11-16 07:02 KST",
           "price": 44100,
           "source": "이전 deals.json 이력"
-        },
-        {
-          "at": "2026-11-17 19:53 KST",
-          "price": 58800,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 20:54 KST",
-          "price": 58800,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 49000,
+      "priceCount": 4,
+      "avgPrice": 44100,
       "minPrice": 44100,
-      "maxPrice": 58800,
-      "lastPrice": 58800,
-      "lastAt": "2026-11-17 20:54 KST",
+      "maxPrice": 44100,
+      "lastPrice": 44100,
+      "lastAt": "2026-11-16 07:02 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -869,17 +885,9 @@
           44100,
           44100,
           4
-        ],
-        [
-          "2026-11-17",
-          58800,
-          58800,
-          58800,
-          58800,
-          2
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 1
     },
     "9304259432": {
       "productName": "모닌 시럽 모음 (카페시럽), 1L, 1개",
@@ -2019,14 +2027,19 @@
           "at": "2026-11-17 20:54 KST",
           "price": 26860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 17980,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 8,
-      "avgPrice": 48090,
+      "priceCount": 9,
+      "avgPrice": 44744,
       "minPrice": 17980,
       "maxPrice": 71540,
-      "lastPrice": 26860,
-      "lastAt": "2026-11-17 20:54 KST",
+      "lastPrice": 17980,
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2043,9 +2056,17 @@
           35810,
           26860,
           4
+        ],
+        [
+          "2026-11-18",
+          17980,
+          17980,
+          17980,
+          17980,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "9595365819": {
       "productName": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄, 1kg, 5개",
@@ -2396,7 +2417,7 @@
     },
     "7214066444": {
       "productName": "카페57 프리미엄 코코아 파우더, 1kg, 1개입, 1개",
-      "category": "파우더",
+      "category": "베이킹 재료",
       "observations": [
         {
           "at": "2026-11-16 00:51 KST",
@@ -2417,14 +2438,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 14000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 14000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 14000,
       "minPrice": 14000,
       "maxPrice": 14000,
       "lastPrice": 14000,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2433,9 +2459,17 @@
           14000,
           14000,
           4
+        ],
+        [
+          "2026-11-18",
+          14000,
+          14000,
+          14000,
+          14000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9699325435": {
       "productName": "믹소 바닐라라떼 파우더, 1kg, 1개, 1개입",
@@ -2465,14 +2499,19 @@
           "at": "2026-11-17 04:15 KST",
           "price": 14750,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 14750,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 14750,
       "minPrice": 14750,
       "maxPrice": 14750,
       "lastPrice": 14750,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2489,9 +2528,17 @@
           14750,
           14750,
           1
+        ],
+        [
+          "2026-11-18",
+          14750,
+          14750,
+          14750,
+          14750,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "8581185653": {
       "productName": "카페57 말차 파우더, 500g, 1개, 1개입",
@@ -2516,14 +2563,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 9300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 9300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 9300,
       "minPrice": 9300,
       "maxPrice": 9300,
       "lastPrice": 9300,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2532,9 +2584,17 @@
           9300,
           9300,
           4
+        ],
+        [
+          "2026-11-18",
+          9300,
+          9300,
+          9300,
+          9300,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9807901953": {
       "productName": "스위트헤븐 터키 튀르키예 전통음료 살렙 파우더 1kg 밀크 우유 음료 분말 홈카페 계피 무첨가",
@@ -4074,14 +4134,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 22440,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 12490,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 22440,
-      "minPrice": 22440,
+      "priceCount": 3,
+      "avgPrice": 19123,
+      "minPrice": 12490,
       "maxPrice": 22440,
-      "lastPrice": 22440,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 12490,
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4090,9 +4155,17 @@
           22440,
           22440,
           2
+        ],
+        [
+          "2026-11-18",
+          12490,
+          12490,
+          12490,
+          12490,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9699325439": {
       "productName": "믹소 다크초코 파우더, 1kg, 1개, 1개입",
@@ -7849,14 +7922,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 31300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 17300,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 31300,
-      "minPrice": 31300,
+      "priceCount": 3,
+      "avgPrice": 26633,
+      "minPrice": 17300,
       "maxPrice": 31300,
-      "lastPrice": 31300,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastPrice": 17300,
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7865,9 +7943,17 @@
           31300,
           31300,
           2
+        ],
+        [
+          "2026-11-18",
+          17300,
+          17300,
+          17300,
+          17300,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9136027887": {
       "productName": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈, 1개, 1kg, 홀빈(분쇄안함)",
@@ -9166,14 +9252,19 @@
           "at": "2026-11-16 21:06 KST",
           "price": 28300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 16900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 28300,
-      "minPrice": 28300,
+      "priceCount": 2,
+      "avgPrice": 22600,
+      "minPrice": 16900,
       "maxPrice": 28300,
-      "lastPrice": 28300,
-      "lastAt": "2026-11-16 21:06 KST",
+      "lastPrice": 16900,
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9182,9 +9273,17 @@
           28300,
           28300,
           1
+        ],
+        [
+          "2026-11-18",
+          16900,
+          16900,
+          16900,
+          16900,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9430223106": {
       "productName": "아이팩피앤디 92파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 돔 뚜껑",
@@ -10572,14 +10671,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 4000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 4000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 4000,
       "minPrice": 4000,
       "maxPrice": 4000,
       "lastPrice": 4000,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -10588,9 +10692,17 @@
           4000,
           4000,
           1
+        ],
+        [
+          "2026-11-18",
+          4000,
+          4000,
+          4000,
+          4000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8989596765": {
       "productName": "에이투밀크 멸균우유, 1L, 1개",
@@ -14152,14 +14264,19 @@
           "at": "2026-11-17 18:51 KST",
           "price": 16500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 16500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 16500,
       "minPrice": 16500,
       "maxPrice": 16500,
       "lastPrice": 16500,
-      "lastAt": "2026-11-17 18:51 KST",
+      "lastAt": "2026-11-18 00:59 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -14168,9 +14285,17 @@
           16500,
           16500,
           1
+        ],
+        [
+          "2026-11-18",
+          16500,
+          16500,
+          16500,
+          16500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9739004686": {
       "productName": "플라마트 테이크아웃 컵 홀더 8온스 1000개입 무지 에어 카페 커피 대용량 아이스 종이",
@@ -15679,6 +15804,174 @@
           12490,
           12490,
           12490,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7927510981": {
+      "productName": "러버랩 국내산 니트릴 장갑 100p, 블랙, M, 1개",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 8720,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8720,
+      "minPrice": 8720,
+      "maxPrice": 8720,
+      "lastPrice": 8720,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          8720,
+          8720,
+          8720,
+          8720,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9466436339": {
+      "productName": "식품용 니트릴장갑 라텍스 요리용 두꺼운 파우더프리 청소용, 100개, M, 블랙 9인치",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 7480,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7480,
+      "minPrice": 7480,
+      "maxPrice": 7480,
+      "lastPrice": 7480,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7480,
+          7480,
+          7480,
+          7480,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7809581724": {
+      "productName": "피비에스투 깨끗한 비정제원당, 3kg, 2개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 21500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 21500,
+      "minPrice": 21500,
+      "maxPrice": 21500,
+      "lastPrice": 21500,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          21500,
+          21500,
+          21500,
+          21500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8180109513": {
+      "productName": "발로나 코코아 파우더, 1kg, 1개입, 1개",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 48300,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 48300,
+      "minPrice": 48300,
+      "maxPrice": 48300,
+      "lastPrice": 48300,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          48300,
+          48300,
+          48300,
+          48300,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8700860619": {
+      "productName": "천운패키지 버블 빨대 투명, 100개, 1개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 10750,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10750,
+      "minPrice": 10750,
+      "maxPrice": 10750,
+      "lastPrice": 10750,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10750,
+          10750,
+          10750,
+          10750,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9182068590": {
+      "productName": "래빗커피 하우스 블렌드 브라질, 콜롬비아, 원두커피 원두콩, 가성비, 갓볶은 원두, 1개, 500g, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-18 00:59 KST",
+          "price": 17900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17900,
+      "minPrice": 17900,
+      "maxPrice": 17900,
+      "lastPrice": 17900,
+      "lastAt": "2026-11-18 00:59 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          17900,
+          17900,
+          17900,
+          17900,
           1
         ]
       ],
