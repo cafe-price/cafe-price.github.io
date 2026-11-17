@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 01:01 KST",
+  "updatedAt": "2026-11-18 02:02 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -1989,28 +1989,8 @@
       "category": "원두",
       "observations": [
         {
-          "at": "2026-11-16 00:51 KST",
-          "price": 71540,
-          "source": "deals.json@e7b70fd"
-        },
-        {
-          "at": "2026-11-16 02:07 KST",
-          "price": 71540,
-          "source": "이전 deals.json 이력"
-        },
-        {
-          "at": "2026-11-16 07:02 KST",
-          "price": 71540,
-          "source": "이전 deals.json 이력"
-        },
-        {
           "at": "2026-11-16 21:06 KST",
           "price": 26860,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 14:11 KST",
-          "price": 71540,
           "source": "수집 결과"
         },
         {
@@ -2019,54 +1999,36 @@
           "source": "수집 결과"
         },
         {
-          "at": "2026-11-17 16:49 KST",
-          "price": 17980,
-          "source": "수집 결과"
-        },
-        {
           "at": "2026-11-17 20:54 KST",
           "price": 26860,
           "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-18 00:59 KST",
-          "price": 17980,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 9,
-      "avgPrice": 44744,
-      "minPrice": 17980,
-      "maxPrice": 71540,
-      "lastPrice": 17980,
-      "lastAt": "2026-11-18 00:59 KST",
+      "priceCount": 3,
+      "avgPrice": 26860,
+      "minPrice": 26860,
+      "maxPrice": 26860,
+      "lastPrice": 26860,
+      "lastAt": "2026-11-17 20:54 KST",
       "dailyHistory": [
         [
           "2026-11-16",
           26860,
-          71540,
-          60370,
           26860,
-          4
+          26860,
+          26860,
+          1
         ],
         [
           "2026-11-17",
-          17980,
-          71540,
-          35810,
           26860,
-          4
-        ],
-        [
-          "2026-11-18",
-          17980,
-          17980,
-          17980,
-          17980,
-          1
+          26860,
+          26860,
+          26860,
+          2
         ]
       ],
-      "uniqueDays": 3
+      "uniqueDays": 2
     },
     "9595365819": {
       "productName": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄, 1kg, 5개",
@@ -3604,61 +3566,28 @@
       "category": "우유·대체유",
       "observations": [
         {
-          "at": "2026-11-16 02:07 KST",
-          "price": 7400,
-          "source": "deals.json@f26fccf"
-        },
-        {
-          "at": "2026-11-16 07:02 KST",
-          "price": 7400,
-          "source": "이전 deals.json 이력"
-        },
-        {
           "at": "2026-11-16 15:15 KST",
           "price": 14480,
           "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-16 23:08 KST",
-          "price": 7400,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 02:12 KST",
-          "price": 7400,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 13:10 KST",
-          "price": 7400,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 8580,
-      "minPrice": 7400,
+      "priceCount": 1,
+      "avgPrice": 14480,
+      "minPrice": 14480,
       "maxPrice": 14480,
-      "lastPrice": 7400,
-      "lastAt": "2026-11-17 13:10 KST",
+      "lastPrice": 14480,
+      "lastAt": "2026-11-16 15:15 KST",
       "dailyHistory": [
         [
           "2026-11-16",
-          7400,
           14480,
-          9170,
-          7400,
-          4
-        ],
-        [
-          "2026-11-17",
-          7400,
-          7400,
-          7400,
-          7400,
-          2
+          14480,
+          14480,
+          14480,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 1
     },
     "8157287216": {
       "productName": "오트사이드 귀리음료 바리스타 블렌드",
@@ -6027,31 +5956,18 @@
       "category": "원두",
       "observations": [
         {
-          "at": "2026-11-16 07:02 KST",
-          "price": 178480,
-          "source": "deals.json@9b03795"
-        },
-        {
           "at": "2026-11-17 22:57 KST",
           "price": 18000,
           "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 98240,
+      "priceCount": 1,
+      "avgPrice": 18000,
       "minPrice": 18000,
-      "maxPrice": 178480,
+      "maxPrice": 18000,
       "lastPrice": 18000,
       "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
-        [
-          "2026-11-16",
-          178480,
-          178480,
-          178480,
-          178480,
-          1
-        ],
         [
           "2026-11-17",
           18000,
@@ -6061,7 +5977,7 @@
           1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 1
     },
     "8360433211": {
       "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
@@ -6244,14 +6160,19 @@
           "at": "2026-11-17 15:47 KST",
           "price": 50380,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 50380,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 50380,
       "minPrice": 50380,
       "maxPrice": 50380,
       "lastPrice": 50380,
-      "lastAt": "2026-11-17 15:47 KST",
+      "lastAt": "2026-11-18 02:01 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6268,9 +6189,17 @@
           50380,
           50380,
           1
+        ],
+        [
+          "2026-11-18",
+          50380,
+          50380,
+          50380,
+          50380,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "8810869296": {
       "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 자주 하트, 1개, 1000개",
@@ -7094,14 +7023,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 7500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 7500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7500,
       "minPrice": 7500,
       "maxPrice": 7500,
       "lastPrice": 7500,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastAt": "2026-11-18 02:01 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7110,9 +7044,17 @@
           7500,
           7500,
           1
+        ],
+        [
+          "2026-11-18",
+          7500,
+          7500,
+          7500,
+          7500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "5508832151": {
       "productName": "사조동아원 맥선 박력다목적용 밀가루, 20kg, 1개",
@@ -7382,29 +7324,14 @@
           "at": "2026-11-17 02:12 KST",
           "price": 46860,
           "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 13:10 KST",
-          "price": 6670,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 17:50 KST",
-          "price": 6670,
-          "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 20:54 KST",
-          "price": 12540,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 23920,
-      "minPrice": 6670,
+      "priceCount": 2,
+      "avgPrice": 46860,
+      "minPrice": 46860,
       "maxPrice": 46860,
-      "lastPrice": 12540,
-      "lastAt": "2026-11-17 20:54 KST",
+      "lastPrice": 46860,
+      "lastAt": "2026-11-17 02:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7416,11 +7343,11 @@
         ],
         [
           "2026-11-17",
-          6670,
           46860,
-          18185,
-          12540,
-          4
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
       "uniqueDays": 2
@@ -7980,11 +7907,6 @@
           "source": "수집 결과"
         },
         {
-          "at": "2026-11-17 09:22 KST",
-          "price": 42530,
-          "source": "수집 결과"
-        },
-        {
           "at": "2026-11-17 15:47 KST",
           "price": 15890,
           "source": "수집 결과"
@@ -8000,10 +7922,10 @@
           "source": "수집 결과"
         }
       ],
-      "priceCount": 8,
-      "avgPrice": 19220,
+      "priceCount": 7,
+      "avgPrice": 15890,
       "minPrice": 15890,
-      "maxPrice": 42530,
+      "maxPrice": 15890,
       "lastPrice": 15890,
       "lastAt": "2026-11-17 22:57 KST",
       "dailyHistory": [
@@ -8018,10 +7940,10 @@
         [
           "2026-11-17",
           15890,
-          42530,
-          21218,
           15890,
-          5
+          15890,
+          15890,
+          4
         ]
       ],
       "uniqueDays": 2
@@ -10272,27 +10194,22 @@
           "at": "2026-11-17 01:11 KST",
           "price": 8400,
           "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 11:06 KST",
-          "price": 210000,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 109200,
+      "priceCount": 1,
+      "avgPrice": 8400,
       "minPrice": 8400,
-      "maxPrice": 210000,
-      "lastPrice": 210000,
-      "lastAt": "2026-11-17 11:06 KST",
+      "maxPrice": 8400,
+      "lastPrice": 8400,
+      "lastAt": "2026-11-17 01:11 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           8400,
-          210000,
-          109200,
-          210000,
-          2
+          8400,
+          8400,
+          8400,
+          1
         ]
       ],
       "uniqueDays": 1
@@ -10717,27 +10634,22 @@
           "at": "2026-11-17 17:50 KST",
           "price": 5100,
           "source": "수집 결과"
-        },
-        {
-          "at": "2026-11-17 19:53 KST",
-          "price": 10200,
-          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 6800,
+      "priceCount": 2,
+      "avgPrice": 5100,
       "minPrice": 5100,
-      "maxPrice": 10200,
-      "lastPrice": 10200,
-      "lastAt": "2026-11-17 19:53 KST",
+      "maxPrice": 5100,
+      "lastPrice": 5100,
+      "lastAt": "2026-11-17 17:50 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           5100,
-          10200,
-          6800,
-          10200,
-          3
+          5100,
+          5100,
+          5100,
+          2
         ]
       ],
       "uniqueDays": 1
@@ -11544,14 +11456,19 @@
           "at": "2026-11-17 21:55 KST",
           "price": 26060,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 26060,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 26060,
       "minPrice": 26060,
       "maxPrice": 26060,
       "lastPrice": 26060,
-      "lastAt": "2026-11-17 21:55 KST",
+      "lastAt": "2026-11-18 02:01 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -11560,9 +11477,17 @@
           26060,
           26060,
           2
+        ],
+        [
+          "2026-11-18",
+          26060,
+          26060,
+          26060,
+          26060,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "5485317400": {
       "productName": "코멧 라텍스장갑 100매입",
@@ -15972,6 +15897,314 @@
           17900,
           17900,
           17900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9724723787": {
+      "productName": "98파이 아이스컵 돔뚜껑 (1000개)",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 18000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18000,
+      "minPrice": 18000,
+      "maxPrice": 18000,
+      "lastPrice": 18000,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          18000,
+          18000,
+          18000,
+          18000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6429453974": {
+      "productName": "카일스 블루베리 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 13470,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13470,
+      "minPrice": 13470,
+      "maxPrice": 13470,
+      "lastPrice": 13470,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13470,
+          13470,
+          13470,
+          13470,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1204372813": {
+      "productName": "푸른들판 블루베리 농축 분말 가루 파우더 불루베리 열매 과일 스무디 파우더, 2개, 180g",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 22800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 22800,
+      "minPrice": 22800,
+      "maxPrice": 22800,
+      "lastPrice": 22800,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          22800,
+          22800,
+          22800,
+          22800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8264684949": {
+      "productName": "[특가] 리틀데블스 니트릴장갑 블루 1000매 (100매 * 10pack), 10세트, 블루, S",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 69000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 69000,
+      "minPrice": 69000,
+      "maxPrice": 69000,
+      "lastPrice": 69000,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          69000,
+          69000,
+          69000,
+          69000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8511212174": {
+      "productName": "TYP 식품용 니트릴장갑 100개입*10개, 블랙, 중, 10세트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 59900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 59900,
+      "minPrice": 59900,
+      "maxPrice": 59900,
+      "lastPrice": 59900,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          59900,
+          59900,
+          59900,
+          59900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9481002366": {
+      "productName": "ProTap 일회용 니트릴 장갑 100매입, 5개, L, 검은색",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 19990,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19990,
+      "minPrice": 19990,
+      "maxPrice": 19990,
+      "lastPrice": 19990,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          19990,
+          19990,
+          19990,
+          19990,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9570230478": {
+      "productName": "워너빈 업소용 카카오딥 블렌딩 원두 홀빈, 1kg, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 18500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18500,
+      "minPrice": 18500,
+      "maxPrice": 18500,
+      "lastPrice": 18500,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          18500,
+          18500,
+          18500,
+          18500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8085483047": {
+      "productName": "네이쳐티 zero 초코 파우더, 500g, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 10500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10500,
+      "minPrice": 10500,
+      "maxPrice": 10500,
+      "lastPrice": 10500,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10500,
+          10500,
+          10500,
+          10500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9245979986": {
+      "productName": "컬러푸드 옐로우라벨 코코아파우더, 2개, 1개입, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 29840,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29840,
+      "minPrice": 29840,
+      "maxPrice": 29840,
+      "lastPrice": 29840,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          29840,
+          29840,
+          29840,
+          29840,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9352224150": {
+      "productName": "산들약초 무설탕 카카오파우더 네덜란드산 코코아가루, 1개, 1개입, 200g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 9000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9000,
+      "minPrice": 9000,
+      "maxPrice": 9000,
+      "lastPrice": 9000,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9000,
+          9000,
+          9000,
+          9000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9245992236": {
+      "productName": "컬러푸드 옐로우라벨 코코아파우더, 1개, 1개입, 300g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-18 02:01 KST",
+          "price": 11930,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11930,
+      "minPrice": 11930,
+      "maxPrice": 11930,
+      "lastPrice": 11930,
+      "lastAt": "2026-11-18 02:01 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          11930,
+          11930,
+          11930,
+          11930,
           1
         ]
       ],
