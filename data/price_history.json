@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17 18:52 KST",
+  "updatedAt": "2026-11-17 19:53 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -838,14 +838,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 44100,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 58800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 44100,
+      "priceCount": 5,
+      "avgPrice": 47040,
       "minPrice": 44100,
-      "maxPrice": 44100,
-      "lastPrice": 44100,
-      "lastAt": "2026-11-16 07:02 KST",
+      "maxPrice": 58800,
+      "lastPrice": 58800,
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -854,9 +859,17 @@
           44100,
           44100,
           4
+        ],
+        [
+          "2026-11-17",
+          58800,
+          58800,
+          58800,
+          58800,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9304259432": {
       "productName": "모닌 시럽 모음 (카페시럽), 1L, 1개",
@@ -5334,14 +5347,19 @@
           "at": "2026-11-17 06:18 KST",
           "price": 29700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 29700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
       "lastPrice": 29700,
-      "lastAt": "2026-11-17 06:18 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5357,7 +5375,7 @@
           29700,
           29700,
           29700,
-          2
+          3
         ]
       ],
       "uniqueDays": 2
@@ -6291,14 +6309,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 12400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 12400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 12400,
       "minPrice": 12400,
       "maxPrice": 12400,
       "lastPrice": 12400,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6307,9 +6330,17 @@
           12400,
           12400,
           1
+        ],
+        [
+          "2026-11-17",
+          12400,
+          12400,
+          12400,
+          12400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9816738221": {
       "productName": "이디야 플레인 요거트 파우더 대용량 요거트분말 홈카페 스무디 재료",
@@ -6459,14 +6490,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 25020,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 23310,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 25020,
-      "minPrice": 25020,
+      "priceCount": 2,
+      "avgPrice": 24165,
+      "minPrice": 23310,
       "maxPrice": 25020,
-      "lastPrice": 25020,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 23310,
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6475,9 +6511,17 @@
           25020,
           25020,
           1
+        ],
+        [
+          "2026-11-17",
+          23310,
+          23310,
+          23310,
+          23310,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8054602080": {
       "productName": "클룹 애사비소다 오리지널, 500ml, 24개",
@@ -6487,14 +6531,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 26610,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 26340,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 26610,
-      "minPrice": 26610,
+      "priceCount": 2,
+      "avgPrice": 26475,
+      "minPrice": 26340,
       "maxPrice": 26610,
-      "lastPrice": 26610,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 26340,
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6503,9 +6552,17 @@
           26610,
           26610,
           1
+        ],
+        [
+          "2026-11-17",
+          26340,
+          26340,
+          26340,
+          26340,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8485035226": {
       "productName": "Tingle 레몬애사비소다, 250ml, 30개",
@@ -8767,14 +8824,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 22500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 22500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 17250,
+      "priceCount": 3,
+      "avgPrice": 19000,
       "minPrice": 12000,
       "maxPrice": 22500,
       "lastPrice": 22500,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8790,7 +8852,7 @@
           22500,
           22500,
           22500,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -9130,14 +9192,19 @@
           "at": "2026-11-16 22:07 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-16 22:07 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9146,9 +9213,17 @@
           17900,
           17900,
           2
+        ],
+        [
+          "2026-11-17",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9063854435": {
       "productName": "파이토메이드 고칼슘 & 비타민D 두유 검은콩, 24개, 190ml",
@@ -9232,14 +9307,19 @@
           "at": "2026-11-17 06:18 KST",
           "price": 26950,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 26950,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 26950,
       "minPrice": 26950,
       "maxPrice": 26950,
       "lastPrice": 26950,
-      "lastAt": "2026-11-17 06:18 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9255,7 +9335,7 @@
           26950,
           26950,
           26950,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -10454,22 +10534,27 @@
           "at": "2026-11-17 17:50 KST",
           "price": 5100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 10200,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 5100,
+      "priceCount": 3,
+      "avgPrice": 6800,
       "minPrice": 5100,
-      "maxPrice": 5100,
-      "lastPrice": 5100,
-      "lastAt": "2026-11-17 17:50 KST",
+      "maxPrice": 10200,
+      "lastPrice": 10200,
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           5100,
-          5100,
-          5100,
-          5100,
-          2
+          10200,
+          6800,
+          10200,
+          3
         ]
       ],
       "uniqueDays": 1
@@ -13624,48 +13709,58 @@
     },
     "8089929761": {
       "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
-      "category": "시럽·소스",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-17 16:49 KST",
           "price": 17130,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 17290,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 17130,
+      "priceCount": 2,
+      "avgPrice": 17210,
       "minPrice": 17130,
-      "maxPrice": 17130,
-      "lastPrice": 17130,
-      "lastAt": "2026-11-17 16:49 KST",
+      "maxPrice": 17290,
+      "lastPrice": 17290,
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-17",
           17130,
-          17130,
-          17130,
-          17130,
-          1
+          17290,
+          17210,
+          17290,
+          2
         ]
       ],
       "uniqueDays": 1
     },
     "1279958822": {
       "productName": "토스키 카라멜 소스, 2kg, 1개",
-      "category": "시럽·소스",
+      "category": "파우더",
       "observations": [
         {
           "at": "2026-11-17 16:49 KST",
           "price": 25000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 25000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 25000,
       "minPrice": 25000,
       "maxPrice": 25000,
       "lastPrice": 25000,
-      "lastAt": "2026-11-17 16:49 KST",
+      "lastAt": "2026-11-17 19:53 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13673,7 +13768,7 @@
           25000,
           25000,
           25000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -13965,7 +14060,7 @@
     },
     "9632198895": {
       "productName": "플라마트 테이크아웃 컵 홀더 32온스(107파이) 800개입 무지 에어 카페 커피 대용량 아이스 종이",
-      "category": "컵·뚜껑",
+      "category": "빨대·홀더",
       "observations": [
         {
           "at": "2026-11-17 18:51 KST",
@@ -13993,7 +14088,7 @@
     },
     "9739004686": {
       "productName": "플라마트 테이크아웃 컵 홀더 8온스 1000개입 무지 에어 카페 커피 대용량 아이스 종이",
-      "category": "컵·뚜껑",
+      "category": "빨대·홀더",
       "observations": [
         {
           "at": "2026-11-17 18:51 KST",
@@ -14049,7 +14144,7 @@
     },
     "7047311844": {
       "productName": "네이쳐티 넘치는 망고 베이스, 1kg, 4개",
-      "category": "파우더",
+      "category": "과일·베이스",
       "observations": [
         {
           "at": "2026-11-17 18:51 KST",
@@ -14077,7 +14172,7 @@
     },
     "7398453752": {
       "productName": "엔칸토 망고 베이스, 1.8kg, 2개",
-      "category": "파우더",
+      "category": "과일·베이스",
       "observations": [
         {
           "at": "2026-11-17 18:51 KST",
@@ -14182,6 +14277,258 @@
           5600,
           5600,
           5600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9704780261": {
+      "productName": "대용량 일회용 주방 조리모 셰프모자 위생모자 제과제빵 식당 급식소 20매/100매, 100개, 화이트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 75500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 75500,
+      "minPrice": 75500,
+      "maxPrice": 75500,
+      "lastPrice": 75500,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          75500,
+          75500,
+          75500,
+          75500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9681716596": {
+      "productName": "일회용 부직포 헤어캡 위생모 위생모자, 100개, 화이트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 8400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8400,
+      "minPrice": 8400,
+      "maxPrice": 8400,
+      "lastPrice": 8400,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          8400,
+          8400,
+          8400,
+          8400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9372362414": {
+      "productName": "[특대형/61cm] 안눌리는 일회용 위생모 대용량 100매 200매 300매, 100개, 화이트",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 9900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9900,
+      "minPrice": 9900,
+      "maxPrice": 9900,
+      "lastPrice": 9900,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          9900,
+          9900,
+          9900,
+          9900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9454703444": {
+      "productName": "[로켓프레시] 카페 57 딸기청 (냉동), 1kg, 2개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 23000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 23000,
+      "minPrice": 23000,
+      "maxPrice": 23000,
+      "lastPrice": 23000,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          23000,
+          23000,
+          23000,
+          23000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8444060567": {
+      "productName": "이노라이즈 이노미 요거트 파우더, 1kg, 2개, 1개입",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 19190,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19190,
+      "minPrice": 19190,
+      "maxPrice": 19190,
+      "lastPrice": 19190,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          19190,
+          19190,
+          19190,
+          19190,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9311863170": {
+      "productName": "더와이 카라멜시럽 (리필용), 1개, 1kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 7950,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7950,
+      "minPrice": 7950,
+      "maxPrice": 7950,
+      "lastPrice": 7950,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          7950,
+          7950,
+          7950,
+          7950,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9560776821": {
+      "productName": "비에스필 카라멜시럽 펌프증정, 1개, 1.3kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 12500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12500,
+      "minPrice": 12500,
+      "maxPrice": 12500,
+      "lastPrice": 12500,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          12500,
+          12500,
+          12500,
+          12500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9720289330": {
+      "productName": "피버트리 프리미엄 토닉워터 캔, 8개, 150ml",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 15500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 15500,
+      "minPrice": 15500,
+      "maxPrice": 15500,
+      "lastPrice": 15500,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          15500,
+          15500,
+          15500,
+          15500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7685466256": {
+      "productName": "에이투밀크 멸균우유, 1L, 10개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-17 19:53 KST",
+          "price": 51000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 51000,
+      "minPrice": 51000,
+      "maxPrice": 51000,
+      "lastPrice": 51000,
+      "lastAt": "2026-11-17 19:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          51000,
+          51000,
+          51000,
+          51000,
           1
         ]
       ],
