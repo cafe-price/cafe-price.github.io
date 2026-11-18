@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 15:55 KST",
+  "updatedAt": "2026-11-18 20:45 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7213,14 +7213,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 32900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 32900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 32900,
       "minPrice": 32900,
       "maxPrice": 32900,
       "lastPrice": 32900,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7229,9 +7234,17 @@
           32900,
           32900,
           1
+        ],
+        [
+          "2026-11-18",
+          32900,
+          32900,
+          32900,
+          32900,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "91427252127"
     },
     "9392190751": {
@@ -7318,14 +7331,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 5740,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 5740,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 5740,
       "minPrice": 5740,
       "maxPrice": 5740,
       "lastPrice": 5740,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7341,7 +7359,7 @@
           5740,
           5740,
           5740,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -7360,14 +7378,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 5060,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 5060,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 5060,
       "minPrice": 5060,
       "maxPrice": 5060,
       "lastPrice": 5060,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7383,7 +7406,7 @@
           5060,
           5060,
           5060,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -7758,14 +7781,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 7760,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 7760,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 7610,
+      "priceCount": 3,
+      "avgPrice": 7660,
       "minPrice": 7460,
       "maxPrice": 7760,
       "lastPrice": 7760,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7781,7 +7809,7 @@
           7760,
           7760,
           7760,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -7800,14 +7828,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 8050,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 8050,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 8050,
       "minPrice": 8050,
       "maxPrice": 8050,
       "lastPrice": 8050,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7823,7 +7856,7 @@
           8050,
           8050,
           8050,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -7842,14 +7875,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 13800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 13800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13800,
       "minPrice": 13800,
       "maxPrice": 13800,
       "lastPrice": 13800,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7865,7 +7903,7 @@
           13800,
           13800,
           13800,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -7884,14 +7922,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 24900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 24900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 24900,
       "minPrice": 24900,
       "maxPrice": 24900,
       "lastPrice": 24900,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7907,7 +7950,7 @@
           24900,
           24900,
           24900,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -12560,14 +12603,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 5200,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 5200,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 5200,
       "minPrice": 5200,
       "maxPrice": 5200,
       "lastPrice": 5200,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12583,7 +12631,7 @@
           5200,
           5200,
           5200,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -18698,14 +18746,19 @@
           "at": "2026-11-18 09:46 KST",
           "price": 5000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 5000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 5000,
       "minPrice": 5000,
       "maxPrice": 5000,
       "lastPrice": 5000,
-      "lastAt": "2026-11-18 09:46 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -18713,10 +18766,11 @@
           5000,
           5000,
           5000,
-          1
+          2
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 1,
+      "vendorItemId": "84235341568"
     },
     "8776166870": {
       "productName": "리치너츠 칠레산 건포도, 1개, 1kg",
@@ -19514,15 +19568,20 @@
           "at": "2026-11-18 15:55 KST",
           "price": 12980,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 12980,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "93544339203",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 12980,
       "minPrice": 12980,
       "maxPrice": 12980,
       "lastPrice": 12980,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19530,7 +19589,7 @@
           12980,
           12980,
           12980,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -19543,15 +19602,20 @@
           "at": "2026-11-18 15:55 KST",
           "price": 13800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 13800,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "90979647849",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 13800,
       "minPrice": 13800,
       "maxPrice": 13800,
       "lastPrice": 13800,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19559,7 +19623,7 @@
           13800,
           13800,
           13800,
-          1
+          2
         ]
       ],
       "uniqueDays": 1
@@ -19572,15 +19636,20 @@
           "at": "2026-11-18 15:55 KST",
           "price": 15960,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 15960,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "91705226135",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 15960,
       "minPrice": 15960,
       "maxPrice": 15960,
       "lastPrice": 15960,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-18 20:44 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19588,6 +19657,93 @@
           15960,
           15960,
           15960,
+          2
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9520248459": {
+      "productName": "삼육두유 100, 190ml, 32개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 22580,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95514550671",
+      "priceCount": 1,
+      "avgPrice": 22580,
+      "minPrice": 22580,
+      "maxPrice": 22580,
+      "lastPrice": 22580,
+      "lastAt": "2026-11-18 20:44 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          22580,
+          22580,
+          22580,
+          22580,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8412682472": {
+      "productName": "[로켓프레시] 비욘드 딸기 크림치즈, 1kg, 1개입, 2개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 36860,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "91372577973",
+      "priceCount": 1,
+      "avgPrice": 36860,
+      "minPrice": 36860,
+      "maxPrice": 36860,
+      "lastPrice": 36860,
+      "lastAt": "2026-11-18 20:44 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          36860,
+          36860,
+          36860,
+          36860,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7821715784": {
+      "productName": "미디엄로스트 신맛 없는 구수한 커피 원두 로스팅 홀빈 분쇄안함, 1개, 500g",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-18 20:44 KST",
+          "price": 16400,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "86998615461",
+      "priceCount": 1,
+      "avgPrice": 16400,
+      "minPrice": 16400,
+      "maxPrice": 16400,
+      "lastPrice": 16400,
+      "lastAt": "2026-11-18 20:44 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          16400,
+          16400,
+          16400,
+          16400,
           1
         ]
       ],
