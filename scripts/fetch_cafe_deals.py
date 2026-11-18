@@ -1101,11 +1101,37 @@ def vendor_item_id(deal: dict) -> str:
     return m.group(1) if m else ""
 
 
+def option_name_key(deal: dict) -> str:
+    """옵션 비교용 상품명 정규화(공백·쉼표 제거). vendorItemId 를 못 읽을 때만 쓰는 보조 수단."""
+    return re.sub(r"[\s,]+", "", str((deal or {}).get("productName") or "")).lower()
+
+
+def with_vendor_item_id(deal: dict) -> dict:
+    """`vendorItemId` 필드를 상품 링크에서 복원해 항상 채운 상태로 만든다(제자리 갱신).
+
+    쿠팡 응답의 `vendorItemId` 가 비어 오는 경우가 있어(2026-11-18 점검: deals.json 394건 전부 공백)
+    필드만 보고 판단하면 옵션 가드가 동작하지 않는다. 링크에 남아 있는 값으로 채워 둔다.
+    """
+    if isinstance(deal, dict):
+        vid = vendor_item_id(deal)
+        if vid:
+            deal["vendorItemId"] = vid
+    return deal
+
+
 def is_other_option(stored: dict, fresh: dict) -> bool:
-    """같은 productId 인데 실제 판매 옵션(vendorItemId)이 다른 상품인지."""
+    """같은 productId 인데 실제 판매 옵션(vendorItemId)이 다른 상품인지.
+
+    양쪽 모두 vendorItemId 를 읽을 수 있으면 그 값으로 판정한다. 한쪽이라도 링크에서
+    읽지 못하면(드물게 vendorItemId 없는 링크) 상품명이 다를 때만 다른 옵션으로 본다.
+    """
     a = vendor_item_id(stored)
     b = vendor_item_id(fresh)
-    return bool(a and b and a != b)
+    if a and b:
+        return a != b
+    na = option_name_key(stored)
+    nb = option_name_key(fresh)
+    return bool(na and nb and na != nb)
 
 
 def passes_listing_filter(deal: dict) -> bool:
@@ -1405,6 +1431,9 @@ def add_observation(hist: dict, deal: dict, at: str, source: str) -> bool:
     entry = hist["products"].setdefault(pid, {"productName": "", "category": "", "observations": []})
     entry["productName"] = deal.get("productName") or entry.get("productName") or ""
     entry["category"] = deal.get("category") or entry.get("category") or ""
+    vid = vendor_item_id(deal)
+    if vid:
+        entry["vendorItemId"] = vid
     obs = entry.setdefault("observations", [])
     for o in obs:
         if o.get("at") == at:
@@ -1654,7 +1683,8 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
                       f"{item.get('productName', '')[:64]}")
             deals.append({
                 "productId": pid,
-                "vendorItemId": str(item.get("vendorItemId") or ""),
+                "vendorItemId": str(item.get("vendorItemId") or "")
+                                or vendor_item_id({"productUrl": item.get("productUrl") or ""}),
                 "productName": item.get("productName", ""),
                 "productPrice": int(price) if price else None,
                 "productImage": item.get("productImage", ""),
@@ -1696,6 +1726,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     for d in previous:
         if is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
+        with_vendor_item_id(d)
         while d.get("category") in CATEGORY_ALIASES:
             d["category"] = CATEGORY_ALIASES[d["category"]]
         d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
@@ -1709,6 +1740,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         pid = str(d.get("productId") or "")
         if not pid or is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
+        with_vendor_item_id(d)
         if pid in merged and is_other_option(merged[pid], d):
             print(f"[skip] 같은 상품 페이지(productId {pid})의 다른 옵션 — 기존 상품 유지: "
                   f"{(d.get('productName') or '')[:48]}")
