@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 11:50 KST",
+  "updatedAt": "2026-11-18 12:51 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -394,14 +394,19 @@
           "at": "2026-11-17 04:15 KST",
           "price": 44170,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 44170,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 44170,
       "minPrice": 44170,
       "maxPrice": 44170,
       "lastPrice": 44170,
-      "lastAt": "2026-11-17 04:15 KST",
+      "lastAt": "2026-11-18 12:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -418,9 +423,17 @@
           44170,
           44170,
           1
+        ],
+        [
+          "2026-11-18",
+          44170,
+          44170,
+          44170,
+          44170,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "94994306713"
     },
     "8887691390": {
@@ -5420,14 +5433,19 @@
           "at": "2026-11-18 04:03 KST",
           "price": 29700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 29700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 29700,
       "minPrice": 29700,
       "maxPrice": 29700,
       "lastPrice": 29700,
-      "lastAt": "2026-11-18 04:03 KST",
+      "lastAt": "2026-11-18 12:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5451,7 +5469,7 @@
           29700,
           29700,
           29700,
-          1
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -6266,14 +6284,19 @@
           "at": "2026-11-18 02:01 KST",
           "price": 50380,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 50380,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 50380,
       "minPrice": 50380,
       "maxPrice": 50380,
       "lastPrice": 50380,
-      "lastAt": "2026-11-18 02:01 KST",
+      "lastAt": "2026-11-18 12:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6297,7 +6320,7 @@
           50380,
           50380,
           50380,
-          1
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -7390,14 +7413,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 46860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 46860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
       "lastPrice": 46860,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-18 12:50 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7414,9 +7442,17 @@
           46860,
           46860,
           1
+        ],
+        [
+          "2026-11-18",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "84734652331"
     },
     "8421621861": {
@@ -12638,20 +12674,25 @@
     },
     "9271916742": {
       "productName": "엘리펀트앤썬 태국 저당 코코넛밀크(코코넛추출물 85%), 6개, 400ml",
-      "category": "우유·대체유",
+      "category": "크림·연유",
       "observations": [
         {
           "at": "2026-11-17 08:21 KST",
           "price": 14900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 14900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 14900,
       "minPrice": 14900,
       "maxPrice": 14900,
       "lastPrice": 14900,
-      "lastAt": "2026-11-17 08:21 KST",
+      "lastAt": "2026-11-18 12:50 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12660,9 +12701,17 @@
           14900,
           14900,
           1
+        ],
+        [
+          "2026-11-18",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "94408254495"
     },
     "9523129899": {
@@ -18858,6 +18907,122 @@
           34500,
           34500,
           34500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9211497051": {
+      "productName": "코코씸 코코넛크림 요리용, 6개, 1L",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 72000,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94855888585",
+      "priceCount": 1,
+      "avgPrice": 72000,
+      "minPrice": 72000,
+      "maxPrice": 72000,
+      "lastPrice": 72000,
+      "lastAt": "2026-11-18 12:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          72000,
+          72000,
+          72000,
+          72000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9683775981": {
+      "productName": "아이팩피앤디 무인쇄 종이컵 180ml, 2개, 1000개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 25000,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95941743717",
+      "priceCount": 1,
+      "avgPrice": 25000,
+      "minPrice": 25000,
+      "maxPrice": 25000,
+      "lastPrice": 25000,
+      "lastAt": "2026-11-18 12:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8636312518": {
+      "productName": "에이투밀크 멸균우유, 200ml, 24개",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 40900,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "93503610814",
+      "priceCount": 1,
+      "avgPrice": 40900,
+      "minPrice": 40900,
+      "maxPrice": 40900,
+      "lastPrice": 40900,
+      "lastAt": "2026-11-18 12:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          40900,
+          40900,
+          40900,
+          40900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9716741207": {
+      "productName": "포담팩 종이컵홀더 92 98파이 멀티홀더 레드 복주머니, 1개, 1000개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 12:50 KST",
+          "price": 26950,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96001852954",
+      "priceCount": 1,
+      "avgPrice": 26950,
+      "minPrice": 26950,
+      "maxPrice": 26950,
+      "lastPrice": 26950,
+      "lastAt": "2026-11-18 12:50 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          26950,
+          26950,
+          26950,
+          26950,
           1
         ]
       ],
