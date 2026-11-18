@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 08:46 KST",
+  "updatedAt": "2026-11-18 09:46 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -562,14 +562,19 @@
           "at": "2026-11-17 20:54 KST",
           "price": 65000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 49900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 9,
-      "avgPrice": 48667,
+      "priceCount": 10,
+      "avgPrice": 48790,
       "minPrice": 20300,
       "maxPrice": 65000,
-      "lastPrice": 65000,
-      "lastAt": "2026-11-17 20:54 KST",
+      "lastPrice": 49900,
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -586,9 +591,17 @@
           47125,
           65000,
           4
+        ],
+        [
+          "2026-11-18",
+          49900,
+          49900,
+          49900,
+          49900,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "9609711847": {
       "productName": "그린버블스 국내산 생분해 옥수수빨대 개별포장 21cm 그린, 1개, 100개",
@@ -3490,14 +3503,19 @@
           "at": "2026-11-17 02:12 KST",
           "price": 13440,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 13440,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 13440,
       "minPrice": 13440,
       "maxPrice": 13440,
       "lastPrice": 13440,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3514,9 +3532,17 @@
           13440,
           13440,
           1
+        ],
+        [
+          "2026-11-18",
+          13440,
+          13440,
+          13440,
+          13440,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "8258949462": {
       "productName": "쏘굿 아몬드 오리지널, 1L, 3개",
@@ -6056,14 +6082,19 @@
           "at": "2026-11-18 07:11 KST",
           "price": 26800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 26800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
       "lastPrice": 26800,
-      "lastAt": "2026-11-18 07:11 KST",
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6087,7 +6118,7 @@
           26800,
           26800,
           26800,
-          1
+          2
         ]
       ],
       "uniqueDays": 3
@@ -7248,14 +7279,19 @@
           "at": "2026-11-16 16:52 KST",
           "price": 16000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 15000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 16000,
-      "minPrice": 16000,
+      "priceCount": 2,
+      "avgPrice": 15500,
+      "minPrice": 15000,
       "maxPrice": 16000,
-      "lastPrice": 16000,
-      "lastAt": "2026-11-16 16:52 KST",
+      "lastPrice": 15000,
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7264,9 +7300,17 @@
           16000,
           16000,
           1
+        ],
+        [
+          "2026-11-18",
+          15000,
+          15000,
+          15000,
+          15000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9399924245": {
       "productName": "기가 마시멜로우 마일드 스모어절편모양, 1kg, 2개",
@@ -12184,14 +12228,19 @@
           "at": "2026-11-17 07:19 KST",
           "price": 13200,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 13200,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 13200,
       "minPrice": 13200,
       "maxPrice": 13200,
       "lastPrice": 13200,
-      "lastAt": "2026-11-17 07:19 KST",
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12200,9 +12249,17 @@
           13200,
           13200,
           1
+        ],
+        [
+          "2026-11-18",
+          13200,
+          13200,
+          13200,
+          13200,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7657698356": {
       "productName": "파베글라스 벨벳 화이트 40% 커버춰 리얼 초콜릿, 1kg, 1개",
@@ -15334,14 +15391,19 @@
           "at": "2026-11-17 22:57 KST",
           "price": 13890,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 13890,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 13890,
       "minPrice": 13890,
       "maxPrice": 13890,
       "lastPrice": 13890,
-      "lastAt": "2026-11-17 22:57 KST",
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -15350,9 +15412,17 @@
           13890,
           13890,
           1
+        ],
+        [
+          "2026-11-18",
+          13890,
+          13890,
+          13890,
+          13890,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9234396746": {
       "productName": "소이비랩 검은콩 저당두유, 72개, 190ml",
@@ -15502,14 +15572,19 @@
           "at": "2026-11-17 23:58 KST",
           "price": 44400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 44400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 44400,
       "minPrice": 44400,
       "maxPrice": 44400,
       "lastPrice": 44400,
-      "lastAt": "2026-11-17 23:58 KST",
+      "lastAt": "2026-11-18 09:46 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -15518,9 +15593,17 @@
           44400,
           44400,
           1
+        ],
+        [
+          "2026-11-18",
+          44400,
+          44400,
+          44400,
+          44400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9417321086": {
       "productName": "안녕블랜드 산미없는 고소한 커피원두 미디엄다크로스팅 견과류 데일리 홈카페원두 코에코에, 1개, 200g, 홀빈(분쇄안함)",
@@ -17731,6 +17814,258 @@
           11600,
           11600,
           11600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9750404220": {
+      "productName": "오브맘 오트오브맘 바나나맛 귀리 음료, 24개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 17900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 17900,
+      "minPrice": 17900,
+      "maxPrice": 17900,
+      "lastPrice": 17900,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9773990534": {
+      "productName": "오브맘 오트오브맘 바나나맛 귀리 음료, 16개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 14900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 14900,
+      "minPrice": 14900,
+      "maxPrice": 14900,
+      "lastPrice": 14900,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          14900,
+          14900,
+          14900,
+          14900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7897377342": {
+      "productName": "엔칸토 라임모히또 음료베이스, 1.8kg, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 13500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13500,
+      "minPrice": 13500,
+      "maxPrice": 13500,
+      "lastPrice": 13500,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13500,
+          13500,
+          13500,
+          13500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6982394472": {
+      "productName": "[로켓프레시] 라임 슬라이스 (냉동), 500g, 1개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 5000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 5000,
+      "minPrice": 5000,
+      "maxPrice": 5000,
+      "lastPrice": 5000,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          5000,
+          5000,
+          5000,
+          5000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8776166870": {
+      "productName": "리치너츠 칠레산 건포도, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 9800,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9800,
+      "minPrice": 9800,
+      "maxPrice": 9800,
+      "lastPrice": 9800,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9800,
+          9800,
+          9800,
+          9800,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "1518979233": {
+      "productName": "[로켓프레시] 산들 건포도, 1kg, 1개",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 10660,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10660,
+      "minPrice": 10660,
+      "maxPrice": 10660,
+      "lastPrice": 10660,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10660,
+          10660,
+          10660,
+          10660,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6190563121": {
+      "productName": "홈인푸드 건포도, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 11900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 11900,
+      "minPrice": 11900,
+      "maxPrice": 11900,
+      "lastPrice": 11900,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          11900,
+          11900,
+          11900,
+          11900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7737831977": {
+      "productName": "네이쳐티 얼그레이 밀크티 파우더, 1kg, 1개입, 1개",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 12900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 12900,
+      "minPrice": 12900,
+      "maxPrice": 12900,
+      "lastPrice": 12900,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          12900,
+          12900,
+          12900,
+          12900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8425473266": {
+      "productName": "P01O 식품포장지 (300mm x 300mm) 1000장",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 09:46 KST",
+          "price": 35000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 35000,
+      "minPrice": 35000,
+      "maxPrice": 35000,
+      "lastPrice": 35000,
+      "lastAt": "2026-11-18 09:46 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          35000,
+          35000,
+          35000,
+          35000,
           1
         ]
       ],
