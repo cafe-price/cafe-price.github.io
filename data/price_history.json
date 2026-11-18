@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 09:46 KST",
+  "updatedAt": "2026-11-18 10:48 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -882,14 +882,19 @@
           "at": "2026-11-16 07:02 KST",
           "price": 44100,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 26400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
-      "avgPrice": 44100,
-      "minPrice": 44100,
+      "priceCount": 5,
+      "avgPrice": 40560,
+      "minPrice": 26400,
       "maxPrice": 44100,
-      "lastPrice": 44100,
-      "lastAt": "2026-11-16 07:02 KST",
+      "lastPrice": 26400,
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -898,9 +903,17 @@
           44100,
           44100,
           4
+        ],
+        [
+          "2026-11-18",
+          26400,
+          26400,
+          26400,
+          26400,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9304259432": {
       "productName": "모닌 시럽 모음 (카페시럽), 1L, 1개",
@@ -9912,14 +9925,19 @@
           "at": "2026-11-17 00:10 KST",
           "price": 32500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 32500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 32500,
       "minPrice": 32500,
       "maxPrice": 32500,
       "lastPrice": 32500,
-      "lastAt": "2026-11-17 00:10 KST",
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -9928,9 +9946,17 @@
           32500,
           32500,
           1
+        ],
+        [
+          "2026-11-18",
+          32500,
+          32500,
+          32500,
+          32500,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7290063313": {
       "productName": "[씨엘] 400ml(13온스) 종이컵 1000개 1박스 (뚜껑별도)",
@@ -10136,14 +10162,19 @@
           "at": "2026-11-17 01:11 KST",
           "price": 118330,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 117530,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 118330,
-      "minPrice": 118330,
+      "priceCount": 2,
+      "avgPrice": 117930,
+      "minPrice": 117530,
       "maxPrice": 118330,
-      "lastPrice": 118330,
-      "lastAt": "2026-11-17 01:11 KST",
+      "lastPrice": 117530,
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -10152,9 +10183,17 @@
           118330,
           118330,
           1
+        ],
+        [
+          "2026-11-18",
+          117530,
+          117530,
+          117530,
+          117530,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "7380505327": {
       "productName": "이노라이즈 이노미 고구마 파우더 1kg, 1개, 옵션없음, 1개입, 1kg",
@@ -10660,14 +10699,19 @@
           "at": "2026-11-17 17:50 KST",
           "price": 5100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 5100,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 5100,
       "minPrice": 5100,
       "maxPrice": 5100,
       "lastPrice": 5100,
-      "lastAt": "2026-11-17 17:50 KST",
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -10676,9 +10720,17 @@
           5100,
           5100,
           2
+        ],
+        [
+          "2026-11-18",
+          5100,
+          5100,
+          5100,
+          5100,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9531601037": {
       "productName": "킹너츠 씨드견과믹스 아몬드슬라이스 볶음땅콩분태 호박씨 해바라기씨 4종 견과믹스, 1개, 1kg",
@@ -12437,14 +12489,19 @@
           "at": "2026-11-17 07:19 KST",
           "price": 18700,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 18700,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 18700,
       "minPrice": 18700,
       "maxPrice": 18700,
       "lastPrice": 18700,
-      "lastAt": "2026-11-17 07:19 KST",
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12453,9 +12510,17 @@
           18700,
           18700,
           1
+        ],
+        [
+          "2026-11-18",
+          18700,
+          18700,
+          18700,
+          18700,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9289484756": {
       "productName": "코코온 코코넛밀크 (요리용), 4개, 400ml",
@@ -13399,14 +13464,19 @@
           "at": "2026-11-17 14:11 KST",
           "price": 14850,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 14850,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 14850,
       "minPrice": 14850,
       "maxPrice": 14850,
       "lastPrice": 14850,
-      "lastAt": "2026-11-17 14:11 KST",
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13415,9 +13485,17 @@
           14850,
           14850,
           1
+        ],
+        [
+          "2026-11-18",
+          14850,
+          14850,
+          14850,
+          14850,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9212679642": {
       "productName": "고소한 블렌드 브라질 콜롬비아 인도 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
@@ -13717,14 +13795,19 @@
           "at": "2026-11-17 18:51 KST",
           "price": 45000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 45000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 45000,
       "minPrice": 45000,
       "maxPrice": 45000,
       "lastPrice": 45000,
-      "lastAt": "2026-11-17 18:51 KST",
+      "lastAt": "2026-11-18 10:47 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13733,9 +13816,17 @@
           45000,
           45000,
           2
+        ],
+        [
+          "2026-11-18",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "335762157": {
       "productName": "샷 시럽 헤이즐넛 1000ml",
@@ -18066,6 +18157,314 @@
           35000,
           35000,
           35000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8502189512": {
+      "productName": "엔칸토 바나나라떼 파우더, 1개, 1개입, 1kg",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 13000,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 13000,
+      "minPrice": 13000,
+      "maxPrice": 13000,
+      "lastPrice": 13000,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9611449408": {
+      "productName": "리치너츠 건블루베리 미국산, 1개, 1kg",
+      "category": "당류·토핑",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 28500,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 28500,
+      "minPrice": 28500,
+      "maxPrice": 28500,
+      "lastPrice": 28500,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          28500,
+          28500,
+          28500,
+          28500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7737704602": {
+      "productName": "매드바닐라 리얼 바닐라시럽 홀빈, 300ml, 1개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 18600,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 18600,
+      "minPrice": 18600,
+      "maxPrice": 18600,
+      "lastPrice": 18600,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          18600,
+          18600,
+          18600,
+          18600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9557536554": {
+      "productName": "친환경 일회용 원형 접시 18cm, 1개, 50개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 8840,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8840,
+      "minPrice": 8840,
+      "maxPrice": 8840,
+      "lastPrice": 8840,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          8840,
+          8840,
+          8840,
+          8840,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9557524105": {
+      "productName": "친환경 일회용 원형 접시 15cm, 1개, 50개입",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 8400,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 8400,
+      "minPrice": 8400,
+      "maxPrice": 8400,
+      "lastPrice": 8400,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          8400,
+          8400,
+          8400,
+          8400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6807232458": {
+      "productName": "브리지톡 풀무원 스파클링 플레인, 500ml, 20개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 7630,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 7630,
+      "minPrice": 7630,
+      "maxPrice": 7630,
+      "lastPrice": 7630,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7630,
+          7630,
+          7630,
+          7630,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9683450076": {
+      "productName": "잠바주스 스파클링 워터 만다린, 20개, 500ml",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 10900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "lastPrice": 10900,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9683469532": {
+      "productName": "잠바주스 스파클링 워터 레몬, 20개, 500ml",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 10900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "lastPrice": 10900,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6807232464": {
+      "productName": "풀무원샘물 브리지톡 탄산음료 라임, 500ml, 20개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 9980,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 9980,
+      "minPrice": 9980,
+      "maxPrice": 9980,
+      "lastPrice": 9980,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          9980,
+          9980,
+          9980,
+          9980,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8427523349": {
+      "productName": "TYP 비닐 컵캐리어 커피캐리어 2구 1000매, 1세트, 1000개입",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 29900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 29900,
+      "minPrice": 29900,
+      "maxPrice": 29900,
+      "lastPrice": 29900,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          29900,
+          29900,
+          29900,
+          29900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8442352068": {
+      "productName": "TYP 비닐 컵캐리어 커피캐리어 1구 1000매, 1000개입, 1세트",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 10:47 KST",
+          "price": 19900,
+          "source": "수집 결과"
+        }
+      ],
+      "priceCount": 1,
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "lastPrice": 19900,
+      "lastAt": "2026-11-18 10:47 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          19900,
+          19900,
+          19900,
+          19900,
           1
         ]
       ],
