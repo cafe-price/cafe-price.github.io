@@ -917,6 +917,32 @@ TARGETS = [
     {"label": "컵홀더 24온스 1000개",   "category": "빨대·홀더",  "query": "컵홀더 24온스 1000개", "bases": ["개당"], "wave": 43},
     {"label": "사과 베이스 1kg",       "category": "과일·베이스", "query": "사과 베이스 1kg",     "bases": ["100g", "100ml"], "wave": 43},
 
+    # ---- 44차 보강 키워드 (wave=44, 2026-11-18 13시 회차) ----
+    # 건수가 가장 적은 카테고리(크림·연유 7 · 컵·뚜껑 23 · 우유·대체유 28 · 빨대·홀더 29 · 과일·베이스 31)에
+    # 8회를 배분했습니다. 12:50 노트의 '다음 회차 후보'는 **그대로 쓰지 않았습니다**:
+    #   `종이컵 4온스 1000개`(wave 32 에서 이미 조회) · `컵홀더 16온스 1000개`(30차에서 '16·20온스 홀더 기보유 확인'으로
+    #   종결) · `멸균우유 200ml 24개`(wave 16 조회분) 는 중복/종결 축이라 제외하고, 같은 방향의 **미조회 축**으로 바꿨습니다.
+    # 12시 회차에서 적중한 축이 규격(온스)이 아니라 **용량·포장 단위 변형**이었으므로(180ml 무인쇄컵 · 200ml 24입 · 92/98파이 멀티홀더)
+    # 이번에도 포장 단위·용량 변형을 우선했습니다. 배분: 크림·연유 2 · 컵·뚜껑 2 · 우유·대체유 2 · 빨대·홀더 1 · 과일·베이스 1.
+    # 크림·연유는 `생크림 1L`·`생크림 500ml` 금지 규칙(사용자 확정)에 따라 제목에 용량이 박히는 축만 씁니다.
+    # 중복 점검: `휘핑크림 4kg`(≠ 250ml·500ml·1000ml·1L·500g·1kg·2kg·3kg·동물성 1L·리치스 1L) ·
+    #   `생크림 200ml`(≠ 생크림 1000ml·1kg·2L·500g — 200ml 소포장 미조회) ·
+    #   `무인쇄 종이컵 1000개`(≠ 종이컵 2·3·5·7·8·9·10·12·13·16·18온스 · 6.5oz 뚜껑 — 브랜드 무인쇄 축 미조회) ·
+    #   `아이스컵 6.5온스 1000개`(6.5온스는 종이컵·뚜껑만 보유, PET 6.5온스 미조회) ·
+    #   `두유 190ml 24개`(≠ 두유 190ml 단품·두유 1L·두유 500ml·무가당 두유 1L — 24입 벌크 미조회) ·
+    #   `우유 1L 12개`(≠ 우유 1L 24개·우유 500ml 12개·우유 200ml 24개·멸균우유 1L 24개) ·
+    #   `컵홀더 1000개`(≠ 10/12/24온스·92파이·테이크아웃·종이컵 홀더 — 규격 미지정 전량 조회) ·
+    #   `포도 베이스 1kg`(≠ 청포도 파우더·청포도 시럽 · 사과 베이스 — 포도 베이스 미조회)
+    # 모두 **제목에 용량·개수가 명시되는** 키워드만 씁니다(사용자 확정 규칙).
+    {"label": "휘핑크림 4kg",         "category": "크림·연유",   "query": "휘핑크림 4kg",       "bases": ["100g", "100ml"], "wave": 44},
+    {"label": "생크림 200ml",         "category": "크림·연유",   "query": "생크림 200ml",       "bases": ["100ml", "100g"], "wave": 44},
+    {"label": "무인쇄 종이컵 1000개",  "category": "컵·뚜껑",     "query": "무인쇄 종이컵 1000개", "bases": ["개당"], "wave": 44},
+    {"label": "아이스컵 6.5온스 1000개", "category": "컵·뚜껑",    "query": "아이스컵 6.5온스 1000개", "bases": ["개당"], "wave": 44},
+    {"label": "두유 190ml 24개",      "category": "우유·대체유", "query": "두유 190ml 24개",     "bases": ["100ml"], "wave": 44},
+    {"label": "우유 1L 12개",         "category": "우유·대체유", "query": "우유 1L 12개",        "bases": ["100ml"], "wave": 44},
+    {"label": "컵홀더 1000개",        "category": "빨대·홀더",   "query": "컵홀더 1000개",       "bases": ["개당"], "wave": 44},
+    {"label": "포도 베이스 1kg",       "category": "과일·베이스", "query": "포도 베이스 1kg",     "bases": ["100g", "100ml"], "wave": 44},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -1757,6 +1783,11 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     merged: dict[str, dict] = {}
     order: list[str] = []
     SKIPPED_OPTION_IDS.clear()
+    # 같은 상품이 **다른 판매 페이지(productId)** 로 중복 검색되는 경우가 있습니다.
+    # 2026-11-18 13시 회차: `두유 190ml 24개` 조회에서 `약콩두유 오리지널 190ml×24`(23,250원)가
+    # pageKey 293207724 · 1555608082 두 페이지로 함께 와서 같은 상품이 두 번 실렸습니다.
+    # 상품명과 가격이 모두 같으면 같은 상품으로 보고 먼저 들어온 것만 남깁니다(가격 이력도 남기지 않음).
+    seen_name_price: dict[tuple[str, object], str] = {}
     for d in previous:
         if is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
@@ -1767,6 +1798,13 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         pid = str(d.get("productId") or "")
         if not pid:
             continue
+        key = (d.get("productName", ""), d.get("productPrice"))
+        if key in seen_name_price:
+            print(f"[skip] 같은 상품의 중복 판매 페이지(productId {pid}) — 기존 상품 유지: "
+                  f"{(d.get('productName') or '')[:48]}")
+            SKIPPED_OPTION_IDS.add(pid)
+            continue
+        seen_name_price[key] = pid
         if pid not in merged:
             order.append(pid)
         merged[pid] = d
@@ -1781,6 +1819,13 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
             SKIPPED_OPTION_IDS.add(pid)   # 이 가격은 다른 옵션 가격이므로 이력에 남기지 않는다
             continue
         d["category"] = override_category(d.get("productName", ""), d.get("category", ""))
+        key = (d.get("productName", ""), d.get("productPrice"))
+        if pid not in merged and key in seen_name_price:
+            print(f"[skip] 같은 상품의 중복 판매 페이지(productId {pid}) — 다른 페이지 {seen_name_price[key]} 유지: "
+                  f"{(d.get('productName') or '')[:48]}")
+            SKIPPED_OPTION_IDS.add(pid)
+            continue
+        seen_name_price.setdefault(key, pid)
         if pid not in merged:
             order.append(pid)
         merged[pid] = d
