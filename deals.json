@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18 20:44 KST",
-  "statsAt": "2026-11-18 20:45 KST",
+  "updatedAt": "2026-11-19 07:03 KST",
+  "statsAt": "2026-11-19 07:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 407,
+  "count": 411,
   "priceStats": {
-    "products": 571,
+    "products": 575,
     "discounts": 7
   },
   "deals": [
@@ -3273,21 +3273,21 @@
       "vendorItemId": "92654330350",
       "productName": "파이토메이드 NFC착즙 100% 유기농 레몬즙, 1개, 500ml",
       "productPrice": 5200,
-      "productImage": "https://ads-partners.coupang.com/image1/KxQn5UrpaLtvq-9rKy12DtXosMGhA7fzaYUvdHqrWm9xhLhQopPvHjaq5mnsTYO94o2UD7Suk4sa_i0jyB72LC7c6Gf1iv2ovzWsyHooAcylz_HnKlnIdPSnI832ZE5vnu5hayfPlTIo8rVZd_e9nrl2beLSnAxncfhYfH9XnEHORuaZXIFXVIDW6VFNwZuhc-1fXNGQ4vG2i1DZXgV_S4NGTMRGagi4f7hdoxnXp9NghjRDRX5fmrlFfwc0avk2cviplGXJaitD33ywSxLG8cCjCzSMupj8OLsvNqwJeAnR5pXAXh-ZmEhv1tauNqQLMnkGQ1w4WCjW7bC32Js-zGYAyXjA4Lx_-B2_FGJZlp1HierJo7cnWgTAO0326z9rcG5G5nT0Ll0qZoM4iEPFcZD_LCk0yAPMY96lmgwraznKWT0XD6H6vNLLDrh656I9QrZ3VtRRn9do-JSs4sx11GzCuQ7aMs5RWT_auj-d8VP0vKXhf-DBIe__MBcvodeO",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8799309080&itemId=25619965327&vendorItemId=92654330350&traceid=V0-153-713797507cb6839f&clickBeacon=6459c790-e345-11f1-ba96-e64c5682275a%7E3&requestid=20261118204420020016475202&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/IyTZb2HkZJ6W9KgZIxH8WnsHkbKNl0_kkDZP_XdgjUBGVQ7WChmm6kfbn70MQrfID9Z2sm8EhNSIQfbyr-G2q19lxzBJFgsAvQsr_qgjIxUO31d6QHFnKoVw4Ka4R8fBPRca9TjgrPBqSx2fskDuy9ddSTEgY1DJGA35e0Dt_8Q8eFZtsXDtoLtGiVRS0XknYQmneGcYNAcmKRQb2InUU5hhIoE7mSEt7QWPKjm_BEjZb5LdzhXY1og5r0a-yB3RCMf4ejbsUf7x1U0zIywKsMpnnIVqDkFIi2IMEU-6DiKxjkxubc_H-m3dNfPaTF3Wg7ZWfPTqAYMEcRMsckt1M6yoS4w29wtxJJ-_s7Et3aAx89-nGHI-ctfuiB5r4mwGfu6EnVRi4pei9OXBQ4mBVG_iu4p-VjevuO7b_s620wshH9cQIsnmw-v7uPacbW1rePLn0Sv0Xu2k7l3NF80r9g58T-VeNGU0TxUqBD8KaQg5_v-5SzK2R8jDgKHhCsuAAQDYFw1rqVM=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8799309080&itemId=25619965327&vendorItemId=92654330350&traceid=V0-153-713797507cb6839f&clickBeacon=c9612920-e39b-11f1-995c-4c283226d822%7E3&requestid=20261119070246258248844172&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "레몬즙 1L",
+      "query": "후버 레몬즙",
       "unitPrice": 1040,
       "unitBasis": "100ml당",
       "packNote": "500ml",
       "avgPrice": 5200,
       "minPrice": 5200,
       "maxPrice": 5200,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -3304,6 +3304,14 @@
           5200,
           5200,
           2
+        ],
+        [
+          "2026-11-19",
+          5200,
+          5200,
+          5200,
+          5200,
+          1
         ]
       ],
       "priceHistory": [
@@ -3318,6 +3326,47 @@
         [
           "2026-11-18 20:44 KST",
           5200
+        ],
+        [
+          "2026-11-19 07:03 KST",
+          5200
+        ]
+      ]
+    },
+    {
+      "productId": "9048041028",
+      "vendorItemId": "93613740682",
+      "productName": "피에몬테 100% NFC착즙 유기농 대용량 레몬즙, 500ml, 2개",
+      "productPrice": 11070,
+      "productImage": "https://ads-partners.coupang.com/image1/Act0ZUT6KbTsmw02AZJmiklsSYohCB6XYxmAwN5VcGm-Cu6mFogLYqRvH_B06h65JjwDBuaWJ0raB41mG9lfsEIrtPe4gCzxONvMIZMJUd7Kckc7R1xVyHXzPYUHxX-o2TXL2j33ZxktLRagfdXxDEE0eMTxigZkozIvfZLk9KyTuGeiLpGML1ajEtGhdkssOF_cYtq_R84tTqziYC7I3mF60bLCeMdyW4xxu7pKe22c2LQHvJLgwu9UcHljfhDDiOSMVT8lC0FDBjAE-qvCKdb8murFk4-6YW94CIg5nItK9u1WL8sUJgbGOGOeXUpMokbvWUJOcdVW1KEMtr-UHN1q5RSJ64jVMYFm0WdbyM_-SLz2QnnsMi_oKXkvINDe67JKrEAlaI6KY2KFNhgD52U3vOggIEqWIC16OmbNuqsEpN-TfTJa7kaO6FoNL9VzdbzqBqbxM2B6wODkc2eKAJxB68pAYp1w6fMVjDKsnAW9NbU6YLN5hGyPh4dgZbdiyoMJSwG0",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9048041028&itemId=26554580537&vendorItemId=93613740682&traceid=V0-153-d29954c35cce26bb&clickBeacon=c9612920-e39b-11f1-adec-9b6e06419f28%7E3&requestid=20261119070246258248844172&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "후버 레몬즙",
+      "unitPrice": 1107,
+      "unitBasis": "100ml당",
+      "packNote": "500ml×2",
+      "avgPrice": 11070,
+      "minPrice": 11070,
+      "maxPrice": 11070,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          11070,
+          11070,
+          11070,
+          11070,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-19 07:03 KST",
+          11070
         ]
       ]
     },
@@ -5908,24 +5957,32 @@
       "vendorItemId": "95076766178",
       "productName": "엔칸토 라임모히또 음료베이스, 1.8kg, 1개",
       "productPrice": 13500,
-      "productImage": "https://ads-partners.coupang.com/image1/Q7wxJPIpjTOG8be0Q7Q1l_6HEmHFe-uBaU_0JFOzIZbD1jmGNDfFAkoAaVN0wjoc4_ovgrPjlAPoZKWQZxEqLmYLzjJuEeXbArh9ZNKp_wvHgU0ytLWgnrnlcNkpxwJsyDSkiJ_IXy3-3ltah91bhIijpDgnvRkCQDiB5A4tp25YUb_GkKukjfADTqbBXwFdBQDV4LW-piRabBrSj-3NwiWB12O0isqFT7SD8sbjECmkUOvtEkJy1qptty2eFYQY0fi5x25lORhIzZ5iln0k3EFxn0ErCVfaUKg8mIx5IEeYE2x4JKk9XcteGH-ptmZusr3Wgt8yvAAA9QUHwfIamO77M4LzakWkBW_AUZTpmLsaAROZ4z6fupNBjNj6L6GFZtTC4jimFGTz7ys_PTga85nmnyObRrzu80Yz6SXzm8TKF0oozBb2DXlzT4HDo6jxVM-D1BTKvcWuDO4MwTwSuXKEo2y5Vp1QATrQnUhENCCllI10bsevOzE7ibWepWVi0bv4NLj30aw-LfDUjhRSYdgYTZm0dJjzj9VDDC2gh3kd04IMKfkuntlMq1ev97CqjPcfTw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7897377342&itemId=28120940480&vendorItemId=95076766178&traceid=V0-153-dd8dad6845ea30b6&clickBeacon=68263db0-e2e9-11f1-a85c-eb32e4abd611%7E3&requestid=20261118094552715067797162&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/6fN21DVKZFi5AIv_6d-lld8pYzqgQUJirpd9Skq88c94er-HpA0ct_uQP9BxZtq2LBFEdBSdZk0y9VKvxlqU9WLB8koGLYtLyU-7GbhAn2bE4TL__REHi6__NgetxfLahuvjs3RD4P8YBBzCxqcXiFyXPKe4XMzKFlZP8HDqm9f0hyNHpgKWyn0NE8B-IcSUdXmqY99CgpGcckpE6EAAstA1DU4sOG6TanFxkgyXf1jH1Siwj-4p5CRY-QV_1VfKfzhPhc_JwozWM57DeaypXZrycxxxhEUFHucezi9fmXVnckuh87CRA0FoDa2OwNzyZGDMNb_Ngm_KfZho-VmkFgf-lA7-oBPm4Pptxtb9xntnDcNUEfhTNTe6P6hVfu_fY3n3cz0AUdzDkIda-WVpxM-rDyxo9TFJ9V1gMhi1ObUSF-tW512sfRVtQL3vN-bKN73awYjn_I8V2bMwV7RoHf6MNbByTWNw9uOMRn6zDkr0FVgF1Rv78eOofTMaV-jfdkyWw8gj2l8K",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7897377342&itemId=28120940480&vendorItemId=95076766178&traceid=V0-153-dd8dad6845ea30b6&clickBeacon=c45f1e00-e39b-11f1-b7b3-e5a3f516669c%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "라임 베이스 1kg",
+      "query": "엔칸토 라임모히또",
       "unitPrice": 750,
       "unitBasis": "100g당",
       "packNote": "1,800g",
       "avgPrice": 13500,
       "minPrice": 13500,
       "maxPrice": 13500,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          13500,
+          13500,
+          13500,
+          13500,
+          1
+        ],
+        [
+          "2026-11-19",
           13500,
           13500,
           13500,
@@ -5937,6 +5994,47 @@
         [
           "2026-11-18 09:46 KST",
           13500
+        ],
+        [
+          "2026-11-19 07:03 KST",
+          13500
+        ]
+      ]
+    },
+    {
+      "productId": "7398445406",
+      "vendorItemId": "95076699409",
+      "productName": "엔칸토 허니자몽블랙티 음료베이스, 1개, 1.8kg",
+      "productPrice": 14000,
+      "productImage": "https://ads-partners.coupang.com/image1/0iGjrpobQPsfwkuq0sDMntpDUdgJPEXt3e5F_X0xLV0DJVf4Ole3ZUvUKLvSm5vlbi_aPnuFsc2GQkbACLWoePSMttTl3UFtcr6d_GaNJ_3Qjh23lRI-SvHry7QckI5-dSbCdEb9pnA1j0qa4mOurA-PjQLCqWrvq995JuUpbQFRR-sxrC_fyHuFYbfBFOPj8IU10WQ_1r2apkiiL2iOe5JVh0XP1-48UTXdYoXFUdauMfhzeVpIMQ-KZk6xUhBLOWE3AR-PK85ZWBzsL0psrE_F29-s9wuj_uh9Pz0w422BicWGCf_ZMPQYJNKiur4KDWi4o5bghZRYA_CmkUKm8d2VJMZAYfFYsP2REexHnE4zUr3qCtC_WZDQ1fYjRiMYjl9WIuVQ3cD8mBWskjh9qf8oc8Xh1eGnHPUO8aLRNz0QeDi7j9Bg71n38wACdsIVvGEBxr6vNnG10qblz8zPBJeehtJ_NAVwatKrw-tavzyGdOxm6MsAus3DLA2q50DuMchbC3J2hw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398445406&itemId=28120872395&vendorItemId=95076699409&traceid=V0-153-1c20ea6799188ed8&clickBeacon=c45f4510-e39b-11f1-acde-f3f8400d26bc%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "엔칸토 라임모히또",
+      "unitPrice": 778,
+      "unitBasis": "100g당",
+      "packNote": "1,800g",
+      "avgPrice": 14000,
+      "minPrice": 14000,
+      "maxPrice": 14000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          14000,
+          14000,
+          14000,
+          14000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-19 07:03 KST",
+          14000
         ]
       ]
     },
@@ -6265,21 +6363,21 @@
       "vendorItemId": "80898763351",
       "productName": "엔칸토 청포도 베이스, 1.8kg, 1개",
       "productPrice": 18900,
-      "productImage": "https://ads-partners.coupang.com/image1/d18UEd3wpXRTDoyAd_GFUWU_FlpS_bm--e_adPBkW_hj7npA4vjMQN8DvT5B4l9CA_2SuerD-w4j9m5r74r-nr2kptmz-zn41PgrkgBOSCfvAJn7eQeLzQVcobBCniVDpuHQpkJpMU4EbvaVpEnFuwGeB-yQ2EsBSDGk1wi3NPhcFY1iCq2zrUDV6o8sGIjCKi56-etfwgLwTnZ8ra8uRNT1ynajp_ukNBoIBVqJO398nn4J0GlzX8gQ2alQjJVPIOST1QDqZBlZidSfty4uAUrUISu3cZg_5_JbWmQipuhdZeE7Bc41em9kHlxBYOmkawKylibu8oqcp8mgdZyICfBq2E-HBJlPQeGUFULqEw6mQQVRDEaLkLuQOGkeix2IL5MWjunNv-qD5tXUoueK_bnLiIgUpfRvo5laU3urHV0sSsTNiN8QMOUg6I9Aegn5ZNlcayUzcDCTkxIZ9i7ajyrRlzWZQ4DGS6Z8bTsOTvYFlp0MP4fpp1YSAMXJiPIz0PVqcXkUbMY=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398457869&itemId=19143971931&vendorItemId=80898763351&traceid=V0-153-39b33618552de254&clickBeacon=d06659b0-e30b-11f1-a167-dcc941a7707e%7E3&requestid=20261118135210492225701325&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/XiRDb_oNhCF_fmSaXr328LGF_mRVc_-0eH_cg3B5ZTHCBG6GgLbrQMtaMB1o9JpmK_F8FgqKJWpwCD_sK4s3UL5NDRcnWJ8fkl5aGmgd8VFWjuBwtRgtbf1JXplB9PqZ88fQKSZO0o3i0Q7CrSf8rLaxPfVmGNbEaWlYkpzakWL14n_y1Rr8COTvKpibyBQ9kGM-SzImVtnImJj2BlpwMwBl06gg-ykSUEc9_r_0yWg0k14M3sCUHNYyKYDFSflxX_92bx0nNWeVAxLUkaTLf8540sxK9Ivw1vnJaoRucmoTBYyQliwi9KlPer3nqyzp7c8If4fNoG1w2D5AplwXNtV2hlJPC9jWcrj3kW26Pu5rktMJ8F3tDuIin4M9vxu429i8DLxIldpNZxdEN-1MLTNqc2Jq9BkavbIUM_xmMFDVO-QGU5O6sQjcEBYh6RQ8Rg1fkAtIlnDnn0NoI51aMUKsw3N2Vj3UQz0CnXbEEZMV7dCoUONp6t7DL-_fd0kC3HvJflKXiQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398457869&itemId=19143971931&vendorItemId=80898763351&traceid=V0-153-39b33618552de254&clickBeacon=c45f1e00-e39b-11f1-bc14-aa3d73fd1e98%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "포도 베이스 1kg",
+      "query": "엔칸토 라임모히또",
       "unitPrice": 1050,
       "unitBasis": "100g당",
       "packNote": "1,800g",
       "avgPrice": 18900,
       "minPrice": 18900,
       "maxPrice": 18900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6296,6 +6394,14 @@
           18900,
           18900,
           1
+        ],
+        [
+          "2026-11-19",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
         ]
       ],
       "priceHistory": [
@@ -6306,38 +6412,33 @@
         [
           "2026-11-18 13:52 KST",
           18900
+        ],
+        [
+          "2026-11-19 07:03 KST",
+          18900
         ]
       ]
     },
     {
       "productId": "7398456407",
+      "vendorItemId": "86556439800",
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
       "productPrice": 38000,
-      "productImage": "https://ads-partners.coupang.com/image1/q5HKXphrSWvGsJ6oq3lrm8PBFQTtK95BkXYjISjGK65B7H7AIsC6KLrA3_cW1jWnenGrbGapQu5pjhZ2j-pvcB_WnRQ0ZCRlHv7HYN4k2TgvVgmEzsQDqGjTq_zUrfT-YcaIraehZvFGmtYe_xsPidjRbbcybmgQRF-33i04PEr5kEyBKiJMsixIssy_TA-niofl638AURNb6lf27hWj24ZjKpzurFS7ukCx6MX-UGp9uHyQSO55mFILftJniDLVAVA6L1GsQWr43EOawVXAhugO60JkSMcyBkguudKApozbDVS7AVvVCKoe1APKJ5Cxf2q1Hs6XYwdOoGHiDpx6njTIzPJzJkS4VSd5tngVWXYIADQ_2COMiMRV1vKrn8CrK2U-8Uj-mFT4w7cx43SUvIvKdHXdzJAK0ICdC_FJ8XPu1kyI0KmsyJq4W1LSrveNWu2v6cw1ghvJRcQYMLoOPPlJFl2ZY0AhQEZnyI95Y8eLp--szKjDsCAHsSWpKJ3CmCkoV27GcA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=1b7ba2c0-e140-11f1-9e9b-93aebb755d19%7E3&requestid=20261116070127985005983497&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/gY-fHsdsueAyjYG5gQk-XBTG_5Yhjg3G9Bv44XKiFft7ezxpFL4S26RnKXUO78zRGOgpY6budSCmALYVRyLXXFYQrNP3R3OmXb1NC5TPPYlzUVq7WiLk43RUM8KzcBTbLNpfW_sTVw1KGCDTaZF1oFGgcxr6sNFsszu4f-5mMc2gIxdHEMtc1VHHUd9j0wT_1Bc1vCya1O314gABKiUoskVYIFGEjsTz-NC5uoLma5JWKH__-nR4lfgCqMQDQemPY5goKLsCK1pJfwxxYyEupMBDUU_XCsx4LDpqB3VV0rmbTk1gDRDNShOxjnwws4xlAhGrSCmdVoIWHxyO2Rjr-5acnPol3q82gD6kU8r0NGviSDqQgkG-UaeGuki7IJBxEWcnI_OAxllIp9sVXCfV4cdXtgvhRFYkaslhQ731I4uoN6tHRweS4rnuzL5uep7EBEctKYUBOKM9rBsF9rz92184SRzWSdU-NNOGu7tRFwB6F0YI64apFWPf7nPC3GDFjQhTtqrn",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=c45f4510-e39b-11f1-97aa-f1312a606b84%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "자몽 에이드 베이스",
+      "query": "엔칸토 라임모히또",
       "unitPrice": 1056,
       "unitBasis": "100g당",
       "packNote": "1,800g×2",
       "avgPrice": 38000,
       "minPrice": 38000,
-      "priceCount": 2,
-      "discountRate": null,
-      "priceHistory": [
-        [
-          "2026-11-16 02:07 KST",
-          38000
-        ],
-        [
-          "2026-11-16 07:02 KST",
-          38000
-        ]
-      ],
       "maxPrice": 38000,
-      "uniqueDays": 1,
+      "priceCount": 3,
+      "discountRate": null,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6346,9 +6447,30 @@
           38000,
           38000,
           2
+        ],
+        [
+          "2026-11-19",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
         ]
       ],
-      "vendorItemId": "86556439800"
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          38000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          38000
+        ],
+        [
+          "2026-11-19 07:03 KST",
+          38000
+        ]
+      ]
     },
     {
       "productId": "8533796062",
@@ -7168,25 +7290,62 @@
       ]
     },
     {
+      "productId": "8247823731",
+      "vendorItemId": "93438573627",
+      "productName": "엔칸토 헛개수 진액, 1kg, 1개",
+      "productPrice": 25900,
+      "productImage": "https://ads-partners.coupang.com/image1/GnQMFx2tQT1Dhv49GoUMY2YcfkMhl56DJBVj2Fx_rF_7M3rYV2jXaVyAwJKiow1PJqzfVSOjainkKD8PeOjvw26NhQWK_jYlyFNKQwXrDfUldRmwup2rKxQaqBHfxffWaITFjVYSZEB51YBxr0hk2iat9cEFXMQGNzx6wpy75IzfCaomqkUEws635SB68vJfHo-du7st95YrWb6nN6fDFgtFKJOf0KSIvz5SiuGZnRmIhCoteqaFSXLSSbvGEK6qdHxCHPR_cEEgEOS2zPBOYTCsZb-JpJv-QDpjnfI4kFtuih6_EqRYAVJ1o6QimS361dFr_aV9p18PXMulNC_MCxw15o5Zh7yU8N9AuTgdYM0lK2mQx-tQKgzkTzcnM9ulIcSTVUi0KOWzHL-NP35dvC6glHiWg1KVEzZAwtoW2Fs3nOTa3hOjxOuyGDjt5eoGx-UioVyXZ-ASIPmn7CDaz-r0bnhnsqa7Xn2lE6P0A471bsKSx-UPXEWZacelLmmZJJriPwtq",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8247823731&itemId=23740910671&vendorItemId=93438573627&traceid=V0-153-0f8dc4c4b6c8931d&clickBeacon=c45f1e00-e39b-11f1-ad92-6ca82b80b683%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "엔칸토 라임모히또",
+      "unitPrice": 2590,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 25900,
+      "minPrice": 25900,
+      "maxPrice": 25900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          25900,
+          25900,
+          25900,
+          25900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-19 07:03 KST",
+          25900
+        ]
+      ]
+    },
+    {
       "productId": "9392190751",
       "vendorItemId": "96154949768",
       "productName": "비정제 사탕수수 원당 지퍼백, 3kg, 1개",
       "productPrice": 7500,
-      "productImage": "https://ads-partners.coupang.com/image1/xasJWYTq9F-Ix3iZxa34nmRbpc1kcVhKzpib5VCsXWLU9iHjLFqhOoLBjehGOwa5gcpJZ5RIkU9RXoCAnPTat9nmxFAnQn1Xyus0IV3RLOJshHx_qO9cM57TWLisnvLmSaJYV5iCdmt8tvG23bZDo2_KZGTp0Erb-mkfPd0i2XCxXTCccXSC4N8qp1v6nohBNq43atX9h1bVnah_aBg2oh55IXOtLEGM3Iy24zwEFllB475dtzN_vnAtakxC9ss8B3VA0BtgG5cVE5wT7_-eLgqeMeMl1ie9Sv8WyoKnb3vkj_NaIrZrR1ba4twL2DQF0VS8QhafTeGyuJ8P2-aShvZWb1WZOMeclaD6B8-7x2M7hEaNgJEblfBpqqC6nrmLvPl8y90KImwDfMAYNaArVbPwcDtqc6l6y0yPI5tm6FcYL-zgkFDPkJu2O5C3SykCR7Kb_4XsVLrPq8ZHs2kkRS13_dqMyHjyTvTKyQ_7y_5-LccVbfeDC2i0u4amKVIFjb1VJ8qZwkiqoY3UirUHLxm41BXB9Tsw0J8tzq_LN-Dl8qr047KNQEIkwt-2U0R3wu1M",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9392190751&itemId=29236177604&vendorItemId=96154949768&traceid=V0-153-784d4e1034cacea7&clickBeacon=651ba650-e2a8-11f1-aec7-fc7711820a53%7E3&requestid=20261118020030320262504915&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/hO6HNMlg8FMY98G4hNXChDtoN8YeQlQHaF0iAf-4NTk7QmIu4Ox0gYtRMRz4szBRDvfqRdyKp-8-QCqy8lRKSrRzpWGHKNXvuLvCHcBRdtq_DVI1R7CHvpkOZFsLjuWwxQ3Sta8WSqDxPsvoE6b-t7chwyBSAkw9JTgmrNuhv4OHKXwh6tJ01xdS1rct-_a-TM8vSGAv35MS8Z8N9rh1oik6W15oM2iEBrWd5aIwyPjl9WxzqXsAA-wC5LjSSnqnevVPYr0dVTD2LpmlLO68yh9iX2mkcne8rtrv6l6s1adAluVTP-FsslmBa4IaBfHulWAKHosOtibKaNkM-sx26Myy-4YxRpA0nU3TszE_GLJRjb0G47UlVqPzWpQni88o5FlgGSKyACm8MEtcR9Ve7fOaS4fSMjYY-4LjzUoSicnLUkM2hVea6xe2h1xmKI1TmuD1KTkATKivUwGBWdmM1BJgkefczmjxJIIutZGonPgyntRc2iwoIdMkMdIZOFKWTxnIsnujSi8FwLV8ZKPAp9n6un9hZUQ0Reu66mj_pVJGKHRcOy1-v3CQPkx2bxRbkc0D",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9392190751&itemId=29236177604&vendorItemId=96154949768&traceid=V0-153-784d4e1034cacea7&clickBeacon=d8c45ea0-e39b-11f1-8cdc-a2e2f2c7403d%7E3&requestid=20261119070312108099062816&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "황설탕 3kg",
+      "query": "비정제 사탕수수 원당",
       "unitPrice": 250,
       "unitBasis": "100g당",
       "packNote": "3,000g",
       "avgPrice": 7500,
       "minPrice": 7500,
       "maxPrice": 7500,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7203,6 +7362,14 @@
           7500,
           7500,
           1
+        ],
+        [
+          "2026-11-19",
+          7500,
+          7500,
+          7500,
+          7500,
+          1
         ]
       ],
       "priceHistory": [
@@ -7212,6 +7379,10 @@
         ],
         [
           "2026-11-18 02:01 KST",
+          7500
+        ],
+        [
+          "2026-11-19 07:03 KST",
           7500
         ]
       ]
@@ -7258,21 +7429,21 @@
       "vendorItemId": "91427252127",
       "productName": "자연정미 유기농 비정제 원당 설탕, 1개, 5kg",
       "productPrice": 32900,
-      "productImage": "https://ads-partners.coupang.com/image1/T0fzHnpdBNMKZBspTzMbvv_YwJoqLl3GVeIguLlLw5SSTPOb93JklI3Gc2EWeMGH77GIRUJFACsMT4jvIB39mJ6GYTHdp7Ys7unaxr6KRzJbr4z8t9LARIEdUQjkaZpXBZ-qZkIVCjEoB0kYJCood15DVPuLDbKQD7fIpfSr6O4NYxPabKwIRvEejPWo8VsQ1xQLLtCPsr7NLJHMzguXsPkWPFGExtIub73OFc21AinMlsvKANkzNHPn9ZMq8B8cRuH688Mm2B4zcXFCFKwuyU5uABu9hBupyX2D0eExw5SBh0bHgq0spoDljS5_6s5KMOSavtVvIET-Hq6OaW0y2B7eHGtsT3pdJoKuZGCe7d4b1kbagTouj2OjriCY4pwftisK4W6kZl0Jkm4yGhhNlfx-zs3Zbkd9LaxJoqWAugaghjvsQ9W-Vs75SWQb9KzLvpSqW7rBolcr0adMmoen7lE-rwujNFuIKIq4DAiEvlII8C3-hafo_ziLfpC21rIdaZwyn_QnJsqvRhGYgfliYggUQGOOt0miivNuDx7Cd22menw5b_2vpyRX6BF3u3_uSfwVqLTRDoDE6wtugfKuviysRJwUFKIChYQ52w==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8438651907&itemId=24407881949&vendorItemId=91427252127&traceid=V0-153-fe606927a3cab688&clickBeacon=6ec181a0-e345-11f1-be6a-35f7b54c5120%7E3&requestid=20261118204437507203382348&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/Nhuxy0x7HoFLE95aNriIFGDugmrb3cNh6sreaKJf-8KbIHz-JmLRGlY409V5UgFK3Sn6IMP8pXMa9t6Ej9c-WNdokd9tjN2ckzwAVCPLfuVC0q6Y6qErUvyV4SSicqTEBKIvai_AEzAK5lNTrKOe-DDU_9x6ZhLnuf7NJtRSAyZuUvxQh4zAp09LQkA3wRUOJAyWKKgT_ntycipTI7_8SM7MUuQ60wDZO9KWo9X4MB0NLkzIdm9g4rRfyxlPC89O0gcRXkEZbiBD7BabUYJzBsglqKt_FbS7ZDUUqZOlZpr42uylKzuR8ZbuWFRsQ6w9Mi5vB2gWagZk4_JbNGdGwfG2IZvJINowMyEQJtcuEuH_aSgIVl4ojofoxlA-OUqO7fOtqrT-MjQSHRAlbWaHufQyfzNX8u4OJsNtH7F90t_z22mw_FFaNUKNArQaQJuIblvWq_ngiK1xbOWmaI0AjSh1Q86J-iuUM2GJ8afvH_o0k_q9gwK1rAABNJwZFiIEXapLNc-Qtspo1_LOwF9rRHiFjITO9K8_Ntn6qTKdmBV1YF4yT3RbBazY4PWVng4iOJr73wwDOHExIR89KEfRXVMfFe14kLg-1qI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8438651907&itemId=24407881949&vendorItemId=91427252127&traceid=V0-153-fe606927a3cab688&clickBeacon=d8c45ea0-e39b-11f1-afb1-a66bcfe7d13f%7E3&requestid=20261119070312108099062816&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "황설탕 3kg",
+      "query": "비정제 사탕수수 원당",
       "unitPrice": 658,
       "unitBasis": "100g당",
       "packNote": "5,000g",
       "avgPrice": 32900,
       "minPrice": 32900,
       "maxPrice": 32900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7289,6 +7460,14 @@
           32900,
           32900,
           1
+        ],
+        [
+          "2026-11-19",
+          32900,
+          32900,
+          32900,
+          32900,
+          1
         ]
       ],
       "priceHistory": [
@@ -7298,6 +7477,10 @@
         ],
         [
           "2026-11-18 20:44 KST",
+          32900
+        ],
+        [
+          "2026-11-19 07:03 KST",
           32900
         ]
       ]
@@ -8866,21 +9049,21 @@
       "vendorItemId": "3932519352",
       "productName": "프레지덩 휘핑크림, 1L, 1개",
       "productPrice": 8300,
-      "productImage": "https://ads-partners.coupang.com/image1/XIpGsAE3nYKBewEFXNrDfh5BkIyH6qMPAjc3mnDCKP66JlvPC8mKrXDi8zDZmq8__AQWP_QfN3-YoV8NlOVbM4lHBJTgcLdkaz2iczXHDB5G_UKNVNGjIp3jwoU_manmvX9RLukQ2teGbr0A1HlzaQhOn5DtG3bBarIF5MXc6P_14UoMsT2baM0t-MatAo2y03fjGotq6Ih_VD3VqWbz00IhqI6I7ckozFgwN-IlPsSl-PQzvtlj05LA1tZRjSRYfEd3FTjWRyu_Nx6PxqDa3QTWHhg1hGeen-ALc8D4cmA70eiO55BuySbpbnTaHgsWDCaLTDZkNxN7GAfWifaOFhmH3WjSA9DGLPTy7ICYgjFyEJ4g8PcdAl1tFsy7KQsACgltE4kh-W-DigRNgLABQA2vN1cbNkfxGXeYK9-rITCE0xNUnYO5MJX4jlkSmdDCkYdeQegYU1unJkEeFrAvdVzuTrnOKTU84A0wOL4OSoMIa_Auoj5ljJcYEyBz3YNqSSml6wUZ4ZjPZLOYT9_i4mt11A5pWp1-oryLdasb8YgPnmujfeI9L8en29VEnnXVrK4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=130476598&itemId=384001549&vendorItemId=3932519352&traceid=V0-153-32eddc2398e592bf&clickBeacon=8de51430-e1fa-11f1-9cd1-cb1e49338dbd%7E3&requestid=20261117051606325021620551&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/552cwlauA7nu_9ul53WaZnuEPW4LgPbwOO7MsjfUnMn4zLogZTxOYaZA7j3AFGtBTu2YiR8JM1zOP45gaHfzOUKphmO8rSYrVLIBZkPAcAeXOSJK6PggyVvRZTR0xHQROjF1u9O_Usth3Bu75cMEQ9IWq24-ck_Ix4IjWKvaMcFsKJAc2DHCaLlQUegCwT2huMaTy9ggPeqVNkQIiJ9xv656sHg7I5zG2N3WndHLTk0urrNJ_C6T3m7OBaXzjHCVlNF4rHniQE7ss7-cBhP998wMAeMPjjuS8oc-hJpMfwLbfFene-Uh-zi0Pd9HaoL6yH1wr3KbULNa5TGYuodIS5rctyAf3ZXJpGjWj7zngituuiagHEGsPXKKyfYahE9n8ZJaLWSTiziytL6d1aPkCOYCR3zR5_i60Ybkya5v-z8yhTbdeI8UrvtqOPFB1Lv_C8CYVrwe3kx44T8H3w9bJLLq5ChqO-7hnCQixnXusEdYBDrPh0NPNQOH2s48Z5Q61Gkkrhg-hw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=130476598&itemId=384001549&vendorItemId=3932519352&traceid=V0-153-32eddc2398e592bf&clickBeacon=bf3a6fb0-e39b-11f1-8c3b-530039fcbaa9%7E3&requestid=20261119070229193194468786&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "휘핑크림 1kg",
+      "query": "서강 라미스 휘핑크림",
       "unitPrice": 830,
       "unitBasis": "100ml당",
       "packNote": "1,000ml",
-      "avgPrice": 9433,
+      "avgPrice": 9150,
       "minPrice": 8300,
       "maxPrice": 10000,
-      "priceCount": 3,
-      "discountRate": 12,
-      "uniqueDays": 1,
+      "priceCount": 4,
+      "discountRate": 9,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -8889,6 +9072,14 @@
           9433,
           8300,
           3
+        ],
+        [
+          "2026-11-19",
+          8300,
+          8300,
+          8300,
+          8300,
+          1
         ]
       ],
       "priceHistory": [
@@ -8902,6 +9093,10 @@
         ],
         [
           "2026-11-17 05:17 KST",
+          8300
+        ],
+        [
+          "2026-11-19 07:03 KST",
           8300
         ]
       ]
@@ -10484,26 +10679,35 @@
     },
     {
       "productId": "8581213846",
+      "vendorItemId": "91879726084",
       "productName": "대한다업 옥수수차, 1.5g, 1개, 100개입",
       "productPrice": 6000,
-      "productImage": "https://ads-partners.coupang.com/image1/humOHD5gR8t0OZm2hllZNa3n3NrQhjo48ljtmsBTLAmXi1jKHIWruH7sTXj_4HEZzDPXCZezmwpnMmH5QG2--IZCCKtG8-A9adfV_cLT0fmKDPxQbTpHiY6xCXos-g3cP3cBGcmlRgulqLUBdCyeNA2mE1OTDgSxO6qa4fPYWS1BRWulh4FUMDakRQkBqrSd8Nkf3C2MOi0w7jKyFCb9HgAlxBo22w73NQEzsrZHyyJbTmfZPVROYi_ZXBVuFdSalr7MOlyki1tL0MuVAaoUfpYdCRGnh05Riw860uluSRDfGsuf24gHcLkfvf3xOAuAs_EfD36FjH2Ow9Eq1tNHlUR6mfY0dEDj3RZXcA8bGJ0rbsXq8sGFOBgKMVUD_J7LHoT7-NjrSoHtQ6p6Mv_Ehh-m2-1oN-w3dZeH77iQucCLNtE9ygKfajoFvjXINc8jF2n6l50mqvnEEgyV-COrlnlr96s9VOh5tM-ROi944XY8VMr--wtATb9wIzI1A-fBT-whmQh8nddXiGg3dCP66GOYlBB6S2U6ImneRs479z-Q8jJlFvLr6DLt20JU42FFuYVV",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8581213846&itemId=24872822898&vendorItemId=91879726084&traceid=V0-153-70b10fe19a515ed7&clickBeacon=66077ab0-e19c-11f1-84a3-88a1c34178b2%7E3&requestid=20261116180206726303768524&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/57dHBq_pyMwn-E-n56rn64D7w--RZ_JiFdp6JrjiJFpGQgC64SfgJmIfhvEhypBzkV2kXOqHwyNAoShL0ixnFjJbPD8NixEF8z34Qa3zeLwBAqU98fOn2U6yZERHXf3cfVBDmQmBHBZRMQnq3HaQLEJ0glzqY8t3P9pbwZYtmF26xfdZEhJejDVP1pJMNdrudjhes6YwO71Ln_6K_Irbb3ByrEbPm5an8KRjZAga2AZgiujfBKgl3TxfGGgy_1tXGDu1BbnB52qCj6_6HBYuNtaUGkMyqC-Z4iagaFbM9wxo0zaViqn8Kxm25wEwu1AFa977PpaS8E0l-tOnUzRvcMuWAPFSAWQ7MNr4z4oVDKgFWrErrwFZZAjRzcH4_y8dgYyoLN2M1XpaH3yOLA3UDzVlDz78G4IkeU6pwzlaMfHF_DsJ3urJyyhE4JR75Ku0MfumzuGnjazIrppVnWJd9YVY89oJvdAi2B1l5ptRLd9_TzREaL-w_GMcjHp2LaKxPD_k20XhQGIaJbaKpqou39RQ2x0qkaUq7ujtfgKpMUrt7TQMudARj5_gEaucy0aEk7PMMg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8581213846&itemId=24872822898&vendorItemId=91879726084&traceid=V0-153-70b10fe19a515ed7&clickBeacon=ba2ea090-e39b-11f1-bba2-549a609f5af6%7E3&requestid=20261119070220734303370270&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "티백 100개입",
+      "query": "대한다업 옥수수차",
       "unitPrice": 60,
       "unitBasis": "개당",
       "packNote": "100개입",
       "avgPrice": 6000,
       "minPrice": 6000,
       "maxPrice": 6000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          6000,
+          6000,
+          6000,
+          6000,
+          1
+        ],
+        [
+          "2026-11-19",
           6000,
           6000,
           6000,
@@ -10515,9 +10719,12 @@
         [
           "2026-11-16 18:02 KST",
           6000
+        ],
+        [
+          "2026-11-19 07:03 KST",
+          6000
         ]
-      ],
-      "vendorItemId": "91879726084"
+      ]
     },
     {
       "productId": "9651126621",
@@ -12687,6 +12894,43 @@
         ]
       ],
       "vendorItemId": "95618774797"
+    },
+    {
+      "productId": "1365210915",
+      "vendorItemId": "70392219224",
+      "productName": "성진 옥수수차, 1kg, 1개입, 3개",
+      "productPrice": 11250,
+      "productImage": "https://ads-partners.coupang.com/image1/Yv6ZLrXqCqBqpGmRYvAUaOU7ZQAl-S2No5tXBiKpaPppTPxxAbtrrrPbIskV-D_H1mjgcyKMlUn5_r90hk653b8oU_f7W0i2ZSQsX3F863zY7OanKrofEi-BtGWnDPAaQvpGSscQSSSTyB2YGftFbZQnUf95TrhQvqK0Wn-4oQHWswWQOK5fcO4Tc2uHk3b0py9GEptSJ6tuvSeMotrup2TI3H8gDvVImDWnXFpfb5baajrljK-nwvdV-yJ3B1u__OxiAuGByATXWnNRfy9MRpRQx_-z4fS3FP355SiM88iN7TLNPwlpdm-YS9mqGjExtgPMBK3DUIniIXYE2rpbZ64ajsbZl1kdfE0wWmgCFYwrc_VaxWqTNichniUxexSnewYg2s6Th7Af4nZrTCwbU6vZQM8JwaPBKoos7fy6Cb0l4w2WnTVZTZqhoLyGbEZObGceGtlX-jKSCFS6Wxg89rRZPPCSN7HUXa0ete1eIPs-3nUoHPfGAcm8T-x5ZTfbYvIRuS9lkbq6tvIK5UlYOSoXeBwpDcaTZfq67kFxlFqRYnJ87OSNkWfD7adE3Z2lQ6h1",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1365210915&itemId=2397143980&vendorItemId=70392219224&traceid=V0-153-36e32c8b27dd6058&clickBeacon=ba2ea090-e39b-11f1-8a80-52af22e347ef%7E3&requestid=20261119070220734303370270&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "대한다업 옥수수차",
+      "unitPrice": 3750,
+      "unitBasis": "개당",
+      "packNote": "3개입",
+      "avgPrice": 11250,
+      "minPrice": 11250,
+      "maxPrice": 11250,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          11250,
+          11250,
+          11250,
+          11250,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-19 07:03 KST",
+          11250
+        ]
+      ]
     },
     {
       "productId": "8959933182",
