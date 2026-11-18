@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18 10:47 KST",
-  "statsAt": "2026-11-18 11:38 KST",
+  "updatedAt": "2026-11-18 11:49 KST",
+  "statsAt": "2026-11-18 11:50 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 394,
+  "count": 395,
   "priceStats": {
-    "products": 554,
+    "products": 556,
     "discounts": 7
   },
   "deals": [
@@ -4669,8 +4669,8 @@
       "vendorItemId": "3016961653",
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
       "productPrice": 14460,
-      "productImage": "https://ads-partners.coupang.com/image1/b-RatHwU39lHyySdb9TgSDCjADcYcx2a03ZEkr0d2-pvTHdZevf1Rbeita94vPoSIdS8PIcuXdgJnNtIUWVkH12qlcUai7nX04mfqrTayXjPDgXrXU95JbyH8VaV4xJuP85e7I-pbLo_F293UX07iTwG12W8eDOmZCA0rBtqUiZNAYP0A5uPnHnzFL2yssw4B-oewk9OEKcKhjuPp78YB9ThW7Wf_usXWQgtT8qZcX4n7mGsysMW3no2PmA1sipdA7CXYFJvHYjP13aO_WM99lnOP6DoQRso9bWZYyGzVbWZbPjQZ3_hzzdK9jNLzoRKXDIBI-SrlFMQSfNRS4n_oNcm6EbAfxxBiGYfnKilOxMCxgXsLQmgXhZ4i7tYIq54G090FUJ1XqkkDCdBfhqO0-iFaEXdXqjowVZ75vLQHnrwO07_ibBU9aOgqgG14ygW5JGO7PDT0tutP52lcPjWg-T44PsHm5ROlBUTIht5v09r2VqUmoPRul4NICCzS-78PiQwcX2yur3yBcKvxeDhx0yI2zqWZxmOwmv5eH8NpdUOLsN-UGPGIvWeNDK-Hu27MQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=1d8fbb90-e286-11f1-9470-a2f97be02a17%7E3&requestid=20261117215507332107567016&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/TPWnxfSXs_SM4mRbTDrGv6c8mYB6A3mnL_Z_FtxhNLpDkFs_xa6yTo1CtbKxeQvmBq1AqlSO09z9SH9Qe1n9azzcE_hC5q1W3shqS7d7vIxaIGZiOGGPSi0iQC3qNjY-YWQQ0EIbxGs1W2nCrePgzqdSm_yw9YnxVjkK6sxsETKh3XEW_x8KmHj6FRaI7ozaJ7pY3VhZMXRaaQFl7YJT061tDGwEt9Qi8jDrnbtleI_QTdyLPkkSDFjT2Gpgvp6wjbZPJyewWQoyvXKp4LsgJvlEYRzgo6GECorY3kdZsTpPDJGIfq5IDamxMVBnUZHHlHbWi42ZG5lSFPd_VThlTfbeTzyw67zdtJ-pF7KmMe-BSZOZFJomP0yKAlB0dy7_i1PN7nHnvwGMsK51NsYldRo_l1BhT2kOwEq1V0ebVEjgTotRZxAMTkDWW7L7kIGajD-Mw6VwRv3_TFlYhtJ18wd843GvBrAZWJBHt1ejUBPXjTTqKVkpW_rXGUZM4AhShtrSgbF_fY3DhJJ2_-gXr2NUtOdzpIXEo1SjPMB3QH4a0TFqQVq58YwMWDSd6rmPXA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=a00ffde0-e2fa-11f1-bff0-13cce4330019%7E3&requestid=20261118114907948125423742&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -4681,9 +4681,9 @@
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4700,6 +4700,14 @@
           14460,
           14460,
           2
+        ],
+        [
+          "2026-11-18",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
       "priceHistory": [
@@ -4713,6 +4721,10 @@
         ],
         [
           "2026-11-17 21:55 KST",
+          14460
+        ],
+        [
+          "2026-11-18 11:49 KST",
           14460
         ]
       ]
@@ -10435,6 +10447,43 @@
       ]
     },
     {
+      "productId": "8940892943",
+      "vendorItemId": "96243082727",
+      "productName": "대한다업 히비스커스, 1.5g, 60개, 25개입",
+      "productPrice": 174000,
+      "productImage": "https://ads-partners.coupang.com/image1/xU9xqpTNB6UGJe_MxfKnYP2McW8xjgwhQh5yT_pzM4e2mXOpYLywQopAIrsmU5mVDBcUT00aGYIUHTUACO4m5lbOJlY15-4Qi90BoUGC5C66nI8K1Am31wRJR01Z-DvlCCGq0JUavXr61R3J35ghNq8VFc1FrGeWq1KBucX_QFhzq3TEWR1w3g4exo42lim46gbXR3kcJBCUZThx4OuSkDd-t5qiWEOAIExAdNP0I69yHS6d68elmAtJqZ5qE8tfQQY1xdYGAk0I6zVbfL_s9Vz3o3LUSOanrvIKtXDZ_BHIuAabjyW0T34TjyhW0K5MBzZXXIejXwTLPO__OUFFB50Sex-7S7mh8XS329xFtN40FrL_NRpoOkc13eHKXehY92nNJqGjjPkoKsJA15Po2BI6J07D6zCVjNVbMNnyEwOM9pfZExvM172dItS_ydF704U77xcXgHdkAYGugYX-t-nySHKCGVJvIW6vfYXzyYQF1A2RlQGC_R7icb7C7tZ67slzquDn55sJbbw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8940892943&itemId=29328863180&vendorItemId=96243082727&traceid=V0-153-605a24be45a37aed&clickBeacon=95f663d0-e2fa-11f1-afd0-8346d6eb17ea%7E3&requestid=20261118114851011199723255&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "히비스커스 티백 100개입",
+      "unitPrice": 116,
+      "unitBasis": "개당",
+      "packNote": "60개×25개",
+      "avgPrice": 174000,
+      "minPrice": 174000,
+      "maxPrice": 174000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          174000,
+          174000,
+          174000,
+          174000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-18 11:49 KST",
+          174000
+        ]
+      ]
+    },
+    {
       "productId": "6357560398",
       "vendorItemId": "96220392451",
       "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 24개",
@@ -10550,8 +10599,8 @@
       "vendorItemId": "94231136136",
       "productName": "녹차원 루이보스 허브차, 1.2g, 100개입, 1개",
       "productPrice": 12510,
-      "productImage": "https://ads-partners.coupang.com/image1/s-1y4LnRBEUNyIbGs5CIYeGx6gGqs8QlFnk_aAYuefBN889Xlgw5MlnmnKIGy46GPIa2ORxVJ1kMB34qRrTlYRKSpZu3RPgVXewJgLSaVdeUjhQp4kvkTy2rWd8cD1TxhUGVtMho9aP0jlx1AMz3N4DoaWicR0tp51MufrugoJsJV9tNsIcao1ndbPlQfxrd6N0U6DiFJofkrc93Z0JDcPXGo71V2FSjFgW9AimAEAWqpNerYnJlKyj2njEtDZBfleA1WKWSWgpp9gqG_MNLnmRN8AA86f9tGOlce8wG-fGlgKnrhSx5hcJQHtaFLc2O80o3Ulj9YRvaDkDXdpzVrgog1-QHli7QbwJFIb11LwA3yZC0D4w5bM-Mw7aE_12fJjpdanwhHTqhHYWuZLTcmTk9y44Kpx6s9cR9nZTIe7pEL-jJDKQLh2cd5UKB4zDe0jeV2doxuob0PlHKL8MqAuoCu5FUiElf79Fa0peRhyZ7tqAo5ZPJT_bubUp54bhBwKO-xGmLVNiu_tBnHXnzRtaHonMrlUWu7QIIkpGcSAzosucFurlH-QR4KFGvVpGAnUY=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=26292041&itemId=27264343698&vendorItemId=94231136136&traceid=V0-153-d063cc56ea0903d5&clickBeacon=e1c3fa10-e2d3-11f1-a502-0c93d53bf0d2%7E3&requestid=20261118071147813147036978&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/iaLlW5J4Uf0IU6-4iQLEOzR2fsQmc6PL3CmQ-LpYCk5MlgqF8_pIvFbRMF3tEhBzn1V6UQZ_x5kkcXb70Bs0VmRabPK-8B9UpwMhLfdXjV6_zhJsLUUfI7LClsFGfYdDAI0wOhB3WzVZFHeh3ARRPncQepSelzjl7fEnxgt1-sTaAl5KMUgGxb6UWlu6rZML4fTP-yBMW3Ahhb9zSGW0FmRYocjx2iLwtoC9Js1Kf6G0XjEXDnF3Y_N_8OhnBRtLUYpHhJxjcxn2yrHf-4JZSnaQQXp6DkOZZkcYeWSrD15weN4lP5qSRHlka7TLcz1jvUf_9K3Gam0FqYqvYUw4XdKpTW1ogHhZMeMqn_RyRhArsFaGHMIe2Kb-p1IgsibxeCzDo-ohuORKG9rb3KaNlqBDIPUGuevTpukKUzZGBy0__ngqQ9agXPcVmV602cp0M05fJ7BF6Ik1JT6r6uBLhKx21e1ffF_Ay4dylxnjHOd8_8SrXuOz4MeCYTC-BNxvIprC_y6H7jHgmt1q_7JdzBI3OSodlTuZMxRclvb3MlKyrbrZJ9xB7reyFVtK81PKgg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=26292041&itemId=27264343698&vendorItemId=94231136136&traceid=V0-153-d063cc56ea0903d5&clickBeacon=9afd02d0-e2fa-11f1-ac29-33c777487076%7E3&requestid=20261118114859452039123282&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -10562,7 +10611,7 @@
       "avgPrice": 12510,
       "minPrice": 12510,
       "maxPrice": 12510,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -10572,12 +10621,16 @@
           12510,
           12510,
           12510,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-18 07:11 KST",
+          12510
+        ],
+        [
+          "2026-11-18 11:49 KST",
           12510
         ]
       ]
@@ -10624,8 +10677,8 @@
       "vendorItemId": "71300505760",
       "productName": "닥터루트 루이보스 삼각티백, 1.2g, 100개입, 1개",
       "productPrice": 12930,
-      "productImage": "https://ads-partners.coupang.com/image1/-Bs3CxXEKRjkW4LN-Ilz48L_9cGeK6z2gxPywq84yEnaT78qJMW5WJxFnYIOizzABCee92eisJSPR-OHFdh6zC4RGQ88fUmVr3Y6lQ_mlWpdUVgIxP67LV4u3vsfg6W1sNi7Ms4ZXVTSlZqKhaPzd703MKhumTW-AwCo09DVU1ucYA63H0qefGYelW75UsJaISqQRL8rSHY9UN166QiQutw58Zq9MlBEiUlTAqg_ZKsI8ZbuAV_kNReWH82O0oo6NbcYFuUXHZHkgBq5BfWdH1pAqQuzvzMUocmcw57MDy8WBqEGdEzc9Dx0cFgbBwqIf3k-deOxQlL_xxkGTHXNylnj7fHkmVAIV12rMBDwexXaiLOAHPo1KtEApcQ3h7KdDPgiQzYnEO6lcXmQ4708Ty4QX4XA8-ykqPyeZDhJDEd8PBZSwbVMfR4JRwK92ET2b-XkH0QKjHjg25tATXPargGTm34-U0-iJwmOItbJrRCXgaAr0RL3_3roWqUraRrk5aSDoZlRUXMrhGS45gH9t0QwqTynKiFzoqo3uVxsuVD8ZpS9QvUAVBuI0HOz56zqATc_OQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7802393361&itemId=21134811491&vendorItemId=71300505760&traceid=V0-153-b1790afa8a6970ef&clickBeacon=e1c3d300-e2d3-11f1-b97a-fd52011be13d%7E3&requestid=20261118071147813147036978&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/ch9DnE-fyHT6wg9tcn6fISZrL9TewBKvNuW6p7zbN_Le-7F8aybTZLHjn6FPFW2iPEi15H3XkIRNyGM64uwmaKJkzBZ95cxsoGEjkUpnsYLrU-nuNOyBcyQUJxazQysCZekOs3FzUKv8vUFjUabMEHU1TBibnc7hekMWukg7RLObZHsJHPKtvW6X0yiMqXj9SyzdMQ_FpLsclOZzCv9JJVMHRU_mSG5eragu2aclXr9TvLKdW9mqD2CwZHTlNdakVnWH84wupLwR3Mq9Lb7uo6giNG6uoGlZLWekTDZrHgmJS1yHndb0ZNmr8iqNh8ffx9uOYVjcyde4ASBAsYRab7YNFr72wEfgHd3kD55jL-SinxvQ2cqxEkoS_U9eKdx_I29rUhUKNjClVdd0_31BgeyNsfh7ul1NM0_pf1yrpENw1HkVGFY07sUd4dWJmySjUzfahwvHWQFXIn9dVk1CX7jGh2l7FKu4JWZQfs3cCfwoxmC9UsTQqNarW84JxfwPTyTrgK5mlX7oyd4nGsmmLY_kPWlj2dMIJ2_-ZxZ42FaFGB8PuZFwQuLoHC743NVGbiABg5s=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7802393361&itemId=21134811491&vendorItemId=71300505760&traceid=V0-153-b1790afa8a6970ef&clickBeacon=9afd02d0-e2fa-11f1-a460-adcea2782680%7E3&requestid=20261118114859452039123282&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -10636,7 +10689,7 @@
       "avgPrice": 12930,
       "minPrice": 12930,
       "maxPrice": 12930,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -10654,7 +10707,7 @@
           12930,
           12930,
           12930,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -10664,6 +10717,10 @@
         ],
         [
           "2026-11-18 07:11 KST",
+          12930
+        ],
+        [
+          "2026-11-18 11:49 KST",
           12930
         ]
       ]
@@ -10821,8 +10878,8 @@
       "vendorItemId": "96236036835",
       "productName": "유리아 루이보스 삼각티백, 1.2g, 100개입, 1개",
       "productPrice": 14900,
-      "productImage": "https://ads-partners.coupang.com/image1/4I-ugUafllzcqrrW4BqhIG8Z7WFdo3RCgIHDdgjn3zcklirwGmDxaRgvAc2ohfkWirUFF-Ss7H_TKoDXdah9d5r021dy1fbDl58pGoZf_y6miROiPZNvj5IR1KIRj03Z8vM4KOJKkhii5indfNsOGzFCASPdf2uvp1Yygzn9gZaLQU4bZANqJ6IrNP3oSkT7FAQ1TZMJ7O36UFF7cGIM9kr8YVt9cL9g1lp1arSG-PRYZervfOeolOsvXEySYd3q6KjJFXHfr2CnThJWmWKW5itve1iLq1NH6NiVLd3lbJc05g0bdipOlK4LsUe-6JtrNn6-RK0Uxqyw0ZYNjOp4b-mMxWS5kKvfhywPnWwLdJwyBiaBfjn-yvq0WEKKMGLmfEVAfP9rA3V7U8TxlnqKnt0CzsGM-C_qwBjbZNV76WpHw4E9FYQ-ulhFPW9F4qyZAYAMK9YEc08OHsR7_2IDkvK3d4_lDJkrR1rUUam89OPZnvvj8cOcspTh0jN0yQjOUbq54jvepoYsRoIG2jeWXrUU9uK1GR3793pcpyNs2wo9FbD-YFbwwRK1GQzab958kVWc7MuVlryxIDgirky77pWRGrI=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7103025171&itemId=17734961281&vendorItemId=96236036835&traceid=V0-153-5a00bf3999a654f4&clickBeacon=e1c3d300-e2d3-11f1-af42-7ec509bf5715%7E3&requestid=20261118071147813147036978&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/h3QgUznKb0a3Emcuh8OEzfkhnCnSanvi5MvHaJIu3gWiXl6XgFhJgFcXLE047yA2TWBQ5K7bYQXsomC3kYPt8s9Exflnb0hNzBFbsRs9Yk3hoZt0KJ6wu_qHUYTVaNLgGcnLfuTEw3hM1d7EqrEMZBf1rC6-3Dax57LYcD9IoBbrXRMez3KH1ZKlFM6_Tk08p1eCHrVyx9a3cwoLdjngtnFhBbe5Sl5lz4Y2aprbh3BuBKp-Hb19OzLFMwiQ_Ue4bEZhaaqCR3YPpsCMfT6cDmPRWYKGLCTGUuBEz4SCaGh0-MMbInj2DxM9tdbXQbtrHfTJEm2IgzIqIZN81ch3JBbJlSZjVIfhbRilinxuCx50s9RZ8tZmRhpnlHtK2MvCtLS0UeRzNkZISHD5wwfCrkzGBR50wyhsRq5l8M6itzOEpYUmJkCdPI2-DWrFqYMQDG5RSjP21NYdYsMxto8ZImeJ3bqdJqJ_AepEXmbcuwKcvTdVaTmHcEo-4oURN-aGXD8iYwmdklwr05tlpNcTMJxh0TgSRUvP35n0MWzJ87EzF8Tmte1b3k8YNc4IOrkfs3_Pq3zrVR-GtFENw0uYSP1lGZ-y",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7103025171&itemId=17734961281&vendorItemId=96236036835&traceid=V0-153-5a00bf3999a654f4&clickBeacon=9afd02d0-e2fa-11f1-a400-7fe6bf018679%7E3&requestid=20261118114859452039123282&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -10833,7 +10890,7 @@
       "avgPrice": 14900,
       "minPrice": 14900,
       "maxPrice": 14900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -10851,7 +10908,7 @@
           14900,
           14900,
           14900,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -10861,6 +10918,10 @@
         ],
         [
           "2026-11-18 07:11 KST",
+          14900
+        ],
+        [
+          "2026-11-18 11:49 KST",
           14900
         ]
       ]
@@ -11424,8 +11485,8 @@
       "vendorItemId": "90052740688",
       "productName": "청년농원 자스민차 티백 100% 순수 건강 허브차 대용량 허브티, 50개입, 1개, 1g",
       "productPrice": 12900,
-      "productImage": "https://ads-partners.coupang.com/image1/wlMe_vRv-YK53pzmwlpqMDng70F6LThVvb0I9xpa3lkeQjjy_qzy-zDk4CpWW3Y6vQZih0cU-a6KdgThLe-BMxYMpmE_Cm20heGV2dxNqgJsNUQeKuN3M7ZuP8jOQvzWUUx9gzHJ8POUyJWnAUSkvUFZdYyQH4swW8Xl3MCnBX50Czz8vALTFeuM-Ur1vZZQGXurtIK4U6Dc2x1T4MdlULXihhmf7rlr8OKJyyUjUgoqfQaBB6TddK0gu2pupQwAIAzZ2p8nyA_qVw9obRlP0HdNDJf-il2W32HpF63p4RVPWzSVRIVjIr5vH4hBLnQaowIID14cRw4GByHl9s4UDxXnfaaCIJTFPUOdHt2Awg_gag0gJ6MYLb-bxaIJ8IYBXpOyFk_tJZfYeuE9xsAyaJcmqgNvN5ouc8c9ZRSERlVqVkhWa6iYCxdLImNQSfE5iYHIjL0vNfBrwRoIWuupB67yOmsYntTpJxwvxP5EmlWV-Ju63pY9UW8MxkWyv-3d_55rU7P9oPamSpdxF_NZ26WHse8qNxs=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7358438826&itemId=18952457091&vendorItemId=90052740688&traceid=V0-153-e5a1a2b8bbf63342&clickBeacon=cd41bb90-e2d3-11f1-8b0c-cb25eb76d586%7E3&requestid=20261118071113428292588590&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/k51XanRZAtpqEBWdk0WDyVGRrUV3TRsd5bU35-vhUhSKqJ191mZScKWlwDCUYVum1yTfVZELA1nFaCE31_yrYijzMobg1llL_DFNjSeAWrbj1SHHZ5zeerG8o4fQww5umsNWTG6f7MGWTEuy3Hy20nzdE99k_GKzQg1hK6cYt8o4G7rr-WJVzQPqxzCwB0RwOWCALJXiRiD7UScCAv58RyoleIxT8UaCqvfJBOtIeGKc7BGBLksPeXb4-oOw4cSl1lB8-vaq9P5uY0y5Ph1p6fGmONFim-OyAJOVofWXlMPa2_FkgPkcNcyLQqKhJBrPn5DsIhI_Z_NeQ7i1GB5Tdso8JOF-KVNmstMi6uuX0whZnMtp2xhnvjX2_ZOWxmTnhWmfXDdkuMNAZQ08KCSjJ3Q0qzDCFDzS0pE_1O5ghCDATUH-EktLSmO32nV16ksl_2r0oZD408pm5CJXudaJyniGk5Xa2NSt-ExadHLuNGKxabfZYKGzmjCjKkPjLKJqwfm7nlJ2t9SMwZH7dQGtvAgAEejdR7Yo",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7358438826&itemId=18952457091&vendorItemId=90052740688&traceid=V0-153-e5a1a2b8bbf63342&clickBeacon=86ab2320-e2fa-11f1-88e8-240beb09e760%7E3&requestid=20261118114825324139967671&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -11436,7 +11497,7 @@
       "avgPrice": 12900,
       "minPrice": 12900,
       "maxPrice": 12900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -11454,7 +11515,7 @@
           12900,
           12900,
           12900,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -11465,6 +11526,10 @@
         [
           "2026-11-18 07:11 KST",
           12900
+        ],
+        [
+          "2026-11-18 11:49 KST",
+          12900
         ]
       ]
     },
@@ -11473,8 +11538,8 @@
       "vendorItemId": "74498826632",
       "productName": "청년농원 저온가공 히비스커스 삼각티백, 1g, 50개입, 1개",
       "productPrice": 12900,
-      "productImage": "https://ads-partners.coupang.com/image1/uYGPX5Ka6pHhjuBXufa5FK0rbQcho9HN_EzHF_h3ODta15qp8RklQpMYv6vWo3fv7tkydKsWPedQUfsDgZk4ZCvX0F3Yp2IyJnhWaR7NPatzJgqSWwMd_S-NBaCFcYFaEpbhvzhArp7DQv-1Xvq9Ss_ymWfJ5pAmpFqUArOH6_kmhgzk8qiai4IkzoWwBcwskpS7vykPASELIP0DuwTCiaaiCmI40xyanzUtAw-7nzZICk73C_5bU3s-xiE0cki7uC5KNYKHI4klYbWSZ79ffwqItHyl5eY7eUZR_bx1SWoUZvTOxmrPX_exViPYSmlJELEFKB3f7kUlH2QtTBYw1M2wC5zGLTN3E2XnG22rj_gm8MMv3dAePF-ULALM5PCLtGIGA2c7IzAEd1Qv9MEbS1nGhUdrEfQ-MV7Sj7hJcq_5FzAec3KQ6qb2Fdj6WrbQ06z2ESueHlJKXveOnhOz5sF5EmXIV2pwws8lUL4ZLW8uioxlj1CyuKu0beYdXJF3TSrUWZwHOSA=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7447471227&itemId=19380472054&vendorItemId=74498826632&traceid=V0-153-4c5671fd57191642&clickBeacon=dc995850-e2d3-11f1-a823-18756ac6dd12%7E3&requestid=20261118071139169272967843&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/cPaDg35ufDDXGBEocKF_mS24L5ShM_X8Rl4zx1KNIIldR05LzYqfGBYjhj89FAcfHhDqLvHJZ6dFo06CCZTZQXhfLI3t3a9tFUJ2fjkd-15da2NVbva4pAWHJMEuMrliWOAJeJulk4EUkmA_aAPexEHg4RLuiKPgHk87Erjc5sCYrTZf6WaBNh60ZqMLaTKDHhNZLp31dbB251EwZotvVqhf81einOg3T3fugUWAN67Sm8aW1jbtE_EC7D04dF-3hb02DhaP6xtanJzxryXv-A3aNustEm-9XkMAAGepiueOjUvfCHJhb-rv4lkColwp3W8mRBkf1n76CqlMGNgBKq4JnxERoY5ynyr8c8syx4r8YtfJg44djBYcwWCl_x_aujPF1T-p1IMjkcWBGYjxXCwE2Q7bDoE-QWL4AIRr4jXRHyw-mh4Im1YhwNCTNnROBOVM0u0FNeiYJ1Ztnw8mJteowME5BJ4slD1Tj7JgtP0iO2M5k03qGmleH9maf40oiGbIs8rLv4h5",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7447471227&itemId=19380472054&vendorItemId=74498826632&traceid=V0-153-4c5671fd57191642&clickBeacon=95f663d0-e2fa-11f1-ab01-7fd2ba93dd07%7E3&requestid=20261118114851011199723255&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -11485,7 +11550,7 @@
       "avgPrice": 12900,
       "minPrice": 12900,
       "maxPrice": 12900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -11503,7 +11568,7 @@
           12900,
           12900,
           12900,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -11513,6 +11578,10 @@
         ],
         [
           "2026-11-18 07:11 KST",
+          12900
+        ],
+        [
+          "2026-11-18 11:49 KST",
           12900
         ]
       ]
@@ -11608,8 +11677,8 @@
       "vendorItemId": "95321765651",
       "productName": "히비스커스 차 티백 100% 꽃차 히비스커스차 삼각티백, 1개, 50개입, 1g",
       "productPrice": 14800,
-      "productImage": "https://ads-partners.coupang.com/image1/DlYO4bABPARyvqa-DjQb4uu_obk_Y1TEHdSJN_lyJqD6J3OUyv0U9M1Exu4NF6qJrZeNXpR1hu1nLT8XgWXsysYTbOuewOXJJk8_E8ORIMPMkn_I6VgpAPsFWVGWgIdrFiBS2N6kL4uCgRXfYWLPgbFCmd2fQ6l9NADY7bD9rkN4NjEnj7h1KNnNEODc2R8v1GapjlkpHP3ld5yk5s80THuPkFttrHPQT7cdSI1n46iTMjndFv-A2eKjRqfzu_JaH5Wo2Z717pKr1QI9rECAbZyCTNGRkRFwZm_AECIKB0xljDZTZRc3zx8FUQnG4mG1phTg6F0oCw-fRU59PyRkJAWzGZrGHHrkinlQqtLTsavZWRF7Evs25gBemf7EfmB9xrcFP--tFozsEx3Wy0HJ_K4HG5JgJn_1Taooint0QdPYMDBD6YdyaTYCg2aEnlf-3eh5YZBgyheQw97kpXhhy7GHCfi4RBTG6gTDsW3PihviDP-1TaHPflYwIANxebG2yaKc-O78TG0m9qjkpuvFQUgZKN1GAs4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9517670495&itemId=28369338471&vendorItemId=95321765651&traceid=V0-153-b08163b356b272e2&clickBeacon=135ccd20-e286-11f1-951f-14c3cedd3f27%7E3&requestid=20261117215450266214618496&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/VwEsiq6bKjgX_cbiV_aIW0WchqcnBoNWcpnaq-6VPlBvfpFDVDSAfwDMWlSEswn0xj_worj3eXpDocxFMSkbqdkn75OniKoZl3dUAo5UOg7bE82_ZE_9_4DqneMkq0499dTCIpTon1cqzTV29jUDqmQhPRya0I5lNofOD-Wz20VfmDQHoHFCoraPCSOw60Jpvad6FbOcExe1Q8WkMv1ZbzEWzrQQzqc-6B9RQ9D3vMHGmBqziTgF3a0-lp74zzz_17KWf8OYxcTnG4ZrtdkDg95zZggTCrf813IBBLqHOnH4K9dxXAH6gaEl1MpGPmwiECS7rej74EqV3fQcr0xcseJ60Er4kcxird9Iv05SWBN0kDz-5zMlBG_l9aA1m8gcxf8FD6fppxedOcJxELYt4AwYaxru4We2hCs1IMRteTldJ1GTa_rFMQr5MMm0DJHehIdcd3v9lK2F8yXpgxHfCYYqVeHzfqEfXJtRxzRUPYgeoa_KSUdIvYPzYye2cUUjsxvdwu3_G9xW5m-c6TFT2L1KAZ0KOMV9-g==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9517670495&itemId=28369338471&vendorItemId=95321765651&traceid=V0-153-b08163b356b272e2&clickBeacon=95f663d0-e2fa-11f1-846c-7369f1ac3717%7E3&requestid=20261118114851011199723255&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -11620,12 +11689,20 @@
       "avgPrice": 14800,
       "minPrice": 14800,
       "maxPrice": 14800,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          14800,
+          14800,
+          14800,
+          14800,
+          1
+        ],
+        [
+          "2026-11-18",
           14800,
           14800,
           14800,
@@ -11636,6 +11713,10 @@
       "priceHistory": [
         [
           "2026-11-17 21:55 KST",
+          14800
+        ],
+        [
+          "2026-11-18 11:49 KST",
           14800
         ]
       ]
@@ -11719,8 +11800,8 @@
       "vendorItemId": "85055102480",
       "productName": "티칸 루이보스 카라멜, 1.75g, 20개입, 2개",
       "productPrice": 13600,
-      "productImage": "https://ads-partners.coupang.com/image1/X9M2ZR7pibarPPyIX3bUePt7Fln4B7YCaZLT_8D1fjmeN1g-qM1qbs7-bk84yc-d1ulJ9oLbQ8WCu1st6ZFYvjirGee0beLpx9YnRAbQdY5dhBvWmiNyW2RvLtXec0sYXc17djLvweG58-nB3x8OwsxEgE3Wqll--lqz1hN2PQ03O5KPrfRPi2Kkvp2bJFpLxZxE9TH7ISsnu207ypuGFJxdWdQTLJC0au0Yx49Gr9cFzQBHwWYSnA59FULeiE5fCZm_Pxc5MFbfAl_Crts9TcHU4UPqhFBGV5TXhyUnxcukR7pnwtOFff2s1_tniMYJ8_z2vLjd9EUrh6C-qvAm04xuOUyU1qP9_Kk3cyMBDeR_065XQMnQ4MOLNrgVRo31P2oChC8WCBrPHLUBUwpnOur5KIBDwDgtjzxixX5eWetU5Br3IixMnxL6eWxogl3WRx5OmmJS6ht-Y-5Yxb-raWDma0suYQ5D7SJr9P5TTFEOPzXpI6E27gVNUTr6SKkNV7C_69QwcTaRbgbMwxKT4E5PFZxXq9Iu3y5tFUhBoa1DBNwKK89qTyEigktyXsB0IU8ZZQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7136525320&itemId=17907905369&vendorItemId=85055102480&traceid=V0-153-5f33db03e756d494&clickBeacon=e1c3fa10-e2d3-11f1-9396-76e08ba90450%7E3&requestid=20261118071147813147036978&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/RpPoN7p19vr_9MLmRtNCOfJsg1wFAk743fURXsAD00yCv1kpjk0LwhruLfyVB6Mw1F01P2XMXfCKZUO0pnlAlQ-spsLIvuXhOFaf2tVEPM0sVZutG2aHv_2H-d__NdNkU2T_SRSqZb1KwwUwceNVSK_lgoL8mXPQyIez-pnCdGWFFyr5mxsfvrwXvnvaYWNifEs7eZXq3Es08yLMQ0MB6UhOGldIpMBUiIWztN_K52yJoa59iy6PmC32iIHuHl0Rgfa8NYQI-x-K3-_5qXWQwSecsC_Ui9LL8OM_FnYbmHVhsE9K3PZrne42b5dXl6aG3ny5b5p0TGM8nOEOU1pVjQRGU5-iHcDndTSeiozcSyiAnqcH1mwn8aqfyP3t5am06oNN5oFJ-3jEE8JoorCGSqRG9YZr0utU0W-ioXwo_EA9_Avt1UBf78aAUEnhtTW6RNMj6JMl0g7RR_jMgnEbs27_1C-DrFJyQTETAXS-O0I7NPBCEkBYmvmmmvWUnaJspnlYDwXsI2XtwM1JW6nOZPXRXgspUhyuZH6snstSSypDssVtQPIKSelcCYcA7vrTwsiXOg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7136525320&itemId=17907905369&vendorItemId=85055102480&traceid=V0-153-5f33db03e756d494&clickBeacon=9afd02d0-e2fa-11f1-a2ef-5c01662de09a%7E3&requestid=20261118114859452039123282&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -11731,7 +11812,7 @@
       "avgPrice": 13600,
       "minPrice": 13600,
       "maxPrice": 13600,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -11749,7 +11830,7 @@
           13600,
           13600,
           13600,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -11759,6 +11840,10 @@
         ],
         [
           "2026-11-18 07:11 KST",
+          13600
+        ],
+        [
+          "2026-11-18 11:49 KST",
           13600
         ]
       ]
