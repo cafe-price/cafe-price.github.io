@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-18 13:52 KST",
-  "statsAt": "2026-11-18 13:52 KST",
+  "updatedAt": "2026-11-18 14:53 KST",
+  "statsAt": "2026-11-18 14:54 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -20,7 +20,7 @@
   ],
   "count": 401,
   "priceStats": {
-    "products": 563,
+    "products": 565,
     "discounts": 7
   },
   "deals": [
@@ -12414,19 +12414,19 @@
       "vendorItemId": "95969021427",
       "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
       "productPrice": 13800,
-      "productImage": "https://ads-partners.coupang.com/image1/wuZPKPJyIJPR5xpWwvQjOzjmzJ1_RwSfDyjkC_q3XWvwKRCwKCovPzUS-p4O2vSdcp5RbXjAoih6JFtLi87lBUKqsCdYCGLgg-sMGzv2C7bARTm0Bjs-R9NCy7LrpD8vmfae3th4zkfBrAbFD9SDhFtS5fV8C6AuYESUF86kXBVRajRgIuZ8IOK1B4Fp-xs7faf1R4Y4maerBqynFB3EBu9p3F1MeUikpuPLZAqlujJ57KwQOSm9MVBGu9hwX2cucczap3GjMJXvwy08SdUVWzgkEpNZAYnGavCPr0Owxc9ZqC_0GqYIX3ETN6kd23GLJ4qqzKJ_TyNVyd_iJwizGT93owhPoFO9F3OpsTBh8syB-fXuMtdcKKqKvgjdqke4nY63RIgAQ6q8bf4vlXp8rcPb4z1CsyyYZGKmcoFxjA5uuP-fe58QsSDIJilAF4BQ1w5jJT4xRwDxGRaJ5pfSe3ZvH-28OvVO1UoD-rq8fDr6pihBBrIWkybSd2Nn5O4wOp6bHD-vbPw3RiVdm3Kx92rX9HjvxTU=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=bc518300-e30b-11f1-a91e-b14b6f532627%7E3&requestid=20261118135136790325296559&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/KMUhpMO5AhnnEQcLKDFtmuf24TSyI6ezOe73tujxjQTka6g1B_a2NTcOd5K6VpLQrt9PXU4ilAtAz5AFn1Cat2WdLgULgZMiTmuhl1ETgcHsOUo1V8BP49OAlTA4QbeHbWy5gylA-kPoBAiQezobNvDpM5B3Ki28DUyaPfikUgFF2udpHEugbdCche3ZwDu0QEkJ1GHJKYY7674HgHQeYfE6Ed6mKZ-8g2u61DyQWao8l3Qh8YOuR3vzeqpMsiLG47THfI0BkewUTcDHsiEqc_oKJc1rXZqv0sFPcgP-Qs_3cvqpb519CTamgJiLIxqZIQXXmpq0RkSyxD26tA-kyuguq3uV--m_o1QSE8xJUfVaWTy77sqGjeEkqLjLrgXT5uSFK-QCoLCR3X3PdFgBw93b-4VIrLpU5tA42Q-y_2U1IFremWlCNLZ7KiRtWvqgVkyrINVMFjfa-8wDcEc6gkPLxOqfdpY-_UShVGTlogwv81gQOMg8IQSPcFvXBpsenNBr5jYa0yGiU1mM3BDW3oVvQXsjnG4=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=4b52e190-e314-11f1-8306-527d2d655d50%7E3&requestid=20261118145252649303992841&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "아이스컵 6.5온스 1000개",
+      "query": "종이컵 6.5온스 1000개",
       "unitPrice": 14,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 13800,
       "minPrice": 13800,
       "maxPrice": 13800,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -12444,7 +12444,7 @@
           13800,
           13800,
           13800,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -12454,6 +12454,10 @@
         ],
         [
           "2026-11-18 13:52 KST",
+          13800
+        ],
+        [
+          "2026-11-18 14:53 KST",
           13800
         ]
       ]
@@ -12569,19 +12573,19 @@
       "vendorItemId": "96026648324",
       "productName": "98파이 아이스컵 돔뚜껑 (1000개)",
       "productPrice": 18000,
-      "productImage": "https://ads-partners.coupang.com/image1/WNM9y3BWeTsvsMyJWBgyd7PDCAHqGmqNi9BrA0I5Y8tCN4XWNXEjxoQtjq0rHJY4hKzSmdPyBuO0AiDfjhQhREMMDV-3owo1NKIG0KZtF3uQyTbNJniUvTJcyZj0nkxmEEYteZ3iliB07l2RAGXmiy2Co-nqi8tmgGi1eHm6qwWRsACVqqE_S9d8t8C6GjTHeI_TIcgzAdk9FlMy5KxcleH7lJIu--WQI2u81pHus1PSHJObxhopEtkVpPoQn1bgPSTjg9SPfQovgVCqjCetKi4JuxNpRcplgKKBNTMJBPLzaI7tFwW1QlatgwoVelUw0QGKz58mCDAE-1io8hGAdHpgTjflq3qSoIOcg3_KplKiNl04oIsf23NnKlzJWxU_OYU1ebUHQHLPmxT5JCjXPh7HRdiU-KaOdGxIFdnYpfrLIaPaImqu9m07tzeppmgwIcwxmntwUa_0-uTabiTwX-tvDaCMsP-YtOWY2lsFQ4ukwwYAEThsaFMMrekDGKghyT2ZX8CbeX6O-VEB8vrKFjyZdnemkmqI",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9724723787&itemId=29101551992&vendorItemId=96026648324&traceid=V0-153-734e3caa674ae70a&requestid=20261118020004545038327153&token=31850C%7CMIXED&pt=0&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/4oSAylw4ilViPNx04uhzT-XlD7255rsN60qrXh9H9Yy1G3pglMx_BGxnJhTG0b_FScp7r1N5mmuH-CMiBkThMNBWcMNSTDJEMr7DAbKZy_ETMIJGQyHCYzpUUsjcuY2AUGeXwB2zabdtyAcO0QsIXg-iv5pKLFzot4-BY75WMzOtuswjv88ihAvICHS15zwPqFRXeuzxc2HX4DPGlGCXXH18r58ykOgDo7kh42rWDSrRyTPnlU8PVpmSUeQJbOfodKG6lanbIIjTlJvuLu4pa19F1Nea2s2iP92EDzedozkngENx2ZsbdheQVdRqJaoDZ_ocDM1bISVwlwotoO8oaj4o4GXCU_8WoNocWLoVEYUd82r8ZzvdEDUZmCZHBqoLg7b_sQNntkBT2K1onSrSprfon6u9o-TKtxYcxD3I9F6-TohNAKjX-DDlohNKT4rLFfDo3aqAIPbQz87LAccHd5h2Dt-jWnVDt3Aeku5lfd_AC-jWon6oTc-VdAb_HKP8ZxKIWt43TQdjoG9iSX_Pw3WmzxXPlg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9724723787&itemId=29101551992&vendorItemId=96026648324&traceid=V0-153-734e3caa674ae70a&requestid=20261118145309614016907417&token=31850C%7CMIXED&pt=0&slot=9",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "98파이 뚜껑 1000개",
+      "query": "플라마트 컵홀더",
       "unitPrice": 18,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 18000,
       "minPrice": 18000,
       "maxPrice": 18000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -12591,12 +12595,16 @@
           18000,
           18000,
           18000,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-18 02:01 KST",
+          18000
+        ],
+        [
+          "2026-11-18 14:53 KST",
           18000
         ]
       ]
@@ -13085,19 +13093,19 @@
       "vendorItemId": "94994308326",
       "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개, 470ml",
       "productPrice": 49900,
-      "productImage": "https://ads-partners.coupang.com/image1/i20NOdpDP5JWBXl1ixDsMIgWRt76-yAylQSyAehWG9Xi9KigA5EN4mAPpZPcs3B1Ve0gzKywdLbn5ka3SHyoTHjUTIFaGoPtri-XuF5vCp75HcKLP9v90cMjY9HjMxnIs--hW51X40TVGD1ygK7H8j_SRGH_S6tiOxz1Oilm4k6S3z6YkBQf1g9tXSVfQKPD1UMnBmize42yZ6Y5Pgq6Sv0ogeBO0a-dBmb3UhH72KiuN30zJ34ymEXl8gc5IBlLmZfrZCjQHFrU0kLfbTcWj0EhqshpzAT_qZzsw6HgJ7lQ2miP0E3hpfpWXMNGYWkFztSeF8WeFl4RECFVbpuTg2zwtpTtSk_qJo__KAyGtcip2lUwe2IJDB8oVd7UPXchquI97vfaOobrIguSo1n25_i8_XZAXBZ6oNJqdRQcQZJtY5l5vnckwW3Fwpi3IlxmfXjTKVv1X0HnRWqejxqh0nHqW4Cp0ADEaj0erQSCxK2VCQRp68N4di1ktIRaPQGiJybPEdqCO_lkjQe667kM8aoHHDLvzmnIfdP9AEnvMUJ6yrhczD7p6PMCMlqg-gaeNdSjICE20wvg",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9422933215&itemId=28037309616&vendorItemId=94994308326&traceid=V0-153-6b3d07e584a49dc8&clickBeacon=5deff3e0-e2e9-11f1-b481-594719bd7b1c%7E3&requestid=20261118094535540131612294&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/l1XWQWnvCHUnb08elz2quBgrtRZZQYK2woXpiUHcBzS--ibeTkYppNzfxyyphKaHeL_lB3rTRJKTKqtjbNPS3yefA5wB5rwevITUXmHqo0EWJ6WGY8QSmsvcA30pZeXe2ASxY6qqdahvxu6UzGCvnVrZYlI67Q8cJXo021K4xF6xjlD1uejVECDkNjipeVSudegUBKuGdAyMdER6O8mOlmgSAnbEBwWPkZjz86FClADvYh9k6tKLJRNb4sJ-cfCDIF6AT8DSScIQG8Nd-GTnI-tyAMsYPWsJFTSnGdCZ_Vac30tOxPJoBmUhXSXC2ZPvd8IGOnYCQlS5OnBChUWVBTbNz57sx5uaidY_wKmZ_Zokv4RRO2PZgnEoqiNCADkQSnTWKzBLQ8h2Sy3L31Xjq_ffZjJDrNK2AHsJD5r0dZIIXmrweOPpbwpvQEAeq6vs1CUP0ABArN65LYAMp7z_s007gdrzTKKvolbNiGw53Wmhgt1MJ3jGrzG-8n_FHF8IzlvbcekW226Vq9Dwex30-5diiMsTjflg6xL50l9PEr2_Ryy7I68hdspCM8rRkCNqbHpCWDRoi1tFjA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9422933215&itemId=28037309616&vendorItemId=94994308326&traceid=V0-153-6b3d07e584a49dc8&clickBeacon=505784c0-e314-11f1-abe3-f3fe853dd388%7E3&requestid=20261118145301082114906988&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "종이컵 16온스 1000개",
+      "query": "아이스컵 500ml 1000개",
       "unitPrice": 50,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 49900,
       "minPrice": 49900,
       "maxPrice": 49900,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -13115,7 +13123,7 @@
           49900,
           49900,
           49900,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -13141,6 +13149,10 @@
         ],
         [
           "2026-11-18 09:46 KST",
+          49900
+        ],
+        [
+          "2026-11-18 14:53 KST",
           49900
         ]
       ]
@@ -13305,19 +13317,19 @@
       "vendorItemId": "95581890741",
       "productName": "아이팩피앤디 107파이 32온스 PET 아이스컵 국산 투명, 1박스, 500개입, 1L",
       "productPrice": 47960,
-      "productImage": "https://ads-partners.coupang.com/image1/DHY-ymf7FUREstNYDKxwE5AX-M18u61BK7pk1xZvem_jH20H4F3SlO522qEOi2U9xRz85bJRYRsOLpWpAOm6RO8jxdOab0JBPjk3E76p0Qj0UbcBS4GcLwDMPPPtNn1zHpd-nmR8wikojI6aigmp62UQaBf4uccHnjtNTaD-SgZR8Odgl3JQPDEClqIGwQG8RxiwT_3WJqzDtG4GzsCWX3ow94t0Ap8ujlBb-WJRNW3qKIAItUfygNpYqXjEB72-auRCHJytbXdNT5rkALsFqDOKX4ovHPnpiWjxWfDlxtBBl5uObwmB-y1RkS305BqfCk5au_i0djiyrtkUe8nLdg4l282TX_JFXGEcq_ar1QLXVfJnU_XWHipWo7qkWXxDHUG8i9LpXV6CL4f_7p0ewVFULIa3n8YbGNpr_Ym5iRXDStnQb70ARIOttP-7fMw4ejV4fHk5UvAEqH0aXx42CT1qErH212i6sR8rw1O8oGB36QBHtrFaaVI0D0MuInAb7tAp944kc7NmU5002ZJBj5OFdROYR-jcfA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9593716376&itemId=28639085652&vendorItemId=95581890741&traceid=V0-153-a33cd03702a6c7a0&clickBeacon=c670e180-e29f-11f1-9886-a782364f1413%7E3&requestid=20261118005848163137977646&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/RApqVdlyf4B-3eL1RB2RHlaM_AqMC5yp4nEoJf4lj-PplpmVhp3Vsgy2h6hsU3CdDLgwjMkG4GFcxAsF70SNvuSUvBPDIJOsvydczCE-qI0pe5Ym_KBi4YyI2plKzVL_vtwTHVUERy6f4BEsoKnkya6efyxq91d6bhGGN2_2o1pQWmxXiFNlg4DHF8eW6PD-mwClxP_z8jd1wOQ0G3ZlxkLjJRVuJKoUUKXuvfpMRs9xtkjo_hOniFLVOR34fPyLtvU0ZKJqvDLTvv2d2K5ibvBDbTJhS7hO19p-2ysW9tWALd4WcPeTn_DrgIoHyOOawU7rIprX68JcWikkQIFHBm0vDtPvgMdHT3sM0e6P1WcfW3CrJkWW-3lvuBdKNaP-pzF1orfPVdNacXzwLlXjMSPw0GuldGz47m1LPFyqJT1iIfVA4k_al3Ymif8hRInC_gKSuzuypRqbIi1BrgCjV3I15Vy42Fn7GEMox1BY4TuxdhedMvjpKtmVp-i3-_u5fc8Cq15Pfqcqaz57QRz29IE0uuOMTDhK",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9593716376&itemId=28639085652&vendorItemId=95581890741&traceid=V0-153-a33cd03702a6c7a0&clickBeacon=505784c0-e314-11f1-94b8-2bb4441e3acd%7E3&requestid=20261118145301082114906988&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "아이스컵 32온스 1000개",
+      "query": "아이스컵 500ml 1000개",
       "unitPrice": 96,
       "unitBasis": "개당",
       "packNote": "500개입",
       "avgPrice": 47960,
       "minPrice": 47960,
       "maxPrice": 47960,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -13335,7 +13347,7 @@
           47960,
           47960,
           47960,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -13361,6 +13373,10 @@
         ],
         [
           "2026-11-18 00:59 KST",
+          47960
+        ],
+        [
+          "2026-11-18 14:53 KST",
           47960
         ]
       ]
@@ -13689,24 +13705,32 @@
       "vendorItemId": "96234970866",
       "productName": "플라마트 테이크아웃 컵 홀더 8온스 1000개입 무지 에어 카페 커피 대용량 아이스 종이",
       "productPrice": 15600,
-      "productImage": "https://ads-partners.coupang.com/image1/ETmQkCW1WmbgdfIyERdSMioP-GRJ4iOgpNTKdyNDP6ktxVbrjLO7iPwbMVCoJ1ozBfV8xx7GYzZZ9NHh_M2DL0fVI_T1lnF6Mgq31B-uQZF9AbL3CMxn5VNyB8g25Pnb5Fh2_3qL1bJ8rryDyqwyMStRLi72vV1gUV0u1euZSa--ExttKqfjyC7n0Vb0xL9USTanKqon4LuyZ8FV0PnZgiEc3-WJS_7-Vv0jEjbI84BZF-8aCgbxk3tAsOUm_eCG8AqahUk4CGbagX5Fe2V4oJiZgW0-1iZSGKrygiA_A3E9WVf9JVPcyQdW8EPm_ylvEdOFKq9_O9B5YaeKt15-26EGXkzzwHFQYHcQnNPBcAxTxgxRzGCngKJoVgGPmSJJX7Hmu2amDBMVlgZ3-sdXG_BQl2FJR9RKnOa-35E7YoCB4m7Ii-bv8XM_3isWwF8zczacj0gjGRBmUnUye5OPhwqn3GP-MeCgUot9epzj3U3XmlhkE_CKSC3yjCxuFioEZ7htS-Kume2s_EW70OwHCx9g17FKAC4ik0HMtv1ykinsKm0=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9739004686&itemId=29147861623&vendorItemId=96234970866&traceid=V0-153-512d21caa08e8e0a&requestid=20261117185050034097099353&token=31850C%7CMIXED&pt=0&slot=8",
+      "productImage": "https://ads-partners.coupang.com/image1/usEkPUkfrrj6mOFgumJUVkHfDCCkicD5LWeryAmlk7iic_xX51tKVNXZOD6GBYiTO4TMJrVmtk-ddko0DZvRjQYIEW5GBWQN64deuhoYW1sz2g-i97kmg_9P-BR9eDI9ZUvlKdmvJx-wUB0YBzPjvYwFAQvn6SFtZNgYgH4i_u9ZyvaPSc9ShmDe9r2DYpwNtM8AX-cgRKMaeNv22FwJ2X8KvVbPA3WHtSfjRtfjqBU9jA0ocbG_a2eELUtWkm5YyXwfkOVbEebPXDFJfEOdB5Kg3MNLtsC8GvBClMg26FW2C0KJYRn5UozGLCS5ryI_BEDSbe1Gp3yiUxiyCDRV-2x07qFXm_hZjX1RhtU5iJq2fXQpLdBrB-W5ulh277w5Q6Bp8W7aCtU-xYKyFV8OljzgUff1yaTCSLJIi6-LXf4P8XsvvPZMbrKigtsF8i049-5KFYZKvqzZvZ6Vu8kV_zK0JGcBRC-uMRQEAG6b5hbCmgwKo0_lq1hq9S_9lAylRU7KcSmqaLC7QUT9d3-HlfMDbXfbvS15RS-INegg65EtFQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9739004686&itemId=29147861623&vendorItemId=96234970866&traceid=V0-153-512d21caa08e8e0a&requestid=20261118145309614016907417&token=31850C%7CMIXED&pt=0&slot=7",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "PLA 컵 1000개",
+      "query": "플라마트 컵홀더",
       "unitPrice": 16,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 15600,
       "minPrice": 15600,
       "maxPrice": 15600,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          15600,
+          15600,
+          15600,
+          15600,
+          1
+        ],
+        [
+          "2026-11-18",
           15600,
           15600,
           15600,
@@ -13717,6 +13741,10 @@
       "priceHistory": [
         [
           "2026-11-17 18:51 KST",
+          15600
+        ],
+        [
+          "2026-11-18 14:53 KST",
           15600
         ]
       ]
@@ -13841,19 +13869,19 @@
       "vendorItemId": "96112085661",
       "productName": "플라마트 테이크아웃 컵 홀더 32온스(107파이) 800개입 무지 에어 카페 커피 대용량 아이스 종이",
       "productPrice": 16500,
-      "productImage": "https://ads-partners.coupang.com/image1/k5anh_kAZwCZlFPGk7tzj6UzMMqQgA2wUOQi_5STpltcID2wLDxMghRJ0TlS1hRGB7PBVyfaXjojGfDFwXRQSAJEYtTLPSqow9fDgBMfC_EBe9gPWkk8r4xU2MuwTTXrSTS8dfT67GjXEwKFVXc6uIt5gAU1WAXg5wZMrdj2IO-xD0TOk39eH96ydWAzeFOPcJU7qmDGigWt6bJkS-_EsH_HQlfAv40rZOeKvAjiNuN-hRRNEsxaUcam0pcPS6ZgwVgZlL8TKIAD5wy2gUdCWE32re6zD_-9iQblecN10vw-0h1xyyd5h6intvVhkcTwWojR4o2BuXu5NERqlTyDI3SibttDL1EyjB3KbQJjVRmcagv29dpLeDdUC70zE-LOPFP6yEst0rvl4yvxla4qZTWheTQAGwrim7sWcLA98zC6jvF8a0P-XddrDmUzSLPxwEgjRK_tjxF6OlXU5IwrejHybErQgC68oAE_g3dyBVw_VnC7CSsnWigkR2tho1KW8bDh8IJonUmQhUoHpI5EobkzzSirsmQjhMYghCKALv-mkOpZ",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9632198895&itemId=29191212351&vendorItemId=96112085661&traceid=V0-153-179bb000a6206fe4&requestid=20261118005848163137977646&token=31850C%7CMIXED&pt=0&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/eVw4yB6aXfJTWpP_eS3dD3-jTyx6NVp_qMfVHQ3uUGFV9cDXOfQr7kwL1U-O28m91sIIJg9xdJfPet-FY84Qulx3prAWEkhukU_srIK5OvyrLNG_fU1Z9wIkmBL79zUxXY2tAQINSFSaSqJgaSTgIltc0kKwyTvWGvpRk0ymR7P9hgpCmUufTJsZByLT3wy1HEFbQTwUqqf-yT37wsqx-OMggtd7tiQDngLBk3YwzbyQmppn9LcWZz1rhwOmpjQ11TD4bFTSGkaxD7tiriPpsgDI2NpmxKuj2vtYDYT9MHhTaT62hunuE_NO_ILnGyM9wcq0HlssM3-JvftkRuhLEEMVziYi6hPklXVtcuhOT0r1tdkBmqqs6enwsI1RwG1tBkhDtMnxGsI0y8JbZaRzY13SkKVkDuy8hXU6xyWpZ7XCIN-56W1vwbwwn-zgO7U0APs0VetQje6f_M2VPqkwLHYqUbIlvA6igLaOETJbcH7M6Ahe2mpPfDVkRIeRKepqc6bpDQSZdlOif3mfCX4O-1D4kbGkWahZD-UdqfQwswflGg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9632198895&itemId=29191212351&vendorItemId=96112085661&traceid=V0-153-179bb000a6206fe4&requestid=20261118145309614016907417&token=31850C%7CMIXED&pt=0&slot=6",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "아이스컵 32온스 1000개",
+      "query": "플라마트 컵홀더",
       "unitPrice": 21,
       "unitBasis": "개당",
       "packNote": "800개입",
       "avgPrice": 16500,
       "minPrice": 16500,
       "maxPrice": 16500,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -13871,7 +13899,7 @@
           16500,
           16500,
           16500,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -13881,6 +13909,10 @@
         ],
         [
           "2026-11-18 00:59 KST",
+          16500
+        ],
+        [
+          "2026-11-18 14:53 KST",
           16500
         ]
       ]
@@ -14049,21 +14081,21 @@
       "vendorItemId": "92557650907",
       "productName": "종이컵홀더 92파이 98파이 멀티홀더 헬로윈터, 1개, 1000개",
       "productPrice": 27000,
-      "productImage": "https://ads-partners.coupang.com/image1/_44aJstzCHMqUP-i_zQE4B89LM241D9AZZ8yJdZxqZlJTO07d3nZ1EwqqePJPbDIOkwG56a4eNEOBv49nx-WWFcOcbt8uGzUmRu2M-q6_Y-O0cQPkDlHrTWL0XE99j6vd4DWnhhnYzJFUchiDfCZnzHPqVhKyXdNPGRirN7CTEvmvlKGrHYHIW_dkVq8qKf_NLbQfCJTTRu5BzdaHJ4d4moh88pNiwuTspNIVxN-_lLUKJSiT_okfbLleZCE2acPQP_6m4hR8B_W2K2OXQJipPvpojmBmXaEf3FsDrwPphJb_77HgCMxatiHytlZuFubGGSrgbCUUaGRaDOGzSlDyJEsbCaHP4dhUujqDIsm7yL6_sC-ITI0ZwZwRPYcIzlaOKCVjw42GTA__wosaKxD_Mw-Lp7PAD6AeFCYaSzQMgCh8cfLbYjTHhwrXi1Q37TVw4XUns6QutzLbeC-bfH87mqy9SJZGr_7LVsOTfDL-cBfKwVGkjcrUiaTmhZWMBrn96LyaIggYH3D2llTXcKjc-2yILUu",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6922591746&itemId=16722485819&vendorItemId=92557650907&traceid=V0-153-d8326051c4951bb1&clickBeacon=3621f390-e203-11f1-a503-3be2955ea839%7E3&requestid=20261117061804572029396125&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/7-3p4HjPIZGe4mqH70FUGXKWNZbZp_XbnXnAG_BB6j8njPCZ70BY5JbD3gZZ5iLBosHrUm6695wVNrJ_Ri2bkjivhvUOiKasYIqCXOlcvdtfrfi06oRY0jcSMiNrRidBaKCHU5pdysVxQKw3E89aICAi5qsdAeDPJsBRDhhNWGAJo0bxUdIc_5MDnHQmd-tr4QzReSoKFfFiLIZXGQVBcziV3_ccif9EhKm0c0rUGhD-XU_U8Wac1fJl90PgtubY3Hg-nWb-sW9QFyzRfO_s23TCNr_cGD_WG9oLpOwViXEIKdwBdKjkjUyK_MjXwNM-CnxNB962o_yjV1ke25fq9R7KyW--xWxSvJWncYev17REovDF7U2fuDkj-_PQvCRodqbqGLPXur_rfPdLCtZLr2C--fnRNKdi4ESvA5Zj3u4T3F8O_bH48HF3RmDOPcOZkGQTIG_6AJA14_iIe_-6Fbh-FEwC-wDF2K-rN6z_-uTsR0Hd9XaNBgqoGuh_pUCt-IaIbck2lEm1t1s2iILbgCfF_OlkHQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6922591746&itemId=16722485819&vendorItemId=92557650907&traceid=V0-153-d8326051c4951bb1&clickBeacon=556835e0-e314-11f1-b03b-97f67f137e0e%7E3&requestid=20261118145309614016907417&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "컵홀더 92파이 1000개",
+      "query": "플라마트 컵홀더",
       "unitPrice": 27,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 27000,
       "minPrice": 27000,
       "maxPrice": 27000,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -14080,6 +14112,14 @@
           27000,
           27000,
           2
+        ],
+        [
+          "2026-11-18",
+          27000,
+          27000,
+          27000,
+          27000,
+          1
         ]
       ],
       "priceHistory": [
@@ -14098,6 +14138,10 @@
         [
           "2026-11-17 06:18 KST",
           27000
+        ],
+        [
+          "2026-11-18 14:53 KST",
+          27000
         ]
       ]
     },
@@ -14106,19 +14150,19 @@
       "vendorItemId": "92656434229",
       "productName": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 자주 하트, 1개, 1000개",
       "productPrice": 27400,
-      "productImage": "https://ads-partners.coupang.com/image1/160p_WcWLnHgQYm41yBhLXlwQcbqDiyMNefs6gQ_LOEEhEAQ7FhRrABsxZ6zE_88tDJsH99u2n24HtUjF-mpqFxL9UB5yMh6SPMD0cbSe16bJfP0chrXdVxBm3c1utUOc4Vj8Qb2NJHh53OLBYJm528fYkM9qIQSDWEh9A84S0V-fgLFXuBrjYYtc5BE5WMpXuuXXOyqDQH6l7ysaS4KGutsbNe_0EW_D6Ql-DrNeyftWRdWp2optgwuBb8Z1oqsWPxBNd55RJm6gzPFySVRRLId5kIGYDxDdySRWo9CaSqJYWQoOj0x17naoEpCzM8O22IXcMxCwyX0o2uUbzOsUpfMX-GlqMHRDANRpiZhk0BrGbGHTEPQCpVXKk3mhr1i1gGkOXmmn08dasj-z0_KdibwTOCI0_fVnDOXUjUhyI0998zGEdZiuYXPmuMeOpqW5nm3rZ22oKFXAE8tkV2LdXB6PHnE_z8aAd2X6BTeXg0IRchBkbIcjvtwX84IV-3bqFIvdDqneM0e8r1zb_wp991OD5Zk",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8810869296&itemId=25666847161&vendorItemId=92656434229&traceid=V0-153-ac3bcbab3083fc71&clickBeacon=cb675bd0-e30b-11f1-9acb-d6d57ce68611%7E3&requestid=20261118135202125030683123&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/ZC-f4AGh0FEwR6fCZEoUJ6bhwjbJtfZGg_0GzCz3DqMk6OTZcOyK9QlN_hT9okRjOoxkDKPjBoHnc0b4Xs0pTX_z7KWPFdlYRGF3l4NVfVtkn_fuFlMJ0gQkrTZ-dUzo_emzRyWN8SAq9FflnlAeUbK3UeuHf_IIe_exQXKePaD2yFUsjjeAsRJcfjBjAvp22jJEU7gGVFbQcu25WQoIte2Vhhr76Q7IFgWNkqXL-3h9B1vZ7vbnBfLYgyUu6oPPzzAmnPz3t8NGnGmnBfXxswO-lH96i5z-Z7JGFe4tK0wPnvqwO5E8m7RNm3fxHulFFLR4Fw46BSbkW8z66ZwhKUiekeA56j-s2uASGLk63xJAm_bYq4crPSFbLQ9lozbF_sXagxl6SBe-dc9lOLzOK5wRo3hVyV2yCY8XjxWGtvbjn7ZhaNOuS9De1zVijpr0ayXzHb4TSN6S-jjvYUvIecSVoCqt2ePOfvXVKRM-Kw0Te7IrFSi5nNzF30LsLhMLu_trd5n8T4HcTMsCKRK_tjpPIpaT",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8810869296&itemId=25666847161&vendorItemId=92656434229&traceid=V0-153-ac3bcbab3083fc71&clickBeacon=556835e0-e314-11f1-9ce1-84559413bb3d%7E3&requestid=20261118145309614016907417&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "컵홀더 1000개",
+      "query": "플라마트 컵홀더",
       "unitPrice": 27,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 27400,
       "minPrice": 27400,
       "maxPrice": 27400,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
       "uniqueDays": 3,
       "dailyHistory": [
@@ -14144,7 +14188,7 @@
           27400,
           27400,
           27400,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -14166,6 +14210,10 @@
         ],
         [
           "2026-11-18 13:52 KST",
+          27400
+        ],
+        [
+          "2026-11-18 14:53 KST",
           27400
         ]
       ]

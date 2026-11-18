@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 13:52 KST",
+  "updatedAt": "2026-11-18 14:54 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -566,14 +566,19 @@
           "at": "2026-11-18 09:46 KST",
           "price": 49900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 49900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 49900,
       "minPrice": 49900,
       "maxPrice": 49900,
       "lastPrice": 49900,
-      "lastAt": "2026-11-18 09:46 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -589,7 +594,7 @@
           49900,
           49900,
           49900,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -721,14 +726,19 @@
           "at": "2026-11-18 00:59 KST",
           "price": 47960,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 47960,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 47960,
       "minPrice": 47960,
       "maxPrice": 47960,
       "lastPrice": 47960,
-      "lastAt": "2026-11-18 00:59 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -744,7 +754,7 @@
           47960,
           47960,
           47960,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -5389,14 +5399,19 @@
           "at": "2026-11-17 06:18 KST",
           "price": 27000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 27000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 27000,
       "minPrice": 27000,
       "maxPrice": 27000,
       "lastPrice": 27000,
-      "lastAt": "2026-11-17 06:18 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5413,9 +5428,17 @@
           27000,
           27000,
           2
+        ],
+        [
+          "2026-11-18",
+          27000,
+          27000,
+          27000,
+          27000,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "92557650907"
     },
     "8420892270": {
@@ -6377,14 +6400,19 @@
           "at": "2026-11-18 13:52 KST",
           "price": 27400,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 27400,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 27400,
       "minPrice": 27400,
       "maxPrice": 27400,
       "lastPrice": 27400,
-      "lastAt": "2026-11-18 13:52 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6408,7 +6436,7 @@
           27400,
           27400,
           27400,
-          1
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -8859,14 +8887,19 @@
           "at": "2026-11-18 13:52 KST",
           "price": 13800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 13800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13800,
       "minPrice": 13800,
       "maxPrice": 13800,
       "lastPrice": 13800,
-      "lastAt": "2026-11-18 13:52 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8882,7 +8915,7 @@
           13800,
           13800,
           13800,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -14553,14 +14586,19 @@
           "at": "2026-11-18 00:59 KST",
           "price": 16500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 16500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 16500,
       "minPrice": 16500,
       "maxPrice": 16500,
       "lastPrice": 16500,
-      "lastAt": "2026-11-18 00:59 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -14576,7 +14614,7 @@
           16500,
           16500,
           16500,
-          1
+          2
         ]
       ],
       "uniqueDays": 2,
@@ -14590,14 +14628,19 @@
           "at": "2026-11-17 18:51 KST",
           "price": 15600,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 15600,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 15600,
       "minPrice": 15600,
       "maxPrice": 15600,
       "lastPrice": 15600,
-      "lastAt": "2026-11-17 18:51 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -14606,9 +14649,17 @@
           15600,
           15600,
           1
+        ],
+        [
+          "2026-11-18",
+          15600,
+          15600,
+          15600,
+          15600,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "96234970866"
     },
     "9675500108": {
@@ -16521,20 +16572,25 @@
     },
     "9724723787": {
       "productName": "98파이 아이스컵 돔뚜껑 (1000개)",
-      "category": "컵·뚜껑",
+      "category": "빨대·홀더",
       "observations": [
         {
           "at": "2026-11-18 02:01 KST",
           "price": 18000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 18000,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 18000,
       "minPrice": 18000,
       "maxPrice": 18000,
       "lastPrice": 18000,
-      "lastAt": "2026-11-18 02:01 KST",
+      "lastAt": "2026-11-18 14:53 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -16542,7 +16598,7 @@
           18000,
           18000,
           18000,
-          1
+          2
         ]
       ],
       "uniqueDays": 1,
@@ -19203,6 +19259,64 @@
           21900,
           21900,
           21900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9616507281": {
+      "productName": "호인트 일회용 종이컵 홀더 디스펜서 보관 정리 거치대, 10개, 블랙",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 7900,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95654757050",
+      "priceCount": 1,
+      "avgPrice": 7900,
+      "minPrice": 7900,
+      "maxPrice": 7900,
+      "lastPrice": 7900,
+      "lastAt": "2026-11-18 14:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          7900,
+          7900,
+          7900,
+          7900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8520371959": {
+      "productName": "레디박스 고급형 종이컵 거치대 컵홀더, 1개, 블랙",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-18 14:53 KST",
+          "price": 5900,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "91164006505",
+      "priceCount": 1,
+      "avgPrice": 5900,
+      "minPrice": 5900,
+      "maxPrice": 5900,
+      "lastPrice": 5900,
+      "lastAt": "2026-11-18 14:53 KST",
+      "dailyHistory": [
+        [
+          "2026-11-18",
+          5900,
+          5900,
+          5900,
+          5900,
           1
         ]
       ],
