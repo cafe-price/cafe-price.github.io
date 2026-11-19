@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-19 11:03 KST",
-  "statsAt": "2026-11-19 11:04 KST",
+  "updatedAt": "2026-11-19 15:07 KST",
+  "statsAt": "2026-11-19 15:07 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 413,
+  "count": 414,
   "priceStats": {
-    "products": 578,
+    "products": 579,
     "discounts": 7
   },
   "deals": [
@@ -2936,24 +2936,32 @@
       "vendorItemId": "94556536125",
       "productName": "더와이 카라멜시럽 (리필용), 1개, 1kg",
       "productPrice": 7950,
-      "productImage": "https://ads-partners.coupang.com/image1/dW8UyApjzsk2YXfJdRUdro8E0Z2SApLzHuo_MouPdadSQVxuifcMCDTzEwzJoDv8jJM0-xU72NWC2w7_GIPeCZAJi0DLGizuejTxtuXsdyGlKB7CuGviBJQHUoPJ-ZbQSkoYIfGjABYj4dfgd6fRHPkpnU1m9ky2heTEJSySozK-3-77KmuXWm9DvqvzoPa4Zn3ktgzzF3j9CSad0o3-yNQY7bhjqoekKgdAHOKW37KaHFuY0dOoZYEi6WA0zHf7BvM2G4BTcg9UaDXD8TcmrcveyCmAjzhYb-XB7ewYY39lnxJRMyrisia1DaDVHOFhPGrktth9T0NmXaV7qIymNA8WGC_4cH31RRQ4FDycpUBMcQdgZ3c0tTcEuiVANmVhzRJf9zR9aqQK3_NdwG8qrPD7qC0e1Wn1_NDFGggFce_dQkxFMs2NZbZF9lsUOo2uOshZF8Zwj_YIJYxwRolxqvgOuqZjp0wqjAKgKkqQww7x1O1YV_O6lBzoNfNzqJdZEgkuo-TP3awvd-jdX-ZK-8dO",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9311863170&itemId=27593022992&vendorItemId=94556536125&traceid=V0-153-aca2fbc65a8a7cd2&clickBeacon=fa2b9540-e274-11f1-9d99-6b4cd115ae7a%7E3&requestid=20261117195226582206501323&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/ANz58DT8E8v7xTfyAFWrzypV2YrD6R02hChwgBYFOhFc_wDp7OIsxrsvvaHAobR-IvGc1aXjUyev6WSbdM1h_i42t6T6CvkfvrYDH2KlEAKWR8k4hl89reOeHJaS1kTgOINeThDd4PK_C9J1730W4cKanpTbGodNBb3Cyb6Bj7CMbgKnlOLPqCV27ZDS1VUlv8u04tjpJTQZxinjwHNNJepLGQ4FSvBV9HA8KqP3LqOy4lwN_Tvshzrs418eiEtVFHEMfb4mgZmfZY44Usm8Frezi22eazd4lVoSqfwhyX6V0Qfrzz7sgHrR4hXLf2mKKdHjJT3LfXL5PptbduDJ5_3U98En2Xuk62rcmOKswY95NXU8syONmJGJg4japU89aDr15a4QuNGVrW0eF7jTm_x2asxawVvqx4wUqPhooI-t9Z-sdy6Qr7lTgvO-ULoXL88MDgyg8ZgByikngNbW5P1R9WOt8Y0CR2FKKAWLu8vprIPuNBhtIyu6G2j1VfFZTE3V72nBEfdzj0W6zgYvyVO9fgHfs5Px",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9311863170&itemId=27593022992&vendorItemId=94556536125&traceid=V0-153-aca2fbc65a8a7cd2&clickBeacon=60fafe30-e3df-11f1-a525-1b1259877112%7E3&requestid=20261119150636895180615892&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "카라멜 파우더 1kg",
+      "query": "더와이 카라멜시럽 1kg",
       "unitPrice": 795,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 7950,
       "minPrice": 7950,
       "maxPrice": 7950,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          7950,
+          7950,
+          7950,
+          7950,
+          1
+        ],
+        [
+          "2026-11-19",
           7950,
           7950,
           7950,
@@ -2964,6 +2972,10 @@
       "priceHistory": [
         [
           "2026-11-17 19:53 KST",
+          7950
+        ],
+        [
+          "2026-11-19 15:07 KST",
           7950
         ]
       ]
@@ -4450,21 +4462,21 @@
       "vendorItemId": "70381672393",
       "productName": "성진 인절미 콩가루, 2kg, 1개",
       "productPrice": 13900,
-      "productImage": "https://ads-partners.coupang.com/image1/Pabg-BBVT65dq7uIPYXKLeztWjVGkgNftCg0Lr4waFQu-whP2_tZWrVMiLObyunG8OU7FmsM4ZmVDe99nXjBBCJxrdxtMe-F3yN5n-C9nVYZxN6qd8dLmIquklnowJ2z5xhVpC-IMvHH5riTdIn3HOXIp5Iu-s2RL0DACmv5zQ_oT0jgrYsvu3dIp3qQ7DTD6xMRN6BmX1PnOCeVqbxCkbTTHgH8r-k9UHoTiC69vdF7CiPcKCyuwvOkjv4VmOvxwYDpFGxH5XRxkOwH3MEXfcsfS3fHeijY9VPiOL-yj4F62vUjx1KW6V7Ktre5pwJhgW82_ZTzETf-I76zRj2wRHaeYcq52sKbGg0ORD2AJejbbpwfc79p78uv3gzs3p5MF2idGaL4us0Ophxs0ibh8HuU2h0JFaIeU_HAuHVbQuM5d_kPhAyEHgkqtcMW37qtIJsZDCZ1LH-52-CVqG8kkwXZjwf3-sJOgW7QyOuIAv1JuDbLiW8cTa0x8xyzbRU0PZQNf0mJUO5cc-ISz0gG7RZE68lJhBJizlWtQpFEi_himxSS26C3BgwB_BSXJyrWZuA9zw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1356341622&itemId=2386209165&vendorItemId=70381672393&traceid=V0-153-5b2331274b9bed8d&clickBeacon=f3561350-e31c-11f1-98c9-e06783c0a49d%7E3&requestid=20261118155450559094829796&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/lYzZWxJGGYeIlndXlWsLiVir3P_938s7-SAzoR0H36E9ARQAi8PnfK0rCu8rw-6A7hzbdSjKSZFHSeNwxnt8n4VhlKbRgoQxw_9eU1Ft_mvAaNBOngC7BU11S3vBopYG7xXeFM_a-WnfgpPWr0v7D8DON1c_eH36-U5eQxU-xo7UXBDiCtO_kX-R-GsaRWNll7yTLtBP-BfQ_y_p8zdp15iUy-mjIYkbx-SisgqmwrnmAleewBaL0bugvETmCehbx6qR2CcsL7W0a6AkEzO5tX_YqDkwmuo2dNsKehbuacEKNBYloYjFtWnQ-tLG6sdemHNgLMLl0smECVWthQO1z0v1WDHMLOgbtVhdScqRoprXNXsOrQ8JYa_msg7Bul1Egp24-PJdHV9VeeUIY_FBrqtbi1qfKOVwNqKXwiKBpe7TTx1Ub2FXMIZBUphLWob9gZjN57XJ4rRuUHF3JuxebmwkfHOlZKWH3XRr7jD-E28tNrso_8M-RlIymMEBcnuiLZJx6lKpUSWn36vv-nrHBp8Nup3QS-qtrDM61ccAYr69n7EAixe5SsOrMie0ipdaQP02",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1356341622&itemId=2386209165&vendorItemId=70381672393&traceid=V0-153-5b2331274b9bed8d&clickBeacon=4cf2aaa0-e3df-11f1-afa8-d28af642e8a6%7E3&requestid=20261119150603275287630019&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "인절미 파우더 1kg",
+      "query": "성진 인절미 콩가루 1개",
       "unitPrice": 695,
       "unitBasis": "100g당",
       "packNote": "2,000g",
       "avgPrice": 13900,
       "minPrice": 13900,
       "maxPrice": 13900,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -4481,6 +4493,14 @@
           13900,
           13900,
           1
+        ],
+        [
+          "2026-11-19",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
         ]
       ],
       "priceHistory": [
@@ -4490,6 +4510,10 @@
         ],
         [
           "2026-11-18 15:55 KST",
+          13900
+        ],
+        [
+          "2026-11-19 15:07 KST",
           13900
         ]
       ]
@@ -8857,21 +8881,21 @@
       "vendorItemId": "84734652331",
       "productName": "누티푸드 크리머 스위텐드 연유 시럽, 385g, 24개",
       "productPrice": 46860,
-      "productImage": "https://ads-partners.coupang.com/image1/Cpa_iZQNjOVrsKnJCsQgqRQKVkd_QvfAWebd6PtSdYkAYq_05Fts28RkbpseWLHbpWXxm36WiKXUgnsuBor20IiS-jSZuACDo5Wc2soqgviQNqOr4CUXLKp7P6F-cIZzMo0ZArj2xmD9MJMgf2cEmZVrsdcWZagVjGoyTcig3hGX0N2Kb0dT24zIcWEc84RBXGOynuutqXF9Oetphjd0ReXh-Q1ytH-1Bhxmk9uRH_0LOKcNYUpFGUqI7V15Yom1sTNANm8onL7hZqhdAF4HrC4aQYfCB_Z96sNUSA8HCOlYTNUcNiXkiasefYqDF4PPHQhAxJBEjMSA2vQ6W-eyXdoIjMT8FjEaYhy9f0TUNvK5LqHPp7DlnavGgMmk-c7x4bsd7TGZskybGHpvgXxU5NqdCDfTG2kGa4iozvb05y0ISkKWA3uCXsVT-uoy2jlJL5yeLras0cMAeEUEN-e0_lDtsUbQj_YD1w5H0SvUK3on3WtvvVouJ99S9aJDjBTf5CS0WGlLXZpp5q64eJzXEQH9TtwiFoplLRbfqQijNM_b1D-eGq-EbAQQhNaIQp4NpjIafzT-paeoGDahXE_rAkMoijfXmdsUss7LtZKHQ4fKy5cE_2ocS4qBBoAD_Q==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=181c4930-e303-11f1-a93f-cd858373b3fd%7E3&requestid=20261118124945340055600024&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/uBjxqs2GwfdN5sT4uCBbKted_qI3SqjT_YuiwT9DtQUPmefLZ01TJez_09WG-MbI4xzf7Xjcnlg3ttVYRtwIVJO_33ehwDORAoFvnOOBtVXgplcR4kcxGLtm48wV3F1MWO1FOzyoU5sfGm7-DmT6_sJt1cxhRXGIgukQ6mik_QuvH7DX343qxIgozqFzNeoiFWeYsm_BwGX551ZtK-ganliomMcwmu8dMCR11YSXvAFJpWVsYdfminVavikm2C0_Qjme77lRfdOZkHJrHZ1Emnbnt0N3pa6z1CcvjTlXZ2kNZGpIAjtk_-GC3nx_c99z_jmxZ7OP4WFHVry-nEJGYPi43Wn86xD5RDV3vPaZ_03MNmty8_wJV2xp-21JLHpOsDU2JVsHlP1FTl6kyOeLvrD1mHNE-H2Qtxy7KOeQIkq7XzEKzrmZJvoGtm1xc-TkPRhOAtv7PnTAPaupE2Cx2NK5O7hfkwMq5E8PU_fin1G6nCCsO1n6gGIeNlIuzbwU71jmkLtHEr_6F5PFFvwyzXBGQ1dYHRHDrJV-ydb9D-8dYlq3nbi5jPgeZkkmMIwnl7WB4A==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=56f3b3a0-e3df-11f1-a7c1-6508cee0f46e%7E3&requestid=20261119150620071287639725&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "연유 2kg",
+      "query": "누티푸드 스위텐드 385g 24개",
       "unitPrice": 507,
       "unitBasis": "100g당",
       "packNote": "385g×24",
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8896,6 +8920,14 @@
           46860,
           46860,
           1
+        ],
+        [
+          "2026-11-19",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
       "priceHistory": [
@@ -8909,6 +8941,10 @@
         ],
         [
           "2026-11-18 12:50 KST",
+          46860
+        ],
+        [
+          "2026-11-19 15:07 KST",
           46860
         ]
       ]
@@ -15655,26 +15691,35 @@
     },
     {
       "productId": "7572829529",
+      "vendorItemId": "90271557299",
       "productName": "모나리자 스마트 다용도 키친타올 250매, 250매, 12개",
       "productPrice": 12730,
-      "productImage": "https://ads-partners.coupang.com/image1/hJju62gKaqaLNa9mhPYEqrEnmVhY6uWlsfTxPEP5TF6V42qzNZ5k5AymD44mvoU4duk2dNK2D7ETkKVrLW8fYQn-l17B1tC2k16xEJ9Z-9OIy9-o1kqaT4M4M6P6ccWcpYWEMkTa2qsfpe9v-n3s7-iEQV0UYSupRzVG0udEiiO0rYkq0QQXrtS9OrMienIl_1WfG68E1It3QiS_erXf88cj9buhbhAHxClXxaSADIRB-HGo7La2wN2khTwyB5xJQYwOjXBIDSMwdZ0ZN6H__cFlIgoTvV_3bM9h2zYxm6fh3G3udG80lSPDyvez-8jEb3fS4Q9aG0_UBk988vtSIgIm-lmisZBntilEnn0iBS3bq5J9JBB7EX0-_H3xmRLAdGmjaIUj92tNeDa8AfF5aa7zeunWzxhE5ZLHU97M5LQzDtdMT6Vcp7ewsrXDIE5vFzAc19vW-5FKKBMx0hv-bhOBPGd6-KtbCEcZ53_krElWP18ELV40A9Y_twLkaBS1nhqJBv1b0oHTZPbcOY7aCGHlB2AxZmYkdnGBApqNMkyCPLXGJ8HyFMEcTpdkt0F5YrZ4Y1ZJjeBSLBZyfhlxKoxb",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=6ecfa5d0-e1ad-11f1-8a9f-6debb6587274%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/T_rEZbKD4vP_CHj8T9iE3s6f8clyUDy4wvwiZKthU3zMQoqFP1jATAsE_pn1UFXTt9eSxu2SeDsHb710Bfn6PMNOzBj2j7AaDa4G01bvBOpBvE8WSamlZHOaYjIg0b1Jf0Fu3f1etifzTtJWJCkT0mrvAyC5U-L8jM4CRCIQKkFcxDizDI5tWUeTs_1IhSVY_g9pRq8GQG7HePtzUN-UqmWn51R9CkRWK802en4nXv2G-zfGwcKI9UQ2NlxUyDd2AZC0lJ52r7bRGk0JXD_hErQS-3vMrR-wJD10m2tu_v0XTiBDXteqVPfLElKkaw2M9_m6Yfs-6cTsw5EdLM-LcE4JMbO5n3GroLjw0sCzPhQ1Ee9QGnFBPhCZBOnsAn_1zYaGg5NF-OuZaLfTOvbqhg2ggxCvSHSsZYKbLYXPQTj2FzQMUXMBLLJGDQah0dxSRGOOjR66q5EsWE4Gek3as1onaDhm6ZpwMa_8W2jN-7pvfZbuWeR-pc914kTHexZ-GaqBN7uMzoT7yFmHvZFou2ODC7X9312WX0k7GRgoKitPjhlZctpCL-lOOhfHgWIknSH10uKpK1-m5ee60CoEpQvQuQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=700e17e0-e3df-11f1-906b-2f1a2261f1ce%7E3&requestid=20261119150702180321539400&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": true,
       "category": "매장소모품",
-      "query": "키친타월 12롤",
+      "query": "모나리자 스마트 키친타올 250매 12개",
       "unitPrice": 4,
       "unitBasis": "개당",
       "packNote": "250개×12개",
       "avgPrice": 12730,
       "minPrice": 12730,
       "maxPrice": 12730,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
+        ],
+        [
+          "2026-11-19",
           12730,
           12730,
           12730,
@@ -15686,9 +15731,12 @@
         [
           "2026-11-16 20:04 KST",
           12730
+        ],
+        [
+          "2026-11-19 15:07 KST",
+          12730
         ]
-      ],
-      "vendorItemId": "90271557299"
+      ]
     },
     {
       "productId": "9318808229",
@@ -16508,6 +16556,43 @@
         [
           "2026-11-18 02:01 KST",
           19990
+        ]
+      ]
+    },
+    {
+      "productId": "8049299057",
+      "vendorItemId": "89610481956",
+      "productName": "코멧 천연펄프 실속 키친타올 2겹 250매",
+      "productPrice": 10420,
+      "productImage": "https://ads-partners.coupang.com/image1/W179ZEpgpm_meORvW2u_-JDqI7shnjircPuHT4tZ4sHfbtsfnrOm99JXgEgJSNaeININJkvWqe7DJRuarT3oAaq1IDxeJure15dIUHbxH9nclWLhUE9YK4YmfEmezpIDjXKYDtdmlr0FI2I7bp6qvlBY7XPfqOE4CcIb3tJfoEGd9Wr5S4KlAGRqRwqm-m2h2dE-R0UPRU5p3N2oh3jJCnIPWxK1SZmNf5UYN46PoTf9d9j4FWyaCQvX2tJdE43ruJ9tiWXkx6lX4GE7dt7sxe6bgMggJikWnOcETgGFCOhiEodGAfKWwv_5PFnqff8FDZzp17FFEiBnEXcocqZMoAOsJcIUCbQ8mcfU8ZlRHpRnD1ekCxTwbnchDucea2bC4s2dkpa15KuTVX08rirkf2OUNwyZcvFfj37OOezhxod4bi4OOVd9hpSZN9zkrl88epob9tK4H8xNN2IozbyeALA7e-XJ6xAnMeDqmX_jqJMcFRdAQMIiiEihzf4zAqhkVYc0sCVOXRrDaOsAsPKgl6KnuBi4cVRmoQZPjjEMdZj4-GmrinN1oIuo-jqCdaiB6VFTa5A1tNCDiEoc_Qqf",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8049299057&itemId=22568616421&vendorItemId=89610481956&traceid=V0-153-c39ce78979c25379&requestid=20261119150702180321539400&token=31850C%7CMIXED&pt=0&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "모나리자 스마트 키친타올 250매 12개",
+      "unitPrice": 42,
+      "unitBasis": "개당",
+      "packNote": "250개입",
+      "avgPrice": 10420,
+      "minPrice": 10420,
+      "maxPrice": 10420,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          10420,
+          10420,
+          10420,
+          10420,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-19 15:07 KST",
+          10420
         ]
       ]
     },

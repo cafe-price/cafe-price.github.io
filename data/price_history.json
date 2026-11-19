@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 11:04 KST",
+  "updatedAt": "2026-11-19 15:07 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7653,14 +7653,19 @@
           "at": "2026-11-18 12:50 KST",
           "price": 46860,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 15:07 KST",
+          "price": 46860,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
       "lastPrice": 46860,
-      "lastAt": "2026-11-18 12:50 KST",
+      "lastAt": "2026-11-19 15:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7685,9 +7690,17 @@
           46860,
           46860,
           1
+        ],
+        [
+          "2026-11-19",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "84734652331"
     },
     "8421621861": {
@@ -8923,14 +8936,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 12730,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 15:07 KST",
+          "price": 12730,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 12730,
       "minPrice": 12730,
       "maxPrice": 12730,
       "lastPrice": 12730,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-19 15:07 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8939,9 +8957,17 @@
           12730,
           12730,
           1
+        ],
+        [
+          "2026-11-19",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "90271557299"
     },
     "8188344094": {
@@ -13630,14 +13656,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 13900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 15:07 KST",
+          "price": 13900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13900,
       "minPrice": 13900,
       "maxPrice": 13900,
       "lastPrice": 13900,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-19 15:07 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13654,9 +13685,17 @@
           13900,
           13900,
           1
+        ],
+        [
+          "2026-11-19",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "70381672393"
     },
     "7939740323": {
@@ -15317,14 +15356,19 @@
           "at": "2026-11-17 19:53 KST",
           "price": 7950,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 15:07 KST",
+          "price": 7950,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 7950,
       "minPrice": 7950,
       "maxPrice": 7950,
       "lastPrice": 7950,
-      "lastAt": "2026-11-17 19:53 KST",
+      "lastAt": "2026-11-19 15:07 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -15333,9 +15377,17 @@
           7950,
           7950,
           1
+        ],
+        [
+          "2026-11-19",
+          7950,
+          7950,
+          7950,
+          7950,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "94556536125"
     },
     "9560776821": {
@@ -20090,6 +20142,35 @@
           159400,
           159400,
           159400,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8049299057": {
+      "productName": "코멧 천연펄프 실속 키친타올 2겹 250매",
+      "category": "매장소모품",
+      "observations": [
+        {
+          "at": "2026-11-19 15:07 KST",
+          "price": 10420,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "89610481956",
+      "priceCount": 1,
+      "avgPrice": 10420,
+      "minPrice": 10420,
+      "maxPrice": 10420,
+      "lastPrice": 10420,
+      "lastAt": "2026-11-19 15:07 KST",
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          10420,
+          10420,
+          10420,
+          10420,
           1
         ]
       ],
