@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 20:04 KST",
+  "updatedAt": "2026-11-20 07:03 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -214,14 +214,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 9970,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 9970,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 9970,
       "minPrice": 9970,
       "maxPrice": 9970,
       "lastPrice": 9970,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -246,9 +251,17 @@
           9970,
           9970,
           2
+        ],
+        [
+          "2026-11-20",
+          9970,
+          9970,
+          9970,
+          9970,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "89277859376"
     },
     "9628021737": {
@@ -7262,14 +7275,19 @@
           "at": "2026-11-19 07:03 KST",
           "price": 32900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 32900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 32900,
       "minPrice": 32900,
       "maxPrice": 32900,
       "lastPrice": 32900,
-      "lastAt": "2026-11-19 07:03 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7294,9 +7312,17 @@
           32900,
           32900,
           1
+        ],
+        [
+          "2026-11-20",
+          32900,
+          32900,
+          32900,
+          32900,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "91427252127"
     },
     "9392190751": {
@@ -7317,14 +7343,19 @@
           "at": "2026-11-19 07:03 KST",
           "price": 7500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 7500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 7500,
       "minPrice": 7500,
       "maxPrice": 7500,
       "lastPrice": 7500,
-      "lastAt": "2026-11-19 07:03 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7349,9 +7380,17 @@
           7500,
           7500,
           1
+        ],
+        [
+          "2026-11-20",
+          7500,
+          7500,
+          7500,
+          7500,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "96154949768"
     },
     "5508832151": {
@@ -17757,14 +17796,19 @@
           "at": "2026-11-18 04:03 KST",
           "price": 19490,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 19490,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 19490,
       "minPrice": 19490,
       "maxPrice": 19490,
       "lastPrice": 19490,
-      "lastAt": "2026-11-18 04:03 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -17773,9 +17817,17 @@
           19490,
           19490,
           1
+        ],
+        [
+          "2026-11-20",
+          19490,
+          19490,
+          19490,
+          19490,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "3789427842"
     },
     "6357560398": {
@@ -20057,15 +20109,20 @@
           "at": "2026-11-19 07:03 KST",
           "price": 11070,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 11070,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "93613740682",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 11070,
       "minPrice": 11070,
       "maxPrice": 11070,
       "lastPrice": 11070,
-      "lastAt": "2026-11-19 07:03 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-19",
@@ -20074,9 +20131,17 @@
           11070,
           11070,
           1
+        ],
+        [
+          "2026-11-20",
+          11070,
+          11070,
+          11070,
+          11070,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8527254203": {
       "productName": "26년산 햇밀 속이 편한 양평 우리밀 통밀가루 박력분, 5개, 500g",
@@ -20086,15 +20151,20 @@
           "at": "2026-11-19 11:03 KST",
           "price": 21110,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 21110,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "95962135372",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 21110,
       "minPrice": 21110,
       "maxPrice": 21110,
       "lastPrice": 21110,
-      "lastAt": "2026-11-19 11:03 KST",
+      "lastAt": "2026-11-20 07:03 KST",
       "dailyHistory": [
         [
           "2026-11-19",
@@ -20103,9 +20173,17 @@
           21110,
           21110,
           1
+        ],
+        [
+          "2026-11-20",
+          21110,
+          21110,
+          21110,
+          21110,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "6135466042": {
       "productName": "성진 인절미 콩가루, 1개, 2kg",
@@ -20189,6 +20267,238 @@
           10420,
           10420,
           10420,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9231453305": {
+      "productName": "파모빗 레몬 생강 착즙 NFC 100%, 1L, 2개",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 15840,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94267010612",
+      "priceCount": 1,
+      "avgPrice": 15840,
+      "minPrice": 15840,
+      "maxPrice": 15840,
+      "lastPrice": 15840,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          15840,
+          15840,
+          15840,
+          15840,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8989925820": {
+      "productName": "그레인랩 검은콩 고칼슘 블랙9곡 두유, 80개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 29880,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96035031994",
+      "priceCount": 1,
+      "avgPrice": 29880,
+      "minPrice": 29880,
+      "maxPrice": 29880,
+      "lastPrice": 29880,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          29880,
+          29880,
+          29880,
+          29880,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8086113805": {
+      "productName": "두보원 통콩두유 64입_콩을 통째로 정통두유, 64개, 190ml",
+      "category": "우유·대체유",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 30780,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "91301330999",
+      "priceCount": 1,
+      "avgPrice": 30780,
+      "minPrice": 30780,
+      "maxPrice": 30780,
+      "lastPrice": 30780,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          30780,
+          30780,
+          30780,
+          30780,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8692715829": {
+      "productName": "우리밀 국산 백밀가루 다용도, 1kg, 2개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 10640,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94763122066",
+      "priceCount": 1,
+      "avgPrice": 10640,
+      "minPrice": 10640,
+      "maxPrice": 10640,
+      "lastPrice": 10640,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          10640,
+          10640,
+          10640,
+          10640,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9273627574": {
+      "productName": "카무트 브랜드 밀 100%, 2kg, 2개",
+      "category": "크림·연유",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 51600,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94424083984",
+      "priceCount": 1,
+      "avgPrice": 51600,
+      "minPrice": 51600,
+      "maxPrice": 51600,
+      "lastPrice": 51600,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          51600,
+          51600,
+          51600,
+          51600,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9468671889": {
+      "productName": "워너빈 베트남 로부스타 G1 원두커피, 에스프레소(고움), 500g, 1개",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 12500,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "71785381739",
+      "priceCount": 1,
+      "avgPrice": 12500,
+      "minPrice": 12500,
+      "maxPrice": 12500,
+      "lastPrice": 12500,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          12500,
+          12500,
+          12500,
+          12500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7281213273": {
+      "productName": "네이처컨테이너 개별포장 고급 일자 파랑 빨대 21cm, 500개입, 1개",
+      "category": "빨대·홀더",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 10970,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "89277530106",
+      "priceCount": 1,
+      "avgPrice": 10970,
+      "minPrice": 10970,
+      "maxPrice": 10970,
+      "lastPrice": 10970,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          10970,
+          10970,
+          10970,
+          10970,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8749901658": {
+      "productName": "대한다업 우엉차, 1g, 25개, 100개입",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-20 07:03 KST",
+          "price": 180000,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96235342888",
+      "priceCount": 1,
+      "avgPrice": 180000,
+      "minPrice": 180000,
+      "maxPrice": 180000,
+      "lastPrice": 180000,
+      "lastAt": "2026-11-20 07:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          180000,
+          180000,
+          180000,
+          180000,
           1
         ]
       ],
