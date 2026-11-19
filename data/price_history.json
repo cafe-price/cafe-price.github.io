@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 07:03 KST",
+  "updatedAt": "2026-11-19 11:04 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -7045,14 +7045,19 @@
           "at": "2026-11-18 15:55 KST",
           "price": 22500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 22500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 22500,
       "minPrice": 22500,
       "maxPrice": 22500,
       "lastPrice": 22500,
-      "lastAt": "2026-11-18 15:55 KST",
+      "lastAt": "2026-11-19 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7069,9 +7074,17 @@
           22500,
           22500,
           1
+        ],
+        [
+          "2026-11-19",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "94332604246"
     },
     "8556420005": {
@@ -19440,15 +19453,20 @@
           "at": "2026-11-18 13:52 KST",
           "price": 25000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 25000,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "95941743717",
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 25000,
       "minPrice": 25000,
       "maxPrice": 25000,
       "lastPrice": 25000,
-      "lastAt": "2026-11-18 13:52 KST",
+      "lastAt": "2026-11-19 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19457,9 +19475,17 @@
           25000,
           25000,
           2
+        ],
+        [
+          "2026-11-19",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8636312518": {
       "productName": "에이투밀크 멸균우유, 200ml, 24개",
@@ -19774,15 +19800,20 @@
           "at": "2026-11-18 20:44 KST",
           "price": 22580,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 22580,
+          "source": "수집 결과"
         }
       ],
       "vendorItemId": "95514550671",
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 22580,
       "minPrice": 22580,
       "maxPrice": 22580,
       "lastPrice": 22580,
-      "lastAt": "2026-11-18 20:44 KST",
+      "lastAt": "2026-11-19 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19791,9 +19822,17 @@
           22580,
           22580,
           1
+        ],
+        [
+          "2026-11-19",
+          22580,
+          22580,
+          22580,
+          22580,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "8412682472": {
       "productName": "[로켓프레시] 비욘드 딸기 크림치즈, 1kg, 1개입, 2개",
@@ -19964,6 +20003,93 @@
           11070,
           11070,
           11070,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8527254203": {
+      "productName": "26년산 햇밀 속이 편한 양평 우리밀 통밀가루 박력분, 5개, 500g",
+      "category": "베이킹 재료",
+      "observations": [
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 21110,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95962135372",
+      "priceCount": 1,
+      "avgPrice": 21110,
+      "minPrice": 21110,
+      "maxPrice": 21110,
+      "lastPrice": 21110,
+      "lastAt": "2026-11-19 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          21110,
+          21110,
+          21110,
+          21110,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "6135466042": {
+      "productName": "성진 인절미 콩가루, 1개, 2kg",
+      "category": "파우더",
+      "observations": [
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 13900,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "79003717077",
+      "priceCount": 1,
+      "avgPrice": 13900,
+      "minPrice": 13900,
+      "maxPrice": 13900,
+      "lastPrice": 13900,
+      "lastAt": "2026-11-19 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          13900,
+          13900,
+          13900,
+          13900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8540986451": {
+      "productName": "늘푸른 무인쇄 종이컵 180ml, 10개, 500개입",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-19 11:03 KST",
+          "price": 159400,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96120671506",
+      "priceCount": 1,
+      "avgPrice": 159400,
+      "minPrice": 159400,
+      "maxPrice": 159400,
+      "lastPrice": 159400,
+      "lastAt": "2026-11-19 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-19",
+          159400,
+          159400,
+          159400,
+          159400,
           1
         ]
       ],

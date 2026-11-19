@@ -986,6 +986,23 @@ TARGETS = [
     {"label": "워너빈 로부스타",        "category": "원두",        "query": "워너빈 로부스타",        "bases": ["100g"], "wave": 46},
     {"label": "비정제 사탕수수 원당",    "category": "당류·토핑",   "query": "비정제 사탕수수 원당",    "bases": ["100g"], "wave": 46},
 
+    # ── wave 47 (2026-11-19 11시 정기 갱신) ────────────────────────────────────
+    # 07시 회차 결론: 브랜드 키워드(`사조동아원 맥선 박력분` 등)로 3/8만 재관측. 실패 5개의 원인은
+    # ① 로켓 모수에서 빠짐 ② 응답 제목에 규격(용량·개수)이 없어 단가를 못 냄 이었습니다.
+    # 그래서 이번에는 **규격까지 붙인 키워드**로 다시 조회합니다(규격이 제목에 있는 판매 페이지를 겨냥).
+    # 대상 5개 = 11-19 07:03 시점에 오늘 아직 재관측되지 않은 카테고리 최저가 행.
+    #   베이킹 재료 109원/100g 사조동아원 20kg(로켓 여부 확인) · 크림·연유 462원/100ml 서강 라미스 1L×2(규격·가격 확인)
+    #   우유·대체유 172원/100ml 삼육두유 바리스타 950ml×12 · 시럽·소스 645원/100ml 후버 레몬즙 1L×2 · 원두 1,565원/100g 워너빈 로부스타 G1 1kg×4
+    # 나머지 3개 = 11-18 13:52~15:55 이후 관측이 끊긴 최저가 행(파우더·컵·뚜껑·매장소모품).
+    {"label": "사조동아원 박력분 20kg",   "category": "베이킹 재료", "query": "사조동아원 박력분 20kg",   "bases": ["100g"], "wave": 47},
+    {"label": "서강 라미스 휘핑크림 1L 2개", "category": "크림·연유", "query": "서강 라미스 휘핑크림 1L 2개", "bases": ["100ml", "100g"], "wave": 47},
+    {"label": "삼육두유 바리스타 950ml",  "category": "우유·대체유", "query": "삼육두유 바리스타 950ml",  "bases": ["100ml"], "wave": 47},
+    {"label": "후버 레몬즙 1L",         "category": "시럽·소스",   "query": "후버 레몬즙 1L",         "bases": ["100ml"], "wave": 47},
+    {"label": "워너빈 로부스타 G1 1kg",  "category": "원두",        "query": "워너빈 로부스타 G1 1kg",  "bases": ["100g"], "wave": 47},
+    {"label": "성진 인절미 콩가루 2kg",   "category": "파우더",      "query": "성진 인절미 콩가루 2kg",   "bases": ["100g"], "wave": 47},
+    {"label": "아이팩피앤디 무인쇄 종이컵 180ml", "category": "컵·뚜껑", "query": "아이팩피앤디 무인쇄 종이컵 180ml", "bases": ["개당"], "wave": 47},
+    {"label": "업소용 테이블 냅킨 10000매", "category": "매장소모품", "query": "업소용 테이블 냅킨 10000매", "bases": ["개당"], "wave": 47},
+
 ]
 
 BANNER_NOTICE = "쿠팡 API 연동 대기 중 (2026-11-16 00:00 이후 자동 업데이트 예정)"
@@ -1837,6 +1854,16 @@ def load_previous() -> dict:
 SKIPPED_OPTION_IDS: set[str] = set()
 
 
+def name_signature(name: str) -> tuple:
+    """상품명 비교용 서명 — 쉼표로 나뉜 규격 토큰을 정렬해 묶습니다.
+
+    2026-11-19 11시 회차: `성진 인절미 콩가루` 가 같은 페이지에서 `2kg, 1개`(기존)와
+    `1개, 2kg`(새 pageKey) 로 토큰 순서만 바뀌어 와 중복으로 실렸습니다. 토큰 집합이 같으면
+    같은 규격으로 보고 중복으로 처리합니다.
+    """
+    return tuple(sorted(p.strip() for p in str(name or "").split(",") if p.strip()))
+
+
 def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     """productId 기준 중복 제거 병합. 새 수집 결과가 같은 상품이면 최신 값으로 갱신한다.
 
@@ -1850,6 +1877,7 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
     # pageKey 293207724 · 1555608082 두 페이지로 함께 와서 같은 상품이 두 번 실렸습니다.
     # 상품명과 가격이 모두 같으면 같은 상품으로 보고 먼저 들어온 것만 남깁니다(가격 이력도 남기지 않음).
     seen_name_price: dict[tuple[str, object], str] = {}
+    seen_name_sig: dict[tuple[tuple, object], str] = {}
     for d in previous:
         if is_excluded(d.get("productName", "")) or not passes_listing_filter(d):
             continue
@@ -1861,12 +1889,14 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         if not pid:
             continue
         key = (d.get("productName", ""), d.get("productPrice"))
-        if key in seen_name_price:
+        sig = (name_signature(d.get("productName", "")), d.get("productPrice"))
+        if key in seen_name_price or sig in seen_name_sig:
             print(f"[skip] 같은 상품의 중복 판매 페이지(productId {pid}) — 기존 상품 유지: "
                   f"{(d.get('productName') or '')[:48]}")
             SKIPPED_OPTION_IDS.add(pid)
             continue
         seen_name_price[key] = pid
+        seen_name_sig.setdefault(sig, pid)
         if pid not in merged:
             order.append(pid)
         merged[pid] = d
@@ -1887,12 +1917,15 @@ def merge_deals(previous: list[dict], fresh: list[dict]) -> list[dict]:
         prev_cat = merged[pid].get("category") if pid in merged else None
         d["category"] = forced or prev_cat or d.get("category", "")
         key = (d.get("productName", ""), d.get("productPrice"))
-        if pid not in merged and key in seen_name_price:
-            print(f"[skip] 같은 상품의 중복 판매 페이지(productId {pid}) — 다른 페이지 {seen_name_price[key]} 유지: "
+        sig = (name_signature(d.get("productName", "")), d.get("productPrice"))
+        if pid not in merged and (key in seen_name_price or sig in seen_name_sig):
+            print(f"[skip] 같은 상품의 중복 판매 페이지(productId {pid}) — 다른 페이지 "
+                  f"{seen_name_price.get(key) or seen_name_sig.get(sig)} 유지: "
                   f"{(d.get('productName') or '')[:48]}")
             SKIPPED_OPTION_IDS.add(pid)
             continue
         seen_name_price.setdefault(key, pid)
+        seen_name_sig.setdefault(sig, pid)
         if pid not in merged:
             order.append(pid)
         merged[pid] = d
