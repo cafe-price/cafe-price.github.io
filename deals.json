@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-19 15:07 KST",
-  "statsAt": "2026-11-19 15:07 KST",
+  "updatedAt": "2026-11-19 20:04 KST",
+  "statsAt": "2026-11-19 20:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -8808,21 +8808,21 @@
       "vendorItemId": "77244524635",
       "productName": "서강 라미스 휘핑크림, 1L, 2개",
       "productPrice": 9230,
-      "productImage": "https://ads-partners.coupang.com/image1/YnHZ0sbnqRLSaJ_oYtGl8PLsxfGYDARgZ5oczdfqPwz-PHIPmKZfvOTY1esx9eoaeDAcOSntxfhxv82Bdwp2_N2_N5ssPFRMDer65HcVIstpbjeOEmebeG2u9WV-zizBms9NqBZ9oxCY4deWRisap2HcYLnLu1oNatwXkRJGx51kUZEL73tGi3yOzgTXyN5MO4fKLZzjZC92JNe4A0aP_zxdBggz6X8hnVWXc6wJwdDLdljsHaFFCBr0SxuLO82Js_ga6NAqBd2p-2hOvWEmU6Xb3pFLEKf4ScVa2TVeq5KQxmYrbDHdVh3a7DMdDPitSgRPAGZ05HEJP64xln8oROiCr_j0y9lyha6mes7w7nPLsX5ohEHqZmDxNOjM_Ke3dkF35tCKTFVhO6J5YIyRdcfv1Xoi0Fy7gi8asVDQDlLRsfbJtJCtPdHGLURXsLfAeWxujkJBQR33xyu4gPy-nk8qjaan-q59xvFBg9TtDOIMOHOq1BDqouTOvtSwrZvzbK3WNCWwZ-X_GanokZjhh_1aFHl7n74T9n0fw5Enxe_bMMdQwEZfAi9Qivho8e2OBygb",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=8907d8e0-e22b-11f1-ac57-95767b2123d3%7E3&requestid=20261117110643516088811295&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/PpzjUBlxMj1nTOC4PgKjBNbhxV8nqpRiyo4i_p217UXq9IP4fXv-acqoAwODJYPbZ_J6xdU6qBrrOj_eAbgNc5-C1iVbhIyTmTVHSVqRemUi85Qk5E-avOWG6uZOwRKvIx74wJAmQogrM7TzX7tvfPWZ7kwLelQXiCnhZJT9Z1hZqf4bkJRXZONZhNH9vc-c7sYtWNiYPjOp4Mn4CJOUHMi9eUXyAQHK2mXw95AVNTwdwZAcssa6XbAeac-3S57uuSkDTijO06bA1vOldt_ExMSbJeKIxC4p3lDocfHtj6i2tZcnIcsndOMpp9RxMWPhSqjv3h1UmjjF8vob33z59GhiEgV-sJEIKOugqPmG28Wz7mLHa_WXTsJ0eAXi6ZhXvd1WconyMdw7p2urYqAXVWK53LzySRJk6vEONnG4RYStTCek7VePlALcgimC-jmLUim_s6MVmfwKSb-DAm2NgvBIQ-c3WTPYrKAba8ugWZtX6EDpKsBIIxjQO6qUeg8-fgVK7QwtIw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5803499574&itemId=9961390914&vendorItemId=77244524635&traceid=V0-153-f092caec55dfbd2c&clickBeacon=ea26aaf0-e408-11f1-bb98-7f7b9f2d9454%7E3&requestid=20261119200356399104915285&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "생크림 1kg",
+      "query": "서강 라미스 휘핑크림 1000ml",
       "unitPrice": 462,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 9230,
       "minPrice": 9230,
       "maxPrice": 9230,
-      "priceCount": 8,
+      "priceCount": 9,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8839,6 +8839,14 @@
           9230,
           9230,
           5
+        ],
+        [
+          "2026-11-19",
+          9230,
+          9230,
+          9230,
+          9230,
+          1
         ]
       ],
       "priceHistory": [
@@ -8873,6 +8881,10 @@
         [
           "2026-11-17 11:06 KST",
           9230
+        ],
+        [
+          "2026-11-19 20:04 KST",
+          9230
         ]
       ]
     },
@@ -8881,19 +8893,19 @@
       "vendorItemId": "84734652331",
       "productName": "누티푸드 크리머 스위텐드 연유 시럽, 385g, 24개",
       "productPrice": 46860,
-      "productImage": "https://ads-partners.coupang.com/image1/uBjxqs2GwfdN5sT4uCBbKted_qI3SqjT_YuiwT9DtQUPmefLZ01TJez_09WG-MbI4xzf7Xjcnlg3ttVYRtwIVJO_33ehwDORAoFvnOOBtVXgplcR4kcxGLtm48wV3F1MWO1FOzyoU5sfGm7-DmT6_sJt1cxhRXGIgukQ6mik_QuvH7DX343qxIgozqFzNeoiFWeYsm_BwGX551ZtK-ganliomMcwmu8dMCR11YSXvAFJpWVsYdfminVavikm2C0_Qjme77lRfdOZkHJrHZ1Emnbnt0N3pa6z1CcvjTlXZ2kNZGpIAjtk_-GC3nx_c99z_jmxZ7OP4WFHVry-nEJGYPi43Wn86xD5RDV3vPaZ_03MNmty8_wJV2xp-21JLHpOsDU2JVsHlP1FTl6kyOeLvrD1mHNE-H2Qtxy7KOeQIkq7XzEKzrmZJvoGtm1xc-TkPRhOAtv7PnTAPaupE2Cx2NK5O7hfkwMq5E8PU_fin1G6nCCsO1n6gGIeNlIuzbwU71jmkLtHEr_6F5PFFvwyzXBGQ1dYHRHDrJV-ydb9D-8dYlq3nbi5jPgeZkkmMIwnl7WB4A==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=56f3b3a0-e3df-11f1-a7c1-6508cee0f46e%7E3&requestid=20261119150620071287639725&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/VbgJJTaqmww48sToVdykY2zweeR0GEAq_pxFNX5w0cDctpoWCEA0DWQ3JEQev3JXrrHVC3I1GDXML-jZ9LbRleEQv0csdtsiAs7ivHPYChrFQrOdWmk1MEjDVvs9swqGNMDR4U4ENej-Fq8kD0dkFBz8OxiiyGDW9OX1IXcssH4h5W4MlNDWIbE2IpF1J5nNFDGrVMya7c3VuGFFKwbeTHNv0eiQrtLITJYo4aLf6PlX3Ct6We2kpt48BRg0me5fLuzfzg48M8gUApXbBj9MHzgdlKpmk8mAdyPxmxGNAq69QsGqFIMeTYkIBn7q59x1ggDBNyzyLquD98aZS2JkMF4G0bXYO2eNFCq63uVCmC4jGLpX0wR_2zoXQ-vkZU5rLAJuruUAnUYGbO7KHmYk-uDDJLuIko2sqHURugxi2L_XCbJWE7xhSXXXtfsQ92t_mrFGd2AqB7LqiR__aVQhxnvbM6zkQ9iK-A6g0yQGGcM3GTZvMX6Z-RnvQ9jcoxms8ul4rqjJNBi2jPTzu-YLpyyHFAflU2fIxWW3OHXLssHo2ShfVTLXg3tAmvV2AmdhKUEfrr1SSK7P9EP_U1F6MeFGICnTtfvikZ15DNkAWiN44egZL0QQB4UgesHWnSU=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=e523dc80-e408-11f1-85d7-818c58d4846c%7E3&requestid=20261119200347982276926613&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "누티푸드 스위텐드 385g 24개",
+      "query": "누티푸드 스위텐드 385g",
       "unitPrice": 507,
       "unitBasis": "100g당",
       "packNote": "385g×24",
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 4,
       "dailyHistory": [
@@ -8927,7 +8939,7 @@
           46860,
           46860,
           46860,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -8945,6 +8957,10 @@
         ],
         [
           "2026-11-19 15:07 KST",
+          46860
+        ],
+        [
+          "2026-11-19 20:04 KST",
           46860
         ]
       ]
