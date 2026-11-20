@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 07:03 KST",
+  "updatedAt": "2026-11-20 11:03 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -6008,14 +6008,19 @@
           "at": "2026-11-18 08:45 KST",
           "price": 8800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 8800,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 8800,
       "minPrice": 8800,
       "maxPrice": 8800,
       "lastPrice": 8800,
-      "lastAt": "2026-11-18 08:45 KST",
+      "lastAt": "2026-11-20 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6032,9 +6037,17 @@
           8800,
           8800,
           2
+        ],
+        [
+          "2026-11-20",
+          8800,
+          8800,
+          8800,
+          8800,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "95276209255"
     },
     "4884130139": {
@@ -7063,14 +7076,19 @@
           "at": "2026-11-19 11:03 KST",
           "price": 22500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 22500,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 22500,
       "minPrice": 22500,
       "maxPrice": 22500,
       "lastPrice": 22500,
-      "lastAt": "2026-11-19 11:03 KST",
+      "lastAt": "2026-11-20 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7095,9 +7113,17 @@
           22500,
           22500,
           1
+        ],
+        [
+          "2026-11-20",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "94332604246"
     },
     "8556420005": {
@@ -9294,14 +9320,19 @@
           "at": "2026-11-18 03:02 KST",
           "price": 7430,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 7430,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 7430,
       "minPrice": 7430,
       "maxPrice": 7430,
       "lastPrice": 7430,
-      "lastAt": "2026-11-18 03:02 KST",
+      "lastAt": "2026-11-20 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9326,9 +9357,17 @@
           7430,
           7430,
           1
+        ],
+        [
+          "2026-11-20",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "95941971731"
     },
     "8244145059": {
@@ -9719,14 +9758,19 @@
           "at": "2026-11-17 05:17 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-17 05:17 KST",
+      "lastAt": "2026-11-20 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9743,9 +9787,17 @@
           17900,
           17900,
           1
+        ],
+        [
+          "2026-11-20",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "94994309969"
     },
     "9430223475": {
@@ -9766,14 +9818,19 @@
           "at": "2026-11-17 19:53 KST",
           "price": 17900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 17900,
+          "source": "수집 결과"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
       "lastPrice": 17900,
-      "lastAt": "2026-11-17 19:53 KST",
+      "lastAt": "2026-11-20 11:03 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9790,9 +9847,17 @@
           17900,
           17900,
           1
+        ],
+        [
+          "2026-11-20",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "94994311565"
     },
     "9063854435": {
@@ -20361,7 +20426,7 @@
     },
     "8692715829": {
       "productName": "우리밀 국산 백밀가루 다용도, 1kg, 2개",
-      "category": "크림·연유",
+      "category": "베이킹 재료",
       "observations": [
         {
           "at": "2026-11-20 07:03 KST",
@@ -20390,7 +20455,7 @@
     },
     "9273627574": {
       "productName": "카무트 브랜드 밀 100%, 2kg, 2개",
-      "category": "크림·연유",
+      "category": "베이킹 재료",
       "observations": [
         {
           "at": "2026-11-20 07:03 KST",
@@ -20499,6 +20564,238 @@
           180000,
           180000,
           180000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9775129773": {
+      "productName": "위크위크 화려한 에티오피아 코케허니 원두 커피, 홀빈(분쇄안함), 1개, 1kg",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 36500,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96179325664",
+      "priceCount": 1,
+      "avgPrice": 36500,
+      "minPrice": 36500,
+      "maxPrice": 36500,
+      "lastPrice": 36500,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          36500,
+          36500,
+          36500,
+          36500,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9561213281": {
+      "productName": "소이로커피공장 베트남 로부스타 G1 산미없는 원두커피 콩 고소한, 1kg, 1개, 홀빈(분쇄안함)",
+      "category": "원두",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 23000,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95455335054",
+      "priceCount": 1,
+      "avgPrice": 23000,
+      "minPrice": 23000,
+      "maxPrice": 23000,
+      "lastPrice": 23000,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          23000,
+          23000,
+          23000,
+          23000,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "7000889945": {
+      "productName": "네이쳐티 초코 파우더, 800g, 3개, 1개입",
+      "category": "시럽·소스",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 29460,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94269437357",
+      "priceCount": 1,
+      "avgPrice": 29460,
+      "minPrice": 29460,
+      "maxPrice": 29460,
+      "lastPrice": 29460,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          29460,
+          29460,
+          29460,
+          29460,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9245948075": {
+      "productName": "네이쳐티 패션후르츠에이드 베이스, 1.2kg, 3개",
+      "category": "과일·베이스",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 79200,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "94276661272",
+      "priceCount": 1,
+      "avgPrice": 79200,
+      "minPrice": 79200,
+      "maxPrice": 79200,
+      "lastPrice": 79200,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          79200,
+          79200,
+          79200,
+          79200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8582791644": {
+      "productName": "대한다업 유기농 보성녹차, 1.2g, 100개입, 2개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 17280,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "91892386300",
+      "priceCount": 1,
+      "avgPrice": 17280,
+      "minPrice": 17280,
+      "maxPrice": 17280,
+      "lastPrice": 17280,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          17280,
+          17280,
+          17280,
+          17280,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8938657592": {
+      "productName": "대한다업 유기농 보성말차, 100g, 1개입, 10개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 186900,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "96243079607",
+      "priceCount": 1,
+      "avgPrice": 186900,
+      "minPrice": 186900,
+      "maxPrice": 186900,
+      "lastPrice": 186900,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          186900,
+          186900,
+          186900,
+          186900,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "8814751901": {
+      "productName": "대한다업 유기농 보성녹차, 1.2g, 100개입, 5개",
+      "category": "티·탄산수",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 43200,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "92672137483",
+      "priceCount": 1,
+      "avgPrice": 43200,
+      "minPrice": 43200,
+      "maxPrice": 43200,
+      "lastPrice": 43200,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          43200,
+          43200,
+          43200,
+          43200,
+          1
+        ]
+      ],
+      "uniqueDays": 1
+    },
+    "9593766978": {
+      "productName": "아이팩피앤디 107파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 500개입, 돔 뚜껑",
+      "category": "컵·뚜껑",
+      "observations": [
+        {
+          "at": "2026-11-20 11:03 KST",
+          "price": 18370,
+          "source": "수집 결과"
+        }
+      ],
+      "vendorItemId": "95582067130",
+      "priceCount": 1,
+      "avgPrice": 18370,
+      "minPrice": 18370,
+      "maxPrice": 18370,
+      "lastPrice": 18370,
+      "lastAt": "2026-11-20 11:03 KST",
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          18370,
+          18370,
+          18370,
+          18370,
           1
         ]
       ],
