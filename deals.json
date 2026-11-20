@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-20 11:03 KST",
-  "statsAt": "2026-11-20 11:03 KST",
+  "updatedAt": "2026-11-20 15:05 KST",
+  "statsAt": "2026-11-20 15:06 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,10 +18,10 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 430,
+  "count": 432,
   "priceStats": {
-    "products": 595,
-    "discounts": 7
+    "products": 597,
+    "discounts": 8
   },
   "deals": [
     {
@@ -931,24 +931,32 @@
       "vendorItemId": "96113560990",
       "productName": "에이투밀크 멸균우유, 1L, 10개",
       "productPrice": 51000,
-      "productImage": "https://ads-partners.coupang.com/image1/f5tm4e67n7PVNc2dfz81YSe0YyWwTmM5XI2XItpk9oeq9462zS6If3yk9vIXW7ZqPxyiHcVqeiF2KDmAD0N7cvSkedxlG262sLAI8NFmh-aIjCEKVGHYlzzDWjxeanll8lv95Ym_bW5MqyjTEtH7nSbcrHkAXx9uffuSY3LEdovA0mJaxZCqe24ddzUW9j9kISdlO8OP-rXewBX9o4vjHEguAns0E0Q5Rnx44ygXuGxTi26Ys5wKU7wr6JosvsIqr2I9qviKL4dJJzMZOlLICr0fV0HwZiB3UP-96PmKKyUB50aRIx7cBB8l2bFDy9xtdt6sOcpBfBLDLy2iw8PMgai21qs71vgyUjT-hP3QRxM_n6A-qaX0Ymuumn2m35yv4FHRmeHekYbgdUabfPxz5b8f-XjcseazBzmAP82EnlfiCt0JwM8WaWIIZcMc2sNi6MVsiGbdcx-KiqGheYX3PS_DmZ08YO8eka7ZgS5rgAy1ShX_wlbhl4ILTxyKU1wtN5JbNcIOijsVLdGoJ4yp8wjxymXSN7XuyoIIMI6pIKf-rFj8tu1NYecSTopQmRZz6PphNnrzO-4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7685466256&itemId=29192788394&vendorItemId=96113560990&traceid=V0-153-34eba6702acc1a87&clickBeacon=0e773360-e275-11f1-8b8d-ec87f1df8d06%7E3&requestid=20261117195300577034679542&token=31850C%7CMIXED&pt=1&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/QL4wjsRDGnmruuZuQEweysTyCkp2aWVsY0_-FSh3CGJ_80N30iG-os32__IpDcpYvXTD-iwYNkp1weugxGXnI0re37lK5rUNson21-V-1YOIQ08Mw8oCjWQvNeH8T2ZNx5atkeEwtegajRCDCFzWShusMhxGHSG00Bl9u10tJJ73b8oZ2oahjWw291O7aDEKTapkyPG7_88g9k-sN53urDiTT2t9sv6zzjxuE9LRPdjnWUHdNldYLr8aaD6MMRRxfaZE2r9axyyIj_SpBYba60-i9vjXM163XrtegHBytbthyuYkwan0nf2Kh4nrLoePUlfLP1n7gnk0Q-Gndt-hCGNLV2lX6LU138I4rjQOSEMu5FjlQbSYrfcPfhtM-F54omJh_AuIHvb21X9rKTwNyUt1YIR_ukkeEgynGx8nFNUUb9AK5kezWAUBkOI0sSD2AmKErT4DkkgCAWNLywUVdDl0iC3NkNcqFAXsPU_r9H3AQ8BRwNQQQ0jrigZ3DMUyjlyJjUlK3CWak8BV",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7685466256&itemId=29192788394&vendorItemId=96113560990&traceid=V0-153-34eba6702acc1a87&clickBeacon=6099d910-e4a8-11f1-b37c-0c3be198a7b4%7E3&requestid=20261120150525094046367034&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
-      "query": "저지방 우유 1L",
+      "query": "서울우유 멸균 흰우유 1L 10개",
       "unitPrice": 510,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×10",
       "avgPrice": 51000,
       "minPrice": 51000,
       "maxPrice": 51000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          51000,
+          51000,
+          51000,
+          51000,
+          1
+        ],
+        [
+          "2026-11-20",
           51000,
           51000,
           51000,
@@ -959,6 +967,10 @@
       "priceHistory": [
         [
           "2026-11-17 19:53 KST",
+          51000
+        ],
+        [
+          "2026-11-20 15:05 KST",
           51000
         ]
       ]
@@ -3218,22 +3230,22 @@
       "productId": "8089929761",
       "vendorItemId": "95460129404",
       "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
-      "productPrice": 17290,
-      "productImage": "https://ads-partners.coupang.com/image1/CfkM1KGn-tNvDBIXCTCRb1dhF1_UDMBD2FUiiKlRY-qgBs0_m4pgSm2K_Lc4ZD8vyp3FO0ZY7kDXCyMJg-_yMyTkDYHvVnhONhRdDY3QJY9BT5XsT8TWc4wdi8oFL4NOMKkMoqDWkgzGODxnIo3qc1cmHom-kC0pG01uTFmktElw8OxHlZZPD0Qu_mbLwwZoR5yj-brrifF8MUaocXPXfv1JGWG4BCjmb5uiBs6RMWvdGK4gvV_hV3dcqJ2z9iP9OJzsIjdf12TwFYkBitqVY8H6uyRe4aPAULSF0WjuAyvQN3bnyKQKgmePIMTHH28GDMbF6kROoxbrxE9yvssiNhtYgkjhLkD2WO7lDpDRUQHYXPfwxFKjsjIi4UwqHrOPtQNvhE-CV91jBDMaT-PTPl8d0TIx7poFg2W-8tNpLX8R4QxKuHmRXsMzwcy3LvuOJKSYpj2gpEfblf4624uYaA5EuespqYzAT3bL2JNk0VYD4EhbWjyKdCtlCLAtTgkd",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8089929761&itemId=28511109761&vendorItemId=95460129404&traceid=V0-153-a9ac8d09548bb61f&clickBeacon=fa2b9540-e274-11f1-9555-28cecb399ed1%7E3&requestid=20261117195226582206501323&token=31850C%7CMIXED&pt=1&slot=2",
+      "productPrice": 16960,
+      "productImage": "https://ads-partners.coupang.com/image1/6XqPdQ8PMxkMjmDY6VPPAPrz_wleU1VX7-bygNcJG0srCva4pjUMJrTOSTd0beK1z__sJY5dR5d21TL0THron_mO3YqzAqp7oRGX0y25wKAVY94FTCF2xYID28rg1I6eLgNT2ZDcRXewhcSefLJeFWZdJUPlaoCfvDEa3rEuPghEkmidn3UN-OfHVBmflAHINFMqR0nZHBsstc9smfLUVF5pNoWL54MsRLTzcE8xzMrMSstQY1HTRUYgDtoFATdFzAenFJi6_VdGu4m-rLI-z1KWHQt1YZtZwAX5Jx6ELkwXLQmJPhLHff5EGuhg6TjWYJWtiWxtGJJavCny0vT50Bp2eiE1VxUCkp8FP7tKaoIqyKiIzJKdQIwp4ODhIkOABJr7rPKuKuuzuDSVNWU7wYksMJ2W-3LtQLPcsq2zt_U-6APNiC1JJBTFv8IG6ia2oYKxRnivk8Eu5kV93XAAqQD3qriua1GD8uX9AB7OCiD35AjSugrSgYbTWKMv4eX0",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8089929761&itemId=28511109761&vendorItemId=95460129404&traceid=V0-153-a9ac8d09548bb61f&clickBeacon=569c5280-e4a8-11f1-b27e-005cff7e078c%7E3&requestid=20261120150508280238286583&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "카라멜 파우더 1kg",
-      "unitPrice": 864,
+      "query": "네이쳐티 딥카라멜 시럽 2kg 1개",
+      "unitPrice": 848,
       "unitBasis": "100g당",
       "packNote": "2,000g",
-      "avgPrice": 17210,
-      "minPrice": 17130,
+      "avgPrice": 17127,
+      "minPrice": 16960,
       "maxPrice": 17290,
-      "priceCount": 2,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "priceCount": 3,
+      "discountRate": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -3242,6 +3254,14 @@
           17210,
           17290,
           2
+        ],
+        [
+          "2026-11-20",
+          16960,
+          16960,
+          16960,
+          16960,
+          1
         ]
       ],
       "priceHistory": [
@@ -3252,6 +3272,10 @@
         [
           "2026-11-17 19:53 KST",
           17290
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          16960
         ]
       ]
     },
@@ -3592,6 +3616,43 @@
       ]
     },
     {
+      "productId": "7801790104",
+      "vendorItemId": "95739459621",
+      "productName": "커필드 카라멜 소스, 1개, 1.8kg",
+      "productPrice": 19000,
+      "productImage": "https://ads-partners.coupang.com/image1/isvgJcAEin8qx52EinhI5Sm7bBkWn5Kv5KGy1vFNAXBFF1zzH8kmAjfhe0HwGPM1m5Se_-XnAUQO9PpucJeKYRHUJH5KkOczK58HfQ5-jS1OcdZ_OCNsE4mhFQGH58n7k0VXQJcbZ9uLENyIfYNWJN1uA6WR7uD_pC4zhTzx_-FPg6A07E526PisXK5QjoQg1ZmwDqDUCmfczD1cXUFZ-rFCowYuKhdUkdOvb8QTr-HAw1nin0b3TSdYaz8KaJIxF6X8rPoYh3oSJIqQGR7Lm4G2pSjFWpjSE96onrufF-DLj5JTUYZbpM5yDRmrJP25EhQmtuRQLt79PRFiDnWLVx_S-e_h85PcUe2pik1877naFPMd9zqP-O2YT26MxlrOwWdgibNCyKI91TVcvA2-OF018LBuYslsPc3au64vWfo0GIpHH7E-7_PozmqJqjx6AJ4eE_gbt7jY61b1nEvmOGFxim7W8BnbF46XGMyFY2TX1vwSAEmyIU6KZHQ0VKT9jOjz1fAgr7z5sLt8rLJWWB_2ynfkvdU4A8cmOCrrZiumZbp6Lv7cZH8BMlTsSGxAKWpPS_3WzRc1eG6mt1kT47q1HA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7801790104&itemId=21131521843&vendorItemId=95739459621&traceid=V0-153-92950fae94801946&clickBeacon=4293b0d0-e4a8-11f1-8d08-072478a00957%7E3&requestid=20261120150434707189353496&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "누티푸드 크리머 스위텐드 385g 1개",
+      "unitPrice": 1056,
+      "unitBasis": "100g당",
+      "packNote": "1,800g",
+      "avgPrice": 19000,
+      "minPrice": 19000,
+      "maxPrice": 19000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          19000,
+          19000,
+          19000,
+          19000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 15:05 KST",
+          19000
+        ]
+      ]
+    },
+    {
       "productId": "9048041028",
       "vendorItemId": "93613740682",
       "productName": "피에몬테 100% NFC착즙 유기농 대용량 레몬즙, 500ml, 2개",
@@ -3694,24 +3755,32 @@
       "vendorItemId": "96121812658",
       "productName": "네이쳐티 zero 카라멜 시럽, 10개, 1L",
       "productPrice": 119380,
-      "productImage": "https://ads-partners.coupang.com/image1/hRqm1irhKMGuvtIuhWFv7DVxJh7slHAKa3mnAIhM21WraCfif6KbE047e34SWwsHCvA9LwXOkOr1lNcXl1LDm_eJbXu9qN9U_aFYO6T7HOzWzVK2T7sp-dzYa-oO2liay1pxstt0kOFEVcSsQeoR-jMu_gAjMpoIeTbU-wJJuLnJFeNYMqq0j1L58RLfwnE3dzhkPvfrEFqpXckYJ7br5uENfC8AX4tEmyB0XCdRCb95V9dYW2BPZxOV6FngsGqTHEPLGliBr9tp01x9QYDwNno3jXikU-6J0eBSaISiwWtvYlz7dAqiLyHzH9uL2oOJp4F3wBjs0ZxATI3QAoo7-pmmho9jGzbsfBmOSqRy8qDryOsk7BtRDUhZjtKaEuhcuafPBxHAcEzsmA-11bYEJHFoctvwjBf3wJOH3H2SPNrBRxEUSm0__z9CyU2XOryJen__HAsfVQAH5EKwa_8b52XF9mxaS7LnzGPmhQXADOCeZzLB_fSKtpR1VYKC9KuRfUjrkdjpZglTOnwOUw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8053929657&itemId=29201481543&vendorItemId=96121812658&traceid=V0-153-24b6cddac110aa56&clickBeacon=b32b3830-e1cf-11f1-94d5-6062cabbcf11%7E3&requestid=20261117000920439284281405&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/gYotCMBI4399dn4WgYqVQx_WCaGHnBkSIlbvW0rEND8G_lialqQk99FtYAzrkcEQ-CGka2H7ccuHZFd-Ww2QkfUnL6NvfZVfU9aCWpRbxQmcOAq6TOIO00A8k2dyrZWMBSPKG26g7kLyk7VNQAmtHl8Fr8lv_3sJxVdyGi0BfMhQ6iowauoL2SZq77AGyS_UqGqtB1lrGi_vqp6ZpmCmlYSc9ez8qvpH5hNmsSZFIrzZXK1Zemzg4te0JySyIX8zTJ9lO_KYKfmY6tS87TumiDTBwYAZEAmhF8sfz_E_fyzVo7Wn6YimLjF27GsSqhpwWc_i6n7inrnSZ7YC7vMAgDtZbuaoYzvvQalEUiA7BevL07G39kKbwB62PSQegxKUNPPV--OAcO4hqfufRMrdnxEyCNVRd4AkI_wDhbCJH6gSJBDXF4yezHVrgmF3AmU2OHJyvh5lpLUjjT2WESRdErOntqMhGDUFpMNf5IIIUY62JyYEbAT2WTOzaC4WpR2jbTKlyw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8053929657&itemId=29201481543&vendorItemId=96121812658&traceid=V0-153-24b6cddac110aa56&clickBeacon=569c7990-e4a8-11f1-962e-e999f92e24bd%7E3&requestid=20261120150508280238286583&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "카라멜 시럽 1L",
+      "query": "네이쳐티 딥카라멜 시럽 2kg 1개",
       "unitPrice": 1194,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×10",
       "avgPrice": 119380,
       "minPrice": 119380,
       "maxPrice": 119380,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          119380,
+          119380,
+          119380,
+          119380,
+          1
+        ],
+        [
+          "2026-11-20",
           119380,
           119380,
           119380,
@@ -3722,6 +3791,10 @@
       "priceHistory": [
         [
           "2026-11-17 00:10 KST",
+          119380
+        ],
+        [
+          "2026-11-20 15:05 KST",
           119380
         ]
       ]
@@ -4704,6 +4777,43 @@
       ]
     },
     {
+      "productId": "9312869448",
+      "vendorItemId": "96061274699",
+      "productName": "매드바닐라 리치 바닐라 시럽 홀빈, 1개, 300ml",
+      "productPrice": 15300,
+      "productImage": "https://ads-partners.coupang.com/image1/xNO5aqHPhqTcFFrtxBmKpdq4HyPp8F3XGkWfWCvodSzl-Fnfy8429WidHBaQnoIKb48Eyi6T8DxwTnHoadJRDupjZ9EdGui4t1zOUTMrH22OyfpuGs0OZPyj5uy2qroegP9vWvzt0mHEyNZfsPdHpJe3dD2S-vMBbnTJ2Ft5gGuDs60XBb60MXSX9aHnBKXrxxA31HAfdoTiMyC9IEZeX5uvgYWmyvXmN2ae38rcUG0-YiLjFQmJnLszd_7Gcf2PwgIqdEzLEcps8cz0v3XfZIoGjB1LnnQdi4OCJz1c8hT0e_wyILmhOWD0OOMz-_-wsxSuQh6GwX8L_kXOk_QzKHUoovyxacY3KDOQqZIzvCl9gxflC4TE2BAq6MpSH_AdsB1qs_HWqqna_YBAY2Cylv6w5sQZ7C1lWqzhEi_dZFpEd6bfy2IllYhjwxpnc1SIEF2V2Awtcx-RGJHwa0ZEScZV5UgBNuFK5cDUEsF4EAMrG23MIf43G58xpDSRpq55Hv_aGeEUF5KFhD8PhyXrGHSn6JTqxu-GTURgL02eTPa_tDjeudLFwEwQZ4fScsdK-xPCLA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9312869448&itemId=28484544838&vendorItemId=96061274699&traceid=V0-153-d8acbf18295597f7&clickBeacon=4293b0d0-e4a8-11f1-b9a0-13519cd7291a%7E3&requestid=20261120150434707189353496&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "누티푸드 크리머 스위텐드 385g 1개",
+      "unitPrice": 5100,
+      "unitBasis": "100ml당",
+      "packNote": "300ml",
+      "avgPrice": 15300,
+      "minPrice": 15300,
+      "maxPrice": 15300,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          15300,
+          15300,
+          15300,
+          15300,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 15:05 KST",
+          15300
+        ]
+      ]
+    },
+    {
       "productId": "7737704602",
       "vendorItemId": "72064620821",
       "productName": "매드바닐라 리얼 바닐라시럽 홀빈, 300ml, 1개",
@@ -5400,21 +5510,21 @@
       "vendorItemId": "3016961653",
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
       "productPrice": 14460,
-      "productImage": "https://ads-partners.coupang.com/image1/TPWnxfSXs_SM4mRbTDrGv6c8mYB6A3mnL_Z_FtxhNLpDkFs_xa6yTo1CtbKxeQvmBq1AqlSO09z9SH9Qe1n9azzcE_hC5q1W3shqS7d7vIxaIGZiOGGPSi0iQC3qNjY-YWQQ0EIbxGs1W2nCrePgzqdSm_yw9YnxVjkK6sxsETKh3XEW_x8KmHj6FRaI7ozaJ7pY3VhZMXRaaQFl7YJT061tDGwEt9Qi8jDrnbtleI_QTdyLPkkSDFjT2Gpgvp6wjbZPJyewWQoyvXKp4LsgJvlEYRzgo6GECorY3kdZsTpPDJGIfq5IDamxMVBnUZHHlHbWi42ZG5lSFPd_VThlTfbeTzyw67zdtJ-pF7KmMe-BSZOZFJomP0yKAlB0dy7_i1PN7nHnvwGMsK51NsYldRo_l1BhT2kOwEq1V0ebVEjgTotRZxAMTkDWW7L7kIGajD-Mw6VwRv3_TFlYhtJ18wd843GvBrAZWJBHt1ejUBPXjTTqKVkpW_rXGUZM4AhShtrSgbF_fY3DhJJ2_-gXr2NUtOdzpIXEo1SjPMB3QH4a0TFqQVq58YwMWDSd6rmPXA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=a00ffde0-e2fa-11f1-bff0-13cce4330019%7E3&requestid=20261118114907948125423742&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/oQlcLxqKR8q-V9O4oUITPWnhVuZDvyKjbiL3blFxfNupbwDKH-hqcVPHfBxrDHvfrBI8XWhjOquclcuJ6DjOoAAI-ZDNtlQae-Z7Khp4ZxOY5AmmmrFJ9cdW7X1sL64SQ1YwCmpGBDUDIgGYJr9ffpvg2FnUWdMHtz8s-KlvAwUowVB5kta8ciJvJ0qmNpPo3rhqLOW_FbbuIesTRC9f7q2lujE9ClpsePbNvTmxxCWbQ-8oj1vQpnKyIya2yF-nfFIHrBlBRVqHZ3ZUoCnxAxITz2VImRUv7p0djVX6xAl7UZfHphAcsMvKvZee8X2t1v6lFqVDuvICZ8_kikDMALViBA-Q8IylVx4JtaX6PLxgalyiKsr-kJWCxjxxl4whIAV5fDkf7BL2t9qAdpvH9UaDdaGkqkuz6-g9Du6Jn1IaKkWlIGlceow8oFMyLFMrRaTmYlm0B2l5sG9ApuMjhI6bJNrqqAhytxoLKY0G2Lw314j3g_RU6dboCGUFdfPzxOyYJs5MrvbqOTokJRgA9g6ZPEgZlxaGndO77a5BDbDy0T7zSpkW20aU3h8rm_TF",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=5b9d4c30-e4a8-11f1-9653-48ab5bfb7cf6%7E3&requestid=20261120150516697004322379&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "망고 라떼 파우더 1kg",
+      "query": "카일스 초콜릿 파우더 1kg 2개",
       "unitPrice": 1446,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5439,6 +5549,14 @@
           14460,
           14460,
           1
+        ],
+        [
+          "2026-11-20",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
       "priceHistory": [
@@ -5457,6 +5575,10 @@
         [
           "2026-11-18 11:49 KST",
           14460
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          14460
         ]
       ]
     },
@@ -5465,24 +5587,32 @@
       "vendorItemId": "3000186070",
       "productName": "카일스 바닐라 파우더, 1kg, 1개, 1개입",
       "productPrice": 14490,
-      "productImage": "https://ads-partners.coupang.com/image1/APXV4igmKic7tdtfAAeeM97DDicjP03i7AknfJbXAQjlhYVPPpDNC-pRCxO3bTtxvTtL4VhVtg134dsffDpckYjzh64nolsuIHrww0we0Yc6P4ZWKvVoagmw3uHJGxqQhToY9if473q7DjdnHJ-PVJqYdlF09I8ZhN3HqjC7Qf-GKsdxCW4qu1wLQ28Zw2TwQIxqsvy7AW9rXGB5BWqfGHPDXTDbMa4mBNcpqCKYuDDYbPepHcI_t_s_8QcK1QgX1Xn4hedzbS_qkUPK5lMBFMAgPFoCUFzNyaLQqSJWXcVOfIiGXXCt48Ep2WhXPGSayehiBmNppnuVa-hhQ_Gjrsgjwq9IqKLHO7KTy2sjT2pOKLemqc-FnOkODE9K2_99AtHkaYp1zzxc6wIMdYtgNB1jnwY60iBog92RsuskNYlikJqedESaYlyJeiKAhnjxRH092V0n6ip8L0c80YPKz3JUnRkvYqtbWllLx75Vpu3ntogHLgtKHT7yB1HCuNwSf6TDNNDemqk=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8243792497&itemId=11120435867&vendorItemId=3000186070&traceid=V0-153-79e9b71c3793e1b5&clickBeacon=15e37740-e1f2-11f1-bae5-05196643197a%7E3&requestid=20261117041529002038323089&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/su0flqOQ9eiKq0aIso6W08ffsaI-uulbGFi9YASNjB_s-CByr7mtmClq5jt9nmW610iFSfQZH6OMntfmsQttU9NqRy6yZagvR1GEucBV2oxt154sfiejTwkBrUo-TR95XhgdqQMJpvVxG6wFfnkudSd0rAEJCsYYW7gOqR5L3q4M_NWA5bmbFuKveTF-3g2DjRx-oyyRFvC0KI6y8dkHr_rZRE2FQ2zAbE8Iv8e3MvVVI0hufwvDEUG46Net0HJlAF-uteEZJuPVQjE8BBppTjvxbJ3vy5J7P1yjeFbm0TzIulpU0lSH8Va3YOc7EM_BrhXJSHqRXy83_RY2IsJNpIA7g7-mvJ6Kr0x8TLhjobgLBxYytXPUnrWrZSbGB14Fd3OQFXa61NzhAEdFDwVlZ2TXVbnKp1tGhKREldagEDpD1DFXdtwAhvElOQ7CSuv3iepAEjTBS5uYxUe7WHq-BdM6SeOl6fKypFbprgTA1rVQn81MEMmPDTe5BfePBtDnwgas2XRY8UjJJdaPX_cXFabJ6z3maiWMPt6iFFXS3zT7AGf-f0voAy78DaW2IyjxZ1ywlg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8243792497&itemId=11120435867&vendorItemId=3000186070&traceid=V0-153-79e9b71c3793e1b5&clickBeacon=5b9d4c30-e4a8-11f1-a294-5087c3ff0594%7E3&requestid=20261120150516697004322379&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "바닐라 파우더 1kg",
+      "query": "카일스 초콜릿 파우더 1kg 2개",
       "unitPrice": 1449,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
+        ],
+        [
+          "2026-11-20",
           14490,
           14490,
           14490,
@@ -5493,6 +5623,10 @@
       "priceHistory": [
         [
           "2026-11-17 04:15 KST",
+          14490
+        ],
+        [
+          "2026-11-20 15:05 KST",
           14490
         ]
       ]
@@ -7301,26 +7435,35 @@
     },
     {
       "productId": "7123864170",
+      "vendorItemId": "94324138887",
       "productName": "네이쳐티 넘치는 딸기 베이스, 1kg, 1개",
       "productPrice": 12000,
-      "productImage": "https://ads-partners.coupang.com/image1/AQw_qGRjBwAfHvaiAZoL3ZIgTjCwfRWZ3r1Uo8EBJjAT3-VM23yEFuVxY3CGz98G0zkbUsws51mHNCVq-QFKZZJDvlxuGDdwcS3jrSbqvGEOzOC6ds0yMifGQ4-5F4qULlyCyeHL4CtDp0z4M8roTzpSCZwtwNLSVnZNz2Gi6RqCRRHY5_CyXqb2I8JLsWOrdk87bFD5p0jHUzkF4TiopQZuTXSme9yoOMsc8-_7mXyQJbUP5in7SAHz07yR_eoFIq_sOY4SCe6Ju54e4sS8CuCSIilP3CA8YTqpVkOIqILknxnkeMd04fL8b8swIeWeLsr7gx6Ji3ZKOUlRlM-hV1AQfHgEiE1O8EjRzoqukSrgHV5d-k8AU_RBousm3NMpO2ndd5cA2yiZcDP7cHyZEIbHHuuxi0uCNQaXWUFEIKnEDk_vRXIyfjV_sNqOyQNvzQkdfci6p1fMhc1bsRFvvsltnnGMgdfvn0RvPvCBEw_hpacum31BSFqkyFLEQAI2H27Chp82Oasn4860Jm2HE2ALYbkkEl04dESrcpqxnQ-34i5_gem8hjSht5kc4ZtOjl-oig==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7123864170&itemId=17843599953&vendorItemId=94324138887&traceid=V0-153-143bd030f7100790&clickBeacon=fa3d7d60-e1b5-11f1-8d9e-286e1f84cf21%7E3&requestid=20261116210512799045252466&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/KBEAT9uk4O7t2sj9KHXafqwZ3_tFL0ySWGUIcrDaSBYRjbbcpY1wnLhXjvB1aF0tUZ2q6Rsu-fwpOD2sTFHp-mVatBijCa-zjGtBXJefl24kYughMhbadX_JZ_aSBmJbkA1uDIZi9KBHwGZDxAOKWrgdkQDiWfJ1MpMMh4-CuBVIY0e2Oc5tYlyGY79D12wZBvwtMyUBqj_dxgzoM6mH_w2qf0eEAOHqUhuiDlj0Ctutb8wN8WExlKU8qmdOdhxE6Y42DD_ijMRRsi9ogWTR8KV7-8N1qFPhGkO8OMzReTojYUmwOOcdg06M1D6dCsmSZOcwSd4aZLDr3pisXyfkHcU22-pAdGKtx_zKNAdb9ysYMHh8hBNSii0w-KH1U_cz9hizwjC0s9dhFwfsl68GiafGe7W3G_1npY2KnhEjyj9CMrM-OJS02Z8N_G4FP1PEw_GfL0sMgaoyrEILHdmNJj_va54dwV-DjlGBdIuIlcgnLQZ8nmiiu2-Vi9tlrqiB0AE_HVBkwU9mvdo_SOz3ru7Xq8xidOlfn0o9mEnTxRRl1Cx25l9yV0OBvS2-deLOkgPIZg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7123864170&itemId=17843599953&vendorItemId=94324138887&traceid=V0-153-143bd030f7100790&clickBeacon=518f9900-e4a8-11f1-9282-9e24af4f4f7e%7E3&requestid=20261120150459838086776391&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "딸기 파우더 1kg",
+      "query": "서울팩토리 리얼 딸기 베이스 1.2kg 1개",
       "unitPrice": 1200,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 12000,
       "minPrice": 12000,
       "maxPrice": 12000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          12000,
+          12000,
+          12000,
+          12000,
+          1
+        ],
+        [
+          "2026-11-20",
           12000,
           12000,
           12000,
@@ -7332,9 +7475,12 @@
         [
           "2026-11-16 21:06 KST",
           12000
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          12000
         ]
-      ],
-      "vendorItemId": "94324138887"
+      ]
     },
     {
       "productId": "7969070214",
@@ -7711,19 +7857,19 @@
       "vendorItemId": "96154949768",
       "productName": "비정제 사탕수수 원당 지퍼백, 3kg, 1개",
       "productPrice": 7500,
-      "productImage": "https://ads-partners.coupang.com/image1/Sq9qDpKDkUSG-GV3Sokw_g0_uCgTRf0LgiHrjemRpgarjha8WZqt9r-5BngLy8wQHDXJ5LLQLg3yzxLtNe6f0MhpiAQNRz6nglB7FiteIx-ggoNC2tI6t2lGMIwTa_ZO3mlDaF91cRH4z9CfnGOhIzxD465N7IZkIDkt1iG_RkCqxl_RmZIaUvCHASswgzdBF9ImUJSpa4nzTcaJb3YpSkQpa-OdvfD8CrTtWWGE4Xer_6Y6493TdSkNTWh1iaH8io-ywGLUpin-N1v_q0y_roRrw1OHHzlUqtUbQDIG5pjmc-m3zQDaYXcqOnurrhNtqHOwkk1zD5Cqjv324k9m11KgxF7CZwsDCswtd1wQvoxuiGLTYVGhbspoIqjvSjUox3GE74WYkPDNtLeUxKYPIx4a1i73sIv275V3GrbLId29zPW_QsqGmruWno-ajteD-W7HAgAcGhNaJqzR5PmrwBVWGAg4zs9e14h9GGcWmCJADMSxu5wAckCxJNH4j1ryFmFslyk2gVA=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9392190751&itemId=29236177604&vendorItemId=96154949768&traceid=V0-153-784d4e1034cacea7&clickBeacon=02169420-e465-11f1-a61f-d0ceb48f9fc6%7E3&requestid=20261120070310198044752336&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/r6gfO-TBkBqsHZF0r3cN9OSFS5WMR7o9_kZda4w5ynbzSz9vho_1B6U40ho3PIcRyyliHNQWVz78dtx594Pt-095Hj_d8wzrQj8IDaT8each62V4kWGayDJ49ve5yLqpCxDPze76tz79tg5O67DiXQmU4r6oz7TU-EJQucGMrG9Ulx0yRen082PSfMZr0Ir-bJkwuk8hcjaFGXUaNvPoNvYQoU73FHWeHu0_4taO-c-SzwHN9m54XNOi-KgKwn72pFyYDYH_axpa3Mb0qMqzT_OYbdPwTfICz9ctpdkHA9ukSkV1akaDl7TQEselAi5Kqmk2p9A3wbCYEmW1OtnypZqAqUgDApPWABdQOuuRyf4NWgG7SFZDp_QMkapq2i9rDBxM4xV8l5tWNEyPK2V4CNziEImASYdwFck2UbQ5zox4wGs9nnvdG5x59OvWSw32rQt3hZrDvaGRj8pLO2cD9zYLlFh50K44KWRRCV3YEMTbuk1cujTBU7ZLIqu7JapArFtrH2BUvrdx32fQHLfsSvm8PED3HXoSXvPj5cuh2X9k96ex0mL3PI1GKFVhejqCNnGQZWw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9392190751&itemId=29236177604&vendorItemId=96154949768&traceid=V0-153-784d4e1034cacea7&clickBeacon=4c8cf1a0-e4a8-11f1-aee4-b4f7c8224274%7E3&requestid=20261120150451436086774304&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "비정제 사탕수수 원당 3kg 1개",
+      "query": "피비에스투 깨끗한 비정제원당 3kg 2개",
       "unitPrice": 250,
       "unitBasis": "100g당",
       "packNote": "3,000g",
       "avgPrice": 7500,
       "minPrice": 7500,
       "maxPrice": 7500,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 4,
       "dailyHistory": [
@@ -7757,7 +7903,7 @@
           7500,
           7500,
           7500,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -7776,6 +7922,10 @@
         [
           "2026-11-20 07:03 KST",
           7500
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          7500
         ]
       ]
     },
@@ -7784,24 +7934,32 @@
       "vendorItemId": "85874172166",
       "productName": "피비에스투 깨끗한 비정제원당, 3kg, 2개",
       "productPrice": 21500,
-      "productImage": "https://ads-partners.coupang.com/image1/GiqU3J1mKG2sFXXxGhUw05icR2KEhRXQzmo2WrHqn4EPYj2RdKMBwIpRGmozr3Gw0ElRobFrmmyBm8duxfjeZPQgc530AHIB2CIalHkiS__x56dGDsgrLMKQvfO3RcRvJLe28Qxa5HexSPQbAH8me--ds581L1rS-a6oGaFpV4ByzWECJyTsIoctGcq03gusoVxL7nrsFKI1HcfZVG_ZcOvPlHVgwknw_7zuQGviiG1hmPDQyKWR_DzhD0LtZyQV7vhlw1A5FOflnUS38ueaAAB2lPVpmmZSI14K0TUaIApPgRDWR04blym5L4ZeB_ud5l11e5EsPL04k9RDKXLhBuw0vYJ5nsx8Ab9jMsEZUSFfzMnUIVQqYV0YvJqMN9EcG-DIsMhxDOkvMUGasilsXF9hCGmn0HU4hg-8dtsxz2yXoARvau4Ds9F_lyRV_JeLCRtPf74VUIIfJz2_RJ4QwNA5UiZrdU_5jMJ4hHVpEjehDOdpfG-Vp66ULS2mafXTq1426bi7dA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7809581724&itemId=21179265530&vendorItemId=85874172166&traceid=V0-153-0a66a4c6451e2b86&clickBeacon=d5f70850-e29f-11f1-9ae5-eb20b5ab7d54%7E3&requestid=20261118005914201089560921&token=31850C%7CMIXED&pt=1&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/ceBouHplZssxfOTNcTxUmmm4FVyFlGoIsudpS62E_YQ7reTf2QOr5i62RWdhwD26_0gtLzIBA5NuGCFpOmJfR6hqXZerBJ5GIVybjMvrDUYTA4pQU9Ax8lSW9X3b2GpZu8sQLqdPufuMLuszyEpjYu35sp-UVAyftNDQ90bJ4HVSw5L2g5KK_jD2iR2Gw_B95EOF7phiCIKByCEGwJD96Sby8zkRcPOVWpkDPxzAtt2AkYHcp-4-DgIsnnJ6I9x3n2naFAlITzoi1yxzWyH7aSF5nXHx6WHAWSAnU0gg8pEFWYVGjGGCvgck3fvMpZhXsby282GeDoX8ktDNhMZp-MVgx4Oop0HyeEbQDTMTUB1YnSaqdmwjpuFa6sATR8b7fMYy4RQrdmH5cbtMkXVsC8CKnnefS7J8Z81F74cbqSUDzkxMJqx1CIz48y_74VnqsHsix3zboibITJ0pMDIbwbAn4r2iSf5b_J3S1q5Sf1ejAKnvPBSvfW_omeR7GXl6U8CEeJWBMok0jqHbrN0Xx3hfsSbDxjWArMS70Aa1I1DVqTI60VPW4m5XVSAtRdM62S8T",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7809581724&itemId=21179265530&vendorItemId=85874172166&traceid=V0-153-0a66a4c6451e2b86&clickBeacon=4c8cf1a0-e4a8-11f1-b95d-24a45ebdf2d0%7E3&requestid=20261120150451436086774304&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "백설탕 3kg",
+      "query": "피비에스투 깨끗한 비정제원당 3kg 2개",
       "unitPrice": 358,
       "unitBasis": "100g당",
       "packNote": "3,000g×2",
       "avgPrice": 21500,
       "minPrice": 21500,
       "maxPrice": 21500,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          21500,
+          21500,
+          21500,
+          21500,
+          1
+        ],
+        [
+          "2026-11-20",
           21500,
           21500,
           21500,
@@ -7813,6 +7971,10 @@
         [
           "2026-11-18 00:59 KST",
           21500
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          21500
         ]
       ]
     },
@@ -7821,19 +7983,19 @@
       "vendorItemId": "91427252127",
       "productName": "자연정미 유기농 비정제 원당 설탕, 1개, 5kg",
       "productPrice": 32900,
-      "productImage": "https://ads-partners.coupang.com/image1/13xEequ7EoFR8fZc17C7kmYDxXeRCaZNBsAsICbobQqz6u9TsIEeoKwxzVuX5XK6g_4VHhUnPL4X3SvMWNj27MFynRrhwPH3lXKzuVcWXlR22gsrSsX_1S6hhWRVT1FXksmx6TjKSuJshsQmeLMo1Y8RpJswbdwxRQRmbPE5xNtSy5wsHNdIYioF6gLYMSkAdJ2bSQ0rY6bHh4YsA2x1772QB8YrAQKRXtFdSpBEdqNxurCtW02QRO10WTX0gPD8RJ6e-6QdpnCmLY_UO7JBx7W6hN_iQV0ThPOsWFqQyS8G26phhBWzqab6QY2WvYA6CJjrkc1qTV8kP5MVv1WTh4yynLNy9ab6Eb0k5jTzPWoaFhuTNLIlSpypHKWjY1ThbdWTcePwEwIXxUHuFf56_AHWu1x5ZQGuKxyZKI3t-HqiJ5VtZ_NVwYn3L8CxfvKha5zJtzyQDjR2o8rhlYzGlDybHnOmiD0p04vspFyox1rXLwypKaxa5zDnmiG0nGeFe1X5D6zrooJOFyZ5Vjhu4iWfWc03VEWt21wAuuwmrw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8438651907&itemId=24407881949&vendorItemId=91427252127&traceid=V0-153-fe606927a3cab688&clickBeacon=02169420-e465-11f1-874d-2febdaa74588%7E3&requestid=20261120070310198044752336&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/_s9U1kQqRkPkpurH_jQS-Rn8y47fAtwHm82GiZEGEFdZQqBQrqy7WZ8V4enTDKeBl4NfznLqOp67-aT8Sgslq0dXryIFUkQpEgyaezfziVtxd4dIHyTjqOfY4F_uR2jC4tv_0fshrQ6ZKA-lik6FBRlgJb8S4waNfMTyzrXLcLWhTGnTK-8CkfiDQ5nOOZT856NdMHhAXZ9xXg-6l37rBwFUoDE31T4LZCxB656j8IrJGJTgN_FQXtmn4zsJcRfcuOYvZ1ttyxdD2h83QtKFmdF-0DOzlfrZ2LLtDl-_SCb0tR2euMQpKBBS4Am8X64BFYIPXAFoz-IsmQ2tt4eYmig2euwKeo2-K4AneCUOOmPFvx_EXczEYOJg3Fwq1zTMriRUqEoO2BYXJFwfRUbURR1RBito4ayu6JF5phJSig7EdRWua5tDeembyMQSoQ2xwxtrLdSlTWSv2LS1zxVCORLTCgTIUQA-Q7dKVPxs-rl16XEwpyZW_TX_KVilkbOIxg6afWhkHmMaOIA7WB2kAfsHwWjnnEY16lxgDbIeopSvP_X_gLCmLOJClpQQ7SXOWgQVJFlp56JW4hlMit0c9KOcWNhubDx6Ryn8",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8438651907&itemId=24407881949&vendorItemId=91427252127&traceid=V0-153-fe606927a3cab688&clickBeacon=4c8cf1a0-e4a8-11f1-9f51-7cfd04b14175%7E3&requestid=20261120150451436086774304&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "비정제 사탕수수 원당 3kg 1개",
+      "query": "피비에스투 깨끗한 비정제원당 3kg 2개",
       "unitPrice": 658,
       "unitBasis": "100g당",
       "packNote": "5,000g",
       "avgPrice": 32900,
       "minPrice": 32900,
       "maxPrice": 32900,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 4,
       "dailyHistory": [
@@ -7867,7 +8029,7 @@
           32900,
           32900,
           32900,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -7886,6 +8048,10 @@
         [
           "2026-11-20 07:03 KST",
           32900
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          32900
         ]
       ]
     },
@@ -7894,24 +8060,32 @@
       "vendorItemId": "94445468332",
       "productName": "국내산 100% 순수 사양벌꿀, 2kg, 1개",
       "productPrice": 15990,
-      "productImage": "https://ads-partners.coupang.com/image1/v3CUb7oPIEbtlHwNv5dg7r4bQmG8o5KZegDtyaOOo6U4Bb3gzyQ-RORBtBBuBawGTapiau4LLGvQ79D_RS-uYpnyNPsmOeeOoV4tRGbryYYovgS-fz-kuqp7nNYF3MeKrArLP1_8NmIUZvMob1wV9yPMyfXz5OplpyBj8M3qiOX22R2xqj55nxKlIYz7YLP1z42Yr-WMaXyjj9XLn6CP1kvd7hAxajL5cz71Na41gGHiKpT4H9l9_b_SVoHYDL2zMv9vF4Nw5L1Sjq3L1VAdzjzEN6xrwRbe49TJFdSw3peuIQNvGdFHipY1z3qXTzrIrQ6OCufYHIelw8HRDjRfNOiDqvcYSgS16NAAHXZIUIakgPQsOhP0eZnzkHDJvCfyI5l_QTJw43c3HYxdt7xNRCfR4ZNDFEudaXNHIHFMoIZsF-xIsoOFRO3svtQ9lV_JOQFyUVE7qOXhKZGQBICzY40DiJyuFqy-EEemYBA_hzBJRAYigXM0vsmQ-w6dLEpS1mJGDAIQRDivkQNZMCodL7TDdo8pXQ8O5dFi3VDKvGIba18ilJ4o4_vRC-2asxp7Vqq1Fas6Rrwxfs5L6pJ2KUty82s=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9728306212&itemId=29111985782&vendorItemId=94445468332&traceid=V0-153-f2c948b31832fedd&clickBeacon=61ed6750-e1d8-11f1-ae09-cbb052e4e904%7E3&requestid=20261117011129649038326312&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/syKDAD7xjUqah0KSs16zyvsZTC4IGx4Eu-Xnlr5cblqhDqKEoUTQyJScKe_6Tn_T3zlaFRUyV4hj4gX4Qi6Zj_23H-qplxo3pO3U-huAU3fl1hNgd5bT2uhWdkZcMw_zRsreVxYUfBwdP6x90E24_1os5Hh5VQHMn8w915CI-Q3Wp5itzPhc56fMRENFBb21CyRgRnA1i2-e0N2Q92AWge8HwcReqwF3RBn5XoBQW89YR4_eB1PZI02ZXsV9rWBBZGlwO87y5hCMyV0NtdRNPeXfU6UtKu-2Glz3ApUBnrtI999I2hRf2C4qFeFWX-g0MCH8pX6NTEmLlZU6pTcj8sjyAsse0neT3CA1-7rr6yWw00PsSqZQncitFxQEGdGXI5sbpI6iRVV3WFAc55VjkDw2nWyX2O4umfsMYTIJeLnyldcQ4odj89jm4Ucxt6tWYb5k_IRFnhhEEeUNM9YkwS_Vr17q5Jv6a7vlgaP_dtonVpSuJcCDN_o5YfAL-qyntBCqxn1e-S6KWMDF05_KHb4IIMA2LHjqrIAuwV1TtETCwEVBs06_-9xzxzsar7DLcklMfViVe84J-dOKdQDO5bBfqg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9728306212&itemId=29111985782&vendorItemId=94445468332&traceid=V0-153-f2c948b31832fedd&clickBeacon=478f7a60-e4a8-11f1-994f-3cb89678737f%7E3&requestid=20261120150443068086772052&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "꿀 1kg",
+      "query": "국내산 100% 순수 사양벌꿀 2kg 1개",
       "unitPrice": 800,
       "unitBasis": "100g당",
       "packNote": "2,000g",
       "avgPrice": 15990,
       "minPrice": 15990,
       "maxPrice": 15990,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          15990,
+          15990,
+          15990,
+          15990,
+          1
+        ],
+        [
+          "2026-11-20",
           15990,
           15990,
           15990,
@@ -7922,6 +8096,10 @@
       "priceHistory": [
         [
           "2026-11-17 01:11 KST",
+          15990
+        ],
+        [
+          "2026-11-20 15:05 KST",
           15990
         ]
       ]
@@ -9441,26 +9619,35 @@
     },
     {
       "productId": "9265153304",
+      "vendorItemId": "95095041343",
       "productName": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유, 1kg",
       "productPrice": 7270,
-      "productImage": "https://ads-partners.coupang.com/image1/BV4j4PY8tMH6VjgLBYy7H4TcxmtpZo5h1pJ4mhge0QKYeadh-p5XR-WaCv4opbe3So-oXqNjy9Obxv3EYx7H15HY76F8z5Nxjjwv__KuGivU3wYJap06a-JAlEByrGSZuRq5Er1NTKJt2B7jxsIv7DHFftD-ArSnxxSBApoNpQ6ibkO449nCc9qW4GmRyyAf5uOxCfdCRvH3LXUu8n95oMQfoGgmAQLNSsfMLi40_lqS-6h0QZ8rC373uztuaid7nIGzhtuDiLqgxBu9NnwGBcAD-jVkGwrDu9LqQAsEIWcdaJjbqsYriobCwmGF5m1bc5zfutR4rMR0Nc4Q6aY1oCq7-s0NEGarfNjaAzaiqCjICYLbIOyXLWdFJblBeVnC-LyG5wbjJ4IVvaGrvi1yevHEQfJG-ve5AsPAGDfYjpqM_tzNJtajAgVauzvzd_iH1F_lSO117dr9fCA8JByqjk7XIdCePaks6Wu6RdbT87tPPrICNLBZdwXavY4eM8sSrV4S3gnehtllx6dwxPXhF9jO1iEkoFb_LrcWm7IuK-7gchx2",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261116180158264249745760&token=31850C%7CMIXED&pt=0&slot=10",
+      "productImage": "https://ads-partners.coupang.com/image1/QJkcdFfgyDO80y93QLIRAr5NdbnwLCNRW-xUyppSORzx0SXlK83MPlF5l4iI7418IsjPB4qkgYAbbFHVgS3k75C2gBtbekpkaTFRlV86PsXrDPBmm8-UQJ_RD_faqxtZi6DQBrnEnYH1VOVhddepWLMRSVqMrI1jPrkDnUeDXI9jU9J1RhWmWzliEC783VsllowCWg8plzFwqEkWae_Zkrjp1OJFQN3KoFMChJ8FLgnXXeGiFj2AGPXxNtmbXbRAXqemPnpKJCI5j62PQ-EVK879_7ydCQTrRxGZy7ma58W42-N-7vp4Rl4KIDNLb9t34NrU1DArbtbTHRcUzp1VUB6UK0214NodkwPmSLIiNrGMaHpHAuDYd21xl10yIXui9kQPdF4AG595mFNxKXtbCRvh8vSmeor8NdTFiAPgZPZ8bI5wKvRUepeYMfk-QehSbSQzgcacjFm5uUWFSU_TXdpLa3S3JZHyNhAU_W1MafI64XwgBsgnp5TXyKhC2dA9kmqmbJ0nmYD5lzJw-Ey0Mk3Eb01AMPY13AxOJoGqQcaSK50=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261120150426294238284751&token=31850C%7CMIXED&pt=0&slot=6",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "에바밀크",
+      "query": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유 1kg",
       "unitPrice": 727,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 7270,
       "minPrice": 7270,
       "maxPrice": 7270,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          7270,
+          7270,
+          7270,
+          7270,
+          1
+        ],
+        [
+          "2026-11-20",
           7270,
           7270,
           7270,
@@ -9472,9 +9659,12 @@
         [
           "2026-11-16 18:02 KST",
           7270
+        ],
+        [
+          "2026-11-20 15:05 KST",
+          7270
         ]
-      ],
-      "vendorItemId": "95095041343"
+      ]
     },
     {
       "productId": "130476598",
