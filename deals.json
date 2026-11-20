@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-20 15:05 KST",
-  "statsAt": "2026-11-20 15:06 KST",
+  "updatedAt": "2026-11-20 20:03 KST",
+  "statsAt": "2026-11-20 20:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 432,
+  "count": 436,
   "priceStats": {
-    "products": 597,
+    "products": 601,
     "discounts": 8
   },
   "deals": [
@@ -58,92 +58,6 @@
         [
           "2026-11-17 06:18 KST",
           19600
-        ]
-      ]
-    },
-    {
-      "productId": "9057363615",
-      "vendorItemId": "96030224188",
-      "productName": "그레인랩 든든한 21곡 미숫가루 두유, 40개, 190ml",
-      "productPrice": 13890,
-      "productImage": "https://ads-partners.coupang.com/image1/z8tXEPl9EqEBoNZlz_XCg758nHo0TL8dPrbcrmoDOVtO6j4EuJYN8ZEufV3NE_Q5g239AIYWMMGEpvWPT7Xo-NR862sY0qrHHv5BHJAgknxS4r2yWm6NOt5ppOusLhwlqpaJQ-ht1WB5amVg43Gfl0H4d0aOCxuaIQieMlP3PLvJ0x7AhGuxN_Rtcmx-kEJ4NAzYXYEgGbD5SaIlh69tAfl0fRWKWkcMSVHlk6CrijNMU9wOVuWAf_l7TX603vClk9tTmvwr_3OMwcxm9xMerB_qgbiLw0i344WihPXDreX7OOoNyjwv351X8VJcxUqC9FAnx6EgkOw8msnNTywM0_tMFo21MHBR4y9tbQSJb9rhE79iZEtGFQFhZH6-8xVm0Rn5epFzyIWWSW6IeLbtR9jDi-GAedcwx0OkuJ8vBgpgKtFgm_FS98Kx9AG9cOcYkOrnQrKj-qavZHA7eJiqAhbKjdegdFcNMBH35LwG9nvuEI7fho-En9OQ2X86mytToGcleAn9k39oVX4fPXMbdTfe9FNN6Fd93mRs07SLawILizyROoJO2C8C2skFn1sWOCA5",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9057363615&itemId=28433875896&vendorItemId=96030224188&traceid=V0-153-11248a82f60c3310&clickBeacon=62f421e0-e2e9-11f1-9fab-700708070766%7E3&requestid=20261118094543988051944393&token=31850C%7CMIXED&pt=1&slot=5",
-      "isRocket": true,
-      "isFreeShipping": false,
-      "category": "우유·대체유",
-      "query": "오트밀크 190ml",
-      "unitPrice": 183,
-      "unitBasis": "100ml당",
-      "packNote": "190ml×40",
-      "avgPrice": 13890,
-      "minPrice": 13890,
-      "maxPrice": 13890,
-      "priceCount": 2,
-      "discountRate": null,
-      "uniqueDays": 2,
-      "dailyHistory": [
-        [
-          "2026-11-17",
-          13890,
-          13890,
-          13890,
-          13890,
-          1
-        ],
-        [
-          "2026-11-18",
-          13890,
-          13890,
-          13890,
-          13890,
-          1
-        ]
-      ],
-      "priceHistory": [
-        [
-          "2026-11-17 22:57 KST",
-          13890
-        ],
-        [
-          "2026-11-18 09:46 KST",
-          13890
-        ]
-      ]
-    },
-    {
-      "productId": "8989925820",
-      "vendorItemId": "96035031994",
-      "productName": "그레인랩 검은콩 고칼슘 블랙9곡 두유, 80개, 190ml",
-      "productPrice": 29880,
-      "productImage": "https://ads-partners.coupang.com/image1/yBf7hInZBWNtXyiCyNMGluavin0REwKYHJM9xdbCk9UJVi0XYiPng_9-CMzFIVtn9-nCNK8n17L0hFyxd6F2Ye_G0QkII86eR97jIICu4UJE67T4pCI8pD9Lt2Sv3oUnYsbBP2T6g4As4inrtZBoTAOHaIklMeEXDe8g8U6_qoQ3VpPSmYZ_8AiIzUqjVGDpAM6IWBMt4el4f_9djdzNVbO132XQBqKyIKtoP4zaldQUt8EJWVl5YXVo6DLlKaLREMmjhQ1vPfeJfvw3JEaej9ShXXCDCqr2kKrfe_ysoiC0aOxiCHdLUnw01zX_-LfW0dhuIQjAYBFJYaGE2Y8DKTW7KfQsBWEppuhCQj3fwDjyyzE0qMzKa9tV-Wuov-N1m1b173NDwUutEY98andBRTdkqPvF4seL36aYZve3XhuyvV-CeufqGh_NSH1MEqJ4y1Fqww6ZVnTHH_29GyJRRjxAz7pbXAON6cLbVQZ5_61EmIWqvSYhnfOdyxELfreHT6hRR2ymb3rVoYs=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8989925820&itemId=26332073961&vendorItemId=96035031994&traceid=V0-153-c59d70b7c4a25623&clickBeacon=ed97ff20-e464-11f1-9be4-216d6588548d%7E3&requestid=20261120070235813234832603&token=31850C%7CMIXED&pt=1&slot=1",
-      "isRocket": true,
-      "isFreeShipping": false,
-      "category": "우유·대체유",
-      "query": "삼육두유 바리스타 두유 950ml 12개",
-      "unitPrice": 197,
-      "unitBasis": "100ml당",
-      "packNote": "190ml×80",
-      "avgPrice": 29880,
-      "minPrice": 29880,
-      "maxPrice": 29880,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
-      "dailyHistory": [
-        [
-          "2026-11-20",
-          29880,
-          29880,
-          29880,
-          29880,
-          1
-        ]
-      ],
-      "priceHistory": [
-        [
-          "2026-11-20 07:03 KST",
-          29880
         ]
       ]
     },
@@ -205,6 +119,145 @@
         [
           "2026-11-17 03:14 KST",
           19970
+        ]
+      ]
+    },
+    {
+      "productId": "8989925820",
+      "vendorItemId": "96035031994",
+      "productName": "그레인랩 검은콩 고칼슘 블랙9곡 두유, 80개, 190ml",
+      "productPrice": 30900,
+      "productImage": "https://ads-partners.coupang.com/image1/SU3R_2nats7WXA63SbR9KmfTvBy8oHZPYIUtyfW_2x0g1rh7C9bJ2tvInj2XeWKwE0eUL1AgSJU8Vh1SGO4hPrsrXM820QFf8fW0KcazuQN_V_oDHsx507a6kjrHBQecJmIhsxS-qZU0RS29ESAQrbuJeCuVG57jngQ-k91zSrLsK1InuntnpJNu_GffFZgI_JopFGFalrXz00f03bk5FZyQaejz4UDEPA7h098iqUIAKDpajaXkzokimvw7pWghbE9fskvNrjzkY9lO2NJae4kvNKDc4jNNIPXm1faIHDaXS4gyZmzQKAcXfz11zzpOi5rId3Bd_M1HO7XQGwO7zrNFS1xsSxo6aki7OUsEWKv3-YjoLNgH76HS9nZoYhDftbRXgObeOtKZwyUvDs4w6M8W16txp2zA5U10c2VRHR8ksWzM2rh5LngkcBAXF3nHkHVahj6Y8OV9JdTqoNOzTBhIZ2RA_T7AcHWK-uVe40hDL0g2RAgV8Uvv0072i_GngQ7rLQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8989925820&itemId=26332073961&vendorItemId=96035031994&traceid=V0-153-c59d70b7c4a25623&clickBeacon=d6f36850-e4d1-11f1-9ba9-9e29daa07f86%7E3&requestid=20261120200213005233638223&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "그레인랩 든든한 21곡 미숫가루 두유 190ml 40개",
+      "unitPrice": 203,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×80",
+      "avgPrice": 30390,
+      "minPrice": 29880,
+      "maxPrice": 30900,
+      "priceCount": 2,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          29880,
+          30900,
+          30390,
+          30900,
+          2
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 07:03 KST",
+          29880
+        ],
+        [
+          "2026-11-20 20:03 KST",
+          30900
+        ]
+      ]
+    },
+    {
+      "productId": "9057363615",
+      "vendorItemId": "96030224188",
+      "productName": "그레인랩 든든한 21곡 미숫가루 두유, 40개, 190ml",
+      "productPrice": 15900,
+      "productImage": "https://ads-partners.coupang.com/image1/n74mU2IvNkNTaH0Jn6IalVir9vKVY4Hew23ba_hOX52ws8HUvBA-HlTAwxZiJLm6a-yGO6r0TJ5TKR8wJVkR6IaphhszqhvDUbmbkfTaIXlnsoS7eeRLeykEcSw7ZiEJCzONs8UQzqOCRmpnPlxY6Xh-3IG9LknJPPruYkZ_7QsJTPXcqfbQwuZ-S6EN1uHlp1ByRVTL-3uWpV2dUnEYNnlBFOZ9RMncs23hzsyGRwJS0lN5o8OCm1kOTWDkKcW-OEGUFGZcd3x0PoPQC_Sryiybm7N02Tdh552is4tQ71wJBcae-A1KBdMPkr_uLafYvaz82Mswp8SuNCGcXU8vdOhhnBQ2gTkjHC_osuBR_C4bKrsiXmzCFyhSQ76R0yQno-WDYH0IsrGDu_8fIOTxJliTRf8PxNs--O19IxmDl2vG3Pdcq3TK6hqIlhyqwWjvvL0aTSNxkfjWHBt3h4nAvsuW3iPHahFAj8OieNPfFVM6DbK88hWpagj6MhE4sw_s",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9057363615&itemId=28433875896&vendorItemId=96030224188&traceid=V0-153-11248a82f60c3310&clickBeacon=d6f36850-e4d1-11f1-b228-680f9b2818e2%7E3&requestid=20261120200213005233638223&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "그레인랩 든든한 21곡 미숫가루 두유 190ml 40개",
+      "unitPrice": 209,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×40",
+      "avgPrice": 14560,
+      "minPrice": 13890,
+      "maxPrice": 15900,
+      "priceCount": 3,
+      "discountRate": null,
+      "uniqueDays": 3,
+      "dailyHistory": [
+        [
+          "2026-11-17",
+          13890,
+          13890,
+          13890,
+          13890,
+          1
+        ],
+        [
+          "2026-11-18",
+          13890,
+          13890,
+          13890,
+          13890,
+          1
+        ],
+        [
+          "2026-11-20",
+          15900,
+          15900,
+          15900,
+          15900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-17 22:57 KST",
+          13890
+        ],
+        [
+          "2026-11-18 09:46 KST",
+          13890
+        ],
+        [
+          "2026-11-20 20:03 KST",
+          15900
+        ]
+      ]
+    },
+    {
+      "productId": "9642069228",
+      "vendorItemId": "96030243189",
+      "productName": "그레인랩 검은콩 고칼슘 더블랙 17곡 두유, 40개, 190ml",
+      "productPrice": 16650,
+      "productImage": "https://ads-partners.coupang.com/image1/kdAVwdjDdiX5P6ZbkVSjKUnkaeMY2t12jalRJcLL3q5RGSF6ZD1zV6e7Lnt6HGhtCm2wu0BOdvpRubadr8wnZcFET_UhY19OMQex869PbxY8W1eC04v2BVrSeUs3tztvvmxuci3gqaaWa88z06FTBJZo5LKyZTqGc38_i-e6oXbHWotXH2DtwKl0L87sJphGnR7V91cD4MnDPreNN8IiyEZeIwIQmDxkXouJYJ0yHxmdMH3a191BZWV57ycjeAnVSptButuCApOLx8sfXeteLHd0IS9sieOyX8jKJON3PccbFEBZtODg0zBhzkYfkJ6QBIEioOrhWi934CqCyce261V6z79oYQj42LPrtwiOwF2BkatJKRV3584sG4UJUL2a7nQsr55DKUJQHb4inTNgP6oxQca4mJi1U77wU2Vg35gTU2c5FqOSKjNXI_ZdXxlkq4GjoA5A_IPg0QfxXy3RprMyVWHHF6kwWOZJQIYAnBmqf8uCkn8sURTZqBNR_4A5Qg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9642069228&itemId=28811400669&vendorItemId=96030243189&traceid=V0-153-14c6cec1be193519&clickBeacon=d6f38f60-e4d1-11f1-9ee1-a1a56f7cbb09%7E3&requestid=20261120200213005233638223&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "그레인랩 든든한 21곡 미숫가루 두유 190ml 40개",
+      "unitPrice": 219,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×40",
+      "avgPrice": 16650,
+      "minPrice": 16650,
+      "maxPrice": 16650,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          16650,
+          16650,
+          16650,
+          16650,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 20:03 KST",
+          16650
         ]
       ]
     },
@@ -421,6 +474,43 @@
         [
           "2026-11-18 13:52 KST",
           10650
+        ]
+      ]
+    },
+    {
+      "productId": "9063881763",
+      "vendorItemId": "93616659795",
+      "productName": "파이토메이드 고칼슘&비타민D 21곡 미숫가루 두유, 24개, 190ml",
+      "productPrice": 10800,
+      "productImage": "https://ads-partners.coupang.com/image1/6DM5ftzBSLSin1vs6L0AFHKtlb9uEgnFYV--O49IGIUd6BhphX9N-5qK97VJseoJXANZu77JW5rGStunsjIPZ-Uk4XddDuOwXFMkdKzHhDVQl410kjFXU7Wm699V85YaVj3MvK5Qh5kPk7Bkb_c1l2S-JwuagUZMh-oJ0p2tTWRPlPB-jKBfD3fwKUGKUlerXXgVf31Rqlsy74lZnef9ahYP_dkENratY_c2eNZ3E0M8_kG5Uwu0OnU-RLREQ_-nbQ64UhbABQ1GmGEet4Ni07hhAfKrM0ZlcyNdzsjNeuPeJUXOscWYq1Rkob1CevLmKxgnQpeBpP0kkNoSboQGCiz2hGu6C-7fZ3D_pFXtun7030OHbhTW7Pl07_h8idD_3oiqGtA3lYdeI9y237JCB5KuQTGCA8qD46cXC5qZPFU2QqqiL4ZuEnmR3qBuAxOlzymSqNfA3RyjwKGe-OYC_ne9RN1dOTUKxqcStGPp1DUeTwRIeD4wZSmnfBcZ3oee",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9063881763&itemId=26613868853&vendorItemId=93616659795&traceid=V0-153-c50bbf2a99cc198c&clickBeacon=d6f38f60-e4d1-11f1-9c62-57bbee13528c%7E3&requestid=20261120200213005233638223&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "그레인랩 든든한 21곡 미숫가루 두유 190ml 40개",
+      "unitPrice": 237,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×24",
+      "avgPrice": 10800,
+      "minPrice": 10800,
+      "maxPrice": 10800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          10800,
+          10800,
+          10800,
+          10800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 20:03 KST",
+          10800
         ]
       ]
     },
@@ -1542,24 +1632,32 @@
       "vendorItemId": "95694991054",
       "productName": "도심커피 커피원두 베트남 로부스타 산미없고 고소한 G1 홀빈 분쇄안함, 2개, 1kg",
       "productPrice": 31400,
-      "productImage": "https://ads-partners.coupang.com/image1/gLcdE1qTLE_7QMHXgLHs0HLlEswbUZRlDHY415cts0-WrNxmmd0bh8My0hGJ8n2sIiMwh2iEsT6Qx8rI-wAoCFy_5DsWFoEkMKdRqsdoy4mFvvgBHHGMS15_oNx6NpiEqm3mpOoqXNRn_zueZLdmBThRGMoxHxe8kgvkVOj6evv82hFUU6zunNTPTBh6DQlFphJZ2VcQAtgwkGHfBvP3AkryQCK19FWr5onl85BM-lzFB43xODYIL2P7pdLncNhKqVePoUA7MXKUg5A7JFpbm8eYpJrE5Xk3XG9MMx2r5CcF_gOzp-6pULs-mex77ZrTRvUYRrJDXwFuKa-IHgp2WnUHp7EzLcGJBMLpkeEbFYWdkiHrojuGpGo8E_qLD0UA8ng8OGn3WC1HuoulCGTS2fKaOZF29ZTqkpdiTuo8FinrgKDbgD2VUrpN0BXA1XePxCvTC58ho_JlBadwpwC4L4-2t-rk5m0pslfOb6E-ZS8K80plY93cDzd_dqsTikNxQQcramsXs7FT6BxSx2dquwfK_72L2q7bPPhkBe-RtgP-Bpim8nNzuoO7iT3CHDTi0VaNF8lQXHsRKarWEJFYYw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9628259219&itemId=28756261499&vendorItemId=95694991054&traceid=V0-153-69cfc8c9068db6f9&clickBeacon=03e4c890-e2b1-11f1-b05b-c23556b30bd0%7E3&requestid=20261118030212635116724537&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/-zaZPrPLMSi-lChU-54CpvjPTJ3R91t8u_WMFyDLedQhmOb_eofbD1ivCvzofKBaqo12XJfK7kf-4OE9Xqbagt4hTs_CykO90QMVYmwCmE2PsUHnPYzNYAzXU2BwPZbQ_EFnhEk7NfGDOdPEuakVi7yxu70X6vgzveQMtzDo01VGhKnHjrkbos3b-LYfE_nCjjuIP9DWq4k4WaV4CCB6RVqtF0lvOzERNysTovR4Nk3yvXGVhiNNj9qm7z_yG6Jtz4nM2AO8HyiMIBTJW7V4tsoL391u72NlD6sHgPTbyWbDyMbGvj3jysBvMCMX0Dp7ZhxPiIByCK0sddkc_ekiST6AkyTGfHJrlqWZiKfn1Ltkl-Yq_wW2l0LTxQ2_NAqM5i9vy4v2UQ56is542Znjy3fBVGKJc7ziAUsT5eabUU4TcEDEJM1Ce40SanCvgRic8CYane9WBJydYG0SEKRwTTou5vXr8toslo6hdJjjTGBIt-rie_44kN40pc0kTfphuEW5O-51DYfcKvsjfA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9628259219&itemId=28756261499&vendorItemId=95694991054&traceid=V0-153-69cfc8c9068db6f9&clickBeacon=d1f4b890-e4d1-11f1-8654-dffeff881c7e%7E3&requestid=20261120200204608189352600&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "원두 2kg",
+      "query": "도심커피 베트남 로부스타 G1 원두 1kg 2개",
       "unitPrice": 1570,
       "unitBasis": "100g당",
       "packNote": "1,000g×2",
       "avgPrice": 31400,
       "minPrice": 31400,
       "maxPrice": 31400,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          31400,
+          31400,
+          31400,
+          31400,
+          1
+        ],
+        [
+          "2026-11-20",
           31400,
           31400,
           31400,
@@ -1570,6 +1668,10 @@
       "priceHistory": [
         [
           "2026-11-18 03:02 KST",
+          31400
+        ],
+        [
+          "2026-11-20 20:03 KST",
           31400
         ]
       ]
@@ -5138,33 +5240,24 @@
     },
     {
       "productId": "9699325439",
+      "vendorItemId": "95941971579",
       "productName": "믹소 다크초코 파우더, 1kg, 1개, 1개입",
       "productPrice": 11650,
-      "productImage": "https://ads-partners.coupang.com/image1/mDruzL7iIAuLtMbJmOPZtFGYJKS4b69QBTmYDLvR9TSz_6Qh8Ln-phiD6KfvqeZIrh9Ffw_B2jIt5KKWdLLPJxLsEkzwboK8BhtRv-PKP-4O4SuEy7Wf8FJbLM6f8YBhrBoU5H70PsSb07GkMQbVRXJrEbijDMK45iipQIsvrH3HJwFz1Cy_59VHTLknoBR-EWnAPz8cawUFJ1awtVhGCE25ZxdIKVqj15PyIHroTdRZm9Pgbzd3PLAhNeW9sDCjqq62KtuOFa0_MgeCFHW6rlLt-yEor6SJDkcg7df1uuRuKpmrnrqjQyBdvVHkm46M_J4-LxwX2-ZEa30ArZl5K-Y42ktwTp3l1bofgPUn_ocViuYTNovDqfbwWmOeF9AglbtkQw-QhI6XTtnl9TZrKfiXX2zhu-zj9EvleJiNyM3R3HCFFgJshz2EGHTdLYEYu3vf2n0rvTqBzGjvvchLsT4DiUTpbsU1UagxXQHlPRoZMmR5w4JH9PEX60rFbwj771E-mRSwb9nJ",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9699325439&itemId=29013941930&vendorItemId=95941971579&traceid=V0-153-9c1d3ccf71499ab5&clickBeacon=e2171650-e116-11f1-8828-19b150811ce4%7E3&requestid=20261116020622327111831885&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/9aNaRfXuh_AVCih89TT8lrWR8cJys1yf2szT3owaluPlm0TLtuk8Pflwd_XwOzhHgBJ1Aq-hSLGvbw82StfcE7B3FoqSAb1akT5kj_UsN6dwO0Ko0aWRjsBn8myWRmqJ3HN2BZe7RIQQRxnS45k04VIIN9yqmVXf8SybfGk5P9KYdoKDQQ3VeoJT4-ErMety7msvJxxPjHqMp0XtlTRXhK9oJizuU2ww0Yt08fNUC7IK9Krgz2h_DkNiGfj3QLByvYHa8LUGAuUjzmtqDZCLFzjGCWxZ__xbmynK2sTG20LgrJ6A2J7T1-bLjwTclwLmoKuhDZ3e-V2Mw5r_UEh3rVfB2sdrqV5Wh4bBSKbxP-4XuuSWVSdnidmeTnyGJYsAVAHTBJy0KCwUzh_veL9-4ibc06-YDOTgHY2Fi3JD-rzY9i_83t0NJn7XsuxuuyZfF2x5PLfDJhxMDOvtJgO9aYs-4UNc0hkgFqfUSA_Y5UWffHCENeiZLOj6VHfRt5bUFZAgImc47JA=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9699325439&itemId=29013941930&vendorItemId=95941971579&traceid=V0-153-9c1d3ccf71499ab5&clickBeacon=dbf154c0-e4d1-11f1-8a7e-14cd90eaa271%7E3&requestid=20261120200221380292638579&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "초코 파우더 1kg",
+      "query": "믹소 다크초코 파우더 1kg 1개",
       "unitPrice": 1165,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 11650,
       "minPrice": 11650,
-      "priceCount": 2,
-      "discountRate": null,
-      "priceHistory": [
-        [
-          "2026-11-16 02:07 KST",
-          11650
-        ],
-        [
-          "2026-11-16 07:02 KST",
-          11650
-        ]
-      ],
       "maxPrice": 11650,
-      "uniqueDays": 1,
+      "priceCount": 3,
+      "discountRate": null,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5173,9 +5266,30 @@
           11650,
           11650,
           2
+        ],
+        [
+          "2026-11-20",
+          11650,
+          11650,
+          11650,
+          11650,
+          1
         ]
       ],
-      "vendorItemId": "95941971579"
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          11650
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          11650
+        ],
+        [
+          "2026-11-20 20:03 KST",
+          11650
+        ]
+      ]
     },
     {
       "productId": "8449685207",
@@ -6356,6 +6470,43 @@
       ]
     },
     {
+      "productId": "9505348012",
+      "vendorItemId": "95274284698",
+      "productName": "네이처모아 클래식 코코아파우더, 150g, 1개, 1개입",
+      "productPrice": 6000,
+      "productImage": "https://ads-partners.coupang.com/image1/XswOB4kJCBHAsHODXpK6iQpfkD8cnXHrqL0qMCkOyNT1dzj98pAWuSakVe78Me4gJhdIcTipW18yEaSh1RZQ44TulfVcWoQV5OynE7piJ8xAFMPfjyemKl1QbFaCAxdJC0XkplcS9iD6CPO-ckLpkg1-lyX0qktwnDQCDX4Yd8SCmSFXMZqltl6dn6LvYLfqMzdbjLmIEcWEEjqmSY0OmJNNETWTtuZLOTYegWzHGxnWYjRovkJ-mUMci1KfKwqPw3UF0sy3ELaUnItj1FJlql6Zkr5gZ0NrXjlsh3b2IFSm2FcGmZ9vfb7DV2E6TFSItVSJzv0Nww0nMWkCmPDf_rXMhGQP-RZxKcFKXtBGw2yATBoOowDHvjvZaTs_N0eq42yRRNDMqiw05dYSJszX9QUMjYrYeYpHJJsCmf_zqB4X3UeWhQXFu08y_PVWB31QVM22OUbl6tmtL3GKcJe8XftfXswn4M5mKELJOlXYwW3ygWSub8Ob_ca5F7hzrAZQWDcaeV3gWOwS",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9505348012&itemId=28321725270&vendorItemId=95274284698&traceid=V0-153-07fd58d1452f7d0d&clickBeacon=dbf154c0-e4d1-11f1-80bd-23d532fc8a4d%7E3&requestid=20261120200221380292638579&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "믹소 다크초코 파우더 1kg 1개",
+      "unitPrice": 4000,
+      "unitBasis": "100g당",
+      "packNote": "150g",
+      "avgPrice": 6000,
+      "minPrice": 6000,
+      "maxPrice": 6000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          6000,
+          6000,
+          6000,
+          6000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 20:03 KST",
+          6000
+        ]
+      ]
+    },
+    {
       "productId": "7842499224",
       "vendorItemId": "74498757173",
       "productName": "토종마을 자색고구마분말, 1개, 250g",
@@ -6901,21 +7052,21 @@
       "vendorItemId": "86556439800",
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
       "productPrice": 38000,
-      "productImage": "https://ads-partners.coupang.com/image1/gY-fHsdsueAyjYG5gQk-XBTG_5Yhjg3G9Bv44XKiFft7ezxpFL4S26RnKXUO78zRGOgpY6budSCmALYVRyLXXFYQrNP3R3OmXb1NC5TPPYlzUVq7WiLk43RUM8KzcBTbLNpfW_sTVw1KGCDTaZF1oFGgcxr6sNFsszu4f-5mMc2gIxdHEMtc1VHHUd9j0wT_1Bc1vCya1O314gABKiUoskVYIFGEjsTz-NC5uoLma5JWKH__-nR4lfgCqMQDQemPY5goKLsCK1pJfwxxYyEupMBDUU_XCsx4LDpqB3VV0rmbTk1gDRDNShOxjnwws4xlAhGrSCmdVoIWHxyO2Rjr-5acnPol3q82gD6kU8r0NGviSDqQgkG-UaeGuki7IJBxEWcnI_OAxllIp9sVXCfV4cdXtgvhRFYkaslhQ731I4uoN6tHRweS4rnuzL5uep7EBEctKYUBOKM9rBsF9rz92184SRzWSdU-NNOGu7tRFwB6F0YI64apFWPf7nPC3GDFjQhTtqrn",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=c45f4510-e39b-11f1-97aa-f1312a606b84%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/i-hKgukreQzGiwySix35NxkgQBljyqAm7H9QjpYXrp57pAQZ4y6QRsj3vNkWezWJ5zrX-pqNKvx95mGXe_h953z0bTlVEORDeg88tMN5EcywDD-6CBiAAIuWU_tYEyWkAg6OdMjoVEe6Un7CjUWLRIqxzdGemU9xSrUMdk6Ku4qvPyyz3VnX0UgR0-UldJh3SFktxGNvmgjl82_gAIsr6SkUSzK9dbFnxCe14Mgn_78aGUEt2xbLFWG8ep0kZX0PHio2Ey46l6YzpuaEGpP4VowCaVdCpypiZ29QY4fw4dd3PVsGNVrkLXglmg022Dsx8jY2Mt1TIYegamws6Z78L43cz9uqZ-ofdWUhR-gm-GdxV8dYe6BvVzrSkU2RDDnfKGJHf_JbTXQAKldxYqmzTwgBg7rEzUiPpEVqR6V9V8fzimccgZNq74bQuO-JFJjp4snd938Hz0XEueWTh4SaANDDNn6tDc_qXXWFNkg_iPIOrdZMBm5b19qnMUdNAh-A",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=e0f00480-e4d1-11f1-90ba-a3d2d6731c82%7E3&requestid=20261120200229760066133932&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "엔칸토 라임모히또",
+      "query": "서울팩토리 자몽에이드 1.8kg 2개",
       "unitPrice": 1056,
       "unitBasis": "100g당",
       "packNote": "1,800g×2",
       "avgPrice": 38000,
       "minPrice": 38000,
       "maxPrice": 38000,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6927,6 +7078,14 @@
         ],
         [
           "2026-11-19",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
+        ],
+        [
+          "2026-11-20",
           38000,
           38000,
           38000,
@@ -6945,6 +7104,10 @@
         ],
         [
           "2026-11-19 07:03 KST",
+          38000
+        ],
+        [
+          "2026-11-20 20:03 KST",
           38000
         ]
       ]
@@ -8060,19 +8223,19 @@
       "vendorItemId": "94445468332",
       "productName": "국내산 100% 순수 사양벌꿀, 2kg, 1개",
       "productPrice": 15990,
-      "productImage": "https://ads-partners.coupang.com/image1/syKDAD7xjUqah0KSs16zyvsZTC4IGx4Eu-Xnlr5cblqhDqKEoUTQyJScKe_6Tn_T3zlaFRUyV4hj4gX4Qi6Zj_23H-qplxo3pO3U-huAU3fl1hNgd5bT2uhWdkZcMw_zRsreVxYUfBwdP6x90E24_1os5Hh5VQHMn8w915CI-Q3Wp5itzPhc56fMRENFBb21CyRgRnA1i2-e0N2Q92AWge8HwcReqwF3RBn5XoBQW89YR4_eB1PZI02ZXsV9rWBBZGlwO87y5hCMyV0NtdRNPeXfU6UtKu-2Glz3ApUBnrtI999I2hRf2C4qFeFWX-g0MCH8pX6NTEmLlZU6pTcj8sjyAsse0neT3CA1-7rr6yWw00PsSqZQncitFxQEGdGXI5sbpI6iRVV3WFAc55VjkDw2nWyX2O4umfsMYTIJeLnyldcQ4odj89jm4Ucxt6tWYb5k_IRFnhhEEeUNM9YkwS_Vr17q5Jv6a7vlgaP_dtonVpSuJcCDN_o5YfAL-qyntBCqxn1e-S6KWMDF05_KHb4IIMA2LHjqrIAuwV1TtETCwEVBs06_-9xzxzsar7DLcklMfViVe84J-dOKdQDO5bBfqg==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9728306212&itemId=29111985782&vendorItemId=94445468332&traceid=V0-153-f2c948b31832fedd&clickBeacon=478f7a60-e4a8-11f1-994f-3cb89678737f%7E3&requestid=20261120150443068086772052&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/YYq5MJEkTULyYGaCYcZJW0ch1Mq9jZPz3PmywDxvEZY5bfp4d4N_0k9QPPYRw4d5zCuFmcPwDZBW4LVd-EELFd5fHw9ngfAMfkIJL9NyXXB3CLO4enlmY8f3msS3cUvoTAwSxE_IQHrqiVyZ_n9gcaJd9UQvvigWUEZgj-EakGjF0X-q6UPNXk18fYAOyRHI0zX3fqougtye4ghF18J8xKF7QBJxS8F5hfbRjH0h_3P1vawA8Hp4ysecirQwGW6euSmlfug5bryOjI2_vPmx3mYqWYkmvlHBwH_K_U_4Y-rCqVCHKyYm-jyF04acrqB92fgVIXsNJraFL2rxbGIa18kUQK_zA19iqxU3POpys_OlZOmNoCP8I2A33_r1ruL9HgkLPgW7xezfIBlK0T_j1kdVk1BRQOEGZopyYgxFNy4NZDoOSPB1Eb2onVdP1S5qLLMlBD36fSFmwBYEHt0a3CQoGEF7acY7PRq9OZp1eC3lb99wm75VW7ZfIVol6XmHDsMHLD3p7321ef8iVvdPClJ6_Q2mN7Rm",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9728306212&itemId=29111985782&vendorItemId=94445468332&traceid=V0-153-f2c948b31832fedd&clickBeacon=e5f2abe0-e4d1-11f1-8aa3-bd9bd35b0238%7E3&requestid=20261120200238155217075195&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "국내산 100% 순수 사양벌꿀 2kg 1개",
+      "query": "온리비푸드 순수 사양벌꿀 1kg 1개",
       "unitPrice": 800,
       "unitBasis": "100g당",
       "packNote": "2,000g",
       "avgPrice": 15990,
       "minPrice": 15990,
       "maxPrice": 15990,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
       "uniqueDays": 2,
       "dailyHistory": [
@@ -8090,7 +8253,7 @@
           15990,
           15990,
           15990,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -8100,6 +8263,10 @@
         ],
         [
           "2026-11-20 15:05 KST",
+          15990
+        ],
+        [
+          "2026-11-20 20:03 KST",
           15990
         ]
       ]
@@ -11512,22 +11679,22 @@
       "productId": "2112264285",
       "vendorItemId": "71474903104",
       "productName": "녹차수도보성 현미녹차 티백, 1.5g, 100개입, 1개",
-      "productPrice": 6170,
-      "productImage": "https://ads-partners.coupang.com/image1/XyhtEfiMAipQcxWgX4OOCT3LL7lDD3rzu04F2z3FcFbP51H1Kdy7AON02me_XVODdFMVkzunDejhR0S8uUNPosrnMLCaHD7JJiDAbuiFPOOjBAhKUHG8bIT-iM1XifTGuBdgyeTCEzqICkIrF-ueRANREsdl4jk9q70eSwC3blvaxNR7ZEw9fFqtALKvsY3ewdEZUOe11TW6iYINWLAd7vSNswPA7df7a_tbI_dsZSnuRopB4dpwx9liTMjmbhoJkqMShDFYSLrULx5_0fTh4ESEBsqBIuoajsEqZepU2DIbQOcjEtmrHLFZVw8BjFFoj64pCYVMPwQAhFYgiGaJ04uwURibhqq6XDDPK1lkCYv9yMwlOeMP1qWx16dRwBX9LBh3AjTXvuCHBIjUacnka-33WjCYnoLsG05RnDJGGf2459xp5vOoda8RQIg5h0mMkkAZDgUiHE79YQ74OXAejPMfZ5R3A3w1OOLUhebTbna3eBXlMIvkxktt8ANq4bnpZD-F205CviVz",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2112264285&itemId=3588040061&vendorItemId=71474903104&traceid=V0-153-aa66855dc62dc5bd&clickBeacon=742a6100-e1e9-11f1-803b-9bc8f21810b2%7E3&requestid=20261117031341673284764789&token=31850C%7CMIXED&pt=1&slot=5",
+      "productPrice": 6180,
+      "productImage": "https://ads-partners.coupang.com/image1/BzkeElCbl9C8tSvpB0bMPjAxakY2LrCyYQJnviikdCP3i81g_wyHjqAFdxL7NskA3kJMrnVUVdNSC-OIvJhVfGXRkT5sOv_9FX8pd67eO7wmRRntgqVjHLuKmhYwDaxbfwPElIUeS8rfa6JMBR7ckXgskZKxdPfx9B1ifigeORWfhHVp3zIz7k5nAINbLHT-YREQ_wvZV02oXDKd3CQ_yUJV9R8b5imLDsmNZUv0i_WY8MyVK0-Mfis-tToWgXVasIsnKtSV2BMTBLCxM5jniqL3t8kxYlrSsuwyURalJjt0cJdY5WSNVL7HuG2Zd2-NTn9knl6ntCog1UwGfu7J95b0OU1uWritZ629jUwLmDb9Z41ZeUwpC0Qv3Ybt9Ynd3JjtQCZXQ2FgluCmD3yHQRk7TQTTw7kLDMisRXvZI6U0W2WAjraeco6E9ULBeRAbD57YKMVD_LM_u8Nfw2I9VZ5CN0jEQ0n1VJFVY-af5MdO99oqk9VrfvHFY6kA0yLopsU=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2112264285&itemId=3588040061&vendorItemId=71474903104&traceid=V0-153-aa66855dc62dc5bd&clickBeacon=eaef86e0-e4d1-11f1-b929-6c17529c480b%7E3&requestid=20261120200246540189353246&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "녹차 티백 100개입",
+      "query": "녹차수도보성 현미녹차 100개입 1개",
       "unitPrice": 62,
       "unitBasis": "개당",
       "packNote": "100개입",
-      "avgPrice": 6170,
+      "avgPrice": 6175,
       "minPrice": 6170,
-      "maxPrice": 6170,
-      "priceCount": 1,
+      "maxPrice": 6180,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -11536,12 +11703,24 @@
           6170,
           6170,
           1
+        ],
+        [
+          "2026-11-20",
+          6180,
+          6180,
+          6180,
+          6180,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 03:14 KST",
           6170
+        ],
+        [
+          "2026-11-20 20:03 KST",
+          6180
         ]
       ]
     },
@@ -11981,6 +12160,43 @@
         [
           "2026-11-18 08:45 KST",
           4660
+        ]
+      ]
+    },
+    {
+      "productId": "9579630009",
+      "vendorItemId": "95538613030",
+      "productName": "녹차수도보성 산 녹차 티백, 1.2g, 50개입, 1개",
+      "productPrice": 4850,
+      "productImage": "https://ads-partners.coupang.com/image1/pusit3-J6zr-aQkvpi8NV5JOH9Ni9c8S7-w2nfzGMnl0lmnz8IMXnX6l-Yq3l8dIR1dGGa5U6an0y2ZmRqeJX14zssyhRFi-GPjdUJ_eBg2epqko6BaKvczfE5OKCXZ65fKc9MLQ0fW6pkKrDTpTI1QyzenjEiHxNkJrsWonDXVHA5B4-hnvLHFCbs992JuqQ2Ln1xeRy3w5bY65gdne2SNoNCPjLPMRCd-vf6VMnEkLEIqky_xDQ0vGusoUYVq8H_6ssqaSs0M3I0iSNwsbgmBKaj8hxUuLt3cj08g4RtnifTdD8BFLWcVPneXZzo4_EXi6wDvWJGYhxbeX6OQyAeeK_VqsJhRLbIsDtEsVjxLHtJeOMBpbA-D6tk6n3V35T5xyodnuOrLsLSatOflhmqIDJ-T2JoU7P5y6nXV10-u4jwQ8-qzhPCD_kqT5xGHmMZHP-BLY2oKUeY7gnrSHg7OhmYv8aYI_8GRIgDGO9lpJ4e0fLadbKarc4UJXLzyhIp4w6loRwNhduz1J6kVW9A==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9579630009&itemId=28594840571&vendorItemId=95538613030&traceid=V0-153-793451df89cdd929&clickBeacon=eaef86e0-e4d1-11f1-bc9a-ac014338cb5a%7E3&requestid=20261120200246540189353246&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "녹차수도보성 현미녹차 100개입 1개",
+      "unitPrice": 97,
+      "unitBasis": "개당",
+      "packNote": "50개입",
+      "avgPrice": 4850,
+      "minPrice": 4850,
+      "maxPrice": 4850,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-20",
+          4850,
+          4850,
+          4850,
+          4850,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-20 20:03 KST",
+          4850
         ]
       ]
     },
@@ -16551,19 +16767,19 @@
       "vendorItemId": "94332604246",
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
       "productPrice": 22500,
-      "productImage": "https://ads-partners.coupang.com/image1/mDY5pApoOgM19RTRmMpEWmyYrgAjws6trMxVEpaGFtnoNIRxzI8jcsuZjo0RMF5kn34dV2Bem_xqyjxTue9A5tEH5zYBevFYrQ8t_X2JbQ3dBKD7uIQtsjqWUOGDS3mEmeCgxkyulYX4Ki2EPbceErEyxUlojqh9IKC9K1s9okghaJ9dz_2F9GEORaBPDX6fMrPDzaHreG68Ygw_rViwhSPr_M-jXwPSw_w_3UX7oiU_Ncf6eDn8hD0mjE2M80Qo5XmOWjFn-Vr1rl02ZKXYBe0ut0nOxijgZdZtA7syaiTnqWfv8nYmFKwQG0ZwSQMcV2mvgRLvfmUwmpIt9uNaZK5A6Er1kGUjvsVYoUj9ClTc3Hnx6CcJzyOlRoQq0dCg26W_pTaqhTbwt_5_kgFL5LgfHTQhNbIzIlNiIK9b5VTaBfUw3lx7UchSoaSUAfaOSi_6Rs40zQAI8zip44Nuqy-_LaC2KEnpL6BwPcVHbfcfBQqt2pO1bAFsRhy9RljRlUFOEye3MFylRXHKVWlfjoN2VpQEW_Nh",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=912c34a0-e486-11f1-b346-6ccce875a6fb%7E3&requestid=20261120110323682193056100&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/WJuyUkxQ3LxQdAIpWIC_8Sf6QkZi2u3N8yLeohOrGU9KRVGGZMk2kuVSjWql4rUuP57Z0_Do9QFbvFl0u7BudDTOLN_PRbokV3TbPCQS0QGsKs-8h75kcvQymHf5xVOAge5_8dmGgVA1w70_EufuM9YNv-ZPkBDCNPj0-ZQYk46yUzis_JjrxTL0KkIgCnXHUBcuMUKl8v2yZ8Oxi_jb9S7-EyWSnraKAxP8Bd5Z8YfNBOsCvhBFD7HRLXrAmNnRq4tCkczY0RXc1ZNn9dHgUZZi5UMDztS5Ly8EsdY7mrzmxWJrIRiM6y42y07HvV7mu-GA58U3OSbc9p7bqA1klx2zs780k2U72Sdg6C182fNQr0mkhGr_vrW4ekOviX28Wr86qDLsinZLQhrlp_sbzQKSlPavOL-QYWKNrx8kTJT0vcrZfMLJVxjwU2IOkC5GnkIIHLrqYGfh7iG2FOFZaIRcEpBH1mrqY2ASQGVkaPFZrNPM_1tBHLl5efjO8ugoLqauaNsqqyr3O5WIhc3uOQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=f4f0de00-e4d1-11f1-a3c2-95404d273275%7E3&requestid=20261120200303323092305032&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "업소용 테이블 냅킨 10000매",
+      "query": "냅킨공장 칵테일 무지 냅킨 3000개입",
       "unitPrice": 2,
       "unitBasis": "개당",
       "packNote": "10,000개입",
       "avgPrice": 22500,
       "minPrice": 22500,
       "maxPrice": 22500,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
       "uniqueDays": 4,
       "dailyHistory": [
@@ -16597,7 +16813,7 @@
           22500,
           22500,
           22500,
-          1
+          2
         ]
       ],
       "priceHistory": [
@@ -16615,6 +16831,10 @@
         ],
         [
           "2026-11-20 11:03 KST",
+          22500
+        ],
+        [
+          "2026-11-20 20:03 KST",
           22500
         ]
       ]
