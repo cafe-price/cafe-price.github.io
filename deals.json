@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-21 07:03 KST",
-  "statsAt": "2026-11-21 07:03 KST",
+  "updatedAt": "2026-11-21 11:03 KST",
+  "statsAt": "2026-11-21 11:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 444,
+  "count": 445,
   "priceStats": {
-    "products": 609,
+    "products": 611,
     "discounts": 9
   },
   "deals": [
@@ -5324,24 +5324,32 @@
       "vendorItemId": "95911804882",
       "productName": "배대감 대용량 국산 고소한 미숫가루, 2kg, 1개",
       "productPrice": 21900,
-      "productImage": "https://ads-partners.coupang.com/image1/xyrH9nZm_sdXl1lJx7uF66wY7E6YJA7Yd1vJ7pkl094cW7lWxyCznvwtudY3DD5AMawE7JBNgYZlLJ1ZMu4TXZJenkpxEWrNvZ3mo1mIWwyCpiOrZzXYVwjaIaMc4KBTQzRXEFmwtho1zMjoidpvuacxyGnZXShFgk1nzoTj6KW6dHVUImzRViKRJyVk2MVPsuOxWBOXyrsjlT3sNbVjdwp0KF8F11nWya0S-VbjzHlRLSD0mLM9jC0jJlb5LU6DENNCqGI66rAzrGveB3IqvtA6I5Pt5bt9u5g-SDzDAlqDFb01WJ765O27OKOK7Q9Rwd8jGHUXuiHCW6OPfsHxa1h26tAWJmMoVLW2rQSn3RxGXwi-nbixQ1VFLApaSbEK9_QrzCDB-84Cd8dsDgv1TQ12oyCWCroo2tGr4hITRMgD404h22feieYQCa7JXiNrpZttjxJ55tFlrG4JU486zAxXN_iWzIXGmJxAKcs-jBUYkdpndRqfZrx-rffryze-ERHYe5c8tjY15E-yaphAXSM0GeUOCLPPFajsN8BOi-_PwiqGt5jwIDUkYSfx6uNotXvp4w==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7764750064&itemId=28982625999&vendorItemId=95911804882&traceid=V0-153-ca98f66458ce3d1c&clickBeacon=ae25aaa0-e1cf-11f1-bdcc-028ae995a1e0%7E3&requestid=20261117000912033324082600&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/lskvHYCE8YpcGpl6lsx3Aj-bAeP5bGE0Fg8P42-PJ75OCKiJvLGWY8Y-XF08D2d7jLtphcx8d8m541C5MR1izaM2SWHQyu0ZPPfRGAKE-ur5K9zm6yVwYInGxBpz1R4eW80ATN4sHHDCVin0rLZAJffBC45dBwHFkMeZRb2_DsPgfeyKszqKSAe2M3Vm4quRs_3KwS6Yg5_pQvTT_y4mjz5Z9_WDpVsbgZIhuF7KhmAHd21g9JgMLkKJdz5gyukcIqtVmSoypL_1ETDc-Vs0ngd9GVPKYhXzOZ4JgXhrWNSAxLiQyWGMD4utLJZFCDkNuPFBX31QuxfqRKSMXfCnjeUazzM2kYbtQPHbnJAd3KRZA9koaPtnLQpAto-9M_yeFipebRe7Yt-kr-vp71Bebmjko4KVTh_MNlub83VJ_2AJt1zG0HVB1a7hwGgbyBTHpb_YOpQXnITSE8qG0jQqiOTXted2q2N-ho_1e3G1qzK1ZsPovjnqPFKawhQUD4xcXQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7764750064&itemId=28982625999&vendorItemId=95911804882&traceid=V0-153-ca98f66458ce3d1c&clickBeacon=b693e980-e54f-11f1-a308-1f2095355d52%7E3&requestid=20261121110315293122044715&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "미숫가루 1kg",
+      "query": "배대감 대용량 국산 고소한 미숫가루 2kg 1개",
       "unitPrice": 1095,
       "unitBasis": "100g당",
       "packNote": "2,000g",
       "avgPrice": 21900,
       "minPrice": 21900,
       "maxPrice": 21900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          21900,
+          21900,
+          21900,
+          21900,
+          1
+        ],
+        [
+          "2026-11-21",
           21900,
           21900,
           21900,
@@ -5352,6 +5360,10 @@
       "priceHistory": [
         [
           "2026-11-17 00:10 KST",
+          21900
+        ],
+        [
+          "2026-11-21 11:03 KST",
           21900
         ]
       ]
@@ -14553,21 +14565,21 @@
       "vendorItemId": "95969021427",
       "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
       "productPrice": 13800,
-      "productImage": "https://ads-partners.coupang.com/image1/KMUhpMO5AhnnEQcLKDFtmuf24TSyI6ezOe73tujxjQTka6g1B_a2NTcOd5K6VpLQrt9PXU4ilAtAz5AFn1Cat2WdLgULgZMiTmuhl1ETgcHsOUo1V8BP49OAlTA4QbeHbWy5gylA-kPoBAiQezobNvDpM5B3Ki28DUyaPfikUgFF2udpHEugbdCche3ZwDu0QEkJ1GHJKYY7674HgHQeYfE6Ed6mKZ-8g2u61DyQWao8l3Qh8YOuR3vzeqpMsiLG47THfI0BkewUTcDHsiEqc_oKJc1rXZqv0sFPcgP-Qs_3cvqpb519CTamgJiLIxqZIQXXmpq0RkSyxD26tA-kyuguq3uV--m_o1QSE8xJUfVaWTy77sqGjeEkqLjLrgXT5uSFK-QCoLCR3X3PdFgBw93b-4VIrLpU5tA42Q-y_2U1IFremWlCNLZ7KiRtWvqgVkyrINVMFjfa-8wDcEc6gkPLxOqfdpY-_UShVGTlogwv81gQOMg8IQSPcFvXBpsenNBr5jYa0yGiU1mM3BDW3oVvQXsjnG4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=4b52e190-e314-11f1-8306-527d2d655d50%7E3&requestid=20261118145252649303992841&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/veyzmKttuRx0iyMxvXtCZmz_jk-MsJjAD5xpa9tHLfB73ZwpB6-PJ1hFtRBmT_tLRq9xkPxZpMUKzppWUPgIc8Ns6crD35K_gRW3lZfT81ADSuHM3eHG7zl4VtA7hF6IJB14bqGjvQdUuflFxD02qa-E_W2JcLJ7_VOWthWFIkbxp3SykJktauhBuhPZ6SSH2b697YIdHoBQgWsmE0WjkFXXltdImTwpj9wKAFsHuWZ3SAFUjXf1YGkTug-m_T0jPaJdtjNLZNmAogmOTSfIwezxUeD7-UEKzMTZ52Bibq3N-n6xQInsWJqTyXCp9htfq7Pq8GSF-7It8tL2JIqSbCFmoh6QR6TJ2kT7o2AXEuIeKLtZEKaFd4dkVO9yD31g7lawizIv8-MFmfqgTXcdMyJyqMmLAilQZiIM79AYLeSsGdLzjAgSP3NXDWYrx0feL41eA4M-zIARo6C4_G-6v0F7CR0NjVSFUCzzaQVaq97b5f6zHJ3cm8I6CcHg4P5z2z3HhHZ5degg8sazcFPwPgJM",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=c5b979c0-e54f-11f1-9766-8d782c8bc3bd%7E3&requestid=20261121110340705033405458&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "종이컵 6.5온스 1000개",
+      "query": "수팍 무형광 일회용 종이컵 6.5oz 185ml 1000개입",
       "unitPrice": 14,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 13800,
       "minPrice": 13800,
       "maxPrice": 13800,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -14584,6 +14596,14 @@
           13800,
           13800,
           2
+        ],
+        [
+          "2026-11-21",
+          13800,
+          13800,
+          13800,
+          13800,
+          1
         ]
       ],
       "priceHistory": [
@@ -14597,6 +14617,10 @@
         ],
         [
           "2026-11-18 14:53 KST",
+          13800
+        ],
+        [
+          "2026-11-21 11:03 KST",
           13800
         ]
       ]
@@ -15884,6 +15908,43 @@
         [
           "2026-11-17 05:17 KST",
           6500
+        ]
+      ]
+    },
+    {
+      "productId": "8799385012",
+      "vendorItemId": "91656033188",
+      "productName": "제이디팩 일자 빨대 7*210mm 초록 개별포장 500개",
+      "productPrice": 7200,
+      "productImage": "https://ads-partners.coupang.com/image1/rZ8FZCvaqVWCFizGrXsCAn8pZciN6jK-hgSyFK38dh0aaZS4SRPgZR8eu_1Jg856OTP_oC_bAIF2JxMmAL7knAmInvzivdgASzbgRiVo2VqmKxYAcNovY-4RG8EvWHW-Rp1UaLi2XXOouEjUNa3bOE5oJhUNFZQ7PWLoRQSWMzN8iGDfsGS7-z5w9gUYlaBZH3mjzdhBQE25BsI5nRov2ZOdAY7wxS69GdM2XA9iY6xRzZwRcWHemNiv3WeBO4XeT-pGRFKrJmQyvLE13auU-AK-y-JhbYyJRjsvRAJl7ASfH27yGgkvSU_FHGZzlqNzyIbLqV-DnH13CVLh7dM0pw1YpFINUP57f-DMDChDtsEYfUQeyxmvupJDMEhIlmYSpV2JSlLliNTc8dR52xrWQJzeiZS3EGFtq34x9gRx15NygELSIvnz6rZmh7CphtzmMxz10UL-jwnu-gdhM2hZjBtC0zawi28UxQDA-vAV4fjJyJ0OZwdXYLJlie9Vr87DwIhbAH1bEG5EDcflWdTFsOXXvivUYBQLrEcCV3vebE8780WMDKhRSvdJwGNKs3BH05_eCz82U-TdrXdsz8STuU8w9Vw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8799385012&itemId=25620233311&vendorItemId=91656033188&traceid=V0-153-7a48115846fa68a6&requestid=20261121110241395233638252&token=31850C%7CMIXED&pt=0&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "제이디팩 자바라 빨대 7 210mm 투명 개별포장 500개",
+      "unitPrice": 14,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 7200,
+      "minPrice": 7200,
+      "maxPrice": 7200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-21",
+          7200,
+          7200,
+          7200,
+          7200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-21 11:03 KST",
+          7200
         ]
       ]
     },
@@ -17309,21 +17370,21 @@
       "vendorItemId": "89468456030",
       "productName": "SOOM 100% 천연펄프 무형광 핸드타올 5000매 키친타올 페이퍼타올, 5000개입, 1개",
       "productPrice": 21970,
-      "productImage": "https://ads-partners.coupang.com/image1/lGXdZ3RL3t_iiiOZlKYEv0rz9Rk-R1wxcvw0Ufo9ZWwMmGKKSiG9eKdkGapHoHLExphkTlnu10E6ZZhIIZLvpzMnT0FtOOyzMpcNA9XiMFvDqn90O0Jgtyr7wLs8D6Vfk9SGUve127-L9rRyr_EaLyz-0LWPQvSzqyoFHgynLaMJyil6gsiHa-GoAZ7kF195lONTkIsLtPXqjZ-M2yAqhbLAXUNzcDtMKVlpFYNSXb8Lydpu6_iB4NSMOEbui-BKqNr6vH8xg0SDf2nVqSwSkFvhIY-eR5xACORBu4Q_1Qt-hjtI2WEoCqu5o1OVgCCHlVJJxgiQi-i4_mYnvZogftoYdU3qsBrPJRZWIs4Ne3cwzvylARGoO8ReoJzqfB1u_o1HYHvAic7sl9jkfTf0PGLtePdoXPfamt60ruMGfAacw7IMeooAt8HuBVEsbVW3fC9rphZaJ39FnrKPeHUJTlYZsY6onbdAyGs8E8XDE7n_IVmKOqPGb1B5qKyNPwGX0CzIkWg2i75sV6CxrKVXALNzch7WHV6cbA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=b2e0a360-e20b-11f1-bf26-3ab9e44e1bc5%7E3&requestid=20261117071849810232885781&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/EN1WwtGFqnIFDzjFEESYePayd2CQTp_4_EwJblc23Uwa7fBIYh336ivQ2PnodrIV_v9YBbDippxFa2prRZo_FY26zq6Gl-Tpd0-TremDjT1Bo90pgijrIC_2d4Q2G3ojgIvGaQvTbwQbkRAmyOslVjKe3No-HQLiU4m5X-l6ffJt0smfs3XxfqLK22Avvo22dzFrvDjFHfSSWiYozFlBI48jZHSBGZ3PastiVagD4sPl-A0mtx4-ILRVaqRlpCyYTZRLg_Qxz9KMVh2LL6etuZd9jVI5aBPhvaa4LkFbiFUL36foTSXVqtYQrgeeeO7NHB5nT5m4Wp6omJUkm3PnGCcfY1OTfdjliYOv9gqid5oZkDVtK_1m77S0VDERaqc3la0Xtuba4WG5CGcBuGYa3y32bqFd5Fl1oG600j3PIN5dGDw0cgboPKQ1PQqQX8pelIFqcFukcUU-OXtOa-mpFzK-wx042w3FSqPqRjs-HZL37S1G04eqW7jvz4qbTV5ENOb_Y4IabIN2fb4yLDCVthk4JEgb4UE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=a76cab90-e54f-11f1-acfe-de2655f2b46f%7E3&requestid=20261121110249875181846327&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "롤 핸드타월 12롤",
+      "query": "SOOM 천연펄프 무형광 핸드타올 5000매",
       "unitPrice": 4,
       "unitBasis": "개당",
       "packNote": "5,000개입",
       "avgPrice": 21970,
       "minPrice": 21970,
       "maxPrice": 21970,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -17332,6 +17393,14 @@
           21970,
           21970,
           2
+        ],
+        [
+          "2026-11-21",
+          21970,
+          21970,
+          21970,
+          21970,
+          1
         ]
       ],
       "priceHistory": [
@@ -17341,6 +17410,10 @@
         ],
         [
           "2026-11-17 07:19 KST",
+          21970
+        ],
+        [
+          "2026-11-21 11:03 KST",
           21970
         ]
       ]
