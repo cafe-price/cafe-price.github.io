@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-21 20:04 KST",
-  "statsAt": "2026-11-21 20:04 KST",
+  "updatedAt": "2026-11-22 07:04 KST",
+  "statsAt": "2026-11-22 07:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -3373,24 +3373,32 @@
       "vendorItemId": "94267010612",
       "productName": "파모빗 레몬 생강 착즙 NFC 100%, 1L, 2개",
       "productPrice": 15840,
-      "productImage": "https://ads-partners.coupang.com/image1/NuESdO93bVQx0V-9Nnx0w22uPttnAF2NQJTcIK2O7lQ6Au92q282Lt0wie6PMSIWDMkQdWWcCUKEPCFtg7pr87PomzowVHwmfy1KVyXt-DMv2Ht3pl0FLBPXoTMER41mNWfPRWtWSot7eRwpvZCuPHEHMPTHceTityAd1eYFOUthF_zX4ZEkAwiBEbtUmUGettB876thn7Ip000nPopIb8H4kJz3IPKubIvtb6855Nipz-43Z6tNyYHrX4CtGOT4gQ1zH2XCO4dKZYB3Y5wAbHND36-gyLZ6AWSyyrzlqEFdTid_uzJ04kaPgNmEyV5ldxW-cDeIBwiM83NG2Kh_Qngz-jDAZoh_A2kyuoRWBMMysTnLQXVeQxzEbDsWJNkhO-8waNula4ybOv1b7Tzao3Xccblvq7ZTgiAQSEf77fqa2zf4eWix-gKU00GzRk1sA_o2_Yle1J-o5zExJ1VblvSAO_GlFfFTNmV07tDzTVNNUkZq_yZZbUnk6VBw80CIUEpzn46-IeNQl0c=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9231453305&itemId=27300463227&vendorItemId=94267010612&traceid=V0-153-4ccdac6194c055e2&clickBeacon=e85c4660-e464-11f1-81cd-98af785b854b%7E3&requestid=20261120070227061044756802&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/K1RAUNdGHAzE-8B5KxppNwUGCJUTWLX2V_Njd4ZWtIEeeYp_tXY3rpYrGO7-rybS5tZg6qcVoPXNoiuUXEzWayxgx2cd7EMeHg9jOINDrVlV9aC86y7lYIik3zBdM5cVKmqMlCgrgfDWgw0M-8oAprVujGX2Lo28EVCP8GXn85MiDTZzlM3NpZymodmjpiczG9dnynt43elO9uQQzwWgoSyTjJPFPKEcOlU71-JfAPVcBs4m3GSl0M8cLx9TO9UuG9l0x2YrnakeTEzoKt4jZMocCQ2b2KfVF4go1NzZV2jU4Pzw_VZDPuWtAwZs3kS6lRy15Gbge6eoiWdurB9bkdTaCZlWBG5Ye5An0wzblHlvVgW1lIFz1nLfVYaBwKcuNQssGNVXtBze3cpQ_-fTdo_OvNJJP-1JCd3eA0FDPK8IzsjG_aqVOiXS8Ds10dw08x6GHxdXM3KysmJD7tfBgsv8g26i73101Fy65mCdcTT_TRqRryhj4YzAEpwryndqz-gXWLcpRMef-y4HAg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9231453305&itemId=27300463227&vendorItemId=94267010612&traceid=V0-153-4ccdac6194c055e2&clickBeacon=86705e70-e5f7-11f1-b3dc-de4899ae83c5%7E3&requestid=20261122070429955024744363&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "후버 100% NFC 착즙 레몬즙 2개 1L",
+      "query": "파모빗 레몬 생강 착즙 NFC 1L 2개",
       "unitPrice": 792,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×2",
       "avgPrice": 15840,
       "minPrice": 15840,
       "maxPrice": 15840,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-20",
+          15840,
+          15840,
+          15840,
+          15840,
+          1
+        ],
+        [
+          "2026-11-22",
           15840,
           15840,
           15840,
@@ -3401,6 +3409,10 @@
       "priceHistory": [
         [
           "2026-11-20 07:03 KST",
+          15840
+        ],
+        [
+          "2026-11-22 07:04 KST",
           15840
         ]
       ]
@@ -10028,21 +10040,21 @@
       "vendorItemId": "84734652331",
       "productName": "누티푸드 크리머 스위텐드 연유 시럽, 385g, 24개",
       "productPrice": 46860,
-      "productImage": "https://ads-partners.coupang.com/image1/VbgJJTaqmww48sToVdykY2zweeR0GEAq_pxFNX5w0cDctpoWCEA0DWQ3JEQev3JXrrHVC3I1GDXML-jZ9LbRleEQv0csdtsiAs7ivHPYChrFQrOdWmk1MEjDVvs9swqGNMDR4U4ENej-Fq8kD0dkFBz8OxiiyGDW9OX1IXcssH4h5W4MlNDWIbE2IpF1J5nNFDGrVMya7c3VuGFFKwbeTHNv0eiQrtLITJYo4aLf6PlX3Ct6We2kpt48BRg0me5fLuzfzg48M8gUApXbBj9MHzgdlKpmk8mAdyPxmxGNAq69QsGqFIMeTYkIBn7q59x1ggDBNyzyLquD98aZS2JkMF4G0bXYO2eNFCq63uVCmC4jGLpX0wR_2zoXQ-vkZU5rLAJuruUAnUYGbO7KHmYk-uDDJLuIko2sqHURugxi2L_XCbJWE7xhSXXXtfsQ92t_mrFGd2AqB7LqiR__aVQhxnvbM6zkQ9iK-A6g0yQGGcM3GTZvMX6Z-RnvQ9jcoxms8ul4rqjJNBi2jPTzu-YLpyyHFAflU2fIxWW3OHXLssHo2ShfVTLXg3tAmvV2AmdhKUEfrr1SSK7P9EP_U1F6MeFGICnTtfvikZ15DNkAWiN44egZL0QQB4UgesHWnSU=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=e523dc80-e408-11f1-85d7-818c58d4846c%7E3&requestid=20261119200347982276926613&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/dEgQCQL3zvfQsY7edGMOGlIWgSRrCtichW83m8v2lxvEg_FFID041tfZBAHbCMsyw6CWs20jH6YUOz0FeCJIUWvp2Kirdh-zLE3Sw1ZbWmnS33u_9AAFxvSooCBj9S0q4fiCDrg38wFNNglrutonjg3gGdXoJMGIjVKj_kVZ1jzCU2QowzCJGGOdiUXsAgXA77xVvM-AtX4ogLEVmvBAlQ_iQfeTxqrZk1lA1WayC7r7iG-vOMASh3d5GLP8Hjf_xiQJ4ae0L0i_VnYNflzy6u5tMp-CSiQf_JKm3jwjpGngFWqkXptKLQKzmnRcut6Itl--QsRmxej7G2LZmXwcgfIO_-Oic2b5zr-MdShg2VKh9qph9u8QiTs6h-xCXmINc-AWITaanGlaO8ddOZzRU79GZGdMOnywhNQMEH6WZGWijAoP446KEqsBVJK12vsZo2UMFG5PVdj-WZIiUweyNo409gsVWUYUsJMgqoSfeRfN8DYi66GdXK4ALc6l2aq08IPBsnUVdzRQ_sYtktmKnL5RO_PVqRIqFtXawqFlZ2E18EYOfTBWH25kxkkmGXJjXKE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&clickBeacon=8151f1b0-e5f7-11f1-b02d-26d7162b07c0%7E3&requestid=20261122070421406294698461&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "누티푸드 스위텐드 385g",
+      "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
       "unitPrice": 507,
       "unitBasis": "100g당",
       "packNote": "385g×24",
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10075,6 +10087,14 @@
           46860,
           46860,
           2
+        ],
+        [
+          "2026-11-22",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
       "priceHistory": [
@@ -10096,6 +10116,10 @@
         ],
         [
           "2026-11-19 20:04 KST",
+          46860
+        ],
+        [
+          "2026-11-22 07:04 KST",
           46860
         ]
       ]
@@ -14970,21 +14994,21 @@
       "vendorItemId": "94994311565",
       "productName": "아이팩피앤디 92파이 평리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 평평한 뚜껑",
       "productPrice": 17900,
-      "productImage": "https://ads-partners.coupang.com/image1/h4tUJByQuGPkEHpOh8tVtitSjLElwaU0mgj-70422wRZguWOgFcfL01S8T8kl5yGEyCuGqstN2JxJsetLLFPVw2MvaMaocqN8er3QPpfhBsCFwuGrkBQddoB6QpeO38Wah232cvZ0V7R-m391zIZOKCcKRReM1OMrxX2ZkKmjF_jPBlGKnXKpCoRJMOlVUQ4qViUbQIXUe6dJRdM9GQsxStkW6U8omNhPBLdeCdlDg4MAxx47A-vl1NBfEn5xKMaFKfgtegJnMSyza4y0NaNhWXYjmKO0_kpjNh9fFqX8Ncg-ulgbUorJwNbs-ZdMYYQobztX2Rtf-OKQO_m7rnobxTZxlVO5uNof_an2J2JOdIJYPpDaufubs3_PTZOtMZL8MKf73zpnpA5G8c2eOaHOtSZyac4N_cboEfacEiJm6cMLKMCWTpO_dZ33JYC9U7-Rd_KMV1zFJvJyECjs9dEsxnM6170Jq2FS51M_53V8NiT7zTg9PshaKbKBRjiq7HEBC7HMsjat7h5n6Nevr2w7PDUiSyqCXw=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9430223475&itemId=28037312629&vendorItemId=94994311565&traceid=V0-153-517c0380ae13009a&clickBeacon=8c1987b0-e486-11f1-9ae7-70a96dee7abd%7E3&requestid=20261120110315174195403904&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/f9GNAAvecBWAreJ0f0R2qg42yNtMTii4e-le8L7SdeE-KjGmkldx8bwsB1YYa9gMP3C5SBa8Vl1Q0mi0herQSXLbx6TgFZ9rv1iSOvXNfVxtDuT90qX02ovFqSQVk3FzVSwBk0iOPvpEDBq5SFi4i71TMUkDHZMlose9SGk6kXOdLt0m249tETH-mDkM9stLxC4SYeHsRl0Z0AwgQIMFPg4JNHprfjyF2UzMfIrw3MrNoFDF4r0hDrnG5iBqSlj9voakPPm1aMX_RLcmUgHoEJocQL0H-6EOuHEDAf8PDW43SzBSrEL6LOpOheEmqIb6eQsIJI9HY60cNQ-BRCkO6mkgNceYG16Z1Y_OpsmMbrhjAzZNINAzepdvmNZ0kxoafOepsPMdzlio7k0HXAybApvgtV8liOoWc8oBTn5ocQWRqWtxIe6Nc0fRtF0VgyPWbbqu9l4I_3t85verdg19ENVn2igMLA5wJTNujDSoYJmceyrBt0S2mbh58D_djs2QeSEFFEJzmWyRHUrtpgzQwfW-",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9430223475&itemId=28037312629&vendorItemId=94994311565&traceid=V0-153-517c0380ae13009a&clickBeacon=8b6a5340-e5f7-11f1-ac2d-25ae063ac7d0%7E3&requestid=20261122070438329073190536&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "아이팩피앤디 92파이 돔리드 PET 컵뚜껑 1000개",
+      "query": "아이팩피앤디 92파이 평리드 PET 컵뚜껑 1000개",
       "unitPrice": 18,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -15009,6 +15033,14 @@
           17900,
           17900,
           1
+        ],
+        [
+          "2026-11-22",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
       "priceHistory": [
@@ -15026,6 +15058,10 @@
         ],
         [
           "2026-11-20 11:03 KST",
+          17900
+        ],
+        [
+          "2026-11-22 07:04 KST",
           17900
         ]
       ]
@@ -17669,21 +17705,21 @@
       "vendorItemId": "90271557299",
       "productName": "모나리자 스마트 다용도 키친타올 250매, 250매, 12개",
       "productPrice": 12730,
-      "productImage": "https://ads-partners.coupang.com/image1/T_rEZbKD4vP_CHj8T9iE3s6f8clyUDy4wvwiZKthU3zMQoqFP1jATAsE_pn1UFXTt9eSxu2SeDsHb710Bfn6PMNOzBj2j7AaDa4G01bvBOpBvE8WSamlZHOaYjIg0b1Jf0Fu3f1etifzTtJWJCkT0mrvAyC5U-L8jM4CRCIQKkFcxDizDI5tWUeTs_1IhSVY_g9pRq8GQG7HePtzUN-UqmWn51R9CkRWK802en4nXv2G-zfGwcKI9UQ2NlxUyDd2AZC0lJ52r7bRGk0JXD_hErQS-3vMrR-wJD10m2tu_v0XTiBDXteqVPfLElKkaw2M9_m6Yfs-6cTsw5EdLM-LcE4JMbO5n3GroLjw0sCzPhQ1Ee9QGnFBPhCZBOnsAn_1zYaGg5NF-OuZaLfTOvbqhg2ggxCvSHSsZYKbLYXPQTj2FzQMUXMBLLJGDQah0dxSRGOOjR66q5EsWE4Gek3as1onaDhm6ZpwMa_8W2jN-7pvfZbuWeR-pc914kTHexZ-GaqBN7uMzoT7yFmHvZFou2ODC7X9312WX0k7GRgoKitPjhlZctpCL-lOOhfHgWIknSH10uKpK1-m5ee60CoEpQvQuQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=700e17e0-e3df-11f1-906b-2f1a2261f1ce%7E3&requestid=20261119150702180321539400&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/fPs2EyFiuOwraP3MfF86ZYZI3eDqomEnzS1N9znTgUyx5zkYS5vq2HxUm26ec9CuXp4Q35bKsMUZW_e7M3K1hWjii9ikDa-VVZXtmFtyBEETpt7Ta_kfzVh37Nsc0v396B8h1kBtTnH2Gk9OgiWn7VoV4roFGdhxtAM_xwC1XuoGe56AmrQaNa6_qym_DKIDldKAchaPsnBHBAGeNmddjywRvzNnBdnzy_UwjHGvgpUn3cUIBZyILzZAjOPwYtTAzT4Ch5889BEehzIqvKDKg1T1sNA5xhEpzo2ao60MoG5aNmt3QIN7l3M2eKrtMB29VhQDJpx3YDgib3M6ZOyAuGMbwMnZVyqA2dtZMbvjZ-Vdob1vsKxxVtXOizFR6qVN4203HU4PWS4UI3dfBmMhV6z6BMQS4lGlOh5mpQY6MUzijtD9XyFxToWXirJGTGRuoFoWWscmhYhu1oaBnJxviosrONEcGopqV6wKKkyBPhgceKMQOfOS_BbFbkzKb4w3JdZR88C3UgJPgqIx0iBxw93f_e90SZg=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=7c5787b0-e5f7-11f1-bb85-98e9bf95c4ea%7E3&requestid=20261122070413050233639255&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": true,
       "category": "매장소모품",
-      "query": "모나리자 스마트 키친타올 250매 12개",
+      "query": "모나리자 스마트 다용도 키친타올 250매 12개",
       "unitPrice": 4,
       "unitBasis": "개당",
       "packNote": "250개×12개",
       "avgPrice": 12730,
       "minPrice": 12730,
       "maxPrice": 12730,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -17700,6 +17736,14 @@
           12730,
           12730,
           1
+        ],
+        [
+          "2026-11-22",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
         ]
       ],
       "priceHistory": [
@@ -17709,6 +17753,10 @@
         ],
         [
           "2026-11-19 15:07 KST",
+          12730
+        ],
+        [
+          "2026-11-22 07:04 KST",
           12730
         ]
       ]
@@ -18563,24 +18611,32 @@
       "vendorItemId": "89610481956",
       "productName": "코멧 천연펄프 실속 키친타올 2겹 250매",
       "productPrice": 10420,
-      "productImage": "https://ads-partners.coupang.com/image1/W179ZEpgpm_meORvW2u_-JDqI7shnjircPuHT4tZ4sHfbtsfnrOm99JXgEgJSNaeININJkvWqe7DJRuarT3oAaq1IDxeJure15dIUHbxH9nclWLhUE9YK4YmfEmezpIDjXKYDtdmlr0FI2I7bp6qvlBY7XPfqOE4CcIb3tJfoEGd9Wr5S4KlAGRqRwqm-m2h2dE-R0UPRU5p3N2oh3jJCnIPWxK1SZmNf5UYN46PoTf9d9j4FWyaCQvX2tJdE43ruJ9tiWXkx6lX4GE7dt7sxe6bgMggJikWnOcETgGFCOhiEodGAfKWwv_5PFnqff8FDZzp17FFEiBnEXcocqZMoAOsJcIUCbQ8mcfU8ZlRHpRnD1ekCxTwbnchDucea2bC4s2dkpa15KuTVX08rirkf2OUNwyZcvFfj37OOezhxod4bi4OOVd9hpSZN9zkrl88epob9tK4H8xNN2IozbyeALA7e-XJ6xAnMeDqmX_jqJMcFRdAQMIiiEihzf4zAqhkVYc0sCVOXRrDaOsAsPKgl6KnuBi4cVRmoQZPjjEMdZj4-GmrinN1oIuo-jqCdaiB6VFTa5A1tNCDiEoc_Qqf",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8049299057&itemId=22568616421&vendorItemId=89610481956&traceid=V0-153-c39ce78979c25379&requestid=20261119150702180321539400&token=31850C%7CMIXED&pt=0&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/iDShpIGVbsBDHVXXiPOB5UrwgIX4k-H9ajHLsLi2quAToLDKwRjn18YbIk2VXCD5e3hnszQCxlH1r_h6d2-ctxWVUpR9NHtrPSejSzzJrZkmVkHcZs6RnEpZAJ0SM2ntpADaPBSsq7M4W7eEVyFXPMK6TITsQjzgjcJmM2S1R9fZfDmtjJCuHVBktWKh-riCsY8oNZUq173hO4jiGEdWhOyc1_xMqPZ-XnyWQJ5uksXqA7d6juw2AJ-hX_4rmbm6kCxtRbT1MkfHMIp13q3R4P0UFGnGUu3XL9DuOk2q7H5g1ZKIDCaeVIgKrDHtb2ER1F33BicY7C_kfcw8UjqUnH9JCSDCynxqIP29HOJoPx41_ujTroZfPSMM0rrSKDiJGUP0Qi89ZR6acliWXM8wirZ4h69HY5n8XtZ-EVnJCIzI3TokrfdqOjtRJ7wnyUDqVyjvIJ40C1ihiT1VpSJ8heoDDHgwS_95XsUC2pq-J68XEfABod4Lw4CQ62CQ4JbLB0p5J8t-xIZX-FA41zQ7_ShqGw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8049299057&itemId=22568616421&vendorItemId=89610481956&traceid=V0-153-c39ce78979c25379&requestid=20261122070413050233639255&token=31850C%7CMIXED&pt=0&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "모나리자 스마트 키친타올 250매 12개",
+      "query": "모나리자 스마트 다용도 키친타올 250매 12개",
       "unitPrice": 42,
       "unitBasis": "개당",
       "packNote": "250개입",
       "avgPrice": 10420,
       "minPrice": 10420,
       "maxPrice": 10420,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-19",
+          10420,
+          10420,
+          10420,
+          10420,
+          1
+        ],
+        [
+          "2026-11-22",
           10420,
           10420,
           10420,
@@ -18591,6 +18647,10 @@
       "priceHistory": [
         [
           "2026-11-19 15:07 KST",
+          10420
+        ],
+        [
+          "2026-11-22 07:04 KST",
           10420
         ]
       ]
