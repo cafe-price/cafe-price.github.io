@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-21 11:03 KST",
-  "statsAt": "2026-11-21 11:03 KST",
+  "updatedAt": "2026-11-21 15:03 KST",
+  "statsAt": "2026-11-21 15:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 445,
+  "count": 449,
   "priceStats": {
-    "products": 611,
+    "products": 615,
     "discounts": 9
   },
   "deals": [
@@ -1693,21 +1693,21 @@
       "vendorItemId": "94780941238",
       "productName": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 15890,
-      "productImage": "https://ads-partners.coupang.com/image1/_evsFMiAzMbzVKMV_UnZDumylEGtZWRNdOlkQ2EQsvPp6A-jyivCmDuSJUyoMxXNIELtwIWIgF6eXePqaS7AB30EJUeV_KRePEyxzzqk6e0aTzabGb5RmHycyZ9tqOfffzoAqtBLBUOkcEf4UuSNdBmAHqiYzTsT505vF9E-1hBN15jSrjWRbVQlhZTqnI5P5YVAV5FMIGe-2hu2nYT-r-4kM9cZ_4QpSi8qQp8cXGgKIX5Z6NzgLd1ZYroCZ_vwWCArIfHUX15c9lvCGodItFgEEmljCEIuGihn4o9AQIVy9_sXfMz8b-FrHs_v8eyfqXtBBwzqwI7xElIiFcPWfsnvBJ4sZ4iLlCNpqJT9Rb0WlrJhEcw00vlCRLOlMNiSCLaiIQ1FxsvY7gURvavsZ-YZSkaGUmwOjQk9yGOHU4zT5HUVdkvvTILMmNrEmnzFmrV_AeXrBxnq6IZ9xSb1WqZFy-D6jYSE2P6YMrhexQVYMf__RVhhTI--2zPd37qLA3uinbxWYWwFmjOEZTOe_duitTIsbgPGGnl2RwOqVtVgndOev8GIiyTBG4021p8xrFW94HlSkquatWkSqRzEKXejFA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9136027887&itemId=26957283832&vendorItemId=94780941238&traceid=V0-153-b9f45964ab2b00f2&clickBeacon=be0065f0-e2d3-11f1-82f2-2a955a2b6a37%7E3&requestid=20261118071047725149644623&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/v6lNAPCQKj649e_MvwqdfVndoWUv69o9Ecgue-l7_LlXC6gsPDvy_9kIY4CkuS7Nkk5znO83TaSJSDct66jfr5r7GFj8Rz6Kt7pZtGqWcH3iZrK311BVApNYn44Pdl1lkq5naTBqAv0nwkpLK82Zz5c0NtsM8c1v0wTuw36iQjwfh3W0fouDOoX7Xw4qXlt0IW4iBNGUuNWp8EjUkgTmApwWlU7KfKWOA5JjUH8qJ73isnKI_CPCsSUNTKjmt_nE_vs729GfKGixbCAD07D5pyzU5HftBwIB7wbs3ipWUsNbJgwuxMP9lViFrS9Bc3fllncxzF6C4dVX32_EY7SMSlTm8GN8K3gc0zX9SEIx1PQ8ubuY93vD4XlKFBZj8Trk1BEuxk07FexejMr9kSXe-6GAkGlBYnxGAro_d_RduUWUQX3mKgQdCcC0fRtJ1n0El3tG6o91gTWmmG8Qz2L9ozEepMhXaU9ytg3KVNm2ngg9_Y82iK_qZl0bLAZIa1r9qSiI0lLya6twPksSrpZUXFoCEuWj8vg=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9136027887&itemId=26957283832&vendorItemId=94780941238&traceid=V0-153-b9f45964ab2b00f2&clickBeacon=327aa680-e571-11f1-984b-80b45e44db7d%7E3&requestid=20261121150256527293739777&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "탄자니아 원두 1kg",
+      "query": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈 1kg 1개",
       "unitPrice": 1589,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 15890,
       "minPrice": 15890,
       "maxPrice": 15890,
-      "priceCount": 8,
+      "priceCount": 9,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1727,6 +1727,14 @@
         ],
         [
           "2026-11-18",
+          15890,
+          15890,
+          15890,
+          15890,
+          1
+        ],
+        [
+          "2026-11-21",
           15890,
           15890,
           15890,
@@ -1765,6 +1773,10 @@
         ],
         [
           "2026-11-18 07:11 KST",
+          15890
+        ],
+        [
+          "2026-11-21 15:03 KST",
           15890
         ]
       ]
@@ -2049,19 +2061,19 @@
       "vendorItemId": "96116420969",
       "productName": "위크위크 에스프레소 카페 원두 산미없는 고소한 다크골드 블렌드 1Kg 홀빈, 6개, 1kg",
       "productPrice": 138000,
-      "productImage": "https://ads-partners.coupang.com/image1/bBnknENRu6Ok8oI0bDCKNUZL0KXX9aVJtffk-2rEqrnEoG-qADbl_yfah9YfZrxNESsSqF8A01j9SiTgxEO8_-gUnWwF-HlJGz3zpai9QBEbH9fJqOXvBil08QIiPrzDgcqpv5sg0BYp3UzIqExWoO_d0BKHnTqDq1RfFgx5cm1Uv24CE8fxW-6cX0Q2tkMzRXUrEBiEDTabIEoHee2wR_hSk2ELiDPz6Q2RqjpOOEdYYBNl_RHPWwV6hNMga792eSKJowrz_uFMOn-uxD4jFVzj4O7musdC4WX7RSBHUeU49hVP2PLItsafwLbz0W3_rfYWd4RmR2Vk_uDToAn0ca9Li48kP7-tBc8jts-Nq7Lt-IkyQK55JL2D2a8Sxk292GDbixlpJ4fKB8Vjmw9taQIJ9pRJHwZ3CXAA6oGQpUAz-P6ep31e3RziEadSqYiL-JLdDL27s3KjemfEG-rI_B3nNP5748Vo33BMZerD15CLBEvjg-30woAAKDGt7t12iIbilWIMjfASAaVPsYC9zoq3lI8k_A==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9750439608&itemId=29195779737&vendorItemId=96116420969&traceid=V0-153-3bab26747922003c&clickBeacon=19cc9410-e52e-11f1-9f8f-0a6ad272a204%7E3&requestid=20261121070238851181848721&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/iFS02pwuWFArtmjNiPLJ-130UfeVhoEKZgI5Waw0oblTDNRv_rLa3k9Iseo54iT-Cei-5gQktiU-Qb2DAZ1M8_Nh4HQsuqTtcvUqvgR0fnj3zt01vzgZVumbm1UprwqHMEnf2HhsvTWwHknQt70WxyX3YJNk4co4wxEOlldMX40hVGgg-bM8u361udF9RvqmiI1aRcSQOhz6OKJhn83zXxCPO5s88FqlbJ891phbnT3SrxFfqsXnbNS9vAOCycFhik1QWftFg7eXtSklMM-PJM7062LIL6GqKOAhZw4HEJlaAYHh9i-Mt8kNjzzGRbw7PbMkIrmBJJntoyTylCUuG4HDhje9NHrfxR_Ncbdws5pfEOKAb-_EpivckVCm14JGpFUzr2TYy0ibGGiqSCdaAbtEtHu3wKSMjmOXKQoqPB1Ng2KdzalmGTECXVMxgZ2fdY8C4ipNZV5aw3nx7v0_i9ei6nI7_HzK72XMYHfiWCggr7BkrROGKjZviWurCoFPlHLhLZFA5MXRAagLZU5NmJFmByVHz8Z2w6DqMM7lX_nf62RSlujDBENMQiTKLqDOx18UvEFs",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9750439608&itemId=29195779737&vendorItemId=96116420969&traceid=V0-153-3bab26747922003c&clickBeacon=327acd90-e571-11f1-a520-580657f1f104%7E3&requestid=20261121150256527293739777&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "위크위크 고소한 브라질 싱글 오리진 원두 커피 홀빈 1kg 1개",
+      "query": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈 1kg 1개",
       "unitPrice": 2300,
       "unitBasis": "100g당",
       "packNote": "1,000g×6",
       "avgPrice": 138000,
       "minPrice": 138000,
       "maxPrice": 138000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -2071,12 +2083,16 @@
           138000,
           138000,
           138000,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-21 07:03 KST",
+          138000
+        ],
+        [
+          "2026-11-21 15:03 KST",
           138000
         ]
       ]
@@ -5250,24 +5266,32 @@
       "vendorItemId": "93069907553",
       "productName": "이노라이즈 이노미 요거트 파우더, 1kg, 2개, 1개입",
       "productPrice": 19190,
-      "productImage": "https://ads-partners.coupang.com/image1/oH-eIRRP1AjC_0CaoEnDyi8qlhDlj5GPedadoJrhVgzFXyv9KYMhAgII1QvX-LIP1uwR8panqqAobLW10O6QVPtEuLkx1dSqiSnDu6tdUUxB_Do5pZLcGKIkdVQkQDglTwvle_Dp-WCCPHMaRMZqW2TBDagsfNnSQZiI8-GT31KnUNP_iQ35f1Uz0VHnc3CWyDiomqkTcs15RDLTaw4h65QZvrU1xHl0amq_jc6avZutR1ZAZRr6rDkRfgFriw9NFUMkQV5V842WyAIRzL_pRbQYEYgv3MRyMUeBGU9pCWM36gxM-A7i25sDvuL30jSq1WynUOkH58uKwEaKmgO4Y3P_kMO23G1OjnCITo7A2AHUVt3OSxJn4IYwtp-V3xbU4pR8pLSOBDP1jGL9mrdH9iGmhg70JzF9Oc4H7D1KGvsqv011BHBgOLsQCdCAEnN0LrGSNgsJGNCgtvAp8ET_vkd8PyYldGKzg9738Na4zwag0LPMzXAZkHy5U-rbhRJH3tph_hTCeJFSAQSvlu8dAc6k3rln",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8444060567&itemId=19133046119&vendorItemId=93069907553&traceid=V0-153-530a5734bae496a8&clickBeacon=f50f7270-e274-11f1-8032-1c12ef4bcb86%7E3&requestid=20261117195218007101398180&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/f62HGlmnzn_PAwogfxOyxKg6JNmafDzhXe1po_YfgopvdKkhdarHGnOOovjYqeJ1IFEqcrMHnOj2gvLEZw9Wwi_udilhlUjzhaYv8r1cvL4CFtKF7pR3jfqp4pZJs4fZ8L3Lq3SgDyXSetJplQnXCKTYt9J-4HZx0KwJTbPhGl9Isdve85lidZsjbukFgo_PfrKlvFnToOIAV6pbn7AOhtE7fMBlCxOQCpEel1KjObDp7bX8reBrFgoznFVvjNNaiudpeF-qwI3CoA4WSmXwSPJO1RheSXPAfcWUpeK9kF4PP7YpmOyOlAPVQfPZNqUQGkWq-G7zM4Ge-TV8X2_M8_g9KIOwKUqxvaMKtZB3lTMMepF9ni1YwE_eu4LkgqSlGex153bETKLQNMTCJwkIbDY7YIt3OPTZIAhjMQTUrMhMi3rwVh9-j61oj-HIDR3IcrqloLREf5xh3RhwLAOCI9LdRl0aJceO-tzB7JroZOYtYx9Fe-8-PKL1dW9KG_Vr_pA8s0TpvcqHYD1RgtZ5vw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8444060567&itemId=19133046119&vendorItemId=93069907553&traceid=V0-153-530a5734bae496a8&clickBeacon=283eb760-e571-11f1-a0b7-037174d62f38%7E3&requestid=20261121150239342001270376&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "요거트 파우더 1kg",
+      "query": "이노라이즈 이노미 요거트 파우더 1kg 2개",
       "unitPrice": 960,
       "unitBasis": "100g당",
       "packNote": "1,000g×2",
       "avgPrice": 19190,
       "minPrice": 19190,
       "maxPrice": 19190,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          19190,
+          19190,
+          19190,
+          19190,
+          1
+        ],
+        [
+          "2026-11-21",
           19190,
           19190,
           19190,
@@ -5278,6 +5302,10 @@
       "priceHistory": [
         [
           "2026-11-17 19:53 KST",
+          19190
+        ],
+        [
+          "2026-11-21 15:03 KST",
           19190
         ]
       ]
@@ -5464,33 +5492,24 @@
     },
     {
       "productId": "8449685207",
+      "vendorItemId": "95126284576",
       "productName": "이노라이즈 이노미 초코렛 파우더 1kg, 1kg, 1개, 1개입",
       "productPrice": 12000,
-      "productImage": "https://ads-partners.coupang.com/image1/CDVG3jIFoIvc5Ng4CPWjsHF1fJ3XoZRwnWW-xLnNxyxk6pqQtqEQSzfnCRtk0xNWXUXMt9WROn4MVi24K4bi4nrq-Bhaz3HRzFIqQijkI2Qf-d1wuq3BFmnzjGhV8s0gwotBOS1lxogZT92GORB3JMQzS4XxG_NXvrPF9ZqSnRXoLTjCza4M3P6qKbX_UeY1f2vqEep0SJOjXa1XAaAqA79UC6CDHO_ZTJzTOlXdHoTf4y8iCKGAI4ThGB6AzgOgsjNScffBdnkWP2zfnLqqrMmMXM4hL4fIgwHIVfEkvrv3O3MEte6SapLpJHT0dKqwE8HQhZ5NbHtjONptmgSZlbubtWgWyzuQdw2pmWYs2drZFnjKIfVt5j8L1racq4FYxTYWaOBtGlLPBiOke2OVqeFyXNkThUiLNzOF7tjjYm21FXFSWU7oBzJa3ZaFgLsVMp0YY1zpbegF3WeIjfLd9mA4S181BkZHxwN1Wd1eZpKZPhTzkHYqNtodPhsWcvNo-U9DbtAH2P-aWaD_80CWVSyj6k-1OPDbHfOAF5ZZnvSZSWzR8NfsaYXKFuswzCBoU0vpbnDx2Rs9",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8449685207&itemId=24363916570&vendorItemId=95126284576&traceid=V0-153-7a12792d0611b78b&clickBeacon=e2171650-e116-11f1-887b-cf6f0c1f45ff%7E3&requestid=20261116020622327111831885&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/pmUukd0QK7zYwc0FpmHGznORVP-MeOmAIBPTKWrw_yhBKzRn8D6A7qrZJBwbG54VH5MhzkMDn86F39XIKodeN7-ieorn2Hj8m5ID3vZ9LY2DcVfMa7wEMOxgtnHE86iUaK0ju8wCz7cTujiRQcEmU8Edvx-gO6Xz0cLatkKXETuJvVIjPsoCfYo6HcVuMF_2P3dJU3F7uJL5tmAkWyM6yXKmqf9jye9nlYA4r3BTYolaOcKs-0SDKJm5_PjkVLjXDJ9UW_Ia40osFCZ-iU1S46KoJQ_hXv7-q-k_BkSe8WnKRpD0sb1o8MLbIQyNAlMPhyCwr2W6XcmZ-muo8NIaGRyXBTMTaFT3pdbloXcafDZ0pIU9XO5_ly9R5JwJYBsO4TU1O94_JNm-kbZjbkGi--Q44Td63IY5ZET_qVb8UkS0B9TqQ7PR2Dgk4tQhiJoNjv4QYjB0PDM0JBDIF439GRo_WeWCQCOImgr8v602btKQyWQwEihbFV0FOm_pN63QQ6sty1ToYOvVTuPSXVx4YTSVOLR2-KuFRtJseVUlp8WtMBD9wdnh23G5li0K6P0c6Zo=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8449685207&itemId=24363916570&vendorItemId=95126284576&traceid=V0-153-7a12792d0611b78b&clickBeacon=283eb760-e571-11f1-9461-ddd3f46de951%7E3&requestid=20261121150239342001270376&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "초코 파우더 1kg",
+      "query": "이노라이즈 이노미 요거트 파우더 1kg 2개",
       "unitPrice": 1200,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 12000,
       "minPrice": 12000,
-      "priceCount": 2,
-      "discountRate": null,
-      "priceHistory": [
-        [
-          "2026-11-16 02:07 KST",
-          12000
-        ],
-        [
-          "2026-11-16 07:02 KST",
-          12000
-        ]
-      ],
       "maxPrice": 12000,
-      "uniqueDays": 1,
+      "priceCount": 3,
+      "discountRate": null,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5499,9 +5518,30 @@
           12000,
           12000,
           2
+        ],
+        [
+          "2026-11-21",
+          12000,
+          12000,
+          12000,
+          12000,
+          1
         ]
       ],
-      "vendorItemId": "95126284576"
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          12000
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          12000
+        ],
+        [
+          "2026-11-21 15:03 KST",
+          12000
+        ]
+      ]
     },
     {
       "productId": "5257562097",
@@ -6244,6 +6284,43 @@
         [
           "2026-11-18 09:46 KST",
           13200
+        ]
+      ]
+    },
+    {
+      "productId": "7284690132",
+      "vendorItemId": "88384609109",
+      "productName": "이노라이즈 프리미엄 초콜릿파우더 32%, 2개, 500g",
+      "productPrice": 18000,
+      "productImage": "https://ads-partners.coupang.com/image1/1pr5KU98ZxuR_Mub1kAWCfXFHRYzHlD70YwNo4qx9lR2yu97YJX78OZ21Xdy_Y7fEU93g9hfdt0ZWC1MnSAVUIqU_g0Cs7Lwlzc_t4zhgfSrUWkPdWPiTls3skZF7my110b4yo6QO7-DZv3y-IUnqCP0p798hqtrPrgaCfD2ngKuMloju6coPjnP0ssdBLm3qky-O3U06Hc6biqDFLgffdtJBI2dNIAAtwHialRo6a65SSFdhM2g7xn_7o1rjOxLFJ1vpeSS_MFwShwg5kMFJzDmnnqUMgZvXvzAObJgGAZlPayoSEeQyBj6sE0TFMX9zqtKVf4nV5TF3LXBabAKXC3BNcBjAw_sBnlCvU3a2jdqocWX9CZ7ETwZ1ukAshaQ4Htqc93JP3MU5hvBjK0WobbnaHASubYb9ClY4RwuRITNLQcFp6EkokDV4dJUeWp5g8rzM5S2POqQTayfK_2b-5IGQD2gAcfIUhJ6n71tNow6tCR9CBCN9uv3UIOfPpaQ4ZNsIKw18n_TUoQOYgo=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7284690132&itemId=21324747218&vendorItemId=88384609109&traceid=V0-153-d3c57f84ff3512e4&clickBeacon=283eb760-e571-11f1-81cc-3abcd8dceb21%7E3&requestid=20261121150239342001270376&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "이노라이즈 이노미 요거트 파우더 1kg 2개",
+      "unitPrice": 1800,
+      "unitBasis": "100g당",
+      "packNote": "500g×2",
+      "avgPrice": 18000,
+      "minPrice": 18000,
+      "maxPrice": 18000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-21",
+          18000,
+          18000,
+          18000,
+          18000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-21 15:03 KST",
+          18000
         ]
       ]
     },
@@ -7235,21 +7312,21 @@
       "vendorItemId": "86556439800",
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
       "productPrice": 38000,
-      "productImage": "https://ads-partners.coupang.com/image1/i-hKgukreQzGiwySix35NxkgQBljyqAm7H9QjpYXrp57pAQZ4y6QRsj3vNkWezWJ5zrX-pqNKvx95mGXe_h953z0bTlVEORDeg88tMN5EcywDD-6CBiAAIuWU_tYEyWkAg6OdMjoVEe6Un7CjUWLRIqxzdGemU9xSrUMdk6Ku4qvPyyz3VnX0UgR0-UldJh3SFktxGNvmgjl82_gAIsr6SkUSzK9dbFnxCe14Mgn_78aGUEt2xbLFWG8ep0kZX0PHio2Ey46l6YzpuaEGpP4VowCaVdCpypiZ29QY4fw4dd3PVsGNVrkLXglmg022Dsx8jY2Mt1TIYegamws6Z78L43cz9uqZ-ofdWUhR-gm-GdxV8dYe6BvVzrSkU2RDDnfKGJHf_JbTXQAKldxYqmzTwgBg7rEzUiPpEVqR6V9V8fzimccgZNq74bQuO-JFJjp4snd938Hz0XEueWTh4SaANDDNn6tDc_qXXWFNkg_iPIOrdZMBm5b19qnMUdNAh-A",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=e0f00480-e4d1-11f1-90ba-a3d2d6731c82%7E3&requestid=20261120200229760066133932&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/b1B3mNjmKaZHS9NcbwFrgb59FRR-Wd5tkgczZOWTkuFBupezGA63y2uFQHltP-IFGAt6VBMpQ_s9GXD2LTSnS71QtpAtZwyLBrteXB-9B_pKKkUeRWwS46YUJ8vWR_d1sgE7iodBHd9q2Vj4dE95dQ53W2QvUjZavjR3F-1UjHY9L2SZSYYO3PibTmFc9ba_sbY_dV7wswRpf_Jkl8um--vynnQjZuVtH1K37_5FqEFl-IHe98CL8i6P6xCiCWKaJH2KIPlhItIs3lfddrNWKx6cZrJvWkhfRnAOmgskHdMK_OfPj9_ESSemk9ZJZyK1vuy0_uXQYKf_G2kW-ZzG6NbOCjIjohyddFPs0Fge5LRb6uqVsUuGlyfvkD2VydYlHCICfZucLRc1Dxt2MPpr35GAzuVZSoGfwBXFswZwp4JzzyK4RK2JHvQRbUv4yxRPTD1NRijC2lqUSobiPxT-6O8U4IuXRiG6iW8PB-BucCZs4CW0FPVidCKdt5aRf-pWuw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=191fdde0-e571-11f1-b109-422f2e37e3ee%7E3&requestid=20261121150213994181847252&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "서울팩토리 자몽에이드 1.8kg 2개",
+      "query": "서울팩토리 리얼 자몽에이드 1.8kg",
       "unitPrice": 1056,
       "unitBasis": "100g당",
       "packNote": "1,800g×2",
       "avgPrice": 38000,
       "minPrice": 38000,
       "maxPrice": 38000,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7274,6 +7351,14 @@
           38000,
           38000,
           1
+        ],
+        [
+          "2026-11-21",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
         ]
       ],
       "priceHistory": [
@@ -7291,6 +7376,10 @@
         ],
         [
           "2026-11-20 20:03 KST",
+          38000
+        ],
+        [
+          "2026-11-21 15:03 KST",
           38000
         ]
       ]
@@ -12211,21 +12300,21 @@
       "vendorItemId": "71206388744",
       "productName": "우리차 돼지감자차, 1g, 100개입, 1개",
       "productPrice": 8050,
-      "productImage": "https://ads-partners.coupang.com/image1/IUhjrxmZW6ugC_IAIVrBLMZIPuu2R9i351gVFGCdxIOhhkcDz-j2vkUVRPXhGifmP1J4TXWCm2mh9Rlk68RBIUA1RrQPriZWeOB513wQ1w50nZGOnElL9WoKT0i1nvbgS_b2frmmhKWGCUp4YfAHtIu4mMlEBq1pDAnzeZdqHCmUwv5M558_7QBp0ug5sbAA3_OCfn_TvsqJxZni3lMkfS3uUqTtpCuiUTzeJPmd7iojmox8hbaVVb4Y6DMzA0sczUkru8quRQQADe-A962shzWS1nGmaeZit-zBEKALvhyHkXA4PMPOahcJeBjwKaA1pa5RorKGt3DptlxkkbhrqKECdNY7AiH09r9tS5tFrc1QjvpvqMK4_r3f6IATd9lI75i9nwy9Q4ub2lFRBYjSv4UEULTCknHnHnbbJowMru8HlTBu1fdsUsHuUbiHQMw4_Hf8wzFl9QEK1IMC1_ASorHDBk8Q-lECocTijQMLWnGSPzNDO_T24O5_UoJDw_hl7W7Jzxjb4zsjpiqtbSOyqNBNS_t_ao8sBS-m3iW0Hf1tws4wl2m2VZk9ssEMjuCDG9Ub",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1894828334&itemId=3219107134&vendorItemId=71206388744&traceid=V0-153-46f5b99ec9242d71&clickBeacon=5a28d4f0-e345-11f1-9481-c1a9191954cb%7E3&requestid=20261118204402937297877383&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/GZ8rSflK60_PBGpjGSSJu2dyyvdxog2-0SddSjMtTpYHW7GVejyI4QhmApnBgj9omuczey-RHqAf1vMCm8f6yqs7wQ_pwA8bnIETpTojJgKxmiD4V8ENhO1NwMFnqK4nuZyN3OhFzY9mHya0vok2hxaXLdBuNNiRYizv3I3VxfXbkMiQaNUYnDz2OUTifHGwq7q1J9e7ZVkX7RpwzXkj1ETouawTYmL9kVZkedVyij-W33ShyvPw07ADfHjHX88QPPHNGDPLzs-GMQKZS2kHGarUNxdnz6CEbYjybbTXd2Rydk94QhSqTRwTFNYdsxoUkVLvdFdl4XK7qDKgfvNn6GzH8itwtbp4JntUt7V_ME_8AsVFE24SyqvhJMnivCNkg94RWqqP2gRLE8S_uFiDMheoBRjzG2zM544NJKQs6PjIf0oEfJkJARKCIOqNQv6GzNwgsOqHrRDYj1rRGZYBr1vY8r4fFqr7wz8M2rAlUfoYZqQb8xEDFKuh5Qakd8wpyhnyoc0uWmlq542aSd9QW0BwYuSfVmDD4B7BlbY0haJmvMZdmAuAYetv_uGK11rWdy-x",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1894828334&itemId=3219107134&vendorItemId=71206388744&traceid=V0-153-46f5b99ec9242d71&clickBeacon=2d64ec50-e571-11f1-9300-a45b6c722376%7E3&requestid=20261121150247993001272131&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "티백 100개입",
+      "query": "우리차 우엉차 1g 100개입 15개",
       "unitPrice": 80,
       "unitBasis": "개당",
       "packNote": "100개입",
       "avgPrice": 8050,
       "minPrice": 8050,
       "maxPrice": 8050,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -12242,6 +12331,14 @@
           8050,
           8050,
           2
+        ],
+        [
+          "2026-11-21",
+          8050,
+          8050,
+          8050,
+          8050,
+          1
         ]
       ],
       "priceHistory": [
@@ -12255,6 +12352,10 @@
         ],
         [
           "2026-11-18 20:44 KST",
+          8050
+        ],
+        [
+          "2026-11-21 15:03 KST",
           8050
         ]
       ]
@@ -14286,6 +14387,43 @@
       ]
     },
     {
+      "productId": "8466721964",
+      "vendorItemId": "95561013371",
+      "productName": "자연닮음 볶은 우엉, 1개, 1개입, 500g",
+      "productPrice": 11250,
+      "productImage": "https://ads-partners.coupang.com/image1/QMnAbsUmiMkg1y4RQMmrWnWA8K8ObtSKAIuY9qqyQiuMt5mHMZy1A8BtIdEPDkhkGYQfoiM7_WrmcyN-QAOP--1Aj_czvfLk8_6QW7-UZcz3o8MlCLx2QJ6-wlXgV6mkrNjSiZweJfDk-KacUhNZDBgPff9nX0C3UMgd6_KnrHk2suY3ShW7ey3bYZlmjx8ONlhNtaKPPYe2Q1cv3qQ6g3hW6lnmKgV0a0QdnF8EHfLSS6_NHdKiYVtaPY9ox40QAI5TF2f_SFNjk1mnXTr4QEBJab-nR3ivCcbpF0hiVZ3Is_6CXdqd33lVjfO1HnV2-4lx6q9Ln0bZ6VzwOyndcZkKmtUC_zXYJn-VwxhvXO5pwp44v3jAiQsW6tkACnGEJEjJDF_rAbfS3afyDsMVSCH2CRXzvc3H85IL61CNefOGGe61ohisGLtcAGdVFfF89OiVuXLca_7uzNBsnvedhOlzufxfZInwAcWAZwCyo4EN52A9GHD6NqEy4_xkAw4gmHAHuvGJG3x5jhm-L9i1DFtXCBcOva5MPU7QfJ74ZdaFqXufmdZOkLtGtw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8466721964&itemId=28617709166&vendorItemId=95561013371&traceid=V0-153-31549b9dde17897e&clickBeacon=2d64ec50-e571-11f1-98d4-6d5c2ad099c5%7E3&requestid=20261121150247993001272131&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "우리차 우엉차 1g 100개입 15개",
+      "unitPrice": 2250,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 11250,
+      "minPrice": 11250,
+      "maxPrice": 11250,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-21",
+          11250,
+          11250,
+          11250,
+          11250,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-21 15:03 KST",
+          11250
+        ]
+      ]
+    },
+    {
       "productId": "1365210915",
       "vendorItemId": "70392219224",
       "productName": "성진 옥수수차, 1kg, 1개입, 3개",
@@ -14512,8 +14650,8 @@
       "vendorItemId": "95941743717",
       "productName": "아이팩피앤디 무인쇄 종이컵 180ml, 2개, 1000개입",
       "productPrice": 25000,
-      "productImage": "https://ads-partners.coupang.com/image1/56_lChayfkxn8ilq5yEgtdXONynJHxsPNWOEt0oQC2dDahLKeP73lZCgV_dc1VNrIE8hM2LNN1r4pTACQP44qyQFcJyxbG5-zzeURV0inGdRx407QERKn13lqq9iZyYUGfLNANHSCfSdlXupD71e12Vf-eDm_7I7Ge6l-D72VfMPq2xF6MdIRdwW2wxFXsahcC80eJFLSxVWsTY-rgKleouiVe0jirPNM3SVdd4coqKSy5SgQAiNSENiK5LdPX1gueV9nijJ4WMAradZx8Y88wJbaucZLtkwf8Y3LJLlG3ph07g-fo75IV-HLRP7345BMNEKS5P4Sjm5t8KNtn2UbDU-ecIcEwMVZEPGzz-oHTt4V4QEA1zolj9_TfgYqUxGFNuVQGivw5Aoks88X_q-A1uRO4KHQ5Dy9PTtrLA339yqRO8Qg-u_-wtAX7ikWnIjLx91iqLX2rMJIEEarlsnS2McprJsJ4D25ulDFELizKn1sspBfacPHAzzffzKafcyPMX4FTyzQ-gOLLwjoPqWK1D26IzJQhcnKQXGb5QqpT9uB-ga",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683775981&itemId=29013706308&vendorItemId=95941743717&traceid=V0-153-258fafe3b249be9a&clickBeacon=6a99e270-e3bd-11f1-89d7-874dff0b2ce3%7E3&requestid=20261119110330138272590343&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/8KWvjH332TMSaftI8M1SDH_1FqLE8jH1c3xAcNx8ZwmkZwaTUOhnl9tzmqwaiDhLOOxWH8bsBkMlRXZeQCwKUprFuRzt6QjxPO1zac0a2_ezOOCjtyUjtSMLDqutITC0tuZPRkl0xTYsxiopxGoIQ7mOCEDvCRKLLX0bVIzjXS9OOCOQJtmf9g1KRIP-zsj0kmMmNP2wFOQ4jUMu58UmGgH6ookijKC7b3o_6Itw4zbUnr2-_tEZ_0YKL4G4FHTe7us9_cIFDkZ8TgTtda-G5Iy1rMX489smIXWoyQ_Db8EeGL6RluOKUWIyz-ymD2s-XMfplLrHCTFYDnbOH2pEwFg-N8orTFCcU_m-woXd-1tr_i___N-MQWrf1PUJEynmm-vyC2l_-GNcf2P5jeG-YH0hXx3qdorVWfutHOzbOi9sTVqWTppW-CXi8W7pa_Gou7LEbHkSl__3O0p23s1g3-EBdrsAtUJRgr2RcvTTf9aQt5Ht15AN63naj5_amqiNzPMnsgBwK-Ls0gN3ESpq9yVrBtLm2v7w9edqwECNXSSHp_I5",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683775981&itemId=29013706308&vendorItemId=95941743717&traceid=V0-153-258fafe3b249be9a&clickBeacon=3c879660-e571-11f1-9296-f44ec9469ac7%7E3&requestid=20261121150313382244473382&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
@@ -14524,9 +14662,9 @@
       "avgPrice": 25000,
       "minPrice": 25000,
       "maxPrice": 25000,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-18",
@@ -14538,6 +14676,14 @@
         ],
         [
           "2026-11-19",
+          25000,
+          25000,
+          25000,
+          25000,
+          1
+        ],
+        [
+          "2026-11-21",
           25000,
           25000,
           25000,
@@ -14556,6 +14702,10 @@
         ],
         [
           "2026-11-19 11:03 KST",
+          25000
+        ],
+        [
+          "2026-11-21 15:03 KST",
           25000
         ]
       ]
@@ -15879,24 +16029,32 @@
       "vendorItemId": "91186707455",
       "productName": "개별포장 일자빨대 블랙, 1개, 500개입",
       "productPrice": 6500,
-      "productImage": "https://ads-partners.coupang.com/image1/MRR7sJlm4wfmT_1dMVDr9C6BRVk-A6fPS1OvdeZeYVrDt-6rMEGgnQ8RC0z7cCbaP-KPJFsZcg6Tu8olqdtfKo1KoIIrnv-uBTnnjdMVR21qcXvGHUFNP2tQfnJgb5sSD7TD_qr7ye7LwZjmTWF4rfxB56Y2izDSl0ebChA0kRlF4PWHFoM-hCvQr6qNVYNYZIrqkmrvhNLgpQVQTu_3LsU-pTmDKkdfZuBeW_7SQVvUzhTqfiYhqxOBfVLbJ5m7youEMKHBo4L5iFdfigTm94sWFoWznKZe-0FuZEfkoJtTuKcJBQ3m9pARO44049tXxFd6Fj9QTQV76Z8ICecJbvmCC5TFzmQ6jjbTP0_DbUabW3mlygAwcWlALVR0EVERYnxF8q5o1yCiNvGe76xSwz6qHE1OL5mJDrTwkImncv8xvbwW0BtifpsBnrwCeMf7BfkUyNid4fyYB-QHEpUO8fYFkW2c8oDhVjDkRmwa-85HzG-mnBZGw_IhF_MmYyoM",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9724890424&itemId=29102070233&vendorItemId=91186707455&traceid=V0-153-01194a2f4cbabe72&clickBeacon=9de4d7d0-e1fa-11f1-9ad3-3a3bbba7d8f6%7E3&requestid=20261117051633165203345941&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/xWsVU39Lzs_vDbztxbu1UT0XLX0sftpjC4Wg185qNvqt0wRq4lgxcAFnFKGqJwGvaBae5XY53Dk6jo4VN-rgZtbcvOqOOkIlwuo6mZOocxOb2amcZ-aLDzAxWZD-7myumfnGgw-ColDMQdm2eEzEos1TU2zyDFmJYQoCCw_NDug9wj1g5SlULLkeSqRBIh5Ft2x6YN1LPAHQyFMLDYAxCPfY6mPASF0-wjW3bPf7GcXEoNaw20K7zUVmq9kt0Vlz5z_-CZC6ch4ZvI-TcXlyxO8LXNtH-rHwm230c5M3xK1mtxoL4a--qkhRRSU9f1Hmt4uC2ZLZ-FY2CmRC5HYC8WdH-LLvijivNgyGq2-X4F0frNUA40goFh8A-p_V6qObIGgvk_O8o74p6E418SiGPySZ-jz6REtPv9HbYfLqIWi2iuyAJlujMnuGIURoF9mYoDSJGVjHMal4CPTtGYA8RZ0rO25Vq3pFz9-KZ3I1b1CKvlf_QBxm3D6SgJ4EhYQ-",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9724890424&itemId=29102070233&vendorItemId=91186707455&traceid=V0-153-01194a2f4cbabe72&clickBeacon=1e280380-e571-11f1-ab23-8984ec588f4c%7E3&requestid=20261121150222405073193240&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "개별포장 빨대 500개",
+      "query": "일자빨대 블랙 개별포장 500개입",
       "unitPrice": 13,
       "unitBasis": "개당",
       "packNote": "500개입",
       "avgPrice": 6500,
       "minPrice": 6500,
       "maxPrice": 6500,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          6500,
+          6500,
+          6500,
+          6500,
+          1
+        ],
+        [
+          "2026-11-21",
           6500,
           6500,
           6500,
@@ -15907,6 +16065,10 @@
       "priceHistory": [
         [
           "2026-11-17 05:17 KST",
+          6500
+        ],
+        [
+          "2026-11-21 15:03 KST",
           6500
         ]
       ]
@@ -16023,6 +16185,43 @@
         [
           "2026-11-17 16:49 KST",
           7580
+        ]
+      ]
+    },
+    {
+      "productId": "8449935131",
+      "vendorItemId": "91608603860",
+      "productName": "제이디팩 일자 빨대 7*210mm 검정 개별포장 500개입, 1세트, 500개입",
+      "productPrice": 7600,
+      "productImage": "https://ads-partners.coupang.com/image1/Roc5IU0-evrNoASZRk9pCWsk_VNxeTl4euuqdsguzRNns3lkhKcVz565CgGBNQOYAU-a88JtarCk-jHq7Wdl5kSnlSHyNFwKZ8nC-OeUYlfTxXuH1sukDuXsszWdQN1ObGWN-pK5txIIEOCheDJXWm_qsEZmgIH3fbmGaF3IJqUY2R8nkEKGWlYqEYn3NziNodKFmXQZjkrVKG9ZVPIboxMCKEKDxf-rAAkpoYR7Wq-ayeobdvdaaW2aNpmBtPU0TJka5nwkzjEHdGSdvNuYHvXSgEdKP6KbE3I-97djnNssGxFz-N8_meg-uSVNmWUUa8CjCH8c_ztFu6zuKiyrXG4s6PgXyJJ1dETcPTRK0bHLC3Ew_Wsc76GAqldRI1MgQCrsdXo_zUSTWumQ6hzB5D4Uts8XIY6TlAiehKrPfSL1jWiZn3XSd1OEMqo6MJ5VyOcTz2G_WKKDJxZ9knx1IX7lxMZkm6jR8-_8okD_l-_ku48wvI_BTpi-P3KEMxmyfH0AkPuhz4s9hMMTqs1dlw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8449935131&itemId=25009362664&vendorItemId=91608603860&traceid=V0-153-ffa2809752602aa6&clickBeacon=1e280380-e571-11f1-9b3c-13a16040a7c9%7E3&requestid=20261121150222405073193240&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "일자빨대 블랙 개별포장 500개입",
+      "unitPrice": 15,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 7600,
+      "minPrice": 7600,
+      "maxPrice": 7600,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-21",
+          7600,
+          7600,
+          7600,
+          7600,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-21 15:03 KST",
+          7600
         ]
       ]
     },
@@ -16358,21 +16557,21 @@
       "vendorItemId": "89277442013",
       "productName": "네이처컨테이너 일회용 벤티빨대 개별포장 25cm 블랙 스트로우, 1개, 500개입",
       "productPrice": 12570,
-      "productImage": "https://ads-partners.coupang.com/image1/utb1Zd_rhQAloPlTuuZjHtZMQSVeanPxm5S3G3iqWZWoo50sMDIbozDj4K2mq08EO4C34EkRZ63jMSPs6SrlBvV2BOY7sgh7KLLMPwGWfKhRAdXvjU9dN6FQCMKHRYc1LjjSMN0yFf_-G7qL7X8DJm06Hi9Q3oE7b63Vq54w00xUw3TxzSKLKynDl_8l1eRYfAnBQWALy3MFpo-e67E1podkVvrfjc3YmemqwxnQr1QDCOx6z45IgNmqq7iFiOCb0hsLxcKRL7sLAeNxvksxbdYGjyfh9io7Df-NqMnDO5rLhEDagsqdW-XITtIK_CVTT8zHh_QC_QL-8L66kJicq2R5VdezfJ5yOV9jDtb9_brEJXLLsn3YgKGOWxcF9jpJDw-kFmfnHQQI7elxYoKvZgSS6lvp9UhgHURTy_ePOsmdgSsY_COjataA3qaybAI2aK4jmHrU8pqOyjfRFZ1DYGe31Xa9H1ueenI_EjMTIvvuqDXYltlSL74LmLHAXribhrlnT63JIIDypf6wtbNNcteFJoTrdDYgCQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2273239739&itemId=3899459659&vendorItemId=89277442013&traceid=V0-153-3757c3786aa61699&clickBeacon=f858e1c0-e31c-11f1-b245-621a18230dad%7E3&requestid=20261118155458979150989393&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/8W3xkNygbLu4FyxW8UgIjTbaff-bQ2VkXeuOHWuxBEtnBTmQWZkf6TbVHnGHsXe_wzvuPkO5bkyU2dGclkIPzDKWybaywQms9RmEHV4NoD5SCF8yP9dSh6iZSTia488-oasop3x37exQThXtvxp6WQTEA8eDFLH8RccJfB1wSkcTowkogn3F83Da_JQP2n5iDpR_6rtQ6IzOouXIbDaYx02qEqp4cEG2XCyqLHAgcAMoeOlyz1KQ3ypJxFj6pHBVngFKBgI9gV-yDPpWQUU7x_Cn-xgZZU_mMQEP6FzWuxRlSpHokF8BqCT01EyOXLNW9ehthE8jvv2BZOiFedULNJHTNFzai7_EWDHLkgFHhsN9xfIxXe6ocqfloHFcyCi4sBXboU2FarLTkvSHRLD1Yw9GcOPnJefRgsNQoJa0zLkTy8qUZyYMZOwYrABy6sTCdMWon6fUpRnQT0gZ2J4wxlNOSBtdsutS1hls51VMgxWm5exBlbYDL-WF8B93kSMsZb8caUaHeK3Q8490rb_PyB0=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2273239739&itemId=3899459659&vendorItemId=89277442013&traceid=V0-153-3757c3786aa61699&clickBeacon=1e280380-e571-11f1-8736-1eb37a60bd1b%7E3&requestid=20261121150222405073193240&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "빨대 5mm 1000개",
+      "query": "일자빨대 블랙 개별포장 500개입",
       "unitPrice": 25,
       "unitBasis": "개당",
       "packNote": "500개입",
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
-      "priceCount": 9,
+      "priceCount": 10,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -16392,6 +16591,14 @@
         ],
         [
           "2026-11-18",
+          12570,
+          12570,
+          12570,
+          12570,
+          1
+        ],
+        [
+          "2026-11-21",
           12570,
           12570,
           12570,
@@ -16434,6 +16641,10 @@
         ],
         [
           "2026-11-18 15:55 KST",
+          12570
+        ],
+        [
+          "2026-11-21 15:03 KST",
           12570
         ]
       ]
@@ -17472,24 +17683,32 @@
       "vendorItemId": "96117405557",
       "productName": "[국내제조] 플로랄베이크 M자형 PE케이크 투명비닐 (50장), 100개, 1호사이즈",
       "productPrice": 26180,
-      "productImage": "https://ads-partners.coupang.com/image1/nkpbN2jTKzMMnJsBnpwiPnDjP41jwV2AwBO5XijiUZsiCpFQR5U2PHwNIpKPFBUe0aj8bH5oT3Tyj6lON5J-WALahI9U1lqPhhORNINmGAujJTZVz_inQ1esb9dNwgQif0ajFGG_z96CY-e4QKW0eO5gdN5VPwhTSWGbPJ_QI3dxbHP4nL6kBQ09s5JOeu-NYoEM7_yZ59oeMR7Z3f9OLfng85nvTp7oeGxHOYA1Kv6tKnVX2fX5mLyXqIpF8b7KN3qN_kA7_PGU0Yw_0tvbW1GwRhxVoSX0NYCZbEZGAmPaqguDtzvLD3L_UuIZVpK-Vex0N2aNM7pwQFbURZIbbs-3Hg2wi_epjIB4JhjajRbeYVZK2kRNvf-nCqUKAchpGl0rCijo52yQQgXrQJq4VlWNebxIwIAUirlfeM9S2pjLjrsUieMVrwzdg6J4mhE50HH6T249nQ1b526ZYBdRvQ1BV4BjP38SX65g9iGOzQkNzcLZn3OEZvbf4L1tZbxirFxCSXf4r2RMUdluxne7sAT8fBljf5eY2b5Wq6ALffY3JCmCXROmxrlgVN_X2NNXFRlMZwPBctfkM6qZotmDY3SbpA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9749776470&itemId=29196842536&vendorItemId=96117405557&traceid=V0-153-4375e02b50370560&clickBeacon=31107f20-e203-11f1-9902-82f2c734fd26%7E3&requestid=20261117061756055181858902&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/QLNLN7Rgy2SEosRDQLbm5eI6o5WSXqxzsj96zza8MqIk1-Tcn6C0Aw1agUcICaThUrOYo33eED-q9d9vvNUJUmZ_B9rhV6Q6N3RonRaE0CdzZVDeyHku4Twkh3W60CMuH3ZyJJKPdY0sIbJecybsX_n8sSC3SpwMZJRyzps9iALFASp6ao_P0LvxHV91P6XXoGI2Vgfusj1vymOuZh5nKcO36IXrrMygNUjL3fKw5lYGCn2dQNlCQmDd06K-aBa6BpFWJgcDpUrRAMaFtI1_3p8UwyACoTAzFtgo7Qx5CJcRAFgIFWUBgTxK49h1IdNSlw6Tj_ZlMTX9B-OtN3oXEcWKV8pQI7n7HcSH6qs2HyulUnbbHa5ZeRMTnUpr4qMd2pt7q66HpWExQYMOeBp7ruU73Q2ACN1XcrqKZ3jbFBAYnt29kfg4jFEYrt9qY9LX9Ry9gybjPT7PCd7Q6tbbLDgW_oBYSMfkqny3dQ_bKsBAt9GL0GoZumw_cfUfJioRohtsfCnApBtccakGIg3BQj3tiFF0FLS4OGFqRU1p89-PLSpTY03L9Y2iP8VfBfM2k8Gu1VYjBC3oRL8RfoK0z4bj0w==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9749776470&itemId=29196842536&vendorItemId=96117405557&traceid=V0-153-4375e02b50370560&clickBeacon=233bc1e0-e571-11f1-bce6-954fb003eaec%7E3&requestid=20261121150230972135103832&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "케이크박스 100개",
+      "query": "플로랄베이크 M자형 PE케이크 투명비닐 50장 100개",
       "unitPrice": 5,
       "unitBasis": "개당",
       "packNote": "50개×100개",
       "avgPrice": 26180,
       "minPrice": 26180,
       "maxPrice": 26180,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          26180,
+          26180,
+          26180,
+          26180,
+          1
+        ],
+        [
+          "2026-11-21",
           26180,
           26180,
           26180,
@@ -17500,6 +17719,10 @@
       "priceHistory": [
         [
           "2026-11-17 06:18 KST",
+          26180
+        ],
+        [
+          "2026-11-21 15:03 KST",
           26180
         ]
       ]
@@ -19082,6 +19305,43 @@
         [
           "2026-11-17 14:11 KST",
           18280
+        ]
+      ]
+    },
+    {
+      "productId": "8657609121",
+      "vendorItemId": "92126809164",
+      "productName": "천운패키지 케이크 상자 2단 2호 + 리본 세트, 투명, 1세트",
+      "productPrice": 4900,
+      "productImage": "https://ads-partners.coupang.com/image1/8MEYmVLKMnHANv5k8DrGfY2O87Wf9ZDCbl1LOiOYHuUVCB_q5CHj9x8ZAePPYaeqUqo1RRDlsy63iZz1lxGH6J5gI1U6UtZxu47PS2t6OCF82eLCYMRUM95uNADsGApahCQNbaiLmHW2YSmy_ZndPRFKXvY559ZRWDUqn156VBn8rXQm600bxcQF_ZZXPAFlVO5RAGIsv4joK3-Woh1QG9YTCz1fG6ohfR_68EQ6I9qtnVtxGWxaWljIyJSx6bFwG9CJsqvAF9ExRY4K0oBbvf3jF2Fa0GPZx8_xf9BPlk8NqY8IF0jWP4hlFzapYaC862WS_zMKAO2sAJw3s2PIccuFUbABi50zB2NjG-F2jluAtFks9dtSd_DP4y1PZMGGzL8KSZULm99jubS1LHvtUil9U43EKrrTKykzk35qy2P6rEo9x9JFAPbS0eq9dhAlbpNebl55mJOO7fZcarCTebU_vlFZZ1txJAF8qlCpoEXRRCuuXQLR-QNNB5qfHZtpzwQ_95tTJbNolUhD7mnRGHjjUhXYtLUlIOmiS_qcvABOAaVVR22oudNkyA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8657609121&itemId=25127612678&vendorItemId=92126809164&traceid=V0-153-c107f7cfb738824e&clickBeacon=233be8f0-e571-11f1-819c-7f8c01ab4a79%7E3&requestid=20261121150230972135103832&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "플로랄베이크 M자형 PE케이크 투명비닐 50장 100개",
+      "unitPrice": 4900,
+      "unitBasis": "개당",
+      "packNote": "1개입",
+      "avgPrice": 4900,
+      "minPrice": 4900,
+      "maxPrice": 4900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-21",
+          4900,
+          4900,
+          4900,
+          4900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-21 15:03 KST",
+          4900
         ]
       ]
     }
