@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-22 20:03 KST",
-  "statsAt": "2026-11-22 20:03 KST",
+  "updatedAt": "2026-11-23 07:03 KST",
+  "statsAt": "2026-11-23 07:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 457,
+  "count": 468,
   "priceStats": {
-    "products": 623,
+    "products": 634,
     "discounts": 9
   },
   "deals": [
@@ -266,21 +266,21 @@
       "vendorItemId": "95276209255",
       "productName": "와치아테 멸균우유 3.5%, 1L, 4개",
       "productPrice": 8800,
-      "productImage": "https://ads-partners.coupang.com/image1/HrWGgreOheSA1YmwHhvOG7dLwyurTIijHToTj3FZ3V5-mgOL0rHz5QmkE2Fsz5iGLFDMgADn8awxHGL2QkkA5Tiify-tZxYIr-f1_E8g-F3S6rZ-DzW5s6rfBd_gmnOb972Wiq9WHM_uJOsvymTriomsTN9vVE6wm8MvcRbsIjRJUihJQT0tfUdO1qgxrXYWMCcR-21YT8-7UUyb6aDi5dakkopPjk7BDuPAuPxfY72YTw6PwEWmy5pWC6xmfPHiKeKB1bLRDDrp4FXNg-mon6L0j2KvPlQRbAaeOZjhBlk0D-ox57d5HBRb3LnduhAZ5jBnwD-AvfEeAxdMkGrMomP3CKynEdWPfiUSklv5HVOvXh7yuA_NhdSE4brRqVNGMuRdxT3FJMl86JzrhpJ9EVMZcL4rYFCcBR2wpnzDHF7dj9ZAzXqlKE4GVf4tTwrTCLwP0FR4R91abJ1-6nolDNcxeO6sirFuJGJ1XM-rX3Y-vEjGnaeJC8tCA5vMdBd9-n7usMWgfS9plgzDzPx0K9b9ihqrifvKLnqVSwsv_KSW3on0ZIwZFsTsqskZLW9dT8eAgb8=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7677418520&itemId=19468117692&vendorItemId=95276209255&traceid=V0-153-95e4c7c03652b8d2&clickBeacon=6d639770-e486-11f1-aefd-ab3d74a6f519%7E3&requestid=20261120110223648092308166&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/lBiPVTiuxqjY1kIHlHMLvD2ZctZolnEQ3yzrfmGtAt_CKG3BtTWfBqEnxaeQ_EfOWimXT5FAEjN-sQuPa0dobW8IWw1pILVqiJRC1VO6bUO0Q6_2_xr2DPDMOHUTFuIKmWAEQeK8-KcnL8HDlunIjB-20svARz9ajTu1Rnd2GzWaqNo3AOQqjyKun39T7LIsWdwsA2P4-kI1A_oL8T3NtDaRKVql7JSAvr7vKb5_1s5a_Cvz18zNd_uEQ8VtXIGdz5ZFOq_KXjY6BJLR_DMDiGB7YDP5u3szNdc325sz8xUiHDrN6V3i9tAetXUz_HkbaKMwlB4CVVOAknBhg49Q6sNyrjw9R7qKRfVfe0Kblq8j-0Fl6yQfamrgtnY7WE322DGJxUy717_4dRO2XAOJ7f3NSHND76YX_zxUp_W-45a74EYuVixum5vmo5fnJEayTc1qbS82bCqdoCMLQWDWcd_-dPoIr1I_3KvcQIpbIpS1atLMijk08lqIC5YbN3WecUesTNbqKA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7677418520&itemId=19468117692&vendorItemId=95276209255&traceid=V0-153-95e4c7c03652b8d2&clickBeacon=59b24280-e6c0-11f1-8233-2a6d90aaf8a8%7E3&requestid=20261123070203711060761835&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
-      "query": "멸균우유 1L 24개",
+      "query": "와치아테 멸균우유 3.5% 1L 4개",
       "unitPrice": 220,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×4",
       "avgPrice": 8800,
       "minPrice": 8800,
       "maxPrice": 8800,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -305,6 +305,14 @@
           8800,
           8800,
           1
+        ],
+        [
+          "2026-11-23",
+          8800,
+          8800,
+          8800,
+          8800,
+          1
         ]
       ],
       "priceHistory": [
@@ -323,6 +331,10 @@
         [
           "2026-11-20 11:03 KST",
           8800
+        ],
+        [
+          "2026-11-23 07:03 KST",
+          8800
         ]
       ]
     },
@@ -331,21 +343,21 @@
       "vendorItemId": "95281797290",
       "productName": "와치아테 멸균우유 1.5%, 1L, 4개",
       "productPrice": 8800,
-      "productImage": "https://ads-partners.coupang.com/image1/Icy_GUnI_-JDorXOIaLf5nUTfjv68PjJWgr9FDrCeEWJF8LcJMWmdiD8s8R1CYxmk3lCCHDQd397sPqwij2CjWe-YhNhkmSCx_Mk4LURuSM-o8BNNYcQyEtC_-FtOP_N_m0lG52EqfGBgXwzoMh5J0qbufHfaovfbEaq3o9IrrhVWswb9PQ_x8RpBtKlAc89pTOC5h-aMsPNirwCAJYZE4e1PPs476a9ybvkiyv56UYNtkeheYh6ftI5E-nlvV9ayGHSXeFwkW7pXRSumcojyz7ivAyBtdc6hY9z2k0Dc061oiYCRAv8nOZuA8RW_vrnNrw06ECGLz7v1GzQmhvdxsI1DqbZpP_Ouz92KbOGSepOoZoWhZD39bnmu3uAQHADQB3yWlKQXtdLJOglkb6fPLuCHJDe0-J1BFp_BZCHQHRSu1KkvcbvcZJxQUrVKW1lWotv-tusWdIcjO0nhMuGF8p6n6nuM9QlUDs48Wp3u5AVe92jf7rzeZOEI798Q-BhxQpFavZAEQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9060991879&itemId=28329380574&vendorItemId=95281797290&traceid=V0-153-d32094fc5b74c586&clickBeacon=3d235ca0-e52e-11f1-b81a-b1b25c60cd65%7E3&requestid=20261121070338152131188906&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/mC8Kok4b85E85ooamN9Q4NZzjb4003EL2biNVp8kkjgmGbsbT4Bw4FyxUX3wCk3PPKS2_7VEYuQf-RBtq4mnFCmCEOLK0JQrE1UnmMuUhFLF7t5w5lxTKxnnoCIIYy5vobaX_hR9iYsC0hz7f6ZO91j3ajCRxXbH5AAOoJqMqvPXuffBSH6Z1GpJ3ruFkGzqfuQtmr_d7l0Q-fMq2qfUbd_FCSPqf8rt4aTGFnsNJc79G5zsXAk9_-cnjsfAU0JCqbh2qWTuyicS5apj-PdFiwXosC1GdmNne_1uqmy3OYhwZXi4GRL_1rAKQZjobDZP6CEp-f8GVcPP05oXTDXlUd83XbxnmnXpN17hP-bjpMu2HMnxw9AQh0OUleX0Yl5Xy0ZntN_HIQAOaiSv6qb_y5KN38TfVyifQEW4EDm2svraPQThKiuYMzwRerVI3kDw_-aGdF4_MhxJfWyts_Hwsm77IuypPMLpNxEndVW5Gs8rz0XsXqINqDlSIHcDxLsFRiQ2Py-vcaKx",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9060991879&itemId=28329380574&vendorItemId=95281797290&traceid=V0-153-d32094fc5b74c586&clickBeacon=59b24280-e6c0-11f1-b181-83f5ff7ee24a%7E3&requestid=20261123070203711060761835&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
-      "query": "와치아테 멸균우유 1.5% 1L 4개",
+      "query": "와치아테 멸균우유 3.5% 1L 4개",
       "unitPrice": 220,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×4",
       "avgPrice": 8800,
       "minPrice": 8800,
       "maxPrice": 8800,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-18",
@@ -362,6 +374,14 @@
           8800,
           8800,
           1
+        ],
+        [
+          "2026-11-23",
+          8800,
+          8800,
+          8800,
+          8800,
+          1
         ]
       ],
       "priceHistory": [
@@ -371,6 +391,10 @@
         ],
         [
           "2026-11-21 07:03 KST",
+          8800
+        ],
+        [
+          "2026-11-23 07:03 KST",
           8800
         ]
       ]
@@ -1843,6 +1867,43 @@
         [
           "2026-11-21 20:04 KST",
           15960
+        ]
+      ]
+    },
+    {
+      "productId": "8974062474",
+      "vendorItemId": "93245387092",
+      "productName": "인도네시아 프리미엄 로브스타 저렴하고 맛있고 고소한 커피 - 브로일링 직화커피, 1개, 1kg, 홀빈(분쇄안함)",
+      "productPrice": 16790,
+      "productImage": "https://ads-partners.coupang.com/image1/CHufSM1m6ParzOwYCLrdQLBCeBuWg4yHS9tKon4Hye57kiAI6pNnjfVpiv4FanxzFYvU0mfaoKQGNUdK1kbJXXxOzejR3B7wuRivvFzEQZybbEUJyuA57I2WRZVVdPxMOHfOqBKjOIcE91hlNVopys5oyYR9Hs0VxVmsjSVrQ2VUgn3aOFK6upCttXWXTYoL1fFLeY1oltAccJFhQKW6D7G2LAwwMo9ShXd_xLRqePG1dUqUbN0SY6P7MPRE1MplRhtBkFhIEH5OlBLUedN1-QbQubpqZcqHuCkduUs7KS_VPV1shrBi5jXFs3h6GxIgkIXgEjvLWa6Fz0Hyp2fyjSGr1Bx5WJpp9QVF_FoPOcRDl26_r-mWy5ingtyfHehCd8BXzhEC9lk83Qi5h4FnP2gFD9OdjqJAdQJeMod8iSfiboeKaVSogCHKQdUMGqWAUnNTTOvsuxNhAvYvHpxJQUwVjF7GLPHLCc6hlYFATHbZ9kcExYgd-G5RFGpVITe71Q7Nwt2HGMkXSQoA4cBH2ug0C2LqwvCe",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8974062474&itemId=26267170130&vendorItemId=93245387092&traceid=V0-153-c4e9a98c779d3408&clickBeacon=77ced8f0-e6c0-11f1-8856-2a3a56afba0d%7E3&requestid=20261123070254256091301047&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "원두",
+      "query": "브로일링커피 화로 블렌드 원두 1kg",
+      "unitPrice": 1679,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 16790,
+      "minPrice": 16790,
+      "maxPrice": 16790,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          16790,
+          16790,
+          16790,
+          16790,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          16790
         ]
       ]
     },
@@ -6067,8 +6128,8 @@
       "vendorItemId": "3016961653",
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
       "productPrice": 14460,
-      "productImage": "https://ads-partners.coupang.com/image1/oQlcLxqKR8q-V9O4oUITPWnhVuZDvyKjbiL3blFxfNupbwDKH-hqcVPHfBxrDHvfrBI8XWhjOquclcuJ6DjOoAAI-ZDNtlQae-Z7Khp4ZxOY5AmmmrFJ9cdW7X1sL64SQ1YwCmpGBDUDIgGYJr9ffpvg2FnUWdMHtz8s-KlvAwUowVB5kta8ciJvJ0qmNpPo3rhqLOW_FbbuIesTRC9f7q2lujE9ClpsePbNvTmxxCWbQ-8oj1vQpnKyIya2yF-nfFIHrBlBRVqHZ3ZUoCnxAxITz2VImRUv7p0djVX6xAl7UZfHphAcsMvKvZee8X2t1v6lFqVDuvICZ8_kikDMALViBA-Q8IylVx4JtaX6PLxgalyiKsr-kJWCxjxxl4whIAV5fDkf7BL2t9qAdpvH9UaDdaGkqkuz6-g9Du6Jn1IaKkWlIGlceow8oFMyLFMrRaTmYlm0B2l5sG9ApuMjhI6bJNrqqAhytxoLKY0G2Lw314j3g_RU6dboCGUFdfPzxOyYJs5MrvbqOTokJRgA9g6ZPEgZlxaGndO77a5BDbDy0T7zSpkW20aU3h8rm_TF",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=5b9d4c30-e4a8-11f1-9653-48ab5bfb7cf6%7E3&requestid=20261120150516697004322379&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/EdepDdzPuq8JLxKBEQM81ZifK-rdCDomJeAllIc3_Kc-5t-0C3ZupkIvmvlvSM8nj8kPdYb9I74T2igpzfavGJB1zHtpalzPns1ZZbQ6y1hizsSDN7tAYto65dIKA-qdDKXxJQG0lg4XgLK_J8xOgRQoJqJHI5gzmIeSNOjW3lpobhZ6AZ-4sXcfzThYEnuCJxPQ8LKrYnnMmfTkTiNayireIKMrGIYJsn-WqVXufnPaFpxQuOYyB2lHdeJDUP66KVVP9mQtNaNZtH9u71PCBgvxf0tN0NuaR_2-d6Xqp9QrhR24ZlnmcCTXKfljg0f5lnhNVqhHTawArRE3rH3e96j9J6BX4r-SdE3HFyToXnGDbORIH4VLbta1cJMTtzO8mjgQlscbmf4iqCv1533Phj0WkjO-bUEjxNcWa7kRnOFYnoxC7GadnqpTP60jowCYIPbSW4f5E5UbSI-Iy_Bcd_v7pB8bMpvix24ewJGgjdAmcldSXFA4NHQcQV5AUSI8E9DkT70g",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=5eb67080-e6c0-11f1-914f-21bb5e5753f3%7E3&requestid=20261123070212172095003292&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -6079,9 +6140,9 @@
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6114,6 +6175,14 @@
           14460,
           14460,
           1
+        ],
+        [
+          "2026-11-23",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
       "priceHistory": [
@@ -6135,6 +6204,10 @@
         ],
         [
           "2026-11-20 15:05 KST",
+          14460
+        ],
+        [
+          "2026-11-23 07:03 KST",
           14460
         ]
       ]
@@ -6184,6 +6257,43 @@
         ],
         [
           "2026-11-20 15:05 KST",
+          14490
+        ]
+      ]
+    },
+    {
+      "productId": "4348945323",
+      "vendorItemId": "3000186073",
+      "productName": "카일스 오곡파우더, 1kg, 1개입, 1개",
+      "productPrice": 14490,
+      "productImage": "https://ads-partners.coupang.com/image1/jdCkRoSCS1F_-BTcje8yq0bUNfSImJCjPaIGjnvk6MT2A5kjnjlG9C13x1dXYD66z2uksDZfXQjis4ZQu_8Fzw1Ei-krYurOqryuGmsLy6tOHD_1IK6VIAg-sa3q-y3x-xWBftHvVNbaxQO9t7wic4T6sF-hpMwjakz11fyEsk4rVxERzpYU_3mkSbusyf-kD8sQu3IqOgODl7CW8hZVu-qMLN7-AanGHlOQZDFTsweZk5cQAtCSLI7GPr9zxcSM7tYG27lVh5Fom55YL75Mc69TkyJR7ebqmXI4wj6rilyiWWavt2J42sGdAaBkKS_o-JfibV_wG6vDJNckSlYo23i81tgV9tNN9oSj2ntraa6WluvkUGUL1GBG4p-57eJULdmefOaqqIAgSSYy-rkCfI6x_ARF3HpMPCI2_44vD56yNIZeiE-PNcN2lL0vGDWNoREjc10cr2y9sXDHRm6zA358jFG-IjJxr6kgyN-di1SYBcCsZXWwPCz7LbugEY_K7GF7wTKfcQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&clickBeacon=5eb67080-e6c0-11f1-a07d-d10083b2ef50%7E3&requestid=20261123070212172095003292&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "카일스 초콜릿 파우더 1kg 2개",
+      "unitPrice": 1449,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 14490,
+      "minPrice": 14490,
+      "maxPrice": 14490,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
           14490
         ]
       ]
@@ -6946,6 +7056,43 @@
         [
           "2026-11-18 15:55 KST",
           11300
+        ]
+      ]
+    },
+    {
+      "productId": "7420386191",
+      "vendorItemId": "3016961664",
+      "productName": "카일스 블랙티 파우더, 500g, 1개입, 1개",
+      "productPrice": 13740,
+      "productImage": "https://ads-partners.coupang.com/image1/fn4ZGMa7Hdn7nK25fsO15ffpo_vh_W8M3g44FJNPcG46eeIjvG8JJC862Qr7WWPzE2CkZQs0aS0GYymMUp07tOAmHADN9Z67JBnlpvJYNVIW0s-0uvRt6-q6FY_deVDbhjTeQgZs0GkPvfNvvZKH7cdVFnIAi8kkHJRQpKxdgQZwG8Uj_d5tcJXQrjTDoRVqVgFv8KPMtySlJvanHu0HIMtj1zYhanL9AVv5muJzgbykoWcIBURBtSV-Mgun8r89AM9mzuo9peEBnouosMDr-T6kNQfcc-QZZB1yiwvr6yMOyQ83REPxluO5uaSQYvnaqubO_bgSBQaT7NqCGPTq9rqeYE30MAHdaxLTKIoUQsOyq8V-Mng0TjTiDTf7ePtzqDbDwU1ZiGw4WYf1jHPYn2TKL3b26CZQWOme6nw4dRqUlKU29RCvE8eSgwxDGLMivA3AgUlPaL_ELzStCAIvmV8jsytXjZb-XACQY4zVjQf4abQC_W-lqwM4xf34BC9Wp4hG74eXAVb_",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7420386191&itemId=19247363243&vendorItemId=3016961664&traceid=V0-153-10bebd98b283fe28&clickBeacon=5eb67080-e6c0-11f1-8a2b-c4b7c87d440d%7E3&requestid=20261123070212172095003292&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "카일스 초콜릿 파우더 1kg 2개",
+      "unitPrice": 2748,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 13740,
+      "minPrice": 13740,
+      "maxPrice": 13740,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          13740,
+          13740,
+          13740,
+          13740,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          13740
         ]
       ]
     },
@@ -8366,24 +8513,32 @@
       "vendorItemId": "94269013784",
       "productName": "네이쳐티 넘치는 블루베리 베이스, 1개, 1kg",
       "productPrice": 13300,
-      "productImage": "https://ads-partners.coupang.com/image1/q-09YVbIOp1Ez_Y3qwAn01-86bEfoZHQVPVcwso2kcCx5BIqMSpa-XdxekvrkzIUfRVzK6UL1Oa0HJqHdDuJ9yuPWYZWjBwEmiPzTwLUeOMqsbH-bT0ulXJ_RpB36Wcvjblv9YDSITE-TCixojLQ_5Ccm2ynvplqtzP650XI1xTY_ADcoX_NrVslt-uKnh26oJapl33TvrkTyvnYlOYS6uQ-b-ZUghdndUaUSJIKLOFGcXB1DxdIxYSmkUTS5bDmUIw-Cqr35cSi3bU2yNm32zx0-ScecxI4quANR3CJJNRgmtwg8EW1wjcHblp5600G1hAAK0P15vw0-a-TYmJkty1bqvG2TsMU8IHaLnou3-lOy7J1AldvDYgyT17EQsILmXSjCocVYOtDJIXefDs90S7FK0PSRDQju-Oe7sLMeIgyAubvrMTCJLPUnNxJlf9CN1m1vxHvv61K8iw0C2iW3lyE5FZ9kGeaZqgEQK5p6-vmp8p3dmLqLIx6xOiulE2HRFg45mDIK1rAsJx09cFyGoPfo5somsPPujGFWYVxYha5Wt3QqMVuBxXvYdZRzk1jPKrs",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6942277630&itemId=27302481522&vendorItemId=94269013784&traceid=V0-153-85ecd52bb74d4139&clickBeacon=ccb50010-e1cf-11f1-9b59-6a6a6812d82a%7E3&requestid=20261117001003312131612809&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/iFbb5Q_5QUGDYAzAiO_bthYfex0ml5LdtIF7pn77kB5Ff--LdjPKruIClCmqwbGsvu8BadRyf4VWZLRwilaRKcM4srofZGmEgMZyQ9Jaercyg-CykHI0B85RkqerQXjDd7GBKrBHHyQgmJLizWEC1h1AYV5mDHtensM6vmt75j4KTIp58vD4wwGWnAoWn30iTHWCGubWQMMNiwmDVKhx4knUJ3WZMvgDu_qTn1pgcNFY6zJW45bY9r62_6yR6iZuOaA73QetAKigI293Za52TANdbunYOtnQi67D1em2PguwKG_zzwRYUSXyIU-AYGcRO_pKiLfqQVyYGD02E3U3HumNMGOvQrOvsrTPRC-vgxT3q07vJ7Rb6PrsCdGB3fPBQeC2xMjC9_Dpcm0M33MedkYbxbv0p-DfuixMipu3D6n3uuKcYuzkvkLZjQbao4J36DijQmegoJrsUqM6I2YTReESfp_zoQIUEWQ7VPMm4ex49Sv168MSyskFYVWfiiggRHytlHWd9KiMI9LtQlTaiHpS3aV1RccuYLM-RHgvxoyNxgANMG0RzXXTVqmzjUuixND7Mw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6942277630&itemId=27302481522&vendorItemId=94269013784&traceid=V0-153-85ecd52bb74d4139&clickBeacon=6dba47f0-e6c0-11f1-927b-9286c15d39f7%7E3&requestid=20261123070237330060275797&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "블루베리 베이스 1kg",
+      "query": "서울팩토리 리얼 블루베리 베이스 1.2kg",
       "unitPrice": 1330,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 13300,
       "minPrice": 13300,
       "maxPrice": 13300,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          13300,
+          13300,
+          13300,
+          13300,
+          1
+        ],
+        [
+          "2026-11-23",
           13300,
           13300,
           13300,
@@ -8394,6 +8549,10 @@
       "priceHistory": [
         [
           "2026-11-17 00:10 KST",
+          13300
+        ],
+        [
+          "2026-11-23 07:03 KST",
           13300
         ]
       ]
@@ -8617,6 +8776,43 @@
         [
           "2026-11-22 20:03 KST",
           10900
+        ]
+      ]
+    },
+    {
+      "productId": "9528987418",
+      "vendorItemId": "95945712259",
+      "productName": "보니티 유기농 통째로 갈아만든 리얼 블루베리 퓨레, 20g, 84개",
+      "productPrice": 39900,
+      "productImage": "https://ads-partners.coupang.com/image1/iI4TdqqrshHWXj-OiI4xEAVMnZKlcATSeeqlHtCvS338TfsWdsUDMtJFWeUq9M-271GXAUsh5fi3dlsGS7HLe4C5s7dKKMQ1lp386IXSToaDitMBE0Ciuj5r27FyC9v8Ihhxn_bRn9qA-z1o0rRX1Z1uG_gcOAufyfGsmBOlsRDkDCxTd8x-t-LVARN7mlQ8BVzRu41r9ZVq0XAZj47gIWk7cBOx3I6SDNxNe_st43-ucwWXF13Umv2ZSvHX42uGCgDalZCpSuVylEUGGEtiLRGyKEHJatSHN2p9s6HI-jLNfpzAZa4oXa7QFIhEWkDOq3wdLv3q3TvrOn3eYOAQKNFu6FG9iKwJMTsyhgIOGVnsqmFOesP4sqm7ugLnvJBKnqbgjp1brb8yZbN0merYPb7QA9iPuaTsDFjs3MRwFVVSyUkDW-Jz4aHpK9TIPNeQw34hnh5jIPznRplS1-5nX8w6fqNAay3s04BA0ak2F3vagr45Fjsy0xFtUyeEwwxruONQ09Eo9MfVSE0CpBw3drTZq0R4bZ8FrV-HKlRIS42iBeCsOL1gqTAK7UtlWzLK4XVON3Y=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9528987418&itemId=29017791781&vendorItemId=95945712259&traceid=V0-153-9dfe3c4b5be88dec&clickBeacon=6dba47f0-e6c0-11f1-b4ea-712396e8b373%7E3&requestid=20261123070237330060275797&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "과일·베이스",
+      "query": "서울팩토리 리얼 블루베리 베이스 1.2kg",
+      "unitPrice": 2375,
+      "unitBasis": "100g당",
+      "packNote": "20g×84",
+      "avgPrice": 39900,
+      "minPrice": 39900,
+      "maxPrice": 39900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          39900,
+          39900,
+          39900,
+          39900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          39900
         ]
       ]
     },
@@ -12221,24 +12417,32 @@
       "vendorItemId": "95629371126",
       "productName": "[로켓프레시] 앵커 버터 (냉동), 100g, 1개",
       "productPrice": 5000,
-      "productImage": "https://ads-partners.coupang.com/image1/ii6xsITTP3lTEQi8inLfVgGnnW7b33sJ-p3y0MumiNBWdqS71TgUyjqJ7XmOWU-VgSZy0x1CUh0FfRduU0HkcOuPotq9-MURFKgUAdLVa4SSdr1uMI3tjb5x--aEI8yWJ77i0TL8106RPEV1z9TeksjCF5mV31OmhngChgCtXqXMiqYB9oVwucLwW_k_eaZVGa1q75ZSkVUTVM4ndsGaMYuDpS6kZCzQy4Mo_d7hFmylYVwPeCOq_rYe2A2kEh6ZtqajFPxzt62sxqTlM6AZ699pzYDGYWT1M1zdXbQVURwXV6A13fPOh6NJ36-m3IFgP6DbOsNUC0MysjY3IgKK1P-slPZK2DZysiP1vWWcZIDsi5E7FD2EUWLoa-Nr0vQoBImPOoc73mzuHauvfYi8I8bFIQys20fF2LYRb27U1TELXvAeLgRPa_Nc14bXWJttOCqKFebp8TJGHCAzzSb0UjenpuDiuarRKCHKpK1xRmKSlEHqVZFJ_B3BPm1mgFGTX3ZbZZ3wprZg12Cg1GSwLegTjIFdl3omAAxGMeCckdAB0ebCif8TpsffoLvD",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9609139198&itemId=28687919644&vendorItemId=95629371126&traceid=V0-153-1ded1538c56a868d&clickBeacon=c30f6960-e2d3-11f1-86d4-fde03a02f473%7E3&requestid=20261118071056319199726933&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/Xi0cXBASbYhtYnR9XrbGiD0NsvBP1b1IUVY8h2JZelPhjKiAuvxsNpxue0adcxj_Q-VzGTCJbtFP7Orp84fAACBC1dkRNTdHXIyIlLoWUWY9pY-84NKPOjrnpYkRLRq1OJmC6ifK47mntvhWR7VhOlYq1xiIOI7aD-yvZpXKow46au8BJoqrvrf-30nyK1lge4CWsWAlzhNLDLIGoULMOZYz_FvS24KE7XaZAoAGvzqBs-nAbm9Y5VMMHY0ZRQQwSjo2sP2sUTQvNrN0YFEPL1Jhk6wIUSeZNdQvWM95o9UysZZYM2j-XjQ91m88bd8ihaT3hh0nAtL3WoxdeaI5x5d-aioF3ofuEa8HlKI1xtLXoyZkvoMHidQZcUa1cLdveoFhpcy36cc74Qr0T9Cw5M6TbZJICGRGBtWIejeSzWofOwQh-eBqulweLSOwmQlSNQSXNmy064YRZsLDubPUxtAAWvT9S6yICi_4Qt5n5KGru6rqERjz_A==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9609139198&itemId=28687919644&vendorItemId=95629371126&traceid=V0-153-1ded1538c56a868d&clickBeacon=63b93ef0-e6c0-11f1-b26f-cee8362512e4%7E3&requestid=20261123070220563309005052&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "베이킹 재료",
-      "query": "버터 1kg",
+      "query": "파오리 락토스프리 버터 10개입 125g",
       "unitPrice": 5000,
       "unitBasis": "100g당",
       "packNote": "100g",
       "avgPrice": 5000,
       "minPrice": 5000,
       "maxPrice": 5000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          5000,
+          5000,
+          5000,
+          5000,
+          1
+        ],
+        [
+          "2026-11-23",
           5000,
           5000,
           5000,
@@ -12249,6 +12453,10 @@
       "priceHistory": [
         [
           "2026-11-18 07:11 KST",
+          5000
+        ],
+        [
+          "2026-11-23 07:03 KST",
           5000
         ]
       ]
@@ -14549,6 +14757,43 @@
       ]
     },
     {
+      "productId": "9745095616",
+      "vendorItemId": "96093780150",
+      "productName": "링티 제로 에너지 스파클링 레몬라임맛, 24개, 500ml",
+      "productPrice": 35900,
+      "productImage": "https://ads-partners.coupang.com/image1/S-ZTTp1hcVjSv8a6S6vEKj05rldBVTQ9ed9QQeC9TDZIUTZFgoPtTJRxpscX7xR0PtV3bVoZ-sec2yGxOPt6Rm92mvSY5sVFg82edZL0QValiIc1c_ZNYZaP9iQAiEY_x7Fv3nUEQf31wMfTnKRFvGvWrs2uqvC9dLrxyq_kninKJCPfTbMds19wGN5Y7wXqxwyOQC_bxlQfOC0LVopqW6Iv6d4O5gdgb0m8ri2ka2-rbZzBh4KxwxR_PkONlJ2rPH77EBLaAqwO2lqjRcNwuoaenIEtzI46kPvclLXUQiUsffptdkvqt1eKhlOrB0MymUdbRCdcVTdOcwp5FYFO2lwEUC0acO8lidWtQE5Qk9fDy-9DgaGuipbM6gGc86C1P0B2U8g0A8Cb4-nZeNvghGTYLx1GXX-orSOIwnSXvb6JA8vt8daScuu7nYWnhlsQP3cFs5Zm9pEBpheAWZlIjjrn87HyMOXedgCFTUdH_JPAbtptqUkdMyNc-TL3DjzhuFWHaP7omQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9745095616&itemId=29172267786&vendorItemId=96093780150&traceid=V0-153-9753e7a7c626a589&clickBeacon=7cd21c90-e6c0-11f1-905c-45faf24f52a2%7E3&requestid=20261123070302640070405595&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "브리지톡 풀무원 스파클링 플레인 500ml 20개",
+      "unitPrice": 299,
+      "unitBasis": "100ml당",
+      "packNote": "500ml×24",
+      "avgPrice": 35900,
+      "minPrice": 35900,
+      "maxPrice": 35900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          35900,
+          35900,
+          35900,
+          35900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          35900
+        ]
+      ]
+    },
+    {
       "productId": "7136551215",
       "vendorItemId": "96122396316",
       "productName": "티칸 아쌈홍차, 1.75g, 20개입, 25개",
@@ -14799,6 +15044,43 @@
         [
           "2026-11-18 20:44 KST",
           13800
+        ]
+      ]
+    },
+    {
+      "productId": "9574521285",
+      "vendorItemId": "95903044848",
+      "productName": "슈가로로 애사비 스파클링 콤부 레몬라임, 6개, 350ml",
+      "productPrice": 10900,
+      "productImage": "https://ads-partners.coupang.com/image1/BW6ADdTOnm8MEbCXBQc9TmgMb7CmMR1_MCudIINm5BAHAe_F7n-1vqz_QQLClX7yfCyn61XlbjJ_sOKoE2iVPT5fgZYnRohnn-2VzBYEnOporlQhtchbc3mC_rQ4-ekPiq-4KmpPFWeL5kZDznt3f7Rm0O-BU1VbFfxmVhFK8tcBr9Vd3sIH9oufXXa0F1T-VJGPEeD7Y4MnSibX6kLSrcrcsnzt3W9YswqPjqU76yejxDpJbrMMxvToSYgjUEYUiQgnIQox17dzA3VGEUAnrSIXb5Qaexqf87SlM-OCl3nX4FFjIhDIGzfBXGEabU5OijpYAsTd0iN4_Br9XW4TyZltkOwGPT82wfHP2jRnWviDsuGkP2TvBqK1_mAW5IPJc9gk3jY2G6bl67Y_PKE1xxBtcqvpQODMH8jte7GkPbVPQj_XSLRYtN4hZc8ozOrdinsNc8ldIE25jjbTO-yKgX5diChWCAan8qAVgCCLPJLTtAVxCJ_6Qi-nzOtm6nHgd_rdKcwjzRbB",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9574521285&itemId=28973370341&vendorItemId=95903044848&traceid=V0-153-590cb4505fd383da&clickBeacon=7cd21c90-e6c0-11f1-b450-805c7e7b28fe%7E3&requestid=20261123070302640070405595&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "브리지톡 풀무원 스파클링 플레인 500ml 20개",
+      "unitPrice": 519,
+      "unitBasis": "100ml당",
+      "packNote": "350ml×6",
+      "avgPrice": 10900,
+      "minPrice": 10900,
+      "maxPrice": 10900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          10900
         ]
       ]
     },
@@ -16612,21 +16894,21 @@
       "vendorItemId": "91656067084",
       "productName": "제이디팩 자바라 빨대 7*210mm 투명 개별포장 500개 3500개 10000개, 1세트, 500개입",
       "productPrice": 6480,
-      "productImage": "https://ads-partners.coupang.com/image1/RTLMmtVaxTd-2s2NReGLrTStkaKKBVo1LwG2E-hccf483DA47tQRQQ4n90CeK1e2YI4dsU1Egg9PPm3kP2EwP0T7NJb36VL5pU_7YOESsrrRX7ubf43cjjk2_W55BX2eIlhdEul1hGd6v5r3a39k-TdLvWAadVyeb_1rC8Q0hhbAsXd_WZ8FrvQBqwETU0PJ6aOoFxPq01PhA8PPhMrQF4kr4e9BQ_g36IGnv6I9Dd6nqSzfjcGugDNJNJbqJP9MPPARv3-3NAxSc29JBDa5vsI08jDdjBxky5cUfkimuRRrI8Ooahub-qCl6eO0MLxqcYFDKGvi4KU8SCb-odU4mWmAbxptCJHeYprr2r4cyaaCVmVlBTlkfLKeHLp4gsCp7uyFmxuuNzmqsOnfqT-iTLA3zXmqB-rALcrZhEtw1WcUABMnaEeVJ9ccykKmcNzUOZKxJ7zll7QGjNdOKRzWpirkntYxwUiXreiaxuPDzoYk1OSh30RzccWvf16NrIw1zHv8BvsJMmbBGjFowM9Wag==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8620395047&itemId=25009362686&vendorItemId=91656067084&traceid=V0-153-2cfbae4ab7cce568&clickBeacon=9de4d7d0-e1fa-11f1-91fd-6b135086e824%7E3&requestid=20261117051633165203345941&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/AUNqDJdaFOpMfRDVAatKKLH1_5eQgu-7_0Miz8ofAI9Ahe92CCjJixrIS85-ooAytFqgyg8vVoRBsDM6WlS7JAaOzVDt2xTDv1c0Pkd30Xi4TL-d5BXJevH-Q80sceqvsAz-R_UbxuZ4fNg1t148mvsYBLQL8_bm0D-oqYcyf_XkmIrGxZ8ILOd8IHMO3HV0bmBXlrbjR2D90Em38_I6sJLfTTGsfwEfwaD_F9UppSlWvaVDo8DCpaHERWOeD9-UJpdzQE5wYe24jmBWzJOwxMiGx1NyjrBe1sK_NtIb8SxFnNCjqi7O_Yqx38QH7guZqsTihEc3lD8dSm-HwW5zkQUS-xEzfyHWkO_yKLDlTOGvYL-aHo1VKqDuD2FqCn8YZkzNCmRNXg1pvIGhIpPJs90wHZLCizmV-ttzzSHurfY7OuxfWm-EAbEEv9pzkzK-rQNFu0HoDUdx_k4pBIuojFztDcHio7ojiFvnvW3B9G-pJaBcsliPan7-nDgO9Ca0AYSe9xDkBggyNJkTTv3zHA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8620395047&itemId=25009362686&vendorItemId=91656067084&traceid=V0-153-2cfbae4ab7cce568&clickBeacon=72cc7fb0-e6c0-11f1-83d0-c92b734b81ca%7E3&requestid=20261123070245854268084386&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "개별포장 빨대 500개",
+      "query": "개별포장 자바라 빨대 500개입",
       "unitPrice": 13,
       "unitBasis": "개당",
       "packNote": "500개입",
       "avgPrice": 6480,
       "minPrice": 6480,
       "maxPrice": 6480,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16635,6 +16917,14 @@
           6480,
           6480,
           2
+        ],
+        [
+          "2026-11-23",
+          6480,
+          6480,
+          6480,
+          6480,
+          1
         ]
       ],
       "priceHistory": [
@@ -16644,6 +16934,10 @@
         ],
         [
           "2026-11-17 05:17 KST",
+          6480
+        ],
+        [
+          "2026-11-23 07:03 KST",
           6480
         ]
       ]
@@ -16706,6 +17000,43 @@
         [
           "2026-11-22 20:03 KST",
           6500
+        ]
+      ]
+    },
+    {
+      "productId": "8428192456",
+      "vendorItemId": "91689278034",
+      "productName": "제이디팩 자바라 빨대 7*250mm 검정 벌크포장 500개, 1세트, 500개입",
+      "productPrice": 6700,
+      "productImage": "https://ads-partners.coupang.com/image1/yFXs0Vy_Qjs6l1KoyHiih07B9uTDarvM-nxb7jHmau_GJcDZNbeZKGCr6X9YNYVM6gbUPkVondd2KS62P1Mz63XT8XNjTIQaJDVvbvrhVQIuwZZCrbPw4xa_b4snv236AVzMUJS1TZQCew9GDFnql433mc4ZEanUQUq4XklLMeCrsCJUqJdEHGGvAbUXiikWtxiLTTVxLuLAvQJC0xv6ILsYFbaIbtpwlOH59lW-Dm_L-NPxDfoWX26t4x_Y8JQupyTs--hpwGdo1MjOq7CQEYz-lHWI6ao2R6xIYK_HSLHinSE9Dc_v-TA7sbWb_dJ_9xB5E2_16tRjIqym_SvlGJyRfyZkc3XI_qCLSsZ2cGn2r5dunkwVma4gQlIeZscYcjMbeEuchEAfiP-DZfs7ECfW9xFq1w_-JyGvXyNseI32rpfyLh8QnHLEDvfi4YpQSPJ-yZgcl-MNhC-f3C-O4vn8q_RemrsmVkiDDDlL1J2nijFAmu1iLM0Ypv1qHxptV8Xr7794TPcyxzGt8OE9ANs=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8428192456&itemId=24381080043&vendorItemId=91689278034&traceid=V0-153-02ed52198ce39aa3&clickBeacon=72cc7fb0-e6c0-11f1-92fa-f18195d0af64%7E3&requestid=20261123070245854268084386&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "개별포장 자바라 빨대 500개입",
+      "unitPrice": 13,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 6700,
+      "minPrice": 6700,
+      "maxPrice": 6700,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          6700,
+          6700,
+          6700,
+          6700,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          6700
         ]
       ]
     },
@@ -17357,6 +17688,43 @@
         ]
       ],
       "vendorItemId": "89981805257"
+    },
+    {
+      "productId": "9767112517",
+      "vendorItemId": "96152461665",
+      "productName": "파스텔 자바라 빨대 벌크포장 (7mm x 21cm), 2개, 200개입",
+      "productPrice": 10600,
+      "productImage": "https://ads-partners.coupang.com/image1/diQ42PKgz0phDKa-dsFDDque-hAXVgg6UlUBpVf76yO_ynks4i_gSqsWeZuOBWXD2jd-Yyryt1CwzuTXiRDQgxi4GM9zLyWW63EOhKnyTP_cz6Ayvio-Bft79ISTzzB-dh0niqy7eFoHU4YLt7hoQ8RzIWv6Y-YZHyBIQufpJM6KZi9XUo0YI5Xpybh4t_BLZzZAsX7SM29FcH0LUQAb1xiSEaJdrQV_wevBMQ0Sj76U4aGVOnW5JuxPJ7un2w9-mJS6hHGhV9YWSvVA4ToYelNHB5KGcDVi6_IL94qCVTUlT6lOZ9-aOPuvM0PZ0B8n5-vdLqg2MuBW5Gt9UzFZCA5X0vL4qqrbzMrgTzaYjlayx6_zhoxYkkBz6DMyCUcZagZUQ8pkmiDFVgyVqtZ2eY2UdEy1s3soc-V-JmMNqRK7dDWs-NN05p0WMyAke37IyWOM8sTDCyrIDB52T4NPn62s3JQInZc589llgnJCEE1Sj42rTeqplWXb_PwS-32LWySMx4bJ5qjnX7wZMw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9767112517&itemId=29233598761&vendorItemId=96152461665&traceid=V0-153-cbb9672ab85784c3&clickBeacon=72cc7fb0-e6c0-11f1-a2f7-f698dcec9558%7E3&requestid=20261123070245854268084386&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "개별포장 자바라 빨대 500개입",
+      "unitPrice": 26,
+      "unitBasis": "개당",
+      "packNote": "2개×200개",
+      "avgPrice": 10600,
+      "minPrice": 10600,
+      "maxPrice": 10600,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          10600,
+          10600,
+          10600,
+          10600,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          10600
+        ]
+      ]
     },
     {
       "productId": "6922591746",
@@ -18277,21 +18645,21 @@
       "vendorItemId": "89468456030",
       "productName": "SOOM 100% 천연펄프 무형광 핸드타올 5000매 키친타올 페이퍼타올, 5000개입, 1개",
       "productPrice": 21970,
-      "productImage": "https://ads-partners.coupang.com/image1/e5-Ig0-EJaEaR9EVe1Lfgnwq0kt7f_3r4XTMG8j4SSU-M06Hl4Vlw5espOfEg1vY-WegnkT7u8gy307bxbPYUrpXatJYGDaSju7YMx1kDonehki33SJhyAs7iioluypPzN_7pD-33wBe9ubdNK5wuhIZAGu5kvgKpN-_1BQRg9fGzF5TgM9cDk2ed6W_yHEHwcMKiYt-htup9cyZ3XTewsVADneRwYxWwihxd5YYRj2LRuIVXnTif_Kl6rV5FQJ3mgXHzPVrl_2TuF7I-J1kEc_c6iuSF7rZQ6vIZEVtQKPx6H3GhM8PgU43mPEzlGmXcMo0QAu_rNYGp114jbs5aHA2ghYCqMExFo6bhrO9VSeQDGjOdUCZ8omO2CDhFusDNjg5HnylZWKfFfbrq7eNEW_edKVpvl7qpFC9zxY3jXBrXeQrqepv0VuHclEWU0BlLh3Wy0peK3ngd_LLre5NCLZrGdwStzCvnZPCTbtNwZC-plwJNEqb1FOzUtWFlQTjB14vM6iCNtypOwyQ3Qwa-REGIvhKn4Hf",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=5d59cb80-e664-11f1-a46c-3fe043fc32da%7E3&requestid=20261122200336193132081292&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/Uezok3tJlHSqFeelUUHQb2AvhZyqIhlQLOS4-zBiCspjpqxkvOw__837UNm46L6SWg0VckzzvSVruLQeg3GwGEkGP-Hrc-RPzk1uCjyywwThnQm-LMnJpknd1rddyPBpt0pVEc2RWKHTytVa1AmHi6xWJlJuZoE1ATfcPYE1hvKgC4XnOvAMeMumsNJQRZcSYp-zPOeTu3V7j1DGSlsE-7WtnIuUrdZpicyj2FG06DiKMkOLv-3g1q1_gVC7PIMZSDy8PUg7lyfBlaZQ7Eb79kM4Si3eaMXMaFo7WuYE1N-iTY6foUedvHjN7PUIljGb4Zyj2qwi2FyhJNzXfcT4JJV5iTwSvH9aMmyIL2Rr-bv6rEboN4iwkejqiYqXdVguo51l59oMfmaA5Fej42K41aebkeP5Jt0sJqQZvOIG1hbgko5kQ0MOTIS_QPE6u2wf46bql3MuHRVY3XSgybK6DjHQOP0iOBJOOqQD7Lg1msyoP47_PemrSKyA2mY-lRijUEz0FVUDFXnV4JDk70uiRCZG_QK4DUo=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9318808229&itemId=20483887234&vendorItemId=89468456030&traceid=V0-153-8faec837c6df715b&clickBeacon=68b7eeb0-e6c0-11f1-ba23-95570fcc54ee%7E3&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "SOOM 천연펄프 무형광 핸드타올 5000매 1개",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
       "unitPrice": 4,
       "unitBasis": "개당",
       "packNote": "5,000개입",
       "avgPrice": 21970,
       "minPrice": 21970,
       "maxPrice": 21970,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -18316,6 +18684,14 @@
           21970,
           21970,
           1
+        ],
+        [
+          "2026-11-23",
+          21970,
+          21970,
+          21970,
+          21970,
+          1
         ]
       ],
       "priceHistory": [
@@ -18333,6 +18709,10 @@
         ],
         [
           "2026-11-22 20:03 KST",
+          21970
+        ],
+        [
+          "2026-11-23 07:03 KST",
           21970
         ]
       ]
@@ -18437,26 +18817,35 @@
     },
     {
       "productId": "8188344094",
+      "vendorItemId": "90450508967",
       "productName": "브론디 플러스 천연펄프 키친타월, 150매, 8개",
       "productPrice": 7130,
-      "productImage": "https://ads-partners.coupang.com/image1/ha7P4o4KFhhEoCxqhczh4W4NbaQfyBpEPjNmRf4XQ7RNfLULzuwR3TKonn_m4IeR7JeqWwD1nQTyyhcacIfQWhgJnBCwEf0H3ROo22bjBGxt9GbwueNY0wzVh7uVw9fST1B0UJKbVhpDQ8ZDViJt8wIaV2qRV_JOgnM3ooTqq-dKKZFfSY1ariCQBH7zdzc5iFlg9NTXZaYnri14NnwIokQz48gLJY0Q6IdtUOoYMm8klcPKGLGycscNPbWKYmwwFcU8d-CO-k2yuDdWjOQYLuaFS53aafmCAuvHKomC-Zs1sD0s-618IiocXkS017OQW1ozKZbrSsT4F6IS_F-K4VaYhE5WPqNi7GbZ0YupKR_L2jdelJdCgXqsvasSUr_seT1i4mW4cXBYwv28NNo_ULeERFj1_KCQ1I0jKGPlbVlfM7fo7UVL5PC2N8XiIRu_i53r4Xo-Kpd4bOTix1JVfjP7q5yJ95M81Q9HyOcDMZOh89BGXkY3oSfNq5SS1f_hbY10iXqTIsqO0EjxCG3wkjI7M1DX69_bjVRyS-3cDcllAnRemluoXkyifHLaeGbghu8HwKexRCgBeErQjfE50tZBhpO320CweHeOWLPW",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8188344094&itemId=23423489209&vendorItemId=90450508967&traceid=V0-153-4234e734fb08825b&clickBeacon=6ecfa5d0-e1ad-11f1-a3de-9d760b9a76ec%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/Y_gqN2kaHnhuSJlnY6HVEQFOsRlqtfNoDbislXG1MZUWEAmHoXuCSOIgFR7gFSvLOb1u0OAZ_47E040SxNn5Y19To2VL9OruF8fjiwmBR3oFdq9Xyd_o8nje7Kw2H9Z7JYadoKRRpGNcY43wx-j9RqGuCNwZaZWMvJC1_1uNzZ10eveIujVl08xEdG--tPbBq8GuhlrqaaNGdQCdCeM9lkhxWXtX5E4VMiDKNEZDVBtyLA7ezVYGEmUkF0HqHTv5BCaO_H_2AYoDgvU-mG6NlHKtAoZbdypvRCGcO0nMzG6Wp3kyqmGGzQQQNbsm-CZfM4WAML5fVfG34W0d6rIi9GXTtJXA0kdLRlRg3qX9Xd5s6niDnc1S4eEO5s56vHuBRHBgwHEEQBf6kel-omEQq3BxbddJqo4-61RD5ncV02bUz_ZhJWFBaqSaUiv5PaME5HPcx2sZd59fZ-EfWBDCzcJD78omcTPs_i2WpFYwegGa9e4dPPKUyRq9wZd3iVSA3wU-DmHS8r1W3mAC2IPCCNQYF_S1cme6SwWiIx6jBk_k",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8188344094&itemId=23423489209&vendorItemId=90450508967&traceid=V0-153-4234e734fb08825b&clickBeacon=68b7eeb0-e6c0-11f1-b225-79ea40230c72%7E3&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "키친타월 12롤",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
       "unitPrice": 6,
       "unitBasis": "개당",
       "packNote": "150개×8개",
       "avgPrice": 7130,
       "minPrice": 7130,
       "maxPrice": 7130,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          7130,
+          7130,
+          7130,
+          7130,
+          1
+        ],
+        [
+          "2026-11-23",
           7130,
           7130,
           7130,
@@ -18468,32 +18857,44 @@
         [
           "2026-11-16 20:04 KST",
           7130
+        ],
+        [
+          "2026-11-23 07:03 KST",
+          7130
         ]
-      ],
-      "vendorItemId": "90450508967"
+      ]
     },
     {
       "productId": "8121622589",
+      "vendorItemId": "90071994592",
       "productName": "브론디 데일리 키친타월, 200매, 12개",
       "productPrice": 13260,
-      "productImage": "https://ads-partners.coupang.com/image1/O_ika9qybtAC-qccO-tayfHaiKUhChjQZNDh5P6z17SKSYDHtpfE1DFr-3X0bdn_8OnGFARUNsg4G6Dlm-snoo73oJDVg5mAqL8R59Qb_YVpkMkLMOHHcHs7P9bOGhrahMeRDAUHLL6_0YdZ7H0P35CcChoRVELMz8rYEnhYDzr_L9srOjeKfEplY8oekcQiLBfKIgisfpA3wgMmsV6xMZxx5ve2Pvl6ykyD3_Ojtij148h-gdr_xwYCdEgoE_6MMdTVgDs1SKApSpyYSvmwufOBlZX2qospB4S7TiMUdwL0NPoN4khYVpHMIhUQ-lcYy3I1hK33Evpp_CIUyqNuy6HtqFQlWSiTaxtxl28GL6AkZTZ2kGxlTKkmnFLdZoeYmk-0pu9lvmO9b7xhVhkceJ0lFwWgmkji3jkgkIfEc27g2FIaPYvixmFOpx-4CEBhZdMd75M0wkQzomKRJRiFkP2OL9JICPfh1sHcLcz1wP4v-HSS6s3woL-tMLmyr8iIjyAL2jlXp94CcXKYUCAWZEupszGGoG79btvMSVOQx2pQbhAGscsZzsWkry3ucknFJLHGsgmjrtdqXWvz63xc_Bvvlg==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8121622589&itemId=23038272301&vendorItemId=90071994592&traceid=V0-153-363221000dbd2aab&clickBeacon=6ecfa5d0-e1ad-11f1-939e-38f69794d067%7E3&requestid=20261116200402849128964918&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/_BoCBx7KLbUM11Mm_FBP5IEZIGO-nA3h8vY11XS6ZcS1DNqmgll1pqZVTwXJ5_qxPF5V4lpNvB0i65UKO4BVwk8TYHBQDFZt62vnkdEV4ydZWYiCENu5oX0a3RfcT4kra4vhg0l195Oz6_hWFI10teBrNYvG4VgAXT0rx9hsP6msasIoKTbOGzcV_-qnGRtGdCccXiIoniEXFAbTZym3PXkOuUBgTMwj76oYLwMK607Y1uiuP7I25d2CdIflWHasqj2jqEMMW7ea4M1j-8xz-TpXm0V3qXWcu5-6NZLcBQLwlOOXDO2CA09dQLaVB59nxbJp9UEKlUMPHWNEeE4ykgix33ZfInNCFZpLGS_8T7YNu9oJrqlVO7eH9lqQ2pJ11m4sKzDczYLqTTmcymh1_JgFwINRN1uS5XcXkvW4cdXQKv75Vv6bS-QyfTEU3g7KEyqqDzhrq8O92nx6DPgVtD-tMDEPbDZALOp8mHBMrRZhOB6vTTkzs8btsd6i_Rp_rNbwGMWxPXswa54B4MOhUXQR4WTgR0A2ug==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8121622589&itemId=23038272301&vendorItemId=90071994592&traceid=V0-153-363221000dbd2aab&clickBeacon=68b7eeb0-e6c0-11f1-87be-d29adc2f3d03%7E3&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "키친타월 12롤",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
       "unitPrice": 6,
       "unitBasis": "개당",
       "packNote": "200개×12개",
       "avgPrice": 13260,
       "minPrice": 13260,
       "maxPrice": 13260,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          13260,
+          13260,
+          13260,
+          13260,
+          1
+        ],
+        [
+          "2026-11-23",
           13260,
           13260,
           13260,
@@ -18505,9 +18906,12 @@
         [
           "2026-11-16 20:04 KST",
           13260
+        ],
+        [
+          "2026-11-23 07:03 KST",
+          13260
         ]
-      ],
-      "vendorItemId": "90071994592"
+      ]
     },
     {
       "productId": "7983859170",
@@ -18721,6 +19125,43 @@
         ]
       ],
       "vendorItemId": "95809821127"
+    },
+    {
+      "productId": "9649725029",
+      "vendorItemId": "95816001902",
+      "productName": "스카트 보풀 없는 뽑아쓰는 키친타올, 10개, 150매",
+      "productPrice": 18900,
+      "productImage": "https://ads-partners.coupang.com/image1/wNGGS-4yeS71HehTwK6inUpu9lbhgBZUgk3torSCS1lFA_wHeqIaqvjKZdhljMtLCw9nP3FqkpF7Ch2_rfPaWcVHcbfGm7LEBJ-jz5IIPPKz_JQvbsfplm46Y62P53HUEznx0oF527yJGzbcU2XTpNCEF6231giKg6pzeAMuJ5V2WRcBlHPBogmeu5oANr1EnKJhyRT1sofh8Q6IpImwsmX-vUq2qkg2si15fTkyinB9EmTqq9r_mCz2Rt4fA8CXZ9SEJ-u9G2QZwik-wJ6HGLPw8fJdRLF4r6eTKMd4mPS4jDdxehKK8oj29Y_RKE3FjpSIWj4QA4ib4OAch-_r5BssjuBW1ZK8Tnw_e0MHUNiMB9RKDXzmBdaV1CXFWL8j1tQrAZdF3hliXaqJgDSuPiGhxRaatPha33GxH9wxcu3Iqm6L3tIzTioxHOvB3NjCHGbN8UAHhJ0qpX52EJkqMKbrF-QglfXsx3a8_DlBFBlaJtBPQXTXDGsZbYmuLoM1u9E519WQXrtrDy6vQ7_b_6cCrq5YMOk=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9649725029&itemId=28883138056&vendorItemId=95816001902&traceid=V0-153-fd9e65ed2668cd78&clickBeacon=68b7eeb0-e6c0-11f1-ae52-16b3a102d339%7E3&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
+      "unitPrice": 13,
+      "unitBasis": "개당",
+      "packNote": "10개×150개",
+      "avgPrice": 18900,
+      "minPrice": 18900,
+      "maxPrice": 18900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          18900
+        ]
+      ]
     },
     {
       "productId": "8797213503",
@@ -19093,6 +19534,43 @@
       ]
     },
     {
+      "productId": "8274844249",
+      "vendorItemId": "91533208792",
+      "productName": "코멧 천연펄프 키친타올 2겹 200매",
+      "productPrice": 7740,
+      "productImage": "https://ads-partners.coupang.com/image1/x4jETEL0or2s32BFx0vucRiR8_XO3EbKn7Q1Uy8-JJebwFF2JwcEo9b_AhGhpAP2071HQBfwIIbdq2cNMKJTzdjE6jFpUtvE3VX_zK20pXr9JZkLU4cywlg90c6rdkeWuBkWq41ScG5yOgt4Dc6OYwH9DhKITdZDlAMw725CqvCcbGcDJyh3dTPQTWmSVKpOTFwizH02YxZroIG4HVm62ZUyjnaqlfLKJBLCP5rPxo3KMEisEEQAuuxh2g_e9Y5ucP3Ef0jYiA1ZMYcaO1hJu5Nr2sdzN1FvtiOCpW0f4cgaWnAEUxnM7clEDIoKibalOfyVhH7ZT-buvgAnIMsOID8XVDBCtSFAwPMX3M15NB221UW_nBo5cRGXThFbuWrkECCb82uw8sHcPHmM1GJTlyWWov5PL-ZtJ4lFm5fG_-rwJyhUgF7yqnEiaV1SrBEsbqEfCWU4KLr5v52KBpAXJc7d2HYETAUM4IulgiiWpxwdW9MOLtMmA6_iTbsPdtF77QuuMfCfj6ADqCrZCretNsI9DfBiGg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8274844249&itemId=24520466807&vendorItemId=91533208792&traceid=V0-153-ca1d2eadfdb415fa&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=0&slot=7",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
+      "unitPrice": 39,
+      "unitBasis": "개당",
+      "packNote": "200개입",
+      "avgPrice": 7740,
+      "minPrice": 7740,
+      "maxPrice": 7740,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          7740,
+          7740,
+          7740,
+          7740,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          7740
+        ]
+      ]
+    },
+    {
       "productId": "9481002366",
       "vendorItemId": "96238151285",
       "productName": "ProTap 일회용 니트릴 장갑 100매입, 5개, L, 검은색",
@@ -19401,6 +19879,43 @@
         [
           "2026-11-18 03:02 KST",
           59900
+        ]
+      ]
+    },
+    {
+      "productId": "8724035718",
+      "vendorItemId": "92523243204",
+      "productName": "코멧 천연펄프 키친타올 롤형 2겹 130매",
+      "productPrice": 7740,
+      "productImage": "https://ads-partners.coupang.com/image1/jqQg-knN21041su2jiYgzIxG_nCVc01KD2gBOGFadSfnCx9f9Q16aS9KlN70B-fD-YYXkbZLsK1g8wwsIBBEHYYvNECY09lCbuSi8pe6BX30kgUXcNx5YEymDXod18XFzbGTwvtFRLwjd8futVxhS_jLPzut7XH9HOgdtnfGaXPT2U_rx6Qd-RSWjShwxQKr8kSKNERPmJkUQ-BacfqlienaKm5vcYWVusQZqKgRsqwfryXYIBbOEx_nB9ktkVIxRFNpNJyuDNUsuiGhTt_tjmrY6MKD1z8Dg-fxv8uLgfInXQKxu33WHhDGQOaxmaNa3rVtC_lTjXWwXMgCnmbUGDZ73rSdHyHWDqiO6dfkEBrAB2gWbEN2tgX2-LLl-12wRVRr_DbnnC0282oNH64HclgsWWSubxd9wJpgHcsA7mstVHRhpGRoV6v0DXC83BYUvHkbOv59elMA5C1_acunp9hblhOZgg42hfWF7lWbFOrXmpz17X50b3N1QTN9SbNWK4pbOAluAQFBN1eOLlskmA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8724035718&itemId=25531535580&vendorItemId=92523243204&traceid=V0-153-4d430879689b6479&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=0&slot=6",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "브론디 플러스 천연펄프 키친타월 150매 8개",
+      "unitPrice": 60,
+      "unitBasis": "개당",
+      "packNote": "130개입",
+      "avgPrice": 7740,
+      "minPrice": 7740,
+      "maxPrice": 7740,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          7740,
+          7740,
+          7740,
+          7740,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 07:03 KST",
+          7740
         ]
       ]
     },
