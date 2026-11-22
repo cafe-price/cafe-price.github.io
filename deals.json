@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-22 07:04 KST",
-  "statsAt": "2026-11-22 07:04 KST",
+  "updatedAt": "2026-11-22 11:03 KST",
+  "statsAt": "2026-11-22 11:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -10247,8 +10247,8 @@
       "vendorItemId": "95095041343",
       "productName": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유, 1kg",
       "productPrice": 7270,
-      "productImage": "https://ads-partners.coupang.com/image1/QJkcdFfgyDO80y93QLIRAr5NdbnwLCNRW-xUyppSORzx0SXlK83MPlF5l4iI7418IsjPB4qkgYAbbFHVgS3k75C2gBtbekpkaTFRlV86PsXrDPBmm8-UQJ_RD_faqxtZi6DQBrnEnYH1VOVhddepWLMRSVqMrI1jPrkDnUeDXI9jU9J1RhWmWzliEC783VsllowCWg8plzFwqEkWae_Zkrjp1OJFQN3KoFMChJ8FLgnXXeGiFj2AGPXxNtmbXbRAXqemPnpKJCI5j62PQ-EVK879_7ydCQTrRxGZy7ma58W42-N-7vp4Rl4KIDNLb9t34NrU1DArbtbTHRcUzp1VUB6UK0214NodkwPmSLIiNrGMaHpHAuDYd21xl10yIXui9kQPdF4AG595mFNxKXtbCRvh8vSmeor8NdTFiAPgZPZ8bI5wKvRUepeYMfk-QehSbSQzgcacjFm5uUWFSU_TXdpLa3S3JZHyNhAU_W1MafI64XwgBsgnp5TXyKhC2dA9kmqmbJ0nmYD5lzJw-Ey0Mk3Eb01AMPY13AxOJoGqQcaSK50=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261120150426294238284751&token=31850C%7CMIXED&pt=0&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/xSrWjgJZkbejjwjCxYgpsP933kt9iinQmh-mcD6OLBMRXT8-VE3hq6CDgw3a7Jzr51Oi20dve2KT4LDD0it4cl3BQr8O4llMtfHthOMrYiyICI_3QRB4DC1MThp1AssetbGY0nl-lxiSKRpZKRol7dux7BzxsySzI0PHxSBku3ipKehmuBx-SpJId5bCNVFfLTy5G8k8IwlsPZwvipgzML4Tl22rBm2L5RbzyYeXZuHwUIEenzZqKDQVGhQwB9Ko9e_gqlFAUrdbXun_GXdcNtqllbqK6_trP7yA1gPbvvzPFeq7_wgceP0qNwLwRClFsS0QFTEKgG9dynNwoHe8L4sULLE7QiZiiB5Fn55IZUIC_wiRcj2QqP3Fp30FRmk5n5gW529qNRdY5dlFs4A76x9eulxzPiFtBJQuHPE24EAhMkP0C18nSEZcM32aN6hs6DHIlf3DmqmUVHIxsWueTKEdXonhWmaCzaxAJ1LYVoTUH9MjYHRZFvdNuSvt9OQ4wjbf2HMdiJLfH1Qg7IyX-_3548OA4E766Wpao6n4ZQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261122110239230233633261&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
@@ -10259,9 +10259,9 @@
       "avgPrice": 7270,
       "minPrice": 7270,
       "maxPrice": 7270,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10278,6 +10278,14 @@
           7270,
           7270,
           1
+        ],
+        [
+          "2026-11-22",
+          7270,
+          7270,
+          7270,
+          7270,
+          1
         ]
       ],
       "priceHistory": [
@@ -10287,6 +10295,10 @@
         ],
         [
           "2026-11-20 15:05 KST",
+          7270
+        ],
+        [
+          "2026-11-22 11:03 KST",
           7270
         ]
       ]
@@ -12150,8 +12162,8 @@
       "vendorItemId": "71474903104",
       "productName": "녹차수도보성 현미녹차 티백, 1.5g, 100개입, 1개",
       "productPrice": 6180,
-      "productImage": "https://ads-partners.coupang.com/image1/BzkeElCbl9C8tSvpB0bMPjAxakY2LrCyYQJnviikdCP3i81g_wyHjqAFdxL7NskA3kJMrnVUVdNSC-OIvJhVfGXRkT5sOv_9FX8pd67eO7wmRRntgqVjHLuKmhYwDaxbfwPElIUeS8rfa6JMBR7ckXgskZKxdPfx9B1ifigeORWfhHVp3zIz7k5nAINbLHT-YREQ_wvZV02oXDKd3CQ_yUJV9R8b5imLDsmNZUv0i_WY8MyVK0-Mfis-tToWgXVasIsnKtSV2BMTBLCxM5jniqL3t8kxYlrSsuwyURalJjt0cJdY5WSNVL7HuG2Zd2-NTn9knl6ntCog1UwGfu7J95b0OU1uWritZ629jUwLmDb9Z41ZeUwpC0Qv3Ybt9Ynd3JjtQCZXQ2FgluCmD3yHQRk7TQTTw7kLDMisRXvZI6U0W2WAjraeco6E9ULBeRAbD57YKMVD_LM_u8Nfw2I9VZ5CN0jEQ0n1VJFVY-af5MdO99oqk9VrfvHFY6kA0yLopsU=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2112264285&itemId=3588040061&vendorItemId=71474903104&traceid=V0-153-aa66855dc62dc5bd&clickBeacon=eaef86e0-e4d1-11f1-b929-6c17529c480b%7E3&requestid=20261120200246540189353246&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/HGq612KCkEbATUTAHFaoZ3CX94XK12K-ySEC2_vkyXtRiaWNn3-wivLVNkasUMnybuybLS6Hw0pIg7DOCHWmKLDqYV6V-JoKjQc5hBMi6KM6RovPjfUUvbqgEQTn0ZgP3Ix0vYGXSAfW1DoEPizmJjY1PemJE0EZdcRUUE83OKt9VHRxOZwolXL29R_oqri3U-za41_B0-PwuE-54QAKsmsq2iWvw2c8Dzg4VhXyU5_o2AXO0pBKP8ANa4xe8mWRHBgXMr0DmEa26oP0G4qlg4cAug8hsf2Kno8zeKzU2dWgkWK74fssf2NEzp-SJFjoZWVDa4L8L7iYLK5PVbdaq0pSQwqeT9JJQqBDuuI06DjdUuDqA02RtprE5ABgSRcWfUrnK8HQglGjApOuwM-b39RiIvYWYdax_l_oP35sX8GcyeJhXvZWUynEyksKbs0pUJLsJ_IgCDXckUnTFAflIelXNJB2u5f2VXGc85_tEvBSDJrgAQsD7RJi609TmDwjvw0=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2112264285&itemId=3588040061&vendorItemId=71474903104&traceid=V0-153-aa66855dc62dc5bd&clickBeacon=d5b70120-e618-11f1-a13d-14ce183df7d5%7E3&requestid=20261122110256385181849139&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -12159,12 +12171,12 @@
       "unitPrice": 62,
       "unitBasis": "개당",
       "packNote": "100개입",
-      "avgPrice": 6175,
+      "avgPrice": 6177,
       "minPrice": 6170,
       "maxPrice": 6180,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12181,6 +12193,14 @@
           6180,
           6180,
           1
+        ],
+        [
+          "2026-11-22",
+          6180,
+          6180,
+          6180,
+          6180,
+          1
         ]
       ],
       "priceHistory": [
@@ -12190,6 +12210,10 @@
         ],
         [
           "2026-11-20 20:03 KST",
+          6180
+        ],
+        [
+          "2026-11-22 11:03 KST",
           6180
         ]
       ]
@@ -12662,8 +12686,8 @@
       "vendorItemId": "95538613030",
       "productName": "녹차수도보성 산 녹차 티백, 1.2g, 50개입, 1개",
       "productPrice": 4850,
-      "productImage": "https://ads-partners.coupang.com/image1/pusit3-J6zr-aQkvpi8NV5JOH9Ni9c8S7-w2nfzGMnl0lmnz8IMXnX6l-Yq3l8dIR1dGGa5U6an0y2ZmRqeJX14zssyhRFi-GPjdUJ_eBg2epqko6BaKvczfE5OKCXZ65fKc9MLQ0fW6pkKrDTpTI1QyzenjEiHxNkJrsWonDXVHA5B4-hnvLHFCbs992JuqQ2Ln1xeRy3w5bY65gdne2SNoNCPjLPMRCd-vf6VMnEkLEIqky_xDQ0vGusoUYVq8H_6ssqaSs0M3I0iSNwsbgmBKaj8hxUuLt3cj08g4RtnifTdD8BFLWcVPneXZzo4_EXi6wDvWJGYhxbeX6OQyAeeK_VqsJhRLbIsDtEsVjxLHtJeOMBpbA-D6tk6n3V35T5xyodnuOrLsLSatOflhmqIDJ-T2JoU7P5y6nXV10-u4jwQ8-qzhPCD_kqT5xGHmMZHP-BLY2oKUeY7gnrSHg7OhmYv8aYI_8GRIgDGO9lpJ4e0fLadbKarc4UJXLzyhIp4w6loRwNhduz1J6kVW9A==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9579630009&itemId=28594840571&vendorItemId=95538613030&traceid=V0-153-793451df89cdd929&clickBeacon=eaef86e0-e4d1-11f1-bc9a-ac014338cb5a%7E3&requestid=20261120200246540189353246&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/DxVKd1F6Os7c-toLD4Ui7GWpcdtpSfiz-q9pE8RaI9r1lwTKWZJ0P81SUuyGR87Ndi0dpvq1wZUsFxGVjgdK-DEuWj--W5XQa2iroE3GmC-aSKKYhLXg8qhh33PAhszYsqmBxbwEktepUscwm1bcL57Zkwf84rGGBBAuEsGY-JuUBZSHiMRef71xZzbZbiLJ5DzSWGOed-5ywD8_2bqhfoYzbaPOQ2f3c0CeVBBMTq9YALo8REALgAabO1sa4z-UzMleFzFKwdhhziLJ7HYbrzqGIjQaxxYGGQoc49ZweDhXLZF6E206ueXxlTVy-dIkPYgw0LllmZfDVCn78nVKFXcgw2u9mDhEubVcl6WpIKegh27f46uVG5BCOagRR0pWMDbUNm_VV0FaZYGxuQvX1SbnOg2hcbuxbyyUyA1uiomkr38CUy2_Tbq_40ZGaI7_6z6pGVcNU6ObxOcEA6W1i7EFvX-BLoft13ZVYDvbvGo_73g_v7nC4JGG4X-lm5vdUYjwg7DHtAx4OF5TKywfhQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9579630009&itemId=28594840571&vendorItemId=95538613030&traceid=V0-153-793451df89cdd929&clickBeacon=d5b70120-e618-11f1-945f-08859afc6468%7E3&requestid=20261122110256385181849139&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
@@ -12674,12 +12698,20 @@
       "avgPrice": 4850,
       "minPrice": 4850,
       "maxPrice": 4850,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-20",
+          4850,
+          4850,
+          4850,
+          4850,
+          1
+        ],
+        [
+          "2026-11-22",
           4850,
           4850,
           4850,
@@ -12690,6 +12722,10 @@
       "priceHistory": [
         [
           "2026-11-20 20:03 KST",
+          4850
+        ],
+        [
+          "2026-11-22 11:03 KST",
           4850
         ]
       ]
@@ -14929,8 +14965,8 @@
       "vendorItemId": "94994309969",
       "productName": "아이팩피앤디 92파이 돔리드 PET 컵뚜껑 국산 투명, 1박스, 1000개, 돔 뚜껑",
       "productPrice": 17900,
-      "productImage": "https://ads-partners.coupang.com/image1/HoCMRdaI0z6MUlGYHlZclCYLrYWoaiJ9CckmcTQzeRb9ES2ChZ5rAJGcnnlNgljJCyWLHiPTIv4BXNzOf9UfSj64sqjyoY0j7yh1l359-NbYLCycdVF4S2t6jeJhViCnKUPnOUCaXyvyXQ3D1d2xQ2NYPGrso6dXCPqUBN-RYgglZrPQD57xkDp_w__G0oBGUEAlZMw9a3K7Xem3ULp5qBRHjq57EYCWpv-bDRWLoUO9l7lwzKKDk21a4nIGVh_a0lbedT4RvFlRCAcNcDt13-vLBmUhy6u6hE1y0GGlpi3B9W_WFE-PVF9jquyGDxW-J-QTooEjPyoA3K15MRhTL6jnD1lFcecgFPdsqxZ2drxDhYhImd23_i05-o5bmZNlvuFl2-sAYMPclIclUFaqJ-qq4LwpV0e9d6IHw4-3D_QVA1Vr916_X5cykrsUwLevFdJ_5MFxlIXOWtKKL5JyDY6NAUN7OL3V-2kSQJ5WDIe2ZGfEVqttT4lO8tSrDsIWQewP-CXozlNb-rZJl2JCoicExENebw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9430223106&itemId=28037311243&vendorItemId=94994309969&traceid=V0-153-1b09191a1445d258&clickBeacon=8c1987b0-e486-11f1-8a12-5c623d677e1c%7E3&requestid=20261120110315174195403904&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/yDp0OtzpsZVSbvUsyGwVPqb0TXjHabEzSHNQnr5m4oiCRcxxapH8fzWi4BPcfHIFuDN8tIW6fGX8rkvL8kI8BYdOefZQwXMo6iy0e01J8LMn9w2jPdJ_YRir0h-juPhyexOSWZdvMkZ9odvPG-p1F2SBLTAadPoIW-GBvvdzvOPvRswBIwDHYw9n6vKXb3CjrxS-oGZSp4N4oHItYreNy4huAEx3-2UBXT9TC9mbYmhVpWMXYHEcbbA03KcfAfVVJ1pWi5auWKgBa2U18clPwZGxTsjSFQNQcjMh6mKCQ9qeXO4spX5qSACdKNh-MoObIAp8FKHyqoh1znACO1KobjsF8yoL8JcJG2hfG7hyyiu2lpbdpMiKQzVWf8x-6PJHohZiBf-oic8Cs-vWQC2Ci8i_U7-lDFIWZiRCvs_XYQDXMQwCelpIRNBlnEtASPFCCEXWVCwD223VtM5jxV595oX2RYxpEj4wbQ9cMieMbeIgiFX6527UWt6IqKXy2RwgQmBmn0GT0GGL-McWxXVja6Elg5vk",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9430223106&itemId=28037311243&vendorItemId=94994309969&traceid=V0-153-1b09191a1445d258&clickBeacon=dacae690-e618-11f1-a7fd-2588a309d517%7E3&requestid=20261122110304903156433103&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
@@ -14941,9 +14977,9 @@
       "avgPrice": 17900,
       "minPrice": 17900,
       "maxPrice": 17900,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -14968,6 +15004,14 @@
           17900,
           17900,
           1
+        ],
+        [
+          "2026-11-22",
+          17900,
+          17900,
+          17900,
+          17900,
+          1
         ]
       ],
       "priceHistory": [
@@ -14985,6 +15029,10 @@
         ],
         [
           "2026-11-20 11:03 KST",
+          17900
+        ],
+        [
+          "2026-11-22 11:03 KST",
           17900
         ]
       ]
@@ -16072,8 +16120,8 @@
       "vendorItemId": "89277859376",
       "productName": "네이처컨테이너 벌크포장 커피스틱 블랙 15cm, 1000개입, 1개",
       "productPrice": 9970,
-      "productImage": "https://ads-partners.coupang.com/image1/pbnCBq0y1VbAK4ekpWMIQ3qCi98yLAcjUYK_uZEiZoi1Y88IlCU1f8yVJV5oeNHA6FzB8ZUZuLUWv_K-R6r2IoKj8MEowEo68wNKyu1TAxcZnyJirYR6o3wB6_aErnbFpEnAgtPvAY9QrJGUrVXYEPSQms8Cks6kd26TToVpUir5_JH-uojA94yR13yofHd4IoX9eyMkGQu_FNmEiLNrApNSpYZ_Q2fe0y2Z5SAqDSxQK2Nojokvy2C-upOtgYDmPi4etJQqGVbFQI_a1_yUdpLMlx6AICTvzv47iq3UVX_JcnKnOXd61tA5caZ3jvgXwwxYyctb-FGWwETWHmnnmLPcdmpGToDE62RHeLfjMRiRV_Pi57SHrXDdqisCIxDjWRvX_0Pjl3v8CpSVI0CLews5IeaPpKVRLwkBvdiSB1Yopyu7xDXMSTLZde-uQJ5lw5NdabEiG2gmpuBDrLlnBDxj27wC4zw-cdxG2cKBSI6h4drkNmqHIWoaOZbe7kaw7U4dmKk=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5542110692&itemId=8731764584&vendorItemId=89277859376&traceid=V0-153-9803cb8fe1517781&clickBeacon=fcd64780-e464-11f1-9a42-ba680ca8e7d1%7E3&requestid=20261120070301411207451283&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/dazofYaXOLrLdKtEde7wD8OIU8rBG_xTOgKv7KUaq-tTT9LV40fQbMHlM-nSbvvCnvLvVmoL2inSzUPOu1yOFoy93eUi1u687c40ippJ9pZ3Z5JydtFyVI4S968zuluiRwisIJ5XeiA2sCPAHaoxBb96l7scXWAVwynmHt9lVynFK9lLM3_l9bV8SGD7p233dAiNtCrE3hyADVbZL4ZwTBUTLd8FNHYrK_CW0G8EwRylXddIVTw11yCOUzRHvQwuNYeJTiiKjFX00pv4rs0Nfe02n1jCU0yBSmWJ3trHgI8vdsILi_OUT9QbML_IOS-NDQfTbCaTUg2yDprxE-BogEAwQS98YKz-DJmUY3TW7BqWYCTJm7JtSHe8_oBHdH8txvkqfow19dHXIXkICJd3JNMk2jL__sDTmW8Nz1mf3CUuSTEdKGNGXDtu8CSPSNpGAm8AmXgQ4D7flQxy8dEuRI58gz85BCUE0LBprjZnmu9jtP30GrCLL1oCOMNmlaiW9_fNBw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5542110692&itemId=8731764584&vendorItemId=89277859376&traceid=V0-153-9803cb8fe1517781&clickBeacon=dfe50d90-e618-11f1-a2f2-19c9c45d6389%7E3&requestid=20261122110313464135109317&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
@@ -16084,9 +16132,9 @@
       "avgPrice": 9970,
       "minPrice": 9970,
       "maxPrice": 9970,
-      "priceCount": 8,
+      "priceCount": 9,
       "discountRate": null,
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -16114,6 +16162,14 @@
         ],
         [
           "2026-11-20",
+          9970,
+          9970,
+          9970,
+          9970,
+          1
+        ],
+        [
+          "2026-11-22",
           9970,
           9970,
           9970,
@@ -16152,6 +16208,10 @@
         ],
         [
           "2026-11-20 07:03 KST",
+          9970
+        ],
+        [
+          "2026-11-22 11:03 KST",
           9970
         ]
       ]
@@ -17628,21 +17688,21 @@
       "vendorItemId": "94332604246",
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
       "productPrice": 22500,
-      "productImage": "https://ads-partners.coupang.com/image1/WJuyUkxQ3LxQdAIpWIC_8Sf6QkZi2u3N8yLeohOrGU9KRVGGZMk2kuVSjWql4rUuP57Z0_Do9QFbvFl0u7BudDTOLN_PRbokV3TbPCQS0QGsKs-8h75kcvQymHf5xVOAge5_8dmGgVA1w70_EufuM9YNv-ZPkBDCNPj0-ZQYk46yUzis_JjrxTL0KkIgCnXHUBcuMUKl8v2yZ8Oxi_jb9S7-EyWSnraKAxP8Bd5Z8YfNBOsCvhBFD7HRLXrAmNnRq4tCkczY0RXc1ZNn9dHgUZZi5UMDztS5Ly8EsdY7mrzmxWJrIRiM6y42y07HvV7mu-GA58U3OSbc9p7bqA1klx2zs780k2U72Sdg6C182fNQr0mkhGr_vrW4ekOviX28Wr86qDLsinZLQhrlp_sbzQKSlPavOL-QYWKNrx8kTJT0vcrZfMLJVxjwU2IOkC5GnkIIHLrqYGfh7iG2FOFZaIRcEpBH1mrqY2ASQGVkaPFZrNPM_1tBHLl5efjO8ugoLqauaNsqqyr3O5WIhc3uOQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=f4f0de00-e4d1-11f1-a3c2-95404d273275%7E3&requestid=20261120200303323092305032&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/247eHeR-gKrOgy8Y2_X3oO-vvosaiyrupAVdu0v2v-zPjc0q5IKxFl9ggibPBnPjOhLQjAdLCmW0SUOVjbl37TMJM8E_K7Didp9y2qqBNRHwuHpOrREzB2UUBuspLWwJ1BQYIRXZAg72aAleIrpJtM9cqCMY1v6orX6s2ftwg3HLONjrdhZ8ee60OxI0gRbylWIKAQTbYdi0_Co3NSH7g-zh-GfNE8NIsl96fBL9Xyr1eNcgV9qbBXtrzuXCyr8o1Hdo5ouWrgyD9IQmrtoq1a1DhBE9-62j7UQAHauRK8Moz6yNVWCnLC_u4oeYSMLhreF-cgA-uJvMmPbjkdEeS2zedc1pQvRIuBJBb0X4PlVJ74dKrXPBLXbprm4dwOtApa0dX17RuQlOqXrV8_F8XjHhUYORMUFc7CgP0kxhHJ2x7QueR4W4AnxJELdI8hvVMncpMpJ25-ajCuC9Tn0CQfgP4y_--0y-CPW1SfTnpwQI7I7omWrfhhJLI7AWRUa3D_jEjzMOxwxwKPol4fb7GMEM5pxsT8Y=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=e4ffd0d0-e618-11f1-8d2d-8f200edb9f84%7E3&requestid=20261122110321997044136780&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "냅킨공장 칵테일 무지 냅킨 3000개입",
+      "query": "업소용 테이블 냅킨 10000매",
       "unitPrice": 2,
       "unitBasis": "개당",
       "packNote": "10,000개입",
       "avgPrice": 22500,
       "minPrice": 22500,
       "maxPrice": 22500,
-      "priceCount": 5,
+      "priceCount": 6,
       "discountRate": null,
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -17675,6 +17735,14 @@
           22500,
           22500,
           2
+        ],
+        [
+          "2026-11-22",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
         ]
       ],
       "priceHistory": [
@@ -17696,6 +17764,10 @@
         ],
         [
           "2026-11-20 20:03 KST",
+          22500
+        ],
+        [
+          "2026-11-22 11:03 KST",
           22500
         ]
       ]
