@@ -145,7 +145,10 @@
   .m-chart .cap { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 0 4px 5px; }
   .m-chart .cap b { font-size: 11.5px; font-weight: 800; color: #334155; }
   .m-chart .cap span { font-size: 9.5px; font-weight: 700; color: #94a3b8; white-space: nowrap; }
-  .m-chart svg { display: block; width: 100%; height: auto; }
+  .m-chart svg { display: block; width: 100%; height: auto; touch-action: pan-y; -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+  .m-chart svg[data-chart] { cursor: crosshair; }
+  .m-chart svg.is-hovering .chart-lock { display: none; }
+  .m-chart .chart-hover { pointer-events: none; }
   .m-note { margin: 8px 2px 13px; font-size: 10.5px; color: #94a3b8; line-height: 1.55; }
   .m-note b { color: #64748b; }
 
@@ -554,7 +557,7 @@
     function yOf(v) { return T + (hi - v) / (hi - lo || 1) * (H - T - B); }
 
     var parts = [];
-    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="최근 30일 일별 가격 추이">');
+    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="최근 30일 일별 가격 추이" data-chart="daily">');
     parts.push('<defs><linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">' +
       '<stop offset="0%" stop-color="#0f766e" stop-opacity=".16"/>' +
       '<stop offset="100%" stop-color="#0f766e" stop-opacity="0"/></linearGradient></defs>');
@@ -568,6 +571,8 @@
 
     var pts = days.map(function (p) { return { x: xOf(p.d), y: yOf(p.avg), p: p }; });
     var single = pts.length === 1;
+    // 터치·호버 시점 스냅용으로 점 좌표와 값을 넘겨 둔다.
+    charts.daily = { kind: "daily", W: W, H: H, T: T, B: B, points: pts };
 
     // 일별 최저~최고 범위 표시
     pts.forEach(function (pt) {
@@ -605,7 +610,7 @@
     // 마지막(현재) 점 가격 라벨 — 점 왼쪽에 두고 흰 테두리로 기준선과 겹쳐도 읽히게 한다.
     var lp = pts[pts.length - 1];
     var labelY = Math.min(Math.max(lp.y - 9, T + 8), H - B - 4);
-    parts.push('<text x="' + (lp.x - 8).toFixed(1) + '" y="' + labelY.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="end" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(lp.p.avg) + '원</text>');
+    parts.push('<text class="chart-lock" x="' + (lp.x - 8).toFixed(1) + '" y="' + labelY.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="end" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(lp.p.avg) + '원</text>');
 
     // x축 날짜 눈금 (시작·중간·마지막)
     var todayIso = new Date().getFullYear() + '-' + ('0' + (new Date().getMonth() + 1)).slice(-2) + '-' + ('0' + new Date().getDate()).slice(-2);
@@ -682,7 +687,7 @@
     function xOf(i) { return n === 1 ? L + plotW * 0.6 : L + (i * plotW) / (n - 1); }
 
     var parts = [];
-    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="오늘 관측 시각별 가격 추이">');
+    parts.push('<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="오늘 관측 시각별 가격 추이" data-chart="intraday">');
     parts.push('<defs><linearGradient id="fillI" x1="0" y1="0" x2="0" y2="1">' +
       '<stop offset="0%" stop-color="#0f766e" stop-opacity=".18"/>' +
       '<stop offset="100%" stop-color="#0f766e" stop-opacity="0"/></linearGradient></defs>');
@@ -694,6 +699,7 @@
     });
 
     var px = pts.map(function (p, i) { return { x: xOf(i), y: yOf(p.price), p: p, i: i }; });
+    charts.intraday = { kind: "intraday", W: W, H: H, T: T, B: B, points: px };
 
     if (n === 1) {
       // 관측 1회: 가로 기준선 + 점 + 안내 문구
@@ -719,7 +725,7 @@
       var lx = anchor === "start" ? q.x - 2 : anchor === "end" ? q.x + 2 : q.x;
       var ly = q.y - 8;
       if (ly < T + 6) ly = q.y + 13;
-      parts.push('<text x="' + lx.toFixed(1) + '" y="' + ly.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="' + anchor + '" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(q.p.price) + '원</text>');
+      parts.push('<text class="chart-lock" x="' + lx.toFixed(1) + '" y="' + ly.toFixed(1) + '" font-size="9.5" font-weight="700" fill="#0f766e" text-anchor="' + anchor + '" stroke="#fcfdfd" stroke-width="3" paint-order="stroke">' + num(q.p.price) + '원</text>');
     });
 
     // x축: 실제 관측 시각 (많으면 솎아서)
@@ -753,7 +759,8 @@
     html += '<div class="m-chart"><div class="cap"><b>시간대별 가격 추이</b><span>선 = 관측가 · ' + pts.length + '회</span></div>' + svgIntraday(intra) + '</div>';
     html += '<p class="m-note">' + (pts.length > 1
       ? '오늘 관측된 <b>' + pts.length + '개 시각</b>의 가격을 관측 순서대로 이은 선입니다. 가로 위치는 관측 순서이고, 축 아래에 실제 관측 시각을 적었습니다.'
-      : '오늘 <b>1회</b>만 관측되어 가격선과 점으로 표시했습니다. 다음 수집부터 시간대별 선이 이어집니다.') + '</p>';
+      : '오늘 <b>1회</b>만 관측되어 가격선과 점으로 표시했습니다. 다음 수집부터 시간대별 선이 이어집니다.') +
+      ' 점에 마우스를 올리거나 손가락으로 눌러 보면 그 시각의 가격이 나옵니다.</p>';
 
     var rows = pts.map(function (p, i) { return { p: p, i: i }; }).reverse().map(function (o) {
       var d = o.i > 0 ? o.p.price - pts[o.i - 1].price : null;
@@ -776,7 +783,7 @@
       svgChart(days, stats.avg) + '</div>';
     html += '<p class="m-note">매일 누적되어 최대 30일 추이가 그려집니다. ' +
       (days.length < 30 ? '현재 <b>' + days.length + '일치</b> 기록이 쌓였습니다.' : '최근 30일 기록입니다.') +
-      ' 점선은 30일 평균가입니다.</p>';
+      ' 점선은 30일 평균가입니다. 점에 마우스를 올리거나 손가락으로 눌러 보면 그 날짜의 가격이 나옵니다.</p>';
     var rows = days.slice().reverse().map(function (p) {
       return '<div class="day-row">' +
         '<span class="d">' + md(p.d, true) + '</span>' +
@@ -788,7 +795,153 @@
     return html;
   }
 
+  // ---------------- 그래프 터치·호버 가격 표시 ----------------
+  // svgChart / svgIntraday 가 그린 점 좌표와 값을 여기에 모아 두고,
+  // 모달 마크업이 붙은 뒤 포인터를 가장 가까운 점에 스냅해 날짜·시각과 가격을 보여준다.
+  var charts = {};
+  var chartClearers = [];
+
+  function chartTextW(s, size) {
+    var w = 0;
+    for (var i = 0; i < s.length; i++) w += s.charCodeAt(i) > 0x2e80 ? size : size * 0.56;
+    return w;
+  }
+
+  function hoverMarkup(data, q) {
+    var W = data.W, H = data.H;
+    var lines = [];
+    if (data.kind === "daily") {
+      lines.push({ t: md(q.p.d, true) + (q.p.n > 1 ? " · " + q.p.n + "회" : ""), s: 8.6, c: "#cbd5e1" });
+      lines.push({ t: "평균 " + num(q.p.avg) + "원", s: 11, w: 800, c: "#ffffff" });
+      if (q.p.max != null && q.p.max > q.p.min) {
+        lines.push({ t: "최저 " + num(q.p.min) + " · 최고 " + num(q.p.max), s: 8.4, c: "#cbd5e1" });
+      }
+    } else {
+      lines.push({ t: q.p.t + " 관측", s: 8.6, c: "#cbd5e1" });
+      lines.push({ t: num(q.p.price) + "원", s: 11, w: 800, c: "#ffffff" });
+    }
+
+    var padX = 7, padTop = 6, padBottom = 6, gap = 4;
+    var bw = 0, bh = padTop + padBottom;
+    lines.forEach(function (l) { bw = Math.max(bw, chartTextW(l.t, l.s)); bh += l.s + gap; });
+    bh -= gap;
+    bw = Math.min(bw + padX * 2, W - 6);
+
+    // 툴팁이 그래프 좌우·상하 경계 밖으로 잘리지 않도록 클램프한다.
+    var bx = Math.min(Math.max(q.x - bw / 2, 3), W - 3 - bw);
+    var by = q.y - bh - 9;
+    if (by < 3) by = q.y + 11;
+    by = Math.min(Math.max(by, 3), H - 3 - bh);
+
+    var out = '';
+    // 세로 가이드선 + 강조 원
+    out += '<line x1="' + q.x.toFixed(1) + '" y1="' + data.T + '" x2="' + q.x.toFixed(1) + '" y2="' + (H - data.B) + '" stroke="#0f766e" stroke-width="1" stroke-dasharray="3 3" opacity=".5"/>';
+    out += '<circle cx="' + q.x.toFixed(1) + '" cy="' + q.y.toFixed(1) + '" r="6.4" fill="#0f766e" fill-opacity=".13" stroke="#0f766e" stroke-width="1.3"/>';
+    out += '<circle cx="' + q.x.toFixed(1) + '" cy="' + q.y.toFixed(1) + '" r="3" fill="#0f766e" stroke="#fff" stroke-width="1.4"/>';
+    // 툴팁 박스
+    out += '<rect x="' + bx.toFixed(1) + '" y="' + by.toFixed(1) + '" width="' + bw.toFixed(1) + '" height="' + bh.toFixed(1) + '" rx="6" fill="#0f172a" fill-opacity=".93"/>';
+    var ty = by + padTop;
+    lines.forEach(function (l) {
+      ty += l.s;
+      out += '<text x="' + (bx + padX).toFixed(1) + '" y="' + ty.toFixed(1) + '" font-size="' + l.s + '"' +
+        (l.w ? ' font-weight="' + l.w + '"' : '') + ' fill="' + l.c + '">' + esc(l.t) + '</text>';
+      ty += gap;
+    });
+    return out;
+  }
+
+  function clearCharts() {
+    chartClearers.forEach(function (fn) { fn(); });
+  }
+
+  // 모달 안의 그래프 SVG 마다 포인터 처리를 건다. 반환값은 그 그래프만 초기화하는 함수.
+  function bindChart(svg, data) {
+    var NS = "http://www.w3.org/2000/svg";
+    var g = null, downId = null;
+
+    function nearest(e) {
+      var r = svg.getBoundingClientRect();
+      if (!r.width) return null;
+      var x = (e.clientX - r.left) / r.width * data.W;
+      var best = null, bd = Infinity;
+      data.points.forEach(function (q) {
+        var d = Math.abs(q.x - x);
+        if (d < bd) { bd = d; best = q; }
+      });
+      return best;
+    }
+
+    function showAt(e) {
+      var q = nearest(e);
+      if (!q) return;
+      if (!g) {
+        g = document.createElementNS(NS, "g");
+        g.setAttribute("class", "chart-hover");
+        svg.appendChild(g);
+      }
+      g.innerHTML = hoverMarkup(data, q);
+      svg.classList.add("is-hovering");
+    }
+
+    function clear() {
+      svg.classList.remove("is-hovering");
+      if (g) {
+        if (g.parentNode) g.parentNode.removeChild(g);
+        g = null;
+      }
+    }
+
+    if (window.PointerEvent) {
+      svg.addEventListener("pointerdown", function (e) {
+        if (e.pointerType === "mouse" && e.button !== 0) return;
+        downId = e.pointerId;
+        showAt(e);
+      });
+      svg.addEventListener("pointermove", function (e) {
+        // 마우스는 올려 두기만 해도, 손가락은 누르고 있는 동안 따라간다.
+        if (e.pointerType === "mouse" || downId === e.pointerId) showAt(e);
+      });
+      svg.addEventListener("pointerup", function (e) { if (downId === e.pointerId) downId = null; });
+      svg.addEventListener("pointercancel", function (e) { if (downId === e.pointerId) downId = null; });
+      // 마우스가 그래프를 벗어나면 초기화. 손가락은 뗀 뒤에도 방금 본 값이 남는다.
+      svg.addEventListener("pointerleave", function (e) { if (e.pointerType === "mouse") clear(); });
+    } else {
+      // PointerEvent가 없는 예전 브라우저용 대체 처리
+      svg.addEventListener("mousemove", showAt);
+      svg.addEventListener("mouseleave", clear);
+      svg.addEventListener("touchstart", function (e) {
+        if (e.touches && e.touches[0]) showAt(e.touches[0]);
+      }, { passive: true });
+      svg.addEventListener("touchmove", function (e) {
+        if (e.touches && e.touches[0]) showAt(e.touches[0]);
+      }, { passive: true });
+    }
+
+    return clear;
+  }
+
+  function attachCharts() {
+    chartClearers = [];
+    Array.prototype.forEach.call(el.sheetBody.querySelectorAll("svg[data-chart]"), function (svg) {
+      var data = charts[svg.getAttribute("data-chart")];
+      if (data && data.points && data.points.length) chartClearers.push(bindChart(svg, data));
+    });
+  }
+
+  // 그래프 바깥을 누르거나 탭하면 표시를 초기화한다(손가락으로 본 값도 여기서 정리).
+  function onOutsideDown(e) {
+    var t = e.target;
+    if (t && t.closest && t.closest("svg[data-chart]")) return;
+    clearCharts();
+  }
+  document.addEventListener("pointerdown", onOutsideDown, true);
+  if (!window.PointerEvent) {
+    document.addEventListener("mousedown", onOutsideDown, true);
+    document.addEventListener("touchstart", onOutsideDown, true);
+  }
+
   function buildSheet(deal) {
+    charts = {};
     var days = dailySeries(deal);
     var stats = stats30(days);
     var intra = intradaySeries(deal);
@@ -842,6 +995,7 @@
     if (unit) html += '<div class="m-unit">단가 환산 · <b>' + esc(unit) + '</b><br>상품명에 적힌 박스 구성 수량·용량으로 나눈 값이며 배송비·쿠폰은 반영되지 않습니다.</div>';
 
     el.sheetBody.innerHTML = html;
+    attachCharts();
   }
 
   // 모달이 열려 있는 동안 히스토리 한 칸을 차지한다.
@@ -877,6 +1031,7 @@
 
   // 당일 추이 / 30일 추이 전환
   function switchTab(name) {
+    clearCharts();
     Array.prototype.forEach.call(el.sheetBody.querySelectorAll("[data-tab]"), function (b) {
       b.setAttribute("aria-selected", String(b.getAttribute("data-tab") === name));
     });
