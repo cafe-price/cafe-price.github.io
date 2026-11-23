@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 23:03 KST",
-  "statsAt": "2026-11-23 23:03 KST",
+  "updatedAt": "2026-11-24 07:03 KST",
+  "statsAt": "2026-11-24 07:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 482,
+  "count": 484,
   "priceStats": {
-    "products": 482,
+    "products": 484,
     "discounts": 9
   },
   "deals": [
@@ -676,22 +676,22 @@
       "productId": "9234396746",
       "vendorItemId": "94274685919",
       "productName": "소이비랩 검은콩 저당두유, 72개, 190ml",
-      "productPrice": 34900,
-      "productImage": "https://ads-partners.coupang.com/image1/ZCeNSwaoJEnSWbYBZGxTMQWYS0xOnhGpGHYzpbgUUA9pWeaZuQZmCQSDvl0PzIfYOxCNUMfPmNLd8A8Spj2eGZcFpHmvBF31QWEO37BvkZSMEKzBOSVRNLgIVJGNMnXb4QZ87pJt_q0upDodRPVD0GjDvFSJTvtP0nrmv3C-QNxQwuflPT_zDzRRz4FSpyRRKD8lGnOjdK-RzNwkfoyEIzxkjghGKX7xallD0O5Au-e8JuTe6PA3vjSQGSWxbc2IsCrgPpyF0ToZxquwLYQFfGjcsQynTw_qP3NdAIbZQgtcPlJL9AGnTWG2AjEZQV3gxxu5jvpzHG_UXfNOee1U25qcPkVvLGwwddSMGvV0cwOtKVowQFSjxpqrsNgfldz1zgVPMhhFegHJSEq3hPgccPEltCKhIRr50WhOBmTbwgBY1Jg1WDJigO1twcMfxExWs3-KU7nsErEEsEVNNsbnkLoji_d2M2wmRhtmi3AOOm2Tct0qmPWEwcmvUXdhUxMPnf5PqOSfTRUxyDjN-h2hZbWZwh1neHa22_doAJrCPSxkI9KwPCenhLfNvM3edpCWdukV",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9234396746&itemId=27308204637&vendorItemId=94274685919&traceid=V0-153-b464f9d8deb10753&clickBeacon=affd6a10-e28e-11f1-8da8-24df793ab1c9%7E3&requestid=20261117225628984135364184&token=31850C%7CMIXED&pt=1&slot=5",
+      "productPrice": 35900,
+      "productImage": "https://ads-partners.coupang.com/image1/9ImZmghV9e9Tu4xG9NBq2GFOoICZ2Z_ts2v4ziiBZmTB2cSCDLFVyDADeMm9CzVxFqP2ECBN5P_CplpUHqLvVIoVdbVEPOu2HX_qtRx-UChtZVB6amx6F42o1FHlYNWr77d1kngH6aWvWKH4BS7NTiWJ0wqnlK6Ot7ifUAF3LowA62SmSmnfdjHVTJEzIYL7XxzI1F2Io1B0_Lu1lYoo_kyDfoHy7wmwun_Zu-4TV-DNPOMiax3NZXft-ln8smDS5qEYM-arbMo5Hyy2r_oc9ff3_iR85_NyyfGkE40sY2vVz3E1YxCKnITxZ4p5pZrDWSzBs_-pncGn_KmdJ1xHFaMnV8I_fen4J1aVPEgu7FBDnLJCGj8N-BADd1v86wcRpuKdL0K9i2r9OqWnYALr-VQ6TZ7QQkhmB1MF-KNyL1mrSey7yhKcfcRTdLSJmDoiOXiBn3EAk1rzWxncneEa4LTCDhgBf4qXHyNVKo6iIkatP5xs8LAOPghI1TZeQfE6wfQKcFhpLAxWNWWZbbCHpiegopJYmDGpxZ5WYL5TSMHy2byJAw8-uBqki5HuxLtyVeZG",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9234396746&itemId=27308204637&vendorItemId=94274685919&traceid=V0-153-b464f9d8deb10753&clickBeacon=c23c8d00-e789-11f1-b249-8116809ffb40%7E3&requestid=20261124070347964070616778&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
-      "query": "두유 190ml",
-      "unitPrice": 255,
+      "query": "검은콩 저당두유 190ml 72개",
+      "unitPrice": 262,
       "unitBasis": "100ml당",
       "packNote": "190ml×72",
-      "avgPrice": 34900,
+      "avgPrice": 35400,
       "minPrice": 34900,
-      "maxPrice": 34900,
-      "priceCount": 1,
+      "maxPrice": 35900,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -700,12 +700,24 @@
           34900,
           34900,
           1
+        ],
+        [
+          "2026-11-24",
+          35900,
+          35900,
+          35900,
+          35900,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-17 22:57 KST",
           34900
+        ],
+        [
+          "2026-11-24 07:03 KST",
+          35900
         ]
       ]
     },
@@ -747,6 +759,43 @@
         [
           "2026-11-23 21:03 KST",
           13200
+        ]
+      ]
+    },
+    {
+      "productId": "8152071814",
+      "vendorItemId": "95041046187",
+      "productName": "소이비랩 저당두유, 190ml, 72개",
+      "productPrice": 41900,
+      "productImage": "https://ads-partners.coupang.com/image1/YFnrnqrz5PKA6RAKYI5efoIsxAjWiehyuvQttA4rydZ8_IbSamKIKtfGe0L5vys2Eod6cVSr7H0zSnYNI03hFKUB4Weifa2-oIQFZJDZwZ0n_wev74NuPIeig_Clm1I8x7Yl7nUUdb6bCj6OS1n2TKxVP_4jBacwR3nmfP8o_u33SZ0U-_NYJI13XvHUZdEhhIt9cx6wgJKB4prGzdR8vFSHfeLYv7oRxfhYRXh7rOiQVKjIFcH8Cy-WjmUyopJn459b2w8JvsS7nkl0l7k4gqJ-P3DCUEmf2vO0HQCtVxu-MsqAZabHzFPbmpvIPnhAhbqzjltT-OuEHZkiwNuOnv9URPSILehT3xGeO0ClKLEPU9Io0G4ZySBEw5a1avvMt0hZdXu_H7i0jZ0mA36uI2iDqBZ8o6yadzqMO3-4XiT4nsFwsbruGTgkDGq1BiLt3Au4CzNTDCk63bEuP1DQg8Sp4N5wl8toBl1sRnBdWpNCQm7RuFlN5sunBRIAT8tBczLHl48A2CiNyPiZNJW2ZQL4l3N9pZ4RIA_uh9zOrNhBgmtuqEPEM-xL9t1ov2vDRxJAstmc_PE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8152071814&itemId=28084619139&vendorItemId=95041046187&traceid=V0-153-7b356f343db4f6c1&clickBeacon=c23c8d00-e789-11f1-8a2b-a7fe14eec49f%7E3&requestid=20261124070347964070616778&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "검은콩 저당두유 190ml 72개",
+      "unitPrice": 306,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×72",
+      "avgPrice": 41900,
+      "minPrice": 41900,
+      "maxPrice": 41900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          41900,
+          41900,
+          41900,
+          41900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 07:03 KST",
+          41900
         ]
       ]
     },
@@ -2640,24 +2689,32 @@
       "vendorItemId": "70272250254",
       "productName": "워너빈 에티오피아 예가체프 G4 원두커피, 홀빈(분쇄안함), 1kg, 1개",
       "productPrice": 26900,
-      "productImage": "https://ads-partners.coupang.com/image1/Zsc2_LbPeq_NFTVjZsowPZTrRxGNaUmV5hJvI_3DubDhoTd7tcTD5er3NNeXVsLpr_8bQtmYPENt0MYdlKlr3FzQPZL2HLDtY4ZpLzBOBvX7X7kw2DTkL5VqzWJWyOcNCWMymcUYhodls-XZsLcNReBcX8zWnJ4n2VZbsbBvplc1m-OcC7HeMKJ5qKoASRV_n7hP9u6sf3eAn0bh2_DLNdZRsNUryw_quOi6IHJJdsdLEPYF3nCY3a-q8_yogYM053mjuy-igu02fziI7n3n09WRXnx_uzI13SFSCzPaaApgTsojkmzxKFT8reMCJ7L6EUtqVK9Cbru-gCBUEWx2HZ6lN9_eNWa_tNgKAykPYa82Gw0T9d3vZZz63ZAwdvHCKCkTe3AuJy3yFuSqIpLsXd9ohCha_n0Vd6hjpKLmm8d1EZxOMExGjyQZUyrjjF1kKgGkIOoFXSwvQCM-Mi8GtbW__U_wWjq9JNfefpVO-CBKInVrSfjy0_lsn4sUqQHJ-KBbLW8dyx4R5Fc-mvgZ-mTiX2bQE7wWeg==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8288488994&itemId=2275069212&vendorItemId=70272250254&traceid=V0-153-f97b060323e24d44&clickBeacon=ea675cc0-e2b0-11f1-8eb3-0ad24b950479%7E3&requestid=20261118030129905225708433&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/bF283YyfOrwAPKaXbGIdTi84jPN2zqV3FgNKrqxKA0-vh8TYPkMVGL_Mxd76RQmVZf3gf-6XH8iOmBGlFHQLR4ugfBO-KeBq1PdmoAI5fCFV0WBU4j6dIM1n26iD0-jhPEyINdxx2wS9kG16ob7jtdW6NB9D_y_aK4jUaADFMcAMHce17RgAjia_zVeYBLP8ItFXTDPQqCFewqKV8C7XFpKG8_z6k6Ixm-BjA8yvIrlrsvTOcohaxGJNjBlPjNwdocvYJyQW-1nNxNLBePPZo-BV8BaJ9z2ug96lnADDHWfH1g-Gm-6KP-6B-0h2bfR32ny73A-2AthwVKAXsYPwti-U2xk-ozwuwE5phNsvU6l4bG9jIq4ZBv1iXVhzOvz25-qjxqnl0V7cfY90XvgBqmFZ5VOLv8_5GLdXxwN4C7gKinpiNNW-ZGJ7nB3ZAcQsP_istP8KdzYvcKbtuNVplHdQlneeAZ2W57RX5aDay7FqxDi0s5i5TW_G1S4Pxu-Wq26bSqg3l1MzrOdCejJRFkP2ff25eO2j",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8288488994&itemId=2275069212&vendorItemId=70272250254&traceid=V0-153-f97b060323e24d44&clickBeacon=c7bc2c90-e789-11f1-a119-b53665ac4b1f%7E3&requestid=20261124070357186276839275&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "원두 4kg",
+      "query": "제뉴인 에티오피아 예가체프 G4 원두커피 1kg",
       "unitPrice": 2690,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 26900,
       "minPrice": 26900,
       "maxPrice": 26900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          26900,
+          26900,
+          26900,
+          26900,
+          1
+        ],
+        [
+          "2026-11-24",
           26900,
           26900,
           26900,
@@ -2668,6 +2725,10 @@
       "priceHistory": [
         [
           "2026-11-18 03:02 KST",
+          26900
+        ],
+        [
+          "2026-11-24 07:03 KST",
           26900
         ]
       ]
@@ -8040,21 +8101,21 @@
       "vendorItemId": "86556439800",
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
       "productPrice": 38000,
-      "productImage": "https://ads-partners.coupang.com/image1/ukNpC37cMJXdHi8duqJ-9oWAv9sAdrjF8wq2Cqoud7NSDrVPIM8rfV6sB1-c77fxgjc5ctaZuDUbcw3p9Fd67o2q5eLGq-PA6n0cVP9Z2GpvL42aLGJ0hlb-8JOpY4rNgL_O7UVG_26bOnF6EPNilgBAN661oxkGuFgV2gA1euh0ofQQnZMF6l6lYQHwhwQDRck2KIvJdZKG1rUz5x4szO8UsoIjAhHbf0xgdlMWxDuaIwZpxB4br8ik1gbbARNgHENx-3FD2dHD5atxtDbVQqdp_LlOXeLS1AwXMqu3xfYVRGLVVdKCNXQPk9o3_Iv9wfvGaqNNIelW63jKg76K-0qNab8aJh7WKdYTLPe3tfYc5mWOzLGzqqouSUpu4fB87xmNCVYUbBZy3sXLTDym97AK6107vJCuCW4jn3Yehw25gVrOgelgytlepNOOpv0cc3oIw0-vqSNVi3-GYpU00j9VcVaNobypAep4vaX12n-GtXkyJuMaxNtFOIyOUnwa",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=22ebdb10-e59b-11f1-9df4-f6bfed2795c9%7E3&requestid=20261121200309305271913809&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/qtv1NUFl4Wf4CKjfqhs-dxQ89KRnqehx-kX7gC2SVzxf4bS7BZuAdXEi4ZYOYlnxOxlOkayN6FGzpybM10dCLh-v5LlmyN7gkqF70Va3bpwJC9km_JMYQqXlYGX-xhSXYr-rZNCnyoig3aalHVEqb70-Dx-uq2492lT5BCDntZpFoadkt_TSxwdG93Q6AQWcEb0kMIapySCbzQldhK0IVxqqpBqVgGMG1o2wnsW-ye0TLT-ZPLZGA8wnwfDN-x9hBgSfI7GHg9NltND0umVKTu-Poj8ddVf3H-5NiuVBQow0OvIh1mALP_YvpaAptQx012Xf4St_gZwUyVP1EQpOtN_1QR3F5LkOUwSZgYHPuMlbpQJj-xjitioIDxagN0NtxxxUDDROcqro_EcVewA0YeyzHxxc1XuacOExViNOf3yr2ca2kJ34LnrIpRQ1Y6JXXaL6uD0YOkHSETSjqxiN1Kr7S8f0tqPxoieNVe8MILOAKW0BFbdX3CZ7885_5GMf_Q==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=b77574e0-e789-11f1-8023-9d11ee81dbd2%7E3&requestid=20261124070329900226943550&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "엔칸토 허니자몽블랙티 음료베이스 1.8kg",
+      "query": "카페57 상온 자몽 베이스 1.2kg",
       "unitPrice": 1056,
       "unitBasis": "100g당",
       "packNote": "1,800g×2",
       "avgPrice": 38000,
       "minPrice": 38000,
       "maxPrice": 38000,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8087,6 +8148,14 @@
           38000,
           38000,
           2
+        ],
+        [
+          "2026-11-24",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
         ]
       ],
       "priceHistory": [
@@ -8112,6 +8181,10 @@
         ],
         [
           "2026-11-21 20:04 KST",
+          38000
+        ],
+        [
+          "2026-11-24 07:03 KST",
           38000
         ]
       ]
@@ -10465,6 +10538,43 @@
         [
           "2026-11-17 05:17 KST",
           6100
+        ]
+      ]
+    },
+    {
+      "productId": "7727177070",
+      "vendorItemId": "96120066951",
+      "productName": "조은약초 계피 분말, 250g, 20개",
+      "productPrice": 114000,
+      "productImage": "https://ads-partners.coupang.com/image1/PRx4c6rHz1Cqit-5PSofjOn70Pw23XTilfrwhUP0T7i4valq2KFXbD7iSvwG38eVNt_g3y5isTNIZHnCTQl4CbnRtlu4YsavsRn68AJTCXBSsEayOaahU8MeNw-I_7c-bahxZpPSyNkWASOBYFgL18I4422V13bUYUrD_7sP7bcObVvvGYxPiCjk0xjOGG0hEVue3RIw6c4mi1bicGdB0gnrmoKus1_Nb1tYGvW-V1AmAoM9qUYbkKkM1KC3JDh2nyZNnY3YwGfTWEGT7J2hD8G_Wx77GEVfs5uOo6eV3WLdIrAx1hEWHxskjAX3WvlohKsDNnWuj0glGZ29NvLi_cGBaTD7aL69UuH-dCV-axDiTSvpVIdnCYFqpevJ87s_A2W_dLj_wfwRfzaek-MKpkfTxd8oi9xsmg_xpvxKW2tbmT5eTAFHC906K-3p0XbHUpXTuDDkqmBEjoGxi8uv4z4Ldap-5ALtsiJxhp2ZDQxhBfKkN0tijhltskn1cK5sRFjxDqepTo_xFIE3JNEPbKRyf2JgmiQROgMrlJq_SxLFc4RFNCJXH38iuAAmExvdcjJRC0uaWcA=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7727177070&itemId=29199613442&vendorItemId=96120066951&traceid=V0-153-62aabe1f2f47b353&clickBeacon=bcbc5130-e789-11f1-9619-718dd42d98c2%7E3&requestid=20261124070338752273290794&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "계피 가루 분말 1kg",
+      "unitPrice": 2280,
+      "unitBasis": "100g당",
+      "packNote": "250g×20",
+      "avgPrice": 114000,
+      "minPrice": 114000,
+      "maxPrice": 114000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          114000,
+          114000,
+          114000,
+          114000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 07:03 KST",
+          114000
         ]
       ]
     },
@@ -16955,24 +17065,32 @@
       "vendorItemId": "85765834059",
       "productName": "[씨엘] 400ml(13온스) 종이컵 1000개 1박스 (뚜껑별도)",
       "productPrice": 38000,
-      "productImage": "https://ads-partners.coupang.com/image1/ZfdkzuxbTGMtaSlXZcCUqP00Oz9g1-maB4NVxTVUuxblbx85-Gz_LnM69OExCnN1QrkdukRO_VAema4eCjUUB7NFyW3J9sa6ySsCR_Xxmpy6Dtho067KqyTTH4heVNmdDiCpuo_KWXVXY5xlonn8id8OpeVEYplpne1TH8CBHx5jjIOmic4AW4Z3fJaF6glfONB0D86xKW9_rKp-bHK7xnOJkMXYRPCJk9JK7OaPJ46Haz6xzdQsQXOZmVLPZ3XDn3oz598hAW5Hsbqk8njDYz9TqWXuxyTPocX8jCVIEboFQk1hncOKsU8K8NfHvcUHAllLa-bBbEP3wTIrANobFQzvfwG8v9FIm5DtzJdaJWVJrlmjxWG4NGvHDxdwSOvyfjz8drpZaj3kgJ_zaLIMn4CwGkTMspPLMRyswvrpYyaTCND_KRggqKUXbZhJcEClL9AclC4hg7U8yPmWpJrcM0wF02S-J1Hc0Iyl6ByjZxluV4iBbNlr9io_3JLMdjiIyHn1OYxEwKU8Ber9oSk0Vd8U312Hrsbcroyf_SUvqIceiCmG5HxQM0IVgeyEfHrvAu3-yOVEXeFMNAai-dwIpH0COE4_unglcxV-cauEv7A=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7290063313&itemId=18630531519&vendorItemId=85765834059&traceid=V0-153-25d70a8de1da4142&requestid=20261117000946202324087557&token=31850C%7CMIXED&pt=0&slot=10",
+      "productImage": "https://ads-partners.coupang.com/image1/6CxAn8CZiU7PV-J46E9nOYVxHAkOD3JX57XvLqEoCaWFVSp1QlmG_YKQcDu3u8kPAeJ64_Se3emETAb2LIXnXglPLNFvm3ujR7cHpV-TuvqdYdjp_Fj77SZZ3CKHUtdZT2HHpG1eiR4o4DHRGyDSW62dsb2jtTzR3Q1rDrm6hnhDg-_VwsvBkS0UYz80G0rEGp--GTH80-M1G7Go0ggLFLUZNkFntMIAS5rskH3N5_S_MSqphurC1nYuu7ctrpCowX_95aHkVEYhrGYWBkfRHNKO-jINON0yZ-jOhbmLsCYuUxpSS9fh12uuxJbo1UWfY2eIVn16msRknt-3svY_iqwoxBsJkW4JG7RYGt9RvIXxLmLRs1FZySEeD55AkzCoHzKgErPjLy8haPEBL4RXIkUVovr5IuGI-18MYIXUybiNTtPQosj7W1X_RYXpU7-d71QLQroUGZWWchgJTnRSxA4RHphIMbCzLLcSXbbL7z0aIskQG7VHd3F8XFtcyEhs1tHnu01xacaifnMbFPeVjkoIzXx9OvUCYQHzaAhEGqepDH7bOREvGl6ZzoE8RGSwyp7jQxuP-BSHvjaU6QGBpScDAqVJirRazOUV6tB6",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7290063313&itemId=18630531519&vendorItemId=85765834059&traceid=V0-153-25d70a8de1da4142&requestid=20261124070320511070402312&token=31850C%7CMIXED&pt=0&slot=7",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "테이크아웃 종이컵 1000개",
+      "query": "씨엘 400ml 13온스 종이컵 1000개",
       "unitPrice": 38,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 38000,
       "minPrice": 38000,
       "maxPrice": 38000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
+        ],
+        [
+          "2026-11-24",
           38000,
           38000,
           38000,
@@ -16983,6 +17101,10 @@
       "priceHistory": [
         [
           "2026-11-17 00:10 KST",
+          38000
+        ],
+        [
+          "2026-11-24 07:03 KST",
           38000
         ]
       ]
