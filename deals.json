@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 19:03 KST",
-  "statsAt": "2026-11-23 19:03 KST",
+  "updatedAt": "2026-11-23 21:03 KST",
+  "statsAt": "2026-11-23 21:05 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -20,7 +20,7 @@
   ],
   "count": 482,
   "priceStats": {
-    "products": 656,
+    "products": 482,
     "discounts": 9
   },
   "deals": [
@@ -714,19 +714,19 @@
       "vendorItemId": "3038558667",
       "productName": "매일두유 99.9 플레인, 190ml, 24개",
       "productPrice": 13200,
-      "productImage": "https://ads-partners.coupang.com/image1/sqw_tCxBOewS9zYpsk8oMXDNuAv1yqw4o_EhLkPSh6clfen86bcCWkWNXbKTY4NjYYAbo5qG9yGi4DoclOdjjelbgkVb0EMae3XbbXtu2rkqsvK-FKof-JpjKPkp5spGWWe0rIWRBOhBdoAbYA2lcndkk8kOHZ_7s5Bj4ps7xgd4WRMLBCdEF0fQ-npes1WwyaKRMbWO3ukiFRK2YIFY0--bW1R3pfgGdLt5FjAsTd6LmqupZCptqYZUrXMEMDj2kWfpDOpCDaZ_YQ6Mkj1S5S-TWKnna0pp7wUUG4B_oiFoVAtVF4q30whoXdzkUZvzTS8-eNPdzXRoZjmpQ67e6IuyOPE6P-bgOtKzM5oGTO5cY2K3RoLteV0Ml1ng5p_rEjQb1gS4mmtPT6jp8P_JbwLyFrM7paXmfQpJxMMBhUAPfckwD_ARTz7rTo_WOFAgVuVoe-7oMMxq0YGusds716c9oLn83UmMDhtqVrYOYLZTTolCc28sHfS7W-N9Cq4M3DPlonZqpdH-1YEgu_MHaA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7757115239&itemId=20909737628&vendorItemId=3038558667&traceid=V0-153-3e137677fc87ec8c&pt=0&requestid=20261123190322646222667483&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/3F6TSs9aJqGYZo013AbxW6JPCLX4zKkpZYwwIuljV67aQjWnC4oztOt26ta5cq7ldbP5Ir8-2vSVpBTBQzGGFWBX4BFItqTjPH8jqESr4nqKibGP32qDzA8QgDi66H92HV0xYL3o2B0iuOEOEwV5dAd96NBmi-HGsLmZYJ1YLJt6nlqu9q_aSaXHqIQio6_cNFer1llal1P4XeDO2bR9mC4RUJ0pT1IFyQzULNXdkLyDAwa5-hPBoTlGA1BtpPHABLUUGyQI5MRjhiiax2aQRX5vp7AEH8XkEryCr5eIVnfz4rsIANtymkp0su-3CY3LpvXUW4HPL1iSMcvR9GSbnZV6f2KvPPbRJvftGTMADPqfF67mmRvPe9PB_KTyPH1iRBAe4ePrZpeCI20s3DQgPRf_A_YEZIAYrdZkCmM4VtafTBHNT33mucpXczsckLaIRQkHSvYBK7lCjkAedy4ZZaMbXAGyMQdnVxeDVkZaP2WP1EP9pO3gRKflO4kZ7_5Pn-4KLXRQcMC0-pSEuG-i82z2WJ11C9PPG5p6zILljS5lnkbZoCW9R3Oxke3nLrmr5yI-mxlIYmzbSkgi",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7757115239&itemId=20909737628&vendorItemId=3038558667&traceid=V0-153-3e137677fc87ec8c&pt=0&requestid=20261123210254650023920747&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
-      "query": "매일두유 99.9 플레인 190ml 24개",
+      "query": "엔칸토 고흥 유자 음료베이스 1.8kg",
       "unitPrice": 289,
       "unitBasis": "100ml당",
       "packNote": "190ml×24",
       "avgPrice": 13200,
       "minPrice": 13200,
       "maxPrice": 13200,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -736,12 +736,16 @@
           13200,
           13200,
           13200,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-23 19:03 KST",
+          13200
+        ],
+        [
+          "2026-11-23 21:03 KST",
           13200
         ]
       ]
