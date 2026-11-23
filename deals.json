@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 21:03 KST",
-  "statsAt": "2026-11-23 21:05 KST",
+  "updatedAt": "2026-11-23 23:03 KST",
+  "statsAt": "2026-11-23 23:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -6136,26 +6136,34 @@
     {
       "productId": "7380505327",
       "vendorItemId": "88885581346",
-      "productName": "이노라이즈 이노미 고구마 파우더 1kg, 1개, 옵션없음, 1개입, 1kg",
+      "productName": "이노라이즈 이노미 고구마 파우더 1kg",
       "productPrice": 13000,
-      "productImage": "https://ads-partners.coupang.com/image1/rRQ2feHaH8lxEnrmrUJLx2X92SGENOAOLu3ypbqkhd0JZ0VjUK_ih3mm94LoaNv4k0BDHigW7jb6a4zIdrMczTcYo7-gJkDWp5YDhWJfgXKMAjXV778gJLw7LzgGb9vH_ySvI9OAwrTTJSMLpqOu2RKHXLVdGDv6IQWtH5BCh50rQQ8-rKycfHesFWY0dRJIG-cG0bk0Wp_CY1OfW32YbLPfl-ddKDNLNsH_due6EJpv8pBWrmHeSWN0ZQ7eRxs622wmvdpSiCHny6lkQSNkWbf6Ji7s5-xtN8rwr4KZjz89eMJoSURiPy-AG4x7IOco4j5rdNhg_bZJRxOlPr4W6R6y-fHXqSyOjmbvAT34dg7EjUbEXHGUjJTkuvUmwClm-LJFdmAw4ZezkeyOX-yExki80gRjEuX1lvfbFbLmXMu164TPyNmsRB4UEsVOBdvkR8aSauOWR1Ys_GTeJQI71HzGK-XZxw4V91LSKtbP2v6FzZz5Cv3HskJpgeeWOl9LZewYfH5olovUrLqG78dlBXCtoK4NX3Y7q7mVdP8KSuBR5Ki-W8_kAKnAPClwgUY-K3Uki45OAP_RAOxab3cDa_5qDQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7380505327&itemId=19059408461&vendorItemId=88885581346&traceid=V0-153-f4ed38128c449ae2&clickBeacon=52b6e720-e1d8-11f1-b7b2-a6a362d79862%7E3&requestid=20261117011104137139362646&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/YruMqMmmcOJ8n7h1Yox0lW997ysxICRn5DjdKvLzc0ZdRzt6ysZD9St0i6n5wYkoMz3JL23NETkO5BagBsspaDQwd9ALIk2uvQ2x5rht-N5_PkGJio0RCfgitQW-u2TOXMtT4d1tPiz_CAkwGILv3VE4pcxNdrKUs0tw0MhN6SM9CV1k4XIpCHCeTRZb8V65nWAtc3CB9d9ZEbBV3j8s4Ukol0iBtdcWqvK7IY9FwzzqctTt3lQnyBdQMgCYrV_DA7HWGUdDq2PcT7pRqYtNexX49TAB2o_j7lkqxU10CeJc6EKofGaHQh4HUo2GBnfI2B1UV2iuOVDlKhPqtAl5C6yJ1U__e1yKrXQEignbOZh7HFEkRK5Lraf343NDL_eTmLgQQ2njS_E8KLZUriYV09q3elbJ0eeWOPnof0_PiOCiOYwBggpBbK9yti1c3mJDhqsSgngo-JyNfi3bYqm1zTQ7_sr5fD_Lkz1HY6FKSsbPIO97iR7mre3YkqrFyezy96vAS_DUSH4ipLOF7ZIoS798gy0_UF_uZz9d6QOB0o2MQf0GVB49dfphLo3hQzk_QD3earKLLE7QPabhnlsRDrg4Gnn8cs5x-TJrkQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7380505327&itemId=19059408461&vendorItemId=88885581346&traceid=V0-153-f4ed38128c449ae2&requestid=20261123230249858067589276&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "고구마 파우더 1kg",
+      "query": "이노미 고구마 파우더 1kg",
       "unitPrice": 1300,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 13000,
       "minPrice": 13000,
       "maxPrice": 13000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
+        ],
+        [
+          "2026-11-23",
           13000,
           13000,
           13000,
@@ -6166,6 +6174,10 @@
       "priceHistory": [
         [
           "2026-11-17 01:11 KST",
+          13000
+        ],
+        [
+          "2026-11-23 23:03 KST",
           13000
         ]
       ]
@@ -16820,24 +16832,32 @@
       "vendorItemId": "85667572416",
       "productName": "테이크아웃컵 290ml(8온스) 종이컵 커피컵 씨엘커피 1000개 1박스 (뚜껑별도)",
       "productPrice": 34000,
-      "productImage": "https://ads-partners.coupang.com/image1/GxgOOHXnX58FSjfYG9L5v9K1XxFe7mbdJ0VeYtZ854vK-PdFb3JvREwm0I5uMBVW-v-4SPKh87nD97GZDGqiv5lHBNl19HKZTEeEHE4CDynkNNl-XcrRVtiTcgLBuwkdDISDy_KbOmSYj8czFMccIK1VCuw3HM2i4TrJSIx4rpLgM7FUFuNSHbQZNVnzt3s-oQr01F80nF3pfMo5v9aN5qwfcc_DoGo97BaoDD_CYIqVtYuyBNiAnfrEwOfiq0sY_LfwrE18a7WhJxGN3qy071M83Z8LkQME0vPMZ2qHgQKg5t1zWvQQ4XTHFFKVpXtpkVlRe0udQwt68aqSLHtaChbo2xZvIdfSyyxNxfmpPuEWNMi3VLgGWF5kVVuJOT5sR3AWDmWFH_XKvhonBfUzLjafsqOAtO3QoWpipzv0xmZS6pi0QKJ7bn5akdVegv4lye9Z2sZU75LZ12SQylBUtAXlN9JL01tcg2bG7LVDrckZSemNTazmJNGkto-ZeJk3S4fP-z-cqhP8TI5fMdzNhB4sooPc8qG7YJS6SCUx8V4GbI5izkHB_eG8j36TjffxvpRuqj7RZ3lTYq23iPh9H2E-wpeK8DxIjXx6OovDOa4=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7263274840&itemId=18505650254&vendorItemId=85667572416&traceid=V0-153-83ecc11b46e0f75c&requestid=20261117110634838279655335&token=31850C%7CMIXED&pt=0&slot=10",
+      "productImage": "https://ads-partners.coupang.com/image1/5l6Om_yiTUhocGX75m-8rupibsuf_yfz_vS3WHILkurM1iNskEIHmL19-RjTkEMOyBCFO6jZiov83-FhDUgjbX1mpcFXMgeX7IhVYx1Edw0iHPGHAiifiWiYed73igKQiR48l-Y-RNyrfzeFqYNOOmYg__PBItLyhxPNBC-4kIsQl5r35gl93bMQIWeYs8ImRLgBl7qOKoFMXO7UQXNs8OfzK43zGvGHfMHp3vt481QPR3kBMr1xMzNZo4EvhfNc-XDb8mbIe9z7wm5CmSdL1l0SHO-Nx-YMUD1ZDmEwug8wS-sJ0Nvj4_LL3ftuSiGG2BK0C1lo20ntBRUNhvt9aMLjNLE_wiRIGsp-is5-dDmvvj3esyWzZNBfn666wRIyCx8S1oPHJPPs66Bzj68nzk3C7evPdIcG1jQ5UbRTJ7xV-ISscn_KChln70dubqUrZ8Iym5V3eHlFBjMUnvblDrEIdX7DkAcw3rhKikictZnqQjwQntny0ChEF60vkLBJ9_JJ09624DPqImyfgXFinX6pJV5NBwpf4CTfJz8bzaE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7263274840&itemId=18505650254&vendorItemId=85667572416&traceid=V0-153-83ecc11b46e0f75c&requestid=20261123230323384299206246&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "종이컵 8온스 1000개",
+      "query": "씨엘커피 290ml 8온스 종이컵 1000개",
       "unitPrice": 34,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 34000,
       "minPrice": 34000,
       "maxPrice": 34000,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          34000,
+          34000,
+          34000,
+          34000,
+          1
+        ],
+        [
+          "2026-11-23",
           34000,
           34000,
           34000,
@@ -16848,6 +16868,10 @@
       "priceHistory": [
         [
           "2026-11-17 11:06 KST",
+          34000
+        ],
+        [
+          "2026-11-23 23:03 KST",
           34000
         ]
       ]
