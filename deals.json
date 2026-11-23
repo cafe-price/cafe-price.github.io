@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 11:09 KST",
-  "statsAt": "2026-11-23 11:09 KST",
+  "updatedAt": "2026-11-23 13:02 KST",
+  "statsAt": "2026-11-23 13:02 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 470,
+  "count": 474,
   "priceStats": {
-    "products": 636,
+    "products": 642,
     "discounts": 9
   },
   "deals": [
@@ -9297,6 +9297,43 @@
       ]
     },
     {
+      "productId": "7136952609",
+      "vendorItemId": "91169934288",
+      "productName": "고려인삼 사양벌꿀, 750g, 2개",
+      "productPrice": 13500,
+      "productImage": "https://ads-partners.coupang.com/image1/lOheRZkQ5nCR2XA3lNVSNAIHicpySPZYg2HD8nc45URUyypVL8qi3gbigFJQP8rpd6eZQrzdYS2N85kaD_ZlhFxqF9McsW7kcb9HbsiiDZ4Nu0O0U0-12TUgOHK2BMtpIQ5--C0gLokqOJfB79S0eh51C4LlSyCBf__MpqBzTEDTv0MuAi84fA_nCWdFdQgOgAG4Ny2I1hszsZyX8t37t6gDHRS9YkiLQulVxX-b8tOoHIRldtDqi948ICl9OVMBy34mRtR29pZjvldiQTiKXqlhdfPGYpsniDT3swqqJBGZ2RLDhlmqBzyvVp7P9kAZEgYrroLH68MyZ_G_JteZqShCmfsYG6k_23T7V1MJn40Thx8rNmSKMDSShCVGRle6DqhLCNIfmAtMoK8GoFBOBHeyAzMXKucZQAJVYTqKmmLVlD98tKDapNxi3hwh8Uj_VKrKSHvFauIp4S8X6PJcQ9T9ZAx-1u3xxNmYkbGLefJhDg5T7PyMWEF67gZjGlrPYKzw08x1gz1R7T07ldk5BvNjXjTQdClrRZJexx8mlZgvoc2m5PCDE95emAhL0MXNegyA",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7136952609&itemId=24151214866&vendorItemId=91169934288&traceid=V0-153-80364f84351a8093&clickBeacon=ac1d6e00-e6f2-11f1-b4ce-4759149b1e8f%7E3&requestid=20261123130216834067586468&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "달콤달콤 꿀 사양벌꿀 1kg 1개",
+      "unitPrice": 900,
+      "unitBasis": "100g당",
+      "packNote": "750g×2",
+      "avgPrice": 13500,
+      "minPrice": 13500,
+      "maxPrice": 13500,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          13500,
+          13500,
+          13500,
+          13500,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 13:02 KST",
+          13500
+        ]
+      ]
+    },
+    {
       "productId": "8535145458",
       "vendorItemId": "93846028154",
       "productName": "온리비푸드 순수 사양벌꿀, 1개, 1kg",
@@ -9486,24 +9523,32 @@
       "vendorItemId": "80675902948",
       "productName": "[로켓프레시] 산들 건포도, 1kg, 1개",
       "productPrice": 10660,
-      "productImage": "https://ads-partners.coupang.com/image1/3a2MxxYdcAlrGZ1_3dO4DpcsS1zfMANtShRYgz2boqCKaSU2HuMV5yMLKltqVJG4XynqpuZEpJpkMYhxkNU2klc1qHhnb0YTSmX0RGow0_1X4NxWFr0kYReH3wFixQWJV_R2Fg1jWmd2J2qjInMbGhO-QrkIMx-LzjYzEs6SN2Fa72Qm5U0dEw-3bTDmL9p42EzD-EXkP8e68zp0sOOMERLnHRgVMeNf4JlncbokpgxBDMuePF4cVC4VnvdJZGHDLiTRCjot5_Sh7OVOPlRqoYQYyJdres0fGIG3iljat66FP5bsYss0WJapEzA1LSm9aePFgtySk23MVQTZkxhxCLQ3RSelK4TXID4HbYpbjNXpYOkRYI6sAY7e5lguVyJJAfGVNRlOjsp8IcU2oQz77OAkcXn-MLWF5bvyXPI0hZd4lGCHCjOyQ4V-AFMQ6htnsn_Ud73-lzaBMxSdXa77LB2YZUjc1C_Byq3Ef_39sYdZt6AYFiIk9u4hl0mCZft9SsF-IQnIkA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1518979233&itemId=13421262961&vendorItemId=80675902948&traceid=V0-153-40e90059bb8263e7&clickBeacon=6d3408a0-e2e9-11f1-b47f-e5d759c7192a%7E3&requestid=20261118094601178215708470&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/4ZoNWg2zwor5-mPr4Zq7DVeneFMkpHTZyU6OSf07hF6ca5yzADd91SOsTzcaxdz6ZLhjIy46uXN4iGtgoj0zRQx76rh49zUqHNBR9MLH3Q9i8vWpIczqYiZIB1Qh3ZaYt5jNvF7UTKCvfx819GoJnRkx_KernxK6gaZMO5kV9wm41iWqqyHrljGrDPRY1IN590mz1UOsaQ6MlZ3YAOE4yYdBtxea1H0BpkNdY3ma9U2ad6EJsDM5qx2dp381Va4WxaYNAPQLRNTQi8C6a_0UER8B7DuAPh2d5XhI5z804_Wrx7Ky3H_cG-dGVdjtRvP3Wr1jGsSNK6jsNk5iVZJHCVxJx5eoXHrF15y69oR9BtxChtbV2y2mx_jWxQ6i0Fy5tEjAb4k-4mdGtnxoxrGxcgsheZCE-4yOfOUOn6S71qF-EVy0a3Z9neE0M_1xsZuTV47vaNwoZWbdWJ8NgfckM6rzg99XG4ZiwyB86c7oZPo4gzfmkMn6nyNtNlRpuriiPdy9gs4iLL0=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1518979233&itemId=13421262961&vendorItemId=80675902948&traceid=V0-153-40e90059bb8263e7&clickBeacon=97ef9110-e6f2-11f1-af91-059e25be9ff9%7E3&requestid=20261123130142972175619693&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "건포도 1kg",
+      "query": "리치너츠 칠레산 건포도 1kg 1개",
       "unitPrice": 1066,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 10660,
       "minPrice": 10660,
       "maxPrice": 10660,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          10660,
+          10660,
+          10660,
+          10660,
+          1
+        ],
+        [
+          "2026-11-23",
           10660,
           10660,
           10660,
@@ -9515,6 +9560,10 @@
         [
           "2026-11-18 09:46 KST",
           10660
+        ],
+        [
+          "2026-11-23 13:02 KST",
+          10660
         ]
       ]
     },
@@ -9523,24 +9572,32 @@
       "vendorItemId": "79486136535",
       "productName": "홈인푸드 건포도, 1개, 1kg",
       "productPrice": 11900,
-      "productImage": "https://ads-partners.coupang.com/image1/kag8dRIG8FuPVAzokbYCzdCQesklQlagt2GhiEKfZDHT9xECM5ALOeGRCsxa67AHCvawRYjOFRfuPzbziS_3L7VuR2wQwVFFXxYYYyP8c0dVnWF0mhTALN24566-qQC1CcktjJwXiYdFqS0T7J8g3bapyhxf4FBHPuXMvQ7fpGQLMO95qO40yjlsR1VPsX8GnLEJdC7__0BymxDGWTtboN5pYr-pB-FHCTwnRyxG1pgWxArRQHqEl8xLFPwUvFzqw6i54pawKy3ivx_Fr-9a9vFV2ttaOZHGZi09UaPY6WSi1K3GE2sOiSo3L7DM8GVhBcCU5tDSudfFfu0gCDRM5S_MQ1q0ENfySsjHu8x_zi_ejDvGjoeVvJw8EplowFvee7Am5ZBRwrT0zs_ewITWQmLuQwmIeRLtgvZy9Ia5q9rHiEZUrYPMJ4V4Pn4xAdJfSGFDFvINTEQuVypB9LfoaTf9CszBDQKy5LzuiCVebod09XrR4HvBwgkJ5H3p4icfRw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6190563121&itemId=12215349773&vendorItemId=79486136535&traceid=V0-153-ee90e9a0ce927ab3&clickBeacon=6d3408a0-e2e9-11f1-83b3-21e923822808%7E3&requestid=20261118094601178215708470&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/rFYn8YwACwTLbYc2rEFZ4wWdQtMNIGkkTkxGHaZ5_j0mtR190BrrHvjQrpjNgEtNq9D08X_991oBdNkZfkSuWtOnoBzRfKrfeWz_marl14Bc3RQjW0NMO_WAKXIi76FPgT8csbdYyy4c5q2wwcXMnAOW0WjIbzTd91yvShMXzmypzKIJhgYiKsC2VsNox3BsBWUJEr5Gy9GocHkq1mjeXFik-IiRXXun3Whnqjcqj7DXiiNKIiCAaQX9T_Y33xd8LVLanxy9U2KTth2QAS16aJl9wBbQlukXAnTHkB45C6WGrEqAJyMM8ufpq6E9llu_3gs0WYB7Lc1l8EIni5PxgIyEtmewEwSzO0gOyCViNjNcsqxgSJqS8JXVwE-vFFYUE4loAA0M8pOT7cvwhWA7_HGpNvk_1JXQL8nEWLzmVm3_xFnV5WB5HnuUa4BI_5L2ma_-NBZqc-2YI0BOXuzw86n5X0gqeLb0jrNWm9v3-BSwa1HxsV32r3Lc6FBzkeU=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6190563121&itemId=12215349773&vendorItemId=79486136535&traceid=V0-153-ee90e9a0ce927ab3&clickBeacon=97ef9110-e6f2-11f1-8378-751b855f5e44%7E3&requestid=20261123130142972175619693&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "당류·토핑",
-      "query": "건포도 1kg",
+      "query": "리치너츠 칠레산 건포도 1kg 1개",
       "unitPrice": 1190,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 11900,
       "minPrice": 11900,
       "maxPrice": 11900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          11900,
+          11900,
+          11900,
+          11900,
+          1
+        ],
+        [
+          "2026-11-23",
           11900,
           11900,
           11900,
@@ -9551,6 +9608,10 @@
       "priceHistory": [
         [
           "2026-11-18 09:46 KST",
+          11900
+        ],
+        [
+          "2026-11-23 13:02 KST",
           11900
         ]
       ]
@@ -9675,6 +9736,43 @@
         [
           "2026-11-18 08:45 KST",
           12500
+        ]
+      ]
+    },
+    {
+      "productId": "8248666571",
+      "vendorItemId": "95592353531",
+      "productName": "더푸드웨이 너츠그램 건포도, 4개, 500g",
+      "productPrice": 25100,
+      "productImage": "https://ads-partners.coupang.com/image1/UY8_Awz44ghUFYyrUU1AKOkD62Mrlt8NWCyUrpjeydX-GgVSoI1CJp1BhkPGmZ9E2PQrFhZ7ShBLzc2PpKULqLcNrG7V4xyXK_Icmk-QY2D_BFg0Xw8NpV889SgBUF_dOQoaPivYTLCFYy1HFEf950d-ZBL6ye7P6dLq6lSzyxEhMhQypI9kO9_56ZL4uh9NAxTzANhi18cYBvjlUJ5jLjxxIRKl5a7YT13sGHLrItdc5_z3NuSEeXkT3MVM1XwLNuQosmCxl9BE86rfTfLPzKvEhq0t8Bood6nZsKFrBP4phNZOMoXWPbpFckOjEG2SqB9_g9HoayH2--izXALboXjHgLGaEp-RqRE_8lCluWnKC2ofQBUprLrZFtSu1j40sd1GBoNN-38cUfThr8lLEz_YtV9vk5phX5zdrmYVdkvnIs6z-ofnKaRYUZO_2Ll82HM3GsIHZTiPnRZt4Bp9-vlApsnPosB_QgxYC45JJJDh4VuRJ5EZbGi8_CxVOPaRlnIibcNTcPjr",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8248666571&itemId=28649859847&vendorItemId=95592353531&traceid=V0-153-03873865cd3f94d2&clickBeacon=97ef9110-e6f2-11f1-b3ad-ab9f611e9f84%7E3&requestid=20261123130142972175619693&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "리치너츠 칠레산 건포도 1kg 1개",
+      "unitPrice": 1255,
+      "unitBasis": "100g당",
+      "packNote": "500g×4",
+      "avgPrice": 25100,
+      "minPrice": 25100,
+      "maxPrice": 25100,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          25100,
+          25100,
+          25100,
+          25100,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 13:02 KST",
+          25100
         ]
       ]
     },
@@ -10850,21 +10948,21 @@
       "vendorItemId": "95095041343",
       "productName": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유, 1kg",
       "productPrice": 7270,
-      "productImage": "https://ads-partners.coupang.com/image1/xSrWjgJZkbejjwjCxYgpsP933kt9iinQmh-mcD6OLBMRXT8-VE3hq6CDgw3a7Jzr51Oi20dve2KT4LDD0it4cl3BQr8O4llMtfHthOMrYiyICI_3QRB4DC1MThp1AssetbGY0nl-lxiSKRpZKRol7dux7BzxsySzI0PHxSBku3ipKehmuBx-SpJId5bCNVFfLTy5G8k8IwlsPZwvipgzML4Tl22rBm2L5RbzyYeXZuHwUIEenzZqKDQVGhQwB9Ko9e_gqlFAUrdbXun_GXdcNtqllbqK6_trP7yA1gPbvvzPFeq7_wgceP0qNwLwRClFsS0QFTEKgG9dynNwoHe8L4sULLE7QiZiiB5Fn55IZUIC_wiRcj2QqP3Fp30FRmk5n5gW529qNRdY5dlFs4A76x9eulxzPiFtBJQuHPE24EAhMkP0C18nSEZcM32aN6hs6DHIlf3DmqmUVHIxsWueTKEdXonhWmaCzaxAJ1LYVoTUH9MjYHRZFvdNuSvt9OQ4wjbf2HMdiJLfH1Qg7IyX-_3548OA4E766Wpao6n4ZQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261122110239230233633261&token=31850C%7CGM&pt=0&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/vIxYJ_D_8WlJ2rz_vKq2BTc-_1D2u2DkC2cQl_RSVXmGatiMVTBlc4B53SsH0ssOIQLZF6n8UWqLfT8Arfa2jI-URZwJKRXtld9xbdwgQts4ROkaRrpkzA3cCxSUXY_Kww6mJeYM5hypSBSFRqDiV5fjHtgZf_DGneraP4KsbWWBv_6CePsmTX7unk_cWp8K2ilmSARJtiZO_WaafLFqTaMrP7_gFQDzLmb_1FSh1JaAMH-RRagJGuhBEAh6nP_orsbp0ld5xYuYifqlOKU7sE9N1Fuhz-HBeQ9YJdGFEKLBvnv7jMg8j4ARs2HhUcHlt6xGMZ2fdAARKjLZtJUAWrRd5iqf_s1BDtenvwqVtgNPacq0XEIzIzQiw_-_aLtCr9jN-haDsWGxubso3UgiTSzkqTSHb9P_ybjtILO7-g0G1lyLka8lkjG8VZgncJRhbPYFBa5hVhzxs7tZns3QD7r5EiFyzpzvWFCKZgES_tdYTdWehpzPSVQ29sssTQVs1x7xx2iSqWC2hNWV9MN_A_QRahVD1HHNuuR-KrbF0Q==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265153304&itemId=14397784627&vendorItemId=95095041343&traceid=V0-153-9a97ca825a25aa03&requestid=20261123130126014310169914&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "크림·연유",
-      "query": "태국 무가당 카네이션 쿠킹 앤 베이커리 연유 1kg",
+      "query": "카네이션 쿠킹 앤 베이커리 연유 1kg 1개",
       "unitPrice": 727,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 7270,
       "minPrice": 7270,
       "maxPrice": 7270,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10889,6 +10987,14 @@
           7270,
           7270,
           1
+        ],
+        [
+          "2026-11-23",
+          7270,
+          7270,
+          7270,
+          7270,
+          1
         ]
       ],
       "priceHistory": [
@@ -10902,6 +11008,10 @@
         ],
         [
           "2026-11-22 11:03 KST",
+          7270
+        ],
+        [
+          "2026-11-23 13:02 KST",
           7270
         ]
       ]
@@ -15259,6 +15369,43 @@
       ]
     },
     {
+      "productId": "7778899675",
+      "vendorItemId": "94632325838",
+      "productName": "립톤 아이스티 믹스 복숭아맛, 1.5kg, 1개입, 4개",
+      "productPrice": 48500,
+      "productImage": "https://ads-partners.coupang.com/image1/eQ5yY9_eScCs1GUoeVmy9wJrmbGQLDVAiqsH7MYe0J5Flx7qupvZFQYWIpsaQ9XmANqj7X33C385TTIclc9wBmuKz1T9SpqVJs6U3ATfND72_cVX0rRYPR5d6eqL4u881ksOsscO9DxJT2FME_ZQPFU07_Y5xFF0Xa-dp-p5-xyqDVBhpOA47hGmnkNpGDpP166Se61I2bogtGSB-NttHzl7G5sm9ywPkS-JVqRibvoEDfgqiL_WoynMwliaVJrrzWDgIH3ehcqC2JkVRKmQqlZoSgAf9WrgfGfX4_8qLsxiTiuVbjq6LfXxIKfIag5fLoztQ3A_HDSQBpb1uQ0TvOVw-WlYSMbZ8xVNfVmhBADSHN6XImqWVEn06KcAwZgnST0-YjksqWNeBscfTUuVaXy5icKi5Cw8x0-2twh9uI_I8lHS9ML4cRGudlBxL5rI1BhRzcxwj_5nfKfR0GrxFvK7V0lQMUap7pBNV1KQYLud0labKIbn6hbGCeBaY3bnoY5yWgs84CQoiE5PlwhpwDan-umS936p9pvYspzzUJHGX702V4fuThPmOFmeqY-NbJc=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7778899675&itemId=25761767293&vendorItemId=94632325838&traceid=V0-153-7f0093a8eb97ef17&clickBeacon=b12593a0-e6f2-11f1-8c29-910d8bd0b290%7E3&requestid=20261123130225253233638853&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "립톤 아이스티 레몬맛 1.5kg 2개",
+      "unitPrice": 808,
+      "unitBasis": "100g당",
+      "packNote": "1,500g×4",
+      "avgPrice": 48500,
+      "minPrice": 48500,
+      "maxPrice": 48500,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          48500,
+          48500,
+          48500,
+          48500,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 13:02 KST",
+          48500
+        ]
+      ]
+    },
+    {
       "productId": "8244145059",
       "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
       "productPrice": 24280,
@@ -15294,6 +15441,43 @@
         ]
       ],
       "vendorItemId": "92725647410"
+    },
+    {
+      "productId": "8293494713",
+      "vendorItemId": "87044258441",
+      "productName": "모카씨엔티 아이스티 레몬맛 분말, 14g, 40개입, 5개",
+      "productPrice": 31720,
+      "productImage": "https://ads-partners.coupang.com/image1/oTEAavqcnEIbOu1VoTZZ2t1DCQj314n4MLrysq4omX5UgWSJA9DP9rCAxxvr3RDAo6wa1l3l66vsxWMvHxnG_TFrd7kiFH1sO7WOQz5rVmCfeKx4AMkKbEC9JN8sGN2O9z0mBlxnCmsvuzQmx7w-ku-D4msZJbUOd-gx9aBmgZzHv53i0Iq8H5MQC9GckEhGVATArk4_cxijNrRTtU4rbUiscGFgijatL8MC6vluoJtZEm_gNoLPvGSx_dzWR92GTRZ6FRcGK0_5TUVRxqaA9R-QbYyH7yPFY9nYQ1WWE3WrCpIt3gc0whw0He_qCyDvuyaBUfNClREdtSvQfLc1iqHJJYUGlKQn5hHcGRxK5IJU6GQpYj1eFjPKrsCPUqK4oYGZj-RA3dY7kgZU9_gPjLTIzGhlgZt1cHgMD7LiuBfJnfxOGlVpWwJDMUIXcbKFgL3uv6AkHea8hDQxZ2z_hpBXo7Mr3ftmVIiRzSHo9LTakBbcBBD74_F42rTq1pn5UFHWv2sl-rdnhi9aJT2U7bpqmlaT-Co0n4PcSAwJXbq0gbHRLQn3WJW9UM054YhCrA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8293494713&itemId=19945121529&vendorItemId=87044258441&traceid=V0-153-8d780c66acbb2bea&clickBeacon=b12593a0-e6f2-11f1-9163-de44a4d70f59%7E3&requestid=20261123130225253233638853&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "티·탄산수",
+      "query": "립톤 아이스티 레몬맛 1.5kg 2개",
+      "unitPrice": 1133,
+      "unitBasis": "100g당",
+      "packNote": "14g×200",
+      "avgPrice": 31720,
+      "minPrice": 31720,
+      "maxPrice": 31720,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          31720,
+          31720,
+          31720,
+          31720,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 13:02 KST",
+          31720
+        ]
+      ]
     },
     {
       "productId": "9720289330",
