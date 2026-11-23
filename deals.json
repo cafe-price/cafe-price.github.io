@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 07:03 KST",
-  "statsAt": "2026-11-23 07:03 KST",
+  "updatedAt": "2026-11-23 09:04 KST",
+  "statsAt": "2026-11-23 09:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 468,
+  "count": 469,
   "priceStats": {
-    "products": 634,
+    "products": 635,
     "discounts": 9
   },
   "deals": [
@@ -2023,24 +2023,32 @@
       "vendorItemId": "95508059378",
       "productName": "워너빈 업소용 카카오딥 블렌딩 원두 홀빈, 1kg, 1개",
       "productPrice": 18500,
-      "productImage": "https://ads-partners.coupang.com/image1/KtEr6f55cop5VYVNKvj_r6WT0gRyTz9nywLiWNQ5-vgv-F8J2WW7hGXWonoXmnN15qGhRIyy_E2WcJYg08TVhbt8EsRdNul5vR-aoi60D2KQLEzV8Br5eKMsM1PwYv-8MvGVk1xHGiJvbLYkqJR2fpG8w3SZRK4yyCKklsXwQVoGJrIWMJ4VY-7_ubWJUkOWZsG40F6nLMty2MdeUKZ_WE1Ksc7luO6AC2hXchFRk1-HVIzcp4STFM7Yj04424ksY_8XFfTyVBQvviJ_T92DWKnBiCo1wOkPk2s9D9R82DAEom3YL298yEveyQZZAP5EhI5EciP0PPEA8AKCuJ0wwoRVKrDOo8XyfEDmVFKEH6b9-jexY2qCI48cNmdB_Yp_fcoIJJ8akoSnPnwYBJwG7RwlH-g5gdArRoBeVpUH8ONChd51yK682dR0ki0H0xRCG93qUUzk4sObPu3PhPMLuppvmCzlnecWyCMbj1kvoajhLX-SSxTMcrPjGkFrWMFdYlRZb3jXc3FqV2DyqiE-zw5EOQ_GvJ9MSR0ojQ2IUy61NAf7wgXGD4uq01uTq9tRZIad4Q==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9570230478&itemId=28563525281&vendorItemId=95508059378&traceid=V0-153-d968029f3e3ad8b8&clickBeacon=6a21d020-e2a8-11f1-9591-40495de7b356%7E3&requestid=20261118020038698225705462&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/O_kg_UPD1pgzTHhFOxup8TytglLL7bVevXdMnrc2ebkPh6b-qt1hoWs8EJOdOvDWioB7Bu6MRZa5em-kqNpxEmTpEB7j31PmbZGXVwMQZLefMaS3cy3WycWoa9fDJR4tGuVu7EpTgr5JnokwXPtuT_d7u0fRRTroA-do1kb5NjJjzZDYrm0dPBbzgiMRhuhKtIecl6bkTq6k8rTQhzCJca3dIE2hAWIcLrkhfTDDR06C11NBu8zSVSpSg80ivbEPbycdo_o3aj4_7Emx8D7XdWx_a42dLBhExKYDWXVN35Fl2ZP90ugu4iSwUSeufUT5t4eI5XDL6Tcb0OM3b4GoAzgBohaLc8bZobHt_mXpVhA2rkduJhHQsW7FQ_1ii1u64ZhoxDjAkFrtKmRsIdSWiK5wK_Nq6htWs_Ndpbx6rF2v86famqH9aHguOf9ZJpQUVQLk1fFDGzgPUPRfa1QAYtXwKP87HKdfFMILtucmN4V-UQ0uhKuRDoy-jarKdWRqCw0qeFr1Qw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9570230478&itemId=28563525281&vendorItemId=95508059378&traceid=V0-153-d968029f3e3ad8b8&clickBeacon=60f37f80-e6d1-11f1-a264-d051be6252e5%7E3&requestid=20261123090357320294699009&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "원두 3kg",
+      "query": "워너빈 카카오딥 블렌딩 원두 1kg",
       "unitPrice": 1850,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 18500,
       "minPrice": 18500,
       "maxPrice": 18500,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
+          18500,
+          18500,
+          18500,
+          18500,
+          1
+        ],
+        [
+          "2026-11-23",
           18500,
           18500,
           18500,
@@ -2051,6 +2059,10 @@
       "priceHistory": [
         [
           "2026-11-18 02:01 KST",
+          18500
+        ],
+        [
+          "2026-11-23 09:04 KST",
           18500
         ]
       ]
@@ -6266,19 +6278,19 @@
       "vendorItemId": "3000186073",
       "productName": "카일스 오곡파우더, 1kg, 1개입, 1개",
       "productPrice": 14490,
-      "productImage": "https://ads-partners.coupang.com/image1/jdCkRoSCS1F_-BTcje8yq0bUNfSImJCjPaIGjnvk6MT2A5kjnjlG9C13x1dXYD66z2uksDZfXQjis4ZQu_8Fzw1Ei-krYurOqryuGmsLy6tOHD_1IK6VIAg-sa3q-y3x-xWBftHvVNbaxQO9t7wic4T6sF-hpMwjakz11fyEsk4rVxERzpYU_3mkSbusyf-kD8sQu3IqOgODl7CW8hZVu-qMLN7-AanGHlOQZDFTsweZk5cQAtCSLI7GPr9zxcSM7tYG27lVh5Fom55YL75Mc69TkyJR7ebqmXI4wj6rilyiWWavt2J42sGdAaBkKS_o-JfibV_wG6vDJNckSlYo23i81tgV9tNN9oSj2ntraa6WluvkUGUL1GBG4p-57eJULdmefOaqqIAgSSYy-rkCfI6x_ARF3HpMPCI2_44vD56yNIZeiE-PNcN2lL0vGDWNoREjc10cr2y9sXDHRm6zA358jFG-IjJxr6kgyN-di1SYBcCsZXWwPCz7LbugEY_K7GF7wTKfcQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&clickBeacon=5eb67080-e6c0-11f1-a07d-d10083b2ef50%7E3&requestid=20261123070212172095003292&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/1rJnvTXDDby_EH191vL4XivKTTABHEzultAMe_zSnJ8dj9jstfLcBk992qxPr8JOsD8oc-_cok-F2gJ__XnhSv0-FJm8xJGrWAfh096_APGhzROMXZ4Yq7UHF8zF72YueQ6Ss0lr7NJ6iqPq1awytqCqzg0G2jrww2LCQ4EiAlMbhtXDyRlFT2fbCya5OqwIPTktHkOeHeeZkUsMfkZ5Af9dGDm2l2XyERI24B9--MnB4r2eP_38q0Gaky7upAL4rmH_dk6uA5J1NSxOSid9nmmzwRXR2gQmSiU0KeslaDTwpUYrtK_TZJXq8zanfx0ESf19uTUlJE0C9JU8zYys389iAi1P6fXxPuJz8LuRnSeygdS421qw90-6BlsqC35WR7OQ4yJdu8AeJOdFFqnC1BcC7Yde6vpUCwwRoYmrqZndOSEq5FxVgKyu-8CmausWeCp7b6SKVHMEHE1d-G8XY3YYUlEnY93cAIfrAJ_5KoHrzQybF0JNK26MDFBqzoh_8_zp15RLJTw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&clickBeacon=758cef80-e6d1-11f1-9837-3c52a1ac46bb%7E3&requestid=20261123090431936102377377&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
-      "query": "카일스 초콜릿 파우더 1kg 2개",
+      "query": "카일스 오곡파우더 1kg",
       "unitPrice": 1449,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
       "uniqueDays": 1,
       "dailyHistory": [
@@ -6288,12 +6300,16 @@
           14490,
           14490,
           14490,
-          1
+          2
         ]
       ],
       "priceHistory": [
         [
           "2026-11-23 07:03 KST",
+          14490
+        ],
+        [
+          "2026-11-23 09:04 KST",
           14490
         ]
       ]
@@ -8041,24 +8057,32 @@
       "vendorItemId": "80265910722",
       "productName": "소다미 매실원액, 1L, 1개",
       "productPrice": 10900,
-      "productImage": "https://ads-partners.coupang.com/image1/Kt-WK8xMcnN1IC1uKvn9mak-upJjAK7g0YvIfpSsd8Y-EAJjneILeM_wh1osc3L-qLfG8ggkQ_AJQaNjb8cSmXQEXxQPz9R9DiouuD-m0rfdeSoLUv8MS3B1SBOc0a-0WhUS5IzJL2-g3Ck-46rkaPTk91K-ohbktcaxykHp1uUu6VBuXblWrCZRGidcHf-PrOhHN5DM38kNkHUFU71-L0H-d7GpIa-kSUhum3u_wmIpvHFbXy-DY-R0LppPLCDjtz_MEkWWtacbAk-ylMDquDCApOaplFfZ0ZKAnDk8HIh-lbtsHn2BqU3deD5VYJofX-Bp_ci1uV6fxUt6PxzPVHmeb2Mw2yDUhpTbY0C3Y_wtUIwsDNRVluQ1EswU7Z8Dk8-oUeEtZXq89gOncf77l_tI97Yz9bDsFsTuOHRdN1bamnJ_EQ-Enq_CarAkGqb3vqOQj1dpr9fnKxEuAgvUIBvWQOHe4tNhlCJJEV9-giUw-rMbpp64RKGiOUDhZpNZ4WxsaAvOev_X-2ZLsqhAn0tXx-lVmiYDLuyNuTiNx1Kzl995uMK3MYdpFVTKx7o8xw6n7Kk=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6297288729&itemId=13002691351&vendorItemId=80265910722&traceid=V0-153-2ebebc42008cbf08&clickBeacon=fc92c0c0-e1f1-11f1-8196-73e0cc611d6c%7E3&requestid=20261117041446545298056659&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/e5hXTMqgozS6rWYbe3eHRlXYwL8Q3QR9a7xEf_tP7WIM79XBLO3r4jB9TqQxCAaJZHX4koRvzEWwJXA0heMa3doibvlM7q2T31rrqax2FI4zH9wIcR25qbbOn0Vm5AwH9AE21RvMC4vXjH4FxgAfpc1P6k0MJg8YjaAnwDjM2u7OETDJX0-VGCcpw8TrF-XEK4aOakM84cvQEh6VlbDFNgNJVLy4r92miKT2NoKM9o7OGorxSnt2ZRWUB7YlmdsO78Ub1xrys6vuKm2PAWq9pRce0aqzoZCSRDKlit3ZpmJImcLKqDLp_xbFIPiLUMFbD5dU6YPGSQoFoMHvQ56oFK8CSzhUt1KBpea97EvJLzQ8zZ58QGRyGXz27ThHELD7ey3lG3z4NiJ1ob_FAWk2qTTRpPtRhXIejBqV2_wNLfRyXTsFe8Iicl8GsBcXkp8ztL41EM9ODFBdNxRRWfnwmxlCa-cVJl_wNE5Na07PbpOthYXihUnP_qAfYxGlU79z1nCjYrpcTiw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6297288729&itemId=13002691351&vendorItemId=80265910722&traceid=V0-153-2ebebc42008cbf08&clickBeacon=56692240-e6d1-11f1-8572-a6fe83f40e83%7E3&requestid=20261123090339700086772572&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "매실청 1kg",
+      "query": "소다미 매실원액 1L",
       "unitPrice": 1090,
       "unitBasis": "100ml당",
       "packNote": "1,000ml",
       "avgPrice": 10900,
       "minPrice": 10900,
       "maxPrice": 10900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          10900,
+          10900,
+          10900,
+          10900,
+          1
+        ],
+        [
+          "2026-11-23",
           10900,
           10900,
           10900,
@@ -8069,6 +8093,10 @@
       "priceHistory": [
         [
           "2026-11-17 04:15 KST",
+          10900
+        ],
+        [
+          "2026-11-23 09:04 KST",
           10900
         ]
       ]
@@ -9114,6 +9142,43 @@
         [
           "2026-11-22 20:03 KST",
           32900
+        ]
+      ]
+    },
+    {
+      "productId": "7949439744",
+      "vendorItemId": "90714719927",
+      "productName": "출출허니 100% 국내산 순수 사양벌꿀, 4개, 2kg",
+      "productPrice": 56000,
+      "productImage": "https://ads-partners.coupang.com/image1/eGxxW21HEMW5BnkCeMUmt4NtiE6RrN8yNmi0MoULxBJKtXybyeolpE1BawJ-UH3h5skJflNlwOvDSvTdy-NqFqydTsaiF3M_LBylrAanSmjdqRg2FQQi7aYLYmvnjrO9vYsYeEK2Bdv4d_WCSbSjIC_GIDCJEq8bQLXy3nGBXMtDQ6dQKevVd27FTLjnkTeUwTmckkYfSQbrF8hC6_K8ugu7-SqszQeLhybJ9zhWAhDeyUf0WKktZ4pby3aucBiF8BRiex_jHKQZ-uGN5GA0L2YjOvcWye9nFihd3V5dCzujkYdKKEddNIiyvEFdp-lgtlTIrSOJDWLEaheitAlX1BmMWcMLJqjdu8vOjTEHtE2sqzWP0WEMymIAUvA_FoS1QAKAaoRjNiLUW4yzOZypTk3Q7oxA4uakD6f45ERM0TBMlkmELEKSJyJRvtlBVEpeEWXW2aK_def0HFRC5_G2bkAAuYSdiyXJxV9Awl_8TfMzRp8VXGv26Wb4EDKBBMUN0wUKRYL60bbZ1ZiMxl5GouwWh3gM4hWPP7mCG5cElXyoiXI2TH5cz8Ih_nOPxiHJKH3DtzEPh7WnSw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7949439744&itemId=21950387754&vendorItemId=90714719927&traceid=V0-153-692eab55255bf62a&clickBeacon=708f5130-e6d1-11f1-a4e4-1154cff22849%7E3&requestid=20261123090423562212165831&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "국내산 100% 순수 사양벌꿀 2kg",
+      "unitPrice": 700,
+      "unitBasis": "100g당",
+      "packNote": "2,000g×4",
+      "avgPrice": 56000,
+      "minPrice": 56000,
+      "maxPrice": 56000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          56000,
+          56000,
+          56000,
+          56000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 09:04 KST",
+          56000
         ]
       ]
     },
@@ -13355,25 +13420,25 @@
       ]
     },
     {
-      "productId": "9683450076",
-      "vendorItemId": "95887605215",
-      "productName": "잠바주스 스파클링 워터 만다린, 20개, 500ml",
-      "productPrice": 10900,
-      "productImage": "https://ads-partners.coupang.com/image1/IKv3UrJLP3gWrnshIPaB-k64VSTPJN8_PtKvkDBcvK5i5u2kfXELKpxvLGmJaOQe0zmN2n9Y8P0Fd40j7ADxgdgqHsTJuNHrq8MSfPP7KnRklTCPozCwKIC3Ax6nAi0s4IxbWIRSml-5L3xEvdIJVKTCj0V_42UykTj4wfyg4FrlzTvUDrpRvMJsp5v9r5ft09HjdeMY0YoMWa39Bd9xcHot5vrMUx6COGjmIGs9jDCpdbT3BRAwShfkIB3fkCzQZbe8EqBPnpdYm8cL_BXntvR5zWvCpyCmBJrQJXfGsm1IGBFphpxobGgVHZP3YJlCSXsvY5HRpXJAOmb28Sh_LyjrUlm0MSLL8k6bXpIiDbykJmrmm8fnoJ5dSE8Kv81gcKKnMgl8vv0pZqMwwjBQsifnWMlfHCWo72lkhHdUQ1Yzb6wbKzD8rIVDi8upVZAd8s8spigr23d21-dNLqltB7WH6LrS9nPxvQ4Np-lD1az2Zcdfq3aO3w7CWz_hbgr5F5_7Aruiv_w=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683450076&itemId=28957276240&vendorItemId=95887605215&traceid=V0-153-59ef5451d1346fbd&clickBeacon=0159ee70-e2f2-11f1-ad2d-863354126e5b%7E3&requestid=20261118104725717215703726&token=31850C%7CMIXED&pt=1&slot=2",
+      "productId": "9683469532",
+      "vendorItemId": "95887664481",
+      "productName": "잠바주스 스파클링 워터 레몬, 20개, 500ml",
+      "productPrice": 10800,
+      "productImage": "https://ads-partners.coupang.com/image1/uSGejhp6d1aWjRy1uVG3k9BRH9Vq-MSNeShMjd5HJviKx6IWIp4PeibBHBoFKD3hVt2wWEfC2tHlw2tHnI8RAWqkQUF_Hq8mlRBwDVuzm5XZ5OtZwyakw2MCnYIOdYgS3e4Oi7FNSxt8WpziEGbMPds5aqrBxSuIEPZyM-nvDnyms2352LjC4Zwpkyap0CL4JndAv8T6O0JNguVQ5B_0BabB9rNDHCKnEiXmTZSki8CkAoSdFPE_xjc17xVsBKvgtJnsU7JS1YqU2VEphqmC81t-x_vcMD8O-L5rkPvKZY2X7OJR2MHTe5bBC02MZDCbAdTg1BMY6OoxtuSVWrjtCHgWQa0uYbH6rSBx-ipUQPgrQlqVcjhLdo1WbYFc9gH-Z0210WinZU7YZ2t6vKyk7ny8OsPd8rqKuLXWvNiVPIw5VXFs8pRGuEAhsnbxgVwhvLBcKUC39TTrhEtwnSTsZPe-pysbqPXcRIib-PG-o38aluO0geG87DuAKVQ2mfddpdLU4IQaNg0Q",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683469532&itemId=28957340730&vendorItemId=95887664481&traceid=V0-153-1c0fa8036b88f068&clickBeacon=6b892760-e6d1-11f1-aba0-2bc8a5fa96e2%7E3&requestid=20261123090415139260618362&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "탄산수 500ml 20개",
-      "unitPrice": 109,
+      "query": "잠바주스 스파클링 워터 500ml 20개",
+      "unitPrice": 108,
       "unitBasis": "100ml당",
       "packNote": "500ml×20",
-      "avgPrice": 10900,
-      "minPrice": 10900,
+      "avgPrice": 10850,
+      "minPrice": 10800,
       "maxPrice": 10900,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "priceCount": 2,
+      "discountRate": 0,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
@@ -13382,22 +13447,34 @@
           10900,
           10900,
           1
+        ],
+        [
+          "2026-11-23",
+          10800,
+          10800,
+          10800,
+          10800,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-18 10:47 KST",
           10900
+        ],
+        [
+          "2026-11-23 09:04 KST",
+          10800
         ]
       ]
     },
     {
-      "productId": "9683469532",
-      "vendorItemId": "95887664481",
-      "productName": "잠바주스 스파클링 워터 레몬, 20개, 500ml",
+      "productId": "9683450076",
+      "vendorItemId": "95887605215",
+      "productName": "잠바주스 스파클링 워터 만다린, 20개, 500ml",
       "productPrice": 10900,
-      "productImage": "https://ads-partners.coupang.com/image1/9Jey3yBRoRKkkryH9IsAMnhQrg6fiLTPzFOyshORVY55EsujlqwsUaf-quhj0irUpkjBkKUdra4QUArltfrZ9jCeUPWICkOjvqS6laWG0eZ3I_eGqSrcnGJdQPEsqckaHrW3-H4CcPaoioZ_IHu_1QySLU4q9TEfUPcDQzU7HX5wmbMMJ2RnX0B_IJM9wchNBhO_XqXaDHLHKSmLGtvNWhNp8SfL6BMntpmO2dYlrr6eS65V9WqQSv1ctB-f8JS-qJ-dS4QxodE7x80Zz6a4GX4yuukrm8ooc-rM6eQm3Dsp3tXK01plb-xwzzWL7mwL6dKFlhS0aNEui7-FpUzuasZuo_aYqa1jFM3UL9ztp6FlvhjB1S1hr4WYFEMfTfRHgVsGmzCoVEYbFAZcmhQRgcMj1mL3Ru4BTH4elPws2pz1b9y5PZIfmiYehOnK4lWn5EktGgh59dE2xHST4gRqw3-4Gi3s8KMz2nanC-MPfwDG6xIpBSarfmUvmrtLoOXTMGN_Fos_Sw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683469532&itemId=28957340730&vendorItemId=95887664481&traceid=V0-153-1c0fa8036b88f068&clickBeacon=0159ee70-e2f2-11f1-927f-38ba7bc72a74%7E3&requestid=20261118104725717215703726&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/IKv3UrJLP3gWrnshIPaB-k64VSTPJN8_PtKvkDBcvK5i5u2kfXELKpxvLGmJaOQe0zmN2n9Y8P0Fd40j7ADxgdgqHsTJuNHrq8MSfPP7KnRklTCPozCwKIC3Ax6nAi0s4IxbWIRSml-5L3xEvdIJVKTCj0V_42UykTj4wfyg4FrlzTvUDrpRvMJsp5v9r5ft09HjdeMY0YoMWa39Bd9xcHot5vrMUx6COGjmIGs9jDCpdbT3BRAwShfkIB3fkCzQZbe8EqBPnpdYm8cL_BXntvR5zWvCpyCmBJrQJXfGsm1IGBFphpxobGgVHZP3YJlCSXsvY5HRpXJAOmb28Sh_LyjrUlm0MSLL8k6bXpIiDbykJmrmm8fnoJ5dSE8Kv81gcKKnMgl8vv0pZqMwwjBQsifnWMlfHCWo72lkhHdUQ1Yzb6wbKzD8rIVDi8upVZAd8s8spigr23d21-dNLqltB7WH6LrS9nPxvQ4Np-lD1az2Zcdfq3aO3w7CWz_hbgr5F5_7Aruiv_w=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683450076&itemId=28957276240&vendorItemId=95887605215&traceid=V0-153-59ef5451d1346fbd&clickBeacon=0159ee70-e2f2-11f1-ad2d-863354126e5b%7E3&requestid=20261118104725717215703726&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
