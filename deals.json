@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-23 17:03 KST",
-  "statsAt": "2026-11-23 17:03 KST",
+  "updatedAt": "2026-11-23 19:03 KST",
+  "statsAt": "2026-11-23 19:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 481,
+  "count": 482,
   "priceStats": {
-    "products": 650,
+    "products": 656,
     "discounts": 9
   },
   "deals": [
@@ -706,6 +706,43 @@
         [
           "2026-11-17 22:57 KST",
           34900
+        ]
+      ]
+    },
+    {
+      "productId": "7757115239",
+      "vendorItemId": "3038558667",
+      "productName": "매일두유 99.9 플레인, 190ml, 24개",
+      "productPrice": 13200,
+      "productImage": "https://ads-partners.coupang.com/image1/sqw_tCxBOewS9zYpsk8oMXDNuAv1yqw4o_EhLkPSh6clfen86bcCWkWNXbKTY4NjYYAbo5qG9yGi4DoclOdjjelbgkVb0EMae3XbbXtu2rkqsvK-FKof-JpjKPkp5spGWWe0rIWRBOhBdoAbYA2lcndkk8kOHZ_7s5Bj4ps7xgd4WRMLBCdEF0fQ-npes1WwyaKRMbWO3ukiFRK2YIFY0--bW1R3pfgGdLt5FjAsTd6LmqupZCptqYZUrXMEMDj2kWfpDOpCDaZ_YQ6Mkj1S5S-TWKnna0pp7wUUG4B_oiFoVAtVF4q30whoXdzkUZvzTS8-eNPdzXRoZjmpQ67e6IuyOPE6P-bgOtKzM5oGTO5cY2K3RoLteV0Ml1ng5p_rEjQb1gS4mmtPT6jp8P_JbwLyFrM7paXmfQpJxMMBhUAPfckwD_ARTz7rTo_WOFAgVuVoe-7oMMxq0YGusds716c9oLn83UmMDhtqVrYOYLZTTolCc28sHfS7W-N9Cq4M3DPlonZqpdH-1YEgu_MHaA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7757115239&itemId=20909737628&vendorItemId=3038558667&traceid=V0-153-3e137677fc87ec8c&pt=0&requestid=20261123190322646222667483&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "우유·대체유",
+      "query": "매일두유 99.9 플레인 190ml 24개",
+      "unitPrice": 289,
+      "unitBasis": "100ml당",
+      "packNote": "190ml×24",
+      "avgPrice": 13200,
+      "minPrice": 13200,
+      "maxPrice": 13200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-23",
+          13200,
+          13200,
+          13200,
+          13200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-23 19:03 KST",
+          13200
         ]
       ]
     },
@@ -16681,21 +16718,21 @@
       "vendorItemId": "87626390268",
       "productName": "커피컵 350ml(10온스) 무지 종이컵 1000개 1박스 (뚜껑별도)",
       "productPrice": 32500,
-      "productImage": "https://ads-partners.coupang.com/image1/wqzPM3nT_JybDignwu7UO0NggDTD_TKIp8jsOTX_MyjB7LAxQy52uJ89MLEehB1bASDQbFAnuf1ACUAGwP1vHfxReOW-bvX-wFM2Z_2m2K32ej3PlyIDrDBY2FuaUQoKeZqbXGt0nyEGh8gtNmDAV2o12i77IYLbI2yGyktBHEpUPHqDX_RmMbR4hRptfBhzsN1f2qOcO4Fvh72zP6IUwBS0LbmIgGq_CNJuVXiEyz4FvDDfhe2OjeqCVm3e7dMpB7at-pUfNannMy8Koq5BIgtkG6JCO62OqtXjkveG5df_-DcdVKZcGHp-HNU631Wy_KOGO2RMm7TWC3oB0aSlb736PqyBZBVcqsF-vC-sbA94Q8KojgXzg3l9GJfwkB-KY6vzMMya9snDJ2MdW6LmUTQbgHbWF8KOdfCkXhrzeKtFbzFOQM-kYh-F35SIPYUhzB7gUDKkoeUcEQsON-2fkwK1ET-VDmxky_5T1RGBQYyO5uLVA8TXTM56Gj_XyaGRSuaZNF5T2q7zGSenFhj6wfO69Tce1PHZN6s9s89JAHkSAR0=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7687800243&itemId=20550205779&vendorItemId=87626390268&traceid=V0-153-046cafc3b790be37&requestid=20261118104742672010442080&token=31850C%7CMIXED&pt=0&slot=9",
+      "productImage": "https://ads-partners.coupang.com/image1/0ner9m2BWa_YvXpa0rILNDckxcRXMvn9I1j2_o241eVHsLc5NS1bcWgbaB8kzMOkGhqFK3zXWu0mpvtj9ly2FKcdwZvfv_iO19geyzZUm43-S4rZuvTM9S20KauK71vs-gFp5g4Ju4kk_SjLDZJGPrcVwdx0W-ulWhaMj-6wNpzte2vwgktE2xCp0NET1g1vrpBK6I0qrBWyO79jH5kJYVAe1326kUopm5W3SGwiDvW4Rfo3Rs7GqyVfl88kH-FXIr_hAHVJsYvoPMcZYSyOkubtGyRq2Q2mU6sFYtVNv1O5wyuWnSuymuhc4z0_OHdmhyHlMb98Do15gkLNLIlo8G5q7zIFVX5AvBzSAXPjy0xZ52Ff30EVvOFc96OgKy7nlxE2ikRqjio6DJv1iU8LL-73G-UGMaCMOgLtzASD8ghFUFJmUnr6LQd9Joyh8LBJVeqne4qOCJAj5Ahza26l4QQpaCSrJCjHLlECxJ8mNlWsB7QWskLjF0_jEslcrI35ZuFd0BDoKNKgtOFzZozcCzqw6WdJrPupK5xcjFhiY-Y=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7687800243&itemId=20550205779&vendorItemId=87626390268&traceid=V0-153-046cafc3b790be37&requestid=20261123190314307153324203&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "종이컵 10온스 1000개",
+      "query": "커피컵 350ml 10온스 무지 종이컵 1000개",
       "unitPrice": 32,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 32500,
       "minPrice": 32500,
       "maxPrice": 32500,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16712,6 +16749,14 @@
           32500,
           32500,
           1
+        ],
+        [
+          "2026-11-23",
+          32500,
+          32500,
+          32500,
+          32500,
+          1
         ]
       ],
       "priceHistory": [
@@ -16721,6 +16766,10 @@
         ],
         [
           "2026-11-18 10:47 KST",
+          32500
+        ],
+        [
+          "2026-11-23 19:03 KST",
           32500
         ]
       ]
@@ -19836,33 +19885,24 @@
     },
     {
       "productId": "7597856296",
+      "vendorItemId": "95809821127",
       "productName": "유한그린텍 매장용 개별포장 업소용 물티슈 물그린, 1박스, 1200개입, 40g",
       "productPrice": 15890,
-      "productImage": "https://ads-partners.coupang.com/image1/We5nsqAFVDzFUcfwWdmfGsVpb2EitSNIBcQ4db-ELQyeE4K7vw0Lwsn-OOWRk4aNWJF3Amwm2X-CFavhS82VFZS_esCelCuZtjSuswPaSGNdCJ82VUQ29dZooD89-B3_E5fH3OS25gj64_dVm57nfEiwui-SJmk0PN50VM4K__UlwPJlgc2G1qavyY6xF655JEVAlg-M1KCOB5RJqd_WYjEgREL6jP21rlYk3xPkC0LF4y2xyNQYf51pzhzicf_syK5DTkjMQV_CUcQhrtBbMxg1BhnjADeRVAejc3SJMQQKWh73Rn3VoXZ49gLFcLmJXry6D0iNR_lVbj3qxt1-5NzmavhQMJo6kjRAvSooFFNlsNFy0pYIZZ08CYV70hm13K1oiz3XNljStaaE3E-OY8gV6DgNFP6__ljf4mPLvu0NrRMSEChYVKajS7OxrIKjjJM6O1IdfJ8CEYUEOzAOiEAsgyRLr7NPL7_AyJ1mwqS-3HwF-HL5XhRAB48R82eGUW1YjRT9pQYDZr4Qvn69IbcUdVsm_9vD",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7597856296&itemId=20091505388&vendorItemId=95809821127&traceid=V0-153-88c7745ae78facee&clickBeacon=2fe26a00-e140-11f1-9ae1-953b653dd43e%7E3&requestid=20261116070202246066535314&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/CNkaxvoqc3-HRItNCEm3tV1BLpjo5d_-rJVlXsDiXNE-9i9M4BbTYnjuwcjxCN_3IieLqQLFd9MHErG8ZVVe6QzYLKD2NQComKYGivqr4mOF-AWmihCjJTnkq2yqigtxBQxwItRG7TL_dg-IBpyXxfQ9Uv0l2fTbKJyaQASK-RjnfK7vK-xmx-s5_F379UXNEmrEBhxDIxpeiFvzLkXBxAAREfvmQoe5hCoHZ0yJZ0yu-_NDkNy-70NDG665r9e8KrAMn0QHK3lRQQv8o64p9N0IViQn2XQu3ZsGBJePQ8IW4-UyMirbH3ZeZvWti18i_0lCgHGiB8cL-GmrOLdJQF3rz2VjBMTHorPnFOiQMitDrWiqTHZqNxG1dZHFnyp6BD-BVPz7NyQBdkqGvlgWCqvOXtFGo9TQGiJbEaMGVXnS6MWVvD1rqTK9332zBRyTQaGE-W-7SbxXF4P42rV61r2TvgdBSXPbw8ox9USirAO1CVQXN_S3_pHZRNf-isbUBqcDAkUkhKE3c9CSd8MIHw8=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7597856296&itemId=20091505388&vendorItemId=95809821127&traceid=V0-153-88c7745ae78facee&clickBeacon=f59a11f0-e724-11f1-887e-8657c409049c%7E3&requestid=20261123190214960150962844&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "업소용 물티슈",
+      "query": "유한그린텍 업소용 물티슈 1200개입",
       "unitPrice": 13,
       "unitBasis": "개당",
       "packNote": "1,200개입",
       "avgPrice": 15890,
       "minPrice": 15890,
-      "priceCount": 2,
-      "discountRate": null,
-      "priceHistory": [
-        [
-          "2026-11-16 02:07 KST",
-          15890
-        ],
-        [
-          "2026-11-16 07:02 KST",
-          15890
-        ]
-      ],
       "maxPrice": 15890,
-      "uniqueDays": 1,
+      "priceCount": 3,
+      "discountRate": null,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -19871,9 +19911,30 @@
           15890,
           15890,
           2
+        ],
+        [
+          "2026-11-23",
+          15890,
+          15890,
+          15890,
+          15890,
+          1
         ]
       ],
-      "vendorItemId": "95809821127"
+      "priceHistory": [
+        [
+          "2026-11-16 02:07 KST",
+          15890
+        ],
+        [
+          "2026-11-16 07:02 KST",
+          15890
+        ],
+        [
+          "2026-11-23 19:03 KST",
+          15890
+        ]
+      ]
     },
     {
       "productId": "9649725029",
