@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 11:05 KST",
-  "statsAt": "2026-11-24 11:05 KST",
+  "updatedAt": "2026-11-24 13:04 KST",
+  "statsAt": "2026-11-24 13:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 487,
+  "count": 488,
   "priceStats": {
-    "products": 489,
+    "products": 490,
     "discounts": 9
   },
   "deals": [
@@ -21212,6 +21212,43 @@
         [
           "2026-11-17 19:53 KST",
           8400
+        ]
+      ]
+    },
+    {
+      "productId": "8999674502",
+      "vendorItemId": "93349059097",
+      "productName": "코멧 뽑아쓰는 3겹 천연펄프 키친타올 100매",
+      "productPrice": 8360,
+      "productImage": "https://ads-partners.coupang.com/image1/ic8PyPWlzbqmqiReiU2r19DATvzvffs3UuQgyGkOU6gPwhoZZ_hCxyj2grv9o4mmmfjyXCTH0bJigYe1JURePf6TyG3qLBRCzeiTrZ1BUIB4GQBNvdAjPt0GkIIdYOLp4k6Q_P82Mj54jdDXC0ZKMJRoFLeo2YJPOXqMDAFKv9_ENNSeuQ1YucZUHI4wKXrLT6zsSbxsPR5R_kZhxN03RX5XtZsqnsgEgRHnBd7CvIgYR66eMSb6fd_32fY5JE7PoZ7zoe9QylKDnwo31H6oj_eUp4p0s0ATZTQydmqm22I1Yycw4fPQvIWLs2VjyhbTjekKAJYzwjsd7z_jpO293PhZPwWsyGx_3m4Z_ltNt7eltUSTF3Q7hfQ2otRy3D3JNNnL99J2B2YXPY4AEjsXlWirPv-TixNkH8CEWNY0Uwz7pV4BjX2CYwQZkAncxA2tAE9fnP_hu1ppLIq7gu5WRGWNo1F_3mRcBPIZFXp2Tcgv-Y5hVkC3-g9a1MDbI8vxnrjEGOKMg3OtxrtebRsS99qAnJueNxxR_vJL1M1CuvzwU0_t8v6t5FJpMfeUlYB9Zv8LscT7cDdzLvhbf4Y=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8999674502&itemId=26372396105&vendorItemId=93349059097&traceid=V0-153-84948f286a478a25&pt=0&requestid=20261124130326888211814545&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "브릭글로 엠보싱 비닐 위생장갑 500개입 2개",
+      "unitPrice": 84,
+      "unitBasis": "개당",
+      "packNote": "100개입",
+      "avgPrice": 8360,
+      "minPrice": 8360,
+      "maxPrice": 8360,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          8360,
+          8360,
+          8360,
+          8360,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 13:04 KST",
+          8360
         ]
       ]
     },
