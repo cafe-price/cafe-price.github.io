@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 07:03 KST",
-  "statsAt": "2026-11-24 07:03 KST",
+  "updatedAt": "2026-11-24 09:03 KST",
+  "statsAt": "2026-11-24 09:04 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -20,7 +20,7 @@
   ],
   "count": 484,
   "priceStats": {
-    "products": 484,
+    "products": 486,
     "discounts": 9
   },
   "deals": [
@@ -16989,26 +16989,34 @@
     {
       "productId": "8829500195",
       "vendorItemId": "92714890811",
-      "productName": "에스제이케미칼 원터치 투명 소스컵 소 1000개, 1000개, 1개",
+      "productName": "에스제이케미칼 원터치 투명 소스컵 소 1000개",
       "productPrice": 34540,
-      "productImage": "https://ads-partners.coupang.com/image1/3z7cM52m23aCltUi3zziHueTQbINKsD9wudXn0-kLU-A0ECsrEkvHc47XVH8GFQHAfLCMb7CsPRg0S2lwy8p-FL-uHXXDplbksl2p4iRvrhV-ty87IFCqow7KVkuMeksLj6qdzdOKjVAc6hhHpOYqo-cizmMAeVQx3lUWHee2w048BeOaWWywjZD2y-VpA2BAPAqHpdgzvkCWk_Nt6omimkn7hzNztdXXm-0hQYL9CX2p9uHt-VMSYL3LcNp2141pPc9m_1czJekhjkKiXw1ItGIHcRBvqkaRNqtBssbIaftBAeBSq8ZJLLAcuDs2sUkVimyiN9qZQsZ2eQyu4uDfiPT3ORRkBXDKNh8HGZ2ZHOMEq8MWGUM7vA8pAmkYdMcV_SziE7gIxnqQgdFofhvHgu4zstv4euFDokCEuIp0586iShHgjLWw8oHeKvEvp0oYmekEG4F_OJ60GqY-Ycq-Kc7WNne2cvHysRWsEWIf-FCwaBpGvOkbeCWoP2Z1X5DpyrpHeGSWvwdURAtqiEAfme7t94MFmn5DA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8829500195&itemId=25726211023&vendorItemId=92714890811&traceid=V0-153-ae9bbf5bb40d34b8&clickBeacon=a33dd690-e23c-11f1-b25b-101cd0c85ea7%7E3&requestid=20261117130908918239318918&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/zB5M2GoQCBsveNtkzD8OA9gDOe6yujvRxQDYSv8XJRoyrpc4Jt8p9MgqGGOeXcgQtXn4rmSZLPwlORfL8szNe4UtKv6zAN8NWrihYmnbWghL_VHb-iCLzclMrnKIaTg44Na-Yj_kGpT1iPxzsrH-f2DullivloOxJE_4qW6kci2IE8i_tMg2srh7PA-qb1X-9tGAoNBk8vRSDlM-9vrdc3sRrpIdWLZNW3Hr8Jjq21IAXPb6Zd96jAtN3vRsz_VmTRYiDLHzzGvvWPtIhL6b274vjjBJHhrhmbBScuFzZfFbLM0E0iouwzTGLV5xA3sSGkWaA0YQ5SN1iETNoWWGui6_pG8WIQCNfwsKANo9NWC0aE_lx0rYwKXv-g3xOqqs31pmiDt7ZDEbrfTbmj8GlAoDfqV6YqAqBFE-Fbq_X4Fimfb7zE7YuKyQrfQqOi_OwzQXzEB6LmTA0mZ4wn3VNHVFZynXipBcbzXkKHj7Zp4vxs57u_vfl2eZFODzEwfIUJZkJio2GVbTR3xEGwLXomj-3_aFaTYkgu2xqKb4Z_c=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8829500195&itemId=25726211023&vendorItemId=92714890811&traceid=V0-153-ae9bbf5bb40d34b8&requestid=20261124090315362243443292&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "컵·뚜껑",
-      "query": "소스컵 1000개",
+      "query": "에스제이케미칼 원터치 소스컵 소 1000개",
       "unitPrice": 35,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 34540,
       "minPrice": 34540,
       "maxPrice": 34540,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          34540,
+          34540,
+          34540,
+          34540,
+          1
+        ],
+        [
+          "2026-11-24",
           34540,
           34540,
           34540,
@@ -17019,6 +17027,10 @@
       "priceHistory": [
         [
           "2026-11-17 13:10 KST",
+          34540
+        ],
+        [
+          "2026-11-24 09:03 KST",
           34540
         ]
       ]
