@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 09:03 KST",
-  "statsAt": "2026-11-24 09:04 KST",
+  "updatedAt": "2026-11-24 11:05 KST",
+  "statsAt": "2026-11-24 11:05 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 484,
+  "count": 487,
   "priceStats": {
-    "products": 486,
+    "products": 489,
     "discounts": 9
   },
   "deals": [
@@ -2735,26 +2735,35 @@
     },
     {
       "productId": "9294379607",
+      "vendorItemId": "94149964153",
       "productName": "초콜렛 블렌드 브라질 콜롬비아 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 28300,
-      "productImage": "https://ads-partners.coupang.com/image1/9MN4tpzxm724guki9HxE6yIHsuvmJy8kBGB3GG4qJBDDRICHl0qrxPz4iw4Hs-feJ_iF3Xrb2mq8KrGdMYtr-PKs7EqzWKJnzD3kN5EWwyKF93vc8MKkTxtDv_jXZuM51Phx-ZRc0wlXKXjBxGKLRsmJctWh0hDyb8vDYL6I0qVjZFoilc3e7j0FcK7h2TL4IHkPngemUR-c1VA6DeEN8AGQ8ypo77SanniwazckH4ywZgm6vTqN9G0GFTDbJra-EAwKcSlGWdiUi8Vt1PRh3n6i2178QHNxxMVHpAt-EH-iGxKRXbi6pqVnoloYGqwmTO4mzrfeQLAcIvQ5k-WQDdi6pCVzfsXDd8SNehEZsKCmvgiceAKO68NLGfDFjTk-XPVLBDyi8sTyYpJtb8vFR4h7IHx4MeNURZysywJQEGIYJJQ_qwWwS1CpkmQM_e-SFckEVHEt0NFG0MbxJLGdcYrO-pwKWObdfuenTPRYrPnkYGLb04dMT65HAkMwFF2BXagypUirkqJ_40vJu8zc1vs5B04NZaEq3D2hPu5M0s_Amaghvy-YpoyqGsCU1lq8SniBWp2OaspF02knINyxtJBQhA==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9294379607&itemId=26850288581&vendorItemId=94149964153&traceid=V0-153-e1f614f155b608d7&clickBeacon=0e7e4610-e1b6-11f1-97a0-3058b06114e8%7E3&requestid=20261116210546715121803780&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/zO1ojT3OJ20Z20E2zKvXCMNIN42h4S7EoLyjnj4bvHJ9-DcuTeNy6JAcuhflnVEh7UcZn1MVEFPb-b4sC9ThbWPdRBD4oN40FOEuQlo_2GT0uNJe-7crXwvTxv7K-MARg7RV3UISf3DPVrx_gicTHkrol9gLAu4Ax9VBSrHBz5TdVIKl5OjVlXYbRYI0-oC7zm4mAKEsMfY5fNhY75668uyY9vUNTqVEVWkjNw8xjeCinLSzPowxD-fZouC0vI_H_ezDnrrH0pzqzG1vkQYN-horJVggx9efgp1Cnxeats0vJM-4Xi41iVV4SciKUthnT5WZX-yltLpJJRcmq1iRyLI-6YvqgLzH77yknbbgi8VMzPAlw5enHYPZK1hXWS1UVe56pPImdArbJ9rGUS47lzOM6yP9JeD0hya9C1X1Sh-Zj_NiFr8tH-lSjQ3Om4OLVaSSwX5jNNbQjfUgKqTL3KnLhO_wYytcTlR-tFOjxHN7Jj3BRemJ8D_NSL6v5nXeGn1tkAXEK7G75jQfxg3A66NYw5vBDAAw",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9294379607&itemId=26850288581&vendorItemId=94149964153&traceid=V0-153-e1f614f155b608d7&clickBeacon=649fbc90-e7ab-11f1-a689-00318669a7b1%7E3&requestid=20261124110433813151333959&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "콜롬비아 원두 1kg",
+      "query": "그라도스커피 초콜렛 블렌드 브라질 콜롬비아 원두커피 1kg",
       "unitPrice": 2830,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 28300,
       "minPrice": 28300,
       "maxPrice": 28300,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
+          28300,
+          28300,
+          28300,
+          28300,
+          1
+        ],
+        [
+          "2026-11-24",
           28300,
           28300,
           28300,
@@ -2766,9 +2775,12 @@
         [
           "2026-11-16 21:06 KST",
           28300
+        ],
+        [
+          "2026-11-24 11:05 KST",
+          28300
         ]
-      ],
-      "vendorItemId": "94149964153"
+      ]
     },
     {
       "productId": "9212679642",
@@ -12227,6 +12239,43 @@
       "vendorItemId": "95700537298"
     },
     {
+      "productId": "9747057400",
+      "vendorItemId": "95700554461",
+      "productName": "26년산 국산 우리밀 발아 통밀가루 500g 중력분, 500g, 1개",
+      "productPrice": 6330,
+      "productImage": "https://ads-partners.coupang.com/image1/p7ushjYIHvGrkZ13p9L6U0AWtoAwn2GyubyiQJbotD1ryB6mV2u81BlXARj08f7J32qr2pEXe_nZV8-dooJXANQRkDIo3mKQOWE4LbJh-L5MJIsH9WS39vyverCjvlk5ukeJip-Nq79v0GRa4vTclvGKcHuK61VR2orplDrdFNeUmYILMJjtxxeqem6pGauyyA1kCKa339TaurVLY2laFii0a6qDSZJRzgitHzRmdwbWyk88YPzpt-rCpmOcqZefAm7meqvvmYtBY2h9EuDImRAiW6pxo1WLqXNZVvxOKmmvUGgT20cMoRUVH0q4LGOCcE1FeOWxcPcceIwle_uF9JbJEN6dRzVTUPrKbkpMVEDRxWeEVww4KnipGoFl5TwLnKofh5VZ0oZrvAJtUCHknz2mbZ99CeHSBARWFZoE-V8zeKkf1zRWRskp5Mr-zaBsO9kNA76VN4TdBZX8GtjqPGbiHAXOlDBPdSi8IkXUUKUIhCsQL4obxnsABcjNoXVjJLkTE5ML4zalPkX80vc_IHJ9Ce2YkOObG6ln24AYu3eemHGl8LsdVTOgMXX1OTCX65urOQ5vGSQnSLDjeorfD_wE0cU=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9747057400&itemId=29181174550&vendorItemId=95700554461&traceid=V0-153-6864f4b0e15e2225&clickBeacon=69ba58c0-e7ab-11f1-b2cb-aba3715600c6%7E3&requestid=20261124110442375313471274&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "우리밀 발아 통밀가루 500g 강력분",
+      "unitPrice": 1266,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 6330,
+      "minPrice": 6330,
+      "maxPrice": 6330,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          6330,
+          6330,
+          6330,
+          6330,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 11:05 KST",
+          6330
+        ]
+      ]
+    },
+    {
       "productId": "9273627574",
       "vendorItemId": "94424083984",
       "productName": "카무트 브랜드 밀 100%, 2kg, 2개",
@@ -12297,6 +12346,80 @@
         [
           "2026-11-18 05:05 KST",
           12900
+        ]
+      ]
+    },
+    {
+      "productId": "9747057398",
+      "vendorItemId": "95700566907",
+      "productName": "26년산 국산 우리밀 발아 통밀가루 500g 박력분, 500g, 1개",
+      "productPrice": 6720,
+      "productImage": "https://ads-partners.coupang.com/image1/8ZuntrikQdSEB1Il8VrG8FHU5ZSJLrhMF6KzanoNZ6V4SeRsumSC3JxNJihHjg0PrHPsGS9FUtrdb_bXNlmwrXn-mb_65O01i42r3SNdEE5nYczkye509oqajbq3Cma91JiXBUhZZob-TQrPNg63eYcVAJbUHFdhlIrtENJgXfE3UkanWs57W53YNVY9DMJ2WRkwAdNikDkzgQ7jJ4zG_LJDfWqzBldI5x_rFAjK9hEHpGzTlXIEOdoAQH5Ty5OWgDuzfWNSuQns9LVAF1-biaiYXLAkPfgWxAjRu2LvttyYD6pr3uLkoj4hTxJjIBA_rvVdjNZFcQtMGBKdCVnPsH6QV59bmh9Qw4zRux3Akea55fhgicnyGt3o-Gq1_gMUHFqqiPMOIia6A0kAoRa37t2AAEGdkAj7vFwX0iIUSxR-4eUQgN8QE_szknZ15o8uIbvxmF-rjJAuHQyK06qQ8E-N-WabBG8YnlSEv89OU1MXYiOQqq7WFs_dDGE1cEzeAvgtGmBPanKqEtKwEkf8hMLsKvDQKxxjJnccCTgHHYJmEMYoav6nmQLPiu-QMmx6IUtwgUDVIIVsYQJP0K8T0P0sfoCv",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9747057398&itemId=29181174533&vendorItemId=95700566907&traceid=V0-153-72dffdd287b43770&clickBeacon=69ba58c0-e7ab-11f1-ab7d-9eb05cc99160%7E3&requestid=20261124110442375313471274&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "우리밀 발아 통밀가루 500g 강력분",
+      "unitPrice": 1344,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 6720,
+      "minPrice": 6720,
+      "maxPrice": 6720,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          6720,
+          6720,
+          6720,
+          6720,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 11:05 KST",
+          6720
+        ]
+      ]
+    },
+    {
+      "productId": "9652874456",
+      "vendorItemId": "95962234248",
+      "productName": "26년산 산나물담은 발아통밀가루(박력분), 5개, 500g",
+      "productPrice": 34480,
+      "productImage": "https://ads-partners.coupang.com/image1/rWBz5hkhmw7zKBGcrZy77D0WWjkiDuF80hQUC60B8Ms5ZuAgw4BAm_4jB49KedQ9oE6mWnTiy2i7JTbgPzdB-d3dWLthWWzLCfJAE-_JAEPJIuUVKW_2U4KxRFAE34GLvctzbqS8sxOI86Y0kXHOyVz8QwpWwfC1JAirVZZksS42rFIR_I9yH-Gs0E2pKZxEz2p8lB6RKEQ6AV33ApqalYuRrI22OgIZVnjJP9BpzfvT4hFZ9drYUwT-tG3UlKVK8feFDjwQbeqisFrIGv06SbbflU6NIBSspLadRNIk0XC_BKt-GrP2dmOgCcuTDSj7ndFVuaXu9hDbjdpH54IHq7xHfIF2WWjig77iI6esgG9MHC-A0vGPWbOvRzsPAqc10_XI-751Z72jeoMGu6XmsaalNzutSbPKTPE8H5Gmjgx2d4TMCVLpBpyTh_WogaCK4oCH1IOf9KKG8bHgwWR5rT-q6CbBUsMxtVBLXk-PytOCS6PF8IeixpFwYWELVaKEN7xjd-cPK-S1ZrGwHLZx9GCrB4rdol7GjeivuPnn_eyQ9hdrzSnaAC2au0IKeBaMIRFRHqsegkm28J8AkniXKku8",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9652874456&itemId=29034823219&vendorItemId=95962234248&traceid=V0-153-49fdc9f56241a4e8&clickBeacon=69ba58c0-e7ab-11f1-a026-e701a0772159%7E3&requestid=20261124110442375313471274&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "우리밀 발아 통밀가루 500g 강력분",
+      "unitPrice": 1379,
+      "unitBasis": "100g당",
+      "packNote": "500g×5",
+      "avgPrice": 34480,
+      "minPrice": 34480,
+      "maxPrice": 34480,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          34480,
+          34480,
+          34480,
+          34480,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 11:05 KST",
+          34480
         ]
       ]
     },
@@ -19443,21 +19566,21 @@
       "vendorItemId": "94332604246",
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
       "productPrice": 22500,
-      "productImage": "https://ads-partners.coupang.com/image1/247eHeR-gKrOgy8Y2_X3oO-vvosaiyrupAVdu0v2v-zPjc0q5IKxFl9ggibPBnPjOhLQjAdLCmW0SUOVjbl37TMJM8E_K7Didp9y2qqBNRHwuHpOrREzB2UUBuspLWwJ1BQYIRXZAg72aAleIrpJtM9cqCMY1v6orX6s2ftwg3HLONjrdhZ8ee60OxI0gRbylWIKAQTbYdi0_Co3NSH7g-zh-GfNE8NIsl96fBL9Xyr1eNcgV9qbBXtrzuXCyr8o1Hdo5ouWrgyD9IQmrtoq1a1DhBE9-62j7UQAHauRK8Moz6yNVWCnLC_u4oeYSMLhreF-cgA-uJvMmPbjkdEeS2zedc1pQvRIuBJBb0X4PlVJ74dKrXPBLXbprm4dwOtApa0dX17RuQlOqXrV8_F8XjHhUYORMUFc7CgP0kxhHJ2x7QueR4W4AnxJELdI8hvVMncpMpJ25-ajCuC9Tn0CQfgP4y_--0y-CPW1SfTnpwQI7I7omWrfhhJLI7AWRUa3D_jEjzMOxwxwKPol4fb7GMEM5pxsT8Y=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=e4ffd0d0-e618-11f1-8d2d-8f200edb9f84%7E3&requestid=20261122110321997044136780&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/VHzW3u8sx-0tXd4iVE0RVOF-wzH5YaRlIymc9-RqVkaWMCDkLfpS6rDWMUUZMBxXlOOVfc2lBj4XofPac93XiC3YprUnncFBHBd4PtLrjPhH2urQUyAOCWfJLvneBiTrAoNN0Okom6zNRxb0h2aC75Z87srSOdJr5JWdRn1ZgJBvXXxewZxA86-v-k8XrTg8-6yENsY4Am8gSYb6Obpjp7OUqpI6CKsBPV10kO1m6WMYqU5_zioZWe5WIvjb0XDp2k9S-D9HfX5QaBMsfHDKmPxWVFRshTgeiKSycf3AGSVJEGSLpf6KVZ0QIbt_ifN_R02sf6coeZuPC153L39_aWk3kjPN92KlA_Wh9fjfbycwP_Nv-AFwY0dh9olM562FJSWVqyMf_dEzyHVyJyaP0DgnzYgzJlNUHnVSa2HInx-D6nSIpbMg8ccALlk06_uhwERqUqZ9nW87ErgCxDDZwvtX111E1u-fwwp20bZRx0ddF5hKYr7OD8wVA8FmoBxeX3UOx7kPH5z7BWH8m1Oeb4RuYE2ZsICF7A==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=556bd470-e7ab-11f1-aa4e-03a4abd47c32%7E3&requestid=20261124110408304017140486&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "업소용 테이블 냅킨 10000매",
+      "query": "냅킨공장 칵테일감사 튤립 냅킨 3000개",
       "unitPrice": 2,
       "unitBasis": "개당",
       "packNote": "10,000개입",
       "avgPrice": 22500,
       "minPrice": 22500,
       "maxPrice": 22500,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
-      "uniqueDays": 5,
+      "uniqueDays": 6,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -19498,6 +19621,14 @@
           22500,
           22500,
           1
+        ],
+        [
+          "2026-11-24",
+          22500,
+          22500,
+          22500,
+          22500,
+          1
         ]
       ],
       "priceHistory": [
@@ -19523,6 +19654,10 @@
         ],
         [
           "2026-11-22 11:03 KST",
+          22500
+        ],
+        [
+          "2026-11-24 11:05 KST",
           22500
         ]
       ]
