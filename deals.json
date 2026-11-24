@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 21:02 KST",
-  "statsAt": "2026-11-24 21:03 KST",
+  "updatedAt": "2026-11-24 23:02 KST",
+  "statsAt": "2026-11-24 23:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 521,
+  "count": 526,
   "priceStats": {
-    "products": 529,
+    "products": 535,
     "discounts": 10
   },
   "deals": [
@@ -4896,6 +4896,43 @@
       ]
     },
     {
+      "productId": "9194217889",
+      "vendorItemId": "96121425084",
+      "productName": "네이쳐티 모히또민트시럽, 10개, 1L",
+      "productPrice": 132000,
+      "productImage": "https://ads-partners.coupang.com/image1/6gsPzuXUUZs44TXs6oifr9xeJDclsr1JRx2qDZg1dGMTBw1a9NfWEGuxQcDIxluLTgZuswpwAgg9E0CZbPLl2wWpH3ZuJ-nTQGTFCkqLsLAxw11r57MvrC-gh0TWX-KdfSKXFtusuzdNm6cHlQDkZ1aD5Q3Q5Hp3uq495TtiBvWbjOHXkuB_R5HuDoNoBUaFG3xh2lOdQE9rkc6jvIA2e9PmjsHW3ra8HiYmXadvgqskKLnb5jFh-KKVx-t1VkJEXKs55hLlMxeRgjlE9dbOnXeLvaVEqrz6O-_pKWlHGPWIPj3rRI-a5sf5erEM-HQrx0djl8nbPlK56GAu_1ftkCzQygFzcrNjKEYN5Y3WmD9O4TqX8smlE6ptL-3Q8pC4D4_1h6wVTJwXczmCGp4K40fC-7b4Jj8Ctldcw5RYya_8wIDszp9ii80Oa2RQMNUARCYwAqwf7q3zzkX1bX3QR0-j26TwTpkdYmcWB-Ge81tg7Lrwul860xx4W1vtYjSD2bH5Te_eAJGbTF9V",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9194217889&itemId=29201063590&vendorItemId=96121425084&traceid=V0-153-1885977376d4dfb3&clickBeacon=adb7bf90-e80f-11f1-934b-7e3aecbe7800%7E3&requestid=20261124230226120027378399&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "네이쳐티 헤이즐넛 시럽 1L",
+      "unitPrice": 1320,
+      "unitBasis": "100ml당",
+      "packNote": "1,000ml×10",
+      "avgPrice": 132000,
+      "minPrice": 132000,
+      "maxPrice": 132000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          132000,
+          132000,
+          132000,
+          132000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 23:02 KST",
+          132000
+        ]
+      ]
+    },
+    {
       "productId": "9743124573",
       "vendorItemId": "96085987737",
       "productName": "사노셀 유기농 NFC 레몬즙 100% 1,000ml, 6개, 1L",
@@ -7663,6 +7700,43 @@
         [
           "2026-11-18 15:55 KST",
           11300
+        ]
+      ]
+    },
+    {
+      "productId": "136774",
+      "vendorItemId": "3000186072",
+      "productName": "카일스 빅고구마 라떼 파우더, 500g, 1개, 1개입",
+      "productPrice": 11450,
+      "productImage": "https://ads-partners.coupang.com/image1/dLY61PaNMOuSsOGldB5SW5EX5JzVuxysISTZpKE5uLUY3AMIWvLssjbhWKKeR6udgs2ELMiF8UVzRymjUdkEQKSUby5WJOKd4uqqutzV-RhOA-u80XFoXicBItSS6yFTsdSzZApRjKJ-A6iO2duV0zrFI-3RmX0jzrYL_N8-P6DJnslggrUkF1mzhWppGIC7vRbYaOX39MPcrTmdH95kH5IAN-fPFcMqPjEbQdBd7bXJewgaO5FGybvZsqXDAXt1il38bk2Bmyuk20V-XZqijy9n0eVk4fzI3c8MEZEb0i_xCbNGwt5GrQxJ69K3cYDGgXpH8IOzJWmPGNSADOdK6E2lZuZd_-FiP6D8vX9x34fge4A_RXhVN1-IMsiRGvzIGVVTNkqMwm3-gJZK1rle6CG1TKdp769NHs5dR__tQa1pFQ47-bps3UPbDCV-p32JT8sGljb9oF60XZlvmCZHRDXFZvhONDTMAg3K_8p5VcA9Ej4oLZUWnq91W8ZcTlRxNPWB",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=136774&itemId=246679&vendorItemId=3000186072&traceid=V0-153-d52e5c9d1889d03b&clickBeacon=a89b9cc0-e80f-11f1-a793-62191887993d%7E3&requestid=20261124230217546301544866&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "더블데이 리치 고구마 라떼 파우더 800g",
+      "unitPrice": 2290,
+      "unitBasis": "100g당",
+      "packNote": "500g",
+      "avgPrice": 11450,
+      "minPrice": 11450,
+      "maxPrice": 11450,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          11450,
+          11450,
+          11450,
+          11450,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 23:02 KST",
+          11450
         ]
       ]
     },
@@ -10665,43 +10739,6 @@
       ]
     },
     {
-      "productId": "9399924245",
-      "productName": "기가 마시멜로우 마일드 스모어절편모양, 1kg, 2개",
-      "productPrice": 27900,
-      "productImage": "https://ads-partners.coupang.com/image1/bej9ANYTK5uEsFZgbeOxbhRlbDfpE9lY-ao2H77ePuRtTGr5RNx6TQ7jnnRccwcAG1fGxocBeKA6pjuiJwzBzNW64BfNBY_pkfhUeUZsUDdd2wzJHF1d0tOX-FWp7qMCT20Q7sQ6HX_HU6Bro_bJBboXISJ_D3cgiRG8-uk1SZnUUxNRikD806Ge3sMbCSRuK6g9Q6vPedEHAVHtZNEGexxAna2g-jcp80ppZ7c-d7n75Zk5j6ZW4uNIbGmSCduxW3v38oHABhSmLIdIZ5SrLj6lSQg5cj3oBH486yeDQwLUOD-r91drxGbt4KgTZ599k4FbWiqJnfBbR20eBhSnX4dqpJfapybA_iIfFQB00J7o5iNod6lbNP77wpXgdj814cPb2gwsWDbZEwJDS0tzQlhqhc7hq5WqGToyX32qHZnL3nHShyZwS2ZFRNQpnHJh0-_9qowlkIBR6o0BOXi_ycx7igDXDTq3oQJY17U9hIGnmynUXZAbPXFIwPpnsbo3dWFsPGrefzE=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9399924245&itemId=27929512236&vendorItemId=94887955577&traceid=V0-153-0a85df545ddabfba&clickBeacon=94735fe0-e192-11f1-8c3a-adf75286d2ac%7E3&requestid=20261116165149666249746619&token=31850C%7CMIXED&pt=1&slot=4",
-      "isRocket": true,
-      "isFreeShipping": false,
-      "category": "당류·토핑",
-      "query": "마시멜로 1kg",
-      "unitPrice": 1395,
-      "unitBasis": "100g당",
-      "packNote": "1,000g×2",
-      "avgPrice": 27900,
-      "minPrice": 27900,
-      "maxPrice": 27900,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
-      "dailyHistory": [
-        [
-          "2026-11-16",
-          27900,
-          27900,
-          27900,
-          27900,
-          1
-        ]
-      ],
-      "priceHistory": [
-        [
-          "2026-11-16 16:52 KST",
-          27900
-        ]
-      ],
-      "vendorItemId": "94887955577"
-    },
-    {
       "productId": "1518972571",
       "vendorItemId": "80675903972",
       "productName": "[로켓프레시] 산들 건크랜베리, 1kg, 1개",
@@ -10772,6 +10809,55 @@
         [
           "2026-11-18 03:02 KST",
           14500
+        ]
+      ]
+    },
+    {
+      "productId": "9399924245",
+      "vendorItemId": "94887955577",
+      "productName": "기가 마시멜로우 마일드 스모어절편모양, 1kg, 2개",
+      "productPrice": 29060,
+      "productImage": "https://ads-partners.coupang.com/image1/-gMXfG5alisx_A47-pEeRE4Jun3Ai-dC0BotzV7KkJ_YW2wmHterZ-4eBS8Qukrz2g4ZhSxvxCF4V_BqwoCERvyM7wHmUos79FhBEp0t6ZSQU1gH0QYAmkpIX8WoxGlnpKnCGgG3HIP49HNul2OBgZXC8xlKGExrsumKIqhMcsQCqoh5dh21AyrS19PviUSfyJycbT47o0NjZA2YBJrYox3wZZDZK3jFyHIAEavXO38yrVnTmHwVgT3gvOONRjvCNawAf6pmG2hjKLlCD4McpxqDkwMhvZqmyT9cdW9x-2tUJn9h-NXBxbZ8m86My54RNXtHc6h9FEPQBunaHhs0bTIdepr2QPxZDOUDz338qOBy-m0q7xyK4JtAH2wrCw2CkJc98lEQU0Yys3ykmKBqBiZwktF1qXxL_fobr-5TEyxS_C0IdEWHb1rKc_a0xougzax1sqphYNiG506sAbzgleENpDysA7OM_SRJiiSi24dPG4FAsucLCviLj1DikMacfsOMXpUTzLc=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9399924245&itemId=27929512236&vendorItemId=94887955577&traceid=V0-153-0a85df545ddabfba&clickBeacon=99986190-e80f-11f1-88fd-827756f4e342%7E3&requestid=20261124230152341012966519&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "베이킹&토핑 미니 마쉬멜로 500g",
+      "unitPrice": 1453,
+      "unitBasis": "100g당",
+      "packNote": "1,000g×2",
+      "avgPrice": 28480,
+      "minPrice": 27900,
+      "maxPrice": 29060,
+      "priceCount": 2,
+      "discountRate": null,
+      "uniqueDays": 2,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          27900,
+          27900,
+          27900,
+          27900,
+          1
+        ],
+        [
+          "2026-11-24",
+          29060,
+          29060,
+          29060,
+          29060,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-16 16:52 KST",
+          27900
+        ],
+        [
+          "2026-11-24 23:02 KST",
+          29060
         ]
       ]
     },
@@ -11647,6 +11733,43 @@
         [
           "2026-11-18 04:03 KST",
           10200
+        ]
+      ]
+    },
+    {
+      "productId": "8169543163",
+      "vendorItemId": "96267524665",
+      "productName": "멜로팝 대용량 건조 마시멜로우 250g 레인보우, 250g, 2개",
+      "productPrice": 37770,
+      "productImage": "https://ads-partners.coupang.com/image1/AEC0yuuXCNN14FNpAAdNPm0S5-SnU5TwJv3hVzrLu6t52jKBYjQLlAPga7d1zqiyJxBOl0Oa4z6qPDYVT-WvaulzqVFNMTcYhgkQE98zxbDbuJcglUEw-nGwewlcdHgs9XWQXEgfcZy3jGvqpjie7kz6ZSCIt3TiufDWLaHhF-NBQSpSdkCl5MshT_rMPN3VguNiYsBvgfc-qytvcyC_nmYpk59hCPz4Ev-inhJTL1ZofpP_DrAXfM1rc3TlDxQffAj4XTeDALIRl5dWQbqp3s0hmSd-_qLL0k1jdRhdyUAw6AEHcvg8DvmNmTqx6ax5vMDePHylCaUp0W42DoPfG0N2Y8PWcdnvqxEo5eXi7eCzLqh7dBpY6_QBSWEhfCdMWW9FuPdkEr_Yx81NqfRizPyg_FdGXvnuIpnXT6VKdS2-s6EgKkLQOLoiY4i1HvbnXKPgYUy3t2OJ3PcsG7ZPY3Gr2vG7fyWcTd3euRGJ_68dXeIImE0OXbeuDVn7bU6dTlnbO3_jzJJ_Gnm4eFAvsfnAgQmG",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8169543163&itemId=29354508314&vendorItemId=96267524665&traceid=V0-153-e6f4004b976d1c53&clickBeacon=99986190-e80f-11f1-9085-ff59c4980933%7E3&requestid=20261124230152341012966519&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "당류·토핑",
+      "query": "베이킹&토핑 미니 마쉬멜로 500g",
+      "unitPrice": 7554,
+      "unitBasis": "100g당",
+      "packNote": "250g×2",
+      "avgPrice": 37770,
+      "minPrice": 37770,
+      "maxPrice": 37770,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          37770,
+          37770,
+          37770,
+          37770,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 23:02 KST",
+          37770
         ]
       ]
     },
@@ -13697,6 +13820,43 @@
         [
           "2026-11-18 08:45 KST",
           15940
+        ]
+      ]
+    },
+    {
+      "productId": "7375985729",
+      "vendorItemId": "95889093397",
+      "productName": "방앗간청년 볶은 아몬드, 600g, 1개",
+      "productPrice": 19900,
+      "productImage": "https://ads-partners.coupang.com/image1/6cycFiObiqUmSKOf6SKfNTTJ2hfiESzMrD_EmpwpkrzUqiwc_usBcmE2QBWg3XVoU2SPOBf7gR7I8fdtP2DEWqqvvZdlEK0o9RwzS7CkwWD9CQgubnwY2TCGZthNW847Xz0bhQv_UYt_QPNuNhi09EwV-NHgtJH9ORpYnRY6zxmjUBxZ9GxWUSyHMSaIxLlTJ4IHZahJPRfWTHaFBEqKvjI5prZ5S-u-oI4qG8rULlcpQ6G4asxpG9epzejnmdH5VMjiW3_fMr-nhj6jw4drxmgKi_CjgWG8eosDh6FTAKxBb8RH3zKigjHTimGqfN_4dPwq1xeV15D8M24POG0Q0yrocVGYqJh5ttcibJ1pIQvMn2Xuigdxz6cUwefAOf9j7rA-EMsc4-b4_G6zxSLZvkAF8gca7BcEOs-nkWD98I0n3So9ixs0nLb5UOkiV55HfgrbUMFCcPBsRLtHgek2KkVBzzceYbs7YTXJSuBdpbzwZmL9DeyV8wx_3WLnuI0L1GKIysq6rlAgTFmiwOWYRAZf31dqFYk=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7375985729&itemId=20282292699&vendorItemId=95889093397&traceid=V0-153-8c3f7736e4b47fe4&clickBeacon=a39ced00-e80f-11f1-af93-373963a8e415%7E3&requestid=20261124230209163306580891&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "윤고집 아몬드 분말 800g",
+      "unitPrice": 3317,
+      "unitBasis": "100g당",
+      "packNote": "600g",
+      "avgPrice": 19900,
+      "minPrice": 19900,
+      "maxPrice": 19900,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          19900,
+          19900,
+          19900,
+          19900,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 23:02 KST",
+          19900
         ]
       ]
     },
@@ -19572,21 +19732,21 @@
       "vendorItemId": "91458626397",
       "productName": "카페전용 개별포장7*21 에코윌 국내제조 환경부인증 친환경PLA빨대 커피주스용, 1개, 5000개입",
       "productPrice": 102630,
-      "productImage": "https://ads-partners.coupang.com/image1/L-mkVNMoiLp_OdJEL-Clp2IeEFzWkpg1L1Z1cBF3Fcn5OSft1n0HcnWKPTFopNME_8LHEI7Zbn0sgMCzbA7l-D_eUCh3hrQFKXq0FzfJJPC7SGreiP0xPuzZsljtKqADkf2lfUpFD6kNscLOaJrPvP5W_P-8Vn2sZgj3pZZDdEfZgLQUABgcwA6m-f1He6oRTSFrBT-jFyFqBXhvD3r_1YckbsvwLAC12_dmknJekuEJp2tietwS9kT6bP75lfYCZsA3R-DIp_prWJ6J4SWPBZIb2lXzOaJ7HPpxxY0a6migWE5fgNAX6UuHDWRt7N6WQIBR8WjsIUw7koOUIKqWr2zIY4yYMZoggudJ7wSGbTUWMQ78x_Qs4Hpa1hquCN8ZLuRgyp81TGaazH5LnhXrUCFL28fnw5Kk5K8v3ksadKQ021oZ6Vv7B_ld4fcXfYSSIQmvko31zgTdxumb3iFqWwZYHmybZCN5xgKPqbKN1riZCHl3DTAWwiaxcKUwuc4fWAOGN6kFc7u0ZvH2-6I2bCV2zeYEkT_qbVyxIZDeLWIpUSygrf1LVVJCS2s4vN07GHR6AMA9vpt-AVs5eOhOMxoMjQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8801620464&itemId=25629514838&vendorItemId=91458626397&traceid=V0-153-3549605d546e7933&clickBeacon=db5ed160-e263-11f1-af35-b8792d2c6e97%7E3&requestid=20261117174953432239311698&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/lTcKQoLjUvLqtjnXlT4biGUXXpNrE_tk1floPiVobqnk7cMlF3UeDVp4Ad02b6sHwl911_mdT5EiQ-ymLklobjqnr8719yd7gDe4-wFb9Il-kQzp3Ld_UiCbZVPBo-hO3F_40N14mzwR0VTSKK8E72lvxRSaMq1RQs22C7vvN0FdJyXafT7N5j3NAqxNzHuBgmDeyXddDZWb5szrcwEXJaECEVvl2yrg-_HBFD6OyukP-TgZx-qRWGdq_TrJDXxdFMbTEYuPQAb0o8qyC31fg1FUzIREgKQxQmw4XEnw8KcNw6FGJNJCp2j74BZMXEIQf-gr_2Cr-SJwfdmE4RykPwLwaGgReUWuZ_CEfOrWO8EmjkFHE1Lb_V_lIVN97JsHKbaswvUt4cf9q5qRYDT0Sw4WV8As_yyExbnLU_axQZ9TTkoFxOKVS_gOHzQex9DlG91oBeD7u-MFm95rtUsthQUdI-XwBWY-iD0iL7wkLwKJRcvgbbY3VnJZvAR7b3DKUq9ZIY0G8P9lUI45Jz4m7FIepooN",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8801620464&itemId=25629514838&vendorItemId=91458626397&traceid=V0-153-3549605d546e7933&clickBeacon=8f8d9490-e80f-11f1-8a17-2241d8d73878%7E3&requestid=20261124230135493218418081&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "PLA 빨대 1000개",
+      "query": "그린버블스 생분해 옥수수빨대 100개",
       "unitPrice": 21,
       "unitBasis": "개당",
       "packNote": "5,000개입",
       "avgPrice": 102630,
       "minPrice": 102630,
       "maxPrice": 102630,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -19603,6 +19763,14 @@
           102630,
           102630,
           1
+        ],
+        [
+          "2026-11-24",
+          102630,
+          102630,
+          102630,
+          102630,
+          1
         ]
       ],
       "priceHistory": [
@@ -19612,6 +19780,10 @@
         ],
         [
           "2026-11-17 17:50 KST",
+          102630
+        ],
+        [
+          "2026-11-24 23:02 KST",
           102630
         ]
       ]
@@ -20400,6 +20572,43 @@
       ]
     },
     {
+      "productId": "7384676693",
+      "vendorItemId": "86201825220",
+      "productName": "[클로에코] 6X210 개별포장 사탕수수빨대, 500개, 1개",
+      "productPrice": 19800,
+      "productImage": "https://ads-partners.coupang.com/image1/4vAtU69b0X0HcgLa4sVm8Ts5dXkaaUFkSY_mT4xLzFeQXRrKOQckUoyXBAkwysz2e0kbUrshPAxSPnfp7_6sIj899BAqN1ddvezy2Jv_c-d8kj2tlenOdwthIeU8aaqa2xNWO-DjWsUWxXkiWQUhwBW1w5vBRmOBUnUV3cU-C4213_xIGyT2UmbqD_7YBkKHPOWBSH8V4fTBSrHmlGgoYBCi_i2qg3W84tDDBpvB48bkfbiBBue4NoQpx1CIRMy0cNmr4BpbiArxvPCJytoFFWxY2DZE1Znay543dxevrPvo2djjl1Ty4xXN67huBxcSUwpfw6zOYMdd_wPkwtge0nyeiOiumijFCayV7JOVf_xsRKWtZfoJDVFD3mdZ9RqrHzPev2puFRwNVtTOzvRToSUf-0BZN5Diffi1gqVhAf8yu0yFmtGIjLe8Pi5i4Wb2eaec3ddNs5rjvBeO25DlM3lOrqniG1hWtZfckpu7axY62bsnUWEDfE8QsoBNIFl69kIk-MYzKW_Wp9biCqPfhIbBzhWe",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7384676693&itemId=19079400551&vendorItemId=86201825220&traceid=V0-153-c442075e00ba6e6e&clickBeacon=8f8d9490-e80f-11f1-b51b-9e837d38c7bd%7E3&requestid=20261124230135493218418081&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "빨대·홀더",
+      "query": "그린버블스 생분해 옥수수빨대 100개",
+      "unitPrice": 40,
+      "unitBasis": "개당",
+      "packNote": "500개입",
+      "avgPrice": 19800,
+      "minPrice": 19800,
+      "maxPrice": 19800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          19800,
+          19800,
+          19800,
+          19800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 23:02 KST",
+          19800
+        ]
+      ]
+    },
+    {
       "productId": "9675500108",
       "vendorItemId": "95871839115",
       "productName": "세리오닉 투명 버블티 스트로우 빨대 벌크포장 12 x 210 mm, 1개, 200개",
@@ -20438,21 +20647,42 @@
     },
     {
       "productId": "9609711847",
+      "vendorItemId": "95631272883",
       "productName": "그린버블스 국내산 생분해 옥수수빨대 개별포장 21cm 그린, 1개, 100개",
       "productPrice": 6800,
-      "productImage": "https://ads-partners.coupang.com/image1/PcY0A9U_gCYSScUfPXkfixdhgwyN8pshcu6LmoHGGhCwcNWiSzUQfZYNwKBDShlz6SO4NpDdaaR591Mss-kWhHsKfbvTYIg_pPjl_WUuyDTqfhZDALsrgoRRznKeZxvXSCythXKA3l2qXT_JtOPDH2Tij_wql2lzTxox6egT43Tci0P3XZ6-bCeoikeF9ZOnQX9ySZUI2OPkHhoG0fun09xg3Edtoq4o11omu1hesGnmpOv8fXIoazPTyDD4EvnRNjv5-wyHGVvqZZ1qCUvGkn1d3FofqnD1KYb2iGm0TyQmvgdBMu7oxgRtV7iSWmBsu7xDF3c1bCPyAbSpiPP0bsTNRokUJl6P4BCtXT2rpWDVAdJMAtnXs9gH12dct27WhK0kjWTJbbOG5bGnlEYkh8HULCiYXNZP85Tp61eFvMwUS7kfCh3s0XTYoi3-HEeXWqe-9ft4qKfqQoK6WJnzZ_QdzbL0YCEWoh7tMI6ciQoRgjzXYL5wkaEci-MTrNFfTN-rg7Xt45_1qHf5",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9609711847&itemId=28689671350&vendorItemId=95631272883&traceid=V0-153-84c6955f0626376e&clickBeacon=e38c9290-e106-11f1-a366-6340e25c94f8%7E3&requestid=20261116001152782168906311&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/gD-NrSnEh9DsIIqHgP0y6k5Ug263jjNI_8VesHQzHslr6rnFv_yVRTdp7C3CokTDVZmHpu4CSSYjk_mLXPwW99EeIYAoI9lakQzvlU_hn-J1-MoAUrtdfLIlzU8PHyfszdxlwDe4R_4ICqytHNfxv27nf3SqBT7qfjNaNlieKDeKiHg5BAnBfBtuQG468FbmfC4H4vBVqzS0GKmzjWUWjPDNLySJs936NiFwsorES7QG8qcLvAKeDaRLQfbZM18mZR7PnOIVTcjmLXq0RxTnIx6GMJIJpY5QKPO1Qh4aeTGFgnP7wFlgi1WEktkTApgbPW8VZmZYvwLHEMuV1_F_8JDv5K2vYrfS1o5MZ3mKf1q_yePR_CAX1DvfCEu0b7eCrL1sbx5D6kMUUfMDfR0MZfBHhRlSOcDfjt5KfZezcbWf4Zkqzfk_qdes-ng8kOjuN_OY64iTSBu0mXakAPrSBmflXQnQ3JF_7By9dbSvvnk53r3Kjs4vJpnP3E7slo8eZRMIKqIevY2mb-8=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9609711847&itemId=28689671350&vendorItemId=95631272883&traceid=V0-153-84c6955f0626376e&clickBeacon=8f8d9490-e80f-11f1-ae69-009b847daf52%7E3&requestid=20261124230135493218418081&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "일회용 빨대",
+      "query": "그린버블스 생분해 옥수수빨대 100개",
       "unitPrice": 68,
       "unitBasis": "개당",
       "packNote": "100개입",
       "avgPrice": 6800,
       "minPrice": 6800,
-      "priceCount": 4,
+      "maxPrice": 6800,
+      "priceCount": 5,
       "discountRate": null,
+      "uniqueDays": 2,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          6800,
+          6800,
+          6800,
+          6800,
+          4
+        ],
+        [
+          "2026-11-24",
+          6800,
+          6800,
+          6800,
+          6800,
+          1
+        ]
+      ],
       "priceHistory": [
         [
           "2026-11-16 00:12 KST",
@@ -20469,45 +20699,44 @@
         [
           "2026-11-16 07:02 KST",
           6800
-        ]
-      ],
-      "maxPrice": 6800,
-      "uniqueDays": 1,
-      "dailyHistory": [
+        ],
         [
-          "2026-11-16",
-          6800,
-          6800,
-          6800,
-          6800,
-          4
+          "2026-11-24 23:02 KST",
+          6800
         ]
-      ],
-      "vendorItemId": "95631272883"
+      ]
     },
     {
       "productId": "8818611683",
       "vendorItemId": "92686772755",
       "productName": "클로에코 6mm 21cm PHA 빨대 개별포장 화이트 해양분해, 100개, 1개입",
       "productPrice": 7350,
-      "productImage": "https://ads-partners.coupang.com/image1/bry_mLhGr-O9kWgbbuJ2uLq-2eCOpIHuCXt19lgbVpHAQm2GpGm-9eSMFSWuh2vLUl0AyGi08pSRoY1ewkxtKqAUi5ekOELxZDOO4i6MKRh0iJ4nDJ6A6I-_KnJ8h90bISvz1u2ovYoLPCY6hMscI11hO8e8MGB6TdpfdxMA2sydxK6zwKwHE-jkROhwNadMbm9KuGiEUhJU5S1GNdFy_VY372n4bJYFj6_c4_E9qQR29wprkcxlDylYCOFaQIIEDg7SoB4bluNffIIeIt-I3fYWQsKBB3qMaBe92Px-g9_Wtp6lFByWwERjW5_o1eMeakinroHuIok7Ga3dD9cPgC1w-zS1H0NT9kVnwH6eJvDwdx7plcU_ryrflCFJcUp-Ddh3j00AY79jUGjpz20XizHg2ybzKi3fmBxW6t2C2kssMWhzvdDhXk68OlY1L_KMs3DYGwz9Vyb5FoN-WFWHvyDYH6DQoiLx-x2gEYkyUtslomxcVepSremg5DAUEjXM5mBXAjicmYZejUXODBIgI1MUrM9wdw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8818611683&itemId=25697681517&vendorItemId=92686772755&traceid=V0-153-52730b5ab2ae8bfa&clickBeacon=46cc4710-e25b-11f1-af4b-6f42a30bca96%7E3&requestid=20261117164828179088811031&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/tWsE_ulpa3pTRRiAtcr-dLAchsLhciTyK8vd5lm6Lo6ZhsHn6qhccy1D6f7tOAfJ7v77OTpxV_tGKQiYScvMEkMen3SPb74n4epPGmXhCREKTpjcFwFsnnAYly1qeUac8p2OZ2laXx_F7zEXqDesyJ_y-EG5SS1_I2V_5nNv-yF8kh4SOPcMMYyWdb6mBZqOvJGE9WO0K3G8yCsdCc0FgYSO7YUnRBxUMgjjZIGpwwbNSK6xH5SkX0WTb9-MqB4Bm60nq9vncOCeBManoOioH83R6K8Xn9FjceGN4F5Jmvp9L1qc-kG7KyL1RiH2BW1YYfO9hlwFfyCC2JE-daphXTlAL4Rz-QrnjBidrlaMx09ofplPSYYv3NlidqTsuK2-tbmV1I3bmrvAy0aC8Q-YqxozP45O1C38TYPcpWy5H4d-Hk7uI7ShYjX3vP2WE4GVLpbA-_QUvlZd2eOS_YEDu6r1LU4eyiNnzQExM51UxKnK4kyR53R2drhOWZsDdWdQIzaCcY1DT0DIdRKwtepI37uAdOCZYlI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8818611683&itemId=25697681517&vendorItemId=92686772755&traceid=V0-153-52730b5ab2ae8bfa&clickBeacon=8f8d9490-e80f-11f1-91ed-2480a0289d7d%7E3&requestid=20261124230135493218418081&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
-      "query": "빨대 6mm 1000개",
+      "query": "그린버블스 생분해 옥수수빨대 100개",
       "unitPrice": 74,
       "unitBasis": "개당",
       "packNote": "100개입",
       "avgPrice": 7350,
       "minPrice": 7350,
       "maxPrice": 7350,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          7350,
+          7350,
+          7350,
+          7350,
+          1
+        ],
+        [
+          "2026-11-24",
           7350,
           7350,
           7350,
@@ -20518,6 +20747,10 @@
       "priceHistory": [
         [
           "2026-11-17 16:49 KST",
+          7350
+        ],
+        [
+          "2026-11-24 23:02 KST",
           7350
         ]
       ]
