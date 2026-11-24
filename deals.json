@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 15:06 KST",
-  "statsAt": "2026-11-24 15:06 KST",
+  "updatedAt": "2026-11-24 17:03 KST",
+  "statsAt": "2026-11-24 17:03 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 498,
+  "count": 501,
   "priceStats": {
-    "products": 500,
+    "products": 508,
     "discounts": 9
   },
   "deals": [
@@ -13334,24 +13334,32 @@
       "vendorItemId": "86349512436",
       "productName": "[로켓프레시] 끼리 크림치즈 베이킹 블럭, 200g, 1개입, 2개",
       "productPrice": 13600,
-      "productImage": "https://ads-partners.coupang.com/image1/wKMt5Btn4jPMkeFCwNskRREf8ux9ziNr3Pg441Ro_D5YrHU4S-oKOX6AYwab-TbL22M2tgF7tfr_92wLMmdUqJ2UW_w3cSv8-T3guQea4iHKYH3-egTUSby_q7QfpjmQegA0Uvq7GC7FF5l4h1YnfQkPY70HJ4vbHbWWCt0Ebs-TApRbWy1NAsa2sOHJgNRdOVbL3F_c8_zyygPFYAa8SVNFI4KVLE5WSTiB_Q_veeauYOJk2RKOr2K7wRvS4A9Vd0M2uMtxV-8Kzv8mpHBwUpj1RBZ_tUdy_IThfzD4XrNwT__p724G-v92rfo1wj9pTsa2qcEdzApWv3s-wvfy6h2Ro0X7T06jDy46CK_OEoZpEETTSOwptXj1FYTk1gAkJbxlMxuNmRftMq3JVwy5CEi7CWyNY7osvni1kuBxeVHYBo-pyJqW5SC81Wznl9U0TE3a7j-DJyDQNOtWqAYd5NFSHbZ172Rh4FRu49y7DVRcIgusOc0keb0jgiCx8F72DmjnzFkLTQ_xYeSBgBEVPljYEgxVwurLaoTRrZ1YCAKvoPQVmian3pYCO2dtMSkTjNpJfziYTfw=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9183716207&itemId=19233040255&vendorItemId=86349512436&traceid=V0-153-b32d0fe7622831bd&clickBeacon=1af07ee0-e1f2-11f1-9918-b9ae7442a75c%7E3&requestid=20261117041537480114169325&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/_Fl-WGDHlcZAUtH1_Gf9IWWPIGzwt9cB-ErzIvWr6y9qd0c7em_ROcKt7leOb4rIOvhWWtWo2XzttDQ30olkjVVZ3u-5tOcNKAzkxRjvZ8iVU_B8EER_Y7Og9Fr4TgMnfnMr4MADpSGyZ-f4O1-hkE-ls11Gre5etzpj6I_gLkjDnz4131cvqgVQCzlC2eYrBhSu74O7NgCM6JPmyGNz19o8xbkn4umrSB3mTTMX2taPHzZE8tPWg-bc6EBDyoBv1GbskyRYrl3s5-lcMTrP4DeCu6Fj3W4yxd2wW802RGuLoKFQLxkKt7-f8aJhTIL0XRoh26XoluayXIwB1P4YI4s6l2C0_7qQeu_2Ddj7g9uJykzeRI6B22AoxMFTln8DmV3hBfx6_jUueHyHppm39NOyyOry5nsvjGywEFKh-yd0GI1vSmh4mN1ta4LUXWO0LCnkdxCDWo6KEmRWdB5kLxg5TET_mOHJ_VAt70VBg6wf35D1w6J_wMeFrHOhOu-Kk2sa8IKo3GT5kA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9183716207&itemId=19233040255&vendorItemId=86349512436&traceid=V0-153-b32d0fe7622831bd&clickBeacon=822b9900-e7dd-11f1-b174-1533a477b252%7E3&requestid=20261124170318237154016294&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "베이킹 재료",
-      "query": "크림치즈 500g",
+      "query": "끼리 크림치즈 베이킹 블럭 200g 2개",
       "unitPrice": 3400,
       "unitBasis": "100g당",
       "packNote": "200g×2",
       "avgPrice": 13600,
       "minPrice": 13600,
       "maxPrice": 13600,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          13600,
+          13600,
+          13600,
+          13600,
+          1
+        ],
+        [
+          "2026-11-24",
           13600,
           13600,
           13600,
@@ -13362,6 +13370,10 @@
       "priceHistory": [
         [
           "2026-11-17 04:15 KST",
+          13600
+        ],
+        [
+          "2026-11-24 17:03 KST",
           13600
         ]
       ]
@@ -21494,6 +21506,43 @@
       ]
     },
     {
+      "productId": "9208915945",
+      "vendorItemId": "86962765853",
+      "productName": "이너홈 니트릴장갑 100p, 블랙, L, 4개",
+      "productPrice": 27340,
+      "productImage": "https://ads-partners.coupang.com/image1/E3arL4pWK-O7JB5FE4SSxq6RaHajkaOBBhJ8nV9rAmhNXrDikz3HDcTffcaCbNruQrGynE2ujgDYBjlpOTikCB2wUGxvLbhbxgwL05poTpxMAPnOjFMhVKyl-OwjXoAoXknl2ihjJ8CjZw0-lddzTH5LnGH1gbPyi_iwBO6-1QOSM9HvRcCr8B4n_ldlOuo8ggttQ9--a-TOorI-yFmY7aSUPqY_1U6q3jjs8toHqf9CxiZeEAE6P-ox9cZbmpX5m5ZE0nVSy2oVr3AiDb5mpPbCDvLc5TNzSwcYG_OWhqiFA6whIsFfJtd6BZcbvuPluQoTrtbCz-pIhWC6QGOBe-RWPQ0x8oY_mZcsdT0BQROUebC9n7o50yVmU8bgPNa0AmvUFZ1KNzaeicDuBpaoRbHAEhDJuh7OTEkGOmM-koea67Pblqyo806JCwFDgCT5LTegABUj_H_kAFllil7dkAvIgT5A1Sx30Yp3wwc2ARY1MPEOMPiMQ2jBHPYYz3hmL1oRQyWOk30=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9208915945&itemId=19861829247&vendorItemId=86962765853&traceid=V0-153-b32a09875197bd2a&clickBeacon=7d2c7410-e7dd-11f1-97ba-9c4f2e26ad16%7E3&requestid=20261124170309793193053307&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "코멧 라텍스장갑 100매입",
+      "unitPrice": 68,
+      "unitBasis": "개당",
+      "packNote": "100개×4개",
+      "avgPrice": 27340,
+      "minPrice": 27340,
+      "maxPrice": 27340,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          27340,
+          27340,
+          27340,
+          27340,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 17:03 KST",
+          27340
+        ]
+      ]
+    },
+    {
       "productId": "277970218",
       "productName": "코멧 깨끗한 천연펄프 키친타올 롤형 3겹160매",
       "productPrice": 10990,
@@ -21564,6 +21613,43 @@
         [
           "2026-11-18 02:01 KST",
           69000
+        ]
+      ]
+    },
+    {
+      "productId": "7218654680",
+      "vendorItemId": "85433447877",
+      "productName": "이너홈 무분말타입 니트릴 장갑 200p, 블랙, M, 1개",
+      "productPrice": 14160,
+      "productImage": "https://ads-partners.coupang.com/image1/Or41Wsbrhz8WAjdtOlHw1Pf5LATOs4HBRjjllXS0Fj77OObELXs7BH_MDvlqimbpG2b7jyidZxkhY_XqQTc6Uzkhuybnk6jPVNUQWIC9oMm_2AB0Tm9aPHlj0rw9Pd6_grhYMEaIr67mYFAdL79DDh7wRbUp44196O2s77kDMUgChAMDINe1i8itulAk9RGfNkQN_cuJ4xVYvux7VEI3CHxTYIhN2RYLVQ8pUT54WmxB6EGzPX4fcdnZbUpzfTs2fGW76Ha5wwYAc6rFfnVBpZRzNoXVJy3uR8c6SvFp8q9TilGvVCvMoOF48RIBd4NJF9wyUr6UDTjteAUaHlNw-MyW0az0n_uZduXiMK0BJRTqUHm6-cpxyxf9TBn6_KPmR4XxyC7bVcYdlFvTFFd0kS1MHZL0FlcX8PL3FGY3h9O0oW0MstmKvauBUs48yLWHYZLEvLihUsHFVIZdcheEZkyM8QPYZabOkcmUJ7ysmVPZ9nOh988wWr8ciIjtQIyCyNAtGg8UnSU=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7218654680&itemId=18287616062&vendorItemId=85433447877&traceid=V0-153-3e05920db3e3fb81&clickBeacon=7d2c7410-e7dd-11f1-bcf9-d7dc2937ae95%7E3&requestid=20261124170309793193053307&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "코멧 라텍스장갑 100매입",
+      "unitPrice": 71,
+      "unitBasis": "개당",
+      "packNote": "200개입",
+      "avgPrice": 14160,
+      "minPrice": 14160,
+      "maxPrice": 14160,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          14160,
+          14160,
+          14160,
+          14160,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 17:03 KST",
+          14160
         ]
       ]
     },
@@ -21724,24 +21810,32 @@
       "vendorItemId": "75763314553",
       "productName": "코멧 라텍스장갑 100매입",
       "productPrice": 8990,
-      "productImage": "https://ads-partners.coupang.com/image1/4LViIxSSJ2KAVuZq4AAU5gIl5zDjZUWTA_qR3rwZ16GdbEljxY1q8ZkZv5FAMwSr4guolumHPRjfYLwIkDkkvZlsFFJEFMF-YC1PkjPqJ3xmt3lKK8Pna-fK2aEkYLjvKnTbk8aORV_mSpvZT7MYNnWLmNFM1xPCuXOz7GmqiJNEkAHI6i728GUIcMTrmZU_oWr1wkimQ2iEMV74OOd4xm8of3VJkqBHO6CwJBSKfAOrxgH341cRhj8TbowooL4-2IDGh5-VbzZNUO-QxX5DUs5KrcUC4Rp6_k4wqdQzWAsgE16GjouwQPetAtONN1fFZAHP4jvw7sbQPnBOxfhylQNs9fQ7JOBoFjSFzPar8FaiYfY_95Qe1tqkKrnVzj9frMTnzcx8OV3OtvbcbwS_zcdXvMIKXxRFhwKBxxrlEM_ZY6IqE0hZTKjCsend5mYVll1aHUunxj0S9WZSV2mJZiTrCuMAvbfWVJGEgIKo44V79rD6CCNMR2bxpg9XqJqxa6UasyqUNL5m0MtUZWqGXsM=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5485317400&itemId=8475770241&vendorItemId=75763314553&traceid=V0-153-138794a52c1dedf7&requestid=20261117041455006029391191&token=31850C%7CMIXED&pt=0&slot=6",
+      "productImage": "https://ads-partners.coupang.com/image1/74sAS3QFyhcX6qzE72cArFilQHWWPpEqS6KtPNKF_fgVsqiPTlk9WmdnQji9ZdxCY_azM4P7IA9B7XySMT52f2dsmqd8Uytt_4ea1mLdpBxw-mbUpI5WJZ5jiJAg30cW8CTZ-qpwThSU8tyElJh4JrK2imb2cRwusgxwV0R9wom2dGO0PZ50rD_khVVG0AP8_g-LYJgDKzrMWOKQX62YePVKSq5ZkJoLuEd4QPp6G5WHZQcCjMtHySrMYKPvI5VqvDq-2lHRG14UMFWJdPS5JciTw8CMALCRFr1goB5lTdAdpj2fSUv0wfFQTxbmO_mWGLksKihc2Y37M_AMztGg39IXPuaYtUPd7qyBTu7ae1KIqYEa9gaT13LjqP6NlOnNmYFbtS66eiSz0hswg0es43hMnnar0ueFm-MqDhGGV08gE85WKBN3vVTUOxigOaqD7bp0AfIaGdn9kXczhx_x26xHD3kKg6DSeu9kREPSnpD8zDK8MzswR6QIqIJ3hz5gT5d3FqP_3ceQRTwNV614tlE=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5485317400&itemId=8475770241&vendorItemId=75763314553&traceid=V0-153-138794a52c1dedf7&requestid=20261124170309793193053307&token=31850C%7CMIXED&pt=0&slot=6",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "라텍스 장갑 100매",
+      "query": "코멧 라텍스장갑 100매입",
       "unitPrice": 90,
       "unitBasis": "개당",
       "packNote": "100개입",
       "avgPrice": 8990,
       "minPrice": 8990,
       "maxPrice": 8990,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          8990,
+          8990,
+          8990,
+          8990,
+          1
+        ],
+        [
+          "2026-11-24",
           8990,
           8990,
           8990,
@@ -21753,6 +21847,47 @@
         [
           "2026-11-17 04:15 KST",
           8990
+        ],
+        [
+          "2026-11-24 17:03 KST",
+          8990
+        ]
+      ]
+    },
+    {
+      "productId": "8008544893",
+      "vendorItemId": "83903384344",
+      "productName": "브릭글로 스탠다드 니트릴 장갑 100p, 블랙, S, 4개",
+      "productPrice": 38200,
+      "productImage": "https://ads-partners.coupang.com/image1/-Q-fvYZvlpcZGnmG-YAY7ENMigWjO4UX-721yFO8X9KfELNvs8pBffJi8mhb07OYBWmPFQ1kRqo-qft1tuqA67kVISCQh_t6sl1fdrhErp8udRcxeSS4gHkNHnZgeTVyyHmN6xplAkHiU5PsfNxXIifP9ViG7Ai3n_WlxDveqvaSciVDAaMqmVWD9plC7cxHe455SPJcgCdt9RhhPZVMy-ei572ljVUCFlUwnXn1yUMBjopuDcisX3PaxS7Dyf-KlePgOhn4EHsy7rlMRtfrNGjwRJKFpnC-btF7XG4xZi4-4XXL71YSiNwj-NYyVoGy6-dRr6qolKTlffgpSpVNo6Rm1v94-9dsaafADzzHmi0sYJG1vgQzT-GM8s4ak4Ok66ULOoA3lalKhQkZoVAQxvJv_wrMEbzAcrxFP6McC3dKpKpjD7EGUytamR63Mk7ieLCG-2cLz-e6XhVyp6DfEv7W8NiedW1k6SqV3nctMpbGm9Co5cNgK35xX6OVKqC0PuOXKd9vBg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8008544893&itemId=23856013946&vendorItemId=83903384344&traceid=V0-153-672747f772f197d0&clickBeacon=7d2c7410-e7dd-11f1-9b2f-960b4ce3a17e%7E3&requestid=20261124170309793193053307&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "코멧 라텍스장갑 100매입",
+      "unitPrice": 96,
+      "unitBasis": "개당",
+      "packNote": "100개×4개",
+      "avgPrice": 38200,
+      "minPrice": 38200,
+      "maxPrice": 38200,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          38200,
+          38200,
+          38200,
+          38200,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 17:03 KST",
+          38200
         ]
       ]
     },
