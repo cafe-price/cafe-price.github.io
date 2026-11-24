@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 13:04 KST",
-  "statsAt": "2026-11-24 13:04 KST",
+  "updatedAt": "2026-11-24 15:06 KST",
+  "statsAt": "2026-11-24 15:06 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 488,
+  "count": 498,
   "priceStats": {
-    "products": 490,
+    "products": 500,
     "discounts": 9
   },
   "deals": [
@@ -2395,6 +2395,43 @@
       ]
     },
     {
+      "productId": "9447509045",
+      "vendorItemId": "95144727583",
+      "productName": "노블빈 산미없는 다크 블렌드 원두 커피, 6개, 1kg, 홀빈(분쇄안함)",
+      "productPrice": 148500,
+      "productImage": "https://ads-partners.coupang.com/image1/UM_1h-f09txANcfVUNnx5IGKz8ogLRoAnjouqPEU-tKFHW0GfpztnzvfvqcypWNFtV62_f8LW_YGcg57fG8OnGmBGZFoks-VuBT3UVpdUi8kefI8a6mEfYgssp6wOi25VbUwMlpnJOGtS1BmhwquLPAWYTOAH53mV7R9nSerxtr5HBf7miH33oQSfECwiDT08dTEi5B8aKCSbvRt2Zxt0OBsn0dGnHhCPsVrqnmYbhXXCCm7KmK474K16AxUKSpotNKAH-5pIK1IQTW1Tmk87qrQk2UZzmixsTD3F1vi3PXs0LDGpzHUV89MsedXlEQZsEX4xQ2jogSz07UIPanIvm9nqDk1xdZZF45-1lEW2VgN-soYBXGEzelG7SiSJhYDOQ38jh-MM_oHZ0EzNXYPJlQ485MydFjy6zrOMLAETJRuFTh-o5PPW3zDTIkx-seqLgXUlSFRMGxAuDFOxCrxvzyVRRyXvqtdDr4c3PT_lIzS8r5WwzbJguVV3w65-5ZgvGvJANYyqtmsGIyqM9oB_2jfJuc_",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9447509045&itemId=28190246682&vendorItemId=95144727583&traceid=V0-153-726df8ced77c8edb&clickBeacon=f98abdc0-e7cc-11f1-9ac5-d2ef1ec746ef%7E3&requestid=20261124150457027041682978&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "원두",
+      "query": "노블빈 다크초코 에스프레소 원두 1kg",
+      "unitPrice": 2475,
+      "unitBasis": "100g당",
+      "packNote": "1,000g×6",
+      "avgPrice": 148500,
+      "minPrice": 148500,
+      "maxPrice": 148500,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          148500,
+          148500,
+          148500,
+          148500,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          148500
+        ]
+      ]
+    },
+    {
       "productId": "5504227265",
       "vendorItemId": "92836167396",
       "productName": "제뉴인 에티오피아 예가체프 G4 원두커피, 홀빈(분쇄안함), 1kg, 1개",
@@ -2547,21 +2584,21 @@
       "vendorItemId": "91179185467",
       "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 26800,
-      "productImage": "https://ads-partners.coupang.com/image1/7JXRjA1OGUpIzZ1q7PJTtgx_2r5fCzedlpqKjO0M-8oo6oKkzc7ZJGCx3u3gftJi6w_oRChbLwFG_uC142sQiOtqF1ws5AAsKD6tv3hy5nytmhtfWat-Mjoay83WyBvmD-KLbSU3GzSCjhmXNuO_rhrg8oiXqjDxkHwLzRHRE6sOoog84HGKczW9h4qAeCqUrb_UrEp9naIuU-7PGdLAW0NOcx7kjh8JIrqNd8xdQdNrVvkVrp9pDGYCSehPgf_yGZSlP4UyYaSlRbFSNZIJiPYb375nlt4_DnXMctcRDfpw9jw2pywN6ycFLftjOTS2wu7Z8mYSJigcGn1pl_vMELdKbgHboYLY2SBFTl3JFcwf1URLygrKov3F10IYn7GI9XSaAfOokblqjwAfegP8O6LEHEgpHc9tqKOOgoR50b5b-RyqWpkkZFgbzVsi2g3dEsRblcQbH4nky4x2sS7qQSguVl9NIL5QacZZkhhbgL5ZVtXZpTnKT18AZv4yOEdgCQPSL5lfVpjR_1GiCHvVUgI7P_leMkw=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8360433211&itemId=24160594371&vendorItemId=91179185467&traceid=V0-153-fac61372da0a0df5&clickBeacon=7c78b9a0-e2e9-11f1-9686-5df3abd89c6c%7E3&requestid=20261118094626781276815992&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/ZzYUA-XAvQv3d0QSZ-0_peTLPsijAaSIukkWaq0xdMFxhS6kTYX356o_BTUw_3YX6Iol3iLTOIBoGSrS3_wvuAX6qC800ZxFDfj1eR6KHqYema6bo8Kh_xhbORkmv4CAb4NSaTdivBxCAKKqGWg10l2o4XVJE9Vw-z3KOG4z194IQ1qlhBr7SzEOI5vts75LSonq1oUwzfJP6dQISMGcn0CpJt3R4vVVpZRFQoB3pdMNHfIG_-7NvyySfcky1nhDvmHdizZVs9nuK-F9coJouPag9DcQeBwLCrE6eOmB5D4JawJA4cvOULIy_UDOMBOwCyV1pYOF1dZU9D07oEi9-JzP3QVG2XlobkEP6PGDlhi6jm-qUzPu8wQOSDiWcneYR5LnPM1M4-nKuBImhR6R94cs693hJrcUq63cTRUoarxVz7dP0HiF0oAtYXyuhA_qc_X22dDelDdxnuEOKSMzcFdtO0IZYKWiVnumx8bniSB9HmPce2D28F5pV8wTt11yhw6dOcznOl5R4TFo1GKMY76xxVEH7ZqS",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8360433211&itemId=24160594371&vendorItemId=91179185467&traceid=V0-153-fac61372da0a0df5&clickBeacon=f98abdc0-e7cc-11f1-854d-b747554de83d%7E3&requestid=20261124150457027041682978&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "스페셜티 원두 1kg",
+      "query": "노블빈 다크초코 에스프레소 원두 1kg",
       "unitPrice": 2680,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 26800,
       "minPrice": 26800,
       "maxPrice": 26800,
-      "priceCount": 7,
+      "priceCount": 8,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -2586,6 +2623,14 @@
           26800,
           26800,
           2
+        ],
+        [
+          "2026-11-24",
+          26800,
+          26800,
+          26800,
+          26800,
+          1
         ]
       ],
       "priceHistory": [
@@ -2615,6 +2660,10 @@
         ],
         [
           "2026-11-18 09:46 KST",
+          26800
+        ],
+        [
+          "2026-11-24 15:06 KST",
           26800
         ]
       ]
@@ -3141,21 +3190,42 @@
     },
     {
       "productId": "9463147601",
+      "vendorItemId": "95144722877",
       "productName": "노블빈 다크초코 에스프레소 블렌드 원두 커피, 6개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 204500,
-      "productImage": "https://ads-partners.coupang.com/image1/sdjc3zCbF3ZiPTd3sVUewbbAqiX5TTjugw7_tacltHRTYTuggsQzxnYPUisbYSVTokjf_VFyltesDirXzdgFwy1HWSO_r1rP4nnNsvz3zwXwTrw8o5dVYi70no23hDiZkAvWMGoDAE69WwV9uXnyZ5OuIdPzOomBnMNE1MWDH7_Yxzs0SkKZkJRqhv23l8fUjtfrTmaoUDUvDqpTZcS8QtU0vRvWMpMlTp9_3V2XlWFNoUmSxH27HSt9osJZUwlvP5kGmYKc27kfbYV7clCdP45mRLxVduzXTMO6sTW8ajHjlixJVtTA4quPbi2aV732UR7zvmDpP4x1Yo0cod2lZm6ywULrTYizlilkiROiah0lQKijkNArW6Ai_TG6UIqKfZ5o1HYMTGDMROkNyz4BPWjsVIvNmxwKBxLGrHcEkanlkn_69GfEVxrdiYWWvFW6kY6JIS7DKM_JJOPPaNo2oCtfhgeCNwhaxx-VV7jViHY0Q_e7xjZkqnHFx9nGWKOZoIRA8ph8knRzTgIZkRxLDXpVBaoL1g==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9463147601&itemId=28190241418&vendorItemId=95144722877&traceid=V0-153-14970f5fca08a19d&clickBeacon=39e324e0-e140-11f1-9bac-5adc7e6fafbe%7E3&requestid=20261116070218952187596089&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/_bacDOkc4TCnYqUH_dHc0OoYCPiPEozfWG0aNyyTZpp0p1KeJDRXrfe6lIq6LIXPyHqLF4Xgl8iL4H0kc3SOrQoPhMrhe9EMPCDvbRu3Uy4zwTc8ClEsyA9gIi3AB0AeNcojQn78z2eNtKaPXmEAshjEUoR7_uwMmQFDeXb5lG63DIcR2uPCAeYihVFS6QRmMGj3RXinTjQZToaqogt07eMwl105ovZX_WcGIOBbKeGtHNlcxl5ErA83SR-aQ3GBIRp5U9O6KIyxzP2xt_HzxLz0fXC1ui9vTealnec2l2ymX7kQNghnxmcqKLhM6iOdPKbACuQt_4sDGQlUzyr5t-55JqcicG6Ln59F-mwvy-wL4-_7j940TghuFoyDv0dBSemYdLo4-vL7d_LTwyKMN8oQAme1fK_RNnDa9rUR27s5qtXNYeiTkU3Vsv_e5LIuYjdS1NIfkRVSth0oKga295JILI8i74oBpKImodtWo8MmwHjspHuSDtMIdOht_nDd1VY8-6XyZvy-b0Es4xqiG42TSK8=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9463147601&itemId=28190241418&vendorItemId=95144722877&traceid=V0-153-14970f5fca08a19d&clickBeacon=f98abdc0-e7cc-11f1-857f-e8249494a7b7%7E3&requestid=20261124150457027041682978&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "에스프레소 원두 1kg",
+      "query": "노블빈 다크초코 에스프레소 원두 1kg",
       "unitPrice": 3408,
       "unitBasis": "100g당",
       "packNote": "1,000g×6",
       "avgPrice": 204500,
       "minPrice": 204500,
-      "priceCount": 3,
+      "maxPrice": 204500,
+      "priceCount": 4,
       "discountRate": null,
+      "uniqueDays": 2,
+      "dailyHistory": [
+        [
+          "2026-11-16",
+          204500,
+          204500,
+          204500,
+          204500,
+          3
+        ],
+        [
+          "2026-11-24",
+          204500,
+          204500,
+          204500,
+          204500,
+          1
+        ]
+      ],
       "priceHistory": [
         [
           "2026-11-16 00:51 KST",
@@ -3168,21 +3238,12 @@
         [
           "2026-11-16 07:02 KST",
           204500
-        ]
-      ],
-      "maxPrice": 204500,
-      "uniqueDays": 1,
-      "dailyHistory": [
+        ],
         [
-          "2026-11-16",
-          204500,
-          204500,
-          204500,
-          204500,
-          3
+          "2026-11-24 15:06 KST",
+          204500
         ]
-      ],
-      "vendorItemId": "95144722877"
+      ]
     },
     {
       "productId": "9182068590",
@@ -4704,24 +4765,32 @@
       "vendorItemId": "96085987737",
       "productName": "사노셀 유기농 NFC 레몬즙 100% 1,000ml, 6개, 1L",
       "productPrice": 79900,
-      "productImage": "https://ads-partners.coupang.com/image1/jSZaLO0_ckZCxhaajbA0BZXUwa3-PXqOh4xlR8b7XzA2FetTWQ42geEHsNfroZ7LQu_vlIl-0a56mbvyzuJtKd08UuS2yMzISJLr-Ah37iqB9vU_RuG654REgVBdOjlDLNnOaKhKE_PuS6-6WFhKNRuCJllz4mITap2PfCNSZ2uW3nsAUm8QU4ILTp34ySm35iYj3pO1KOnl1bJTnCVleZ8OkNydsfWkgv3nieJ0otXBGT3agjyhXpL0Hb_2Rg58UXR6xOqCltCypJNMXjYQVuQgA-lgi92PwTQofwBRA88k_rl47eKbh8yDpoIJZK_-nt8jBAgecFsHxdqK4FkRR7MIffZSAFzfpmB3sgd8_4RF70-O6CxQq4Se2vhfCFxRSDsL2mlhAjBlEI27L6DGyUxBSAxwaYL3fi9XpAfvISJWQvvxGxbdCKG_6jg9rrDPv71UjWf54XKN7k2ZvmuUU-JUhWowEgwwfuKAIlgvcbqQNKh0QTCEuI_BOEY1h667zWQbcUlV1D3t5CIrUBi0oeMZ19r0txsUVcZosUNWZy9FjttbXxDprH76r92cAV6njXivLvkvoWFACWP0prxqQx7Q",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9743124573&itemId=29164010598&vendorItemId=96085987737&traceid=V0-153-5d7d9a6d2a22313d&clickBeacon=457fd1e0-e203-11f1-9b90-26f1771fcee2%7E3&requestid=20261117061830340204972023&token=31850C%7CMIXED&pt=1&slot=2",
+      "productImage": "https://ads-partners.coupang.com/image1/cCzHdNq4mhMtr2ojcBCtlHWhY7Eh4qiKqd1OojR7t_kGCnyGEVdLrkIu4KAHB3rFmqxsSJYzKDC6LGjlNCR53MjyyojHpdu-ZYFlYneYN-nguUrD1_Xy-vZVOTtWF187hlK0rLH7VICiOEh0Aa7hMZbTwHvkU8R0cd0g4i-XIBDSUODS8EtQtX3vsOxo9RFjWeVUFFH4WvDjGK0rDisSCvPPyrf_t6BjH83yLQBbx_2liMbRXmVvlGTCPROPqL3j-k_YcIdSbCUS7JMt2IRJ5XqLM_FhHw9jrYet8F9ryzZoI3G9zdXXhHOn_ZZ_QfIRzxfr1bqvaglQCuUwciTxOAoxWtDEjQHlHDXJxaeSBEqIgl48vafCjaG5DJGcNLiWaOOmchr_V56RbM2LOr2t0HzH69qccr2tx0KsvkJ8DhHEkFZ57KjYFObWVrs2w_AMQZnydwsskbW30WQ5NiEjMwbs4QeBaw15cHK6PIkz_m51iVpfR8Sf6eex-KBOIwa8qdMY8sl7WHeBcz0YaOJiptKr-bctKQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9743124573&itemId=29164010598&vendorItemId=96085987737&traceid=V0-153-5d7d9a6d2a22313d&clickBeacon=1cc99180-e7cd-11f1-8cd5-bdf88d80784a%7E3&requestid=20261124150556097147197222&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "레몬즙 1L",
+      "query": "사노셀 유기농 NFC 레몬즙 1L",
       "unitPrice": 1332,
       "unitBasis": "100ml당",
       "packNote": "1,000ml×6",
       "avgPrice": 79900,
       "minPrice": 79900,
       "maxPrice": 79900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          79900,
+          79900,
+          79900,
+          79900,
+          1
+        ],
+        [
+          "2026-11-24",
           79900,
           79900,
           79900,
@@ -4732,6 +4801,10 @@
       "priceHistory": [
         [
           "2026-11-17 06:18 KST",
+          79900
+        ],
+        [
+          "2026-11-24 15:06 KST",
           79900
         ]
       ]
@@ -4819,6 +4892,43 @@
         [
           "2026-11-17 13:10 KST",
           27800
+        ]
+      ]
+    },
+    {
+      "productId": "8254072808",
+      "vendorItemId": "91464458148",
+      "productName": "물한방울 넣지않은 자연비책 유기농 레몬즙, 120개, 25g",
+      "productPrice": 41800,
+      "productImage": "https://ads-partners.coupang.com/image1/9KVFHjpy3R4ogtF69LBXANgbOu3yLf6HtvQyrQieNTNHJb5oohIRJGDgKxmko9eb8jn1wJaJY3Vvp8jNb_iQwOqTHjHNJRRTrrXez6_ne-HXt35papLSV6-sbK_Su9aFserdjKzNmTg1khPoX47nZBXVy_s-HAWX7Hz60fAJgvsZm00iJUbsZpZAIfaiMSGENls_YodMdHSzJLQsQ2Lm0mwCun8aVnTjRaL81xXFgY_ULNe432sFdgovyyy6X-8ZgQZsKce41r0S_IFIKspVQezh9h0yVRDtJN18vz4twqnpFtGOLrjTW3YgO0ZRnwBrNo_1ee1Msnk5cfTVWM9zaFdDSlAKOzaVyL6EvFR5PoFJmC7EyUPWFXcDVDANoh3pr0vkb6oid6AASqdvINrlXGJqxleXxlRRjOY0woTf5MWU8ksItbmiZ-YRUkOBwuEmharJk__9fGIht19txby59JKK77CO9Lr8EUPCaAarq08ZkCfVSBUvtWFKY1-Vh30pqyLf2JlSEgrOuYifQDy-uHYeccDYzT98Ng==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8254072808&itemId=23767403974&vendorItemId=91464458148&traceid=V0-153-d6e6080e743f46a0&clickBeacon=1cc99180-e7cd-11f1-bf9f-8e29280b34fa%7E3&requestid=20261124150556097147197222&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "시럽·소스",
+      "query": "사노셀 유기농 NFC 레몬즙 1L",
+      "unitPrice": 1393,
+      "unitBasis": "100g당",
+      "packNote": "25g×120",
+      "avgPrice": 41800,
+      "minPrice": 41800,
+      "maxPrice": 41800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          41800,
+          41800,
+          41800,
+          41800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          41800
         ]
       ]
     },
@@ -7262,6 +7372,43 @@
       ]
     },
     {
+      "productId": "9414756963",
+      "vendorItemId": "94942044040",
+      "productName": "대한다업 데일리 말차라떼, 500g, 2개, 1개입",
+      "productPrice": 20400,
+      "productImage": "https://ads-partners.coupang.com/image1/T7dsAP-Pb3371j2RTxnp7zRzd-iO_xF5VK2PiPkNQmR3S7hljl_4i34C7LSPMdxlLmlb2EQX_YHTsHS-qwU68pu0KH1rAWuTG_XgaOQFVaURbAKkzBmG6nMXgjAroHlRwLtWj7s0gwBsvlGZ6nUel1ZjnY2J-Thry74OfWTBCCM-bll6upVN2UPPNgY6NeVYQCnKgiEUypfqtr0ui6sv4sgRoXeGc6rCAAvtpGtrQdyQh8oNvsxLjgmZ0X9EimiJLMc9SgJKJNn9YcN7vt91voP-CEFGKB1alhU_JeUHDBVioQ1nnj2FkfupUq7299xZbKPaowN7kjVPjr0YYPreqs-NjVUQ3ILme4Y-iKAt6zu4C3NR51Ain-ctctpFExLUubqWvlKclnkBMfnUYv5W3b2dkyrnU2UfyIZ7uSeR4f79T7HWo832zrROLYCtKqzbODZTBZcf45LAcgvZpp7b4FNukrcfwGf5ANMiyFhL2AZyoj0UtGXVFSPmojAI4AShrUOh1cshFw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9414756963&itemId=27984332256&vendorItemId=94942044040&traceid=V0-153-d7cadfd5178e5dbc&clickBeacon=0da512b0-e7cd-11f1-a346-6e8773bc9e27%7E3&requestid=20261124150530706288873527&token=31850C%7CMIXED&pt=1&slot=5",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "대한다업 데일리 고구마라떼 파우더 450g",
+      "unitPrice": 2040,
+      "unitBasis": "100g당",
+      "packNote": "500g×2",
+      "avgPrice": 20400,
+      "minPrice": 20400,
+      "maxPrice": 20400,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          20400,
+          20400,
+          20400,
+          20400,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          20400
+        ]
+      ]
+    },
+    {
       "productId": "8085483047",
       "vendorItemId": "94261482155",
       "productName": "네이쳐티 zero 초코 파우더, 500g, 1개입, 1개",
@@ -7459,6 +7606,43 @@
       ]
     },
     {
+      "productId": "9662716813",
+      "vendorItemId": "95820156374",
+      "productName": "대한다업 데일리 말차 바닐라 라떼, 20g, 1개, 10개입",
+      "productPrice": 8500,
+      "productImage": "https://ads-partners.coupang.com/image1/OgVU6QmIXrA7STmCOmVdX33p9eE9mC1dAb7hCOHZkZ_odMuyed3aEJEQ3Lmdp48nVQcqjVnbvyIvmnn9CbvZ7vjmupzAyZnAube4PviMi1USLVFt_PBOAhygy_96SHQnsX0-fND8SiFgr10Bu8xuqLXMYhCjW6UpRr4yViDLf0torhZC1sQ5hMD9uIbrtXNDApy0kpwC7ms-knEEofQ6p52IBcnVQ5iMC2U3bPRB-wg5N94cjYFTxuH8WTJPXrM-i7QaRfEXYPVik9EXFIStAGLpInm4atW_w5OPscWHVoVrWugDH697b8fmWcgj4bpCWvyFh40g1raSD30GXbF5HE4tQg5RgfUYr-WHIhRYcgOQnpsdgA3qwAUW5XtBmsZUb6LINuXHuchkIGhiXE7VNj0sLZ2TViDyt_H3fY4TEAqrjOCK_TK4s_BtKJPP9oankHlaGSt9aaXSqmKhhlHFpjS6-Wj7-rKjzQPMaUC9TRyQEl-BIeIUhW1B1su35MUXDjknooRJTTI=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9662716813&itemId=28887455965&vendorItemId=95820156374&traceid=V0-153-86c4e1f5d6cfdbc4&clickBeacon=0da512b0-e7cd-11f1-b377-815ba378f3c3%7E3&requestid=20261124150530706288873527&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "대한다업 데일리 고구마라떼 파우더 450g",
+      "unitPrice": 4250,
+      "unitBasis": "100g당",
+      "packNote": "20g×10",
+      "avgPrice": 8500,
+      "minPrice": 8500,
+      "maxPrice": 8500,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          8500,
+          8500,
+          8500,
+          8500,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          8500
+        ]
+      ]
+    },
+    {
       "productId": "7842499224",
       "vendorItemId": "74498757173",
       "productName": "토종마을 자색고구마분말, 1개, 250g",
@@ -7492,6 +7676,43 @@
         [
           "2026-11-17 11:06 KST",
           10820
+        ]
+      ]
+    },
+    {
+      "productId": "9662728616",
+      "vendorItemId": "96236361160",
+      "productName": "대한다업 데일리 우베크림라떼, 20g, 20개, 10개입",
+      "productPrice": 173400,
+      "productImage": "https://ads-partners.coupang.com/image1/6_hYBeaXZcqv6N4G6x-cjzPG4uX6F1dNPEUO0td0WaQnNxBc8eLVioPyVR7gD7mOQMra-3H7Y2qLgyH8wojAeHJW9TXikWm1mglIDFYHm3GZ1XvYFVtFFRMRCip-N1WAZBE4wz2g4UBzCeMHrRtjr7eHcbwRCTqXaP--dwgkFzr54meVv2WH2kVPepwrww5RcomxF9ejB6-9gYct8N7AwbMX2UqoMWtH-zFfyESXpdFRK8_MxGznyq8K9R3VIP0NEVbvvMowBM17rSev_yMJkI0mGh8_YCCV8MdjYvmCeCh6kAKaoVqMT-YKI48yP6J-SRx6MFxol_TWARlKlOdhZVWshyBIlaIbitYXpS3c1MQ9k5xrUzegFWsE3JdvRpeYvSuf8EivvEnKQqGLpFtwe8NY433uzaoN0xofYmI6FluVqaE7lX4ALkzzuTuFjFAR2TKW5RL2V45CAx2Mzxp_u7bW3SjQs7nw8BiHJWSc8fRODX9VEgHeICZfpAOm_45QnQ125RMMhNtQzA==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9662728616&itemId=29321825934&vendorItemId=96236361160&traceid=V0-153-1c814209caac6bc0&clickBeacon=0da512b0-e7cd-11f1-89fd-1f45b9d561f5%7E3&requestid=20261124150530706288873527&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "파우더",
+      "query": "대한다업 데일리 고구마라떼 파우더 450g",
+      "unitPrice": 4335,
+      "unitBasis": "100g당",
+      "packNote": "20g×200",
+      "avgPrice": 173400,
+      "minPrice": 173400,
+      "maxPrice": 173400,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          173400,
+          173400,
+          173400,
+          173400,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          173400
         ]
       ]
     },
@@ -8702,21 +8923,21 @@
       "vendorItemId": "94324138887",
       "productName": "네이쳐티 넘치는 딸기 베이스, 1kg, 1개",
       "productPrice": 12000,
-      "productImage": "https://ads-partners.coupang.com/image1/KBEAT9uk4O7t2sj9KHXafqwZ3_tFL0ySWGUIcrDaSBYRjbbcpY1wnLhXjvB1aF0tUZ2q6Rsu-fwpOD2sTFHp-mVatBijCa-zjGtBXJefl24kYughMhbadX_JZ_aSBmJbkA1uDIZi9KBHwGZDxAOKWrgdkQDiWfJ1MpMMh4-CuBVIY0e2Oc5tYlyGY79D12wZBvwtMyUBqj_dxgzoM6mH_w2qf0eEAOHqUhuiDlj0Ctutb8wN8WExlKU8qmdOdhxE6Y42DD_ijMRRsi9ogWTR8KV7-8N1qFPhGkO8OMzReTojYUmwOOcdg06M1D6dCsmSZOcwSd4aZLDr3pisXyfkHcU22-pAdGKtx_zKNAdb9ysYMHh8hBNSii0w-KH1U_cz9hizwjC0s9dhFwfsl68GiafGe7W3G_1npY2KnhEjyj9CMrM-OJS02Z8N_G4FP1PEw_GfL0sMgaoyrEILHdmNJj_va54dwV-DjlGBdIuIlcgnLQZ8nmiiu2-Vi9tlrqiB0AE_HVBkwU9mvdo_SOz3ru7Xq8xidOlfn0o9mEnTxRRl1Cx25l9yV0OBvS2-deLOkgPIZg==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7123864170&itemId=17843599953&vendorItemId=94324138887&traceid=V0-153-143bd030f7100790&clickBeacon=518f9900-e4a8-11f1-9282-9e24af4f4f7e%7E3&requestid=20261120150459838086776391&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/MxaqH0TyRSpd0fGCM3Mx5f4hwsukpQiap-VXn8S47drKyvwe-zpz_X0wy7vRTWgzYaPp3atJwZPVlLPmaWcaWdpl9vPM0xNQvVmetk95_r7S88t4br19PbbSTsTdV_qH5K-jvYoADEnLOPDgJiWUflclTsWFJ4o3HTsVFP8a2kQnRFXBBkZILqfUrLntSjx7L4zTi8ja5k40IhjPQcoYvNn2EipzNehTEA7WJgIEcC6f7_yw_BieUaWcIXrpExShrULQsBNm3j9dDqnYZxlKRyBPkFLeAeOdDYWe2HNgqxyjne6ilgdSoiG1mUeAU7JlLxOsXlNUiMchJIteSJIGy5_KrhSYM8ptJLztdR1ye7inAmdZzxjzjLJZrao80Hq3KP0yTHLV6I7eYPynRZ04VqG2bkrVaeM-04PGoH42v8XlYZ88Mv5cV2m8l4DqfOrBXMbp8hSKjoKBhbz1cZJ6637Z7WWE1TEAt61YGZYLs-dpHHuGC3qKCrVYEDr6H04F8-b3mQPKNQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7123864170&itemId=17843599953&vendorItemId=94324138887&traceid=V0-153-143bd030f7100790&clickBeacon=17b64850-e7cd-11f1-82c6-d7103239d4bf%7E3&requestid=20261124150547631049437209&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "서울팩토리 리얼 딸기 베이스 1.2kg 1개",
+      "query": "베버시티 파인애플베이스 1kg",
       "unitPrice": 1200,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 12000,
       "minPrice": 12000,
       "maxPrice": 12000,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8733,6 +8954,14 @@
           12000,
           12000,
           1
+        ],
+        [
+          "2026-11-24",
+          12000,
+          12000,
+          12000,
+          12000,
+          1
         ]
       ],
       "priceHistory": [
@@ -8742,6 +8971,10 @@
         ],
         [
           "2026-11-20 15:05 KST",
+          12000
+        ],
+        [
+          "2026-11-24 15:06 KST",
           12000
         ]
       ]
@@ -8862,21 +9095,21 @@
       "vendorItemId": "94269013784",
       "productName": "네이쳐티 넘치는 블루베리 베이스, 1개, 1kg",
       "productPrice": 13300,
-      "productImage": "https://ads-partners.coupang.com/image1/iFbb5Q_5QUGDYAzAiO_bthYfex0ml5LdtIF7pn77kB5Ff--LdjPKruIClCmqwbGsvu8BadRyf4VWZLRwilaRKcM4srofZGmEgMZyQ9Jaercyg-CykHI0B85RkqerQXjDd7GBKrBHHyQgmJLizWEC1h1AYV5mDHtensM6vmt75j4KTIp58vD4wwGWnAoWn30iTHWCGubWQMMNiwmDVKhx4knUJ3WZMvgDu_qTn1pgcNFY6zJW45bY9r62_6yR6iZuOaA73QetAKigI293Za52TANdbunYOtnQi67D1em2PguwKG_zzwRYUSXyIU-AYGcRO_pKiLfqQVyYGD02E3U3HumNMGOvQrOvsrTPRC-vgxT3q07vJ7Rb6PrsCdGB3fPBQeC2xMjC9_Dpcm0M33MedkYbxbv0p-DfuixMipu3D6n3uuKcYuzkvkLZjQbao4J36DijQmegoJrsUqM6I2YTReESfp_zoQIUEWQ7VPMm4ex49Sv168MSyskFYVWfiiggRHytlHWd9KiMI9LtQlTaiHpS3aV1RccuYLM-RHgvxoyNxgANMG0RzXXTVqmzjUuixND7Mw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6942277630&itemId=27302481522&vendorItemId=94269013784&traceid=V0-153-85ecd52bb74d4139&clickBeacon=6dba47f0-e6c0-11f1-927b-9286c15d39f7%7E3&requestid=20261123070237330060275797&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/NbSSIxTXYESEq2dtNcc6GPGw6yaWNVhKOe_4qIGci9hh_9d6GbmztNgGgUH1ST4fcm1h_Lvo4FqB7N-Yuq8tWqsFi6H1pkH29ah2-GKu1NPqMaDcrBUO3cj0f574JllUgCgs8CsauQSIPUowj-dwhTrPqgk55gCBRFQIQT_XHtrr_QwQJm_vQfBIeGBueMGQeZ8u8QMFb7dBJhYbGw1NVNLpXTrfrbKD4aDWGMf9XZ1VSQBJ67UJdIxDIubt6063iN64BcuP8yPeg42PNgKo1u8JPqn-7B899fw4emdT6oXwg-1Usvp0jXYi6U6hEJkOkrMDSjnaZhlhN_o_xKQ8fgifkT0go9uG785beedcBNo2FnvFocyMBXwOp37cwVuPmBrweORqgN2G_3_qNlq7njWR03jbQjc4mhgkaYcYaD-uw_eWIdAk-eGpjm2YVoa_0iM2N6J0R4z_A91fQYZHTqi5oFQwFos10IvIqRzCngCyAjEVvU7nvRogr36viCY7XcU03wyyiY4=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6942277630&itemId=27302481522&vendorItemId=94269013784&traceid=V0-153-85ecd52bb74d4139&clickBeacon=17b64850-e7cd-11f1-8431-44543a0e564f%7E3&requestid=20261124150547631049437209&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
-      "query": "서울팩토리 리얼 블루베리 베이스 1.2kg",
+      "query": "베버시티 파인애플베이스 1kg",
       "unitPrice": 1330,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 13300,
       "minPrice": 13300,
       "maxPrice": 13300,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -8893,6 +9126,14 @@
           13300,
           13300,
           1
+        ],
+        [
+          "2026-11-24",
+          13300,
+          13300,
+          13300,
+          13300,
+          1
         ]
       ],
       "priceHistory": [
@@ -8902,6 +9143,10 @@
         ],
         [
           "2026-11-23 07:03 KST",
+          13300
+        ],
+        [
+          "2026-11-24 15:06 KST",
           13300
         ]
       ]
@@ -12522,6 +12767,43 @@
       ]
     },
     {
+      "productId": "9597907218",
+      "vendorItemId": "95594458329",
+      "productName": "너츠그램 아몬드슬라이스, 1kg, 1개",
+      "productPrice": 18380,
+      "productImage": "https://ads-partners.coupang.com/image1/nWpiXtpimgJg40ZvnQTGLDJ-xem1iaVtv_gR1Yz4tlSxjhhj7NuPmx4n-TW_C3pXamOKi1RE1x75oJV9fefzSvIKhPtXGUjNncgdJAZlHEB9gqDFPtOK20gebKx_iA4FMTAj41n5GV3rlOyD3jranzxlyZygypyrOr5NAqTJsaGtNf9lhT7DyozhfsdANqEEPJX3acQ1DzHhDE34rrRz9S6o41KODbQDNrT5kKm8te_sjIWT0KpBGUsd_TbHdVxzpGKQlmO-WwCq4cFGHEwIuFcHhH7OOIjADHZ1KOzTw9lBsZfya6HiyrsRx4Bbo6IAMpZdUWc6Fc0GTiEI0z3ZdDsZXYpDtaB8H4Oa1sHQKIF004rvlSAAYIEs7Id8fjQAO8bgIB_GWl7qjKFn4Z0RCFpZRu2gceJq5ymwKo71_bQ5nnfcd5z3xQ8gkOqI-ZE03W20ZAKM6TtgPFVLLSt6iMzLrpsuBLgAeyEHgi7AXNQWFZu333fX6zUyxYvDxvu_e57pdpiJkQ==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9597907218&itemId=28652050915&vendorItemId=95594458329&traceid=V0-153-caf8a6ff71ef09c6&clickBeacon=12b2b690-e7cd-11f1-8e70-aca805e11f37%7E3&requestid=20261124150539225147194527&token=31850C%7CMIXED&pt=1&slot=4",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "더바른상회 아몬드 슬라이스 800g",
+      "unitPrice": 1838,
+      "unitBasis": "100g당",
+      "packNote": "1,000g",
+      "avgPrice": 18380,
+      "minPrice": 18380,
+      "maxPrice": 18380,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          18380,
+          18380,
+          18380,
+          18380,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          18380
+        ]
+      ]
+    },
+    {
       "productId": "8412682472",
       "vendorItemId": "91372577973",
       "productName": "[로켓프레시] 비욘드 딸기 크림치즈, 1kg, 1개입, 2개",
@@ -12559,6 +12841,43 @@
       ]
     },
     {
+      "productId": "8547807236",
+      "vendorItemId": "96017304906",
+      "productName": "한끼공간 햇 아몬드슬라이스, 2개, 800g",
+      "productPrice": 34800,
+      "productImage": "https://ads-partners.coupang.com/image1/CgxbliJ-69mtB_S6CiZGk_1GNgZet6UIhI3crDoXB88nUTTUwKP9EBnMWMDf5YyIi0C925hcDstXmjpxf9VWYj4SOVRWG76SYLHD8WHN2MgHboCyHPM073GgCBQC0-rb0DGauB1EoiORJDdkfChC476MSE0pd9uuXv1EDjTugpFgG8LrEJ9QQR9oN-b0jix11XAOaed6ezx5Wfr9z1DB8MWY3CdiFWt2BXcT-8WZD3WpRFZfr0n742KYrFvNWQohrZtgm2joUkmbtCAhkNRHvC4ZjfERn7C4sLC-coQ61U5tZEqtaxJT09rlrVE_ROgAhb5GZl7NazZIUqoIL--Wa2rvzcU-XwIbiiPNydLzSv11mAkOZzCWnr-Bk7lpFy0zDJjQucIVjoqAPXYdcg8SloQogPs7ufqFKE8VJ4THyKUKjC52i2yYcKMcNssVf6rtELtHgxciZFF22TaecW-ejDWpSonOxK83GpdMCxpVyccEqZgupWKwt_w2kbb9g43PgQ3y1ePTSfI7jTvyHHldI-J8sS0=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8547807236&itemId=29091854348&vendorItemId=96017304906&traceid=V0-153-28e4bcee3aa23978&clickBeacon=12b2b690-e7cd-11f1-8b4c-510453f3d748%7E3&requestid=20261124150539225147194527&token=31850C%7CMIXED&pt=1&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "더바른상회 아몬드 슬라이스 800g",
+      "unitPrice": 2175,
+      "unitBasis": "100g당",
+      "packNote": "800g×2",
+      "avgPrice": 34800,
+      "minPrice": 34800,
+      "maxPrice": 34800,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          34800,
+          34800,
+          34800,
+          34800,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          34800
+        ]
+      ]
+    },
+    {
       "productId": "8873364395",
       "vendorItemId": "95438276772",
       "productName": "더바른상회 생 아몬드 슬라이스 대용량 업소용 식자재, 1개, 800g",
@@ -12592,6 +12911,43 @@
         [
           "2026-11-17 02:12 KST",
           17500
+        ]
+      ]
+    },
+    {
+      "productId": "7973208392",
+      "vendorItemId": "89137541662",
+      "productName": "투데이넛 아몬드슬라이스, 300g, 1개",
+      "productPrice": 7460,
+      "productImage": "https://ads-partners.coupang.com/image1/9UkEJm3ZuDwUs2O19Se-VBgFctobJJ2nbKA-6UmPlxagkuOHRMnd6ojvjaWqVSKWKjhKlW5iMJuNQc4dFaWWxCDadgctlMrWoj9D5cshfVxuFYkC2xB3ZNF9xFTFyaPbjbTTwkc6Tv2yeSdODz3IeYAyfgv6T8O_GuG2CF5ilhVv9l9TKhUdLKHP2tiUKn_qwG9tLrdHkXckQQZ4pwQ3I6mO3NMZCgJ34G-OdNUr1bWa-6kU8EFvHALE0q_atAzMrUlsELmbLAIwQa96D3z6WXdlo97ItY4kI3387ZuReVQcogWlI6lV5KDyVb7Ym_LubB6wqpFQ2vuUoY3_u4dBE18dhcTVjOyPrgw2wbejaIlJ-s4fzmXuIfWTtSSFvu4PoOuV38_slUs0El7jHbsR0znLllKUG24egErpJWDLK0ka2bF_S7mPg_Zp9QFkWzVU3P9Lt2NghhrCI2NPctefd-6nNJFDpps3law9vzHj3BOmJXnIsKJuTxVJNBZeRpSIt2bXhaCJUtew7Si3H89ytijB4nqcYI2y9NrdZubd9Vz7",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7973208392&itemId=22090541363&vendorItemId=89137541662&traceid=V0-153-521e67eafa771310&clickBeacon=12b2b690-e7cd-11f1-bb83-8ce0a6c70266%7E3&requestid=20261124150539225147194527&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "더바른상회 아몬드 슬라이스 800g",
+      "unitPrice": 2487,
+      "unitBasis": "100g당",
+      "packNote": "300g",
+      "avgPrice": 7460,
+      "minPrice": 7460,
+      "maxPrice": 7460,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          7460,
+          7460,
+          7460,
+          7460,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          7460
         ]
       ]
     },
@@ -13044,6 +13400,43 @@
         [
           "2026-11-18 02:01 KST",
           11930
+        ]
+      ]
+    },
+    {
+      "productId": "9701908434",
+      "vendorItemId": "95955515371",
+      "productName": "넛츠피아 아몬드 슬라이스, 150g, 2개",
+      "productPrice": 12100,
+      "productImage": "https://ads-partners.coupang.com/image1/Ngu_A09mWIa89EhPNmTcIN5yEAFypb5BHeWJIG7uqJwJMw9HG3ofcpsmOM2w0ViGAjxojR17s0pIuPLxTnA3U83N47eYLxgnC5m-PGTJjjEoUL-mZHJU9JjiTQKB5GAWEasz-ROfoOVMIY484oUaQVYxPLFyx_2ogyGPae_FrMLSOcgJbfZcUffB1ckAVSp2brMolOOt8Vzi46d9LOkdwimEvmkq2XYAH_uxlYbaO22rFC1QpZOWaYy1KHrKziI33kLuTa7UgL0aYThhbWPmTVxwYrlhcluuoPwwXI-TQVAfxvvEldxWghsXN9xBLTKvzK9obPim4yW3mtLg5bP70QwE2Wsxj81PIBrjajjWFDe44HV5Um_0ZnGD0gBOwLXFPDsKBKUsgF2hC57c_sv8__-CByDKotcBWaB3jwZ1YHFBfDHtB02YHoKWDI9E2lOw1UDQOLCR4fHJERIoT5q0VT9fjg7-VUSRATt2nWptGM_p0MIChzGuqlXsI5yKK4x-dp3uUjXMbUUDcjHrAw==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9701908434&itemId=29027982811&vendorItemId=95955515371&traceid=V0-153-b5a426a5cb16ae7c&clickBeacon=12b2b690-e7cd-11f1-ab50-b5933b5f4290%7E3&requestid=20261124150539225147194527&token=31850C%7CMIXED&pt=1&slot=3",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "베이킹 재료",
+      "query": "더바른상회 아몬드 슬라이스 800g",
+      "unitPrice": 4033,
+      "unitBasis": "100g당",
+      "packNote": "150g×2",
+      "avgPrice": 12100,
+      "minPrice": 12100,
+      "maxPrice": 12100,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          12100,
+          12100,
+          12100,
+          12100,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          12100
         ]
       ]
     },
@@ -17742,6 +18135,43 @@
         [
           "2026-11-18 06:06 KST",
           11250
+        ]
+      ]
+    },
+    {
+      "productId": "9741170609",
+      "vendorItemId": "95393534105",
+      "productName": "[98파이 아이스컵+돔리드세트]에코윌 일회용 테이크아웃 플라스틱PET컵 뚜껑포함, 600개, 600ml, 1세트",
+      "productPrice": 83000,
+      "productImage": "https://ads-partners.coupang.com/image1/hZQmijhTMYP98ypFhRrCeVAegKDbMbJ1c2HfsHcYN09ZMK-Ek_8xpS-YtmT5GDQHiJwpEj0fWyE6h9XYMCZes66Mpu_yCeqWCVOpsAmWCJE4Dpa5jJCDWWSnhgIy4z_Ue-hMFdXF_wD9svjo_-tBS344EYrsZj6edfgiqCiD9M8AdcOEqwY4plajAZnzSPq1mXVPF90drIJYq0E1Jz-utbY0texcY91DXHvFeHudZv2dOfjMOE90YBR1VuwstO5ALkhujuz9idlS57WzzXbKe3bLHWmzzAaQ_tIg2_OeVZiQxIrYMVvg3vZfo7VtuemXgit3oFzbPCk-1GuainbbC4eqzB0ikwV6UGSs8wQCbeJ3eU1IkASVsqp4njE83iSm4ja_zbqumtzLQkuKqes45_9JS_Yq9wkMFmdRximc_fCf1wy_rVgVD0UKWg95wf1WFEWClWHdLaKRHURz0BfYMg_tc2yrBanC79f96FxX9OqvyIg6_jLyTq1SIz4KW6jLQS0uLjZucHXsTyuWmn3CZw6RxxrC6Dw=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9741170609&itemId=29156650088&vendorItemId=95393534105&traceid=V0-153-0dd16e546663a262&clickBeacon=fe963ec0-e7cc-11f1-b125-322b596774d5%7E3&requestid=20261124150505497196979575&token=31850C%7CMIXED&pt=1&slot=1",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "컵·뚜껑",
+      "query": "에코윌 98파이 아이스컵 100개",
+      "unitPrice": 138,
+      "unitBasis": "개당",
+      "packNote": "600개입",
+      "avgPrice": 83000,
+      "minPrice": 83000,
+      "maxPrice": 83000,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-24",
+          83000,
+          83000,
+          83000,
+          83000,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-24 15:06 KST",
+          83000
         ]
       ]
     },
