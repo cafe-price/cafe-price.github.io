@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-24 23:02 KST",
-  "statsAt": "2026-11-24 23:03 KST",
+  "updatedAt": "2026-11-25 07:05 KST",
+  "statsAt": "2026-11-25 07:05 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -3074,24 +3074,32 @@
       "vendorItemId": "90174604987",
       "productName": "헬리빈 인도네시아 만델링 G1 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productPrice": 31700,
-      "productImage": "https://ads-partners.coupang.com/image1/68LPvpHpzyCeiJOs674JFjnuc4HGtClUxdNDxHjK2p3OQRWLhDMl4I5lq7cei2DYY5wohIpanpglnn_6TAfzKCT_0FbUg7Ii6lBpUWr_XCIyxvdoTb2gX8l434rnTJYhjANlIsppcp383FB9Od-61ZcgikYdGXhBBDC8xoT7flo9yXxPQQ-bdEQfGOQzKnnbqFg0X4zBrcyI705OXGAUcxFVESTF5TZNfSWhFv_nE-wQn-KSF-_yCvxwB8h3D2wrDRKfEGX5snm42ThcHRh7g8sjwePbMvsyNRehJDdekyGDO9fXLihsAfzxAaI41eGS5PxrgMLgykDGse7Izu1Q6ZtmMjTTT9VlIbT-tmANy0hxAkkmzkM6GCvgo9-9Bxv-dXTc8MHNMzhzTXtv48_57Yzmjo--CrfokjNSw6mzNxl3FEgBMGHpm03adVHFDeEK0nTEptapny1T0WRCDS0pttoCHzAYjTsO-KfU04l-AT6s7voYcZnrxOAQGcaVB2yfVdXcVnqql_xxOQUt2VRX4XCXYd2F6kGolOHjEn2yWWXzePW8ZYjVF21U3ylXoWt8eB9wwiyD7jPuo5kA_q8BIVvUr70=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8289381774&itemId=10348641095&vendorItemId=90174604987&traceid=V0-153-ae9df73ca98b57c0&clickBeacon=202002a0-e1f2-11f1-a786-f657915578cd%7E3&requestid=20261117041546122181851532&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/Y5NQFUxCTffHfADPY24goQ_fWEjIpJ2fKbk42liywZqybk0j0z6twTH3zH-yeDtuwSZBrvKRFO3l2XTgXUjEpc9YQWzPV2qnTa_XXKiUlnBNHNW8CGmMx1_zUU2ARTmHDTk3UBHDloW66PWQuIWGlv5ReZtMKrvtpeAsR8Zzo2BhDW6A1j4HEeKnPjOuLb4wcXRKHlJpA2Rafh6J1Tl_cQdvnvPL3_hT4I05xW7lGQXmcod2CuIgLnREZBHkWTUQ87z3T0sXMT-kYsIksg6DCfGy7IyEAWhMoWM4Fh7rYeWMVjZ3v4eOWa6db8_alLQr5LjFnesC1cQPLgMXQgf39Zki17DieGg9z771oa73iLsrNAd-4YZQX00Ozv5lD-jVOdBClyZdT6pdKrpS1OXkT51Ij0xdXrXpgsUWmZFRNGsYuaoXfTXbyZ2LOxFmX1eXak2w3wHXqerxCCrOEH0JwKP7yTy9Y8Zy93S2KCHU46kzqzbuCuWVbEeeOojOcPutCXZJ3Wb994yn85uV41gY2C19H_T8xfs=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8289381774&itemId=10348641095&vendorItemId=90174604987&traceid=V0-153-ae9df73ca98b57c0&clickBeacon=2262dcb0-e853-11f1-b92a-30affb68c630%7E3&requestid=20261125070518150319365589&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "만델링 원두 1kg",
+      "query": "헬리빈 인도네시아 만델링 G1 1kg",
       "unitPrice": 3170,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 31700,
       "minPrice": 31700,
       "maxPrice": 31700,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          31700,
+          31700,
+          31700,
+          31700,
+          1
+        ],
+        [
+          "2026-11-25",
           31700,
           31700,
           31700,
@@ -3102,6 +3110,10 @@
       "priceHistory": [
         [
           "2026-11-17 04:15 KST",
+          31700
+        ],
+        [
+          "2026-11-25 07:05 KST",
           31700
         ]
       ]
@@ -4421,21 +4433,21 @@
       "vendorItemId": "92654330350",
       "productName": "파이토메이드 NFC착즙 100% 유기농 레몬즙, 1개, 500ml",
       "productPrice": 5200,
-      "productImage": "https://ads-partners.coupang.com/image1/IyTZb2HkZJ6W9KgZIxH8WnsHkbKNl0_kkDZP_XdgjUBGVQ7WChmm6kfbn70MQrfID9Z2sm8EhNSIQfbyr-G2q19lxzBJFgsAvQsr_qgjIxUO31d6QHFnKoVw4Ka4R8fBPRca9TjgrPBqSx2fskDuy9ddSTEgY1DJGA35e0Dt_8Q8eFZtsXDtoLtGiVRS0XknYQmneGcYNAcmKRQb2InUU5hhIoE7mSEt7QWPKjm_BEjZb5LdzhXY1og5r0a-yB3RCMf4ejbsUf7x1U0zIywKsMpnnIVqDkFIi2IMEU-6DiKxjkxubc_H-m3dNfPaTF3Wg7ZWfPTqAYMEcRMsckt1M6yoS4w29wtxJJ-_s7Et3aAx89-nGHI-ctfuiB5r4mwGfu6EnVRi4pei9OXBQ4mBVG_iu4p-VjevuO7b_s620wshH9cQIsnmw-v7uPacbW1rePLn0Sv0Xu2k7l3NF80r9g58T-VeNGU0TxUqBD8KaQg5_v-5SzK2R8jDgKHhCsuAAQDYFw1rqVM=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8799309080&itemId=25619965327&vendorItemId=92654330350&traceid=V0-153-713797507cb6839f&clickBeacon=c9612920-e39b-11f1-995c-4c283226d822%7E3&requestid=20261119070246258248844172&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/HOebFVmI1-HxYvVvHEnJ_5caPRFaNNg9At7KvZxPz4jumRGkA6ZS_0ciND0R6LQ2gWHugZalB0oaTAMS3bSQto_9UF5Z31lw3ZPr49gby4Lm0PWHzZEhEeoPyJrHL1ve_h219vlYHtWqM1v6VbPdDw73riYJRm4amIzkQaVq_9fThKcZryoBFjCLgif4B-vrMotY3lgtnxA5oEeiiG9pHpjymZ4wc-QOuXUlwi3jNDlPx-2lfJvYGsUeZGN8ecXYZHXKFUIqxRk_0zPXjCM2mhMlkk2fNuCcBhTedKRfXVsAZ1t-_wHdFLXrVEc8OMm_RI3N3zQmuM6FOkYETa5wdGwEYBPCh96v-8m36VobdxiZZf9dSkrQnTe46-Uk37MtqPVq6gSplVlqUgY1OJZTTgJC0K_sDx0_Kyzjr9Vj1B03u3EXudReEe-ep1uhIEZzmtMH8aXBiKdMNqoL5EF7znpSSlGtR5YHnoTWIh0v99ezqtGEV_hIki0gx99QmVSDfvXqHD3Q0g==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8799309080&itemId=25619965327&vendorItemId=92654330350&traceid=V0-153-713797507cb6839f&clickBeacon=1d5a68f0-e853-11f1-8ac8-169b39344f22%7E3&requestid=20261125070509704169879301&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "시럽·소스",
-      "query": "후버 레몬즙",
+      "query": "파이토메이드 유기농 레몬즙 500ml",
       "unitPrice": 1040,
       "unitBasis": "100ml당",
       "packNote": "500ml",
       "avgPrice": 5200,
       "minPrice": 5200,
       "maxPrice": 5200,
-      "priceCount": 4,
+      "priceCount": 5,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -4460,6 +4472,14 @@
           5200,
           5200,
           1
+        ],
+        [
+          "2026-11-25",
+          5200,
+          5200,
+          5200,
+          5200,
+          1
         ]
       ],
       "priceHistory": [
@@ -4477,6 +4497,10 @@
         ],
         [
           "2026-11-19 07:03 KST",
+          5200
+        ],
+        [
+          "2026-11-25 07:05 KST",
           5200
         ]
       ]
