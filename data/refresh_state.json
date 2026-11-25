@@ -59,6 +59,43 @@
       "query": "냅킨공장 칵테일감사 튤립 냅킨 화이트 5개 3000개",
       "status": "invalid_unit",
       "consecutiveMisses": 1
+    },
+    "8887691390": {
+      "lastAttemptAt": "2026-11-25 14:51 KST",
+      "attempts": 1,
+      "query": "테이크아웃 아이스컵",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9595365819": {
+      "lastAttemptAt": "2026-11-25 14:51 KST",
+      "attempts": 1,
+      "query": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄 1kg 5개",
+      "status": "invalid_unit",
+      "consecutiveMisses": 1
     }
+  },
+  "metrics": {
+    "startedAt": "2026-11-25 14:51 KST",
+    "requests": [
+      {
+        "at": "2026-11-25 14:51 KST",
+        "query": "테이크아웃 아이스컵",
+        "strategy": "group",
+        "targetId": "8887691390",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": []
+      },
+      {
+        "at": "2026-11-25 14:51 KST",
+        "query": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄 1kg 5개",
+        "strategy": "individual",
+        "targetId": "9595365819",
+        "status": "invalid_unit",
+        "observedIds": [],
+        "newTodayIds": []
+      }
+    ]
   }
 }

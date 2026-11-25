@@ -3228,7 +3228,9 @@
         ]
       ],
       "vendorItemId": "96123294199",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:51 KST",
+      "refreshStatus": "invalid_unit"
     },
     {
       "productId": "9463147601",
@@ -19159,7 +19161,8 @@
           44170
         ]
       ],
-      "lastCheckedAt": "2026-11-18 12:50 KST"
+      "lastCheckedAt": "2026-11-18 12:50 KST",
+      "refreshStatus": "invalid_unit"
     },
     {
       "productId": "8887691390",
@@ -19213,7 +19216,9 @@
         ]
       ],
       "vendorItemId": "92269420301",
-      "lastCheckedAt": "2026-11-16 15:15 KST"
+      "lastCheckedAt": "2026-11-16 15:15 KST",
+      "lastAttemptAt": "2026-11-25 14:51 KST",
+      "refreshStatus": "not_found"
     },
     {
       "productId": "9422933215",
@@ -19283,7 +19288,8 @@
           49900
         ]
       ],
-      "lastCheckedAt": "2026-11-18 14:53 KST"
+      "lastCheckedAt": "2026-11-18 14:53 KST",
+      "refreshStatus": "invalid_unit"
     },
     {
       "productId": "9593823253",
@@ -19441,7 +19447,8 @@
         ]
       ],
       "vendorItemId": "95888242385",
-      "lastCheckedAt": "2026-11-16 15:15 KST"
+      "lastCheckedAt": "2026-11-16 15:15 KST",
+      "refreshStatus": "invalid_unit"
     },
     {
       "productId": "9593716376",
@@ -24065,11 +24072,28 @@
     "needsRecheck": 443,
     "total": 525
   },
-  "lastRunAt": "2026-11-25 14:31 KST",
+  "lastRunAt": "2026-11-25 14:51 KST",
   "refreshRun": {
-    "requests": 4,
-    "attempted": 4,
-    "refreshed": 5,
+    "requests": 2,
+    "attempted": 2,
+    "refreshed": 0,
     "error": false
+  },
+  "coverage": {
+    "generatedAt": "2026-11-25 14:51 KST",
+    "measurementStartedAt": "2026-11-25 14:51 KST",
+    "daily": [
+      {
+        "date": "2026-11-25",
+        "confirmed": 24,
+        "total": 525,
+        "percent": 4.6,
+        "requests": 2,
+        "measuredUnique": 0,
+        "uniquePerRequest": 0.0,
+        "partial": true
+      }
+    ],
+    "missing72HoursOrRepeated": 356
   }
 }
