@@ -1,0 +1,105 @@
+name: 카페 가격 매시간 수집 및 배포
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_requests:
+        description: '이번 실행 검색 횟수 (1~8)'
+        required: true
+        default: '8'
+        type: choice
+        options: ['1', '2', '4', '8']
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - dm.html
+      - deals.json
+      - .github/workflows/update-deals.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cafe-price-pipeline
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.event_name != 'push' && vars.CAFE_PRICE_SCHEDULER_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: 수집 로직 검증
+        run: python -m unittest discover -s tests -v
+      - name: 기존 상품 재확인
+        env:
+          COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
+          COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
+          MAX_REQUESTS: ${{ inputs.max_requests || '8' }}
+        run: python scripts/fetch_cafe_deals.py --refresh-existing --max-requests "$MAX_REQUESTS"
+      - name: 관측 및 호출 사용기록 저장
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for file in deals.json data/price_history.json data/refresh_state.json data/api_usage.json; do
+            if [ -f "$file" ]; then git add "$file"; fi
+          done
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: 기존 상품 가격 및 재확인 상태 갱신"
+          git push origin HEAD:main
+      - name: 수집 결과 요약
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          data = json.loads(Path('deals.json').read_text())
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as out:
+              out.write('### 가격 재확인 결과\n\n')
+              out.write('마지막 실행: ' + str(data.get('lastRunAt', '기록 없음')) + '\n\n')
+              out.write('실행 통계: `' + json.dumps(data.get('refreshRun', {}), ensure_ascii=False) + '`\n\n')
+              out.write('확인 현황: `' + json.dumps(data.get('freshnessStats', {}), ensure_ascii=False) + '`\n')
+          PY
+
+  deploy:
+    needs: collect
+    if: always() && (github.event_name == 'push' || needs.collect.result == 'success' || needs.collect.result == 'failure')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - name: 화면 로직 검증
+        run: node tests/frontend.test.cjs
+      - uses: actions/configure-pages@v5
+      - name: 공개 파일만 패키징
+        run: |
+          mkdir -p _site
+          cp index.html dm.html deals.json _site/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: 사이트 배포
+        id: deployment
+        uses: actions/deploy-pages@v4
