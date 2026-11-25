@@ -15,3 +15,4 @@
 - 검증: `python -m unittest discover -s tests -v`, `node tests/frontend.test.cjs`, `python scripts/fetch_cafe_deals.py --refresh-existing --dry-run`.
 
 - 사용자 요청: 고객용 사이트에 확인 개수·비율 배너, 오늘 확인률, 운영 측정 보고서를 표시하지 않는다. 운영 통계는 저장소 및 Actions 기록에 남기고 상품별 확인 시각과 오래된 가격 구분은 유지한다.
+- 상품 목록의 “최근 24시간 내 확인 · N개” 제목도 표시하지 않는다.
