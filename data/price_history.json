@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 14:29 KST",
+  "updatedAt": "2026-11-25 14:31 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -6945,14 +6945,19 @@
           "at": "2026-11-19 07:03 KST",
           "price": 18900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-25 14:31 KST",
+          "price": 18900,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 18900,
       "minPrice": 18900,
       "maxPrice": 18900,
       "lastPrice": 18900,
-      "lastAt": "2026-11-19 07:03 KST",
+      "lastAt": "2026-11-25 14:31 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6977,9 +6982,17 @@
           18900,
           18900,
           1
+        ],
+        [
+          "2026-11-25",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "80898763351"
     },
     "7150854164": {
@@ -11053,14 +11066,19 @@
           "at": "2026-11-23 07:03 KST",
           "price": 14460,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-25 14:31 KST",
+          "price": 14460,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 6,
+      "priceCount": 7,
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
       "lastPrice": 14460,
-      "lastAt": "2026-11-23 07:03 KST",
+      "lastAt": "2026-11-25 14:31 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -11101,9 +11119,17 @@
           14460,
           14460,
           1
+        ],
+        [
+          "2026-11-25",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
-      "uniqueDays": 5,
+      "uniqueDays": 6,
       "vendorItemId": "3016961653"
     },
     "7764750064": {
@@ -13257,14 +13283,19 @@
           "at": "2026-11-20 15:05 KST",
           "price": 14490,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-25 14:31 KST",
+          "price": 14490,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
       "lastPrice": 14490,
-      "lastAt": "2026-11-20 15:05 KST",
+      "lastAt": "2026-11-25 14:31 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13281,9 +13312,17 @@
           14490,
           14490,
           1
+        ],
+        [
+          "2026-11-25",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "3000186070"
     },
     "8705718500": {
@@ -18574,14 +18613,19 @@
           "at": "2026-11-18 03:02 KST",
           "price": 13470,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-25 14:31 KST",
+          "price": 13470,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 13470,
       "minPrice": 13470,
       "maxPrice": 13470,
       "lastPrice": 13470,
-      "lastAt": "2026-11-18 03:02 KST",
+      "lastAt": "2026-11-25 14:31 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -18590,9 +18634,17 @@
           13470,
           13470,
           2
+        ],
+        [
+          "2026-11-25",
+          13470,
+          13470,
+          13470,
+          13470,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "3000186071"
     },
     "1204372813": {
@@ -23330,15 +23382,20 @@
           "at": "2026-11-23 09:04 KST",
           "price": 14490,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-25 14:31 KST",
+          "price": 14490,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "3000186073",
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
       "lastPrice": 14490,
-      "lastAt": "2026-11-23 09:04 KST",
+      "lastAt": "2026-11-25 14:31 KST",
       "dailyHistory": [
         [
           "2026-11-23",
@@ -23347,9 +23404,17 @@
           14490,
           14490,
           2
+        ],
+        [
+          "2026-11-25",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
         ]
       ],
-      "uniqueDays": 1
+      "uniqueDays": 2
     },
     "9511601005": {
       "productName": "카페 57 우베 파우더, 2개, 1개입, 1kg",

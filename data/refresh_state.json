@@ -6,6 +6,59 @@
       "query": "냅킨공장 칵테일 무지 냅킨 Brown 4개 3000개입",
       "status": "option_mismatch",
       "consecutiveMisses": 1
+    },
+    "309613200": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "attempts": 1,
+      "query": "서울팩토리 리얼 패션후르츠 베이스 2개 1.2kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "6400586680": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "attempts": 1,
+      "query": "서울팩토리 청포도 에이드 1.9kg 3개",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "7398457869": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "7677876919": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "attempts": 1,
+      "query": "카일스 초콜릿 파우더 1kg 2개 1개입",
+      "status": "option_mismatch",
+      "consecutiveMisses": 1
+    },
+    "6429453974": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "2446668": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8243792497": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "4348945323": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "7983859170": {
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "attempts": 1,
+      "query": "냅킨공장 칵테일감사 튤립 냅킨 화이트 5개 3000개",
+      "status": "invalid_unit",
+      "consecutiveMisses": 1
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-25 13:05 KST",
+  "updatedAt": "2026-11-25 14:31 KST",
   "statsAt": "2026-11-25 13:05 KST",
   "notice": "",
   "watchlist": [],
@@ -6306,7 +6306,9 @@
         ]
       ],
       "vendorItemId": "85948566932",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "option_mismatch"
     },
     {
       "productId": "9699325439",
@@ -6697,8 +6699,8 @@
       "vendorItemId": "3000186071",
       "productName": "카일스 블루베리 파우더, 1kg, 1개입, 1개",
       "productPrice": 13470,
-      "productImage": "https://ads-partners.coupang.com/image1/IlHSa84bvbx3rcaiIg6hdxQiMMHGpjGZWHUKctPRfFZn8JU8fc9d9egd_Ku-OkLfi6mOh1lCoKeRY5Akq9b3dKLMgzXfecOcWymgdrxZQ8ttfosM0jQGD0bcXg4VwFPUOMV1K8XeAZVfHb4dh50k5-UOzj01UP-5YsBiaHldO3TEpEGJO5NvOHi1exFAH-VcZdEB-RxK1e9pFtGM_Mp38K_wc7YjDad_PWy-dDMRBupcpQenazRSz61wSXa7NvKA0u7NI9keP_Qkikg0AybyYDPvfqGJpXK9DPcjCDbhuGRQBVU2yQ0NeAnFauJoq5N3oUDyj4BKoIQkWjpFBwfvmODfeEZi9y3kWJJg8aaTC3kK4jF2Yamdh7tab4HjHPpQsyGLlIyogPQJzzcKL3Vlm4fRcTpfxMcMpia2aEm15S2XWFvgZR9zpQPKbeb8poNCZzImH5b02PdYODWHv1XosOBz1r6Zy8Mtp-9IpsCL4aNBA0v6V1uqVIufW4qn0nfc1tuMbsUlbTMU",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6429453974&itemId=19247355518&vendorItemId=3000186071&traceid=V0-153-ecfff30e4687902e&clickBeacon=ef9077e0-e2b0-11f1-930d-4a9d66e252b1%7E3&requestid=20261118030138608153043915&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/I6E-C1sdu7NzUj0hIwV4p3ttdTzZhvOImadoGITKwYx8RlHSLydQ5bJBH2DNMQzjrDn2j5n5poNLeE0UF3kzMb1AFiuU1yyuiu6eL3D0nS32ASwDAm0_O_11iV_34Cpcyp3nVt5o5CiXWtILZ3D5o3ty2sg8u662EAYdJQrUDsMvFJTmy5i9TR0Ur1ZuirpdhYnuc0HfZ6l_cN4OkFQo9JoBUlgl1vZCDtWTIB5vsWIqX69WHCdViM3blltApzp9mt3Pj47bvyiP8WYa4IaUnESC2EVpWfomwiG-w9TioB5LUUJzdFuLtS5k-paBOHDDYRHD7V95mTbgJyEGiGEVj28Z6BWSmwPIBc9wAxRA6l4V9Sg3GorTZxqNZ4FyQ72XTNnNLwNrDe-7Led2C12yGvCqG-6t91o0UFUhLaqb9wWgRnRkzkGMuA7XZR99CUvoYH7N5Gd63L0PXqiwRV30ERyq2K1LF_cnX0CZcjuiHQ-v3L3oXkHkCSEzrAaoBQwWKlPTExKMKpCvwk1hV1k5dQh3fjwr7NGsGGltOGAaVPxN7SVKWkpAkWF9893kQMh7UKCtsg==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6429453974&itemId=19247355518&vendorItemId=3000186071&traceid=V0-153-ecfff30e4687902e&clickBeacon=748dd470-e891-11f1-a6f2-13fe567df970%7E3&requestid=20261125143124706012415143&token=31850C%7CMIXED&pt=1&slot=5",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -6709,9 +6711,9 @@
       "avgPrice": 13470,
       "minPrice": 13470,
       "maxPrice": 13470,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-18",
@@ -6720,6 +6722,14 @@
           13470,
           13470,
           2
+        ],
+        [
+          "2026-11-25",
+          13470,
+          13470,
+          13470,
+          13470,
+          1
         ]
       ],
       "priceHistory": [
@@ -6730,9 +6740,14 @@
         [
           "2026-11-18 03:02 KST",
           13470
+        ],
+        [
+          "2026-11-25 14:31 KST",
+          13470
         ]
       ],
-      "lastCheckedAt": "2026-11-18 03:02 KST"
+      "lastCheckedAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "ok"
     },
     {
       "productId": "8837428117",
@@ -6815,8 +6830,8 @@
       "vendorItemId": "3016961653",
       "productName": "카일스 망고 파우더, 1개입, 1개, 1kg",
       "productPrice": 14460,
-      "productImage": "https://ads-partners.coupang.com/image1/EdepDdzPuq8JLxKBEQM81ZifK-rdCDomJeAllIc3_Kc-5t-0C3ZupkIvmvlvSM8nj8kPdYb9I74T2igpzfavGJB1zHtpalzPns1ZZbQ6y1hizsSDN7tAYto65dIKA-qdDKXxJQG0lg4XgLK_J8xOgRQoJqJHI5gzmIeSNOjW3lpobhZ6AZ-4sXcfzThYEnuCJxPQ8LKrYnnMmfTkTiNayireIKMrGIYJsn-WqVXufnPaFpxQuOYyB2lHdeJDUP66KVVP9mQtNaNZtH9u71PCBgvxf0tN0NuaR_2-d6Xqp9QrhR24ZlnmcCTXKfljg0f5lnhNVqhHTawArRE3rH3e96j9J6BX4r-SdE3HFyToXnGDbORIH4VLbta1cJMTtzO8mjgQlscbmf4iqCv1533Phj0WkjO-bUEjxNcWa7kRnOFYnoxC7GadnqpTP60jowCYIPbSW4f5E5UbSI-Iy_Bcd_v7pB8bMpvix24ewJGgjdAmcldSXFA4NHQcQV5AUSI8E9DkT70g",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=5eb67080-e6c0-11f1-914f-21bb5e5753f3%7E3&requestid=20261123070212172095003292&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/aobYeTH6C_Em1DgcahzMnep_rKBBZoYn5auMxTXmYZZxTyvp17_STIeNemt15dYtWRWBL1T-T_xM5GS051q372OOR10NS4y2lJ5dq-WMjk0RAMTLIlgX24wLHYIUXpzcSYQCGc9RHbQPFLAj8ZWFP2IjtoI2B-Qxu_vT-FtEuTnPHitr0sz15AHIP_OpQkB5_qfESUsLHHk-K3QO77KwpB-TWFhXY3ISTfHGJeFuYDfESMNl401kP1X9aiZc8pK_rKgzH2UxKJgTwLFs4ylrGBKQAUnth9R3Z7dDUgxcvx-6G0gdg2zAMnDYpkEUB1eope2QOC2AZczcy1KrXvmYGXtEVhkInAwj3XAF-K38xys-GBiUd_X7738pezUOCtwOlMuN4wvIZ_0yU5zya5moJkvjLyxh_zg_S6ObslSpX8EIZgoeEuzbujtL6a3GJn4OZYEqHt1fHPYqkiNZ2tkrKf4xvtz2bqokzFNBZH2BshrjyiK-_HLkzU8dTU5SwifjsfAYmVVL8-vxPvFdnGLH_JcMpnDwLEQfzGmDsUgFZ-aZjKxuhJKkKbdM6KmkDuLU6Q==",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2446668&itemId=11258895&vendorItemId=3016961653&traceid=V0-153-ddb410fb0d89ddb7&clickBeacon=748dd470-e891-11f1-9bb5-9273c21a6058%7E3&requestid=20261125143124706012415143&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -6827,9 +6842,9 @@
       "avgPrice": 14460,
       "minPrice": 14460,
       "maxPrice": 14460,
-      "priceCount": 6,
+      "priceCount": 7,
       "discountRate": null,
-      "uniqueDays": 5,
+      "uniqueDays": 6,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -6870,6 +6885,14 @@
           14460,
           14460,
           1
+        ],
+        [
+          "2026-11-25",
+          14460,
+          14460,
+          14460,
+          14460,
+          1
         ]
       ],
       "priceHistory": [
@@ -6896,17 +6919,22 @@
         [
           "2026-11-23 07:03 KST",
           14460
+        ],
+        [
+          "2026-11-25 14:31 KST",
+          14460
         ]
       ],
-      "lastCheckedAt": "2026-11-23 07:03 KST"
+      "lastCheckedAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "ok"
     },
     {
       "productId": "8243792497",
       "vendorItemId": "3000186070",
       "productName": "카일스 바닐라 파우더, 1kg, 1개, 1개입",
       "productPrice": 14490,
-      "productImage": "https://ads-partners.coupang.com/image1/su0flqOQ9eiKq0aIso6W08ffsaI-uulbGFi9YASNjB_s-CByr7mtmClq5jt9nmW610iFSfQZH6OMntfmsQttU9NqRy6yZagvR1GEucBV2oxt154sfiejTwkBrUo-TR95XhgdqQMJpvVxG6wFfnkudSd0rAEJCsYYW7gOqR5L3q4M_NWA5bmbFuKveTF-3g2DjRx-oyyRFvC0KI6y8dkHr_rZRE2FQ2zAbE8Iv8e3MvVVI0hufwvDEUG46Net0HJlAF-uteEZJuPVQjE8BBppTjvxbJ3vy5J7P1yjeFbm0TzIulpU0lSH8Va3YOc7EM_BrhXJSHqRXy83_RY2IsJNpIA7g7-mvJ6Kr0x8TLhjobgLBxYytXPUnrWrZSbGB14Fd3OQFXa61NzhAEdFDwVlZ2TXVbnKp1tGhKREldagEDpD1DFXdtwAhvElOQ7CSuv3iepAEjTBS5uYxUe7WHq-BdM6SeOl6fKypFbprgTA1rVQn81MEMmPDTe5BfePBtDnwgas2XRY8UjJJdaPX_cXFabJ6z3maiWMPt6iFFXS3zT7AGf-f0voAy78DaW2IyjxZ1ywlg==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8243792497&itemId=11120435867&vendorItemId=3000186070&traceid=V0-153-79e9b71c3793e1b5&clickBeacon=5b9d4c30-e4a8-11f1-a294-5087c3ff0594%7E3&requestid=20261120150516697004322379&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/FXFBLCUSWGu2KjsTFXB6YbPHc0igwos0bBm7z26084pK5xDgQDrz5-9tg9SvSj8AP17cKxlgaMEJtkZ7E0IBF2jMn4-lZavvlSzhQI-BVGQxyLcFq7YpXIZ7_vwlHTICvmCNmTQe3eismFGGQ59QgsodHNJi5GeeegkGHVYfj9lz6yElLoCMc7djE3hwgEpodK4P2-3SYgcxajvMtLWQ_PxunPBfupRrWpLU9SG3akRjBhw787HezLuFgOTtfuPV9AXUEVo8tnBlzEY5IkQfizxySY3349dbxzPjuTVZ1d-ptQxkE8ihy-nhsLHmcH_kuejCbC8LW4t4wlFKnTjBIZKFY_hkbWpE_ZFJUToJcRrJBnaQW1D2iKqLoHh8XFexBSzguUxdry1zbhITpQSqifQ-tsPGjYsvo2p4btWw3LaBfPRv5C2-pKkdkAcEbAe3clZyXONRH31E_jmeaVCljf0e_E-zwWyMDjQVGcT1Ib2yHr3ANPz6XzqFU3QSFieTbwYGroXA3pVQkZX3cGgrwyuAHDdHBUoQPxYyryCqpg8thdRkcGSDjxyEbuUb9teApR65RaA=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8243792497&itemId=11120435867&vendorItemId=3000186070&traceid=V0-153-79e9b71c3793e1b5&clickBeacon=748dd470-e891-11f1-bd06-277bb3757bd5%7E3&requestid=20261125143124706012415143&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -6917,9 +6945,9 @@
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "dailyHistory": [
         [
           "2026-11-17",
@@ -6936,6 +6964,14 @@
           14490,
           14490,
           1
+        ],
+        [
+          "2026-11-25",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
         ]
       ],
       "priceHistory": [
@@ -6946,17 +6982,22 @@
         [
           "2026-11-20 15:05 KST",
           14490
+        ],
+        [
+          "2026-11-25 14:31 KST",
+          14490
         ]
       ],
-      "lastCheckedAt": "2026-11-20 15:05 KST"
+      "lastCheckedAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "ok"
     },
     {
       "productId": "4348945323",
       "vendorItemId": "3000186073",
       "productName": "카일스 오곡파우더, 1kg, 1개입, 1개",
       "productPrice": 14490,
-      "productImage": "https://ads-partners.coupang.com/image1/1rJnvTXDDby_EH191vL4XivKTTABHEzultAMe_zSnJ8dj9jstfLcBk992qxPr8JOsD8oc-_cok-F2gJ__XnhSv0-FJm8xJGrWAfh096_APGhzROMXZ4Yq7UHF8zF72YueQ6Ss0lr7NJ6iqPq1awytqCqzg0G2jrww2LCQ4EiAlMbhtXDyRlFT2fbCya5OqwIPTktHkOeHeeZkUsMfkZ5Af9dGDm2l2XyERI24B9--MnB4r2eP_38q0Gaky7upAL4rmH_dk6uA5J1NSxOSid9nmmzwRXR2gQmSiU0KeslaDTwpUYrtK_TZJXq8zanfx0ESf19uTUlJE0C9JU8zYys389iAi1P6fXxPuJz8LuRnSeygdS421qw90-6BlsqC35WR7OQ4yJdu8AeJOdFFqnC1BcC7Yde6vpUCwwRoYmrqZndOSEq5FxVgKyu-8CmausWeCp7b6SKVHMEHE1d-G8XY3YYUlEnY93cAIfrAJ_5KoHrzQybF0JNK26MDFBqzoh_8_zp15RLJTw=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&clickBeacon=758cef80-e6d1-11f1-9837-3c52a1ac46bb%7E3&requestid=20261123090431936102377377&token=31850C%7CMIXED&pt=1&slot=1",
+      "productImage": "https://ads-partners.coupang.com/image1/idTnAbzZxyY_wWn6icUpGdhCOd3lEazd5JVl97hbHp_QyM3x9KzHRQ-2fgQMm8-MChzUT9UZInE93ee3JamAc-pxtpdq95CuCxu2Vqqnk7E9H1CYgV-gZQwAmFoBE2N6zcUu-1urG7fd-3jnypmF8H7bQTw3TM8yhN2VmCFGc20zc6RW_bo0YDwOZFVuz8rqdafGCAbwKTbFwPtEMzpnKcdOxfTjjcVdqv1rug1BJtnul740ue8dkEZl30w3GfuJ9R5onDlxgsO1vB0rCyZE3C0GW3A4pQVY7Zr2dYvghHT0RPju_XKIonXDWHazQsRRcaUXjGj3V4y6btJkHjq5O7tzzEbtzLhmHzlme97Rc_raZpDZARrZAh-fzqocsiVE0MokAnEJuyrCAWIN98Bs7_c5wEtakrqr15DAwolvUXSDmrymLATkiKWg50J4lxTklbz3n-BjTOZHbon-PuuAwF6yfQk4xGrg0481PwTzk9viMVA1rxlHuMen-E8aOyzp32E1Wv7EMSTHrOr0e-FShZ64YRXGb9Zlg5FN-uzLVjNjX3NWNYiJCWTR74D_3Ir2vaKD",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&clickBeacon=748dd470-e891-11f1-9f0a-5613b6358f4a%7E3&requestid=20261125143124706012415143&token=31850C%7CMIXED&pt=1&slot=2",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "파우더",
@@ -6967,9 +7008,9 @@
       "avgPrice": 14490,
       "minPrice": 14490,
       "maxPrice": 14490,
-      "priceCount": 2,
+      "priceCount": 3,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-23",
@@ -6978,6 +7019,14 @@
           14490,
           14490,
           2
+        ],
+        [
+          "2026-11-25",
+          14490,
+          14490,
+          14490,
+          14490,
+          1
         ]
       ],
       "priceHistory": [
@@ -6988,9 +7037,14 @@
         [
           "2026-11-23 09:04 KST",
           14490
+        ],
+        [
+          "2026-11-25 14:31 KST",
+          14490
         ]
       ],
-      "lastCheckedAt": "2026-11-23 09:04 KST"
+      "lastCheckedAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "ok"
     },
     {
       "productId": "9699325435",
@@ -8306,7 +8360,9 @@
         ]
       ],
       "vendorItemId": "86556287813",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "not_found"
     },
     {
       "productId": "6400580429",
@@ -8667,8 +8723,8 @@
       "vendorItemId": "80898763351",
       "productName": "엔칸토 청포도 베이스, 1.8kg, 1개",
       "productPrice": 18900,
-      "productImage": "https://ads-partners.coupang.com/image1/XiRDb_oNhCF_fmSaXr328LGF_mRVc_-0eH_cg3B5ZTHCBG6GgLbrQMtaMB1o9JpmK_F8FgqKJWpwCD_sK4s3UL5NDRcnWJ8fkl5aGmgd8VFWjuBwtRgtbf1JXplB9PqZ88fQKSZO0o3i0Q7CrSf8rLaxPfVmGNbEaWlYkpzakWL14n_y1Rr8COTvKpibyBQ9kGM-SzImVtnImJj2BlpwMwBl06gg-ykSUEc9_r_0yWg0k14M3sCUHNYyKYDFSflxX_92bx0nNWeVAxLUkaTLf8540sxK9Ivw1vnJaoRucmoTBYyQliwi9KlPer3nqyzp7c8If4fNoG1w2D5AplwXNtV2hlJPC9jWcrj3kW26Pu5rktMJ8F3tDuIin4M9vxu429i8DLxIldpNZxdEN-1MLTNqc2Jq9BkavbIUM_xmMFDVO-QGU5O6sQjcEBYh6RQ8Rg1fkAtIlnDnn0NoI51aMUKsw3N2Vj3UQz0CnXbEEZMV7dCoUONp6t7DL-_fd0kC3HvJflKXiQ==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398457869&itemId=19143971931&vendorItemId=80898763351&traceid=V0-153-39b33618552de254&clickBeacon=c45f1e00-e39b-11f1-bc14-aa3d73fd1e98%7E3&requestid=20261119070237819082498782&token=31850C%7CMIXED&pt=1&slot=3",
+      "productImage": "https://ads-partners.coupang.com/image1/YHg9aEb9MZPh-kFQYFJhY1-LQOUp3aZd_i2VY_BRdmoBp2mdN79LeiR7IUGTrTyKISOVW1izAySEjarj3kChxzYZymMCwQSK_3f3HmJeJk94PHwMxl2EuVeKmqUtVHU5mAoX4rxfNsEGZV9KiAIoiq0YtOcPyjP2j5G__ykAqMpu8scy73q4yoai4ag7Bpyqku16MKWmSNKR46mFkHw55EDI-3rxS5JhkjL67BhpZbxz51cTjVaWZrxTZHPTag3YHZoF4h5u9MGHqqfYYAtt5aORKJ9pEEwfl4654FvopVTjbyKrlWM4BDcrcuRpXij9Py6rV7Z6L0djf9_U3yD9vyZPNvMcCjZtuNQzW6vaI1Xls2WbOH5MsrkZTQX5FzDm_y2HSyIqsZkZ7Tz33UIPTR7w8nX8usr-2Gh1U_IkmjjVgLhDGOiV9n0AQ5u-cUzRN05aTiz4Vzif_rJJv25Ij9pGG4wt2DwBTm_cFhwoKZakLi8j5dPNujgPgIyD7j5h",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398457869&itemId=19143971931&vendorItemId=80898763351&traceid=V0-153-39b33618552de254&clickBeacon=6fbff8b0-e891-11f1-a441-46fcb3dff700%7E3&requestid=20261125143116711158499581&token=31850C%7CMIXED&pt=1&slot=4",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "과일·베이스",
@@ -8679,9 +8735,9 @@
       "avgPrice": 18900,
       "minPrice": 18900,
       "maxPrice": 18900,
-      "priceCount": 3,
+      "priceCount": 4,
       "discountRate": null,
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8706,6 +8762,14 @@
           18900,
           18900,
           1
+        ],
+        [
+          "2026-11-25",
+          18900,
+          18900,
+          18900,
+          18900,
+          1
         ]
       ],
       "priceHistory": [
@@ -8720,9 +8784,14 @@
         [
           "2026-11-19 07:03 KST",
           18900
+        ],
+        [
+          "2026-11-25 14:31 KST",
+          18900
         ]
       ],
-      "lastCheckedAt": "2026-11-19 07:03 KST"
+      "lastCheckedAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "ok"
     },
     {
       "productId": "7398456407",
@@ -8916,7 +8985,9 @@
         ]
       ],
       "vendorItemId": "92418268184",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "not_found"
     },
     {
       "productId": "6514157775",
@@ -21894,7 +21965,9 @@
         ]
       ],
       "vendorItemId": "96122352838",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:31 KST",
+      "refreshStatus": "invalid_unit"
     },
     {
       "productId": "8556420005",
@@ -23988,15 +24061,15 @@
   "prunedAt": "2026-11-25 13:06 KST",
   "pruneNote": "2026-11-25 13시: (1) 로켓 이탈 1종 제외 — 위크위크 부드러운 콜롬비아 1kg(판매자배송 전환, 22,950원 동일) (2) 신규 8건 중 결명자 2건 단가 기준 개당→100g당 보정. 518 → 525건",
   "freshnessStats": {
-    "within24Hours": 77,
-    "needsRecheck": 448,
+    "within24Hours": 82,
+    "needsRecheck": 443,
     "total": 525
   },
-  "lastRunAt": "2026-11-25 14:29 KST",
+  "lastRunAt": "2026-11-25 14:31 KST",
   "refreshRun": {
-    "requests": 1,
-    "attempted": 1,
-    "refreshed": 0,
+    "requests": 4,
+    "attempted": 4,
+    "refreshed": 5,
     "error": false
   }
 }
