@@ -135,8 +135,8 @@ def exact_offer(stored, item):
     if str(stored.get("productId")) != str(item.get("productId")):
         return False
     a, b = core.vendor_item_id(stored), core.vendor_item_id(item)
-    if a and b:
-        return a == b
+    if a:
+        return bool(b and a == b)
     name = core.option_name_key(stored)
     return bool(name and name == core.option_name_key(item))
 
@@ -158,11 +158,12 @@ def apply_result(deal, items, at, hist):
     name = item.get("productName") or deal["productName"]
     bases = core.BASIS_BASES.get(deal.get("unitBasis"), ["100ml", "100g", "개당"])
     unit, basis, pack = core.calc_unit_price(name, price, bases, deal.get("category"))
-    if not unit:
-        return "invalid_unit"
-    deal.update(productName=name, productPrice=price, unitPrice=round(unit),
+    # Price observation and quantity parsing are separate facts. A matching
+    # offer's valid price must not be discarded because its title omits units.
+    # Never carry the old unit price forward alongside a newly observed price.
+    deal.update(productName=name, productPrice=price, unitPrice=round(unit) if unit else None,
                 unitBasis=basis, packNote=pack, isRocket=True,
-                lastCheckedAt=at, refreshStatus="ok")
+                lastCheckedAt=at, refreshStatus="ok", unitStatus="ok" if unit else "unconfirmed")
     for field in ("productUrl", "productImage", "vendorItemId", "isFreeShipping"):
         if item.get(field) is not None and item.get(field) != "":
             deal[field] = item[field]

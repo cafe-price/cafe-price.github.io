@@ -62,6 +62,22 @@ class RefreshTests(unittest.TestCase):
     def test_missing_option_identity_cannot_be_accepted(self):
         self.assertFalse(refresh.exact_offer(offer(), {"productId": "1", "productPrice": 1000}))
 
+    def test_same_title_without_vendor_id_is_not_an_exact_offer(self):
+        item = offer()
+        del item["vendorItemId"]
+        self.assertFalse(refresh.exact_offer(offer(), item))
+
+    def test_price_is_recorded_even_when_matching_offer_title_omits_quantity(self):
+        deal, hist = offer(), {"products": {}}
+        item = dict(offer(price=9000), productName="프레지덩 휘핑크림")
+        self.assertEqual(refresh.apply_result(deal, [item], "2026-11-25 12:00 KST", hist), "ok")
+        self.assertEqual(deal["productPrice"], 9000)
+        self.assertIsNone(deal["unitPrice"])
+        self.assertEqual(deal["unitStatus"], "unconfirmed")
+        self.assertEqual(hist["products"]["1"]["observations"][0]["price"], 9000)
+        self.assertEqual(refresh.apply_result(deal, [offer(price=9000)], "2026-11-25 13:00 KST", hist), "ok")
+        self.assertEqual((deal["unitPrice"], deal["unitStatus"]), (900, "ok"))
+
     def test_freshness_boundary_and_failed_check(self):
         now = datetime(2026, 11, 25, 3, tzinfo=timezone.utc)
         a = dict(offer(), lastCheckedAt=core.kst_str(now - timedelta(hours=24)))

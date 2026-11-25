@@ -350,11 +350,10 @@
   function won(n) { return Number(n || 0).toLocaleString("ko-KR") + "원"; }
   function num(n) { return Number(n || 0).toLocaleString("ko-KR"); }
 
-  // 사이트에 실리는 품목의 조건 — 로켓배송이면서 단가가 계산된 상품만.
-  // (deals.json 은 스크립트가 이미 이 조건으로 추려서 내려주지만, 캐시된 예전 파일이
-  //  섞여 들어와도 화면이 조건 밖 품목을 노출하지 않도록 한 번 더 확인한다.)
+  // 단가 계산이 실패해도 실제 상품 가격을 확인한 기존 품목은 유지한다.
   function passesFilter(x) {
-    return !!x && x.isRocket === true && x.unitPrice != null;
+    return !!x && x.isRocket === true && (x.unitPrice != null ||
+      (x.unitStatus === "unconfirmed" && x.productPrice > 0));
   }
 
   function renderBanner(d) {
@@ -389,6 +388,7 @@
   }
 
   function unitText(deal) {
+    if (deal.unitStatus === "unconfirmed") return "용량·수량 확인 중";
     if (!deal.unitPrice) return "";
     return won(deal.unitPrice) + (deal.unitBasis ? " / " + deal.unitBasis : "") +
       (deal.packNote ? " · " + deal.packNote : "");
