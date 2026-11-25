@@ -92,7 +92,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
         with:
@@ -109,6 +109,35 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+      - name: 업로드 파일 조회 준비 대기
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, time, urllib.request
+          url = f'https://api.github.com/repos/{os.environ["GITHUB_REPOSITORY"]}/actions/runs/{os.environ["GITHUB_RUN_ID"]}/artifacts?per_page=100'
+          for attempt in range(6):
+              request = urllib.request.Request(url, headers={'Authorization': 'Bearer ' + os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'})
+              try:
+                  with urllib.request.urlopen(request, timeout=10) as response:
+                      artifacts = json.load(response).get('artifacts', [])
+                  if any(a['name'] == 'github-pages' and not a.get('expired') for a in artifacts):
+                      print('Pages artifact is available')
+                      break
+              except Exception as exc:
+                  print('Waiting for artifact metadata:', type(exc).__name__)
+              time.sleep(5)
+          else:
+              raise SystemExit('Pages artifact metadata did not become available')
+          PY
       - name: 사이트 배포
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+      - name: 배포 재시도 대기
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 15
+      - name: 사이트 배포 재시도
+        if: steps.deployment.outcome == 'failure'
+        id: deployment_retry
         uses: actions/deploy-pages@v4
