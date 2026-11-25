@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-25 07:05 KST",
-  "statsAt": "2026-11-25 07:05 KST",
+  "updatedAt": "2026-11-25 09:06 KST",
+  "statsAt": "2026-11-25 09:06 KST",
   "notice": "",
   "watchlist": [],
   "categories": [
@@ -18,9 +18,9 @@
     "빨대·홀더",
     "매장소모품"
   ],
-  "count": 526,
+  "count": 527,
   "priceStats": {
-    "products": 535,
+    "products": 536,
     "discounts": 10
   },
   "deals": [
@@ -3373,24 +3373,32 @@
       "vendorItemId": "95826543678",
       "productName": "헤베커피 스탠다드 블렌드 고소한 원두, 1개, 1kg",
       "productPrice": 36900,
-      "productImage": "https://ads-partners.coupang.com/image1/tCrdCFEn_vsNCmlCtM0b-vsJk3C_RY5qU67e0OZGRUmtGU5FNk26puCD4GnQiUbpHlqdi_r8eu9IpfuIVxUvrWi9dbHUnauFjwImyfJhP05W6fgDf_nwMGGwv464hlIzQ5ZA9GpWpyzqX8PJZ_HsISSUvjPDG8aO-4_I1wdngDNhfWw_C5HQQB8PqmXtxtXCnuTQBKP0aLNnjwHsEYV5bucrLB6hBh4eA31AahGEmwOpHGawIWLGAI4QhxUeNF_hzJpwl_dLLZKqe-3k34VG9SNFchIAhNOwhNXPzoxftjYA2U3f8p55TLq5LdHTpQiMAX7r4fOMheEStpW1KN3hSe--L0Q4H-IsRbOKuxqX1YvWKLTfs1S64xOcufceERsonOkWQNJmK6M4c431VrSt43QeJu2X4C8e9hmk-f5Gsahgeb_wn5TZGHzfyLzjKR_u-TSPj5V4cEIBQgslt5pFN98FT3H1rR0w-zEKbd4nRtnFAVe29x_kD0Y_Olqbd7a6PlXQZlxIqeNHKGsJVNoc4AYsyoKeRGBOkX12JObqPreUPvUKzyK6o4rZ3H6hzI8XMORmPAshoIcN3fsLXqbS",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9664703189&itemId=28894068825&vendorItemId=95826543678&traceid=V0-153-5f5c692274e79fdc&clickBeacon=3a74d3b0-e297-11f1-a655-587ac72ff764%7E3&requestid=20261117235737315089568094&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/s05sY1sPXRTexFLSszQ_wQI19Y_Fa5U8aRF13VtOVFZC97zWkW4zVOMxoceXXkkSxflbRjmsLKD6az4B3a1JjBfNZITnUznVsJUJ-sIQ8rf2E3EZD52A0I-tIp61yX1TSxbP3p3nVuhks77nylx2YgZTYIKvMaqSAC0TlsqjD1wY4EX5sQ1fpoBH-d2zHr3X2htpzpzvzkk16uoywNiqPZG7zsyL-FsdJ_CUex-YDjnOAJgJEY4uAfRfY5NOYBweFxuVm85j6UvqUvZzAsxULOoVgqNcnTV1ksdvrFRQ4DAQII3X2fxfqF7MjkMboWEZ5GZB5XgvOA6mT7QjBX_eDreVeiIpqFvX2Dhf3BrGpYKlkqtbacwOwDxBX5cV3RXzAX1NLp0VytBtD9AhoNLoWiTfw1xPcz0ZUYg546w2nVeINGp8j741UnMIkIgfSBOgy9_JDCA9XDc5kqI0XA1PmEvjpEw2_5Up9mWzjhGUETmKuQ7jc9b2dOwoSnXOAKBO4Crilz1MI07F7ET-Z_HrPKLNyV97DdmEyKUd3emzypA_iSysDTkL3MAzV-eXAYXYDyXRHO30-7w=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9664703189&itemId=28894068825&vendorItemId=95826543678&traceid=V0-153-5f5c692274e79fdc&clickBeacon=d99764e0-e863-11f1-9237-43fdf3765330%7E3&requestid=20261125090457456053149150&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "원두",
-      "query": "미디엄 로스팅 원두 1kg",
+      "query": "헤베커피 스탠다드 블렌드 원두 1kg",
       "unitPrice": 3690,
       "unitBasis": "100g당",
       "packNote": "1,000g",
       "avgPrice": 36900,
       "minPrice": 36900,
       "maxPrice": 36900,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          36900,
+          36900,
+          36900,
+          36900,
+          1
+        ],
+        [
+          "2026-11-25",
           36900,
           36900,
           36900,
@@ -3401,6 +3409,10 @@
       "priceHistory": [
         [
           "2026-11-17 23:58 KST",
+          36900
+        ],
+        [
+          "2026-11-25 09:06 KST",
           36900
         ]
       ]
@@ -17311,24 +17323,32 @@
       "vendorItemId": "95561013371",
       "productName": "자연닮음 볶은 우엉, 1개, 1개입, 500g",
       "productPrice": 11250,
-      "productImage": "https://ads-partners.coupang.com/image1/QMnAbsUmiMkg1y4RQMmrWnWA8K8ObtSKAIuY9qqyQiuMt5mHMZy1A8BtIdEPDkhkGYQfoiM7_WrmcyN-QAOP--1Aj_czvfLk8_6QW7-UZcz3o8MlCLx2QJ6-wlXgV6mkrNjSiZweJfDk-KacUhNZDBgPff9nX0C3UMgd6_KnrHk2suY3ShW7ey3bYZlmjx8ONlhNtaKPPYe2Q1cv3qQ6g3hW6lnmKgV0a0QdnF8EHfLSS6_NHdKiYVtaPY9ox40QAI5TF2f_SFNjk1mnXTr4QEBJab-nR3ivCcbpF0hiVZ3Is_6CXdqd33lVjfO1HnV2-4lx6q9Ln0bZ6VzwOyndcZkKmtUC_zXYJn-VwxhvXO5pwp44v3jAiQsW6tkACnGEJEjJDF_rAbfS3afyDsMVSCH2CRXzvc3H85IL61CNefOGGe61ohisGLtcAGdVFfF89OiVuXLca_7uzNBsnvedhOlzufxfZInwAcWAZwCyo4EN52A9GHD6NqEy4_xkAw4gmHAHuvGJG3x5jhm-L9i1DFtXCBcOva5MPU7QfJ74ZdaFqXufmdZOkLtGtw==",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8466721964&itemId=28617709166&vendorItemId=95561013371&traceid=V0-153-31549b9dde17897e&clickBeacon=2d64ec50-e571-11f1-98d4-6d5c2ad099c5%7E3&requestid=20261121150247993001272131&token=31850C%7CMIXED&pt=1&slot=4",
+      "productImage": "https://ads-partners.coupang.com/image1/Z6xVrf8VWixf5gwPZ0ZhIwd2FWuvFA4dt1GJXaD-lDwDoRxLH4YoPB3haV7vswOjVYKRkidpW5UG1LOmTrpttE3VeEVmUjpYLBL0ovJ4QBeECeU_Ql2wA7vtWdJ9Io0wUW-Z5o_GhlR6Bm23B0zvoixNvRsalrJXnbBYM1kWOY_XAJz7TWfwAPKBD4mjqrIg3IpURa8ha9kuuyAvLwpDlWA4qnVfhIMzmsY1-HDr-TmK4GwauuKf9xzA5QbrW9IsyT1EgFXZ9ynM1lRvfIGJm3g9L7_rVUinOwA630v_X8IaXdor2vLo8c6Np9bRwdRsdpzrtmixVbou-WlfbVgUXlPEnfkGmfOU4LBssRbGrU2q0x2MDs2ccgOe6dVHJ3ascWAojlm6IoZka43wC3xl5R-oYeS_VjglFvfL5o3EMlJcjHAxBsHBl6I0ORizXvxl7ElAvUC-DLxNh5ve69nURQGdihR63s2r9uHfdNo0NiSHUCL-WOLuHJQ=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8466721964&itemId=28617709166&vendorItemId=95561013371&traceid=V0-153-31549b9dde17897e&clickBeacon=f2e66db0-e863-11f1-b078-bc04b724d73c%7E3&requestid=20261125090539912019555535&token=31850C%7CMIXED&pt=1&slot=3",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "티·탄산수",
-      "query": "우리차 우엉차 1g 100개입 15개",
+      "query": "이너블릭 볶은 우엉차 삼각티백 100개입 5개",
       "unitPrice": 2250,
       "unitBasis": "100g당",
       "packNote": "500g",
       "avgPrice": 11250,
       "minPrice": 11250,
       "maxPrice": 11250,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-21",
+          11250,
+          11250,
+          11250,
+          11250,
+          1
+        ],
+        [
+          "2026-11-25",
           11250,
           11250,
           11250,
@@ -17339,6 +17359,10 @@
       "priceHistory": [
         [
           "2026-11-21 15:03 KST",
+          11250
+        ],
+        [
+          "2026-11-25 09:06 KST",
           11250
         ]
       ]
@@ -21526,6 +21550,43 @@
       ]
     },
     {
+      "productId": "9707106995",
+      "vendorItemId": "95968535315",
+      "productName": "라벨스티커 유통기한 소비기한 식품관리 스티커 방수재질 1롤1000매",
+      "productPrice": 9490,
+      "productImage": "https://ads-partners.coupang.com/image1/5_3k-HiZtS6ZxgGX51SFNp4YCeETSc61ZGFBW7Nm2cdJIbsHDWJCLCzAqJhv4nvKODYvOTYSIatHCbdAV4LxcPqOnHf29JHaWwmMLZT8f2j3_fbi_h6vpiSOAdvMiU-AK3utLnrItpTQVDTTNFHMEIbEo-V_0cmhqehMbD2TZlNQEVgOTGBMvRwsi3_0Ohj9fYerSaiZS30idSmXfdXP6zkcw_a6sHtesiI2bd7r5NMHPoFhZsPknWhAPMxCp81P4V6RfftU3onV98tMlEQftHGEIw-nrUZy6PfMqxdRcZCz6IfxEp5pxKpqR_iHI0fVEf8GzFuZ5CiueoYb9zU-gCey8QCpOTte87hrC-YKOmFYPJ3THDNjTR4t0P3xSE1MlekNZTClBSXSUo5x9B64hq8zUTWAZikGk2AKTwasaUx83x7XUsqAyEtmfmQMkcHnPn6knIKKbldpMPaFXc06dQc4BOyB1fWsm0rrG0lUc14a3_xIjcyNtoOiquJsfMIVdMcgTArAkNy_he0HD6lbbY5E0DoCq9jMSshoxVsZQGox41w=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707106995&itemId=29041381515&vendorItemId=95968535315&traceid=V0-153-d6e6fd4174615496&requestid=20261125090556680243700656&token=31850C%7CMIXED&pt=0&slot=2",
+      "isRocket": true,
+      "isFreeShipping": false,
+      "category": "매장소모품",
+      "query": "방수재질 소비기한 라벨 스티커 1000매",
+      "unitPrice": 9,
+      "unitBasis": "개당",
+      "packNote": "1,000개입",
+      "avgPrice": 9490,
+      "minPrice": 9490,
+      "maxPrice": 9490,
+      "priceCount": 1,
+      "discountRate": null,
+      "uniqueDays": 1,
+      "dailyHistory": [
+        [
+          "2026-11-25",
+          9490,
+          9490,
+          9490,
+          9490,
+          1
+        ]
+      ],
+      "priceHistory": [
+        [
+          "2026-11-25 09:06 KST",
+          9490
+        ]
+      ]
+    },
+    {
       "productId": "9668226659",
       "productName": "하우스클래스 2겹 대나무 키친타올, 6개, 150매",
       "productPrice": 9090,
@@ -21731,24 +21792,32 @@
       "vendorItemId": "92602636092",
       "productName": "방수재질 소비기한 유통기한 라벨 스티커, 1000매, 1개",
       "productPrice": 15700,
-      "productImage": "https://ads-partners.coupang.com/image1/O_gz2KKS4ALzVLaHO03N-6aVuwqUH7WN0xf0FiEKIQobEUwZAzw8gKv6F7RBau1Jmhwilk2Z-YinOljRqO2UkcO_-hKeXoy7z393KiOkbrZPFz-3mOOLurR15u-kWidk5p53zuKJ3HTfXP3DgH8ps-wtdTExOpPZomiktZcu6zqL-wa2c6YZwdiQiVLlhxdIhFvJAD4KVG5vahDTzLVs7iAeg9YPU8sZ16idZsJ8-rWP3DCp_2mmVjemey3Wg5ziSBB8wXRI3OQCFJxEKloSQqLiEM0fm1VOROC0Y7O2jU2LGyd_cJ3aM2U5-EXOTIyp6jtSRrpF4ueigTbY6dXWr5Ctk10vJ6LmXi5tw2xZ7qXhPkF0eNHSPoYpR6GyXmAH4spzW9IAHSSbIxVS7j8QD_dyd8jlbobEooiVeWEHf-ggpIi3G3dyfbjlSA1woNzvwD02tSwSSG9IaH7XMTh0oFBFsVajJ7xeL7DhnvHsXPLr_68Ir052cLx3RT1glkj0BPNXt-Nx_vK1TM2oZ55qpGEtgsb9krg=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8797213503&itemId=25612154687&vendorItemId=92602636092&traceid=V0-153-463e083b33dc4d82&clickBeacon=da07ec30-e21c-11f1-b40b-308fef9326d3%7E3&requestid=20261117092136909203349685&token=31850C%7CMIXED&pt=1&slot=5",
+      "productImage": "https://ads-partners.coupang.com/image1/4idC6DKlHjqPn3cA4i2RxI3O-AyHFxY-YbLS0bcGsSMPLV120HZO_CeC6ZlEuxId_81sYP809KTy8Tn96btYlGfWDGvYztgbF7TldQi2LesVOHVcBDbYN7y2eHyP_5g5xCllTZS385HP5GB8sgddusJqHwQSZbNzHmbs-0iN4fsBBA5yzP7E_GKSYy1G54PG0_H7YPAmYHJzD2BC-ZmykWd31M7ijfMb4xQDqsHNHU1ixlnCUzvwT7fm2bwXuaIxblTWD156UppE183-C7mkElVnUO09qH3DvJMD2gh29mq1ZgU1be5_ROW6IWosDaov-z8gOnQXsgVy-2JMzkINMmz07zN_mz3PkJQf3eDDXpRoiHWWFvsZTl7-W5rphZJWLEZPr14mJx_0pPAEE1QB1RCjxel9vr-rtyerM7wHcSJSoRCWB78SSKOo68iK4gE2uQXHtneYuGrtcmT-cIr-GfoE1BXl_8vqe_jcUpE1jaRjK4m0KzjJo4YbxVKSBqMqtAauEb4Z61_VO2I7_Y2hKDMY6bfQi7fo",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8797213503&itemId=25612154687&vendorItemId=92602636092&traceid=V0-153-463e083b33dc4d82&clickBeacon=fce46970-e863-11f1-8870-2faf84f532be%7E3&requestid=20261125090556680243700656&token=31850C%7CMIXED&pt=1&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "매장소모품",
-      "query": "라벨 스티커 1000매",
+      "query": "방수재질 소비기한 라벨 스티커 1000매",
       "unitPrice": 16,
       "unitBasis": "개당",
       "packNote": "1,000개입",
       "avgPrice": 15700,
       "minPrice": 15700,
       "maxPrice": 15700,
-      "priceCount": 1,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-17",
+          15700,
+          15700,
+          15700,
+          15700,
+          1
+        ],
+        [
+          "2026-11-25",
           15700,
           15700,
           15700,
@@ -21759,6 +21828,10 @@
       "priceHistory": [
         [
           "2026-11-17 09:22 KST",
+          15700
+        ],
+        [
+          "2026-11-25 09:06 KST",
           15700
         ]
       ]
