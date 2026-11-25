@@ -1,0 +1,28 @@
+name: 직접 상품 조회 서버 진단
+on:
+  push:
+    paths: ['.github/workflows/probe-direct-price.yml']
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: 공개 상품 페이지 1회 확인
+        run: |
+          python - <<'PY'
+          import os, urllib.request, urllib.error
+          url = 'https://www.coupang.com/vp/products/9595365819?itemId=29203033571&vendorItemId=96123294199'
+          try:
+              with urllib.request.urlopen(url, timeout=30) as r:
+                  body = r.read().decode('utf-8', errors='replace')
+                  result = f'HTTP {r.status}; bytes={len(body)}; product_id_present={"9595365819" in body}; access_denied={"Access Denied" in body}'
+          except urllib.error.HTTPError as e:
+              result = f'HTTP {e.code}; direct request unavailable; no retries'
+          except Exception as e:
+              result = f'{type(e).__name__}; direct request unavailable; no retries'
+          print(result)
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('## 서버 직접 조회 시험\n\n' + result + '\n')
+          PY
