@@ -1,0 +1,11 @@
+{
+  "products": {
+    "1951259803": {
+      "lastAttemptAt": "2026-11-25 14:29 KST",
+      "attempts": 1,
+      "query": "냅킨공장 칵테일 무지 냅킨 Brown 4개 3000개입",
+      "status": "option_mismatch",
+      "consecutiveMisses": 1
+    }
+  }
+}

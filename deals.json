@@ -20,7 +20,7 @@
   ],
   "count": 525,
   "priceStats": {
-    "products": 544,
+    "products": 700,
     "discounts": 10
   },
   "deals": [
@@ -21692,7 +21692,9 @@
         ]
       ],
       "vendorItemId": "96120453383",
-      "lastCheckedAt": "2026-11-16 07:02 KST"
+      "lastCheckedAt": "2026-11-16 07:02 KST",
+      "lastAttemptAt": "2026-11-25 14:29 KST",
+      "refreshStatus": "option_mismatch"
     },
     {
       "productId": "9749776470",
@@ -23989,5 +23991,12 @@
     "within24Hours": 77,
     "needsRecheck": 448,
     "total": 525
+  },
+  "lastRunAt": "2026-11-25 14:29 KST",
+  "refreshRun": {
+    "requests": 1,
+    "attempted": 1,
+    "refreshed": 0,
+    "error": false
   }
 }
