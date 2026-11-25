@@ -16,3 +16,4 @@ tmp_*
 
 # 쿠팡 API 호출 사용기록 (로컬 전용)
 scripts/.api_usage.json
+scripts/.collection.lock

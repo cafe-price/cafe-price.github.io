@@ -60,7 +60,7 @@ HISTORY_INLINE_MAX = 120     # deals.json 상품 안에 함께 남기는 관측 
 HISTORY_RAW_MAX = 120        # data/price_history.json 에 남기는 원시 관측 개수 상한(최근 120건)
 HISTORY_DAILY_KEEP_DAYS = 120  # 이력 파일에 보관하는 일별 집계 일수 (원시 관측이 줄어도 일별 집계는 유지)
 DAILY_WINDOW_DAYS = 30       # 사이트 모달에 노출하는 일별 추이 일수(최근 30일)
-USAGE_PATH = Path(__file__).resolve().parent / ".api_usage.json"
+USAGE_PATH = ROOT / "data" / "api_usage.json"
 
 API_HOST = "https://api-gateway.coupang.com"
 API_PATH = "/v2/providers/affiliate_open_api/apis/openapi/v1/products/search"
@@ -1365,7 +1365,15 @@ def passes_listing_filter(deal: dict) -> bool:
 # ---------------------------------------------------------------- 안전장치
 def cooldown_active(now: datetime | None = None) -> bool:
     """쿨다운(~2026-11-15T15:05Z) 이전이면 True."""
-    return (now or datetime.now(timezone.utc)) < UNLOCK_AT
+    now = now or datetime.now(timezone.utc)
+    state_path = ROOT / "data" / "refresh_state.json"
+    if state_path.exists():
+        state = json.loads(state_path.read_text(encoding="utf-8"))
+        if state.get("blockedUntil"):
+            until = datetime.strptime(state["blockedUntil"], "%Y-%m-%d %H:%M KST").replace(tzinfo=KST)
+            if now < until:
+                return True
+    return now < UNLOCK_AT
 
 
 def kst_str(dt: datetime) -> str:
@@ -1373,21 +1381,22 @@ def kst_str(dt: datetime) -> str:
 
 
 def load_usage() -> list[datetime]:
-    try:
-        raw = json.loads(USAGE_PATH.read_text(encoding="utf-8"))
-        return [datetime.fromisoformat(t) for t in raw.get("requests", [])]
-    except Exception:
-        return []
+    stamps = set()
+    for path in (USAGE_PATH, ROOT / "scripts" / ".api_usage.json"):
+        if path.exists():
+            raw = json.loads(path.read_text(encoding="utf-8"))
+            stamps.update(datetime.fromisoformat(t) for t in raw.get("requests", []))
+    return sorted(stamps)
 
 
 def save_usage(stamps: list[datetime]) -> None:
-    try:
-        USAGE_PATH.write_text(
-            json.dumps({"requests": [s.astimezone(timezone.utc).isoformat() for s in stamps]}, indent=2) + "\n",
-            encoding="utf-8",
-        )
-    except Exception as exc:
-        print(f"[warn] 사용기록 저장 실패: {exc}", file=sys.stderr)
+    USAGE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = USAGE_PATH.with_suffix(".json.tmp")
+    tmp.write_text(
+        json.dumps({"requests": [s.astimezone(timezone.utc).isoformat() for s in stamps]}, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    tmp.replace(USAGE_PATH)
 
 
 def hour_window(stamps: list[datetime], now: datetime) -> list[datetime]:
@@ -1671,7 +1680,6 @@ def reconcile_from_previous(hist: dict, prev_payload: dict) -> int:
     `data/price_history.json` 을 커밋하지 못해도 이력이 계속 누적됩니다
     (추정값 없음, 실제 기록만).
     """
-    at_default = (prev_payload or {}).get("updatedAt") or ""
     deals = (prev_payload or {}).get("deals") or []
     if not deals:
         return 0
@@ -1685,8 +1693,8 @@ def reconcile_from_previous(hist: dict, prev_payload: dict) -> int:
                 probe = dict(d, productPrice=pair[1])
                 if add_observation(hist, probe, str(pair[0] or ""), "이전 deals.json 이력"):
                     restored += 1
-        elif at_default and d.get("productPrice"):
-            if add_observation(hist, d, at_default, "이전 deals.json 복원"):
+        elif d.get("lastCheckedAt") and d.get("productPrice"):
+            if add_observation(hist, d, d["lastCheckedAt"], "이전 deals.json 복원"):
                 restored += 1
     return restored
 
@@ -1789,6 +1797,7 @@ def apply_price_stats(deals: list[dict], hist: dict) -> int:
         # 관측 목록을 상품 안에도 함께 남긴다 — 워크플로가 price_history.json 을
         # 커밋하지 못해도 이력이 deals.json 과 함께 누적되게 하는 안전장치.
         obs = entry.get("observations") or []
+        d["lastCheckedAt"] = entry.get("lastAt") or d.get("lastCheckedAt")
         if obs:
             d["priceHistory"] = [[o.get("at"), o["price"]]
                                  for o in obs[-HISTORY_INLINE_MAX:] if o.get("price")]
@@ -1869,10 +1878,10 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
         if sub_id:
             params["subId"] = sub_id
         print(f"[fetch] {target['category']} · {target['query']}")
-        payload = api_get(API_PATH, params, access_key, secret_key)
         requests_made += 1
         usage.append(datetime.now(timezone.utc))
         save_usage(usage)
+        payload = api_get(API_PATH, params, access_key, secret_key)
 
         data_field = (payload or {}).get("data")
         if isinstance(data_field, dict):
@@ -1884,6 +1893,7 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
         if (payload or {}).get("rCode") not in ("0", 0):
             print(f"  - API 오류 (rCode={payload.get('rCode')}, rMessage={payload.get('rMessage')})")
             failed_categories.append(target["category"])
+            break
         if not items:
             print(f"  - 결과 없음 (rCode={payload.get('rCode')}, rMessage={payload.get('rMessage')})")
         for item in items:
@@ -1914,6 +1924,8 @@ def collect(access_key: str, secret_key: str, sub_id: str, targets: list[dict],
                 "unitPrice": round(unit_price) if unit_price else None,
                 "unitBasis": basis,
                 "packNote": pack,
+                "lastCheckedAt": kst_str(datetime.now(timezone.utc)),
+                "refreshStatus": "ok",
             })
     print(f"[info] 요청 {requests_made}회 · 신규/갱신 후보 {len(deals)}건")
     return deals, failed_categories
@@ -2058,6 +2070,12 @@ def write_json(payload: dict) -> None:
 
 
 def main(argv: list[str]) -> int:
+    # Existing scheduled callers without a discovery scope now recheck known offers.
+    discovery = any(a in ("--batch", "--only", "--wave", "--discover", "--replace", "--recompute", "--prune-only")
+                    or a.startswith(("--batch=", "--only=", "--wave=")) for a in argv)
+    if "--refresh-existing" in argv or not discovery:
+        from refresh_existing import main as refresh_main
+        return refresh_main(argv)
     global VERBOSE_CANDIDATES
     VERBOSE_CANDIDATES = "--show-candidates" in argv
     dry_run = "--dry-run" in argv
@@ -2204,4 +2222,6 @@ def main(argv: list[str]) -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
+    from refresh_existing import collection_lock
+    with collection_lock():
+        sys.exit(main(sys.argv[1:]))

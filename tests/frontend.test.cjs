@@ -1,0 +1,36 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const path = require('node:path');
+const html = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
+const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const elements = {};
+const element = id => elements[id] ||= {innerHTML:'', textContent:'', value:'', style:{}, addEventListener(){}};
+const now = Date.parse('2026-11-25T12:00:00+09:00');
+class Clock extends Date { static now(){ return now; } }
+const context = { Date:Clock, console, document:{getElementById:element}, setInterval(){}, window:{} };
+// Execute the actual production helpers before event binding.
+vm.createContext(context);
+vm.runInContext(script.slice(0, script.indexOf('  // ---------------- 30일 일별 가격 추이')) + '\n globalThis.test={state, freshness, checkedAt, cardHTML, render, renderBanner};})();', context);
+const t = context.test;
+const fresh = {productId:'1', productName:'확인된 상품', productPrice:9000, isRocket:true, unitPrice:900, lastCheckedAt:'2026-11-25 11:00 KST'};
+const stale = {...fresh, productId:'2', productName:'오래된 저가 상품', productPrice:100, unitPrice:10, lastCheckedAt:'2026-11-24 12:00 KST', discountRate:99};
+assert.equal(t.freshness(fresh).stale, false);
+assert.equal(t.freshness(stale).stale, true);
+assert.equal(t.freshness({...fresh, refreshStatus:'not_found'}).stale, true);
+assert.equal(t.freshness({...fresh, lastCheckedAt:'2026-11-26 12:00 KST'}).stale, true);
+assert.equal(t.checkedAt({priceHistory:[['2026-11-19 07:03 KST',8300]], updatedAt:'2026-11-25 12:00 KST'}), '2026-11-19 07:03 KST');
+assert.equal(t.checkedAt({updatedAt:'2026-11-25 12:00 KST'}), null);
+assert.match(t.cardHTML(stale), /24시간 지난 가격/);
+assert.doesNotMatch(t.cardHTML(stale), /평균 대비 99%/);
+assert.match(t.cardHTML(fresh), /마지막 가격 확인 · 2026-11-25 11:00 KST/);
+t.state.data = {deals:[stale, fresh], status:'ok'};
+t.render();
+assert.ok(elements.grid.innerHTML.indexOf('확인된 상품') < elements.grid.innerHTML.indexOf('오래된 저가 상품'));
+t.state.freshOnly = true;
+t.render();
+assert.doesNotMatch(elements.grid.innerHTML, /오래된 저가 상품/);
+t.renderBanner(t.state.data);
+assert.match(elements.bannerSlot.innerHTML, /최근 24시간 내 확인 1 \/ 2개/);
+assert.doesNotMatch(t.cardHTML({...fresh, productName:'<script>alert(1)</script>'}), /<script>alert/);
+console.log('Frontend: freshness, time boundary, timestamps, stale separation, filter, escaping passed');

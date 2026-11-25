@@ -90,6 +90,14 @@
   .card .status.down { color: #be123c; background: #fff1f2; }
   .card .status.up { color: var(--up); background: #fffbeb; }
   .card .status.flat { color: #475569; background: #f1f5f9; }
+  .card.stale { border-color: #e1bf83; background: #fffdf8; }
+  .card.stale .unit { color: #755b35; background: #f5eddf; }
+  .card .checked { font-size: 10.5px; line-height: 1.6; color: #475569; margin-top: 5px; }
+  .card .status.stale, .m-status.stale { color: #795119; background: #fff2d9; }
+  .freshness-heading { grid-column: 1 / -1; margin: 12px 0 2px; font-size: 13px; color: #475569; }
+  .freshness-detail { display: block; font-size: 11px; font-weight: 400; margin-top: 4px; }
+  .freshness-note { padding: 12px; margin: 8px 0 14px; background: #fff2d9; border-radius: 10px; color: #795119; font-size: 12px; }
+  .fresh-only { margin: 10px 16px; display: block; font-size: 12px; color: #475569; }
   .card .status.new { color: #1d4ed8; background: #eff6ff; }
 
   .empty { padding: 4px 16px 24px; }
@@ -228,7 +236,7 @@
   </div>
 
   <div class="toolbar">
-    <span class="scope" id="scopeBadge">🚀 로켓배송 · 단가 확인 품목만</span>
+    <span class="scope" id="scopeBadge">🚀 확인 당시 로켓배송 · 단가 확인 품목</span>
     <select id="sort" aria-label="정렬">
       <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
       <option value="discount">할인율 높은 순</option>
@@ -237,8 +245,9 @@
     </select>
   </div>
 
-  <p class="scope-note" id="scopeNote">상품명에 용량·수량이 적혀 <b>단가를 계산할 수 있는 로켓배송 품목</b>만 담았습니다.</p>
+  <p class="scope-note" id="scopeNote">상품별 <b>마지막 가격 확인 시각</b>을 확인하세요. 24시간 지난 가격과 재확인에 실패한 상품은 아래에 분리합니다. 같은 용량 단위끼리 비교하세요.</p>
 
+  <label class="fresh-only"><input type="checkbox" id="freshOnly"> 최근 24시간 내 확인한 상품만 보기</label>
   <div id="bannerSlot"></div>
 
   <div id="watchSlot"></div>
@@ -258,7 +267,7 @@
 
   <footer>
     <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다. 그래서 <b>단가를 낼 수 없는 품목은 싣지 않습니다</b>.</p>
-    <p>· <b>로켓배송 상품만</b> 담습니다. 상품명에 용량·수량이 없어 단가 계산이 안 되는 상품과 비로켓 상품은 목록에서 빠지며, 가격 기록은 다음 수집을 위해 내부에 계속 보관합니다.</p>
+    <p>· 가격을 확인했을 때 로켓배송이던 상품을 담습니다. 배송 조건 변경·검색 미발견 상품은 재확인 필요로 구분하며, 검색에 안 나왔다고 품절로 판단하지 않습니다.</p>
     <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
     <p>· <b>상품 카드를 누르면</b> <b>당일 추이</b>(오늘 시간대별)와 <b>30일 추이</b>(일별)를 탭으로 나눠 확인할 수 있습니다. 구매는 모달 안의 <b>쿠팡에서 최저가 확인 / 발주하기</b> 버튼으로 이동합니다.</p>
     <p>· 가격 배지: <b>평균 대비 N%↓</b> 누적 평균보다 낮음 · <b>평균 대비 +N%↑</b> 누적 평균보다 높음 · <b>평균가 유지</b> 평균과 같은 가격 · <b>추적 1일차</b> 관측 1회. 모든 배지는 실제로 수집된 가격 기록으로만 계산하며, 0%·가짜 정가는 표시하지 않습니다.</p>
@@ -290,7 +299,7 @@
 
 <script>
 (function () {
-  var state = { cat: "전체", q: "", sort: "unit", data: null, byId: {}, lastFocus: null };
+  var state = { freshOnly: false, cat: "전체", q: "", sort: "unit", data: null, byId: {}, lastFocus: null };
   var el = {
     q: document.getElementById("q"),
     chips: document.getElementById("chips"),
@@ -321,6 +330,23 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
+  function kstDay() { return new Date(Date.now() + 9 * 3600000).toISOString().slice(0, 10); }
+  function checkedAt(deal) {
+    var dates = [deal.lastCheckedAt];
+    (deal.priceHistory || []).forEach(function (p) { if (p && p[1]) dates.push(p[0]); });
+    return dates.filter(function (s) { return typeof s === "string" && /^\d{4}-\d{2}-\d{2} \d{2}:\d{2} KST$/.test(s); }).sort().pop() || null;
+  }
+  function freshness(deal) {
+    var at = checkedAt(deal);
+    var time = at ? Date.parse(at.replace(" KST", ":00+09:00").replace(" ", "T")) : NaN;
+    var age = Date.now() - time;
+    var messages = { not_found: "검색에서 미발견 · 품절 여부 미확인", option_mismatch: "동일 옵션 확인 필요", non_rocket: "로켓배송 조건 변경", invalid_price: "가격 확인 실패", invalid_unit: "용량·수량 확인 필요", api_error: "가격 수집 오류" };
+    var reason = messages[deal.refreshStatus] || (!Number.isFinite(age) || age < 0 ? "확인 시각 미상" : age >= DAY_MS ? "24시간 지난 가격" : "");
+    return { at: at, stale: !!reason, reason: reason };
+  }
+  function checkedText(deal) {
+    return "마지막 가격 확인 · " + (checkedAt(deal) || "기록 없음");
+  }
   function won(n) { return Number(n || 0).toLocaleString("ko-KR") + "원"; }
   function num(n) { return Number(n || 0).toLocaleString("ko-KR"); }
 
@@ -342,7 +368,9 @@
         (unlocks ? "해제 시각 " + unlocks + " · " : "") +
         "가짜 가격 대신 실제 수집이 끝난 뒤 이 자리에 표시됩니다.</span></div>";
     } else {
-      el.banner.innerHTML = "";
+      var all = (d.deals || []).filter(passesFilter);
+      var n = all.filter(function (x) { return !freshness(x).stale; }).length;
+      el.banner.innerHTML = '<div class="banner"><b>최근 24시간 내 확인 ' + n + ' / ' + all.length + '개</b><span class="sub">재확인 필요 ' + (all.length - n) + '개 · 전체 파일 갱신과 상품별 가격 확인 시각은 다릅니다.</span></div>';
     }
   }
 
@@ -382,6 +410,8 @@
   //  - 관측 1회 → 파랑(추적 1일차)
   // 가짜 할인율·가짜 정가는 만들지 않는다.
   function statusOf(deal) {
+    var fresh = freshness(deal);
+    if (fresh.stale) return { kind: "stale", text: fresh.reason };
     var avg = deal.avgPrice;
     var price = deal.productPrice;
     var cnt = countOf(deal);
@@ -410,15 +440,16 @@
     var avgLine = (deal.avgPrice && deal.priceCount)
       ? '<div class="avg">평균 <b>' + num(deal.avgPrice) + '원</b> · 최저 <b>' + num(deal.minPrice) + '원</b></div>'
       : '<div class="avg">가격 기록 수집 중</div>';
-    return '<button type="button" class="card" data-id="' + esc(deal.productId) + '" data-i="' + i + '" aria-label="' + esc(deal.productName) + ' 가격 추이 보기">' +
+    return '<button type="button" class="card' + (freshness(deal).stale ? ' stale' : '') + '" data-id="' + esc(deal.productId) + '" data-i="' + i + '" aria-label="' + esc(deal.productName) + ' 가격 추이 보기">' +
       '<div class="thumb">' +
-        (deal.isRocket ? '<span class="badge">🚀 로켓</span>' : '') +
+        (deal.isRocket ? '<span class="badge">🚀 ' + (freshness(deal).stale ? '확인 당시 로켓' : '로켓') + '</span>' : '') +
         img +
       '</div>' +
       '<div class="body">' +
         '<div class="cat">' + esc(deal.category || "") + '</div>' +
         '<div class="name">' + esc(deal.productName) + '</div>' +
-        '<div class="box' + (st.kind === "down" ? ' down' : '') + '">' + won(deal.productPrice) + '<small>상품가</small></div>' +
+        '<div class="box' + (st.kind === "down" ? ' down' : '') + '">' + won(deal.productPrice) + '<small>' + (freshness(deal).stale ? '마지막 확인가' : '확인 상품가') + '</small></div>' +
+        '<div class="checked">' + esc(checkedText(deal)) + '</div>' +
         avgLine +
         (unitText(deal) ? '<div class="unit">' + esc(unitText(deal)) + '</div>' : '') +
       '</div>' +
@@ -429,7 +460,7 @@
   function renderScope(d) {
     var all = (d && d.deals) || [];
     var hidden = all.filter(function (x) { return !passesFilter(x); }).length;
-    el.scope.innerHTML = "🚀 로켓배송 · 단가 확인 품목만" +
+    el.scope.innerHTML = "🚀 확인 당시 로켓배송 · 단가 확인 품목" +
       (hidden > 0 ? ' <span class="n">· 조건 밖 ' + hidden + '건 숨김</span>' : "");
   }
 
@@ -440,6 +471,7 @@
     var deals = all.filter(passesFilter).filter(function (x) {
       if (state.cat !== "전체" && (x.category || "") !== state.cat) return false;
       if (q && String(x.productName || "").toLowerCase().indexOf(q) === -1) return false;
+      if (state.freshOnly && freshness(x).stale) return false;
       return true;
     });
     if (state.sort === "unit") deals.sort(function (a, b) { return (a.unitPrice || 1e12) - (b.unitPrice || 1e12); });
@@ -452,7 +484,10 @@
     else if (state.sort === "price") deals.sort(function (a, b) { return (a.productPrice || 0) - (b.productPrice || 0); });
     else deals.sort(function (a, b) { return String(a.productName).localeCompare(String(b.productName), "ko"); });
 
-    el.grid.innerHTML = deals.map(cardHTML).join("");
+    var fresh = deals.filter(function (x) { return !freshness(x).stale; });
+    var stale = deals.filter(function (x) { return freshness(x).stale; });
+    el.grid.innerHTML = (fresh.length ? '<h3 class="freshness-heading">최근 24시간 내 확인 · ' + fresh.length + '개<span class="freshness-detail">확인 이후 가격은 달라질 수 있습니다.</span></h3>' + fresh.map(cardHTML).join("") : "") +
+      (stale.length ? '<h3 class="freshness-heading">재확인 필요 · ' + stale.length + '개<span class="freshness-detail">아래는 과거 확인가입니다. 현재 최저가 비교에서 제외하세요.</span></h3>' + stale.map(cardHTML).join("") : "");
     el.count.textContent = deals.length ? deals.length + "개" : "";
     if (!deals.length) {
       el.empty.style.display = "";
@@ -474,7 +509,7 @@
 
   function setStamp(d) {
     if (d && d.updatedAt) {
-      el.stamp.textContent = (d.status === "ok" ? "업데이트 " : "기준 ") + d.updatedAt;
+      el.stamp.textContent = (d.status === "ok" ? "데이터 갱신 " : "기준 ") + d.updatedAt;
     } else {
       el.stamp.textContent = "오프라인";
     }
@@ -495,7 +530,7 @@
           out.push({ d: String(a[0]), min: +a[1], max: Math.max(+a[1], +a[3]), avg: +a[2], last: +a[3], n: +a[4] || 1 });
         }
       });
-      return out.slice(-30);
+      return out.filter(function (p) { return p.d >= new Date(Date.now() + 9 * 3600000 - 29 * DAY_MS).toISOString().slice(0, 10) && p.d <= kstDay(); }).slice(-30);
     }
     if (!Array.isArray(deal.priceHistory)) return out;
     var map = {};
@@ -506,7 +541,7 @@
       if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !price) return;
       (map[day] || (map[day] = [])).push(price);
     });
-    return Object.keys(map).sort().slice(-30).map(function (day) {
+    return Object.keys(map).filter(function (day) { return day >= new Date(Date.now() + 9 * 3600000 - 29 * DAY_MS).toISOString().slice(0, 10) && day <= kstDay(); }).sort().slice(-30).map(function (day) {
       var arr = map[day];
       var sum = arr.reduce(function (s, v) { return s + v; }, 0);
       return { d: day, min: Math.min.apply(null, arr), max: Math.max.apply(null, arr), avg: Math.round(sum / arr.length), last: arr[arr.length - 1], n: arr.length };
@@ -551,7 +586,7 @@
     }
     lo = Math.floor(lo); hi = Math.ceil(hi);
     var last = days[days.length - 1].d;
-    var t1 = Date.parse(last + "T00:00:00");
+    var t1 = Date.parse(kstDay() + "T00:00:00");
     var t0 = t1 - 29 * DAY_MS;
     function xOf(iso) { return L + (Date.parse(iso + "T00:00:00") - t0) / (t1 - t0) * (W - L - R); }
     function yOf(v) { return T + (hi - v) / (hi - lo || 1) * (H - T - B); }
@@ -649,7 +684,8 @@
     });
     var keys = Object.keys(map).sort();
     if (!keys.length) return { day: null, points: [], days: 0 };
-    var day = keys[keys.length - 1];
+    var day = kstDay();
+    if (!map[day]) return { day: day, points: [], days: keys.length };
     var pts = map[day].sort(function (a, b) { return a.t < b.t ? -1 : a.t > b.t ? 1 : 0; });
     var out = [];
     pts.forEach(function (p) {
@@ -1032,7 +1068,7 @@
     var cur = deal.productPrice;
     el.sheetCat.textContent = deal.category || "";
     el.sheetTitle.textContent = deal.productName || "";
-    el.sheetNow.innerHTML = won(cur) + '<small>현재 상품가</small>';
+    el.sheetNow.innerHTML = won(cur) + '<small>마지막 확인 상품가</small>';
 
     if (deal.productUrl) {
       el.sheetCta.href = deal.productUrl;
@@ -1049,11 +1085,11 @@
     // 당일 관측이 2회 이상이면 첫 화면을 '당일 추이'로, 아니면 '30일 추이'로 연다.
     var def = intra.points.length >= 2 ? "intraday" : "daily";
 
-    var html = '';
+    var html = '<div class="freshness-note">' + esc(checkedText(deal)) + '<br>' + esc(freshness(deal).stale ? freshness(deal).reason + ' · 현재 구매 가격은 쿠팡에서 확인하세요.' : '확인 이후 가격·배송 조건은 달라질 수 있습니다.') + '</div>';
     html += '<div class="m-meta"><span class="m-status ' + st.kind + '">' + esc(st.text) + '</span><span class="m-track">' + esc(track) + '</span></div>';
 
     html += '<div class="m-stats">' +
-      '<div class="m-stat cur"><span class="k">현재가</span><span class="v">' + num(cur) + '원</span></div>' +
+      '<div class="m-stat cur"><span class="k">마지막 확인가</span><span class="v">' + num(cur) + '원</span></div>' +
       '<div class="m-stat"><span class="k">30일 평균</span><span class="v">' + (stats.avg ? num(stats.avg) + '원' : '-') + '</span></div>' +
       '<div class="m-stat low"><span class="k">30일 최저</span><span class="v">' + (stats.min ? num(stats.min) + '원' : '-') + '</span></div>' +
       '<div class="m-stat"><span class="k">30일 최고</span><span class="v">' + (stats.max ? num(stats.max) + '원' : '-') + '</span></div>' +
@@ -1146,6 +1182,9 @@
     state.cat = btn.dataset.cat;
     render();
   });
+  document.getElementById("freshOnly").addEventListener("change", function (e) { state.freshOnly = e.target.checked; render(); });
+  // Expiry changes while the page is open too.
+  setInterval(function () { if (state.data) { renderBanner(state.data); render(); } }, 60000);
   el.sort.addEventListener("change", function () { state.sort = el.sort.value; render(); });
   el.q.addEventListener("input", function () { state.q = el.q.value; render(); });
 

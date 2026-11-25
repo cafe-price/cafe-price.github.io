@@ -8,26 +8,26 @@
 
 > 이 페이지의 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
 
-## 운영 방식 (현재)
+## 운영 방식 (2026-11-25 수정)
 
-`deals.json` 은 **별도 스케줄러**가 갱신합니다. 저장소 연결 권한에 `workflows` / `secrets` / `pages` 권한이 없어
-워크플로 파일과 시크릿은 GitHub 웹에서 직접 1회 등록해야 합니다.
+현재 수집은 피클/ChatGPT 예약 작업에서 실행합니다. 정기 작업은 최신 main을 받아 다음 명령을 실행해야 합니다.
 
-- 워크플로 원본: `automation/update-deals.yml` → GitHub 웹에서 `.github/workflows/update-deals.yml` 로 복사하면 활성화
-- 필요한 Secrets: `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` (Settings → Secrets and variables → Actions)
+```bash
+python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 8
+```
 
-## 데이터 갱신
+- 기본 실행도 기존 상품 재확인입니다. 신규 키워드 확장은 `--discover` 또는 `--wave`/`--only`로 명시한 경우에만 합니다.
+- 성공적으로 확인한 가격 시각 `lastCheckedAt`과 검색 시도 시각 `lastAttemptAt`은 별개입니다. 과거 데이터는 실제 `priceHistory`에서만 확인 시각을 복원합니다.
+- 화면은 24시간 미만의 관측가를 먼저 보여주며, 오래된 가격·재확인 실패 상품은 별도 영역으로 분리하고 할인 강조를 제거합니다. 최근 24시간 확인 상품만 보는 필터도 있습니다.
+- 재확인은 오래 기다린 상품부터 진행하며 상품명/기존 검색어를 번갈아 사용합니다. 같은 productId와 판매 옵션이 확인된 경우만 가격·단가·이력을 갱신합니다. 다른 기존 상품이 함께 검색되면 그것도 갱신하지만, 무관한 신규 상품은 늘리지 않습니다.
+- 검색 미발견, 다른 옵션, 비로켓, 가격/단가 확인 실패, API 오류를 별도 상태로 남깁니다. 미발견을 품절로 단정하지 않습니다. 실패 상품도 6/12/24시간 후 다시 대기열에 들어가며 영구 제외하지 않습니다.
+- 호출 상한은 최근 60분 9회, 요청 간격은 최소 8초입니다. HTTP 오류도 호출로 계산합니다. 403/429 응답 시 24시간 이상 쿨다운을 기록합니다.
+- `deals.json`, `data/price_history.json`, `data/refresh_state.json`, `data/api_usage.json`을 **함께 커밋**해야 다음 실행이 대기열과 사용량을 이어받습니다. 마지막 두 파일에는 비밀키가 없습니다.
+- 여러 환경에서 같은 키로 호출하면 최신 사용기록을 공유하고 작업을 직렬화해야 합니다. 저장소 밖 검색 호출은 `--assume-used N`으로 합산합니다. 호출 수는 갱신 상품 수가 아니며 모든 상품의 일일 갱신을 보장하지 않습니다.
+- `freshnessStats`와 `refreshRun`으로 최근 24시간 확인 수, 재확인 필요 수, 실제 관측 수를 확인합니다. 웹 화면의 신선도는 브라우저 시각 기준으로 다시 계산합니다.
+- `automation/update-deals.yml`은 GitHub Actions로 옮길 때 쓰는 **비활성 예제**입니다. 피클 예약 작업과 동시에 활성화하지 않습니다.
 
-`deals.json` 은 쿠팡 파트너스 오픈 API(`/v2/products/search`)로 수집해 GitHub Actions 가 자동 커밋합니다.
-
-| 항목 | 값 |
-| --- | --- |
-| 실행 시각 | 매일 07:00 KST (`cron: '0 22 * * *'`) + 수동 실행(`workflow_dispatch`) |
-| 수집 카테고리 | 우유·대체유, 원두, 시럽·소스, 파우더, 과일·베이스, 당류·토핑, 크림·연유, 베이킹 재료, 티·탄산수, 컵·뚜껑, 빨대·홀더, 매장소모품 (12개) |
-| 호출 한도 | 시간당 최대 9회(상한 10회) — `--batch`/`--only`/`--wave`로 4~8회씩 분할 수집 |
-| 요청 간격 | 8초 (`SAFE_INTERVAL_SEC`) |
-| 비밀값 | `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY` — GitHub Actions Secrets 에만 저장 |
-| 가격 이력 | `data/price_history.json` — 상품별로 실제 관측된 가격만 누적(추정·보간 없음) |
+검증: `python -m unittest discover -s tests -v`, `node tests/frontend.test.cjs`, `python scripts/fetch_cafe_deals.py --refresh-existing --dry-run`.
 
 ## 노출 필터 (로켓배송 + 단가 확인)
 
@@ -80,4 +80,4 @@ python -m http.server 8000                        # 사이트 미리보기 (http
 ```
 
 수집 결과는 `productId` 기준으로 기존 `deals.json` 과 병합됩니다(`--replace` 로 전체 교체).
-호출 시각은 `scripts/.api_usage.json` 에 기록되어 최근 1시간 9회를 넘으면 자동 중단합니다.
+호출 시각은 `data/api_usage.json` 에 기록되어 최근 1시간 9회를 넘으면 자동 중단합니다.
