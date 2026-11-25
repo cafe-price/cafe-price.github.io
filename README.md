@@ -10,7 +10,13 @@
 
 ## 운영 방식 (2026-11-25 수정)
 
-현재 수집은 피클/ChatGPT 예약 작업에서 실행합니다. 정기 작업은 최신 main을 받아 다음 명령을 실행해야 합니다.
+GitHub Actions 워크플로 `.github/workflows/update-deals.yml`을 설치했습니다. 매시간 17분에 예약되며 GitHub 사정에 따라 지연될 수 있습니다. PC나 AI 실행은 필요하지 않습니다.
+
+수집은 저장소 변수 `CAFE_PRICE_SCHEDULER_ENABLED`가 `true`일 때만 실행됩니다. 키 등록과 기존 피클 예약 중지를 확인하기 전에는 이 변수를 활성화하지 않습니다.
+
+필수 저장소 Secrets: `COUPANG_ACCESS_KEY`, `COUPANG_SECRET_KEY`. 활성화 후 수동 실행에서 1회 조회로 연결을 먼저 확인합니다.
+
+정기 작업은 최신 main을 받아 다음 명령을 실행합니다.
 
 ```bash
 python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 8
@@ -25,7 +31,7 @@ python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 8
 - `deals.json`, `data/price_history.json`, `data/refresh_state.json`, `data/api_usage.json`을 **함께 커밋**해야 다음 실행이 대기열과 사용량을 이어받습니다. 마지막 두 파일에는 비밀키가 없습니다.
 - 여러 환경에서 같은 키로 호출하면 최신 사용기록을 공유하고 작업을 직렬화해야 합니다. 저장소 밖 검색 호출은 `--assume-used N`으로 합산합니다. 호출 수는 갱신 상품 수가 아니며 모든 상품의 일일 갱신을 보장하지 않습니다.
 - `freshnessStats`와 `refreshRun`으로 최근 24시간 확인 수, 재확인 필요 수, 실제 관측 수를 확인합니다. 웹 화면의 신선도는 브라우저 시각 기준으로 다시 계산합니다.
-- `automation/update-deals.yml`은 GitHub Actions로 옮길 때 쓰는 **비활성 예제**입니다. 피클 예약 작업과 동시에 활성화하지 않습니다.
+- `automation/update-deals.yml`은 활성 워크플로의 참고 사본입니다. 피클 예약 작업과 동시에 수집하지 않습니다. 수집 결과 커밋 후 같은 워크플로에서 GitHub Pages를 직접 배포하며, 화면 코드 push도 배포합니다. GitHub Pages Source는 GitHub Actions를 사용합니다.
 
 검증: `python -m unittest discover -s tests -v`, `node tests/frontend.test.cjs`, `python scripts/fetch_cafe_deals.py --refresh-existing --dry-run`.
 
