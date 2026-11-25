@@ -73,6 +73,102 @@
       "query": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄 1kg 5개",
       "status": "invalid_unit",
       "consecutiveMisses": 1
+    },
+    "9683639291": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "테이크아웃 아이스컵",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "8631440572": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8832698072": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "얼터너티브데어리 호주 귀리 음료 바리스타 오트 2개 1L",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "5508832151": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "박력분 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "8676888174": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6702238120": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "토스키 레몬 시럽 1L 2개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "6346773861": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6702281973": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6702258615": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6523554795": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "토스키 시럽",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9493852898": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "7278937307": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6702247311": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "토스키 바나나 시럽 1L 3개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "6138625780": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "버터 450g",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9486958624": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8803611137": {
+      "lastAttemptAt": "2026-11-26 02:23 KST",
+      "attempts": 1,
+      "query": "베이킹&토핑 미니 마쉬멜로 1개 500g",
+      "status": "ok",
+      "consecutiveMisses": 0
     }
   },
   "metrics": {
@@ -95,6 +191,120 @@
         "status": "invalid_unit",
         "observedIds": [],
         "newTodayIds": []
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "테이크아웃 아이스컵",
+        "strategy": "group",
+        "targetId": "9683639291",
+        "status": "ok",
+        "observedIds": [
+          "8631440572",
+          "9683639291"
+        ],
+        "newTodayIds": [
+          "8631440572",
+          "9683639291"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "얼터너티브데어리 호주 귀리 음료 바리스타 오트 2개 1L",
+        "strategy": "individual",
+        "targetId": "8832698072",
+        "status": "ok",
+        "observedIds": [
+          "8832698072"
+        ],
+        "newTodayIds": [
+          "8832698072"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "박력분 1kg",
+        "strategy": "group",
+        "targetId": "5508832151",
+        "status": "not_found",
+        "observedIds": [
+          "8676888174"
+        ],
+        "newTodayIds": [
+          "8676888174"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "토스키 레몬 시럽 1L 2개",
+        "strategy": "individual",
+        "targetId": "6702238120",
+        "status": "ok",
+        "observedIds": [
+          "6346773861",
+          "6702238120",
+          "6702258615",
+          "6702281973"
+        ],
+        "newTodayIds": [
+          "6346773861",
+          "6702238120",
+          "6702258615",
+          "6702281973"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "토스키 시럽",
+        "strategy": "group",
+        "targetId": "6523554795",
+        "status": "not_found",
+        "observedIds": [
+          "7278937307",
+          "9493852898"
+        ],
+        "newTodayIds": [
+          "7278937307",
+          "9493852898"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "토스키 바나나 시럽 1L 3개",
+        "strategy": "individual",
+        "targetId": "6702247311",
+        "status": "ok",
+        "observedIds": [
+          "6702247311"
+        ],
+        "newTodayIds": [
+          "6702247311"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "버터 450g",
+        "strategy": "group",
+        "targetId": "6138625780",
+        "status": "not_found",
+        "observedIds": [
+          "9486958624"
+        ],
+        "newTodayIds": [
+          "9486958624"
+        ]
+      },
+      {
+        "at": "2026-11-26 02:23 KST",
+        "query": "베이킹&토핑 미니 마쉬멜로 1개 500g",
+        "strategy": "individual",
+        "targetId": "8803611137",
+        "status": "ok",
+        "observedIds": [
+          "8803611137"
+        ],
+        "newTodayIds": [
+          "8803611137"
+        ]
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 14:51 KST",
+  "updatedAt": "2026-11-26 02:23 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -445,7 +445,7 @@
       "vendorItemId": "89277442013"
     },
     "8631440572": {
-      "productName": "아이팩피앤디 92파이 14온스 PET 아이스컵 국산 투명, 1박스, 420ml, 1000개",
+      "productName": "아이팩피앤디 92파이 14온스 PET 아이스컵 국산 투명",
       "category": "컵·뚜껑",
       "observations": [
         {
@@ -482,14 +482,19 @@
           "at": "2026-11-18 12:50 KST",
           "price": 44170,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 44170,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 44170,
       "minPrice": 44170,
       "maxPrice": 44170,
       "lastPrice": 44170,
-      "lastAt": "2026-11-18 12:50 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -514,9 +519,17 @@
           44170,
           44170,
           1
+        ],
+        [
+          "2026-11-26",
+          44170,
+          44170,
+          44170,
+          44170,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "94994306713"
     },
     "8887691390": {
@@ -741,7 +754,7 @@
       "vendorItemId": "95631272883"
     },
     "9683639291": {
-      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵, 1박스, 100개, 470ml",
+      "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵",
       "category": "컵·뚜껑",
       "observations": [
         {
@@ -768,14 +781,19 @@
           "at": "2026-11-16 15:15 KST",
           "price": 8980,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 8080,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 5,
-      "avgPrice": 8980,
-      "minPrice": 8980,
+      "priceCount": 6,
+      "avgPrice": 8830,
+      "minPrice": 8080,
       "maxPrice": 8980,
-      "lastPrice": 8980,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 8080,
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -784,9 +802,17 @@
           8980,
           8980,
           5
+        ],
+        [
+          "2026-11-26",
+          8080,
+          8080,
+          8080,
+          8080,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "95888242385"
     },
     "9593716376": {
@@ -3774,21 +3800,26 @@
       "vendorItemId": "75020253069"
     },
     "8832698072": {
-      "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트, 2개, 1L",
+      "productName": "얼터너티브데어리 호주 귀리 음료 바리스타 오트",
       "category": "우유·대체유",
       "observations": [
         {
           "at": "2026-11-16 15:15 KST",
           "price": 14480,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 12700,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 14480,
-      "minPrice": 14480,
+      "priceCount": 2,
+      "avgPrice": 13590,
+      "minPrice": 12700,
       "maxPrice": 14480,
-      "lastPrice": 14480,
-      "lastAt": "2026-11-16 15:15 KST",
+      "lastPrice": 12700,
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -3797,9 +3828,17 @@
           14480,
           14480,
           1
+        ],
+        [
+          "2026-11-26",
+          12700,
+          12700,
+          12700,
+          12700,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "96064551674"
     },
     "8157287216": {
@@ -7492,14 +7531,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 75000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 75000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 75000,
       "minPrice": 75000,
       "maxPrice": 75000,
       "lastPrice": 75000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7508,9 +7552,17 @@
           75000,
           75000,
           1
+        ],
+        [
+          "2026-11-26",
+          75000,
+          75000,
+          75000,
+          75000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "86555208044"
     },
     "6702247311": {
@@ -7521,14 +7573,19 @@
           "at": "2026-11-16 16:51 KST",
           "price": 45000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 45000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 45000,
       "minPrice": 45000,
       "maxPrice": 45000,
       "lastPrice": 45000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7537,27 +7594,40 @@
           45000,
           45000,
           1
+        ],
+        [
+          "2026-11-26",
+          45000,
+          45000,
+          45000,
+          45000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "85929489253"
     },
     "6702238120": {
-      "productName": "토스키 레몬 시럽, 1L, 2개",
+      "productName": "토스키 레몬 시럽",
       "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-16 16:51 KST",
           "price": 30000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 29000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 30000,
-      "minPrice": 30000,
+      "priceCount": 2,
+      "avgPrice": 29500,
+      "minPrice": 29000,
       "maxPrice": 30000,
-      "lastPrice": 30000,
-      "lastAt": "2026-11-16 16:51 KST",
+      "lastPrice": 29000,
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7566,9 +7636,17 @@
           30000,
           30000,
           1
+        ],
+        [
+          "2026-11-26",
+          29000,
+          29000,
+          29000,
+          29000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "85929488992"
     },
     "8438651907": {
@@ -7787,14 +7865,19 @@
           "at": "2026-11-25 13:05 KST",
           "price": 5740,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 5740,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 5740,
       "minPrice": 5740,
       "maxPrice": 5740,
       "lastPrice": 5740,
-      "lastAt": "2026-11-25 13:05 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7827,9 +7910,17 @@
           5740,
           5740,
           1
+        ],
+        [
+          "2026-11-26",
+          5740,
+          5740,
+          5740,
+          5740,
+          1
         ]
       ],
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "vendorItemId": "92182810521"
     },
     "8904493551": {
@@ -7880,21 +7971,26 @@
       "vendorItemId": "91700163454"
     },
     "7278937307": {
-      "productName": "토스키 피치 시럽, 1L, 1개",
+      "productName": "토스키 피치 시럽",
       "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-16 16:52 KST",
           "price": 16000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 16000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 16000,
       "minPrice": 16000,
       "maxPrice": 16000,
       "lastPrice": 16000,
-      "lastAt": "2026-11-16 16:52 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -7903,9 +7999,17 @@
           16000,
           16000,
           1
+        ],
+        [
+          "2026-11-26",
+          16000,
+          16000,
+          16000,
+          16000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "70599790721"
     },
     "6523554795": {
@@ -8022,21 +8126,26 @@
       "vendorItemId": "94887955577"
     },
     "8803611137": {
-      "productName": "베이킹&토핑 미니 마쉬멜로, 1개, 500g",
+      "productName": "베이킹&토핑 미니 마쉬멜로",
       "category": "당류·토핑",
       "observations": [
         {
           "at": "2026-11-16 16:52 KST",
           "price": 6500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 5850,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 6500,
-      "minPrice": 6500,
+      "priceCount": 2,
+      "avgPrice": 6175,
+      "minPrice": 5850,
       "maxPrice": 6500,
-      "lastPrice": 6500,
-      "lastAt": "2026-11-16 16:52 KST",
+      "lastPrice": 5850,
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8045,9 +8154,17 @@
           6500,
           6500,
           1
+        ],
+        [
+          "2026-11-26",
+          5850,
+          5850,
+          5850,
+          5850,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "92717459641"
     },
     "7243710171": {
@@ -8708,14 +8825,19 @@
           "at": "2026-11-16 18:02 KST",
           "price": 9980,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 9980,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 9980,
       "minPrice": 9980,
       "maxPrice": 9980,
       "lastPrice": 9980,
-      "lastAt": "2026-11-16 18:02 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -8724,9 +8846,17 @@
           9980,
           9980,
           1
+        ],
+        [
+          "2026-11-26",
+          9980,
+          9980,
+          9980,
+          9980,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "95204464339"
     },
     "9192487825": {
@@ -12342,21 +12472,26 @@
       "vendorItemId": "5348415946"
     },
     "9493852898": {
-      "productName": "토스키 카라멜 시럽 750ml, 1개, 750ml",
+      "productName": "토스키 카라멜 시럽 750ml",
       "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 02:12 KST",
           "price": 9500,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 9500,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 9500,
       "minPrice": 9500,
       "maxPrice": 9500,
       "lastPrice": 9500,
-      "lastAt": "2026-11-17 02:12 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -12365,9 +12500,17 @@
           9500,
           9500,
           1
+        ],
+        [
+          "2026-11-26",
+          9500,
+          9500,
+          9500,
+          9500,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "95588082320"
     },
     "7973180924": {
@@ -15417,21 +15560,26 @@
       "vendorItemId": "91934346375"
     },
     "6346773861": {
-      "productName": "토스키 바닐라 시럽, 1L, 2개",
+      "productName": "토스키 바닐라 시럽",
       "category": "시럽·소스",
       "observations": [
         {
           "at": "2026-11-17 13:10 KST",
           "price": 27800,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 27800,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 27800,
       "minPrice": 27800,
       "maxPrice": 27800,
       "lastPrice": 27800,
-      "lastAt": "2026-11-17 13:10 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -15440,9 +15588,17 @@
           27800,
           27800,
           1
+        ],
+        [
+          "2026-11-26",
+          27800,
+          27800,
+          27800,
+          27800,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "85895966344"
     },
     "8769009663": {
@@ -16083,14 +16239,19 @@
           "at": "2026-11-17 16:49 KST",
           "price": 145000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 02:23 KST",
+          "price": 145000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 145000,
       "minPrice": 145000,
       "maxPrice": 145000,
       "lastPrice": 145000,
-      "lastAt": "2026-11-17 16:49 KST",
+      "lastAt": "2026-11-26 02:23 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16099,9 +16260,17 @@
           145000,
           145000,
           1
+        ],
+        [
+          "2026-11-26",
+          145000,
+          145000,
+          145000,
+          145000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "96120147678"
     },
     "6175779044": {
