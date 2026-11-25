@@ -249,10 +249,6 @@
 
   <label class="fresh-only"><input type="checkbox" id="freshOnly"> 최근 24시간 내 확인한 상품만 보기</label>
   <div id="bannerSlot"></div>
-  <details class="freshness-note" id="coveragePanel">
-    <summary id="coverageTitle">오늘 가격 확인 현황</summary>
-    <div id="coverageBody"></div>
-  </details>
 
   <div id="watchSlot"></div>
 
@@ -372,27 +368,8 @@
         (unlocks ? "해제 시각 " + unlocks + " · " : "") +
         "가짜 가격 대신 실제 수집이 끝난 뒤 이 자리에 표시됩니다.</span></div>";
     } else {
-      var all = (d.deals || []).filter(passesFilter);
-      var n = all.filter(function (x) { return !freshness(x).stale; }).length;
-      el.banner.innerHTML = '<div class="banner"><b>최근 24시간 내 확인 ' + n + ' / ' + all.length + '개</b><span class="sub">재확인 필요 ' + (all.length - n) + '개 · 전체 파일 갱신과 상품별 가격 확인 시각은 다릅니다.</span></div>';
+      el.banner.innerHTML = "";
     }
-  }
-
-  function confirmedOn(deal, day) {
-    return (checkedAt(deal) || "").slice(0, 10) === day ||
-      (deal.priceHistory || []).some(function (p) { return p[1] > 0 && String(p[0]).slice(0, 10) === day; }) ||
-      (deal.dailyHistory || []).some(function (p) { return p[0] === day && p[5] > 0; });
-  }
-  function renderCoverage(d) {
-    var all = (d.deals || []).filter(passesFilter), day = kstDay();
-    var count = all.filter(function (x) { return confirmedOn(x, day); }).length;
-    document.getElementById("coverageTitle").textContent = "오늘 가격 확인 " + count + " / " + all.length + "개 · " + (all.length ? (count * 100 / all.length).toFixed(1) : "0") + "%";
-    var coverage = d.coverage || {}, rows = coverage.daily || [];
-    document.getElementById("coverageBody").innerHTML = '<p>한국시간 ' + esc(day) + ' 기준 · 같은 상품은 하루 한 번만 셉니다. 가격이 그대로여도 실제 확인한 경우 포함합니다.</p>' +
-      rows.map(function (r) { return '<p>' + esc(r.date) + ': ' + num(r.confirmed) + '/' + num(r.total) + '개 (' + esc(r.percent) + '%) · 측정 검색 ' + num(r.requests) + '회' + (r.partial ? ' · 부분 집계' : '') + '</p>'; }).join('') +
-      '<p>검색 성과 측정 시작: ' + esc(coverage.measurementStartedAt || '다음 자동 수집부터') + ' · 첫날과 오늘은 부분 집계입니다. 집계 시각: ' + esc(coverage.generatedAt || '대기 중') + '</p>' +
-      '<p>열어 둔 목록은 1분마다 새 데이터를 확인합니다. 상품 상세창을 닫으면 다음 확인 때 반영됩니다.</p>' +
-      '<a href="./coverage-report.json" target="_blank" rel="noopener">날짜별 확인률·누락 상품 상세 기록 보기</a>';
   }
 
   function renderWatch(d) {
@@ -1248,7 +1225,6 @@
       (d.deals || []).forEach(function (x) { state.byId[String(x.productId)] = x; });
       setStamp(d);
       renderBanner(d);
-      renderCoverage(d);
       renderWatch(d);
       renderScope(d);
       render();
@@ -1257,7 +1233,6 @@
       if (state.data && state.data.status === "ok") {
         el.stamp.textContent = "새 데이터 연결 지연 · 마지막 수신 목록 표시 중";
         renderBanner(state.data);
-        renderCoverage(state.data);
         render();
         return;
       }

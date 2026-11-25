@@ -11,7 +11,7 @@ class Clock extends Date { static now(){ return now; } }
 const context = { Date:Clock, console, document:{getElementById:element}, setInterval(){}, window:{} };
 // Execute the actual production helpers before event binding.
 vm.createContext(context);
-vm.runInContext(script.slice(0, script.indexOf('  // ---------------- 30일 일별 가격 추이')) + '\n globalThis.test={state, freshness, checkedAt, cardHTML, render, renderBanner, confirmedOn, renderCoverage};})();', context);
+vm.runInContext(script.slice(0, script.indexOf('  // ---------------- 30일 일별 가격 추이')) + '\n globalThis.test={state, freshness, checkedAt, cardHTML, render, renderBanner};})();', context);
 const t = context.test;
 const fresh = {productId:'1', productName:'확인된 상품', productPrice:9000, isRocket:true, unitPrice:900, lastCheckedAt:'2026-11-25 11:00 KST'};
 const stale = {...fresh, productId:'2', productName:'오래된 저가 상품', productPrice:100, unitPrice:10, lastCheckedAt:'2026-11-24 12:00 KST', discountRate:99};
@@ -31,13 +31,8 @@ t.state.freshOnly = true;
 t.render();
 assert.doesNotMatch(elements.grid.innerHTML, /오래된 저가 상품/);
 t.renderBanner(t.state.data);
-assert.match(elements.bannerSlot.innerHTML, /최근 24시간 내 확인 1 \/ 2개/);
+assert.equal(elements.bannerSlot.innerHTML, "");
 assert.doesNotMatch(t.cardHTML({...fresh, productName:'<script>alert(1)</script>'}), /<script>alert/);
-t.renderCoverage(t.state.data);
-assert.match(elements.coverageTitle.textContent, /오늘 가격 확인 1 \/ 2개 · 50.0%/);
-assert.equal(t.confirmedOn(stale, '2026-11-25'), false);
-assert.equal(t.confirmedOn({...fresh, priceHistory:[['2026-11-24 12:00 KST', 9000]]}, '2026-11-24'), true);
-assert.equal(t.confirmedOn({dailyHistory:[['2026-11-24', 9000, 9000, 9000, 9000, 1]]}, '2026-11-24'), true);
 console.log('Frontend: freshness, time boundary, timestamps, stale separation, filter, escaping passed');
 
 async function testPolling() {
@@ -45,7 +40,7 @@ async function testPolling() {
   let next = {status:'ok', deals:[fresh]}, calls = 0, fail = false;
   const polling = {state:model, el:{stamp:{}}, Date:Clock,
     fetch: async () => { calls++; if (fail) throw new Error('offline'); return {ok:true,json:async()=>next}; },
-    setStamp(){},renderBanner(){},renderCoverage(){},renderWatch(){},renderScope(){},render(){}};
+    setStamp(){},renderBanner(){},renderWatch(){},renderScope(){},render(){}};
   vm.createContext(polling);
   const start = script.indexOf('  var loadingData = false;');
   vm.runInContext(script.slice(start, script.lastIndexOf('  refreshData();')) + '\nglobalThis.load=refreshData;', polling);

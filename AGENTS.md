@@ -13,3 +13,5 @@
 - 2026-11-25 일일 확인률 측정: 상품은 줄이지 않는다. 한국시간 오늘 확인한 상품은 중복 목표에서 제외하고, 공동 검색어 탐색과 개별 검색을 번갈아 실행한다. 같은 검색어는 정상 응답 후 당일 재사용하지 않는다. 정확한 판매 옵션 매칭은 유지한다.
 - 검색별 호출·관측·오늘 최초 확인 ID는 `refresh_state.json`의 `metrics`에 31일간 보존한다. 첫날·오늘은 부분 집계이며, 측정 이전 호출 수는 추정하지 않는다. `python scripts/report_coverage.py`로 API 호출 없이 날짜별 확인률, 검색 효율, 72시간 이상 미확인 및 2개 이상 날짜에서 실패한 상품을 분석한다. `data/coverage_report.json`도 함께 커밋한다.
 - 검증: `python -m unittest discover -s tests -v`, `node tests/frontend.test.cjs`, `python scripts/fetch_cafe_deals.py --refresh-existing --dry-run`.
+
+- 사용자 요청: 고객용 사이트에 확인 개수·비율 배너, 오늘 확인률, 운영 측정 보고서를 표시하지 않는다. 운영 통계는 저장소 및 Actions 기록에 남기고 상품별 확인 시각과 오래된 가격 구분은 유지한다.

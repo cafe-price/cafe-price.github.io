@@ -104,7 +104,6 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html dm.html deals.json _site/
-          cp data/coverage_report.json _site/coverage-report.json
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -39,7 +39,7 @@ python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 8
 - 정확한 상품·판매 옵션이 일치할 때만 가격을 기록합니다. 가격이 같아도 확인 이력은 남기고, 검색 미발견은 품절로 단정하지 않습니다.
 - `refresh_state.json`의 `metrics`는 검색별 전략·실제 확인 상품·오늘 최초 확인 상품·실패 사유를 기록합니다. 31일 보존하며 과거 호출 횟수를 만들어 채우지 않습니다.
 - `python scripts/report_coverage.py`는 API 호출 없이 최근 3일의 일일 고유 확인 상품 수와 검색 효율, 72시간 이상 미확인 및 2개 이상 날짜에서 반복 실패한 상품을 `data/coverage_report.json`에 저장합니다. 전체 일일 확인 수는 실제 가격 이력 기준이고, 검색 횟수·효율은 측정 시작 이후만 계산합니다. 첫날과 오늘은 부분 집계입니다.
-- Actions 실행 요약과 `coverage-report` 아티팩트, 사이트의 “오늘 가격 확인” 상세에서 결과를 확인합니다. 오늘은 2026-11-25부터 부분 측정하며 11월 28일에는 26~27일의 두 종일 결과를 비교할 수 있습니다. 이 일정은 별도 알림을 예약한 것이 아닙니다.
+- 운영자는 Actions 실행 요약과 `coverage-report` 아티팩트에서 결과를 확인합니다. 고객용 사이트에는 확인률·호출 횟수·측정 보고서를 노출하지 않습니다. 오늘은 2026-11-25부터 부분 측정하며 11월 28일에는 26~27일의 두 종일 결과를 비교할 수 있습니다. 이 일정은 별도 알림을 예약한 것이 아닙니다.
 - 사이트를 열어 두면 1분마다 배포된 데이터를 다시 읽습니다. 검색·필터는 유지하고, 연결 실패 시 마지막 목록을 보존합니다. 상세창을 보는 동안에는 목록 교체를 보류합니다. 쿠팡 가격의 실시간 변경 감지를 보장하지 않습니다.
 
 검증: `python -m unittest discover -s tests -v`, `node tests/frontend.test.cjs`, `python scripts/fetch_cafe_deals.py --refresh-existing --dry-run`.
