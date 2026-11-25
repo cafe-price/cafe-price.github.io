@@ -6,6 +6,7 @@ Only an exact product/offer match advances the price observation timestamp.
 from __future__ import annotations
 
 import json
+import copy
 import os
 import re
 import sys
@@ -15,6 +16,7 @@ from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 
 import fetch_cafe_deals as core
+import refresh_metrics as metrics
 
 STATE_PATH = core.ROOT / "data" / "refresh_state.json"
 STALE_HOURS = 24
@@ -85,10 +87,13 @@ def search_query(deal, attempts):
 def plan(deals, state, limit, now):
     floor = datetime.min.replace(tzinfo=timezone.utc)
     eligible = []
+    confirmed_today = metrics.observed_ids(deals, metrics.day_key(now))
     for deal in deals:
         if not deal.get("productId") or not deal.get("productName"):
             continue
         record = state["products"].get(str(deal["productId"]), {})
+        if str(deal["productId"]) in confirmed_today and deal.get("refreshStatus", "ok") == "ok":
+            continue
         checked = parse_at(last_checked(deal))
         attempted = parse_at(record.get("lastAttemptAt"))
         # Success: at least 6h between checks. Misses: retry after 6/12/24h.
@@ -99,6 +104,31 @@ def plan(deals, state, limit, now):
         eligible.append((attempted or checked or floor, checked or floor, str(deal["productId"]), deal))
     eligible.sort(key=lambda x: x[:3])
     return [x[3] for x in eligible[:limit]]
+
+
+def choose_search(deals, state, now, used_queries, group_turn):
+    """Alternate shared original queries and exact names; never repeat a run query."""
+    candidates = plan(deals, state, len(deals), now)
+    today = metrics.day_key(now)
+    used_queries = used_queries | {r["query"] for r in state.get("metrics", {}).get("requests", [])
+                                   if r["at"].startswith(today) and r["status"] != "api_error"}
+    group_used = {r["query"] for r in state.get("metrics", {}).get("requests", [])
+                  if r["at"].startswith(today) and r["strategy"] == "group"}
+    if group_turn:
+        groups = {}
+        for d in candidates:
+            q = str(d.get("query") or "").strip()[:50].strip()
+            if q:
+                groups.setdefault(q, []).append(d)
+        for q, members in groups.items():
+            if len(members) >= 2 and q not in used_queries and q not in group_used:
+                return members[0], q, "group"
+    for d in candidates:
+        attempts = state["products"].get(str(d["productId"]), {}).get("attempts", 0)
+        for q in (search_query(d, attempts), search_query(d, 0)):
+            if q and q not in used_queries:
+                return d, q, "individual"
+    return None
 
 
 def exact_offer(stored, item):
@@ -155,13 +185,19 @@ def main(argv):
     state = load_state()
     limit = max(0, min(core.HOURLY_CAP, int(core._opt(argv, "--max-requests") or 8)))
     assume_used = max(0, int(core._opt(argv, "--assume-used") or 0))
-    targets = plan(deals, state, limit, now)
     if "--dry-run" in argv:
-        for deal in targets:
-            record = state["products"].get(str(deal["productId"]), {})
-            print(f"[plan] {deal['productId']} | {last_checked(deal)} | "
-                  f"{search_query(deal, record.get('attempts', 0))}")
-        print(f"[dry-run] 기존 상품 {len(deals)}개 중 재확인 {len(targets)}개 · API/파일 변경 없음")
+        simulated, used = copy.deepcopy(state), set()
+        count = 0
+        for slot in range(limit):
+            choice = choose_search(deals, simulated, now, used, slot % 2 == 0)
+            if not choice:
+                break
+            deal, query, strategy = choice
+            used.add(query)
+            simulated["products"].setdefault(str(deal["productId"]), {})["lastAttemptAt"] = core.kst_str(now)
+            count += 1
+            print(f"[plan] {strategy} | {deal['productId']} | {last_checked(deal)} | {query}")
+        print(f"[dry-run] 기존 상품 {len(deals)}개 · 최대 검색 {count}회 · 실제 결과에 따라 다음 대상 재선정 · API/파일 변경 없음")
         return 0
     access = os.environ.get("COUPANG_ACCESS_KEY", "").strip()
     secret = os.environ.get("COUPANG_SECRET_KEY", "").strip()
@@ -176,22 +212,27 @@ def main(argv):
     hist = core.load_history()
     core.reconcile_from_previous(hist, previous)
     attempted = refreshed = requests = 0
+    used_queries = set()
+    observed_run = set()
     had_error = False
-    for target in targets:
+    for slot in range(limit):
         now = datetime.now(timezone.utc)
-        # A preceding query may already have refreshed this target incidentally.
-        latest = state["products"].get(str(target["productId"]), {})
-        if parse_at(latest.get("lastAttemptAt")) and latest.get("status") == "ok" and now - parse_at(latest["lastAttemptAt"]) < timedelta(hours=6):
-            continue
+        choice = choose_search(deals, state, now, used_queries, slot % 2 == 0)
+        if not choice:
+            break
+        target, query, strategy = choice
         if len(core.hour_window(usage, now)) + assume_used >= core.HOURLY_CAP:
             break
         wait = core.pace_wait(usage, now)
         if wait:
             time.sleep(wait)
+        now = datetime.now(timezone.utc)
         pid = str(target["productId"])
         record = state["products"].setdefault(pid, {})
-        query = search_query(target, record.get("attempts", 0))
-        at = core.kst_str(datetime.now(timezone.utc))
+        used_queries.add(query)
+        confirmed_before = metrics.observed_ids(deals, metrics.day_key(now))
+        observed = set()
+        at = core.kst_str(now)
         record.update(lastAttemptAt=at, attempts=record.get("attempts", 0) + 1, query=query)
         target["lastAttemptAt"] = at
         attempted += 1
@@ -199,6 +240,7 @@ def main(argv):
         usage = core.hour_window(usage, datetime.now(timezone.utc))
         usage.append(datetime.now(timezone.utc))
         core.save_usage(usage)
+        event = metrics.record_request(state, now, query, strategy, pid, "interrupted", set(), set())
         save_state(state)
         requests += 1
         params = {"keyword": query, "limit": core.LIMIT}
@@ -220,7 +262,7 @@ def main(argv):
                 status = apply_result(other, items, at, hist)
                 other["refreshStatus"] = status
                 if status == "ok":
-                    refreshed += 1
+                    observed.add(str(other["productId"]))
                     state["products"].setdefault(str(other["productId"]), {}).update(
                         lastAttemptAt=at, consecutiveMisses=0, status="ok")
         except Exception as exc:
@@ -232,7 +274,10 @@ def main(argv):
         target["refreshStatus"] = result
         record.update(status=result, consecutiveMisses=0 if result == "ok" else record.get("consecutiveMisses", 0) + 1)
         if result == "ok":
-            refreshed += 1
+            observed.add(pid)
+        observed_run.update(observed)
+        refreshed = len(observed_run)
+        event.update(status=result, observedIds=sorted(observed), newTodayIds=sorted(observed - confirmed_before))
         print(f"[refresh] {pid}: {result}")
         save_state(state)
         if had_error:
@@ -249,6 +294,9 @@ def main(argv):
                         refreshRun={"requests": requests, "attempted": attempted, "refreshed": refreshed,
                                     "error": had_error},
                         priceStats={"products": len(hist["products"]), "discounts": discounts})
+        report = metrics.coverage_report(deals, state, now)
+        previous["coverage"] = {k: report[k] for k in ("generatedAt", "measurementStartedAt", "daily")}
+        previous["coverage"]["missing72HoursOrRepeated"] = len(report["missing72HoursOrRepeated"])
         if refreshed:
             previous["updatedAt"] = core.kst_str(now)
         core.write_json(previous)

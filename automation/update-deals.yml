@@ -1,4 +1,3 @@
-# Reference copy. Active workflow: .github/workflows/update-deals.yml
 name: 카페 가격 매시간 수집 및 배포
 
 on:
@@ -49,12 +48,20 @@ jobs:
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
           MAX_REQUESTS: ${{ inputs.max_requests || '8' }}
         run: python scripts/fetch_cafe_deals.py --refresh-existing --max-requests "$MAX_REQUESTS"
+      - name: 일일 확인률과 누락 상품 분석
+        if: always()
+        run: python scripts/report_coverage.py >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: coverage-report
+          path: data/coverage_report.json
       - name: 관측 및 호출 사용기록 저장
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for file in deals.json data/price_history.json data/refresh_state.json data/api_usage.json; do
+          for file in deals.json data/price_history.json data/refresh_state.json data/api_usage.json data/coverage_report.json; do
             if [ -f "$file" ]; then git add "$file"; fi
           done
           if git diff --cached --quiet; then exit 0; fi
@@ -97,6 +104,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html dm.html deals.json _site/
+          cp data/coverage_report.json _site/coverage-report.json
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
         with:
