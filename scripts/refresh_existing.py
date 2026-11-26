@@ -99,6 +99,12 @@ def collection_lock():
 
 def search_query(deal, attempts):
     name = re.sub(r"\s+", " ", deal.get("productName", "").replace(",", " ")).strip()
+    if len(name) > 50:
+        # Long marketing titles used to truncate the quantity at the end,
+        # making a different pack the top result. Keep both ends at word edges.
+        prefix = name[:30].rsplit(" ", 1)[0]
+        suffix = name[-19:].split(" ", 1)[-1]
+        name = prefix + " " + suffix
     # Retry a different query, without permanently abandoning missing offers.
     original = str(deal.get("query") or "").strip()
     return (original if attempts % 2 and original else name)[:50].strip()
@@ -158,7 +164,7 @@ def choose_search(deals, state, now, used_queries, group_turn):
                 return members[0], q, "group"
     for d in candidates:
         attempts = state["products"].get(str(d["productId"]), {}).get("attempts", 0)
-        for q in (search_query(d, attempts), search_query(d, 0)):
+        for q in (search_query(d, attempts), search_query(d, 0), str(d.get("query") or "").strip()[:50]):
             if q and q not in used_queries:
                 return d, q, "individual"
     return None

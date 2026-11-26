@@ -59,6 +59,13 @@ class RefreshTests(unittest.TestCase):
         self.assertIsNone(refresh.last_checked(deal))
         self.assertEqual(core.reconcile_from_previous(hist, {"updatedAt": "2026-11-25 12:00 KST", "deals": [deal]}), 0)
 
+    def test_long_query_keeps_pack_size_and_count(self):
+        deal = dict(offer(), productName="브랜드 " + "스페셜 고소한 신선한 맛있는 원두커피 " * 4 + "1kg, 5개")
+        q = refresh.search_query(deal, 0)
+        self.assertLessEqual(len(q), 50)
+        self.assertTrue(q.startswith("브랜드"))
+        self.assertTrue(q.endswith("1kg 5개"))
+
     def test_missing_option_identity_cannot_be_accepted(self):
         self.assertFalse(refresh.exact_offer(offer(), {"productId": "1", "productPrice": 1000}))
 
