@@ -28,7 +28,7 @@
 사용자의 2026-11-25 요청: 기존 상품 가격의 재확인을 우선하고, 상품별 마지막 확인 시각과 오래된 가격을 구분한다.
 
 - 예약은 GitHub Actions로 이전한다. 저장소 변수 `CAFE_PRICE_SCHEDULER_ENABLED=true`가 설정되면 피클/수동 정기 수집은 실행하지 않는다. 키 등록과 피클 예약 중지를 확인한 뒤에만 이 변수를 활성화한다.
-- 정기 수집은 최신 main을 가져온 뒤 `python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 600`을 한 번 실행한다. 6시간 간격(KST 03:17/09:17/15:17/21:17), 실패 포함 최근 24시간 900회, 요청 간격 8초, 최근 61초 8회 이하의 자체 제한을 적용한다.
+- 정기 수집은 최신 main을 가져온 뒤 `python scripts/fetch_cafe_deals.py --refresh-existing --max-requests 600`을 한 번 실행한다. 사용자 지정 하루 4회(KST 07:00/12:00/17:00/22:00, UTC cron `0 3,8,13,22 * * *`), 실패 포함 최근 24시간 900회, 요청 간격 8초, 최근 61초 8회 이하의 자체 제한을 적용한다.
 - 과거 notes.md의 신규 키워드 확장·미발견 상품 영구 제외 방침은 정기 수집에 적용하지 않는다. `--wave`, `--only`, `--discover`, `--replace`는 별도로 신규 수집을 요청받았을 때만 사용한다.
 - `deals.json`, `data/price_history.json`, `data/refresh_state.json`, `data/api_usage.json` 변경분을 함께 커밋·푸시한다. 사용기록은 실패한 실행에서도 보존한다. 비밀키는 커밋하거나 출력하지 않는다.
 - 정기·수동 작업은 동시에 실행하지 않는다. 동일 키를 쓰는 다른 작업의 검색 호출도 시간당 한도에 합산하며, 저장소 밖의 호출은 `--assume-used N`으로 반영한다. 다른 스케줄러를 중복 활성화하지 않는다.

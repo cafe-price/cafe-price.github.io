@@ -10,7 +10,7 @@
 
 ## 운영 방식 (2026-11-26 수정)
 
-GitHub Actions 워크플로 `.github/workflows/update-deals.yml`을 설치했습니다. 한국시간 03:17/09:17/15:17/21:17에 예약되며 GitHub 사정에 따라 지연될 수 있습니다. PC나 AI 실행은 필요하지 않습니다.
+GitHub Actions 워크플로 `.github/workflows/update-deals.yml`을 설치했습니다. 한국시간 매일 07:00/12:00/17:00/22:00, 하루 4회 예약되며 GitHub 사정에 따라 지연될 수 있습니다. PC나 AI 실행은 필요하지 않습니다.
 
 수집은 저장소 변수 `CAFE_PRICE_SCHEDULER_ENABLED`가 `true`일 때만 실행됩니다. 키 등록과 기존 피클 예약 중지를 확인하기 전에는 이 변수를 활성화하지 않습니다.
 
