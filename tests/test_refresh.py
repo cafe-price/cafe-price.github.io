@@ -119,7 +119,7 @@ class RefreshTests(unittest.TestCase):
         c = dict(b, refreshStatus="not_found")
         self.assertEqual(refresh.freshness_stats([a, b, c], now)["within24Hours"], 1)
 
-    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1):
+    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1, extra_args=None):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = Path(tmp.name)
@@ -143,8 +143,19 @@ class RefreshTests(unittest.TestCase):
                 raise error
             return response(*args) if callable(response) else response
         with patch.object(core, "api_get", side_effect=api) as mock:
-            code = refresh.main(["--max-requests", str(limit)])
+            code = refresh.main(["--max-requests", str(limit)] + (extra_args or []))
         return code, json.loads((root / "deals.json").read_text(encoding="utf-8")), refresh.load_state(), mock
+
+    def test_full_sweep_reports_every_offer_even_with_duplicate_names(self):
+        now = core.kst_str(datetime.now(timezone.utc))
+        deals = [dict(offer(str(i), str(i+10)), lastCheckedAt=now) for i in range(3)]
+        code, data, state, api = self.run_collector({"rCode": "0", "data": {"productData": []}},
+                                                   deals=deals, limit=10, extra_args=["--full-sweep"])
+        report = json.loads((core.ROOT / "data/latest_refresh_run.json").read_text(encoding="utf-8"))
+        self.assertEqual(api.call_count, 3)
+        self.assertEqual(report["stopReason"], "queue_complete")
+        self.assertEqual({r["status"] for r in report["products"]}, {"not_found"})
+        self.assertEqual((report["total"], report["confirmed"], report["unconfirmed"]), (3, 0, 3))
 
     def test_empty_response_is_persisted_without_faking_price_update(self):
         code, data, state, mock = self.run_collector({"rCode": "0", "data": {"productData": []}})
