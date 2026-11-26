@@ -22,6 +22,33 @@ def offer(pid="1", vid="11", price=8300):
 
 
 class RefreshTests(unittest.TestCase):
+    def test_success_profile_remembers_exact_url_and_survives_metric_retention(self):
+        deal = dict(offer(), productUrl="https://link.coupang.com/re/AFFSDP?pageKey=1&itemId=123&vendorItemId=11")
+        state = {"products": {}}
+        refresh.remember_success(deal, state, "proven query", "2026-11-25 12:00 KST")
+        lookup = state["products"]["1"]["lookup"]
+        self.assertEqual(lookup["canonicalUrl"], "https://www.coupang.com/vp/products/1?itemId=123&vendorItemId=11")
+        self.assertEqual(refresh.saved_queries(deal, state), ["proven query"])
+        now = datetime(2026, 12, 30, 3, tzinfo=timezone.utc)
+        self.assertEqual(refresh.choose_search([deal], state, now, set(), False)[1], "proven query")
+        self.assertEqual(refresh.saved_queries(offer(vid="22"), state), [])
+
+    def test_full_sweep_rechecks_today_but_not_already_examined_run_targets(self):
+        now = datetime(2026, 11, 26, 3, tzinfo=timezone.utc)
+        deal = dict(offer(), lastCheckedAt=core.kst_str(now))
+        state = {"products": {"1": {"lastAttemptAt": core.kst_str(now)}}}
+        self.assertIsNone(refresh.choose_search([deal], state, now, set(), False))
+        self.assertIsNotNone(refresh.choose_search([deal], state, now, set(), False, True, set()))
+        self.assertIsNone(refresh.choose_search([deal], state, now, set(), False, True, {"1"}))
+
+    def test_only_successful_observations_create_profiles_and_run_report(self):
+        code, data, state, api = self.run_collector({"rCode":"0", "data":{"productData":[offer("2", "22")] }}, deals=[offer(), offer("2", "22")])
+        self.assertNotIn("lookup", state["products"]["1"])
+        self.assertEqual(state["products"]["2"]["lookup"]["vendorItemId"], "22")
+        report=json.loads((core.ROOT / "data/latest_refresh_run.json").read_text(encoding="utf-8"))
+        self.assertTrue(report["finished"])
+        self.assertEqual((report["confirmed"], report["unconfirmed"], report["priceChanged"]), (1,1,0))
+
     def test_exact_offer_updates_price_units_history_even_if_wrong_option_first(self):
         deal = offer()
         hist = {"products": {}}

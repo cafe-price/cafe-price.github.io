@@ -12,6 +12,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 
@@ -110,7 +111,7 @@ def search_query(deal, attempts):
     return (original if attempts % 2 and original else name)[:50].strip()
 
 
-def plan(deals, state, limit, now):
+def plan(deals, state, limit, now, full_sweep=False, excluded_ids=None):
     floor = datetime.min.replace(tzinfo=timezone.utc)
     eligible = []
     confirmed_today = metrics.observed_ids(deals, metrics.day_key(now))
@@ -118,31 +119,37 @@ def plan(deals, state, limit, now):
         if not deal.get("productId") or not deal.get("productName"):
             continue
         record = state["products"].get(str(deal["productId"]), {})
-        if str(deal["productId"]) in confirmed_today and deal.get("refreshStatus", "ok") == "ok":
+        if str(deal["productId"]) in (excluded_ids or set()):
+            continue
+        if not full_sweep and str(deal["productId"]) in confirmed_today and deal.get("refreshStatus", "ok") == "ok":
             continue
         checked = parse_at(last_checked(deal))
         attempted = parse_at(record.get("lastAttemptAt"))
         # Missing offers remain eligible for a later sweep, including next day.
         delay = 4
-        if attempted and now - attempted < timedelta(hours=delay):
+        if not full_sweep and attempted and now - attempted < timedelta(hours=delay):
             continue
         eligible.append((attempted or checked or floor, checked or floor, str(deal["productId"]), deal))
     eligible.sort(key=lambda x: x[:3])
     return [x[3] for x in eligible[:limit]]
 
 
-def choose_search(deals, state, now, used_queries, group_turn):
+def choose_search(deals, state, now, used_queries, group_turn, full_sweep=False, excluded_ids=None):
     """Alternate shared original queries and exact names; never repeat a run query."""
-    candidates = plan(deals, state, len(deals), now)
+    candidates = plan(deals, state, len(deals), now, full_sweep, excluded_ids)
     today = metrics.day_key(now)
-    used_queries = used_queries | {r["query"] for r in state.get("metrics", {}).get("requests", [])
+    used_queries = used_queries | ({r["query"] for r in state.get("metrics", {}).get("requests", [])
                                    if r["at"].startswith(today) and r["status"] != "api_error"}
+                                   if not full_sweep else set())
     group_used = {r["query"] for r in state.get("metrics", {}).get("requests", [])
                   if r["at"].startswith(today) and r["strategy"] == "group"}
     if group_turn:
         # Reuse queries that actually found exact offers, not just their target.
         # The latest normal response replaces older evidence (ranking can change).
         learned = {}
+        for d in candidates:
+            for entry in saved_queries(d, state):
+                learned.setdefault(entry, set()).add(str(d["productId"]))
         for event in state.get("metrics", {}).get("requests", []):
             if event["status"] not in ("api_error", "interrupted"):
                 learned[event["query"]] = set(event["observedIds"])
@@ -164,10 +171,53 @@ def choose_search(deals, state, now, used_queries, group_turn):
                 return members[0], q, "group"
     for d in candidates:
         attempts = state["products"].get(str(d["productId"]), {}).get("attempts", 0)
-        for q in (search_query(d, attempts), search_query(d, 0), str(d.get("query") or "").strip()[:50]):
+        for q in (*saved_queries(d, state), search_query(d, attempts), search_query(d, 0), str(d.get("query") or "").strip()[:50]):
             if q and q not in used_queries:
                 return d, q, "individual"
+    # Explicit one-off audit: even duplicate listing names receive a target
+    # result. Normal schedules still never repeat a normal query the same day.
+    if full_sweep and candidates:
+        d = candidates[0]
+        return d, search_query(d, 0), "audit_duplicate"
     return None
+
+
+def saved_queries(deal, state):
+    lookup = state["products"].get(str(deal["productId"]), {}).get("lookup", {})
+    if lookup.get("vendorItemId") != core.vendor_item_id(deal):
+        return []
+    return [entry["query"] for entry in lookup.get("queries", [])]
+
+
+def remember_success(deal, state, query, at):
+    """Durable proven queries + exact IDs; a saved URL is not a price endpoint."""
+    pid, vid = str(deal["productId"]), core.vendor_item_id(deal)
+    record = state["products"].setdefault(pid, {})
+    old = record.get("lookup", {})
+    entries = old.get("queries", []) if old.get("vendorItemId") == vid else []
+    current = next((entry for entry in entries if entry["query"] == query), {})
+    entry = {"query": query, "lastSuccessAt": at, "successes": current.get("successes", 0) + 1}
+    parts = urllib.parse.parse_qs(urllib.parse.urlparse(deal.get("productUrl", "")).query)
+    item_id = parts.get("itemId", [""])[0]
+    params = {k: v for k, v in {"itemId": item_id, "vendorItemId": vid}.items() if v}
+    record["lookup"] = {"productId": pid, "vendorItemId": vid, "itemId": item_id,
+                        "productName": deal["productName"], "productUrl": deal.get("productUrl"),
+                        "canonicalUrl": f"https://www.coupang.com/vp/products/{pid}?" + urllib.parse.urlencode(params),
+                        "lastSuccessAt": at, "queries": [entry] + [e for e in entries if e["query"] != query][:4]}
+
+
+def save_run_report(deals, run, outcomes, observed, original_prices, finished=False, reason=None):
+    rows = [{"productId": str(d["productId"]), "vendorItemId": core.vendor_item_id(d),
+             "productName": d["productName"], "productUrl": d.get("productUrl"),
+             "status": "ok" if str(d["productId"]) in observed else outcomes.get(str(d["productId"]), "not_attempted"),
+             "lastCheckedAt": d.get("lastCheckedAt"), "price": d.get("productPrice"),
+             "previousPrice": original_prices[str(d["productId"])]} for d in deals]
+    report = dict(run, finished=finished, finishedAt=core.kst_str(datetime.now(timezone.utc)) if finished else None,
+                  stopReason=reason, total=len(deals), confirmed=len(observed),
+                  priceChanged=sum(r["status"] == "ok" and r["price"] != r["previousPrice"] for r in rows),
+                  unconfirmed=len(deals)-len(observed), products=rows)
+    path = core.ROOT / "data" / "latest_refresh_run.json"
+    path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def exact_offer(stored, item):
@@ -244,18 +294,21 @@ def main(argv):
     previous = core.load_previous()
     deals = previous.get("deals") or []
     state = load_state()
+    full_sweep = "--full-sweep" in argv
     limit = max(0, min(RUN_CAP, int(core._opt(argv, "--max-requests") or 600)))
     assume_used = max(0, int(core._opt(argv, "--assume-used") or 0))
     if "--dry-run" in argv:
         simulated, used = copy.deepcopy(state), set()
         count = 0
         for slot in range(limit):
-            choice = choose_search(deals, simulated, now, used, slot % 2 == 0)
+            choice = choose_search(deals, simulated, now, used, slot % 2 == 0, full_sweep,
+                                   {pid for pid, r in simulated["products"].items() if r.get("auditSelected")})
             if not choice:
                 break
             deal, query, strategy = choice
             used.add(query)
             simulated["products"].setdefault(str(deal["productId"]), {})["lastAttemptAt"] = core.kst_str(now)
+            simulated["products"][str(deal["productId"])]["auditSelected"] = True
             count += 1
             print(f"[plan] {strategy} | {deal['productId']} | {last_checked(deal)} | {query}")
         print(f"[dry-run] 기존 상품 {len(deals)}개 · 최대 검색 {count}회 · 실제 결과에 따라 다음 대상 재선정 · API/파일 변경 없음")
@@ -278,21 +331,30 @@ def main(argv):
     attempted = refreshed = requests = 0
     used_queries = set()
     observed_run = set()
+    targeted_run, outcomes_run = set(), {}
+    original_prices = {str(d["productId"]): d.get("productPrice") for d in deals}
+    run = {"startedAt": core.kst_str(now), "mode": "full_sweep" if full_sweep else "daily",
+           "githubRunId": os.environ.get("GITHUB_RUN_ID"), "requests": 0}
+    stop_reason = "request_limit"
     had_error = False
     started = time.monotonic()
     for slot in range(limit):
         if time.monotonic() - started >= 90 * 60:
+            stop_reason = "runtime_limit"
             print("[stop] Runtime budget reached; remaining offers stay queued")
             break
         now = datetime.now(timezone.utc)
-        choice = choose_search(deals, state, now, used_queries, slot % 2 == 0)
+        choice = choose_search(deals, state, now, used_queries, slot % 2 == 0, full_sweep,
+                               targeted_run | observed_run if full_sweep else None)
         if not choice:
+            stop_reason = "queue_complete"
             break
         target, query, strategy = choice
         # Outside calls conservatively consume both minute and daily headroom.
         budget_usage = retained_usage(usage, now) + [now] * assume_used
         wait = budget_wait(budget_usage, now)
         if wait is None or assume_used >= MINUTE_CAP:
+            stop_reason = "safe_budget"
             print("[skip] Safe request budget exhausted")
             break
         if wait:
@@ -307,6 +369,7 @@ def main(argv):
         record.update(lastAttemptAt=at, attempts=record.get("attempts", 0) + 1, query=query)
         target["lastAttemptAt"] = at
         attempted += 1
+        targeted_run.add(pid)
         # Reserve the request BEFORE network I/O, including failed requests.
         usage = retained_usage(usage, datetime.now(timezone.utc))
         usage.append(datetime.now(timezone.utc))
@@ -334,8 +397,10 @@ def main(argv):
                     continue
                 status = apply_result(other, items, at, hist)
                 other["refreshStatus"] = status
+                outcomes_run[str(other["productId"])] = status
                 if status == "ok":
                     observed.add(str(other["productId"]))
+                    remember_success(other, state, query, at)
                     state["products"].setdefault(str(other["productId"]), {}).update(
                         lastAttemptAt=at, consecutiveMisses=0, status="ok")
         except Exception as exc:
@@ -355,17 +420,23 @@ def main(argv):
         record.update(status=result, consecutiveMisses=0 if result == "ok" else record.get("consecutiveMisses", 0) + 1)
         if result == "ok":
             observed.add(pid)
+            remember_success(target, state, query, at)
+        outcomes_run[pid] = result
         observed_run.update(observed)
         refreshed = len(observed_run)
         event.update(status=result, observedIds=sorted(observed), newTodayIds=sorted(observed - confirmed_before))
         print(f"[refresh] {pid}: {result}; API={event['apiStatus']}; exact observations={len(observed)}")
         save_state(state)
+        run["requests"] = requests
+        save_run_report(deals, run, outcomes_run, observed_run, original_prices)
         if requests % 25 == 0:
             checkpoint(previous, deals, hist, state, requests, attempted, refreshed, had_error)
         if had_error:
+            stop_reason = "api_error"
             break
     if attempted:
         checkpoint(previous, deals, hist, state, requests, attempted, refreshed, had_error)
+    save_run_report(deals, run, outcomes_run, observed_run, original_prices, True, stop_reason)
     print(f"[done] API {requests}회 · 재확인 대상 {attempted}개 · 가격 관측 {refreshed}개")
     return 1 if had_error else 0
 

@@ -11,6 +11,10 @@ on:
         default: '600'
         type: choice
         options: ['1', '2', '4', '8', '12', '600']
+      full_sweep:
+        description: '전체 상품 1회 실측 (오늘 확인한 상품도 포함, API 안전 제한 유지)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -47,7 +51,12 @@ jobs:
           COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
           MAX_REQUESTS: ${{ inputs.max_requests || '600' }}
-        run: python scripts/fetch_cafe_deals.py --refresh-existing --max-requests "$MAX_REQUESTS"
+          FULL_SWEEP: ${{ inputs.full_sweep || 'false' }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          args=(--refresh-existing --max-requests "$MAX_REQUESTS")
+          if [ "$FULL_SWEEP" = 'true' ]; then args+=(--full-sweep); fi
+          python scripts/fetch_cafe_deals.py "${args[@]}"
       - name: 일일 확인률과 누락 상품 분석
         if: always()
         run: python scripts/report_coverage.py >> "$GITHUB_STEP_SUMMARY"
@@ -55,13 +64,15 @@ jobs:
         if: always()
         with:
           name: coverage-report
-          path: data/coverage_report.json
+          path: |
+            data/coverage_report.json
+            data/latest_refresh_run.json
       - name: 관측 및 호출 사용기록 저장
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for file in deals.json data/price_history.json data/refresh_state.json data/api_usage.json data/coverage_report.json; do
+          for file in deals.json data/price_history.json data/refresh_state.json data/api_usage.json data/coverage_report.json data/latest_refresh_run.json; do
             if [ -f "$file" ]; then git add "$file"; fi
           done
           if git diff --cached --quiet; then exit 0; fi
