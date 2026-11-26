@@ -245,7 +245,7 @@
       "consecutiveMisses": 1
     },
     "9136027887": {
-      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "lastAttemptAt": "2026-11-26 13:04 KST",
       "consecutiveMisses": 0,
       "status": "ok"
     },
@@ -303,6 +303,135 @@
       "query": "코코씸 드링킹용 코코넛 밀크 12개 1L",
       "status": "ok",
       "consecutiveMisses": 0
+    },
+    "7136551215": {
+      "lastAttemptAt": "2026-11-26 13:03 KST",
+      "attempts": 1,
+      "query": "아쌈 홍차 티백",
+      "status": "option_mismatch",
+      "consecutiveMisses": 1
+    },
+    "9585836999": {
+      "lastAttemptAt": "2026-11-26 13:03 KST",
+      "attempts": 1,
+      "query": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료 4개 1개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "8243951010": {
+      "lastAttemptAt": "2026-11-26 13:03 KST",
+      "attempts": 1,
+      "query": "꿀 1kg",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "8535145458": {
+      "lastAttemptAt": "2026-11-26 13:03 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8538114918": {
+      "lastAttemptAt": "2026-11-26 13:03 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9668226659": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "하우스클래스 2겹 대나무 키친타올 6개 150매",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "7226088126": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "페퍼민트 티백",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "7679941576": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "1918835282": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9609327067": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "위크위크 콜롬비아 디카페인 슈가케인 원두 커피 홀빈(분쇄안함) 1kg 1개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "7764496954": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "딸기 스무디 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "6942277510": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "네이쳐티 넘치는복숭아 베이스 2개 1kg",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "8873364395": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "아몬드 슬라이스 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9597907218": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "7268743119": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "윤고집 아몬드 분말 800g 1개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "400147": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "attempts": 1,
+      "query": "녹차 티백 100개입",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9651126621": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "2112264285": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "6346850048": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8582791644": {
+      "lastAttemptAt": "2026-11-26 13:04 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9434882675": {
+      "lastAttemptAt": "2026-11-26 13:05 KST",
+      "attempts": 1,
+      "query": "스페셜 블렌드 브라질 콜롬비아 에티오피아 원두커피 커피콩 맛있는 고소한 신선한 그라도스커피",
+      "status": "option_mismatch",
+      "consecutiveMisses": 1
     }
   },
   "metrics": {
@@ -593,6 +722,187 @@
         "newTodayIds": [
           "9200473378"
         ]
+      },
+      {
+        "at": "2026-11-26 13:03 KST",
+        "query": "아쌈 홍차 티백",
+        "strategy": "group",
+        "targetId": "7136551215",
+        "status": "option_mismatch",
+        "observedIds": [],
+        "newTodayIds": [],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:03 KST",
+        "query": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료 4개 1개",
+        "strategy": "individual",
+        "targetId": "9585836999",
+        "status": "ok",
+        "observedIds": [
+          "9585836999"
+        ],
+        "newTodayIds": [
+          "9585836999"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 1
+      },
+      {
+        "at": "2026-11-26 13:03 KST",
+        "query": "꿀 1kg",
+        "strategy": "group",
+        "targetId": "8243951010",
+        "status": "ok",
+        "observedIds": [
+          "8243951010",
+          "8535145458",
+          "8538114918"
+        ],
+        "newTodayIds": [
+          "8243951010",
+          "8535145458",
+          "8538114918"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "하우스클래스 2겹 대나무 키친타올 6개 150매",
+        "strategy": "individual",
+        "targetId": "9668226659",
+        "status": "ok",
+        "observedIds": [
+          "9668226659"
+        ],
+        "newTodayIds": [
+          "9668226659"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 1
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "페퍼민트 티백",
+        "strategy": "group",
+        "targetId": "7226088126",
+        "status": "not_found",
+        "observedIds": [
+          "1918835282",
+          "7679941576"
+        ],
+        "newTodayIds": [
+          "1918835282",
+          "7679941576"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "위크위크 콜롬비아 디카페인 슈가케인 원두 커피 홀빈(분쇄안함) 1kg 1개",
+        "strategy": "individual",
+        "targetId": "9609327067",
+        "status": "ok",
+        "observedIds": [
+          "9136027887",
+          "9609327067"
+        ],
+        "newTodayIds": [
+          "9609327067"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 3
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "딸기 스무디 1kg",
+        "strategy": "group",
+        "targetId": "7764496954",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": [],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "네이쳐티 넘치는복숭아 베이스 2개 1kg",
+        "strategy": "individual",
+        "targetId": "6942277510",
+        "status": "ok",
+        "observedIds": [
+          "6942277510"
+        ],
+        "newTodayIds": [
+          "6942277510"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 1
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "아몬드 슬라이스 1kg",
+        "strategy": "group",
+        "targetId": "8873364395",
+        "status": "not_found",
+        "observedIds": [
+          "9597907218"
+        ],
+        "newTodayIds": [
+          "9597907218"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "윤고집 아몬드 분말 800g 1개",
+        "strategy": "individual",
+        "targetId": "7268743119",
+        "status": "ok",
+        "observedIds": [
+          "7268743119"
+        ],
+        "newTodayIds": [
+          "7268743119"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 1
+      },
+      {
+        "at": "2026-11-26 13:04 KST",
+        "query": "녹차 티백 100개입",
+        "strategy": "group",
+        "targetId": "400147",
+        "status": "not_found",
+        "observedIds": [
+          "2112264285",
+          "6346850048",
+          "8582791644",
+          "9651126621"
+        ],
+        "newTodayIds": [
+          "2112264285",
+          "6346850048",
+          "8582791644",
+          "9651126621"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 10
+      },
+      {
+        "at": "2026-11-26 13:05 KST",
+        "query": "스페셜 블렌드 브라질 콜롬비아 에티오피아 원두커피 커피콩 맛있는 고소한 신선한 그라도스커피",
+        "strategy": "individual",
+        "targetId": "9434882675",
+        "status": "option_mismatch",
+        "observedIds": [],
+        "newTodayIds": [],
+        "apiStatus": "ok",
+        "returnedCount": 6
       }
     ]
   }
