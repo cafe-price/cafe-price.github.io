@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26 15:13 KST",
+  "generatedAt": "2026-11-27 03:29 KST",
   "measurementStartedAt": "2026-11-25 14:51 KST",
   "note": "한국시간 기준. 첫날·오늘은 부분 집계. API 횟수는 측정 시작 이후만 포함. 미발견은 품절이 아닙니다.",
   "daily": [
@@ -21,6 +21,16 @@
       "requests": 672,
       "measuredUnique": 478,
       "uniquePerRequest": 0.71,
+      "partial": false
+    },
+    {
+      "date": "2026-11-27",
+      "confirmed": 298,
+      "total": 525,
+      "percent": 56.8,
+      "requests": 244,
+      "measuredUnique": 298,
+      "uniquePerRequest": 1.22,
       "partial": true
     }
   ],
@@ -29,7 +39,7 @@
       "productId": "4975075206",
       "productName": "서울우유 멸균 흰우유, 1L, 10개",
       "lastCheckedAt": "2026-11-17 03:14 KST",
-      "hoursSinceCheck": 228.0,
+      "hoursSinceCheck": 240.3,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -38,17 +48,8 @@
       "productId": "8989596765",
       "productName": "에이투밀크 멸균우유, 1L, 1개",
       "lastCheckedAt": "2026-11-18 10:47 KST",
-      "hoursSinceCheck": 196.4,
+      "hoursSinceCheck": 208.7,
       "status": "not_found",
-      "failedDays": 1,
-      "repeatedlyUnconfirmed": false
-    },
-    {
-      "productId": "7060182058",
-      "productName": "서울우유 유기농 멸균우유, 120ml, 32개",
-      "lastCheckedAt": "2026-11-17 18:51 KST",
-      "hoursSinceCheck": 212.4,
-      "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
     },
@@ -56,7 +57,7 @@
       "productId": "9628259219",
       "productName": "도심커피 커피원두 베트남 로부스타 산미없고 고소한 G1 홀빈 분쇄안함, 2개, 1kg",
       "lastCheckedAt": "2026-11-22 15:04 KST",
-      "hoursSinceCheck": 96.2,
+      "hoursSinceCheck": 108.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -65,7 +66,7 @@
       "productId": "9050227380",
       "productName": "베트남 로부스타 싱글오리진 홀빈 원두커피, 1개, 1kg",
       "lastCheckedAt": "2026-11-22 15:04 KST",
-      "hoursSinceCheck": 96.2,
+      "hoursSinceCheck": 108.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -74,7 +75,7 @@
       "productId": "9618453633",
       "productName": "브로일링커피 화로 블렌드 Brazier 홀빈 에스프레소 원두 직화로스팅 당일로스팅 다크로스트 라떼 카푸치노 카페 원두, 1개, 1kg",
       "lastCheckedAt": "2026-11-17 22:57 KST",
-      "hoursSinceCheck": 208.3,
+      "hoursSinceCheck": 220.5,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -83,7 +84,7 @@
       "productId": "9434882675",
       "productName": "스페셜 블렌드 브라질, 콜롬비아, 에티오피아 원두커피 커피콩 맛있는 고소한 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
       "lastCheckedAt": "2026-11-16 22:07 KST",
-      "hoursSinceCheck": 233.1,
+      "hoursSinceCheck": 245.4,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -92,7 +93,7 @@
       "productId": "7672649461",
       "productName": "에티오피아 예가체프 시다모 네추럴 커피 원두 로스팅 홀빈 분쇄안함, 홀빈(분쇄안함), 500g, 1개",
       "lastCheckedAt": "2026-11-18 03:02 KST",
-      "hoursSinceCheck": 204.2,
+      "hoursSinceCheck": 216.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -101,7 +102,7 @@
       "productId": "9413440319",
       "productName": "프렌즈블랜드 스페셜티 커피원두 미디엄로스팅 망고 복숭아 열대과일 아로마 와이니 코에코에, 1개, 1kg, 홀빈(분쇄안함)",
       "lastCheckedAt": "2026-11-18 09:46 KST",
-      "hoursSinceCheck": 197.5,
+      "hoursSinceCheck": 209.7,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -110,7 +111,7 @@
       "productId": "9417321086",
       "productName": "안녕블랜드 산미없는 고소한 커피원두 미디엄다크로스팅 견과류 데일리 홈카페원두 코에코에, 1개, 200g, 홀빈(분쇄안함)",
       "lastCheckedAt": "2026-11-17 23:58 KST",
-      "hoursSinceCheck": 207.3,
+      "hoursSinceCheck": 219.5,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -119,7 +120,7 @@
       "productId": "7689350970",
       "productName": "네이쳐티 헤이즐넛 시럽, 1L, 6개",
       "lastCheckedAt": "2026-11-17 01:11 KST",
-      "hoursSinceCheck": 230.0,
+      "hoursSinceCheck": 242.3,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -128,7 +129,7 @@
       "productId": "9265147894",
       "productName": "네이쳐티 카라멜시럽, 10개, 1L",
       "lastCheckedAt": "2026-11-17 00:10 KST",
-      "hoursSinceCheck": 231.1,
+      "hoursSinceCheck": 243.3,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -137,7 +138,7 @@
       "productId": "6702262397",
       "productName": "토스키 초콜렛향 시럽, 1L, 6개",
       "lastCheckedAt": "2026-11-17 15:47 KST",
-      "hoursSinceCheck": 215.4,
+      "hoursSinceCheck": 227.7,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -146,7 +147,7 @@
       "productId": "335762157",
       "productName": "샷 시럽 헤이즐넛 1000ml",
       "lastCheckedAt": "2026-11-17 15:47 KST",
-      "hoursSinceCheck": 215.4,
+      "hoursSinceCheck": 227.7,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -155,7 +156,7 @@
       "productId": "7677876919",
       "productName": "카일스 초콜릿 파우더, 1kg, 2개, 1개입",
       "lastCheckedAt": "2026-11-16 07:02 KST",
-      "hoursSinceCheck": 248.2,
+      "hoursSinceCheck": 260.5,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -164,7 +165,7 @@
       "productId": "7958862797",
       "productName": "더블데이 로얄 밀크티 파우더, 800g, 1개입, 4개",
       "lastCheckedAt": "2026-11-17 22:57 KST",
-      "hoursSinceCheck": 208.3,
+      "hoursSinceCheck": 220.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -173,7 +174,7 @@
       "productId": "7973180924",
       "productName": "서울팩토리 리얼 딸기 베이스, 1개, 1.2kg",
       "lastCheckedAt": "2026-11-17 02:12 KST",
-      "hoursSinceCheck": 229.0,
+      "hoursSinceCheck": 241.3,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -182,7 +183,7 @@
       "productId": "7418316890",
       "productName": "베버시티 파인애플베이스, 1kg, 1개",
       "lastCheckedAt": "2026-11-17 03:14 KST",
-      "hoursSinceCheck": 228.0,
+      "hoursSinceCheck": 240.3,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -191,7 +192,7 @@
       "productId": "7136952609",
       "productName": "고려인삼 사양벌꿀, 750g, 2개",
       "lastCheckedAt": "2026-11-23 13:02 KST",
-      "hoursSinceCheck": 74.2,
+      "hoursSinceCheck": 86.5,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -200,17 +201,8 @@
       "productId": "9717971496",
       "productName": "화이트 컴파운드 초코칩 미디움 1kg 선인 토핑 [선주문]",
       "lastCheckedAt": "2026-11-17 07:19 KST",
-      "hoursSinceCheck": 223.9,
+      "hoursSinceCheck": 236.2,
       "status": "not_found",
-      "failedDays": 1,
-      "repeatedlyUnconfirmed": false
-    },
-    {
-      "productId": "6853093017",
-      "productName": "헬로우그린 계피가루 (시나몬 가루), 1개, 300g",
-      "lastCheckedAt": "2026-11-17 05:17 KST",
-      "hoursSinceCheck": 225.9,
-      "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
     },
@@ -218,7 +210,7 @@
       "productId": "8168828141",
       "productName": "킹아일랜드 구운 코코넛칩 대용량, 500g, 1개",
       "lastCheckedAt": "2026-11-17 03:14 KST",
-      "hoursSinceCheck": 228.0,
+      "hoursSinceCheck": 240.3,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -227,7 +219,7 @@
       "productId": "9192487825",
       "productName": "글로리판 인스턴트 드라이 이스트, 500g, 1개",
       "lastCheckedAt": "2026-11-16 18:02 KST",
-      "hoursSinceCheck": 237.2,
+      "hoursSinceCheck": 249.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -236,7 +228,7 @@
       "productId": "9629750440",
       "productName": "26년산 국산 우리밀 발아 통밀가루 500g 강력분, 1개, 500g",
       "lastCheckedAt": "2026-11-16 22:07 KST",
-      "hoursSinceCheck": 233.1,
+      "hoursSinceCheck": 245.4,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -245,7 +237,7 @@
       "productId": "8180109513",
       "productName": "발로나 코코아 파우더, 1kg, 1개입, 1개",
       "lastCheckedAt": "2026-11-18 03:02 KST",
-      "hoursSinceCheck": 204.2,
+      "hoursSinceCheck": 216.5,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -254,16 +246,7 @@
       "productId": "24702790",
       "productName": "우리차 옥수수수염차, 1.5g, 150개입, 1개",
       "lastCheckedAt": "2026-11-18 08:45 KST",
-      "hoursSinceCheck": 198.5,
-      "status": "option_mismatch",
-      "failedDays": 1,
-      "repeatedlyUnconfirmed": false
-    },
-    {
-      "productId": "7851945409",
-      "productName": "대한다업 보성에서 자란 블랙 보리차, 1.5g, 60개입, 1개",
-      "lastCheckedAt": "2026-11-18 04:03 KST",
-      "hoursSinceCheck": 203.2,
+      "hoursSinceCheck": 210.7,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -272,7 +255,7 @@
       "productId": "7778899675",
       "productName": "립톤 아이스티 믹스 복숭아맛, 1.5kg, 1개입, 4개",
       "lastCheckedAt": "2026-11-23 13:02 KST",
-      "hoursSinceCheck": 74.2,
+      "hoursSinceCheck": 86.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -281,7 +264,7 @@
       "productId": "8244145059",
       "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
       "lastCheckedAt": "2026-11-16 20:04 KST",
-      "hoursSinceCheck": 235.2,
+      "hoursSinceCheck": 247.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -290,7 +273,7 @@
       "productId": "9707225326",
       "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
       "lastCheckedAt": "2026-11-22 20:03 KST",
-      "hoursSinceCheck": 91.2,
+      "hoursSinceCheck": 103.4,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -299,16 +282,7 @@
       "productId": "8540986451",
       "productName": "늘푸른 무인쇄 종이컵 180ml, 10개, 500개입",
       "lastCheckedAt": "2026-11-19 11:03 KST",
-      "hoursSinceCheck": 172.2,
-      "status": "not_found",
-      "failedDays": 1,
-      "repeatedlyUnconfirmed": false
-    },
-    {
-      "productId": "9724890424",
-      "productName": "개별포장 일자빨대 블랙, 1개, 500개입",
-      "lastCheckedAt": "2026-11-22 20:03 KST",
-      "hoursSinceCheck": 91.2,
+      "hoursSinceCheck": 184.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -317,7 +291,7 @@
       "productId": "8900660404",
       "productName": "제이디팩 일자 빨대 7*280mm 검정 개별포장 500개, 1세트, 500개입",
       "lastCheckedAt": "2026-11-17 05:17 KST",
-      "hoursSinceCheck": 225.9,
+      "hoursSinceCheck": 238.2,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -326,7 +300,7 @@
       "productId": "9632198895",
       "productName": "플라마트 테이크아웃 컵 홀더 32온스(107파이) 800개입 무지 에어 카페 커피 대용량 아이스 종이",
       "lastCheckedAt": "2026-11-18 14:53 KST",
-      "hoursSinceCheck": 192.3,
+      "hoursSinceCheck": 204.6,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -335,7 +309,7 @@
       "productId": "9767112517",
       "productName": "파스텔 자바라 빨대 벌크포장 (7mm x 21cm), 2개, 200개입",
       "lastCheckedAt": "2026-11-23 07:03 KST",
-      "hoursSinceCheck": 80.2,
+      "hoursSinceCheck": 92.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -344,7 +318,7 @@
       "productId": "1951259803",
       "productName": "냅킨공장 칵테일 무지 냅킨, Brown, 4개, 3000개입",
       "lastCheckedAt": "2026-11-16 07:02 KST",
-      "hoursSinceCheck": 248.2,
+      "hoursSinceCheck": 260.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -353,7 +327,7 @@
       "productId": "9649725029",
       "productName": "스카트 보풀 없는 뽑아쓰는 키친타올, 10개, 150매",
       "lastCheckedAt": "2026-11-23 07:03 KST",
-      "hoursSinceCheck": 80.2,
+      "hoursSinceCheck": 92.4,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -362,7 +336,7 @@
       "productId": "9637013331",
       "productName": "[OPP] 일회용 쌈비닐 포장 봉투 1000장 (소), 190X200+40 (1000장), 1개, 1000개, FREE(one size)",
       "lastCheckedAt": "2026-11-17 13:10 KST",
-      "hoursSinceCheck": 218.1,
+      "hoursSinceCheck": 230.3,
       "status": "option_mismatch",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -371,7 +345,7 @@
       "productId": "9481002366",
       "productName": "ProTap 일회용 니트릴 장갑 100매입, 5개, L, 검은색",
       "lastCheckedAt": "2026-11-18 02:01 KST",
-      "hoursSinceCheck": 205.2,
+      "hoursSinceCheck": 217.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -380,7 +354,7 @@
       "productId": "7927510981",
       "productName": "러버랩 국내산 니트릴 장갑 100p, 블랙, M, 1개",
       "lastCheckedAt": "2026-11-18 00:59 KST",
-      "hoursSinceCheck": 206.2,
+      "hoursSinceCheck": 218.5,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
@@ -389,13 +363,63 @@
       "productId": "9557536554",
       "productName": "친환경 일회용 원형 접시 18cm, 1개, 50개입",
       "lastCheckedAt": "2026-11-18 10:47 KST",
-      "hoursSinceCheck": 196.4,
+      "hoursSinceCheck": 208.7,
       "status": "not_found",
       "failedDays": 1,
       "repeatedlyUnconfirmed": false
     }
   ],
   "queries": [
+    {
+      "query": "토스키 레몬 시럽 1L 2개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 6,
+      "newToday": 6,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살 1개 1000개",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 7,
+      "newToday": 6,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "꿀 1kg",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 8,
+      "newToday": 5,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "엔칸토 라임모히또",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 5,
+      "newToday": 5,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "이노라이즈 이노미 초콜릿 소스 1개 1.25kg",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 5,
+      "newToday": 5,
+      "statuses": {
+        "ok": 2
+      }
+    },
     {
       "query": "그린버블스 생분해 옥수수빨대 100개",
       "strategy": "group",
@@ -417,8 +441,8 @@
       }
     },
     {
-      "query": "토스키 레몬 시럽 1L 2개",
-      "strategy": "individual",
+      "query": "딥플러스 헤이즐넛 시럽 1L 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 4,
       "newToday": 4,
@@ -427,8 +451,68 @@
       }
     },
     {
+      "query": "빨대 5mm 1000개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 4,
+      "newToday": 4,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "자연한입 매실청 1개 860ml",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 4,
+      "newToday": 4,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "코멧 라텍스장갑 100매입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 4,
+      "newToday": 4,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "CONA 프리미엄 바닐라 파우더 1kg 1개입 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "TYP 비닐 컵캐리어 1구 1000매",
       "strategy": "group",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "TYP 비닐 컵캐리어 1구 1000매",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "그린버블스 생분해 옥수수빨대 100개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 3,
       "newToday": 3,
@@ -447,8 +531,48 @@
       }
     },
     {
+      "query": "네이처모아 코코아 다크 컴파운드 초코칩 200g 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "녹차 라떼 파우더 1kg",
       "strategy": "group",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "녹차 라떼 파우더 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "녹차 티백 100개입",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "녹차원 루이보스 허브차",
+      "strategy": "learned",
       "requests": 1,
       "observations": 3,
       "newToday": 3,
@@ -477,8 +601,38 @@
       }
     },
     {
+      "query": "대한다업 결명자차 100개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "두유 190ml 24개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "레몬즙 1L",
       "strategy": "group",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "브론디 데일리 키친타월 200매 12개",
+      "strategy": "individual",
       "requests": 1,
       "observations": 3,
       "newToday": 3,
@@ -517,6 +671,26 @@
       }
     },
     {
+      "query": "아이팩피앤디 92파이 돔리드 PET 컵뚜껑 1000개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "얼터너티브데어리 호주 귀리 음료 바리스타 오트 2개 1L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "엔칸토 골드키위 음료베이스 1개 1.8kg",
       "strategy": "individual",
       "requests": 1,
@@ -537,13 +711,23 @@
       }
     },
     {
-      "query": "이노라이즈 이노미 초콜릿 소스 1개 1.25kg",
+      "query": "위크위크 콜롬비아 디카페인 슈가케인 원두 커피 홀빈(분쇄안함) 1kg 1개",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
+      "observations": 4,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "청수생약 계피 가루 분말 1kg 1개",
+      "strategy": "individual",
+      "requests": 2,
       "observations": 3,
       "newToday": 3,
       "statuses": {
-        "ok": 1
+        "ok": 2
       }
     },
     {
@@ -567,6 +751,16 @@
       }
     },
     {
+      "query": "코코씸 드링킹용 코코넛 밀크 12개 1L",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 4,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "코코아 파우더 250g",
       "strategy": "group",
       "requests": 1,
@@ -574,6 +768,16 @@
       "newToday": 3,
       "statuses": {
         "not_found": 1
+      }
+    },
+    {
+      "query": "키친타월 12롤",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 5,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -587,6 +791,16 @@
       }
     },
     {
+      "query": "테이크아웃 아이스컵",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 7,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "토스키 스트로베리 시럽 1L 1개",
       "strategy": "individual",
       "requests": 1,
@@ -597,13 +811,53 @@
       }
     },
     {
-      "query": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살 1개 1000개",
-      "strategy": "learned",
+      "query": "토스키 시럽",
+      "strategy": "individual",
       "requests": 1,
-      "observations": 4,
+      "observations": 3,
       "newToday": 3,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "파베글라스 루미에르 다크초코칩 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 3,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "황매실청 하동 지리산 황매담 숙성 발효액 3년숙성 1개 1L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 4,
+      "newToday": 3,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "26년산 국산 우리밀 발아 1개 500g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "26년산 국산 토종 앉은뱅이 통밀가루(중력분) 앉은키 밀가루 1개 700g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -611,6 +865,16 @@
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "26년산 햇밀 가정용 속이 편한 양평 우리밀 통밀가루 강력분 500g 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
       "newToday": 2,
       "statuses": {
         "ok": 1
@@ -627,13 +891,143 @@
       }
     },
     {
-      "query": "CONA 프리미엄 바닐라 파우더 1kg 1개입 1개",
+      "query": "8온스 종이컵 커피컵 무지 1000개 (290ml/뚜껑별도)",
       "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "HD 배달 비닐쇼핑백 카페 커피 종이캐리어4구 음료 비닐봉투 100개 15L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "P01O 식품포장지 (300mm x 300mm) 1000장",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "TYP 배달봉투 배달비닐 고객 중 20L 1000장 1000개 20L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "TYP 배달봉투 배달비닐 정성 소 15L 1000장 1000개 15L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료 4개 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "[로켓프레시] 카페 57 딸기청 (냉동) 1kg 2개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "[베렉스커피] 디카페인 콜롬비아 수프리모 슈가케인 너티초코 원두 1개 500g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "[초특가 할인] 로스터랩 고소다크 산미없는 블렌드 커피원두 1개 1kg 홀빈(분쇄안함)",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "가루박사 보성 말차 파우더 500g 1개 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "고소한 블렌드 브라질 콜롬비아 인도 원두커피 커피콩 1개 1kg 홀빈(분쇄안함)",
+      "strategy": "learned",
       "requests": 1,
       "observations": 2,
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "구르메첼레비 피스타치오 페이스트 1kg 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "국산 볶은 결명자차 HACCP 인증 생분해 삼각티백 1g 2개 30개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "그대로푸드 흑임자 가루 1개 1kg",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -657,6 +1051,46 @@
       }
     },
     {
+      "query": "난다라이프 얼그레이 홍차 티백 2g 30개입 3개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "넛츠그린 무가당 아몬드버터 크런치 200g 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "네이쳐티 넘치는복숭아 베이스 2개 1kg",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "네이쳐티 딥초코 2kg 1개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "네이쳐티 스트롱민트초코 파우더 10개 1개입 800g",
       "strategy": "individual",
       "requests": 1,
@@ -664,6 +1098,46 @@
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "네이쳐티 초코 파우더 800g 3개 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "네이쳐티 초코렛파우더 800g 1개 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "녹차수도보성 보성 산 녹차 티백 1.2g 100개입 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "누티푸드 크리머 스위텐드 385g 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -687,10 +1161,70 @@
       }
     },
     {
+      "query": "다크초콜릿 100% 무가당 비알칼리 카카오매스 1개 500g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "대한다업 보성에서 자란 블랙 보리차",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "대한다업 옥수수차",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "대한다업 유기농 보성 현미 녹차 100개입",
       "strategy": "group",
       "requests": 1,
       "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "대한다업 캐모마일차 1g 10개 100개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "더블데이 리치 고구마 라떼 파우더 1개 800g 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "더옹달샘 깨끗하게 볶은 결명자차 1kg 4개 1개입 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 4,
       "newToday": 2,
       "statuses": {
         "ok": 1
@@ -727,8 +1261,48 @@
       }
     },
     {
+      "query": "르시랑스 인도네시아 만델링 원두커피 홀빈 분쇄안함 1kg 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "리꼬흔 4온스 135ml 에스프레소잔 무지 종이컵 포장 무료배송 3세트 1000개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "리치너츠 건블루베리 미국산 1개 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "마카다미아 500g",
       "strategy": "group",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "마카다미아 500g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 2,
       "newToday": 2,
@@ -747,8 +1321,28 @@
       }
     },
     {
+      "query": "매드바닐라 리치 바닐라 시럽 홀빈 1개 300ml",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "매일레몬 리얼 유기농 레몬즙 280g",
       "strategy": "group",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "매일레몬 리얼 유기농 레몬즙 280g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 2,
       "newToday": 2,
@@ -767,6 +1361,16 @@
       }
     },
     {
+      "query": "미디엄로스트 신맛 없는 구수한 커피 원두 로스팅 홀빈 분쇄안함 1개 500g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "미세플라스틱 없는 생분해필터 미담식품 결명자차 삼각티백 1개 100개입 1g",
       "strategy": "individual",
       "requests": 1,
@@ -777,6 +1381,16 @@
       }
     },
     {
+      "query": "믹소 바닐라라떼 파우더 1kg 1개 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "방수 라벨 스티커 1000매",
       "strategy": "group",
       "requests": 1,
@@ -784,6 +1398,36 @@
       "newToday": 2,
       "statuses": {
         "not_found": 1
+      }
+    },
+    {
+      "query": "방수 라벨 스티커 1000매",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "배대감 국산 볶음콩가루 500g 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "블랙빈스 베트남 로부스타 워시드 1개 1kg 홀빈(분쇄안함)",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -807,6 +1451,66 @@
       }
     },
     {
+      "query": "사자팩 버블티 빨대 이지컷 개별포장 12mm 210mm 1개 200개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "사자팩 일회용 누운수저세트 (수저+나무젓가락) 1개 50개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "산들약초 건조 코코넛분말 글루텐프리 엑스트라파인 1개 500g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "산들약초 무설탕 카카오파우더 네덜란드산 코코아가루 1개 1개입 200g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "삼육두유 100 190ml 32개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "삼육두유 바리스타 두유 950ml 12개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "서강 카우밀 1L 2개",
       "strategy": "group",
       "requests": 1,
@@ -827,6 +1531,57 @@
       }
     },
     {
+      "query": "서울팩토리 리얼 딸기 베이스 1개 1.2kg",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 3,
+      "newToday": 2,
+      "statuses": {
+        "not_found": 1,
+        "ok": 1
+      }
+    },
+    {
+      "query": "서울팩토리 자몽에이드",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "서울팩토리 청포도 에이드",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 3,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "소이비랩 검은콩 저당두유 72개 190ml",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "쏘굿 아몬드 오리지널 1L 3개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "아쌈 CTC BP 밀크티 카페용 대용량 아만프리미엄티 1kg 1개입 1개",
       "strategy": "individual",
       "requests": 1,
@@ -834,6 +1589,36 @@
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "아쌈 CTC BP 밀크티 카페용 대용량 아만프리미엄티 1kg 1개입 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "아이팩피앤디 92파이 9온스 PET 아이스컵 국산 투명 1박스 1000개 260ml",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "아임힐링 오르조 유기농 보리차 식약청 인증 한잔용 보리차 700mg 100개입 3개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -857,6 +1642,16 @@
       }
     },
     {
+      "query": "에스제이케미칼 105파이 국용기 중 화이트 1000개 세트 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "오곡형제 쪄서 볶은 국산 콩가루 콩고물 떡고물 인절미가루 1개 500g",
       "strategy": "individual",
       "requests": 1,
@@ -864,6 +1659,26 @@
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "오프라이스 고칼슘 검은콩두유 190ml 20개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "와이즈셀렉션 일회용 앞치마 업소용 손님용 1000개 흰색",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -877,6 +1692,46 @@
       }
     },
     {
+      "query": "와치아테 멸균우유 1.5% 1L 4개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "우롱차잎 100g 중국 우롱차 우롱티 오룡차 100g 1개입 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "우리밀 국산 백밀가루 다용도 1kg 2개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "우리차 우엉차 1g 100개입 15개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "우유 1L 12개",
       "strategy": "group",
       "requests": 1,
@@ -884,6 +1739,16 @@
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "워너빈 베트남 로부스타 G1 원두커피 에스프레소(고움) 500g 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -907,6 +1772,46 @@
       }
     },
     {
+      "query": "윤고집 아몬드 분말 800g 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "인도네시아 프리미엄 로브스타 저렴하고 맛있고 고소한 1개 1kg 홀빈(분쇄안함)",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "제이넛터 무가당 100% 땅콩버터 크런치 2개 500g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "제이디팩 일자 빨대 7*210mm 초록 개별포장 500개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "종이컵 9온스 1000개",
       "strategy": "group",
       "requests": 1,
@@ -917,8 +1822,18 @@
       }
     },
     {
-      "query": "청수생약 계피 가루 분말 1kg 1개",
-      "strategy": "individual",
+      "query": "종이컵 9온스 1000개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "초코 파우더 1kg",
+      "strategy": "learned",
       "requests": 1,
       "observations": 2,
       "newToday": 2,
@@ -934,6 +1849,27 @@
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "카일스 빅고구마 라떼 파우더 500g 1개 1개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "케냐 원두 1kg",
+      "strategy": "learned",
+      "requests": 2,
+      "observations": 5,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1,
+        "not_found": 1
       }
     },
     {
@@ -957,13 +1893,23 @@
       }
     },
     {
-      "query": "코코씸 드링킹용 코코넛 밀크 12개 1L",
-      "strategy": "learned",
+      "query": "코코아 파우더 500g",
+      "strategy": "individual",
       "requests": 1,
-      "observations": 3,
+      "observations": 2,
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "쿡앤팩 일회용 둥근 대나무 젓가락 20cm 백색 개별 포장 - 좋은 재료 1000개 1세트",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -977,10 +1923,20 @@
       }
     },
     {
-      "query": "키친타월 12롤",
+      "query": "킹너츠 씨드견과믹스 아몬드슬라이스 볶음땅콩분태 호박씨 해바라기씨 4종 견과믹스 1개 1kg",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "탄산수 500ml 20개",
       "strategy": "learned",
       "requests": 1,
-      "observations": 4,
+      "observations": 2,
       "newToday": 2,
       "statuses": {
         "ok": 1
@@ -998,13 +1954,13 @@
       }
     },
     {
-      "query": "테이크아웃 아이스컵",
-      "strategy": "learned",
-      "requests": 1,
-      "observations": 4,
+      "query": "토스키 그레나딘 시럽 1개 1L",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
       "newToday": 2,
       "statuses": {
-        "ok": 1
+        "ok": 2
       }
     },
     {
@@ -1028,10 +1984,50 @@
       }
     },
     {
+      "query": "토스키 초콜릿 소스 2kg 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "토종마을 자색고구마분말 1개 250g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "통 마카다미아 햇견과 스테어팜 (26년 8월 수확) 2세트 500g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "티백 100개입",
       "strategy": "group",
       "requests": 1,
       "observations": 3,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "티백 100개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 4,
       "newToday": 2,
       "statuses": {
         "ok": 1
@@ -1048,13 +2044,44 @@
       }
     },
     {
-      "query": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 그린 클로버 1개 1000개",
+      "query": "페퍼민트 티백",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "포담팩 종이컵홀더 92 98파이 멀티홀더 레드 복주머니 1개 1000개",
       "strategy": "individual",
       "requests": 1,
       "observations": 4,
       "newToday": 2,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "포담팩 종이컵홀더 아이스 92컵 98컵 멀티홀더 그린 클로버 1개 1000개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 5,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1,
+        "not_found": 1
+      }
+    },
+    {
+      "query": "푸른들판 블루베리 농축 분말 가루 파우더 불루베리 열매 과일 스무디 파우더 2개 180g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
       }
     },
     {
@@ -1068,6 +2095,46 @@
       }
     },
     {
+      "query": "프리미엄 진하고 고소한 무가당 다크 카카오파우더 코코아파우더 100g 1개 1개입",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "플라마트 컵홀더",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "플라하반 하이 프로틴 그래놀라 시리얼 아몬드 & 캐슈넛 300g 1개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
+      "query": "하우스클래스 2겹 대나무 키친타올 6개 150매",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 2,
+      "statuses": {
+        "ok": 2
+      }
+    },
+    {
       "query": "홈인푸드 건포도 1개 1kg",
       "strategy": "individual",
       "requests": 1,
@@ -1078,7 +2145,7 @@
       }
     },
     {
-      "query": "황매실청 하동 지리산 황매담 숙성 발효액 3년숙성 1개 1L",
+      "query": "후버 100% NFC 착즙 레몬즙 2개 1L",
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
@@ -1138,8 +2205,8 @@
       }
     },
     {
-      "query": "26년산 국산 토종 앉은뱅이 통밀가루(중력분) 앉은키 밀가루 1개 700g",
-      "strategy": "individual",
+      "query": "26년산 국산 토종 앉은뱅이 통밀가루(강력분) 앉은키 밀가루 5개 700g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1148,13 +2215,13 @@
       }
     },
     {
-      "query": "8온스 종이컵 커피컵 무지 1000개 (290ml/뚜껑별도)",
-      "strategy": "individual",
+      "query": "26년산 햇밀 속이 편한 양평 우리밀 통밀가루 박력분 5개 500g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -1168,20 +2235,20 @@
       }
     },
     {
-      "query": "EZn이지엔 위생 장갑 라이트 500개입 1개",
+      "query": "EZn이지엔 위생 장갑 라이트",
       "strategy": "individual",
       "requests": 1,
-      "observations": 2,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
       }
     },
     {
-      "query": "HD 배달 비닐쇼핑백 카페 커피 종이캐리어4구 음료 비닐봉투 100개 15L",
+      "query": "EZn이지엔 위생 장갑 라이트 500개입 1개",
       "strategy": "individual",
       "requests": 1,
-      "observations": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -1208,33 +2275,13 @@
       }
     },
     {
-      "query": "P01O 식품포장지 (300mm x 300mm) 1000장",
-      "strategy": "individual",
+      "query": "KP 종이쇼핑백 중 1개입 100개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "TYP 배달봉투 배달비닐 고객 중 20L 1000장 1000개 20L",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "TYP 배달봉투 배달비닐 정성 소 15L 1000장 1000개 15L",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -1258,8 +2305,8 @@
       }
     },
     {
-      "query": "[8월여름한정이벤트]이노미 저당 아이스티 복숭아 파우더 / 다이어트 / 저당음료 4개 1개",
-      "strategy": "individual",
+      "query": "VOTEM 히비스커스 삼각티백",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1290,25 +2337,15 @@
     {
       "query": "[로켓프레시] 마스카포네 치즈 250g 1개입 1개",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "not_found": 1
+        "not_found": 2
       }
     },
     {
       "query": "[로켓프레시] 버블펄스 우베 타피오카 펄 (냉동) 70g 25개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "[로켓프레시] 카페 57 딸기청 (냉동) 1kg 2개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -1329,7 +2366,7 @@
       }
     },
     {
-      "query": "[베렉스커피] 디카페인 콜롬비아 수프리모 슈가케인 너티초코 원두 1개 500g",
+      "query": "[본사직영] 다예 100% 국산 옥수수수염차 개별포장 40티백 500mg 40개입 1개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -1340,7 +2377,7 @@
     },
     {
       "query": "[본사직영] 다예 100% 국산 옥수수수염차 개별포장 40티백 500mg 40개입 1개",
-      "strategy": "individual",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1359,8 +2396,8 @@
       }
     },
     {
-      "query": "[초특가 할인] 로스터랩 고소다크 산미없는 블렌드 커피원두 1개 1kg 홀빈(분쇄안함)",
-      "strategy": "individual",
+      "query": "[제이엠디커피팩토리] 에티오피아 예가체프 코케허니 500g 1개 홀빈(분쇄안함)",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1369,10 +2406,10 @@
       }
     },
     {
-      "query": "가루박사 보성 말차 파우더 500g 1개 1개입",
-      "strategy": "individual",
+      "query": "colorfood 코코아 파우더 300g",
+      "strategy": "learned",
       "requests": 1,
-      "observations": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -1429,16 +2466,6 @@
       }
     },
     {
-      "query": "구르메첼레비 피스타치오 페이스트 1kg 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "국내산 유자 98% 함량 무설탕 진짜 그대로 갈아만든 유자 1개 10개입 25g",
       "strategy": "individual",
       "requests": 1,
@@ -1449,7 +2476,17 @@
       }
     },
     {
-      "query": "국산 볶은 결명자차 HACCP 인증 생분해 삼각티백 1g 2개 30개입",
+      "query": "국내산 유자 98% 함량 무설탕 진짜 그대로 갈아만든 유자 1개 10개입 25g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "국산 100% 미담식품 깊고 구수한 돼지감자차 티백 1g 1개 100개입",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -1463,16 +2500,6 @@
       "strategy": "retry_exact",
       "requests": 1,
       "observations": 2,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "그대로푸드 흑임자 가루 1개 1kg",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -1499,8 +2526,38 @@
       }
     },
     {
+      "query": "그라도스커피 달콤한 블렌드 콜롬비아 과테말라 1개 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "그란본따 버터 10개입 125g 2개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "그레인랩 검은콩 고칼슘 더블랙 17곡 두유 40개 190ml",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "그레인랩 검은콩 고칼슘 더블랙 17곡 두유 40개 190ml",
+      "strategy": "learned",
       "requests": 1,
       "observations": 2,
       "newToday": 1,
@@ -1519,6 +2576,16 @@
       }
     },
     {
+      "query": "그레인랩 든든한 21곡 미숫가루 두유 190ml 40개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "기가 마시멜로우 마일드 스모어절편모양 1kg 2개",
       "strategy": "individual",
       "requests": 1,
@@ -1529,23 +2596,13 @@
       }
     },
     {
-      "query": "꿀 1kg",
+      "query": "기가 마시멜로우 마일드 스모어절편모양 1kg 2개",
       "strategy": "learned",
-      "requests": 1,
-      "observations": 4,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "난다라이프 얼그레이 홍차 티백 2g 30개입 3개",
-      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -1559,7 +2616,7 @@
       }
     },
     {
-      "query": "넛츠그린 무가당 아몬드버터 크런치 200g 1개",
+      "query": "넛츠피아 볶음 아몬드 분태 1kg 1개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -1570,7 +2627,7 @@
     },
     {
       "query": "넛츠피아 볶음 아몬드 분태 1kg 1개",
-      "strategy": "individual",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1591,6 +2648,16 @@
     {
       "query": "넛츠피아 피칸 반태 1kg 6개",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "넛츠피아 피칸 반태 1kg 6개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1639,13 +2706,34 @@
       }
     },
     {
-      "query": "네이쳐티 넘치는 망고 베이스 1kg 4개",
+      "query": "네이쳐티 zero 헤이즐넛 시럽 10개 1L",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "네이쳐티 넘치는 라떼 파우더 750g 1개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "네이쳐티 넘치는 망고 베이스 1kg 4개",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1,
+        "option_mismatch": 1
       }
     },
     {
@@ -1659,10 +2747,10 @@
       }
     },
     {
-      "query": "네이쳐티 넘치는복숭아 베이스 2개 1kg",
-      "strategy": "individual",
+      "query": "네이쳐티 넘치는 블루베리 베이스 1개 1kg",
+      "strategy": "learned",
       "requests": 1,
-      "observations": 1,
+      "observations": 3,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -1689,18 +2777,8 @@
       }
     },
     {
-      "query": "네이쳐티 초코 파우더 800g 3개 1개입",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "네이쳐티 초코렛파우더 800g 1개 1개입",
-      "strategy": "individual",
+      "query": "네이쳐티 스트롱민트초코 파우더 10개 1개입 800g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1769,16 +2847,6 @@
       }
     },
     {
-      "query": "누티푸드 크리머 스위텐드 385g 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
       "strategy": "individual",
       "requests": 1,
@@ -1799,18 +2867,18 @@
       }
     },
     {
-      "query": "다예 건강한 하루차 티타임 4종 32티백",
-      "strategy": "retry_exact",
+      "query": "니트릴 장갑 1000매",
+      "strategy": "learned",
       "requests": 1,
-      "observations": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
-      "query": "다크초콜릿 100% 무가당 비알칼리 카카오매스 1개 500g",
-      "strategy": "individual",
+      "query": "다예 건강한 하루차 티타임 4종 32티백",
+      "strategy": "retry_exact",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -1831,11 +2899,12 @@
     {
       "query": "닥터루트 캐모마일차 삼각티백 1.2g 100개입 1개",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "ok": 1,
+        "option_mismatch": 1
       }
     },
     {
@@ -1869,6 +2938,16 @@
       }
     },
     {
+      "query": "대한다업 데일리 말차라떼 500g 2개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "대한다업 옥수수차",
       "strategy": "group",
       "requests": 1,
@@ -1889,7 +2968,7 @@
       }
     },
     {
-      "query": "대한다업 캐모마일차 1g 10개 100개입",
+      "query": "대한다업 유기농 보성말차 100g 10개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -1901,11 +2980,12 @@
     {
       "query": "더 진한 자스민차 생분해 삼각티백 PLA원단 1개 50개입 1.5g",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "ok": 1,
+        "not_found": 1
       }
     },
     {
@@ -1919,6 +2999,16 @@
       }
     },
     {
+      "query": "더바른상회 아몬드 슬라이스 800g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "더블데이 레드패션 딸기 요거트 파우더 800g 1개",
       "strategy": "retry_exact",
       "requests": 1,
@@ -1929,13 +3019,13 @@
       }
     },
     {
-      "query": "더블데이 리치 고구마 라떼 파우더 1개 800g 1개입",
-      "strategy": "individual",
+      "query": "더블데이 레드패션 딸기 요거트 파우더 800g 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -1959,6 +3049,16 @@
       }
     },
     {
+      "query": "더블데이 유자레몬 퓨럽",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "더옹달샘 깨끗하게 볶은 결명자차 1kg 4개 1개입 1kg",
       "strategy": "individual",
       "requests": 1,
@@ -1966,6 +3066,16 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "더와이 카라멜시럽 (리필용) 1개 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -1979,6 +3089,16 @@
       }
     },
     {
+      "query": "더푸드웨이 너츠그램 건포도 4개 500g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "덴마크 신선한 저지방 & 칼슘 1A등급 올데이 밀크",
       "strategy": "retry_exact",
       "requests": 1,
@@ -1989,8 +3109,28 @@
       }
     },
     {
+      "query": "덴마크 신선한 저지방 & 칼슘 1A등급 올데이 밀크",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "두보원 통콩두유 64입_콩을 통째로 정통두유 64개 190ml",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "두보원 통콩두유 64입_콩을 통째로 정통두유 64개 190ml",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -2039,6 +3179,16 @@
       }
     },
     {
+      "query": "디카페인 원두 500g",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "딥 플러스 카라멜 시럽 1개 630g",
       "strategy": "individual",
       "requests": 1,
@@ -2069,6 +3219,16 @@
       }
     },
     {
+      "query": "땅콩버터 1kg",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "라벨스티커 유통기한 소비기한 식품관리 스티커 방수재질 1롤1000매",
       "strategy": "individual",
       "requests": 1,
@@ -2083,6 +3243,16 @@
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "래빗커피 하우스 블렌드 브라질 콜롬비아 원두커피 1개 500g 홀빈(분쇄안함)",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -2119,20 +3289,10 @@
       }
     },
     {
-      "query": "르시랑스 인도네시아 만델링 원두커피 홀빈 분쇄안함 1kg 1개",
+      "query": "루이보스 티백 100개입",
       "strategy": "individual",
       "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "리꼬흔 4온스 135ml 에스프레소잔 무지 종이컵 포장 무료배송 3세트 1000개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
+      "observations": 3,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -2156,6 +3316,16 @@
       "newToday": 1,
       "statuses": {
         "not_found": 1
+      }
+    },
+    {
+      "query": "리얼 코코아매스 다크초콜릿 300g",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
       }
     },
     {
@@ -2189,6 +3359,16 @@
       }
     },
     {
+      "query": "리치너츠 칠레산 건포도 1kg",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "링티 제로 에너지 스파클링 레몬라임맛 24개 500ml",
       "strategy": "individual",
       "requests": 1,
@@ -2219,6 +3399,16 @@
       }
     },
     {
+      "query": "맘앤팩 나무스틱 1개 1000개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "매일두유 99.9 플레인 190ml 24개",
       "strategy": "individual",
       "requests": 1,
@@ -2233,6 +3423,16 @@
       "strategy": "retry_exact",
       "requests": 1,
       "observations": 3,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "멜로팝 대용량 건조 마시멜로우 250g 레인보우 250g 2개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -2269,8 +3469,8 @@
       }
     },
     {
-      "query": "미디엄로스트 신맛 없는 구수한 커피 원두 로스팅 홀빈 분쇄안함 1개 500g",
-      "strategy": "individual",
+      "query": "모카씨엔티 아이스티 복숭아 14g 40개입 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -2279,7 +3479,17 @@
       }
     },
     {
-      "query": "믹소 바닐라라떼 파우더 1kg 1개 1개입",
+      "query": "문경 오미담 오미자청 1L",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "미디엄로스트 신맛 없는 구수한 커피 원두 로스팅 홀빈 분쇄안함 1개 500g",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2356,6 +3566,16 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "방앗간청년 볶은 아몬드 600g 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -2469,6 +3689,16 @@
       }
     },
     {
+      "query": "브리지톡 풀무원 스파클링 플레인 500ml 20개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "브릭글로 스탠다드 니트릴 장갑 100p 블랙 S 4개",
       "strategy": "individual",
       "requests": 1,
@@ -2481,11 +3711,12 @@
     {
       "query": "브릭글로 엠보싱 비닐 위생장갑 도톰형 500개입 2개",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "option_mismatch": 1
+        "option_mismatch": 1,
+        "not_found": 1
       }
     },
     {
@@ -2499,7 +3730,7 @@
       }
     },
     {
-      "query": "블랙빈스 베트남 로부스타 워시드 1개 1kg 홀빈(분쇄안함)",
+      "query": "블랙빈스 원두커피 케냐AA 1개 500g 핸드드립",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2509,13 +3740,13 @@
       }
     },
     {
-      "query": "블랙빈스 원두커피 케냐AA 1개 500g 핸드드립",
-      "strategy": "individual",
+      "query": "비비드유 라벨스티커 방수 다용도 잘떨어지는 1개 500개입",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -2529,23 +3760,13 @@
       }
     },
     {
-      "query": "사자팩 버블티 빨대 이지컷 개별포장 12mm 210mm 1개 200개",
-      "strategy": "individual",
+      "query": "비정제 사탕수수 원당 지퍼백 3kg 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "사자팩 일회용 누운수저세트 (수저+나무젓가락) 1개 50개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -2559,6 +3780,16 @@
       }
     },
     {
+      "query": "사조동아원 맥선 박력다목적용 밀가루 20kg 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "산810 건포도 칠레산 5개 810g",
       "strategy": "individual",
       "requests": 1,
@@ -2566,6 +3797,16 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "산810 건포도 칠레산 5개 810g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -2589,7 +3830,7 @@
       }
     },
     {
-      "query": "산들약초 건조 코코넛분말 글루텐프리 엑스트라파인 1개 500g",
+      "query": "서강 라미스 휘핑크림 1L 2개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2599,7 +3840,7 @@
       }
     },
     {
-      "query": "산들약초 무설탕 카카오파우더 네덜란드산 코코아가루 1개 1개입 200g",
+      "query": "서강 카우밀 1L 2개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2609,23 +3850,13 @@
       }
     },
     {
-      "query": "삼육두유 100 190ml 32개",
-      "strategy": "individual",
+      "query": "서울우유 유기농 멸균우유 120ml 32개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "삼육두유 바리스타 두유 950ml 12개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -2643,6 +3874,16 @@
       "strategy": "retry_exact",
       "requests": 1,
       "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "서울팩토리 리얼 패션후르츠 베이스",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -2749,16 +3990,6 @@
       }
     },
     {
-      "query": "쏘굿 아몬드 오리지널 1L 3개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "씨앤몰 [JE] 정성을담아 배달봉투 비닐봉투 대 4호 100매",
       "strategy": "retry_exact",
       "requests": 1,
@@ -2779,6 +4010,16 @@
       }
     },
     {
+      "query": "아몬드 버터 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "아몬드 슬라이스 1kg",
       "strategy": "group",
       "requests": 1,
@@ -2791,6 +4032,16 @@
     {
       "query": "아빠랑 과육 그대로 갈아만든 고흥 유자 1kg 1개",
       "strategy": "group",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "아빠랑 과육 그대로 갈아만든 고흥 유자 1kg 1개",
+      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -2819,6 +4070,26 @@
       }
     },
     {
+      "query": "아이스티 1kg",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "아이팩피앤디 107파이 돔리드 PET 컵뚜껑 국산 투명 1박스 500개입",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "아이팩피앤디 92파이 20온스 PET 아이스컵 국산 투명",
       "strategy": "retry_exact",
       "requests": 1,
@@ -2829,7 +4100,7 @@
       }
     },
     {
-      "query": "아이팩피앤디 92파이 9온스 PET 아이스컵 국산 투명 1박스 1000개 260ml",
+      "query": "아이팩피앤디 92파이 평리드 PET 컵뚜껑 국산 투명 1박스 1000개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2849,6 +4120,16 @@
       }
     },
     {
+      "query": "아이팩피앤디 98파이 16온스 PET 아이스컵 국산 투명",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "아이팩피앤디 무인쇄 종이컵 180ml",
       "strategy": "group",
       "requests": 1,
@@ -2859,7 +4140,7 @@
       }
     },
     {
-      "query": "아임힐링 오르조 유기농 보리차 식약청 인증 한잔용 보리차 700mg 100개입 3개",
+      "query": "아이팩피앤디 무인쇄 종이컵 180ml",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2879,6 +4160,16 @@
       }
     },
     {
+      "query": "앵커 버터 (냉동) 100g 1개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "약콩두유 오리지널 190ml 24개",
       "strategy": "retry_exact",
       "requests": 1,
@@ -2889,13 +4180,23 @@
       }
     },
     {
-      "query": "얼터너티브데어리 호주 귀리 음료 바리스타 오트 2개 1L",
+      "query": "양평 가루미 쌀가루 강력분 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "얼그레이 티백 100개입",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -2910,16 +4211,6 @@
     },
     {
       "query": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는 10000매 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "에스제이케미칼 105파이 국용기 중 화이트 1000개 세트 1개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -2969,10 +4260,30 @@
       }
     },
     {
+      "query": "엔칸토 망고 베이스 1.8kg 2개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "엔칸토 바나나라떼 파우더 1개 1개입 1kg",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "엔칸토 바나나라떼 파우더 1개 1개입 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -3019,6 +4330,16 @@
       }
     },
     {
+      "query": "엘리펀트앤썬 태국 저당 코코넛밀크(코코넛추출물 85%) 6개 400ml",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "연세두유 고단백 Pro 플레인 16개 240ml",
       "strategy": "individual",
       "requests": 1,
@@ -3029,58 +4350,18 @@
       }
     },
     {
-      "query": "오프라이스 고칼슘 검은콩두유 190ml 20개",
-      "strategy": "individual",
+      "query": "오곡형제 쪄서 볶은 국산 콩가루 콩고물 떡고물 인절미가루 1개 500g",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "와이즈셀렉션 일회용 앞치마 업소용 손님용 1000개 흰색",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
       "query": "와치아테 멸균우유 3.5% 1L 4개",
       "strategy": "group",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "우롱차잎 100g 중국 우롱차 우롱티 오룡차 100g 1개입 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "우리밀 국산 백밀가루 다용도 1kg 2개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "우리차 우엉차 1g 100개입 15개",
-      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3109,16 +4390,6 @@
       }
     },
     {
-      "query": "워너빈 베트남 로부스타 G1 원두커피 에스프레소(고움) 500g 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "워너빈 업소용 카카오딥 블렌딩 원두 홀빈 1kg 1개",
       "strategy": "individual",
       "requests": 1,
@@ -3129,8 +4400,48 @@
       }
     },
     {
+      "query": "워너빈 업소용 카카오딥 블렌딩 원두 홀빈 1kg 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "워너빈 에티오피아 예가체프 G4 원두커피 홀빈(분쇄안함) 1kg 1개",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "워너빈 온두라스 코판 SHG 원두커피 1kg 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "원스쿱 아몬드버터 100% Smooth 스무스타입 넌패럴 스프레드 잼 버터 1개 200g",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "위크위크 고소한 브라질 싱글 오리진 원두 커피 홀빈 1개 1kg",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3149,7 +4460,7 @@
       }
     },
     {
-      "query": "위크위크 콜롬비아 디카페인 슈가케인 원두 커피 홀빈(분쇄안함) 1kg 1개",
+      "query": "위크위크 에스프레소 카페 원두 산미없는 고소한 다크골드 블렌드 1Kg 홀빈 6개 1kg",
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
@@ -3161,11 +4472,12 @@
     {
       "query": "유리아 더진한 캐모마일 삼각티백 1개 50개입 1.5g",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "ok": 1,
+        "not_found": 1
       }
     },
     {
@@ -3181,16 +4493,6 @@
     {
       "query": "유한그린텍 매장용 개별포장 업소용 물티슈 물그린",
       "strategy": "retry_exact",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "윤고집 아몬드 분말 800g 1개",
-      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3219,6 +4521,16 @@
       }
     },
     {
+      "query": "이노라이즈 이노미 요거트 파우더 1kg 2개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "이노라이즈 프리미엄 초콜릿파우더 32% 2개 500g",
       "strategy": "retry_exact",
       "requests": 1,
@@ -3236,6 +4548,16 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "일자빨대 블랙 개별포장 500개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -3269,6 +4591,16 @@
       }
     },
     {
+      "query": "일회용 앞치마 100개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "자스민 티백 100개입",
       "strategy": "group",
       "requests": 1,
@@ -3276,6 +4608,16 @@
       "newToday": 1,
       "statuses": {
         "option_mismatch": 1
+      }
+    },
+    {
+      "query": "자스민 티백 100개입",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
       }
     },
     {
@@ -3289,40 +4631,10 @@
       }
     },
     {
-      "query": "자연한입 매실청 1개 860ml",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "잠바주스 스파클링 워터 만다린 20개 500ml",
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "제이넛터 무가당 100% 땅콩버터 크런치 2개 500g",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "제이디팩 일자 빨대 7*210mm 초록 개별포장 500개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -3371,6 +4683,26 @@
     {
       "query": "조은약초 결명자 삼각티백",
       "strategy": "group",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "조은약초 결명자 삼각티백",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "조은약초 계피 분말 250g 20개",
+      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3499,6 +4831,16 @@
       }
     },
     {
+      "query": "카무트 브랜드 밀 100% 2kg 2개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "카일스 망고 파우더 1개입 1개 1kg",
       "strategy": "individual",
       "requests": 1,
@@ -3569,6 +4911,16 @@
       }
     },
     {
+      "query": "카페57 상온 자몽 베이스",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "카페57 상온 핑크리치 캐모마일 1개 1L",
       "strategy": "retry_exact",
       "requests": 1,
@@ -3581,6 +4933,16 @@
     {
       "query": "카페57 요거트 파우더",
       "strategy": "group",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "카페57 요거트 파우더",
+      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3629,6 +4991,16 @@
       }
     },
     {
+      "query": "커필드 카라멜 소스",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "컬러푸드 옐로우라벨 코코아파우더 1개 1개입 300g",
       "strategy": "individual",
       "requests": 1,
@@ -3649,20 +5021,20 @@
       }
     },
     {
-      "query": "케냐 원두 1kg",
-      "strategy": "learned",
+      "query": "코멧 뽑아쓰는 3겹 천연펄프 키친타올 100매",
+      "strategy": "individual",
       "requests": 1,
-      "observations": 4,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
       }
     },
     {
-      "query": "코멧 뽑아쓰는 3겹 천연펄프 키친타올 100매",
-      "strategy": "individual",
+      "query": "코멧 천연펄프 실속 키친타올 2겹 250매",
+      "strategy": "learned",
       "requests": 1,
-      "observations": 1,
+      "observations": 4,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -3679,10 +5051,40 @@
       }
     },
     {
+      "query": "코멧 천연펄프 키친타올 2겹 200매",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "코멧 천연펄프 키친타올 롤형 2겹 130매",
       "strategy": "individual",
       "requests": 1,
       "observations": 3,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "코멧 천연펄프 키친타올 롤형 2겹 130매",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "코코듀티 태국 코코넛밀크 음료 12개 180ml",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -3709,6 +5111,16 @@
       }
     },
     {
+      "query": "코코씸 코코넛크림 요리용 6개 1L",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "코코아 파우더 500g",
       "strategy": "group",
       "requests": 1,
@@ -3719,7 +5131,7 @@
       }
     },
     {
-      "query": "쿡앤팩 일회용 둥근 대나무 젓가락 20cm 백색 개별 포장 - 좋은 재료 1000개 1세트",
+      "query": "코코온 코코넛밀크 (요리용) 4개 400ml",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -3736,16 +5148,6 @@
       "newToday": 1,
       "statuses": {
         "not_found": 1
-      }
-    },
-    {
-      "query": "킹너츠 씨드견과믹스 아몬드슬라이스 볶음땅콩분태 호박씨 해바라기씨 4종 견과믹스 1개 1kg",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
       }
     },
     {
@@ -3799,13 +5201,13 @@
       }
     },
     {
-      "query": "토스키 그레나딘 시럽 1개 1L",
+      "query": "토닉워터 300ml",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "not_found": 1
       }
     },
     {
@@ -3816,6 +5218,16 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "토스키 마라쿠자 패션후르츠 시럽 1L 10개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -3831,6 +5243,16 @@
     {
       "query": "토스키 블루 큐라소향 시럽 1L 1개",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "토스키 스트로베리 시럽 1L 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -3869,20 +5291,10 @@
       }
     },
     {
-      "query": "토종마을 자색고구마분말 1개 250g",
+      "query": "티스트롱 아쌈홍차 CTC 500g",
       "strategy": "individual",
       "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
-      "query": "통 마카다미아 햇견과 스테어팜 (26년 8월 수확) 2세트 500g",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -3949,6 +5361,16 @@
       }
     },
     {
+      "query": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿 1kg 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "파베글라스 무가당 카카오매스 다크초콜릿 7개 200g",
       "strategy": "retry_exact",
       "requests": 1,
@@ -3989,6 +5411,16 @@
       }
     },
     {
+      "query": "파이토메이드 NFC착즙 100% 유기농 레몬즙 1개 500ml",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "페퍼민트 티백",
       "strategy": "learned",
       "requests": 1,
@@ -4019,7 +5451,7 @@
       }
     },
     {
-      "query": "푸른들판 블루베리 농축 분말 가루 파우더 불루베리 열매 과일 스무디 파우더 2개 180g",
+      "query": "푸른빈 계피 가루 분말 200g 1개",
       "strategy": "individual",
       "requests": 1,
       "observations": 1,
@@ -4029,8 +5461,8 @@
       }
     },
     {
-      "query": "푸른빈 계피 가루 분말 200g 1개",
-      "strategy": "individual",
+      "query": "프레지덩 휘핑크림 1L 1개",
+      "strategy": "learned",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -4079,16 +5511,6 @@
       }
     },
     {
-      "query": "프리미엄 진하고 고소한 무가당 다크 카카오파우더 코코아파우더 100g 1개 1개입",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "플라마트 컵홀더",
       "strategy": "group",
       "requests": 1,
@@ -4099,16 +5521,6 @@
       }
     },
     {
-      "query": "플라하반 하이 프로틴 그래놀라 시리얼 아몬드 & 캐슈넛 300g 1개",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 1,
-      "statuses": {
-        "ok": 1
-      }
-    },
-    {
       "query": "플로랄베이크 M자형 PE케이크 투명비닐 50장 100개",
       "strategy": "group",
       "requests": 1,
@@ -4116,6 +5528,16 @@
       "newToday": 1,
       "statuses": {
         "not_found": 1
+      }
+    },
+    {
+      "query": "플로랄베이크 M자형 PE케이크 투명비닐 50장 100개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
       }
     },
     {
@@ -4139,20 +5561,20 @@
       }
     },
     {
-      "query": "피에몬테 100% NFC착즙 유기농 대용량 레몬즙 500ml 2개",
-      "strategy": "individual",
+      "query": "피비에스투 깨끗한 비정제원당 3kg 2개",
+      "strategy": "learned",
       "requests": 1,
-      "observations": 2,
+      "observations": 1,
       "newToday": 1,
       "statuses": {
         "ok": 1
       }
     },
     {
-      "query": "하우스클래스 2겹 대나무 키친타올 6개 150매",
+      "query": "피에몬테 100% NFC착즙 유기농 대용량 레몬즙 500ml 2개",
       "strategy": "individual",
       "requests": 1,
-      "observations": 1,
+      "observations": 2,
       "newToday": 1,
       "statuses": {
         "ok": 1
@@ -4171,11 +5593,12 @@
     {
       "query": "해맑음푸드 넛츠하우스 호두 1kg 1개",
       "strategy": "individual",
-      "requests": 1,
+      "requests": 2,
       "observations": 1,
       "newToday": 1,
       "statuses": {
-        "ok": 1
+        "ok": 1,
+        "not_found": 1
       }
     },
     {
@@ -4196,6 +5619,27 @@
       "newToday": 1,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "헤베커피 스탠다드 블렌드 고소한 원두 1개 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
+      "query": "헬로우그린 계피가루 (시나몬 가루) 1개 300g",
+      "strategy": "individual",
+      "requests": 2,
+      "observations": 2,
+      "newToday": 1,
+      "statuses": {
+        "option_mismatch": 1,
+        "not_found": 1
       }
     },
     {
@@ -4229,8 +5673,28 @@
       }
     },
     {
+      "query": "히비스커스 차 티백 100% 꽃차 히비스커스차 삼각티백 1개 50개입 1g",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "ok": 1
+      }
+    },
+    {
       "query": "히비스커스 티백 100개입",
       "strategy": "group",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 1,
+      "statuses": {
+        "option_mismatch": 1
+      }
+    },
+    {
+      "query": "히비스커스 티백 100개입",
+      "strategy": "individual",
       "requests": 1,
       "observations": 1,
       "newToday": 1,
@@ -4266,6 +5730,16 @@
       "newToday": 0,
       "statuses": {
         "option_mismatch": 1
+      }
+    },
+    {
+      "query": "EZn이지엔 위생 장갑 라이트 500개입 1개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -4829,6 +6303,16 @@
       }
     },
     {
+      "query": "노블빈 다크초코 에스프레소 블렌드 원두 커피 6개 1kg 홀빈",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "노블빈 다크초코 에스프레소 블렌드 원두 커피 6개 1kg 홀빈(분쇄안함)",
       "strategy": "individual",
       "requests": 1,
@@ -4986,6 +6470,16 @@
       "newToday": 0,
       "statuses": {
         "option_mismatch": 1
+      }
+    },
+    {
+      "query": "대한다업 유기농 보성 현미 녹차 100개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 1,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -5179,6 +6673,16 @@
       }
     },
     {
+      "query": "레몬즙 1L",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "리얼 코코아매스 100% 다크초콜릿 300g 1개 1개입",
       "strategy": "individual",
       "requests": 1,
@@ -5289,6 +6793,16 @@
       }
     },
     {
+      "query": "민트 시럽 1L",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "바디랩 서리태 순수 두유 99.9",
       "strategy": "retry_exact",
       "requests": 1,
@@ -5309,6 +6823,16 @@
       }
     },
     {
+      "query": "바리스타 우유 1L",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 2,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "박력분 1kg",
       "strategy": "learned",
       "requests": 1,
@@ -5316,6 +6840,16 @@
       "newToday": 0,
       "statuses": {
         "ok": 1
+      }
+    },
+    {
+      "query": "박력분 1kg",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -5539,6 +7073,16 @@
       }
     },
     {
+      "query": "브로일링커피 화로 블렌드 Brazier 원두 1개 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "브로일링커피 화로 블렌드 Brazier 홀빈 카푸치노 카페 원두 1개 1kg",
       "strategy": "individual",
       "requests": 1,
@@ -5619,6 +7163,16 @@
       }
     },
     {
+      "query": "서울우유 멸균 1L 10개",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "서울우유 멸균 흰우유",
       "strategy": "retry_exact",
       "requests": 1,
@@ -5673,16 +7227,6 @@
       "strategy": "retry_exact",
       "requests": 1,
       "observations": 0,
-      "newToday": 0,
-      "statuses": {
-        "not_found": 1
-      }
-    },
-    {
-      "query": "서울팩토리 리얼 딸기 베이스 1개 1.2kg",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
       "newToday": 0,
       "statuses": {
         "not_found": 1
@@ -5979,6 +7523,16 @@
       }
     },
     {
+      "query": "에코윌 PLA빨대 개별포장 7 21 커피주스용 1개 5000개입",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "에티오피아 예가체프 시다모 네추럴 500g 1개",
       "strategy": "retry_exact",
       "requests": 1,
@@ -6059,6 +7613,16 @@
       }
     },
     {
+      "query": "엔칸토 골드키위 음료베이스 1개 1.8kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "엔칸토 망고 베이스 1.8kg 2개",
       "strategy": "individual",
       "requests": 1,
@@ -6076,6 +7640,16 @@
       "newToday": 0,
       "statuses": {
         "not_found": 1
+      }
+    },
+    {
+      "query": "연세두유 고단백 Pro 플레인 16개 240ml",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "option_mismatch": 1
       }
     },
     {
@@ -6146,6 +7720,16 @@
       "newToday": 0,
       "statuses": {
         "option_mismatch": 1
+      }
+    },
+    {
+      "query": "우엉차 티백 100개입",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
       }
     },
     {
@@ -6409,8 +7993,28 @@
       }
     },
     {
+      "query": "종이 쇼핑백 100개",
+      "strategy": "individual",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "줄줄이 일회용 숟가락 개별포장 투명 1박스 1500개 1개 1500개입",
       "strategy": "individual",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "천운패키지 1온스 소스컵 세트 100개 1개입",
+      "strategy": "learned",
       "requests": 1,
       "observations": 0,
       "newToday": 0,
@@ -6613,6 +8217,16 @@
       "strategy": "group",
       "requests": 1,
       "observations": 2,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "카페라떼 파우더 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
       "newToday": 0,
       "statuses": {
         "not_found": 1
@@ -6849,6 +8463,16 @@
       }
     },
     {
+      "query": "토스키 초콜렛향 시럽",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
       "query": "토스키 초콜렛향 시럽 1L 6개",
       "strategy": "individual",
       "requests": 1,
@@ -7059,16 +8683,6 @@
       }
     },
     {
-      "query": "헬로우그린 계피가루 (시나몬 가루) 1개 300g",
-      "strategy": "individual",
-      "requests": 1,
-      "observations": 1,
-      "newToday": 0,
-      "statuses": {
-        "option_mismatch": 1
-      }
-    },
-    {
       "query": "헬로우그린 시나몬 300g",
       "strategy": "retry_exact",
       "requests": 1,
@@ -7113,6 +8727,26 @@
       "strategy": "individual",
       "requests": 1,
       "observations": 2,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "화이트 컴파운드 초코칩 미디움 1kg 선인 토핑 [선주문]",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
+      "newToday": 0,
+      "statuses": {
+        "not_found": 1
+      }
+    },
+    {
+      "query": "흑당 파우더 1kg",
+      "strategy": "learned",
+      "requests": 1,
+      "observations": 0,
       "newToday": 0,
       "statuses": {
         "not_found": 1
