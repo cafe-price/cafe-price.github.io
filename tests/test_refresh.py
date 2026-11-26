@@ -60,7 +60,6 @@ class RefreshTests(unittest.TestCase):
 
     def test_missing_wrong_option_nonrocket_do_not_advance_price(self):
         for items, expected in [([], "not_found"), ([offer(vid="22")], "option_mismatch"),
-                                ([dict(offer(), isRocket=False)], "non_rocket"),
                                 ([offer(price=0)], "invalid_price")]:
             with self.subTest(expected=expected):
                 deal = offer()
@@ -69,6 +68,25 @@ class RefreshTests(unittest.TestCase):
                 self.assertEqual(refresh.apply_result(deal, items, "2026-11-25 12:00 KST", hist), expected)
                 self.assertEqual(deal, old)
                 self.assertEqual(hist["products"], {})
+
+    def test_exact_nonrocket_offer_updates_price_with_correct_shipping(self):
+        deal, hist = offer(), {"products": {}}
+        self.assertEqual(refresh.apply_result(deal, [dict(offer(price=9500), isRocket=False)], "2026-11-26 15:00 KST", hist), "ok")
+        self.assertEqual(deal["productPrice"], 9500)
+        self.assertFalse(deal["isRocket"])
+        self.assertEqual(deal["refreshStatus"], "ok")
+
+    def test_retry_queries_use_real_product_not_unrelated_old_keyword(self):
+        from retry_queries import variants, choose
+        now = datetime(2026,11,26,6,tzinfo=timezone.utc)
+        deal = dict(offer(), query="다른 브랜드 전혀 다른 상품")
+        self.assertTrue(all("다른 브랜드" not in q for q in variants(deal)))
+        cohort = {"1": {"initialStatus":"not_found"}}
+        state = {"products": {}}
+        q = choose([deal], state, cohort, {}, set(), set(), metrics.day_key(now))[1]
+        self.assertIn("프레지덩", q)
+        self.assertIsNone(choose([deal], state, cohort, {"1":3}, set(), set(), metrics.day_key(now)))
+        self.assertIsNone(choose([deal], state, cohort, {}, {"1"}, set(), metrics.day_key(now)))
 
     def test_scheduler_rotates_after_miss_and_retries_later(self):
         now = datetime(2026, 11, 25, 3, tzinfo=timezone.utc)
@@ -119,11 +137,13 @@ class RefreshTests(unittest.TestCase):
         c = dict(b, refreshStatus="not_found")
         self.assertEqual(refresh.freshness_stats([a, b, c], now)["within24Hours"], 1)
 
-    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1, extra_args=None):
+    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1, extra_args=None, cohort=None):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = Path(tmp.name)
         (root / "data").mkdir()
+        if cohort is not None:
+            (root / "data/retry_targets.json").write_text(json.dumps({"products":cohort}), encoding="utf-8")
         previous = {"status": "ok", "updatedAt": "2026-11-21 20:04 KST", "deals": deals or [offer()], "count": len(deals or [offer()])}
         (root / "deals.json").write_text(json.dumps(previous), encoding="utf-8")
         patches = [patch.object(core, "ROOT", root), patch.object(core, "OUT_PATH", root / "deals.json"),
@@ -145,6 +165,18 @@ class RefreshTests(unittest.TestCase):
         with patch.object(core, "api_get", side_effect=api) as mock:
             code = refresh.main(["--max-requests", str(limit)] + (extra_args or []))
         return code, json.loads((root / "deals.json").read_text(encoding="utf-8")), refresh.load_state(), mock
+
+    def test_targeted_retry_uses_new_query_and_counts_cohort_separately(self):
+        replies = iter([[offer("2","22")], [offer(price=9100)]])
+        code, data, state, api = self.run_collector(
+            response=lambda *args: {"rCode":"0","data":{"productData":next(replies)}},
+            deals=[offer(),offer("2","22")], limit=8, extra_args=["--retry-unconfirmed"],
+            cohort={"1":{"initialStatus":"not_found"}})
+        report=json.loads((core.ROOT / "data/latest_refresh_run.json").read_text(encoding="utf-8"))
+        self.assertEqual(api.call_count,2)
+        self.assertEqual((report["targetCount"],report["targetConfirmed"],report["targetUnconfirmed"],report["confirmed"]),(1,1,0,2))
+        queries=[r["query"] for r in state["metrics"]["requests"]]
+        self.assertEqual(len(set(queries)),2)
 
     def test_full_sweep_reports_every_offer_even_with_duplicate_names(self):
         now = core.kst_str(datetime.now(timezone.utc))

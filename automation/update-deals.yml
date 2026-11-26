@@ -16,6 +16,10 @@ on:
         description: '전체 상품 1회 실측 (오늘 확인한 상품도 포함, API 안전 제한 유지)'
         type: boolean
         default: false
+      retry_unconfirmed:
+        description: '미확인 상품만 새 검색어로 재조회 (안전 제한 유지)'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -53,10 +57,12 @@ jobs:
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
           MAX_REQUESTS: ${{ inputs.max_requests || '600' }}
           FULL_SWEEP: ${{ inputs.full_sweep || 'false' }}
+          RETRY_UNCONFIRMED: ${{ inputs.retry_unconfirmed || 'false' }}
           PYTHONUNBUFFERED: '1'
         run: |
           args=(--refresh-existing --max-requests "$MAX_REQUESTS")
           if [ "$FULL_SWEEP" = 'true' ]; then args+=(--full-sweep); fi
+          if [ "$RETRY_UNCONFIRMED" = 'true' ]; then args+=(--retry-unconfirmed); fi
           python scripts/fetch_cafe_deals.py "${args[@]}"
       - name: 일일 확인률과 누락 상품 분석
         if: always()

@@ -18,6 +18,7 @@ from datetime import datetime, timedelta, timezone
 
 import fetch_cafe_deals as core
 import refresh_metrics as metrics
+import retry_queries
 
 STATE_PATH = core.ROOT / "data" / "refresh_state.json"
 STALE_HOURS = 24
@@ -171,7 +172,7 @@ def choose_search(deals, state, now, used_queries, group_turn, full_sweep=False,
                 return members[0], q, "group"
     for d in candidates:
         attempts = state["products"].get(str(d["productId"]), {}).get("attempts", 0)
-        for q in (*saved_queries(d, state), search_query(d, attempts), search_query(d, 0), str(d.get("query") or "").strip()[:50]):
+        for q in (*saved_queries(d, state), *retry_queries.variants(d), search_query(d, 0)):
             if q and q not in used_queries:
                 return d, q, "individual"
     # Explicit one-off audit: even duplicate listing names receive a target
@@ -216,6 +217,10 @@ def save_run_report(deals, run, outcomes, observed, original_prices, finished=Fa
                   stopReason=reason, total=len(deals), confirmed=len(observed),
                   priceChanged=sum(r["status"] == "ok" and r["price"] != r["previousPrice"] for r in rows),
                   unconfirmed=len(deals)-len(observed), products=rows)
+    if run.get("targetIds") is not None:
+        scope = set(run["targetIds"])
+        report.update(targetCount=len(scope), targetConfirmed=len(observed & scope),
+                      targetUnconfirmed=len(scope - observed))
     path = core.ROOT / "data" / "latest_refresh_run.json"
     path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
@@ -236,8 +241,6 @@ def apply_result(deal, items, at, hist, source="기존 상품 재확인"):
         same_page = any(str(x.get("productId")) == str(deal["productId"]) for x in items)
         return "option_mismatch" if same_page else "not_found"
     item = matches[0]
-    if item.get("isRocket") is not True:
-        return "non_rocket"
     try:
         price = int(item.get("productPrice") or 0)
     except (TypeError, ValueError):
@@ -251,7 +254,7 @@ def apply_result(deal, items, at, hist, source="기존 상품 재확인"):
     # offer's valid price must not be discarded because its title omits units.
     # Never carry the old unit price forward alongside a newly observed price.
     deal.update(productName=name, productPrice=price, unitPrice=round(unit) if unit else None,
-                unitBasis=basis, packNote=pack, isRocket=True,
+                unitBasis=basis, packNote=pack, isRocket=item.get("isRocket"),
                 lastCheckedAt=at, refreshStatus="ok", unitStatus="ok" if unit else "unconfirmed")
     for field in ("productUrl", "productImage", "vendorItemId", "isFreeShipping"):
         if item.get(field) is not None and item.get(field) != "":
@@ -295,20 +298,30 @@ def main(argv):
     deals = previous.get("deals") or []
     state = load_state()
     full_sweep = "--full-sweep" in argv
+    retry_mode = "--retry-unconfirmed" in argv
+    if full_sweep and retry_mode:
+        raise ValueError("Choose either full sweep or targeted retry")
+    cohort = {}
+    if retry_mode:
+        cohort = json.loads((core.ROOT / "data/retry_targets.json").read_text(encoding="utf-8"))["products"]
     limit = max(0, min(RUN_CAP, int(core._opt(argv, "--max-requests") or 600)))
     assume_used = max(0, int(core._opt(argv, "--assume-used") or 0))
     if "--dry-run" in argv:
         simulated, used = copy.deepcopy(state), set()
+        retry_counts = {}
         count = 0
         for slot in range(limit):
-            choice = choose_search(deals, simulated, now, used, slot % 2 == 0, full_sweep,
+            choice = (retry_queries.choose(deals, simulated, cohort, retry_counts, set(), used, metrics.day_key(now))
+                      if retry_mode else choose_search(deals, simulated, now, used, slot % 2 == 0, full_sweep,
                                    {pid for pid, r in simulated["products"].items() if r.get("auditSelected")})
+                      )
             if not choice:
                 break
             deal, query, strategy = choice
             used.add(query)
             simulated["products"].setdefault(str(deal["productId"]), {})["lastAttemptAt"] = core.kst_str(now)
             simulated["products"][str(deal["productId"])]["auditSelected"] = True
+            retry_counts[str(deal["productId"])] = retry_counts.get(str(deal["productId"]), 0) + 1
             count += 1
             print(f"[plan] {strategy} | {deal['productId']} | {last_checked(deal)} | {query}")
         print(f"[dry-run] 기존 상품 {len(deals)}개 · 최대 검색 {count}회 · 실제 결과에 따라 다음 대상 재선정 · API/파일 변경 없음")
@@ -332,9 +345,12 @@ def main(argv):
     used_queries = set()
     observed_run = set()
     targeted_run, outcomes_run = set(), {}
+    retry_counts = {}
     original_prices = {str(d["productId"]): d.get("productPrice") for d in deals}
-    run = {"startedAt": core.kst_str(now), "mode": "full_sweep" if full_sweep else "daily",
+    run = {"startedAt": core.kst_str(now), "mode": "retry_unconfirmed" if retry_mode else "full_sweep" if full_sweep else "daily",
            "githubRunId": os.environ.get("GITHUB_RUN_ID"), "requests": 0}
+    if retry_mode:
+        run["targetIds"] = sorted(cohort)
     stop_reason = "request_limit"
     had_error = False
     started = time.monotonic()
@@ -344,8 +360,9 @@ def main(argv):
             print("[stop] Runtime budget reached; remaining offers stay queued")
             break
         now = datetime.now(timezone.utc)
-        choice = choose_search(deals, state, now, used_queries, slot % 2 == 0, full_sweep,
-                               targeted_run | observed_run if full_sweep else None)
+        choice = (retry_queries.choose(deals, state, cohort, retry_counts, observed_run, used_queries, metrics.day_key(now))
+                  if retry_mode else choose_search(deals, state, now, used_queries, slot % 2 == 0, full_sweep,
+                               targeted_run | observed_run if full_sweep else None))
         if not choice:
             stop_reason = "queue_complete"
             break
@@ -370,6 +387,7 @@ def main(argv):
         target["lastAttemptAt"] = at
         attempted += 1
         targeted_run.add(pid)
+        retry_counts[pid] = retry_counts.get(pid, 0) + 1
         # Reserve the request BEFORE network I/O, including failed requests.
         usage = retained_usage(usage, datetime.now(timezone.utc))
         usage.append(datetime.now(timezone.utc))
@@ -390,6 +408,10 @@ def main(argv):
             if not isinstance(items, list):
                 raise ValueError("Invalid productData")
             event.update(apiStatus="ok", returnedCount=len(items))
+            event["sameProductOffers"] = [{"productId": str(x.get("productId")),
+                "vendorItemId": core.vendor_item_id(x), "productName": x.get("productName"),
+                "productUrl": x.get("productUrl"), "price": x.get("productPrice"),
+                "isRocket": x.get("isRocket")} for x in items if str(x.get("productId")) == pid]
             result = apply_result(target, items, at, hist)
             # One search can refresh other EXISTING exact offers too, but never add unrelated products.
             for other in deals:

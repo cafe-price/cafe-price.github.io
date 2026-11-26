@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="theme-color" content="#0f172a" />
 <title>카페발주 단가표 · 사장님 발주 단가 비교</title>
-<meta name="description" content="카페 사장님을 위한 12개 카테고리 발주 품목 중 로켓배송이면서 단가를 계산할 수 있는 상품의 가격과 개당·100ml당·100g당 단가를 한눈에 비교하고, 당일 시간대별·최근 30일 가격 추이까지 확인하는 표입니다." />
+<meta name="description" content="카페 사장님을 위한 12개 카테고리 발주 품목의 가격과 개당·100ml당·100g당 단가, 배송 조건을 비교하고 당일·최근 30일 가격 추이를 확인하는 표입니다." />
 <style>
   :root {
     --bg: #f4f5f7;
@@ -236,7 +236,7 @@
   </div>
 
   <div class="toolbar">
-    <span class="scope" id="scopeBadge">🚀 확인 당시 로켓배송 · 단가 확인 품목</span>
+    <span class="scope" id="scopeBadge">상품별 가격·단가·배송 비교</span>
     <select id="sort" aria-label="정렬">
       <option value="unit">단가 낮은 순 (개당·100ml·100g)</option>
       <option value="discount">할인율 높은 순</option>
@@ -267,7 +267,7 @@
 
   <footer>
     <p>· 상품가는 쿠팡 판매가 기준이며, <b>개당 · 100ml당 · 100g당 단가</b>는 상품명에 적힌 박스 구성 수량·용량으로 나눠 계산한 값입니다. 그래서 <b>단가를 낼 수 없는 품목은 싣지 않습니다</b>.</p>
-    <p>· 가격을 확인했을 때 로켓배송이던 상품을 담습니다. 배송 조건 변경·검색 미발견 상품은 재확인 필요로 구분하며, 검색에 안 나왔다고 품절로 판단하지 않습니다.</p>
+    <p>· 상품별 마지막 확인 시점의 가격과 배송 조건을 표시합니다. 로켓배송과 일반배송을 구분하며, 검색에 안 나왔다고 품절로 판단하지 않습니다.</p>
     <p>· 배송비·쿠폰·카드 할인은 반영되지 않으므로 실제 결제 금액과 다를 수 있습니다.</p>
     <p>· <b>상품 카드를 누르면</b> <b>당일 추이</b>(오늘 시간대별)와 <b>30일 추이</b>(일별)를 탭으로 나눠 확인할 수 있습니다. 구매는 모달 안의 <b>쿠팡에서 최저가 확인 / 발주하기</b> 버튼으로 이동합니다.</p>
     <p>· 가격 배지: <b>평균 대비 N%↓</b> 누적 평균보다 낮음 · <b>평균 대비 +N%↑</b> 누적 평균보다 높음 · <b>평균가 유지</b> 평균과 같은 가격 · <b>추적 1일차</b> 관측 1회. 모든 배지는 실제로 수집된 가격 기록으로만 계산하며, 0%·가짜 정가는 표시하지 않습니다.</p>
@@ -352,7 +352,7 @@
 
   // 단가 계산이 실패해도 실제 상품 가격을 확인한 기존 품목은 유지한다.
   function passesFilter(x) {
-    return !!x && x.isRocket === true && (x.unitPrice != null ||
+    return !!x && (x.unitPrice != null ||
       (x.unitStatus === "unconfirmed" && x.productPrice > 0));
   }
 
@@ -440,7 +440,8 @@
       : '<div class="avg">가격 기록 수집 중</div>';
     return '<button type="button" class="card' + (freshness(deal).stale ? ' stale' : '') + '" data-id="' + esc(deal.productId) + '" data-i="' + i + '" aria-label="' + esc(deal.productName) + ' 가격 추이 보기">' +
       '<div class="thumb">' +
-        (deal.isRocket ? '<span class="badge">🚀 ' + (freshness(deal).stale ? '확인 당시 로켓' : '로켓') + '</span>' : '') +
+        (deal.isRocket === true ? '<span class="badge">🚀 ' + (freshness(deal).stale ? '확인 당시 로켓' : '로켓') + '</span>' :
+          '<span class="badge">' + (deal.isRocket === false ? (freshness(deal).stale ? '확인 당시 일반배송' : '일반배송') : '배송 정보 확인') + '</span>') +
         img +
       '</div>' +
       '<div class="body">' +
@@ -458,7 +459,7 @@
   function renderScope(d) {
     var all = (d && d.deals) || [];
     var hidden = all.filter(function (x) { return !passesFilter(x); }).length;
-    el.scope.innerHTML = "🚀 확인 당시 로켓배송 · 단가 확인 품목" +
+    el.scope.innerHTML = "상품별 가격·단가·배송 비교" +
       (hidden > 0 ? ' <span class="n">· 조건 밖 ' + hidden + '건 숨김</span>' : "");
   }
 
@@ -494,7 +495,7 @@
       if (pending) {
         el.emptyText.textContent = "쿠팡 API 연동이 완료되면 실제 발주 후보가 여기에 표시됩니다. (현재는 수집 대기 상태)";
       } else if (state.cat !== "전체" && catTotal === 0) {
-        el.emptyText.textContent = "‘" + state.cat + "’ 카테고리는 아직 조건에 맞는 수집 상품이 없습니다. 다음 자동 수집에서 로켓배송·단가 확인 품목으로 채워집니다.";
+        el.emptyText.textContent = "‘" + state.cat + "’ 카테고리는 아직 수집 상품이 없습니다.";
       } else if (q) {
         el.emptyText.textContent = "‘" + state.q.trim() + "’ 검색 결과가 없습니다. 다른 검색어로 찾아보세요.";
       } else {
