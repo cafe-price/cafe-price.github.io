@@ -304,6 +304,10 @@ def main(argv):
     cohort = {}
     if retry_mode:
         cohort = json.loads((core.ROOT / "data/retry_targets.json").read_text(encoding="utf-8"))["products"]
+        # Subsequent targeted runs must not spend requests on already recovered
+        # offers. Keep the original cohort file intact for cumulative auditing.
+        confirmed_today = metrics.observed_ids(deals, metrics.day_key(now))
+        cohort = {pid: entry for pid, entry in cohort.items() if pid not in confirmed_today}
     limit = max(0, min(RUN_CAP, int(core._opt(argv, "--max-requests") or 600)))
     assume_used = max(0, int(core._opt(argv, "--assume-used") or 0))
     if "--dry-run" in argv:

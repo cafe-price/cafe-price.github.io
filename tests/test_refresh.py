@@ -178,6 +178,18 @@ class RefreshTests(unittest.TestCase):
         queries=[r["query"] for r in state["metrics"]["requests"]]
         self.assertEqual(len(set(queries)),2)
 
+    def test_targeted_retry_skips_already_recovered_offer(self):
+        now = core.kst_str(datetime.now(timezone.utc))
+        code, data, state, api = self.run_collector(
+            response={"rCode":"0","data":{"productData":[offer("2","22")]}},
+            deals=[dict(offer(),lastCheckedAt=now), offer("2","22")], limit=1,
+            extra_args=["--retry-unconfirmed"],
+            cohort={"1":{"initialStatus":"not_found"},"2":{"initialStatus":"not_found"}})
+        report=json.loads((core.ROOT / "data/latest_refresh_run.json").read_text(encoding="utf-8"))
+        self.assertEqual(api.call_count,1)
+        self.assertEqual(report['targetIds'],['2'])
+        self.assertEqual(report['targetConfirmed'],1)
+
     def test_full_sweep_reports_every_offer_even_with_duplicate_names(self):
         now = core.kst_str(datetime.now(timezone.utc))
         deals = [dict(offer(str(i), str(i+10)), lastCheckedAt=now) for i in range(3)]
