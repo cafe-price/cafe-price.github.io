@@ -1,8 +1,6 @@
 name: 직접 상품 조회 서버 진단
 on:
   workflow_dispatch:
-  push:
-    paths: ['.github/workflows/probe-direct-price.yml']
 permissions:
   contents: read
 jobs:

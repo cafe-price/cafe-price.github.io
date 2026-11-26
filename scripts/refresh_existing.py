@@ -141,7 +141,7 @@ def exact_offer(stored, item):
     return bool(name and name == core.option_name_key(item))
 
 
-def apply_result(deal, items, at, hist):
+def apply_result(deal, items, at, hist, source="기존 상품 재확인"):
     matches = [item for item in items if exact_offer(deal, item)]
     if not matches:
         same_page = any(str(x.get("productId")) == str(deal["productId"]) for x in items)
@@ -168,7 +168,7 @@ def apply_result(deal, items, at, hist):
         if item.get(field) is not None and item.get(field) != "":
             deal[field] = item[field]
     core.with_vendor_item_id(deal)
-    core.add_observation(hist, deal, at, "기존 상품 재확인")
+    core.add_observation(hist, deal, at, source)
     return "ok"
 
 

@@ -11,6 +11,12 @@ on:
         default: '8'
         type: choice
         options: ['1', '2', '4', '8']
+      cloud_max_requests:
+        description: '외부 직접 조회 활성화 시 시험/수집 횟수'
+        required: true
+        default: '3'
+        type: choice
+        options: ['3', '25', '600']
   push:
     branches: [main]
     paths:
@@ -30,7 +36,7 @@ jobs:
   collect:
     if: github.event_name != 'push' && vars.CAFE_PRICE_SCHEDULER_ENABLED == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 50
     permissions:
       contents: write
     steps:
@@ -43,11 +49,19 @@ jobs:
       - name: 수집 로직 검증
         run: python -m unittest discover -s tests -v
       - name: 기존 상품 재확인
+        if: vars.CAFE_PRICE_CLOUD_ENABLED != 'true'
         env:
           COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
           MAX_REQUESTS: ${{ inputs.max_requests || '8' }}
         run: python scripts/fetch_cafe_deals.py --refresh-existing --max-requests "$MAX_REQUESTS"
+      - name: 정확한 판매 옵션 직접 조회
+        if: vars.CAFE_PRICE_CLOUD_ENABLED == 'true'
+        env:
+          CAFE_PRICE_CLOUD_ENABLED: ${{ vars.CAFE_PRICE_CLOUD_ENABLED }}
+          OMKAR_API_KEY: ${{ secrets.OMKAR_API_KEY }}
+          MAX_REQUESTS: ${{ inputs.cloud_max_requests || '600' }}
+        run: python scripts/refresh_cloud.py --max-requests "$MAX_REQUESTS"
       - name: 일일 확인률과 누락 상품 분석
         if: always()
         run: python scripts/report_coverage.py >> "$GITHUB_STEP_SUMMARY"
@@ -99,6 +113,8 @@ jobs:
           ref: main
       - name: 화면 로직 검증
         run: node tests/frontend.test.cjs
+      - name: 수집 로직 배포 전 검증
+        run: python -m unittest discover -s tests -v
       - uses: actions/configure-pages@v5
       - name: 공개 파일만 패키징
         run: |
