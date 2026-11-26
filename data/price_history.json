@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 10:49 KST",
+  "updatedAt": "2026-11-26 12:41 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -10001,21 +10001,26 @@
       "vendorItemId": "95911104311"
     },
     "9200473378": {
-      "productName": "코코씸 드링킹용 코코넛 밀크, 12개, 1L",
+      "productName": "[NO.1 코코넛브랜드] 코코씸 코코넛밀크 드링크 (무설탕)",
       "category": "우유·대체유",
       "observations": [
         {
           "at": "2026-11-16 20:04 KST",
           "price": 96000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 12:41 KST",
+          "price": 80180,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 96000,
-      "minPrice": 96000,
+      "priceCount": 2,
+      "avgPrice": 88090,
+      "minPrice": 80180,
       "maxPrice": 96000,
-      "lastPrice": 96000,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastPrice": 80180,
+      "lastAt": "2026-11-26 12:41 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10024,9 +10029,17 @@
           96000,
           96000,
           1
+        ],
+        [
+          "2026-11-26",
+          80180,
+          80180,
+          80180,
+          80180,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "94140379212"
     },
     "6273403276": {
@@ -10131,21 +10144,26 @@
       "vendorItemId": "95969021427"
     },
     "7460888891": {
-      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살, 1개, 1000개",
+      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살",
       "category": "빨대·홀더",
       "observations": [
         {
           "at": "2026-11-16 20:04 KST",
           "price": 25630,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 12:41 KST",
+          "price": 25800,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 25630,
+      "priceCount": 2,
+      "avgPrice": 25715,
       "minPrice": 25630,
-      "maxPrice": 25630,
-      "lastPrice": 25630,
-      "lastAt": "2026-11-16 20:04 KST",
+      "maxPrice": 25800,
+      "lastPrice": 25800,
+      "lastAt": "2026-11-26 12:41 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10154,9 +10172,17 @@
           25630,
           25630,
           1
+        ],
+        [
+          "2026-11-26",
+          25800,
+          25800,
+          25800,
+          25800,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "89981805257"
     },
     "9699325460": {

@@ -275,6 +275,34 @@
       "lastAttemptAt": "2026-11-26 10:49 KST",
       "consecutiveMisses": 0,
       "status": "ok"
+    },
+    "8008670033": {
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "attempts": 1,
+      "query": "카라멜 시럽 1L",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "7460888891": {
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "attempts": 1,
+      "query": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살 1개 1000개",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "6400580429": {
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "attempts": 1,
+      "query": "자몽 베이스 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9200473378": {
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "attempts": 1,
+      "query": "코코씸 드링킹용 코코넛 밀크 12개 1L",
+      "status": "ok",
+      "consecutiveMisses": 0
     }
   },
   "metrics": {
@@ -520,6 +548,50 @@
           "8444060567",
           "8449685207",
           "8461281908"
+        ]
+      },
+      {
+        "at": "2026-11-26 12:41 KST",
+        "query": "카라멜 시럽 1L",
+        "strategy": "group",
+        "targetId": "8008670033",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": []
+      },
+      {
+        "at": "2026-11-26 12:41 KST",
+        "query": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살 1개 1000개",
+        "strategy": "individual",
+        "targetId": "7460888891",
+        "status": "ok",
+        "observedIds": [
+          "7460888891"
+        ],
+        "newTodayIds": [
+          "7460888891"
+        ]
+      },
+      {
+        "at": "2026-11-26 12:41 KST",
+        "query": "자몽 베이스 1kg",
+        "strategy": "group",
+        "targetId": "6400580429",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": []
+      },
+      {
+        "at": "2026-11-26 12:41 KST",
+        "query": "코코씸 드링킹용 코코넛 밀크 12개 1L",
+        "strategy": "individual",
+        "targetId": "9200473378",
+        "status": "ok",
+        "observedIds": [
+          "9200473378"
+        ],
+        "newTodayIds": [
+          "9200473378"
         ]
       }
     ]

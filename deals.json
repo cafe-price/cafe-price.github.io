@@ -1,6 +1,6 @@
 {
   "status": "ok",
-  "updatedAt": "2026-11-26 10:49 KST",
+  "updatedAt": "2026-11-26 12:41 KST",
   "statsAt": "2026-11-25 13:05 KST",
   "notice": "",
   "watchlist": [],
@@ -21,7 +21,7 @@
   "count": 525,
   "priceStats": {
     "products": 700,
-    "discounts": 16
+    "discounts": 17
   },
   "deals": [
     {
@@ -1629,23 +1629,23 @@
     },
     {
       "productId": "9200473378",
-      "productName": "코코씸 드링킹용 코코넛 밀크, 12개, 1L",
-      "productPrice": 96000,
-      "productImage": "https://ads-partners.coupang.com/image1/XsN_x3eO2alU4x79XjvuQnkyr5ubyde6kyOtZGB7QjxWXLDWImwiZl8se11yGQncam-Ns0mArUlju8PFivem3eYqjL0ApIwXRq6vjjtAgkXpRclSgglUWw9meDehIyX37oj-RfCqPuXn8LJk5BCxJOjuNrrYH32CcrVgss4IypvBVhJSQnf6KgYuo5CKBfuEEX6FPodmH9O4RL7QQaZitjusAAyOKNWd4Z6dTjXUEhd7OfeB1Zb_h-3t0OyeXzJXN4TOcLuc-ZXKTcLzfpih_juAHv7TYqdLKtbeaBDXCKTn6esV9mKu9Rms0yU4r1HnqoByHDMPhSO0q9-qTkDEH-fGxkNDKgr_uFHL2Yr5mlMfws2c756g3ANRbfGOYCqmVq14fAGae2aYO83zXCfuK-Q5ZPQO40T91139OqWUlcpqGNjCEnOWam15mBbnGX5l2Mv-0Cz4MNyiyYFuKGTUAN-zomvnFZajyAnl3Q26xCOOTkC9f5VqqIba53NPR9KN8Yu9zFTKy5CzmnbEWv1sFnhfJic7vJDWZoWIpmVGnRXcZKc8eHu7DPjDxpzXv6jD1ERPJJ5ay62DzXdVkNECBi8pO-I5-k2CnV7j",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9200473378&itemId=27172741909&vendorItemId=94140379212&traceid=V0-153-e79f8965ab906816&clickBeacon=73e70db0-e1ad-11f1-81ea-e3c441f6e957%7E3&requestid=20261116200411455096253334&token=31850C%7CMIXED&pt=1&slot=2",
+      "productName": "[NO.1 코코넛브랜드] 코코씸 코코넛밀크 드링크 (무설탕)",
+      "productPrice": 80180,
+      "productImage": "https://ads-partners.coupang.com/image1/eLN2AKckigqz0sIUeH4CDkKli_0smFrUjIU7W3QX37dNoHWnJ0NOCLrarQJdttTzgFkbnTxyN2IYJhISQhlHHz8n4Oqyh0usFoeYb_nTtY6yZS09ZupJslHzi9vHPfv_xgVPg5MUyLLc6tAjcKW6qc3TnSuRRnTADKxVWdWeEExQZzxUutsHf-sUpsR9ACpZcTIKADtVnkZ1WW9c_AogbjsU2T6icemka27qRpxIsw5f9InQwQK9GNubR7Uxo1RVEP1GvViJu915AyXItteZWKPzvJy30QhDH64T4azv_tEAKy8GdrHHj9E1bajcyp7sAjdvpTnN0HgAR0dVkZ_9sxhvSMooAwXuNFmYXtsuNnYKM5NWAX0G3CbQ03vV4AsRjPdQsAtXrOsMzD0ZHGU1ydZbpEiibkncULVBFphpmGZNEXNdVtnPj6gOhppbVHd8YcaE9b4nZy-lQDbCQadM-b1f9nFPUxnOm5jRn_8khiwVpEzf1eaMltPeCKyt4h327J3Y_J-plXe8uVJ3A-_yUtROcXynYvXh75KVtqNwhP4lsOH_io1Y3hk=",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9200473378&itemId=27172741909&vendorItemId=94140379212&traceid=V0-153-e79f8965ab906816&requestid=20261126124154493296163030&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "우유·대체유",
       "query": "코코넛밀크 1L",
-      "unitPrice": 800,
+      "unitPrice": null,
       "unitBasis": "100ml당",
-      "packNote": "1,000ml×12",
-      "avgPrice": 96000,
-      "minPrice": 96000,
+      "packNote": null,
+      "avgPrice": 88090,
+      "minPrice": 80180,
       "maxPrice": 96000,
-      "priceCount": 1,
-      "discountRate": null,
-      "uniqueDays": 1,
+      "priceCount": 2,
+      "discountRate": 9,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1654,16 +1654,31 @@
           96000,
           96000,
           1
+        ],
+        [
+          "2026-11-26",
+          80180,
+          80180,
+          80180,
+          80180,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 20:04 KST",
           96000
+        ],
+        [
+          "2026-11-26 12:41 KST",
+          80180
         ]
       ],
       "vendorItemId": "94140379212",
-      "lastCheckedAt": "2026-11-16 20:04 KST"
+      "lastCheckedAt": "2026-11-26 12:41 KST",
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "refreshStatus": "ok",
+      "unitStatus": "unconfirmed"
     },
     {
       "productId": "8636312518",
@@ -5614,7 +5629,9 @@
           45000
         ]
       ],
-      "lastCheckedAt": "2026-11-17 00:10 KST"
+      "lastCheckedAt": "2026-11-17 00:10 KST",
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "refreshStatus": "not_found"
     },
     {
       "productId": "6702243792",
@@ -8636,7 +8653,9 @@
           33630
         ]
       ],
-      "lastCheckedAt": "2026-11-17 01:11 KST"
+      "lastCheckedAt": "2026-11-17 01:11 KST",
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "refreshStatus": "not_found"
     },
     {
       "productId": "7398460013",
@@ -20893,23 +20912,23 @@
     },
     {
       "productId": "7460888891",
-      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살, 1개, 1000개",
-      "productPrice": 25630,
-      "productImage": "https://ads-partners.coupang.com/image1/B3fUIDrAdxAa_SLoB-kbJC6IqmpVd6qQoyc3PRSeP3UZGCTTvyiMd2OPvt4eQ7s4PDH20CGerDa3ZDsOkALsweIWmGdZDniHp3a4ixUKfY_Z8vjn2oczbl5-PK4DU3rCzsiuat-i1TBozVgLiCib8KPSQ9SiMl35AQoPumdnOKHXO82kl8yK8R85OYQ6-dp-b_Zt46XpL6Zd7gpEOd2ejxaSbKbynXrA_I1N32nxl8qJtfpRdqrb_5e1YsgIEe4m3y_ee3puOZY-3Zol4e3PXkuzRYhHiGsVbY4-lA4OWwBXdk6836Gzsyokfmo6ICjQF7C8xT_FMdSHq9M-DZ_ekEuTbCoIJfFerX9a_WC4EGYlqICbz57uETkiMlTn092lYsvNbPQl0cN6J6swSTzQgV27PmKFRI57tutRe2fsb3S9d7PvADnLORu1JKxg2YnvwXOQDfboeWR9yo8_eIKNTLoR8cZ7c3uelfqnKtQhT8TnRVTa5nB2k7AGxqDFEBt9R2uAthPbcuaeNX-GL2WGcy2pwAVmlBI=",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7460888891&itemId=19446300323&vendorItemId=89981805257&traceid=V0-153-8d67834dcb331057&clickBeacon=82f45b00-e1ad-11f1-b8f2-3511a7210e8e%7E3&requestid=20261116200436722187597284&token=31850C%7CMIXED&pt=1&slot=2",
+      "productName": "포담팩 카페테이크아웃 종이컵홀더 92파이 98파이 멀티홀더 옐로우 햇살",
+      "productPrice": 25800,
+      "productImage": "https://ads-partners.coupang.com/image1/mJOyerQxoU2V-pMfmDsavvjnT2yTk-9f-ob1rsUilWLHLVAyIYmEHAlBsYdpXv0ckRxuy82Wy87T7hwxKtfaG54QTd_rk8pIOJ7i10_m1HlKvq6iR-yR6VuQS28FsfmDJRUVq2YNpPua0lBKyXP8mZI1AsoEOHO9Fi7TB5jKmy-Bf3uFiKvzJqCs71JDreKMVfXsRK1O8JR1c46-0HLyzMYT8HML7q5nWFwS-APvHyqTNME-cBI7qBK_XmP8hYcgXaOqapasbyVUVLooQjfjr2jZeyvYRqvIdwLqJeIYa9eC5rdZKcwCkZjQyoFUS4xVfaKIBdOCVZKDQgJ1GqhUQ59NexkJ7mTS75L-7gsObIK1xewnlRtvVX8ya3tESMv8812Ue0NM3D6u6YqVzJll4uAP7GU13HzXG3S0zRGCImbPWhs02aA8qbOFV7rxowbm0exKoyQq-hHl2KKVZdaZqk_iquyh9r07ajbeF1wyY7Q9ujEiOvP-Y--beOjAoZ3wQ5XcD6kMcpN4M14yh0cBU2W7uyPMNqq8OVB9Ta5M9mxt",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7460888891&itemId=19446300323&vendorItemId=89981805257&traceid=V0-153-8d67834dcb331057&requestid=20261126124138476158311480&token=31850C%7CGM&pt=0&slot=1",
       "isRocket": true,
       "isFreeShipping": false,
       "category": "빨대·홀더",
       "query": "테이크아웃 컵홀더 1000개",
-      "unitPrice": 26,
+      "unitPrice": null,
       "unitBasis": "개당",
-      "packNote": "1,000개입",
-      "avgPrice": 25630,
+      "packNote": null,
+      "avgPrice": 25715,
       "minPrice": 25630,
-      "maxPrice": 25630,
-      "priceCount": 1,
+      "maxPrice": 25800,
+      "priceCount": 2,
       "discountRate": null,
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "dailyHistory": [
         [
           "2026-11-16",
@@ -20918,16 +20937,31 @@
           25630,
           25630,
           1
+        ],
+        [
+          "2026-11-26",
+          25800,
+          25800,
+          25800,
+          25800,
+          1
         ]
       ],
       "priceHistory": [
         [
           "2026-11-16 20:04 KST",
           25630
+        ],
+        [
+          "2026-11-26 12:41 KST",
+          25800
         ]
       ],
       "vendorItemId": "89981805257",
-      "lastCheckedAt": "2026-11-16 20:04 KST"
+      "lastCheckedAt": "2026-11-26 12:41 KST",
+      "lastAttemptAt": "2026-11-26 12:41 KST",
+      "refreshStatus": "ok",
+      "unitStatus": "unconfirmed"
     },
     {
       "productId": "9767112517",
@@ -24454,19 +24488,19 @@
   "prunedAt": "2026-11-25 13:06 KST",
   "pruneNote": "2026-11-25 13시: (1) 로켓 이탈 1종 제외 — 위크위크 부드러운 콜롬비아 1kg(판매자배송 전환, 22,950원 동일) (2) 신규 8건 중 결명자 2건 단가 기준 개당→100g당 보정. 518 → 525건",
   "freshnessStats": {
-    "within24Hours": 43,
-    "needsRecheck": 482,
+    "within24Hours": 45,
+    "needsRecheck": 480,
     "total": 525
   },
-  "lastRunAt": "2026-11-26 10:49 KST",
+  "lastRunAt": "2026-11-26 12:41 KST",
   "refreshRun": {
-    "requests": 8,
-    "attempted": 8,
-    "refreshed": 13,
+    "requests": 4,
+    "attempted": 4,
+    "refreshed": 2,
     "error": false
   },
   "coverage": {
-    "generatedAt": "2026-11-26 10:49 KST",
+    "generatedAt": "2026-11-26 12:41 KST",
     "measurementStartedAt": "2026-11-25 14:51 KST",
     "daily": [
       {
@@ -24481,15 +24515,15 @@
       },
       {
         "date": "2026-11-26",
-        "confirmed": 26,
+        "confirmed": 28,
         "total": 525,
-        "percent": 5.0,
-        "requests": 16,
-        "measuredUnique": 26,
-        "uniquePerRequest": 1.62,
+        "percent": 5.3,
+        "requests": 20,
+        "measuredUnique": 28,
+        "uniquePerRequest": 1.4,
         "partial": true
       }
     ],
-    "missing72HoursOrRepeated": 373
+    "missing72HoursOrRepeated": 376
   }
 }
