@@ -169,6 +169,112 @@
       "query": "베이킹&토핑 미니 마쉬멜로 1개 500g",
       "status": "ok",
       "consecutiveMisses": 0
+    },
+    "9103262508": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "초코칩 1kg",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "9061110194": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9210126689": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8646184725": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "[로켓프레시] 파오리 락토스프리 버터 10개입 125g 1개",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "277970218": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "키친타월 12롤",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "7572829529": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9192487825": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "글로리판 인스턴트 드라이 이스트 500g 1개",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "8244145059": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "아이스티 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9699325460": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "7485430140": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "브릭글로 엠보싱 비닐 위생장갑 도톰형 500개입 2개",
+      "status": "option_mismatch",
+      "consecutiveMisses": 1
+    },
+    "7991324082": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9257744603": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "케냐 원두 1kg",
+      "status": "not_found",
+      "consecutiveMisses": 1
+    },
+    "9136027887": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "5504227265": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "9721134093": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8461281908": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "attempts": 1,
+      "query": "이노라이즈 이노미 초콜릿 소스 1개 1.25kg",
+      "status": "ok",
+      "consecutiveMisses": 0
+    },
+    "8444060567": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
+    },
+    "8449685207": {
+      "lastAttemptAt": "2026-11-26 10:49 KST",
+      "consecutiveMisses": 0,
+      "status": "ok"
     }
   },
   "metrics": {
@@ -304,6 +410,116 @@
         ],
         "newTodayIds": [
           "8803611137"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "초코칩 1kg",
+        "strategy": "group",
+        "targetId": "9103262508",
+        "status": "ok",
+        "observedIds": [
+          "9061110194",
+          "9103262508",
+          "9210126689"
+        ],
+        "newTodayIds": [
+          "9061110194",
+          "9103262508",
+          "9210126689"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "[로켓프레시] 파오리 락토스프리 버터 10개입 125g 1개",
+        "strategy": "individual",
+        "targetId": "8646184725",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": []
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "키친타월 12롤",
+        "strategy": "group",
+        "targetId": "277970218",
+        "status": "ok",
+        "observedIds": [
+          "277970218",
+          "7572829529"
+        ],
+        "newTodayIds": [
+          "277970218",
+          "7572829529"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "글로리판 인스턴트 드라이 이스트 500g 1개",
+        "strategy": "individual",
+        "targetId": "9192487825",
+        "status": "not_found",
+        "observedIds": [],
+        "newTodayIds": []
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "아이스티 1kg",
+        "strategy": "group",
+        "targetId": "8244145059",
+        "status": "not_found",
+        "observedIds": [
+          "9699325460"
+        ],
+        "newTodayIds": [
+          "9699325460"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "브릭글로 엠보싱 비닐 위생장갑 도톰형 500개입 2개",
+        "strategy": "individual",
+        "targetId": "7485430140",
+        "status": "option_mismatch",
+        "observedIds": [
+          "7991324082"
+        ],
+        "newTodayIds": [
+          "7991324082"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "케냐 원두 1kg",
+        "strategy": "group",
+        "targetId": "9257744603",
+        "status": "not_found",
+        "observedIds": [
+          "5504227265",
+          "9136027887",
+          "9721134093"
+        ],
+        "newTodayIds": [
+          "5504227265",
+          "9136027887",
+          "9721134093"
+        ]
+      },
+      {
+        "at": "2026-11-26 10:49 KST",
+        "query": "이노라이즈 이노미 초콜릿 소스 1개 1.25kg",
+        "strategy": "individual",
+        "targetId": "8461281908",
+        "status": "ok",
+        "observedIds": [
+          "8444060567",
+          "8449685207",
+          "8461281908"
+        ],
+        "newTodayIds": [
+          "8444060567",
+          "8449685207",
+          "8461281908"
         ]
       }
     ]

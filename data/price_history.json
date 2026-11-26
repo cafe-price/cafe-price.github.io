@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 02:23 KST",
+  "updatedAt": "2026-11-26 10:49 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -4402,14 +4402,19 @@
           "at": "2026-11-21 15:03 KST",
           "price": 12000,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 12000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 12000,
       "minPrice": 12000,
       "maxPrice": 12000,
       "lastPrice": 12000,
-      "lastAt": "2026-11-21 15:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -4426,9 +4431,17 @@
           12000,
           12000,
           1
+        ],
+        [
+          "2026-11-26",
+          12000,
+          12000,
+          12000,
+          12000,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "95126284576"
     },
     "9770220113": {
@@ -9012,14 +9025,19 @@
           "at": "2026-11-21 15:03 KST",
           "price": 15890,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 15890,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 9,
+      "priceCount": 10,
       "avgPrice": 15890,
       "minPrice": 15890,
       "maxPrice": 15890,
       "lastPrice": 15890,
-      "lastAt": "2026-11-21 15:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9052,9 +9070,17 @@
           15890,
           15890,
           1
+        ],
+        [
+          "2026-11-26",
+          15890,
+          15890,
+          15890,
+          15890,
+          1
         ]
       ],
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "vendorItemId": "94780941238"
     },
     "9411208937": {
@@ -9358,14 +9384,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 13000,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 13000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 13000,
       "minPrice": 13000,
       "maxPrice": 13000,
       "lastPrice": 13000,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9374,9 +9405,17 @@
           13000,
           13000,
           1
+        ],
+        [
+          "2026-11-26",
+          13000,
+          13000,
+          13000,
+          13000,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "91490853240"
     },
     "8760750105": {
@@ -9434,14 +9473,19 @@
           "at": "2026-11-24 21:02 KST",
           "price": 12980,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 12980,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 12980,
       "minPrice": 12980,
       "maxPrice": 12980,
       "lastPrice": 12980,
-      "lastAt": "2026-11-24 21:02 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9458,9 +9502,17 @@
           12980,
           12980,
           1
+        ],
+        [
+          "2026-11-26",
+          12980,
+          12980,
+          12980,
+          12980,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "92458107292"
     },
     "9103262508": {
@@ -9471,14 +9523,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 29410,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 29410,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 29410,
       "minPrice": 29410,
       "maxPrice": 29410,
       "lastPrice": 29410,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9487,9 +9544,17 @@
           29410,
           29410,
           1
+        ],
+        [
+          "2026-11-26",
+          29410,
+          29410,
+          29410,
+          29410,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "93710062659"
     },
     "7660088660": {
@@ -9584,14 +9649,19 @@
           "at": "2026-11-16 19:03 KST",
           "price": 20100,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 19760,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 20100,
-      "minPrice": 20100,
+      "priceCount": 2,
+      "avgPrice": 19930,
+      "minPrice": 19760,
       "maxPrice": 20100,
-      "lastPrice": 20100,
-      "lastAt": "2026-11-16 19:03 KST",
+      "lastPrice": 19760,
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9600,9 +9670,17 @@
           20100,
           20100,
           1
+        ],
+        [
+          "2026-11-26",
+          19760,
+          19760,
+          19760,
+          19760,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "93774371628"
     },
     "5803499619": {
@@ -9717,14 +9795,19 @@
           "at": "2026-11-22 07:04 KST",
           "price": 12730,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 12730,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 12730,
       "minPrice": 12730,
       "maxPrice": 12730,
       "lastPrice": 12730,
-      "lastAt": "2026-11-22 07:04 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9749,9 +9832,17 @@
           12730,
           12730,
           1
+        ],
+        [
+          "2026-11-26",
+          12730,
+          12730,
+          12730,
+          12730,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "90271557299"
     },
     "8188344094": {
@@ -9846,14 +9937,19 @@
           "at": "2026-11-16 20:04 KST",
           "price": 10990,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 10990,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 10990,
       "minPrice": 10990,
       "maxPrice": 10990,
       "lastPrice": 10990,
-      "lastAt": "2026-11-16 20:04 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9862,9 +9958,17 @@
           10990,
           10990,
           1
+        ],
+        [
+          "2026-11-26",
+          10990,
+          10990,
+          10990,
+          10990,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "75595551162"
     },
     "6669882649": {
@@ -10056,7 +10160,7 @@
       "vendorItemId": "89981805257"
     },
     "9699325460": {
-      "productName": "믹소 복숭아 아이스티 파우더, 1kg, 1개, 1개입",
+      "productName": "믹소 복숭아 아이스티 파우더",
       "category": "파우더",
       "observations": [
         {
@@ -10078,14 +10182,19 @@
           "at": "2026-11-20 11:03 KST",
           "price": 7430,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 7430,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 7430,
       "minPrice": 7430,
       "maxPrice": 7430,
       "lastPrice": 7430,
-      "lastAt": "2026-11-20 11:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10118,9 +10227,17 @@
           7430,
           7430,
           1
+        ],
+        [
+          "2026-11-26",
+          7430,
+          7430,
+          7430,
+          7430,
+          1
         ]
       ],
-      "uniqueDays": 4,
+      "uniqueDays": 5,
       "vendorItemId": "95941971731"
     },
     "8244145059": {
@@ -11085,14 +11202,19 @@
           "at": "2026-11-16 23:08 KST",
           "price": 40300,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 40300,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 40300,
       "minPrice": 40300,
       "maxPrice": 40300,
       "lastPrice": 40300,
-      "lastAt": "2026-11-16 23:08 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -11101,9 +11223,17 @@
           40300,
           40300,
           1
+        ],
+        [
+          "2026-11-26",
+          40300,
+          40300,
+          40300,
+          40300,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "89608806024"
     },
     "9257744603": {
@@ -16966,14 +17096,19 @@
           "at": "2026-11-21 15:03 KST",
           "price": 19190,
           "source": "이전 deals.json 이력"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 19190,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 19190,
       "minPrice": 19190,
       "maxPrice": 19190,
       "lastPrice": 19190,
-      "lastAt": "2026-11-21 15:03 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16990,9 +17125,17 @@
           19190,
           19190,
           1
+        ],
+        [
+          "2026-11-26",
+          19190,
+          19190,
+          19190,
+          19190,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "93069907553"
     },
     "9311863170": {
@@ -17774,14 +17917,19 @@
           "at": "2026-11-17 21:55 KST",
           "price": 12370,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 12370,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 12370,
       "minPrice": 12370,
       "maxPrice": 12370,
       "lastPrice": 12370,
-      "lastAt": "2026-11-17 21:55 KST",
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -17790,9 +17938,17 @@
           12370,
           12370,
           1
+        ],
+        [
+          "2026-11-26",
+          12370,
+          12370,
+          12370,
+          12370,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "83984545473"
     },
     "7851780172": {
@@ -19259,21 +19415,26 @@
       "vendorItemId": "86998755940"
     },
     "5504227265": {
-      "productName": "제뉴인 에티오피아 예가체프 G4 원두커피, 홀빈(분쇄안함), 1kg, 1개",
+      "productName": "제뉴인 에티오피아 예가체프 G4 원두커피",
       "category": "원두",
       "observations": [
         {
           "at": "2026-11-18 03:02 KST",
           "price": 24900,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 10:49 KST",
+          "price": 22160,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
-      "avgPrice": 24900,
-      "minPrice": 24900,
+      "priceCount": 2,
+      "avgPrice": 23530,
+      "minPrice": 22160,
       "maxPrice": 24900,
-      "lastPrice": 24900,
-      "lastAt": "2026-11-18 03:02 KST",
+      "lastPrice": 22160,
+      "lastAt": "2026-11-26 10:49 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -19282,9 +19443,17 @@
           24900,
           24900,
           1
+        ],
+        [
+          "2026-11-26",
+          22160,
+          22160,
+          22160,
+          22160,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "92836167396"
     },
     "9628259219": {
