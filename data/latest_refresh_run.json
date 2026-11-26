@@ -1,147 +1,66 @@
 {
-  "startedAt": "2026-11-26 14:23 KST",
+  "startedAt": "2026-11-26 15:06 KST",
   "mode": "retry_unconfirmed",
-  "githubRunId": "45761211921",
-  "requests": 187,
+  "githubRunId": "45765845893",
+  "requests": 54,
   "targetIds": [
-    "1365210915",
-    "1518972571",
-    "1918835282",
     "1951259803",
     "24702790",
-    "26292041",
-    "293207724",
-    "309613200",
     "335762157",
-    "4348945323",
-    "45646",
     "4975075206",
-    "5347267346",
-    "5508832151",
-    "5638504159",
-    "5857006513",
-    "6089945839",
-    "6175779044",
-    "6400580429",
-    "6400586680",
-    "6408586603",
-    "6484304556",
-    "6514157775",
     "6702262397",
-    "6802101642",
     "6853093017",
-    "6922591746",
-    "6942277630",
     "7060182058",
-    "7136525320",
     "7136952609",
-    "7217164717",
-    "7278937307",
     "7279542281",
-    "7281213273",
-    "7284690132",
-    "7290063313",
-    "7340177591",
-    "7398448558",
-    "7398450358",
-    "7398453752",
     "7398481358",
     "7418316890",
-    "7420386191",
-    "7420610611",
-    "7490493199",
-    "7539257331",
-    "7597856296",
-    "7657698356",
     "7672649461",
     "7677876919",
     "7689350970",
-    "7764496954",
     "7778899675",
-    "7785556339",
     "7787581793",
-    "7797084513",
-    "7801790104",
-    "7802188371",
-    "7847651404",
     "7851945409",
     "7927510981",
     "7958862797",
     "7973180924",
     "7973208392",
-    "8116149114",
     "8168828141",
-    "8169543163",
     "8180109513",
     "8244145059",
-    "8274844249",
     "82802",
     "8293262854",
-    "8308532704",
-    "8325011524",
-    "8412682472",
-    "8428192456",
     "8540986451",
-    "8556420005",
-    "8581185653",
-    "8620395035",
-    "8657609121",
-    "8662896993",
-    "8675791119",
-    "8704888771",
-    "8801620464",
     "8900660404",
-    "8901753615",
-    "8985045406",
     "8989596765",
-    "8989925820",
     "9050227380",
-    "9072084606",
     "9192487825",
-    "9212679642",
-    "9224933318",
-    "9226007194",
-    "9245948075",
-    "9264781647",
     "9265147894",
-    "9386250232",
     "9413440319",
-    "9414756963",
     "9417321086",
     "9434882675",
-    "9437713590",
     "9463147601",
     "9481002366",
-    "9486958624",
-    "9557524105",
     "9557536554",
     "9558872810",
-    "9561213281",
-    "9574521285",
-    "9585200135",
-    "9593823253",
-    "9595365819",
-    "9597907218",
     "9618453633",
     "9628259219",
     "9629750440",
     "9632198895",
     "9637013331",
     "9649725029",
-    "9681716596",
-    "9690864109",
     "9707225326",
     "9717971496",
     "9724890424",
     "9767112517"
   ],
   "finished": true,
-  "finishedAt": "2026-11-26 14:48 KST",
+  "finishedAt": "2026-11-26 15:13 KST",
   "stopReason": "queue_complete",
   "total": 525,
-  "confirmed": 146,
-  "priceChanged": 32,
-  "unconfirmed": 379,
+  "confirmed": 16,
+  "priceChanged": 2,
+  "unconfirmed": 509,
   "products": [
     {
       "productId": "8239844126",
@@ -168,10 +87,10 @@
       "vendorItemId": "96035031994",
       "productName": "그레인랩 검은콩 고칼슘 블랙9곡 두유, 80개, 190ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8989925820&itemId=26332073961&vendorItemId=96035031994&traceid=V0-153-c59d70b7c4a25623&clickBeacon=24abf160-e95b-11f1-b529-5bd1ca45db31%7E3&requestid=20261126143509103011169248&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:35 KST",
       "price": 29880,
-      "previousPrice": 30900
+      "previousPrice": 29880
     },
     {
       "productId": "9057363615",
@@ -217,9 +136,9 @@
       "productId": "7193817761",
       "vendorItemId": "84882074697",
       "productName": "데이리스타 밀쉬 저지방 멸균우유, 1L, 12개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7193817761&itemId=18168919800&vendorItemId=84882074697&traceid=V0-153-926f1044c8961dc2&clickBeacon=b43f6680-e952-11f1-95b9-eb0dd56e2b77%7E3&requestid=20261126133444500083485905&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 13:34 KST",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7193817761&itemId=18168919800&vendorItemId=84882074697&traceid=V0-153-926f1044c8961dc2&clickBeacon=82c2de90-e95f-11f1-a0bc-aad06c97735e%7E3&requestid=20261126150624930133646849&token=31850C%7CMIXED&pt=1&slot=4",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:06 KST",
       "price": 26400,
       "previousPrice": 26400
     },
@@ -247,9 +166,9 @@
       "productId": "332850485",
       "vendorItemId": "5543861625",
       "productName": "데이리스타 밀쉬 멸균우유, 1L, 12개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=332850485&itemId=1063194254&vendorItemId=5543861625&traceid=V0-153-7fc65a7606dcf810&clickBeacon=b43f6680-e952-11f1-bed9-c583ca278a65%7E3&requestid=20261126133444500083485905&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 13:34 KST",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=332850485&itemId=1063194254&vendorItemId=5543861625&traceid=V0-153-7fc65a7606dcf810&clickBeacon=82c2de90-e95f-11f1-9e85-dcb1eae40000%7E3&requestid=20261126150624930133646849&token=31850C%7CMIXED&pt=1&slot=3",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:06 KST",
       "price": 30000,
       "previousPrice": 30000
     },
@@ -258,7 +177,7 @@
       "vendorItemId": "94837291899",
       "productName": "[로켓프레시] 덴마크 신선한 저지방 & 칼슘 1A등급 올데이 밀크",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9386250232&itemId=27878209341&vendorItemId=94837291899&traceid=V0-153-808a57cb8d87c67d&requestid=20261126144349329017129623&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:43 KST",
       "price": 11600,
       "previousPrice": 11600
@@ -358,10 +277,10 @@
       "vendorItemId": "84268689317",
       "productName": "바디랩 서리태 순수 두유 99.9",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5638504159&itemId=16651938532&vendorItemId=84268689317&traceid=V0-153-ef2ca3f1d7d3646c&requestid=20261126144101217277168231&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 18900,
-      "previousPrice": 20900
+      "previousPrice": 18900
     },
     {
       "productId": "8989596765",
@@ -377,9 +296,9 @@
       "productId": "7685466256",
       "vendorItemId": "96113560990",
       "productName": "에이투밀크 멸균우유, 1L, 10개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7685466256&itemId=29192788394&vendorItemId=96113560990&traceid=V0-153-34eba6702acc1a87&clickBeacon=5ac02180-e95c-11f1-9e34-4e4ca35eef17%7E3&requestid=20261126144349329017129623&token=31850C%7CMIXED&pt=1&slot=5",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7685466256&itemId=29192788394&vendorItemId=96113560990&traceid=V0-153-34eba6702acc1a87&clickBeacon=6304b0a0-e960-11f1-9844-8707e4bb399c%7E3&requestid=20261126151241195134299813&token=31850C%7CMIXED&pt=1&slot=2",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:43 KST",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 51000,
       "previousPrice": 51000
     },
@@ -388,7 +307,7 @@
       "vendorItemId": "3693311871",
       "productName": "약콩두유 오리지널",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=293207724&itemId=282799373&vendorItemId=3693311871&traceid=V0-153-458b1cca076277f1&requestid=20261126142421517103143167&token=31850C%7CGM&pt=0&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 23250,
       "previousPrice": 23250
@@ -477,9 +396,9 @@
       "productId": "8636312518",
       "vendorItemId": "93503610814",
       "productName": "에이투밀크 멸균우유, 200ml, 24개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8636312518&itemId=26529442405&vendorItemId=93503610814&traceid=V0-153-4d97ba316ebf9a21&clickBeacon=1fd90c90-e95b-11f1-b54c-79cf1798289c%7E3&requestid=20261126143501032062447108&token=31850C%7CMIXED&pt=1&slot=1",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8636312518&itemId=26529442405&vendorItemId=93503610814&traceid=V0-153-4d97ba316ebf9a21&clickBeacon=6304b0a0-e960-11f1-8cbe-fca251ca2f54%7E3&requestid=20261126151241195134299813&token=31850C%7CMIXED&pt=1&slot=1",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:35 KST",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 40900,
       "previousPrice": 40900
     },
@@ -498,7 +417,7 @@
       "vendorItemId": "95613632777",
       "productName": "두유본색 식사대용 국산콩 자색고구마 두유",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9226007194&itemId=27267683816&vendorItemId=95613632777&traceid=V0-153-bea04767c42c9e73&requestid=20261126143557086281502666&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:35 KST",
       "price": 21900,
       "previousPrice": 21900
@@ -508,7 +427,7 @@
       "vendorItemId": "85761978114",
       "productName": "워너빈 베트남 로부스타 G1 원두커피",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5857006513&itemId=18626602290&vendorItemId=85761978114&traceid=V0-153-9fbe77b678200cf0&requestid=20261126142525097018955525&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 62600,
       "previousPrice": 62600
@@ -528,7 +447,7 @@
       "vendorItemId": "94780941238",
       "productName": "위크위크 고소한 베트남 로부스타 G1 원두 커피 홀빈",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9136027887&itemId=26957283832&vendorItemId=94780941238&traceid=V0-153-b9f45964ab2b00f2&requestid=20261126144517704211368697&token=31850C%7CMIXED&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 15890,
       "previousPrice": 15890
@@ -538,7 +457,7 @@
       "vendorItemId": "91705226135",
       "productName": "브리즈빈 베트남 로부스타 G1 커피 원두",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8234947413&itemId=23704158079&vendorItemId=91705226135&traceid=V0-153-19a8502f8620897c&requestid=20261126144517704211368697&token=31850C%7CMIXED&pt=0&slot=8",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 15960,
       "previousPrice": 15960
@@ -608,10 +527,10 @@
       "vendorItemId": "95455335054",
       "productName": "소이로커피공장 베트남 로부스타 G1 산미없는 원두커피 콩 고소한",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9561213281&itemId=28532611906&vendorItemId=95455335054&traceid=V0-153-0c30fcc6e9a136af&requestid=20261126143805131141706300&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 14500,
-      "previousPrice": 23000
+      "previousPrice": 14500
     },
     {
       "productId": "9750439608",
@@ -638,7 +557,7 @@
       "vendorItemId": "95144727583",
       "productName": "노블빈 산미없는 다크 블렌드 원두 커피, 6개, 1kg, 홀빈(분쇄안함)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9447509045&itemId=28190246682&vendorItemId=95144727583&traceid=V0-153-726df8ced77c8edb&clickBeacon=72a205c0-e95c-11f1-a5b5-4b4850ee65a8%7E3&requestid=20261126144429357323544080&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 148500,
       "previousPrice": 148500
@@ -648,7 +567,7 @@
       "vendorItemId": "92836167396",
       "productName": "제뉴인 에티오피아 예가체프 G4 원두커피",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5504227265&itemId=8559986976&vendorItemId=92836167396&traceid=V0-153-42ed06a55442f8c4&requestid=20261126144621494063831889&token=31850C%7CGM&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:46 KST",
       "price": 22160,
       "previousPrice": 22160
@@ -688,7 +607,7 @@
       "vendorItemId": "91179185467",
       "productName": "[베렉스커피] 초코나잇 산미없는 고소한 초코 블렌드 원두커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8360433211&itemId=24160594371&vendorItemId=91179185467&traceid=V0-153-fac61372da0a0df5&clickBeacon=aa428d20-e95b-11f1-9358-b72a716ab365%7E3&requestid=20261126143853167211362703&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 26800,
       "previousPrice": 26800
@@ -718,7 +637,7 @@
       "vendorItemId": "94149964153",
       "productName": "초콜렛 블렌드 브라질 콜롬비아 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9294379607&itemId=26850288581&vendorItemId=94149964153&traceid=V0-153-e1f614f155b608d7&clickBeacon=8a93ef90-e95c-11f1-b648-2eb18360d587%7E3&requestid=20261126144509543133643688&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 28300,
       "previousPrice": 28300
@@ -728,7 +647,7 @@
       "vendorItemId": "94120243755",
       "productName": "고소한 블렌드 브라질 콜롬비아 인도 원두커피 커피콩 맛있는 신선한 그라도스커피, 1개, 1kg, 홀빈(분쇄안함)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9212679642&itemId=26850543606&vendorItemId=94120243755&traceid=V0-153-44694438392efca3&clickBeacon=69180180-e95c-11f1-933c-f706ce5b29f4%7E3&requestid=20261126144413365172023915&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 28300,
       "previousPrice": 28300
@@ -747,11 +666,11 @@
       "productId": "9224933318",
       "vendorItemId": "94423881546",
       "productName": "달콤한 블렌드 콜롬비아 과테말라 원두커피 커피콩 맛있는 신선한 그라도스커피",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9224933318&itemId=28042910160&vendorItemId=94423881546&traceid=V0-153-2c9bdba4b4006b27&requestid=20261126143549467018951292&token=31850C%7CMIXED&pt=0&slot=6",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9224933318&itemId=28042910160&vendorItemId=94423881546&traceid=V0-153-2c9bdba4b4006b27&requestid=20261126151249121133649084&token=31850C%7CMIXED&pt=0&slot=2",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:35 KST",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 25850,
-      "previousPrice": 30000
+      "previousPrice": 25850
     },
     {
       "productId": "9434882675",
@@ -808,7 +727,7 @@
       "vendorItemId": "96123294199",
       "productName": "세일즈카페 고소한 다크초콜릿 시그니쳐 블렌드 에스프레소 분쇄",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9595365819&itemId=29203033571&vendorItemId=96123294199&traceid=V0-153-e3e55e249615a016&requestid=20261126143837173228138695&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 170000,
       "previousPrice": 170000
@@ -818,7 +737,7 @@
       "vendorItemId": "95144722877",
       "productName": "노블빈 다크초코 에스프레소 블렌드 원두 커피, 6개, 1kg, 홀빈(분쇄안함)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9463147601&itemId=28190241418&vendorItemId=95144722877&traceid=V0-153-14970f5fca08a19d&clickBeacon=f98abdc0-e7cc-11f1-857f-e8249494a7b7%7E3&requestid=20261124150457027041682978&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-24 15:06 KST",
       "price": 204500,
       "previousPrice": 204500
@@ -908,10 +827,10 @@
       "vendorItemId": "90388250297",
       "productName": "보난자커피 다크 로스트 원두",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8116149114&itemId=23357696487&vendorItemId=90388250297&traceid=V0-153-7de25e04d9d66bd1&requestid=20261126143157063323472412&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 44740,
-      "previousPrice": 49720
+      "previousPrice": 44740
     },
     {
       "productId": "9212035299",
@@ -958,7 +877,7 @@
       "vendorItemId": "94157719926",
       "productName": "딥 플러스 카라멜 시럽, 1개, 1L",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9430143847&itemId=28036984602&vendorItemId=94157719926&traceid=V0-153-62277178dbefa6a8&clickBeacon=8bff5150-e95a-11f1-b514-64d9029ee613%7E3&requestid=20261126143052947172789037&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 7910,
       "previousPrice": 7910
@@ -978,7 +897,7 @@
       "vendorItemId": "94556536125",
       "productName": "더와이 카라멜시럽 (리필용), 1개, 1kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9311863170&itemId=27593022992&vendorItemId=94556536125&traceid=V0-153-aca2fbc65a8a7cd2&clickBeacon=8bff5150-e95a-11f1-97fd-eaa244983a7f%7E3&requestid=20261126143052947172789037&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 7950,
       "previousPrice": 7950
@@ -988,10 +907,10 @@
       "vendorItemId": "95460129404",
       "productName": "네이쳐티 딥카라멜 시럽, 2kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8089929761&itemId=28511109761&vendorItemId=95460129404&traceid=V0-153-a9ac8d09548bb61f&clickBeacon=4f9952a0-e95b-11f1-a575-4324defc262c%7E3&requestid=20261126143621112323477322&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:36 KST",
       "price": 16810,
-      "previousPrice": 17290
+      "previousPrice": 16810
     },
     {
       "productId": "8089929339",
@@ -1028,7 +947,7 @@
       "vendorItemId": "5348415946",
       "productName": "서울팩토리 흑당시럽",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6408586603&itemId=13733857164&vendorItemId=5348415946&traceid=V0-153-5b71539f768b92ad&requestid=20261126142604777172789957&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 11250,
       "previousPrice": 11250
@@ -1088,7 +1007,7 @@
       "vendorItemId": "95739459621",
       "productName": "커필드 카라멜 소스, 1개, 1.8kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7801790104&itemId=21131521843&vendorItemId=95739459621&traceid=V0-153-92950fae94801946&clickBeacon=8bff5150-e95a-11f1-a0fe-528330cfc4d4%7E3&requestid=20261126143052947172789037&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 19000,
       "previousPrice": 19000
@@ -1117,9 +1036,9 @@
       "productId": "8053929657",
       "vendorItemId": "96121812658",
       "productName": "네이쳐티 zero 카라멜 시럽, 10개, 1L",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8053929657&itemId=29201481543&vendorItemId=96121812658&traceid=V0-153-24b6cddac110aa56&clickBeacon=2f842180-e950-11f1-a4ff-24a0f6c803cf%7E3&requestid=20261126131642838164684892&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 13:16 KST",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8053929657&itemId=29201481543&vendorItemId=96121812658&traceid=V0-153-24b6cddac110aa56&clickBeacon=086e3ad0-e960-11f1-ab18-2e897335a4a8%7E3&requestid=20261126151009221283017741&token=31850C%7CMIXED&pt=1&slot=1",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:10 KST",
       "price": 119380,
       "previousPrice": 119380
     },
@@ -1178,7 +1097,7 @@
       "vendorItemId": "96124035652",
       "productName": "네이쳐티 카라멜시럽, 10개, 1L",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9265147894&itemId=29203805863&vendorItemId=96124035652&traceid=V0-153-d1be685b0421ce3f&clickBeacon=b32b3830-e1cf-11f1-bb07-1da1ecb5b169%7E3&requestid=20261117000920439284281405&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-17 00:10 KST",
       "price": 130000,
       "previousPrice": 130000
@@ -1278,10 +1197,10 @@
       "vendorItemId": "86555208044",
       "productName": "토스키 라임 시럽, 1L, 5개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6702258615&itemId=19444260301&vendorItemId=86555208044&traceid=V0-153-c9a1f94c4e36d9d0&clickBeacon=199e9df0-e95a-11f1-a44d-98ad6de77d41%7E3&requestid=20261126142741050277162210&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 75000,
-      "previousPrice": 74000
+      "previousPrice": 75000
     },
     {
       "productId": "6702247311",
@@ -1308,7 +1227,7 @@
       "vendorItemId": "85997403187",
       "productName": "토스키 카라멜 시럽, 1L, 3개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8008670033&itemId=16010024450&vendorItemId=85997403187&traceid=V0-153-21c9829beeb88d52&clickBeacon=8bff5150-e95a-11f1-826f-7311f6136bdc%7E3&requestid=20261126143052947172789037&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 45000,
       "previousPrice": 45000
@@ -1318,7 +1237,7 @@
       "vendorItemId": "85950744744",
       "productName": "토스키 코코넛 시럽, 1L, 3개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6702243792&itemId=18820411579&vendorItemId=85950744744&traceid=V0-153-f95b155a63abd309&clickBeacon=ee909550-e959-11f1-8dfa-a40ad44479ce%7E3&requestid=20261126142628799017122357&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 45000,
       "previousPrice": 45000
@@ -1348,7 +1267,7 @@
       "vendorItemId": "70599790721",
       "productName": "토스키 피치 시럽",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7278937307&itemId=15528531409&vendorItemId=70599790721&traceid=V0-153-e6661c9c6670aa38&requestid=20261126022334826283010825&token=31850C%7CGM&pt=0&slot=6",
-      "status": "option_mismatch",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 02:23 KST",
       "price": 16000,
       "previousPrice": 16000
@@ -1378,7 +1297,7 @@
       "vendorItemId": "70599790996",
       "productName": "토스키 핑크 자몽 시럽",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6175779044&itemId=15528790356&vendorItemId=70599790996&traceid=V0-153-836c644e14fd65cc&requestid=20261126142540772282431764&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 16000,
       "previousPrice": 16000
@@ -1488,7 +1407,7 @@
       "vendorItemId": "95911804882",
       "productName": "배대감 대용량 국산 고소한 미숫가루, 2kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7764750064&itemId=28982625999&vendorItemId=95911804882&traceid=V0-153-ca98f66458ce3d1c&clickBeacon=b5a33810-e959-11f1-823a-4b6702d6e03f%7E3&requestid=20261126142453309103148548&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 21900,
       "previousPrice": 21900
@@ -1638,7 +1557,7 @@
       "vendorItemId": "3000186073",
       "productName": "카일스 오곡파우더",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=4348945323&itemId=19247352082&vendorItemId=3000186073&traceid=V0-153-9d5a19d438debfcf&requestid=20261126142445168011164042&token=31850C%7CGM&pt=0&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 14490,
       "previousPrice": 14490
@@ -1668,7 +1587,7 @@
       "vendorItemId": "92418473468",
       "productName": "더블데이 로얄 밀크티 파우더, 800g, 1개입, 4개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7958862797&itemId=25425378787&vendorItemId=92418473468&traceid=V0-153-a1830a31d9b7fb79&clickBeacon=a5d0bd30-e28e-11f1-b6d5-4158c7e2ff6e%7E3&requestid=20261117225611892038322014&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-17 22:57 KST",
       "price": 47960,
       "previousPrice": 47960
@@ -1688,7 +1607,7 @@
       "vendorItemId": "96123315264",
       "productName": "더블데이 옐로우패션 복숭아 요거트 파우더, 10개, 800g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=63309309&itemId=29203055935&vendorItemId=96123315264&traceid=V0-153-2dc439877f6f768a&clickBeacon=742eab20-e95a-11f1-8d1c-b3d69b72318d%7E3&requestid=20261126143012971277167903&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 123910,
       "previousPrice": 123910
@@ -1738,7 +1657,7 @@
       "vendorItemId": "88384609109",
       "productName": "이노라이즈 프리미엄 초콜릿파우더 32%, 2개, 500g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7284690132&itemId=21324747218&vendorItemId=88384609109&traceid=V0-153-d3c57f84ff3512e4&clickBeacon=23075e90-e95a-11f1-a224-c7cd9b30d72e%7E3&requestid=20261126142756861083480224&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 18000,
       "previousPrice": 18000
@@ -1758,10 +1677,10 @@
       "vendorItemId": "90889227680",
       "productName": "더블데이 레드패션 딸기 요거트 파우더",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7764496954&itemId=215635127&vendorItemId=90889227680&traceid=V0-153-a4f8512bdf66efa5&requestid=20261126143012971277167903&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 14000,
-      "previousPrice": 14500
+      "previousPrice": 14000
     },
     {
       "productId": "9539597830",
@@ -1778,17 +1697,17 @@
       "vendorItemId": "96090754762",
       "productName": "카페57 말차 파우더",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8581185653&itemId=24872726676&vendorItemId=96090754762&traceid=V0-153-7714162e5fc33ae1&requestid=20261126143349029017126690&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 10000,
-      "previousPrice": 9300
+      "previousPrice": 10000
     },
     {
       "productId": "288605903",
       "vendorItemId": "3789427842",
       "productName": "카일스 코코넛크림 파우더, 1kg, 1개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=288605903&itemId=322398037&vendorItemId=3789427842&traceid=V0-153-eea6ad8a424e4aa5&clickBeacon=d38d5760-e95a-11f1-88c9-5811689e52ee%7E3&requestid=20261126143252990076594047&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 19490,
       "previousPrice": 19490
@@ -1798,7 +1717,7 @@
       "vendorItemId": "94942044040",
       "productName": "대한다업 데일리 말차라떼, 500g, 2개, 1개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9414756963&itemId=27984332256&vendorItemId=94942044040&traceid=V0-153-d7cadfd5178e5dbc&clickBeacon=5df6ff00-e95b-11f1-a7c0-861c79b46cad%7E3&requestid=20261126143645147284970796&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:36 KST",
       "price": 20400,
       "previousPrice": 20400
@@ -1818,7 +1737,7 @@
       "vendorItemId": "3000085699",
       "productName": "배대감 국산 볶음콩가루, 500g, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=45646&itemId=114312&vendorItemId=3000085699&traceid=V0-153-a8bdbd7dd3699832&clickBeacon=b5a33810-e959-11f1-95b2-4293b2687660%7E3&requestid=20261126142453309103148548&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 10990,
       "previousPrice": 10990
@@ -1828,7 +1747,7 @@
       "vendorItemId": "95593454033",
       "productName": "오곡형제 쪄서 볶은 국산 콩가루 콩고물 떡고물 인절미가루, 1개, 500g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7939740323&itemId=21864861256&vendorItemId=95593454033&traceid=V0-153-0da20fd9f217bf33&clickBeacon=b5a33810-e959-11f1-a83d-94b9314cff39%7E3&requestid=20261126142453309103148548&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 11300,
       "previousPrice": 11300
@@ -1848,7 +1767,7 @@
       "vendorItemId": "3016961664",
       "productName": "카일스 블랙티 파우더, 500g, 1개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7420386191&itemId=19247363243&vendorItemId=3016961664&traceid=V0-153-10bebd98b283fe28&clickBeacon=d38d5760-e95a-11f1-bf39-f5e03ed308ef%7E3&requestid=20261126143252990076594047&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 13740,
       "previousPrice": 13740
@@ -1858,7 +1777,7 @@
       "vendorItemId": "95274284698",
       "productName": "네이처모아 클래식 코코아파우더, 150g, 1개, 1개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9505348012&itemId=28321725270&vendorItemId=95274284698&traceid=V0-153-07fd58d1452f7d0d&clickBeacon=beff7590-e959-11f1-af5f-543888479973%7E3&requestid=20261126142509025144509000&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 6000,
       "previousPrice": 6000
@@ -1868,7 +1787,7 @@
       "vendorItemId": "95820156374",
       "productName": "대한다업 데일리 말차 바닐라 라떼, 20g, 1개, 10개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9662716813&itemId=28887455965&vendorItemId=95820156374&traceid=V0-153-86c4e1f5d6cfdbc4&clickBeacon=5df6ff00-e95b-11f1-93aa-27f4fe19a29c%7E3&requestid=20261126143645147284970796&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:36 KST",
       "price": 8500,
       "previousPrice": 8500
@@ -1888,7 +1807,7 @@
       "vendorItemId": "96236361160",
       "productName": "대한다업 데일리 우베크림라떼, 20g, 20개, 10개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9662728616&itemId=29321825934&vendorItemId=96236361160&traceid=V0-153-1c814209caac6bc0&clickBeacon=5df6ff00-e95b-11f1-bb6f-f3f03acffb42%7E3&requestid=20261126143645147284970796&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:36 KST",
       "price": 173400,
       "previousPrice": 173400
@@ -1938,7 +1857,7 @@
       "vendorItemId": "86556287813",
       "productName": "서울팩토리 리얼 패션후르츠 베이스",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=309613200&itemId=19445373380&vendorItemId=86556287813&traceid=V0-153-6f1db86eea38146f&requestid=20261126144053259323474002&token=31850C%7CMIXED&pt=0&slot=8",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 21100,
       "previousPrice": 21100
@@ -1948,27 +1867,27 @@
       "vendorItemId": "85873968537",
       "productName": "서울팩토리 자몽에이드",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6400580429&itemId=13853324424&vendorItemId=85873968537&traceid=V0-153-4b6f2fdfaf0dde70&requestid=20261126144109348260035071&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 33280,
-      "previousPrice": 33630
+      "previousPrice": 33280
     },
     {
       "productId": "7398460013",
       "vendorItemId": "93505154972",
       "productName": "엔아이에프 엔칸토 레몬 베이스, 1개, 1.8kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398460013&itemId=19143981629&vendorItemId=93505154972&traceid=V0-153-a7fc787b62799ec6&clickBeacon=14b4d5c0-e95a-11f1-aca6-763e8fb310f2%7E3&requestid=20261126142732836282430936&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 16900,
-      "previousPrice": 15900
+      "previousPrice": 16900
     },
     {
       "productId": "7398453752",
       "vendorItemId": "93571711007",
       "productName": "엔칸토 망고 베이스",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398453752&itemId=18892836903&vendorItemId=93571711007&traceid=V0-153-d46d73048ad85213&requestid=20261126142836844210325088&token=31850C%7CGM&pt=0&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:28 KST",
       "price": 35000,
       "previousPrice": 35000
@@ -2008,7 +1927,7 @@
       "vendorItemId": "93496242369",
       "productName": "엔아이에프 엔칸토 제주감귤베이스, 1.8kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398481358&itemId=19144087057&vendorItemId=93496242369&traceid=V0-153-5e1d3c38672707b9&clickBeacon=ee6a7660-e7fe-11f1-8591-1149b3ad7b29%7E3&requestid=20261124210233161243707733&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-24 21:02 KST",
       "price": 18000,
       "previousPrice": 18000
@@ -2018,7 +1937,7 @@
       "vendorItemId": "80898763351",
       "productName": "엔칸토 청포도 베이스, 1.8kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398457869&itemId=19143971931&vendorItemId=80898763351&traceid=V0-153-39b33618552de254&clickBeacon=db764b40-e959-11f1-894d-9f9841f216e3%7E3&requestid=20261126142556782277164351&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 18900,
       "previousPrice": 18900
@@ -2028,7 +1947,7 @@
       "vendorItemId": "86556439800",
       "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=d6bb5b40-e959-11f1-b496-10f247024050%7E3&requestid=20261126142548842211330638&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 38000,
       "previousPrice": 38000
@@ -2048,7 +1967,7 @@
       "vendorItemId": "92418268184",
       "productName": "서울팩토리 청포도 에이드",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6400586680&itemId=25425169426&vendorItemId=92418268184&traceid=V0-153-b63cc3ed0b8dbb78&requestid=20261126142556782277164351&token=31850C%7CMIXED&pt=0&slot=9",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 60750,
       "previousPrice": 60750
@@ -2058,7 +1977,7 @@
       "vendorItemId": "95587707727",
       "productName": "카페57 상온 자몽 베이스, 1.2kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6514157775&itemId=28645100475&vendorItemId=95587707727&traceid=V0-153-13e45db9871e039c&clickBeacon=e9d41eb0-e959-11f1-988b-88ebd3f371c3%7E3&requestid=20261126142620885228133719&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 13000,
       "previousPrice": 13000
@@ -2068,7 +1987,7 @@
       "vendorItemId": "95587701173",
       "productName": "카페57 상온 핑크리치 캐모마일 베이스 1.2kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9437713590&itemId=28067224985&vendorItemId=95587701173&traceid=V0-153-72ea28c6acbc27c9&requestid=20261126144421342133645374&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 13000,
       "previousPrice": 13000
@@ -2088,7 +2007,7 @@
       "vendorItemId": "95076630035",
       "productName": "엔칸토 골드키위 음료베이스",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398448558&itemId=19143927185&vendorItemId=95076630035&traceid=V0-153-81f1b53de0092f0b&requestid=20261126142821040062449474&token=31850C%7CGM&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:28 KST",
       "price": 20000,
       "previousPrice": 20000
@@ -2098,7 +2017,7 @@
       "vendorItemId": "89057094631",
       "productName": "테일러 웰메이드 자몽 농축액, 1.8kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7969070285&itemId=22009655308&vendorItemId=89057094631&traceid=V0-153-68ee1212179da90a&clickBeacon=fb6ebbb0-e95b-11f1-adff-13ac6f089d8b%7E3&requestid=20261126144109348260035071&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 21180,
       "previousPrice": 21180
@@ -2108,7 +2027,7 @@
       "vendorItemId": "80898764173",
       "productName": "엔칸토 한라봉 베이스, 1.8kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398450358&itemId=19143935052&vendorItemId=80898764173&traceid=V0-153-0c84cbf577e9a35f&clickBeacon=361c5170-e95a-11f1-8cf3-909115443a23%7E3&requestid=20261126142828864262305465&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:28 KST",
       "price": 20500,
       "previousPrice": 20500
@@ -2148,7 +2067,7 @@
       "vendorItemId": "94324138887",
       "productName": "네이쳐티 넘치는 딸기 베이스",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7123864170&itemId=17843599953&vendorItemId=94324138887&traceid=V0-153-143bd030f7100790&requestid=20261126142700850141703751&token=31850C%7CMIXED&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 12000,
       "previousPrice": 12000
@@ -2158,7 +2077,7 @@
       "vendorItemId": "89116887074",
       "productName": "테일러 웰메이드 청포도 농축액, 1.8kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7969070214&itemId=22065551710&vendorItemId=89116887074&traceid=V0-153-2ab9b84d33bb2b8c&clickBeacon=db764b40-e959-11f1-a3dc-7fbe6faa91dd%7E3&requestid=20261126142556782277164351&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 21900,
       "previousPrice": 21900
@@ -2178,17 +2097,17 @@
       "vendorItemId": "91935977351",
       "productName": "다하 제주 청귤청",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7802188371&itemId=24929804138&vendorItemId=91935977351&traceid=V0-153-1991ce4e3acfe7b8&requestid=20261126143101112083481362&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 40200,
-      "previousPrice": 39190
+      "previousPrice": 40200
     },
     {
       "productId": "6942277630",
       "vendorItemId": "94269013784",
       "productName": "네이쳐티 넘치는 블루베리 베이스",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6942277630&itemId=27302481522&vendorItemId=94269013784&traceid=V0-153-85ecd52bb74d4139&requestid=20261126142700850141703751&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 13300,
       "previousPrice": 13300
@@ -2228,7 +2147,7 @@
       "vendorItemId": "90735366867",
       "productName": "더블데이 유자레몬 퓨럽",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7217164717&itemId=789726177&vendorItemId=90735366867&traceid=V0-153-13eb8905d9a9a0d1&requestid=20261126142732836282430936&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 19000,
       "previousPrice": 19000
@@ -2248,7 +2167,7 @@
       "vendorItemId": "94276661272",
       "productName": "네이쳐티 패션후르츠에이드 베이스, 1.2kg, 3개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9245948075&itemId=27310200676&vendorItemId=94276661272&traceid=V0-153-e5daad0234600206&clickBeacon=f1d52710-e95b-11f1-afa2-8dc5bab76f7d%7E3&requestid=20261126144053259323474002&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 79200,
       "previousPrice": 79200
@@ -2268,7 +2187,7 @@
       "vendorItemId": "95945712259",
       "productName": "보니티 유기농 통째로 갈아만든 리얼 블루베리 퓨레, 20g, 84개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9528987418&itemId=29017791781&vendorItemId=95945712259&traceid=V0-153-9dfe3c4b5be88dec&clickBeacon=01abf0d0-e95a-11f1-a0be-5679e77cbdab%7E3&requestid=20261126142700850141703751&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 39900,
       "previousPrice": 39900
@@ -2338,7 +2257,7 @@
       "vendorItemId": "94445468332",
       "productName": "국내산 100% 순수 사양벌꿀, 2kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9728306212&itemId=29111985782&vendorItemId=94445468332&traceid=V0-153-f2c948b31832fedd&clickBeacon=0ff8fb60-e95a-11f1-9f5c-126f083ff26a%7E3&requestid=20261126142724862144783791&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 15990,
       "previousPrice": 15990
@@ -2388,7 +2307,7 @@
       "vendorItemId": "4176842060",
       "productName": "산내들농원 사양벌꿀, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8243951010&itemId=470927997&vendorItemId=4176842060&traceid=V0-153-dfa5f53d88bd6b53&clickBeacon=0ff8fb60-e95a-11f1-8592-1ce76fb3620e%7E3&requestid=20261126142724862144783791&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:27 KST",
       "price": 10000,
       "previousPrice": 10000
@@ -2428,7 +2347,7 @@
       "vendorItemId": "92458204024",
       "productName": "파베글라스 루미에르 컴파운드 코인 코팅 화이트초콜릿, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660090685&itemId=20405453228&vendorItemId=92458204024&traceid=V0-153-7a674ef04645fe8a&clickBeacon=d54b3e90-e95b-11f1-8c5e-40de4f4ae206%7E3&requestid=20261126144005362063838295&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 12010,
       "previousPrice": 12010
@@ -2436,11 +2355,11 @@
     {
       "productId": "7660088660",
       "vendorItemId": "92430836591",
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660088660&itemId=20405443961&vendorItemId=92430836591&traceid=V0-153-0b335c324214db98&clickBeacon=c0149670-e956-11f1-9df4-fe28c4e782e6%7E3&requestid=20261126140342340323475991&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 14:03 KST",
-      "price": 12170,
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7660088660&itemId=20405443961&vendorItemId=92430836591&traceid=V0-153-0b335c324214db98&requestid=20261126151209328262305013&token=31850C%7CGM&pt=0&slot=6",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
+      "price": 12050,
       "previousPrice": 12170
     },
     {
@@ -2468,7 +2387,7 @@
       "vendorItemId": "92458107292",
       "productName": "파베글라스 루미에르 다크초코칩, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9061110194&itemId=24153135767&vendorItemId=92458107292&traceid=V0-153-94b9b2a86ce25018&clickBeacon=034a4210-e95b-11f1-9a78-4c334500be32%7E3&requestid=20261126143413012076597766&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 12980,
       "previousPrice": 12980
@@ -2478,7 +2397,7 @@
       "vendorItemId": "92717459641",
       "productName": "베이킹&토핑 미니 마쉬멜로, 1개, 500g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8803611137&itemId=25637247340&vendorItemId=92717459641&traceid=V0-153-803db8568e5b0a61&clickBeacon=bbb00700-e95a-11f1-a743-4e9b68581fb9%7E3&requestid=20261126143212948018954353&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 5850,
       "previousPrice": 5850
@@ -2498,7 +2417,7 @@
       "vendorItemId": "80675903972",
       "productName": "[로켓프레시] 산들 건크랜베리",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1518972571&itemId=13421264412&vendorItemId=80675903972&traceid=V0-153-54318e08efc54137&requestid=20261126142340793148475383&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 14000,
       "previousPrice": 14000
@@ -2518,10 +2437,10 @@
       "vendorItemId": "94887955577",
       "productName": "기가 마시멜로우 마일드 스모어절편모양, 1kg, 2개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9399924245&itemId=27929512236&vendorItemId=94887955577&traceid=V0-153-0a85df545ddabfba&clickBeacon=bbb00700-e95a-11f1-a345-2ea56d8a0b27%7E3&requestid=20261126143212948018954353&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 29060,
-      "previousPrice": 20920
+      "previousPrice": 29060
     },
     {
       "productId": "9742925540",
@@ -2538,7 +2457,7 @@
       "vendorItemId": "95995333594",
       "productName": "[로켓프레시] 네이쳐티 블랙 타피오카 즉석컵펄(냉동)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9714957083&itemId=29069070160&vendorItemId=95995333594&traceid=V0-153-73ad5455f239aa2a&requestid=20261126144149289144509450&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 11190,
       "previousPrice": 11190
@@ -2568,17 +2487,17 @@
       "vendorItemId": "88113891567",
       "productName": "[로켓프레시] 버블펄스 타피오카 핑크 펄 (냉동)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7785556339&itemId=21051371345&vendorItemId=88113891567&traceid=V0-153-c9edf764dbbb3ae0&requestid=20261126143028911211338248&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 22320,
-      "previousPrice": 27900
+      "previousPrice": 22320
     },
     {
       "productId": "8662896993",
       "vendorItemId": "92531210014",
       "productName": "파베글라스 다크 루미에르 제로슈가 초콜릿, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8662896993&itemId=27205771715&vendorItemId=92531210014&traceid=V0-153-21333e429e33b682&clickBeacon=034a4210-e95b-11f1-9a5f-bf85ecdfa1ac%7E3&requestid=20261126143413012076597766&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 19300,
       "previousPrice": 19300
@@ -2588,7 +2507,7 @@
       "vendorItemId": "93626798435",
       "productName": "소울백서 타피오카 버플티펄 카페 업소용",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9072084606&itemId=26654318687&vendorItemId=93626798435&traceid=V0-153-b82a9953aea5d6dc&requestid=20261126143525149211338256&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:35 KST",
       "price": 5910,
       "previousPrice": 5910
@@ -2608,7 +2527,7 @@
       "vendorItemId": "93774371628",
       "productName": "파베글라스 설탕무첨가 다크 루미에르 초코칩, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9210126689&itemId=26736865471&vendorItemId=93774371628&traceid=V0-153-820d51eccedb642a&clickBeacon=034a4210-e95b-11f1-aba7-909ee5608435%7E3&requestid=20261126143413012076597766&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 19760,
       "previousPrice": 19760
@@ -2638,10 +2557,10 @@
       "vendorItemId": "92458236979",
       "productName": "파베글라스 벨벳 화이트 40% 커버춰 리얼 초콜릿, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7657698356&itemId=21964090808&vendorItemId=92458236979&traceid=V0-153-5fa7025def984a64&clickBeacon=610b8770-e95a-11f1-a988-4325ff6359b4%7E3&requestid=20261126142940879281509173&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 24070,
-      "previousPrice": 24480
+      "previousPrice": 24070
     },
     {
       "productId": "109006119",
@@ -2688,7 +2607,7 @@
       "vendorItemId": "93710062659",
       "productName": "[영국산]칼리바우트 다크 청크 초콜릿, 1개, 1kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9103262508&itemId=26738773674&vendorItemId=93710062659&traceid=V0-153-820c6df45cec0faf&clickBeacon=d54b3e90-e95b-11f1-8636-b96b690205a1%7E3&requestid=20261126144005362063838295&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 29410,
       "previousPrice": 29410
@@ -2758,7 +2677,7 @@
       "vendorItemId": "96267524665",
       "productName": "멜로팝 대용량 건조 마시멜로우 250g 레인보우",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8169543163&itemId=29354508314&vendorItemId=96267524665&traceid=V0-153-e6f4004b976d1c53&requestid=20261126143212948018954353&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 37770,
       "previousPrice": 37770
@@ -2848,17 +2767,17 @@
       "vendorItemId": "94569631866",
       "productName": "사조동아원 맥선 박력다목적용 밀가루",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5508832151&itemId=8580926637&vendorItemId=94569631866&traceid=V0-153-f27080a2f8218f70&requestid=20261126142317483211334712&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 20650,
-      "previousPrice": 21800
+      "previousPrice": 20650
     },
     {
       "productId": "7847651404",
       "vendorItemId": "93555055433",
       "productName": "국산 양평 쌀가루 (중력분) 가루미 제빵 글루텐프리, 4개, 1kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7847651404&itemId=23676508878&vendorItemId=93555055433&traceid=V0-153-68e050b99ef084d3&clickBeacon=958d7440-e95a-11f1-bda0-c7bbe36b857d%7E3&requestid=20261126143108924018953681&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 18890,
       "previousPrice": 18890
@@ -2908,7 +2827,7 @@
       "vendorItemId": "92182805223",
       "productName": "쌀가루 (강력분) 국산 양평 가루미 제빵 글루텐프리, 1개, 1kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9334584566&itemId=25189981749&vendorItemId=92182805223&traceid=V0-153-ec5bf2f3515ebae6&clickBeacon=958d7440-e95a-11f1-aa09-26f07ebc6167%7E3&requestid=20261126143108924018953681&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 5620,
       "previousPrice": 5620
@@ -2948,7 +2867,7 @@
       "vendorItemId": "95962135372",
       "productName": "26년산 햇밀 속이 편한 양평 우리밀 통밀가루 박력분, 5개, 500g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8527254203&itemId=26581895067&vendorItemId=95962135372&traceid=V0-153-476de431bcff92fb&clickBeacon=7c830b00-e959-11f1-ac48-e224a4ee790a%7E3&requestid=20261126142317483211334712&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 21110,
       "previousPrice": 21110
@@ -3018,10 +2937,10 @@
       "vendorItemId": "95700554461",
       "productName": "26년산 국산 우리밀 발아 통밀가루 500g 중력분, 500g, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9747057400&itemId=29181174550&vendorItemId=95700554461&traceid=V0-153-6864f4b0e15e2225&clickBeacon=9400cee0-e95c-11f1-a106-5052da5288f2%7E3&requestid=20261126144525381165884912&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 6330,
-      "previousPrice": 6140
+      "previousPrice": 6330
     },
     {
       "productId": "9273627574",
@@ -3048,7 +2967,7 @@
       "vendorItemId": "95700566907",
       "productName": "26년산 국산 우리밀 발아 통밀가루 500g 박력분",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9747057398&itemId=29181174533&vendorItemId=95700566907&traceid=V0-153-72dffdd287b43770&requestid=20261126144525381165884912&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 6510,
       "previousPrice": 6510
@@ -3068,7 +2987,7 @@
       "vendorItemId": "95962234248",
       "productName": "26년산 산나물담은 발아통밀가루(박력분), 5개, 500g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9652874456&itemId=29034823219&vendorItemId=95962234248&traceid=V0-153-49fdc9f56241a4e8&clickBeacon=7c830b00-e959-11f1-968e-da5b60eb15c4%7E3&requestid=20261126142317483211334712&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 34480,
       "previousPrice": 34480
@@ -3098,7 +3017,7 @@
       "vendorItemId": "95594458329",
       "productName": "너츠그램 아몬드슬라이스, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9597907218&itemId=28652050915&vendorItemId=95594458329&traceid=V0-153-caf8a6ff71ef09c6&clickBeacon=a5754da0-e95b-11f1-af74-e397bec28f10%7E3&requestid=20261126143845162144507783&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 18380,
       "previousPrice": 18380
@@ -3108,10 +3027,10 @@
       "vendorItemId": "91372577973",
       "productName": "[로켓프레시] 비욘드 딸기 크림치즈",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8412682472&itemId=24357204319&vendorItemId=91372577973&traceid=V0-153-af2df64254032ad1&requestid=20261126143317020260033884&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 38000,
-      "previousPrice": 36860
+      "previousPrice": 38000
     },
     {
       "productId": "8547807236",
@@ -3158,17 +3077,17 @@
       "vendorItemId": "92466550064",
       "productName": "파베글라스 벨벳 다크 58% 커버춰 리얼 초콜릿, 1개, 1kg",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7595762670&itemId=20081464881&vendorItemId=92466550064&traceid=V0-153-a01ab436d0675e5b&clickBeacon=0825b260-e95b-11f1-9048-3655a19d29e2%7E3&requestid=20261126143421215211365961&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 26320,
-      "previousPrice": 25850
+      "previousPrice": 26320
     },
     {
       "productId": "7340177591",
       "vendorItemId": "85992893711",
       "productName": "[로켓프레시] 마스카포네 치즈",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7340177591&itemId=18863976506&vendorItemId=85992893711&traceid=V0-153-1139ec8ba6b322fd&requestid=20261126142812842062448062&token=31850C%7CGM&pt=0&slot=8",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:28 KST",
       "price": 7180,
       "previousPrice": 7180
@@ -3178,7 +3097,7 @@
       "vendorItemId": "92458384826",
       "productName": "파베글라스 벨벳 다크 65% 커버춰 리얼 초콜릿, 1kg, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8288390173&itemId=20392604546&vendorItemId=92458384826&traceid=V0-153-69b38010634e4b74&clickBeacon=0825b260-e95b-11f1-bee0-5a7e56fda61b%7E3&requestid=20261126143421215211365961&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 29610,
       "previousPrice": 29610
@@ -3208,7 +3127,7 @@
       "vendorItemId": "95950730023",
       "productName": "넛츠피아 피칸 분태",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6484304556&itemId=14208071578&vendorItemId=95950730023&traceid=V0-153-28afdb2d3e3239d3&requestid=20261126142612925284973238&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 29900,
       "previousPrice": 29900
@@ -3268,7 +3187,7 @@
       "vendorItemId": "96240699507",
       "productName": "가림 코코아파우더, 350g, 3개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=5347267346&itemId=25328633818&vendorItemId=96240699507&traceid=V0-153-a9db1bb292d0ec4b&clickBeacon=beff7590-e959-11f1-9cc7-dda4f6640c75%7E3&requestid=20261126142509025144509000&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 37500,
       "previousPrice": 37500
@@ -3307,9 +3226,9 @@
       "productId": "7284840408",
       "vendorItemId": "3032427713",
       "productName": "투데이넛 마카다미아",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7284840408&itemId=18606387413&vendorItemId=3032427713&traceid=V0-153-2e5c159be96bb4b3&requestid=20261126143148955134298560&token=31850C%7CGM&pt=0&slot=5",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7284840408&itemId=18606387413&vendorItemId=3032427713&traceid=V0-153-2e5c159be96bb4b3&requestid=20261126150841066018952565&token=31850C%7CMIXED&pt=0&slot=6",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:31 KST",
+      "lastCheckedAt": "2026-11-26 15:08 KST",
       "price": 12980,
       "previousPrice": 12980
     },
@@ -3338,7 +3257,7 @@
       "vendorItemId": "95204464339",
       "productName": "[로켓프레시] 파오리 기버터 바",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9486958624&itemId=28251070512&vendorItemId=95204464339&traceid=V0-153-75043253cf0d6bbb&requestid=20261126143733125141700899&token=31850C%7CMIXED&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:37 KST",
       "price": 9980,
       "previousPrice": 9980
@@ -3388,17 +3307,17 @@
       "vendorItemId": "96156463594",
       "productName": "파베글라스 무가당 카카오매스 다크초콜릿",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8675791119&itemId=29237805021&vendorItemId=96156463594&traceid=V0-153-766429b2ab6fc136&requestid=20261126143421215211365961&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 113400,
-      "previousPrice": 112220
+      "previousPrice": 113400
     },
     {
       "productId": "9060987004",
       "vendorItemId": "95822710634",
       "productName": "발로나 무가당 코코아파우더 무설탕 카카오파우더, 3개, 1개입, 100g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9060987004&itemId=28947611162&vendorItemId=95822710634&traceid=V0-153-19ac7e569a99483b&clickBeacon=3011c510-e95c-11f1-aa28-cb6f2c3155aa%7E3&requestid=20261126144237665063834263&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:42 KST",
       "price": 30900,
       "previousPrice": 30900
@@ -3438,7 +3357,7 @@
       "vendorItemId": "71474903104",
       "productName": "녹차수도보성 현미녹차 티백, 1.5g, 100개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2112264285&itemId=3588040061&vendorItemId=71474903104&traceid=V0-153-aa66855dc62dc5bd&clickBeacon=1cbd5830-e95c-11f1-aa54-b6e3ad433d06%7E3&requestid=20261126144205283165880946&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:42 KST",
       "price": 6180,
       "previousPrice": 6180
@@ -3496,11 +3415,11 @@
     {
       "productId": "6346850048",
       "vendorItemId": "3001571655",
-      "productName": "우리차 누룽지 둥굴레차, 1.5g, 100개입, 1개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6346850048&itemId=13339104636&vendorItemId=3001571655&traceid=V0-153-f3cd41746b9dc5c4&clickBeacon=da825280-e952-11f1-a95c-b820c6c19622%7E3&requestid=20261126133548596128566520&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 13:35 KST",
-      "price": 7540,
+      "productName": "우리차 누룽지 둥굴레차",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6346850048&itemId=13339104636&vendorItemId=3001571655&traceid=V0-153-f3cd41746b9dc5c4&requestid=20261126150913009283018760&token=31850C%7CGM&pt=0&slot=3",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:09 KST",
+      "price": 7470,
       "previousPrice": 7540
     },
     {
@@ -3518,7 +3437,7 @@
       "vendorItemId": "91892386300",
       "productName": "대한다업 유기농 보성녹차, 1.2g, 100개입, 2개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8582791644&itemId=29024674411&vendorItemId=91892386300&traceid=V0-153-ff4cffa5e0211119&clickBeacon=9a50a1a0-e95a-11f1-a783-8819d0b31fa0%7E3&requestid=20261126143116942283015861&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 17280,
       "previousPrice": 17280
@@ -3546,10 +3465,10 @@
     {
       "productId": "82802",
       "vendorItemId": "3000050968",
-      "productName": "녹차원 팔방미인 옥수수수염차, 1.5g, 50개입, 1개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=82802&itemId=104038&vendorItemId=3000050968&traceid=V0-153-17014650e7cd61ab&clickBeacon=c76ff170-e2e0-11f1-9827-6f028deae0cf%7E3&requestid=20261118084407098131617720&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "option_mismatch",
-      "lastCheckedAt": "2026-11-18 08:45 KST",
+      "productName": "녹차원 팔방미인 옥수수수염차",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=82802&itemId=104038&vendorItemId=3000050968&traceid=V0-153-17014650e7cd61ab&requestid=20261126150913009283018760&token=31850C%7CGM&pt=0&slot=8",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:09 KST",
       "price": 4660,
       "previousPrice": 4660
     },
@@ -3607,9 +3526,9 @@
       "productId": "6357560398",
       "vendorItemId": "96220392451",
       "productName": "대한다업 보성에서 자란 블랙 보리차",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6357560398&itemId=29304993691&vendorItemId=96220392451&traceid=V0-153-2aa26a4a48e3e1f9&requestid=20261126143116942283015861&token=31850C%7CMIXED&pt=0&slot=6",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6357560398&itemId=29304993691&vendorItemId=96220392451&traceid=V0-153-2aa26a4a48e3e1f9&requestid=20261126150809084228136192&token=31850C%7CMIXED&pt=0&slot=4",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:31 KST",
+      "lastCheckedAt": "2026-11-26 15:08 KST",
       "price": 171600,
       "previousPrice": 171600
     },
@@ -3638,10 +3557,10 @@
       "vendorItemId": "94231136136",
       "productName": "녹차원 루이보스 허브차",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=26292041&itemId=27264343698&vendorItemId=94231136136&traceid=V0-153-d063cc56ea0903d5&requestid=20261126144045214284971980&token=31850C%7CMIXED&pt=0&slot=7",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 11880,
-      "previousPrice": 12510
+      "previousPrice": 11880
     },
     {
       "productId": "7679941576",
@@ -3658,7 +3577,7 @@
       "vendorItemId": "71300505760",
       "productName": "닥터루트 루이보스 삼각티백, 1.2g, 100개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7802393361&itemId=21134811491&vendorItemId=71300505760&traceid=V0-153-b1790afa8a6970ef&clickBeacon=ed07c080-e95b-11f1-b455-7e06c11f9b67%7E3&requestid=20261126144045214284971980&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 12930,
       "previousPrice": 12930
@@ -3668,17 +3587,17 @@
       "vendorItemId": "78622277155",
       "productName": "해밀생활건강 100일동안 보이차 삼각티백, 1.2g, 100개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6089945839&itemId=11345851120&vendorItemId=78622277155&traceid=V0-153-c1a21923183c6e2e&clickBeacon=cd34b260-e959-11f1-a155-b087d798aeb5%7E3&requestid=20261126142532815260035421&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:25 KST",
       "price": 13190,
-      "previousPrice": 13250
+      "previousPrice": 13190
     },
     {
       "productId": "7226088126",
       "vendorItemId": "96243074289",
       "productName": "유리아 페퍼민트 삼각티백, 1.2g, 100개입, 15개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7226088126&itemId=29328853652&vendorItemId=96243074289&traceid=V0-153-267dc9db0ad74fb1&clickBeacon=873c9920-e95a-11f1-bb62-75638112792e%7E3&requestid=20261126143044934017125778&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:30 KST",
       "price": 166500,
       "previousPrice": 166500
@@ -3768,7 +3687,7 @@
       "vendorItemId": "94789402422",
       "productName": "유리아 자스민차 삼각티백",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7797084513&itemId=27799726881&vendorItemId=94789402422&traceid=V0-153-f9dc585b5fbfeb87&requestid=20261126144157259232972274&token=31850C%7CGM&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 6900,
       "previousPrice": 6900
@@ -3798,10 +3717,10 @@
       "vendorItemId": "96122199352",
       "productName": "VOTEM 히비스커스 삼각티백, 1.2g, 50개입, 25개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6802101642&itemId=29201889134&vendorItemId=96122199352&traceid=V0-153-c4e29d284e75b7f2&clickBeacon=002e3f90-e95c-11f1-b3df-1d14849e7afa%7E3&requestid=20261126144117366062441573&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 197500,
-      "previousPrice": 300000
+      "previousPrice": 197500
     },
     {
       "productId": "8457111396",
@@ -3858,7 +3777,7 @@
       "vendorItemId": "74498826632",
       "productName": "청년농원 저온가공 히비스커스 삼각티백, 1g, 50개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7447471227&itemId=19380472054&vendorItemId=74498826632&traceid=V0-153-4c5671fd57191642&clickBeacon=002e3f90-e95c-11f1-8816-3053732604c0%7E3&requestid=20261126144117366062441573&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:41 KST",
       "price": 12900,
       "previousPrice": 12900
@@ -3868,10 +3787,10 @@
       "vendorItemId": "93625704638",
       "productName": "미세플라스틱 없는 생분해필터 미담식품 히비스커스 차 삼각티백",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8570465707&itemId=24829456822&vendorItemId=93625704638&traceid=V0-153-cc32ee83b6ad58fd&requestid=20261126142413306277166611&token=31850C%7CGM&pt=0&slot=9",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:24 KST",
       "price": 15900,
-      "previousPrice": 25900
+      "previousPrice": 15900
     },
     {
       "productId": "8504992601",
@@ -3888,7 +3807,7 @@
       "vendorItemId": "74498825565",
       "productName": "청년농원 저온가공 우엉차 삼각티백, 50개입, 1개, 1g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7420610611&itemId=19248372453&vendorItemId=74498825565&traceid=V0-153-3a0c7cd989343f3a&clickBeacon=4df757e0-e95a-11f1-a60e-d8d9ecce300e%7E3&requestid=20261126142908882103142380&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 13900,
       "previousPrice": 13900
@@ -3938,7 +3857,7 @@
       "vendorItemId": "85055102480",
       "productName": "티칸 루이보스 카라멜, 1.75g, 20개입, 2개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7136525320&itemId=17907905369&vendorItemId=85055102480&traceid=V0-153-5f33db03e756d494&clickBeacon=ed07c080-e95b-11f1-b76c-252e59152051%7E3&requestid=20261126144045214284971980&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 13600,
       "previousPrice": 13600
@@ -3948,7 +3867,7 @@
       "vendorItemId": "85873690090",
       "productName": "다비앙 유기농 캐모마일 티백, 1.5g, 20개입, 2개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1918835282&itemId=18741421865&vendorItemId=85873690090&traceid=V0-153-10c7bb0e85030efc&clickBeacon=8f5157f0-e959-11f1-9f56-1fdae2c71990%7E3&requestid=20261126142349017165884176&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 15800,
       "previousPrice": 15800
@@ -3968,7 +3887,7 @@
       "vendorItemId": "94416295725",
       "productName": "[본사직영] 다예 건강한 하루차 티타임 4종 32티백(쟈스민차+얼그레이+캐모마일+페퍼민트차)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9264781647&itemId=27415652713&vendorItemId=94416295725&traceid=V0-153-9b554ea2f0ab1a9d&requestid=20261126144653473211363959&token=31850C%7CGM&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:46 KST",
       "price": 13800,
       "previousPrice": 13800
@@ -3978,7 +3897,7 @@
       "vendorItemId": "95903044848",
       "productName": "슈가로로 애사비 스파클링 콤부 레몬라임, 6개, 350ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9574521285&itemId=28973370341&vendorItemId=95903044848&traceid=V0-153-590cb4505fd383da&clickBeacon=927b0eb0-e95b-11f1-99a2-5ef59c65ee43%7E3&requestid=20261126143813316323476437&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 10900,
       "previousPrice": 10900
@@ -3988,7 +3907,7 @@
       "vendorItemId": "94632325838",
       "productName": "립톤 아이스티 믹스 복숭아맛, 1.5kg, 1개입, 4개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7778899675&itemId=25761767293&vendorItemId=94632325838&traceid=V0-153-7f0093a8eb97ef17&clickBeacon=b12593a0-e6f2-11f1-8c29-910d8bd0b290%7E3&requestid=20261123130225253233638853&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-23 13:02 KST",
       "price": 48500,
       "previousPrice": 48500
@@ -3998,7 +3917,7 @@
       "vendorItemId": "92725647410",
       "productName": "립톤 아이스티 분말 레몬맛, 1.5kg, 1개입, 2개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8244145059&itemId=21019256021&vendorItemId=92725647410&traceid=V0-153-84ad5ef2820d7eed&clickBeacon=880707f0-e1ad-11f1-96bd-421eb879af49%7E3&requestid=20261116200445166291614409&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-16 20:04 KST",
       "price": 24280,
       "previousPrice": 24280
@@ -4098,7 +4017,7 @@
       "vendorItemId": "70392219224",
       "productName": "성진 옥수수차, 1kg, 1개입, 3개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=1365210915&itemId=2397143980&vendorItemId=70392219224&traceid=V0-153-36e32c8b27dd6058&clickBeacon=e83bb980-e95b-11f1-9f2a-3e54770a82f9%7E3&requestid=20261126144037189277164153&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 11250,
       "previousPrice": 11250
@@ -4198,7 +4117,7 @@
       "vendorItemId": "95969021427",
       "productName": "수팍 무형광 일회용 종이컵 6.5oz 185ml, 1박스, 1000개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9707225326&itemId=29041840795&vendorItemId=95969021427&traceid=V0-153-6fa15773a37ba263&clickBeacon=58530570-e664-11f1-aa09-1ac5c938a3a2%7E3&requestid=20261122200327748283474139&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "not_found",
+      "status": "option_mismatch",
       "lastCheckedAt": "2026-11-22 20:03 KST",
       "price": 13800,
       "previousPrice": 13800
@@ -4288,7 +4207,7 @@
       "vendorItemId": "96120671506",
       "productName": "늘푸른 무인쇄 종이컵 180ml, 10개, 500개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8540986451&itemId=29200245003&vendorItemId=96120671506&traceid=V0-153-e94621293fae520f&clickBeacon=6a99e270-e3bd-11f1-9505-f0a1f157caad%7E3&requestid=20261119110330138272590343&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-19 11:03 KST",
       "price": 159400,
       "previousPrice": 159400
@@ -4328,7 +4247,7 @@
       "vendorItemId": "85765834059",
       "productName": "[씨엘] 400ml(13온스) 종이컵 1000개 1박스 (뚜껑별도)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7290063313&itemId=18630531519&vendorItemId=85765834059&traceid=V0-153-25d70a8de1da4142&requestid=20261126142804853284972445&token=31850C%7CMIXED&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:28 KST",
       "price": 38000,
       "previousPrice": 38000
@@ -4368,7 +4287,7 @@
       "vendorItemId": "94994308326",
       "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개, 470ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9422933215&itemId=28037309616&vendorItemId=94994308326&traceid=V0-153-6b3d07e584a49dc8&clickBeacon=9bf35fb0-e95b-11f1-9b9e-2c9c97643732%7E3&requestid=20261126143829153282432441&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 49900,
       "previousPrice": 49900
@@ -4378,7 +4297,7 @@
       "vendorItemId": "95582235852",
       "productName": "아이팩피앤디 98파이 16온스 PET 아이스컵 국산 투명, 1박스, 1000개입, 520ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9593823253&itemId=28639454421&vendorItemId=95582235852&traceid=V0-153-fcd77e5cf0ac970b&clickBeacon=9bf35fb0-e95b-11f1-95e3-24052ce5c9b5%7E3&requestid=20261126143829153282432441&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 50380,
       "previousPrice": 50380
@@ -4388,7 +4307,7 @@
       "vendorItemId": "95556072834",
       "productName": "아이팩피앤디 92파이 20온스 PET 아이스컵 국산 투명, 1박스, 1000개입, 600ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9585200135&itemId=28612671258&vendorItemId=95556072834&traceid=V0-153-730abf432af89632&clickBeacon=9bf35fb0-e95b-11f1-bd66-afefa2ddccc4%7E3&requestid=20261126143829153282432441&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 62500,
       "previousPrice": 62500
@@ -4398,17 +4317,17 @@
       "vendorItemId": "95888242385",
       "productName": "아이팩피앤디 92파이 16온스 PET 아이스컵, 1박스, 100개, 470ml",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9683639291&itemId=28957949502&vendorItemId=95888242385&traceid=V0-153-d8129aeeec430a91&clickBeacon=9bf35fb0-e95b-11f1-821e-7546acaa2695%7E3&requestid=20261126143829153282432441&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:38 KST",
       "price": 8980,
-      "previousPrice": 8080
+      "previousPrice": 8980
     },
     {
       "productId": "9593716376",
       "vendorItemId": "95581890741",
       "productName": "아이팩피앤디 107파이 32온스 PET 아이스컵 국산 투명, 1박스, 500개입, 1L",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9593716376&itemId=28639085652&vendorItemId=95581890741&traceid=V0-153-a33cd03702a6c7a0&clickBeacon=b8922fc0-e95b-11f1-ab14-56b8697c8e46%7E3&requestid=20261126143917231211338067&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:39 KST",
       "price": 47960,
       "previousPrice": 47960
@@ -4467,9 +4386,9 @@
       "productId": "8428192456",
       "vendorItemId": "91689278034",
       "productName": "제이디팩 자바라 빨대 7*250mm 검정 벌크포장 500개, 1세트, 500개입",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8428192456&itemId=24381080043&vendorItemId=91689278034&traceid=V0-153-02ed52198ce39aa3&clickBeacon=3e31cc30-e95c-11f1-b18c-ae4fc984edc6%7E3&requestid=20261126144301394076598096&token=31850C%7CMIXED&pt=1&slot=1",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8428192456&itemId=24381080043&vendorItemId=91689278034&traceid=V0-153-02ed52198ce39aa3&clickBeacon=54a6dd30-e960-11f1-819e-ac29f43f4012%7E3&requestid=20261126151217089232975465&token=31850C%7CMIXED&pt=1&slot=5",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:43 KST",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 6700,
       "previousPrice": 6700
     },
@@ -4488,7 +4407,7 @@
       "vendorItemId": "91608878331",
       "productName": "제이디팩 일자 빨대 7*250mm 검정 개별포장 500개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8620395035&itemId=25009362628&vendorItemId=91608878331&traceid=V0-153-a5b4694859a65d46&requestid=20261126143357096022891968&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 7600,
       "previousPrice": 7600
@@ -4498,7 +4417,7 @@
       "vendorItemId": "91688990115",
       "productName": "제이디팩 일자 빨대 7*210mm 투명 개별포장 500개 4000개 10000개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8704888771&itemId=25279925926&vendorItemId=91688990115&traceid=V0-153-dbeb02ef4314e301&requestid=20261126144317296145946945&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:43 KST",
       "price": 7580,
       "previousPrice": 7580
@@ -4507,9 +4426,9 @@
       "productId": "8449935131",
       "vendorItemId": "91608603860",
       "productName": "제이디팩 일자 빨대 7*210mm 검정 개별포장 500개입, 1세트, 500개입",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8449935131&itemId=25009362664&vendorItemId=91608603860&traceid=V0-153-ffa2809752602aa6&clickBeacon=a6851eb0-e955-11f1-962c-1c4a3a2b1270%7E3&requestid=20261126135549953145944606&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "not_attempted",
-      "lastCheckedAt": "2026-11-26 13:55 KST",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8449935131&itemId=25009362664&vendorItemId=91608603860&traceid=V0-153-ffa2809752602aa6&clickBeacon=54a6dd30-e960-11f1-967f-9eed4bd48eae%7E3&requestid=20261126151217089232975465&token=31850C%7CMIXED&pt=1&slot=4",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 7600,
       "previousPrice": 7600
     },
@@ -4528,7 +4447,7 @@
       "vendorItemId": "92799622403",
       "productName": "제이디팩 일자 빨대 7*280mm 검정 개별포장 500개, 1세트, 500개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8900660404&itemId=25990892501&vendorItemId=92799622403&traceid=V0-153-357c73664495d302&clickBeacon=9de4b0c0-e1fa-11f1-aa8c-e707e76b14f5%7E3&requestid=20261117051633165203345941&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "not_found",
+      "status": "option_mismatch",
       "lastCheckedAt": "2026-11-17 05:17 KST",
       "price": 8000,
       "previousPrice": 8000
@@ -4568,7 +4487,7 @@
       "vendorItemId": "91458626397",
       "productName": "카페전용 개별포장7*21 에코윌 국내제조 환경부인증 친환경PLA빨대 커피주스용, 1개, 5000개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8801620464&itemId=25629514838&vendorItemId=91458626397&traceid=V0-153-3549605d546e7933&clickBeacon=1197e8e0-e95b-11f1-8365-c52acd4424fd%7E3&requestid=20261126143437061062442982&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 102630,
       "previousPrice": 102630
@@ -4577,11 +4496,11 @@
       "productId": "7281213273",
       "vendorItemId": "89277530106",
       "productName": "네이처컨테이너 개별포장 고급 일자 파랑 빨대 21cm",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7281213273&itemId=18590168548&vendorItemId=89277530106&traceid=V0-153-d349e98e843f3f54&requestid=20261126142748830232977954&token=31850C%7CGM&pt=0&slot=1",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7281213273&itemId=18590168548&vendorItemId=89277530106&traceid=V0-153-d349e98e843f3f54&requestid=20261126150705350210324433&token=31850C%7CGM&pt=0&slot=1",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:27 KST",
+      "lastCheckedAt": "2026-11-26 15:07 KST",
       "price": 7970,
-      "previousPrice": 10970
+      "previousPrice": 7970
     },
     {
       "productId": "7279542281",
@@ -4597,9 +4516,9 @@
       "productId": "2273239739",
       "vendorItemId": "89277442013",
       "productName": "네이처컨테이너 일회용 벤티빨대 개별포장 25cm 블랙 스트로우, 1개, 500개입",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2273239739&itemId=3899459659&vendorItemId=89277442013&traceid=V0-153-3757c3786aa61699&clickBeacon=04e42680-e95c-11f1-aa0c-08a1758dbca6%7E3&requestid=20261126144125274260037761&token=31850C%7CMIXED&pt=1&slot=1",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=2273239739&itemId=3899459659&vendorItemId=89277442013&traceid=V0-153-3757c3786aa61699&clickBeacon=54a6b620-e960-11f1-90b8-6db56aadd44d%7E3&requestid=20261126151217089232975465&token=31850C%7CMIXED&pt=1&slot=1",
       "status": "ok",
-      "lastCheckedAt": "2026-11-26 14:41 KST",
+      "lastCheckedAt": "2026-11-26 15:12 KST",
       "price": 12570,
       "previousPrice": 12570
     },
@@ -4628,10 +4547,10 @@
       "vendorItemId": "92557650907",
       "productName": "종이컵홀더 92파이 98파이 멀티홀더 헬로윈터, 1개, 1000개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=6922591746&itemId=16722485819&vendorItemId=92557650907&traceid=V0-153-d8326051c4951bb1&clickBeacon=fce0fb40-e959-11f1-82ed-01bc99459190%7E3&requestid=20261126142652819165885681&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 28800,
-      "previousPrice": 27000
+      "previousPrice": 28800
     },
     {
       "productId": "8810869296",
@@ -4668,7 +4587,7 @@
       "vendorItemId": "90432439667",
       "productName": "친환경PLA빨대 카페용 대용량박스 환경부 인증 EL724, 1개, 2000개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8870714034&itemId=25879856980&vendorItemId=90432439667&traceid=V0-153-ecb6bbe6cfc04b68&clickBeacon=1197e8e0-e95b-11f1-9708-adb9bc812ef9%7E3&requestid=20261126143437061062442982&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 55000,
       "previousPrice": 55000
@@ -4698,7 +4617,7 @@
       "vendorItemId": "93884588804",
       "productName": "포담팩 종이컵홀더 92파이 98파이 멀티홀더 홀리데이, 1000개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9143127473&itemId=26915231269&vendorItemId=93884588804&traceid=V0-153-b8545fa9affe5519&clickBeacon=fce0fb40-e959-11f1-96f2-d5e552f45235%7E3&requestid=20261126142652819165885681&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:26 KST",
       "price": 38500,
       "previousPrice": 38500
@@ -4718,7 +4637,7 @@
       "vendorItemId": "91186707450",
       "productName": "버블빨대 투명 개별포장, 100개입, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7539257331&itemId=24168440815&vendorItemId=91186707450&traceid=V0-153-84b3ae1af1fe37db&clickBeacon=577fae70-e95a-11f1-8cf2-8c6530801e1c%7E3&requestid=20261126142924889083485219&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 4000,
       "previousPrice": 4000
@@ -4748,7 +4667,7 @@
       "vendorItemId": "95631272883",
       "productName": "그린버블스 국내산 생분해 옥수수빨대 개별포장 21cm 그린, 1개, 100개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9609711847&itemId=28689671350&vendorItemId=95631272883&traceid=V0-153-84c6955f0626376e&clickBeacon=cba91e70-e95b-11f1-bfae-0331a2ed1fbd%7E3&requestid=20261126143949221323473042&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:39 KST",
       "price": 6800,
       "previousPrice": 6800
@@ -4768,17 +4687,17 @@
       "vendorItemId": "95912715524",
       "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609318&vendorItemId=95912715524&traceid=V0-153-1189edca3bc49506&requestid=20261126143949221323473042&token=31850C%7CMIXED&pt=0&slot=9",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:39 KST",
       "price": 44290,
-      "previousPrice": 54290
+      "previousPrice": 44290
     },
     {
       "productId": "8700860619",
       "vendorItemId": "92262026548",
       "productName": "천운패키지 버블 빨대 투명, 100개, 1개입",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8700860619&itemId=25266239773&vendorItemId=92262026548&traceid=V0-153-029c56470834ad2c&clickBeacon=577fae70-e95a-11f1-aa36-63e396868020%7E3&requestid=20261126142924889083485219&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 10750,
       "previousPrice": 10750
@@ -4788,7 +4707,7 @@
       "vendorItemId": "90463018363",
       "productName": "포담팩 발수코팅 빅사 종이 컵캐리어 2구 무지, 1개, 100개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7490493199&itemId=23436120596&vendorItemId=90463018363&traceid=V0-153-87359ac0c8df0ef4&clickBeacon=52be2ec0-e95a-11f1-b8dd-3e93e8b87b8d%7E3&requestid=20261126142916883083483908&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 18700,
       "previousPrice": 18700
@@ -4798,17 +4717,17 @@
       "vendorItemId": "94332604246",
       "productName": "업소용 테이블 냅킨 10000매 대용량 무형광 식당 네프킨 디너 뽑아쓰는, 10000매, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8425476120&itemId=22481034317&vendorItemId=94332604246&traceid=V0-153-668be7e1571eb585&clickBeacon=e37c0e90-e95b-11f1-a67c-da2c053bbb42%7E3&requestid=20261126144029226134297569&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:40 KST",
       "price": 22500,
-      "previousPrice": 21400
+      "previousPrice": 22500
     },
     {
       "productId": "7572829529",
       "vendorItemId": "90271557299",
       "productName": "모나리자 스마트 다용도 키친타올 250매, 250매, 12개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7572829529&itemId=29365666210&vendorItemId=90271557299&traceid=V0-153-7700177b7e1384f1&clickBeacon=ca15c9b0-e95a-11f1-afb8-4796d8c63ef8%7E3&requestid=20261126143237020141700336&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 12730,
       "previousPrice": 12730
@@ -4878,7 +4797,7 @@
       "vendorItemId": "91785825302",
       "productName": "칵테일 냅킨 테이블 냅킨 삼정펄프 무지 무형광 2,000매, 2000개입, 1개, 흰색",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8556420005&itemId=24777824074&vendorItemId=91785825302&traceid=V0-153-bde65d0bd287254d&clickBeacon=f0385c70-e95a-11f1-a770-a9cdad14e904%7E3&requestid=20261126143341104011164228&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 13020,
       "previousPrice": 13020
@@ -4938,7 +4857,7 @@
       "vendorItemId": "95809821127",
       "productName": "유한그린텍 매장용 개별포장 업소용 물티슈 물그린, 1박스, 1200개입, 40g",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7597856296&itemId=20091505388&vendorItemId=95809821127&traceid=V0-153-88c7745ae78facee&clickBeacon=5c4573e0-e95a-11f1-9d62-4b4d30e93832%7E3&requestid=20261126142932907133643946&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:29 KST",
       "price": 15890,
       "previousPrice": 15890
@@ -4948,7 +4867,7 @@
       "vendorItemId": "95816001902",
       "productName": "스카트 보풀 없는 뽑아쓰는 키친타올, 10개, 150매",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9649725029&itemId=28883138056&vendorItemId=95816001902&traceid=V0-153-fd9e65ed2668cd78&clickBeacon=68b7eeb0-e6c0-11f1-ae52-16b3a102d339%7E3&requestid=20261123070228952317425697&token=31850C%7CMIXED&pt=1&slot=4",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-23 07:03 KST",
       "price": 18900,
       "previousPrice": 18900
@@ -4998,7 +4917,7 @@
       "vendorItemId": "91934346375",
       "productName": "줄줄이 일회용 숟가락 개별포장 투명 1박스 1500개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8308532704&itemId=23972497110&vendorItemId=91934346375&traceid=V0-153-bcc172659fdaa8ff&requestid=20261126143300999260031148&token=31850C%7CGM&pt=0&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 32500,
       "previousPrice": 32500
@@ -5068,7 +4987,7 @@
       "vendorItemId": "91533208792",
       "productName": "코멧 천연펄프 키친타올 2겹 200매",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8274844249&itemId=24520466807&vendorItemId=91533208792&traceid=V0-153-ca1d2eadfdb415fa&requestid=20261126143237020141700336&token=31850C%7CMIXED&pt=0&slot=8",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:32 KST",
       "price": 7740,
       "previousPrice": 7740
@@ -5078,7 +4997,7 @@
       "vendorItemId": "96238151285",
       "productName": "ProTap 일회용 니트릴 장갑 100매입, 5개, L, 검은색",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9481002366&itemId=29324193285&vendorItemId=96238151285&traceid=V0-153-c724ae39a46fbfa3&clickBeacon=5ff12ba0-e2a8-11f1-862b-d7671a17dcaf%7E3&requestid=20261118020021637034678588&token=31850C%7CMIXED&pt=1&slot=5",
-      "status": "option_mismatch",
+      "status": "not_found",
       "lastCheckedAt": "2026-11-18 02:01 KST",
       "price": 19990,
       "previousPrice": 19990
@@ -5108,10 +5027,10 @@
       "vendorItemId": "94483029735",
       "productName": "일회용 수저세트 포장 인쇄 500개 (검정)",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8325011524&itemId=24297471851&vendorItemId=94483029735&traceid=V0-153-61c22da131381bdd&requestid=20261126143309012144500187&token=31850C%7CGM&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:33 KST",
       "price": 25200,
-      "previousPrice": 25190
+      "previousPrice": 25200
     },
     {
       "productId": "9568013605",
@@ -5137,9 +5056,9 @@
       "productId": "9558872810",
       "vendorItemId": "95581641023",
       "productName": "일회용 부직포 위생모 머리카락 차단 통기성 헤어캡 대용량 100개입, 화이트, 1개",
-      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9558872810&itemId=28524389961&vendorItemId=95581641023&traceid=V0-153-2056d9c2fb7c2c30&clickBeacon=d78328f0-e2d3-11f1-a745-fab1c48a3b9b%7E3&requestid=20261118071130629276815877&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "option_mismatch",
-      "lastCheckedAt": "2026-11-18 07:11 KST",
+      "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9558872810&itemId=28524389961&vendorItemId=95581641023&traceid=V0-153-2056d9c2fb7c2c30&clickBeacon=29c47870-e960-11f1-bc7a-495330325cfb%7E3&requestid=20261126151105150011160360&token=31850C%7CMIXED&pt=1&slot=1",
+      "status": "ok",
+      "lastCheckedAt": "2026-11-26 15:11 KST",
       "price": 5750,
       "previousPrice": 5750
     },
@@ -5148,7 +5067,7 @@
       "vendorItemId": "93545188267",
       "productName": "TYP 식품용 니트릴장갑 100개입*10개, 블랙, 중, 10세트",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8511212174&itemId=24636640429&vendorItemId=93545188267&traceid=V0-153-afdb06cf5e4e9bad&clickBeacon=9f33b310-e95a-11f1-8cf0-56400407a34e%7E3&requestid=20261126143125134083485366&token=31850C%7CMIXED&pt=1&slot=3",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:31 KST",
       "price": 57000,
       "previousPrice": 57000
@@ -5168,7 +5087,7 @@
       "vendorItemId": "95594106319",
       "productName": "밋튜브 화이트 미트페이퍼",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8985045406&itemId=26312135466&vendorItemId=95594106319&traceid=V0-153-04f0eef33c866f40&requestid=20261126142325710323475697&token=31850C%7CMIXED&pt=0&slot=6",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:23 KST",
       "price": 23850,
       "previousPrice": 23850
@@ -5228,7 +5147,7 @@
       "vendorItemId": "96061218606",
       "productName": "식품용 니트릴장갑 라텍스 요리용 두꺼운 파우더프리 청소용, 100개, M, 블랙 9인치",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9466436339&itemId=28172386433&vendorItemId=96061218606&traceid=V0-153-6f48b1596e522a12&clickBeacon=7761fed0-e95c-11f1-b755-174d95caedeb%7E3&requestid=20261126144437329210328884&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 7480,
       "previousPrice": 7480
@@ -5238,7 +5157,7 @@
       "vendorItemId": "95893117138",
       "productName": "일회용 부직포 헤어캡 위생모 위생모자, 100개, 화이트",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9681716596&itemId=28963070723&vendorItemId=95893117138&traceid=V0-153-81a4d23984712384&clickBeacon=85b7bbf0-e95c-11f1-a2b3-5022c55d56b9%7E3&requestid=20261126144501397283016903&token=31850C%7CMIXED&pt=1&slot=2",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:45 KST",
       "price": 8400,
       "previousPrice": 8400
@@ -5288,10 +5207,10 @@
       "vendorItemId": "93135130626",
       "productName": "씨앤몰 [JE] 정성을담아 배달봉투 비닐봉투 대 4호 100매",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8901753615&itemId=26138169558&vendorItemId=93135130626&traceid=V0-153-dfc169b09b7c9cfc&requestid=20261126143453054165886850&token=31850C%7CGM&pt=0&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 8900,
-      "previousPrice": 9900
+      "previousPrice": 8900
     },
     {
       "productId": "8980511725",
@@ -5308,10 +5227,10 @@
       "vendorItemId": "92775910024",
       "productName": "리스코 식품용 니트릴장갑 라텍스 요리용 두꺼운 파우더프리 청소용 200매, 블랙, M, 1개",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8315272207&itemId=26003988003&vendorItemId=92775910024&traceid=V0-153-0a71640f1bb9f3ed&clickBeacon=7761d7c0-e95c-11f1-baf5-f8c25a4854ed%7E3&requestid=20261126144437329210328884&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 26060,
-      "previousPrice": 15950
+      "previousPrice": 26060
     },
     {
       "productId": "9307955806",
@@ -5328,7 +5247,7 @@
       "vendorItemId": "95708372902",
       "productName": "친환경 일회용 원형 접시 15cm",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9557524105&itemId=28519573857&vendorItemId=95708372902&traceid=V0-153-2e9615b79d010171&requestid=20261126144445363260031824&token=31850C%7CMIXED&pt=0&slot=9",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:44 KST",
       "price": 8400,
       "previousPrice": 8400
@@ -5388,13 +5307,13 @@
       "vendorItemId": "92126809164",
       "productName": "천운패키지 케이크 상자 2단 2호 + 리본 세트, 투명, 1세트",
       "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8657609121&itemId=25127612678&vendorItemId=92126809164&traceid=V0-153-c107f7cfb738824e&clickBeacon=fe7f9aa0-e95a-11f1-96ce-76890340926e%7E3&requestid=20261126143405031228131863&token=31850C%7CMIXED&pt=1&slot=1",
-      "status": "ok",
+      "status": "not_attempted",
       "lastCheckedAt": "2026-11-26 14:34 KST",
       "price": 4900,
       "previousPrice": 4900
     }
   ],
-  "targetCount": 130,
-  "targetConfirmed": 80,
-  "targetUnconfirmed": 50
+  "targetCount": 49,
+  "targetConfirmed": 2,
+  "targetUnconfirmed": 47
 }

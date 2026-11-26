@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 14:48 KST",
+  "updatedAt": "2026-11-26 15:13 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -452,14 +452,19 @@
           "at": "2026-11-26 14:41 KST",
           "price": 12570,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 12570,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 17,
+      "priceCount": 18,
       "avgPrice": 12570,
       "minPrice": 12570,
       "maxPrice": 12570,
       "lastPrice": 12570,
-      "lastAt": "2026-11-26 14:41 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -507,7 +512,7 @@
           12570,
           12570,
           12570,
-          6
+          7
         ]
       ],
       "uniqueDays": 6,
@@ -1086,14 +1091,19 @@
           "at": "2026-11-26 13:34 KST",
           "price": 30000,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:06 KST",
+          "price": 30000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 30000,
       "minPrice": 30000,
       "maxPrice": 30000,
       "lastPrice": 30000,
-      "lastAt": "2026-11-26 13:34 KST",
+      "lastAt": "2026-11-26 15:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1125,7 +1135,7 @@
           30000,
           30000,
           30000,
-          1
+          2
         ]
       ],
       "uniqueDays": 4,
@@ -1218,14 +1228,19 @@
           "at": "2026-11-26 13:34 KST",
           "price": 26400,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:06 KST",
+          "price": 26400,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 7,
-      "avgPrice": 36514,
+      "priceCount": 8,
+      "avgPrice": 35250,
       "minPrice": 26400,
       "maxPrice": 44100,
       "lastPrice": 26400,
-      "lastAt": "2026-11-26 13:34 KST",
+      "lastAt": "2026-11-26 15:06 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -1249,7 +1264,7 @@
           26400,
           26400,
           26400,
-          1
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -9398,7 +9413,7 @@
       "vendorItemId": "95095041343"
     },
     "6346850048": {
-      "productName": "우리차 누룽지 둥굴레차, 1.5g, 100개입, 1개",
+      "productName": "우리차 누룽지 둥굴레차",
       "category": "티·탄산수",
       "observations": [
         {
@@ -9430,14 +9445,19 @@
           "at": "2026-11-26 13:35 KST",
           "price": 7540,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:09 KST",
+          "price": 7470,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 7600,
+      "priceCount": 7,
+      "avgPrice": 7581,
       "minPrice": 7460,
       "maxPrice": 7760,
-      "lastPrice": 7540,
-      "lastAt": "2026-11-26 13:35 KST",
+      "lastPrice": 7470,
+      "lastAt": "2026-11-26 15:09 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9457,11 +9477,11 @@
         ],
         [
           "2026-11-26",
+          7470,
           7540,
-          7540,
-          7540,
-          7540,
-          3
+          7522,
+          7470,
+          4
         ]
       ],
       "uniqueDays": 3,
@@ -10763,7 +10783,7 @@
       "vendorItemId": "93710062659"
     },
     "7660088660": {
-      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿, 1kg, 1개",
+      "productName": "파베글라스 루미에르 컴파운드 코인 코팅 다크초콜릿",
       "category": "당류·토핑",
       "observations": [
         {
@@ -10795,14 +10815,19 @@
           "at": "2026-11-26 14:03 KST",
           "price": 12170,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 12050,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 6,
-      "avgPrice": 12162,
+      "priceCount": 7,
+      "avgPrice": 12146,
       "minPrice": 12050,
       "maxPrice": 12240,
-      "lastPrice": 12170,
-      "lastAt": "2026-11-26 14:03 KST",
+      "lastPrice": 12050,
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -10824,9 +10849,9 @@
           "2026-11-26",
           12050,
           12170,
-          12140,
-          12170,
-          4
+          12122,
+          12050,
+          5
         ]
       ],
       "uniqueDays": 3,
@@ -13202,14 +13227,19 @@
           "at": "2026-11-26 13:16 KST",
           "price": 119380,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:10 KST",
+          "price": 119380,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 119380,
       "minPrice": 119380,
       "maxPrice": 119380,
       "lastPrice": 119380,
-      "lastAt": "2026-11-26 13:16 KST",
+      "lastAt": "2026-11-26 15:10 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -13233,7 +13263,7 @@
           119380,
           119380,
           119380,
-          1
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -20945,14 +20975,19 @@
           "at": "2026-11-26 14:43 KST",
           "price": 51000,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 51000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 51000,
       "minPrice": 51000,
       "maxPrice": 51000,
       "lastPrice": 51000,
-      "lastAt": "2026-11-26 14:43 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -20976,7 +21011,7 @@
           51000,
           51000,
           51000,
-          5
+          6
         ]
       ],
       "uniqueDays": 3,
@@ -24247,14 +24282,19 @@
           "at": "2026-11-26 14:31 KST",
           "price": 171600,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:08 KST",
+          "price": 171600,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 171360,
+      "priceCount": 4,
+      "avgPrice": 171420,
       "minPrice": 170880,
       "maxPrice": 171600,
       "lastPrice": 171600,
-      "lastAt": "2026-11-26 14:31 KST",
+      "lastAt": "2026-11-26 15:08 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -24270,7 +24310,7 @@
           171600,
           171600,
           171600,
-          2
+          3
         ]
       ],
       "uniqueDays": 2,
@@ -25124,14 +25164,19 @@
           "at": "2026-11-18 07:11 KST",
           "price": 5750,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 15:11 KST",
+          "price": 5750,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 5750,
       "minPrice": 5750,
       "maxPrice": 5750,
       "lastPrice": 5750,
-      "lastAt": "2026-11-18 07:11 KST",
+      "lastAt": "2026-11-26 15:11 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -25140,9 +25185,17 @@
           5750,
           5750,
           1
+        ],
+        [
+          "2026-11-26",
+          5750,
+          5750,
+          5750,
+          5750,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "95581641023"
     },
     "26292041": {
@@ -25264,21 +25317,26 @@
       "vendorItemId": "94931379423"
     },
     "82802": {
-      "productName": "녹차원 팔방미인 옥수수수염차, 1.5g, 50개입, 1개",
+      "productName": "녹차원 팔방미인 옥수수수염차",
       "category": "티·탄산수",
       "observations": [
         {
           "at": "2026-11-18 08:45 KST",
           "price": 4660,
           "source": "수집 결과"
+        },
+        {
+          "at": "2026-11-26 15:09 KST",
+          "price": 4660,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 1,
+      "priceCount": 2,
       "avgPrice": 4660,
       "minPrice": 4660,
       "maxPrice": 4660,
       "lastPrice": 4660,
-      "lastAt": "2026-11-18 08:45 KST",
+      "lastAt": "2026-11-26 15:09 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -25287,9 +25345,17 @@
           4660,
           4660,
           1
+        ],
+        [
+          "2026-11-26",
+          4660,
+          4660,
+          4660,
+          4660,
+          1
         ]
       ],
-      "uniqueDays": 1,
+      "uniqueDays": 2,
       "vendorItemId": "3000050968"
     },
     "9750362565": {
@@ -25464,14 +25530,19 @@
           "at": "2026-11-26 14:31 KST",
           "price": 12980,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:08 KST",
+          "price": 12980,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 12980,
       "minPrice": 12980,
       "maxPrice": 12980,
       "lastPrice": 12980,
-      "lastAt": "2026-11-26 14:31 KST",
+      "lastAt": "2026-11-26 15:08 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -25487,7 +25558,7 @@
           12980,
           12980,
           12980,
-          2
+          3
         ]
       ],
       "uniqueDays": 2,
@@ -26874,15 +26945,20 @@
           "at": "2026-11-26 14:35 KST",
           "price": 40900,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 40900,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "93503610814",
-      "priceCount": 4,
+      "priceCount": 5,
       "avgPrice": 40900,
       "minPrice": 40900,
       "maxPrice": 40900,
       "lastPrice": 40900,
-      "lastAt": "2026-11-26 14:35 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -26898,7 +26974,7 @@
           40900,
           40900,
           40900,
-          3
+          4
         ]
       ],
       "uniqueDays": 2
@@ -28133,15 +28209,20 @@
           "at": "2026-11-26 14:27 KST",
           "price": 7970,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:07 KST",
+          "price": 7970,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "89277530106",
-      "priceCount": 2,
-      "avgPrice": 9470,
+      "priceCount": 3,
+      "avgPrice": 8970,
       "minPrice": 7970,
       "maxPrice": 10970,
       "lastPrice": 7970,
-      "lastAt": "2026-11-26 14:27 KST",
+      "lastAt": "2026-11-26 15:07 KST",
       "dailyHistory": [
         [
           "2026-11-20",
@@ -28157,7 +28238,7 @@
           7970,
           7970,
           7970,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -28981,15 +29062,20 @@
           "at": "2026-11-26 14:35 KST",
           "price": 25850,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 25850,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "94423881546",
-      "priceCount": 2,
-      "avgPrice": 27925,
+      "priceCount": 3,
+      "avgPrice": 27233,
       "minPrice": 25850,
       "maxPrice": 30000,
       "lastPrice": 25850,
-      "lastAt": "2026-11-26 14:35 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-23",
@@ -29005,7 +29091,7 @@
           25850,
           25850,
           25850,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -32290,15 +32376,20 @@
           "at": "2026-11-26 14:43 KST",
           "price": 6700,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 6700,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "91689278034",
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 6700,
       "minPrice": 6700,
       "maxPrice": 6700,
       "lastPrice": 6700,
-      "lastAt": "2026-11-26 14:43 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-23",
@@ -32314,7 +32405,7 @@
           6700,
           6700,
           6700,
-          1
+          2
         ]
       ],
       "uniqueDays": 2
@@ -32379,15 +32470,20 @@
           "at": "2026-11-26 13:55 KST",
           "price": 7600,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-26 15:12 KST",
+          "price": 7600,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "91608603860",
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 7600,
       "minPrice": 7600,
       "maxPrice": 7600,
       "lastPrice": 7600,
-      "lastAt": "2026-11-26 13:55 KST",
+      "lastAt": "2026-11-26 15:12 KST",
       "dailyHistory": [
         [
           "2026-11-21",
@@ -32411,7 +32507,7 @@
           7600,
           7600,
           7600,
-          1
+          2
         ]
       ],
       "uniqueDays": 3
