@@ -20,6 +20,26 @@ import refresh_metrics as metrics
 
 STATE_PATH = core.ROOT / "data" / "refresh_state.json"
 STALE_HOURS = 24
+# Current /products/search docs (verified 2026-11-26): 50 requests/minute.
+# Deliberately much lower; old discovery commands retain their legacy limit.
+MINUTE_CAP = 8
+DAY_CAP = 900  # rolling 24 hours, including failed/manual requests
+RUN_CAP = 600
+
+
+def retained_usage(usage, now):
+    # Keep future timestamps too: clock skew must not erase reservations.
+    return [stamp for stamp in usage if now - stamp < timedelta(hours=24)]
+
+
+def budget_wait(usage, now):
+    recent = [stamp for stamp in usage if now - stamp < timedelta(seconds=61)]
+    if len(retained_usage(usage, now)) >= DAY_CAP:
+        return None
+    pace = core.pace_wait(usage, now)
+    if len(recent) >= MINUTE_CAP:
+        pace = max(pace, (sorted(recent)[-MINUTE_CAP] + timedelta(seconds=61) - now).total_seconds())
+    return max(0, pace)
 
 
 def parse_at(value):
@@ -96,9 +116,8 @@ def plan(deals, state, limit, now):
             continue
         checked = parse_at(last_checked(deal))
         attempted = parse_at(record.get("lastAttemptAt"))
-        # Success: at least 6h between checks. Misses: retry after 6/12/24h.
-        misses = record.get("consecutiveMisses", 0)
-        delay = min(24, 6 * (2 ** min(misses - 1, 2))) if misses else 6
+        # Missing offers remain eligible for a later sweep, including next day.
+        delay = 4
         if attempted and now - attempted < timedelta(hours=delay):
             continue
         eligible.append((attempted or checked or floor, checked or floor, str(deal["productId"]), deal))
@@ -115,6 +134,20 @@ def choose_search(deals, state, now, used_queries, group_turn):
     group_used = {r["query"] for r in state.get("metrics", {}).get("requests", [])
                   if r["at"].startswith(today) and r["strategy"] == "group"}
     if group_turn:
+        # Reuse queries that actually found exact offers, not just their target.
+        # The latest normal response replaces older evidence (ranking can change).
+        learned = {}
+        for event in state.get("metrics", {}).get("requests", []):
+            if event["status"] not in ("api_error", "interrupted"):
+                learned[event["query"]] = set(event["observedIds"])
+        ranked = []
+        for q, ids in learned.items():
+            members = [d for d in candidates if str(d["productId"]) in ids]
+            if members and q not in used_queries:
+                ranked.append((-len(members), candidates.index(members[0]), q, members[0]))
+        if ranked:
+            _, _, q, target = min(ranked, key=lambda row: row[:3])
+            return target, q, "learned"
         groups = {}
         for d in candidates:
             q = str(d.get("query") or "").strip()[:50].strip()
@@ -179,12 +212,33 @@ def freshness_stats(deals, now):
     return {"within24Hours": fresh, "needsRecheck": len(deals) - fresh, "total": len(deals)}
 
 
+def checkpoint(previous, deals, hist, state, requests, attempted, refreshed, had_error):
+    """Keep observations as well as reservations if a long runner is interrupted."""
+    core.finalize_history(hist)
+    discounts = core.apply_price_stats(deals, hist)
+    for deal in deals:
+        deal["lastCheckedAt"] = last_checked(deal)
+    core.save_history(hist)
+    now = datetime.now(timezone.utc)
+    previous.update(deals=deals, count=len(deals), lastRunAt=core.kst_str(now),
+                    freshnessStats=freshness_stats(deals, now),
+                    refreshRun={"requests": requests, "attempted": attempted,
+                                "refreshed": refreshed, "error": had_error},
+                    priceStats={"products": len(hist["products"]), "discounts": discounts})
+    report = metrics.coverage_report(deals, state, now)
+    previous["coverage"] = {k: report[k] for k in ("generatedAt", "measurementStartedAt", "daily")}
+    previous["coverage"]["missing72HoursOrRepeated"] = len(report["missing72HoursOrRepeated"])
+    if refreshed:
+        previous["updatedAt"] = core.kst_str(now)
+    core.write_json(previous)
+
+
 def main(argv):
     now = datetime.now(timezone.utc)
     previous = core.load_previous()
     deals = previous.get("deals") or []
     state = load_state()
-    limit = max(0, min(core.HOURLY_CAP, int(core._opt(argv, "--max-requests") or 8)))
+    limit = max(0, min(RUN_CAP, int(core._opt(argv, "--max-requests") or 600)))
     assume_used = max(0, int(core._opt(argv, "--assume-used") or 0))
     if "--dry-run" in argv:
         simulated, used = copy.deepcopy(state), set()
@@ -206,6 +260,9 @@ def main(argv):
         print("[error] COUPANG_ACCESS_KEY / COUPANG_SECRET_KEY 가 없습니다.", file=sys.stderr)
         return 2
     blocked_until = parse_at(state.get("blockedUntil"))
+    if state.get("apiPaused"):
+        print("[skip] API restriction recorded; review required before resuming")
+        return 1
     if core.cooldown_active(now) or (blocked_until and now < blocked_until):
         print("[skip] API 쿨다운 중")
         return 0
@@ -216,15 +273,22 @@ def main(argv):
     used_queries = set()
     observed_run = set()
     had_error = False
+    started = time.monotonic()
     for slot in range(limit):
+        if time.monotonic() - started >= 90 * 60:
+            print("[stop] Runtime budget reached; remaining offers stay queued")
+            break
         now = datetime.now(timezone.utc)
         choice = choose_search(deals, state, now, used_queries, slot % 2 == 0)
         if not choice:
             break
         target, query, strategy = choice
-        if len(core.hour_window(usage, now)) + assume_used >= core.HOURLY_CAP:
+        # Outside calls conservatively consume both minute and daily headroom.
+        budget_usage = retained_usage(usage, now) + [now] * assume_used
+        wait = budget_wait(budget_usage, now)
+        if wait is None or assume_used >= MINUTE_CAP:
+            print("[skip] Safe request budget exhausted")
             break
-        wait = core.pace_wait(usage, now)
         if wait:
             time.sleep(wait)
         now = datetime.now(timezone.utc)
@@ -238,12 +302,13 @@ def main(argv):
         target["lastAttemptAt"] = at
         attempted += 1
         # Reserve the request BEFORE network I/O, including failed requests.
-        usage = core.hour_window(usage, datetime.now(timezone.utc))
+        usage = retained_usage(usage, datetime.now(timezone.utc))
         usage.append(datetime.now(timezone.utc))
         core.save_usage(usage)
         event = metrics.record_request(state, now, query, strategy, pid, "interrupted", set(), set())
         save_state(state)
         requests += 1
+        event["apiStatus"] = "interrupted"
         params = {"keyword": query, "limit": core.LIMIT}
         if os.environ.get("COUPANG_SUB_ID"):
             params["subId"] = os.environ["COUPANG_SUB_ID"]
@@ -255,6 +320,7 @@ def main(argv):
             items = data.get("productData", []) if isinstance(data, dict) else data
             if not isinstance(items, list):
                 raise ValueError("Invalid productData")
+            event.update(apiStatus="ok", returnedCount=len(items))
             result = apply_result(target, items, at, hist)
             # One search can refresh other EXISTING exact offers too, but never add unrelated products.
             for other in deals:
@@ -269,9 +335,16 @@ def main(argv):
         except Exception as exc:
             result = "api_error"
             had_error = True
+            event["apiStatus"] = "error"
             print(f"[error] {type(exc).__name__}; preserving last observed price")
-            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429):
-                state["blockedUntil"] = core.kst_str(datetime.now(timezone.utc) + timedelta(hours=24, minutes=1))
+            # Never repeatedly probe a restricted account on the next schedule.
+            state["blockedUntil"] = core.kst_str(datetime.now(timezone.utc) + timedelta(hours=24, minutes=1))
+            if isinstance(exc, urllib.error.HTTPError):
+                event["httpStatus"] = exc.code
+                if exc.code in (401, 403, 429):
+                    state.update(apiPaused=True, pauseReason=f"HTTP {exc.code}")
+            elif isinstance(exc, ValueError):
+                state.update(apiPaused=True, pauseReason="Invalid or error API response")
         target["refreshStatus"] = result
         record.update(status=result, consecutiveMisses=0 if result == "ok" else record.get("consecutiveMisses", 0) + 1)
         if result == "ok":
@@ -279,28 +352,14 @@ def main(argv):
         observed_run.update(observed)
         refreshed = len(observed_run)
         event.update(status=result, observedIds=sorted(observed), newTodayIds=sorted(observed - confirmed_before))
-        print(f"[refresh] {pid}: {result}")
+        print(f"[refresh] {pid}: {result}; API={event['apiStatus']}; exact observations={len(observed)}")
         save_state(state)
+        if requests % 25 == 0:
+            checkpoint(previous, deals, hist, state, requests, attempted, refreshed, had_error)
         if had_error:
             break
     if attempted:
-        core.finalize_history(hist)
-        discounts = core.apply_price_stats(deals, hist)
-        for deal in deals:
-            deal["lastCheckedAt"] = last_checked(deal)
-        core.save_history(hist)
-        now = datetime.now(timezone.utc)
-        previous.update(deals=deals, count=len(deals), lastRunAt=core.kst_str(now),
-                        freshnessStats=freshness_stats(deals, now),
-                        refreshRun={"requests": requests, "attempted": attempted, "refreshed": refreshed,
-                                    "error": had_error},
-                        priceStats={"products": len(hist["products"]), "discounts": discounts})
-        report = metrics.coverage_report(deals, state, now)
-        previous["coverage"] = {k: report[k] for k in ("generatedAt", "measurementStartedAt", "daily")}
-        previous["coverage"]["missing72HoursOrRepeated"] = len(report["missing72HoursOrRepeated"])
-        if refreshed:
-            previous["updatedAt"] = core.kst_str(now)
-        core.write_json(previous)
+        checkpoint(previous, deals, hist, state, requests, attempted, refreshed, had_error)
     print(f"[done] API {requests}회 · 재확인 대상 {attempted}개 · 가격 관측 {refreshed}개")
     return 1 if had_error else 0
 

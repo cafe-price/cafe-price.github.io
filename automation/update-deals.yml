@@ -1,16 +1,17 @@
-name: 카페 가격 매시간 수집 및 배포
+# Reference copy. Active workflow: .github/workflows/update-deals.yml
+name: 카페 가격 일일 전체 확인 및 배포
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 0,6,12,18 * * *'
   workflow_dispatch:
     inputs:
       max_requests:
-        description: '이번 실행 검색 횟수 (1~8)'
+        description: '최대 검색 횟수 (일일 예산·간격 제한은 항상 적용)'
         required: true
-        default: '8'
+        default: '600'
         type: choice
-        options: ['1', '2', '4', '8']
+        options: ['1', '2', '4', '8', '12', '600']
   push:
     branches: [main]
     paths:
@@ -30,7 +31,7 @@ jobs:
   collect:
     if: github.event_name != 'push' && vars.CAFE_PRICE_SCHEDULER_ENABLED == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 110
     permissions:
       contents: write
     steps:
@@ -46,7 +47,7 @@ jobs:
         env:
           COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
           COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
-          MAX_REQUESTS: ${{ inputs.max_requests || '8' }}
+          MAX_REQUESTS: ${{ inputs.max_requests || '600' }}
         run: python scripts/fetch_cafe_deals.py --refresh-existing --max-requests "$MAX_REQUESTS"
       - name: 일일 확인률과 누락 상품 분석
         if: always()

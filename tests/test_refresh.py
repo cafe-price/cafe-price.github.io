@@ -136,10 +136,48 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(data["deals"][0]["refreshStatus"], "ok")
         self.assertEqual(data["freshnessStats"]["within24Hours"], 1)
 
-    def test_persisted_hourly_budget_blocks_new_run(self):
-        code, data, state, mock = self.run_collector(usage=[datetime.now(timezone.utc) - timedelta(seconds=i) for i in range(9)])
+    def test_current_search_limit_allows_more_than_legacy_nine_calls(self):
+        deals = [dict(offer(str(i), str(100+i)), productName=f"커피 {i} 1kg", query=f"커피 {i}") for i in range(12)]
+        with patch.object(refresh, "budget_wait", return_value=0):
+            code, data, state, api = self.run_collector(
+                {"rCode": "0", "data": {"productData": []}}, deals=deals, limit=12)
+        self.assertEqual(api.call_count, 12)
+        self.assertEqual(len(core.load_usage()), 12)
+        self.assertTrue(all(r["apiStatus"] == "ok" and r["status"] == "not_found"
+                            for r in state["metrics"]["requests"]))
+
+    def test_persisted_daily_budget_blocks_new_run(self):
+        code, data, state, mock = self.run_collector(usage=[datetime.now(timezone.utc) - timedelta(seconds=i) for i in range(refresh.DAY_CAP)])
         self.assertEqual(code, 0)
         mock.assert_not_called()
+
+    def test_minute_limit_spacing_and_clock_skew(self):
+        now = datetime.now(timezone.utc)
+        usage = [now - timedelta(seconds=8*i) for i in range(8)]
+        self.assertEqual(refresh.budget_wait(usage, now), 8)
+        self.assertEqual(refresh.budget_wait([now] * 8, now), 61)
+        self.assertEqual(refresh.budget_wait([now + timedelta(seconds=10)], now), 18)
+        self.assertEqual(len(refresh.retained_usage([now - timedelta(hours=23), now - timedelta(hours=25)], now)), 1)
+
+    def test_restricted_account_stays_paused_on_next_run(self):
+        error = urllib.error.HTTPError("https://example.invalid", 429, "limited", {}, None)
+        code, data, state, mock = self.run_collector(error=error)
+        self.assertTrue(state["apiPaused"])
+        with patch.object(core, "api_get") as api:
+            self.assertEqual(refresh.main(["--max-requests", "600"]), 1)
+            api.assert_not_called()
+
+    def test_learned_query_uses_all_hits_and_replaces_stale_evidence(self):
+        now = datetime(2026, 11, 26, 3, tzinfo=timezone.utc)
+        deals = [offer(), offer("2", "22"), offer("3", "33")]
+        state = {"products": {}}
+        metrics.record_request(state, now - timedelta(days=1), "successful query", "group", "3", "not_found", {"1", "2"}, {"1", "2"})
+        choice = refresh.choose_search(deals, state, now, set(), True)
+        self.assertEqual(choice[1:], ("successful query", "learned"))
+        # Fairness: individual slots still try the oldest unconfirmed offer.
+        self.assertEqual(refresh.choose_search(deals, state, now, set(), False)[2], "individual")
+        metrics.record_request(state, now, "successful query", "learned", "1", "not_found", set(), set())
+        self.assertNotEqual(refresh.choose_search(deals, state, now + timedelta(days=1), set(), True)[2], "learned")
 
     def test_daily_priority_skips_success_even_after_six_hours(self):
         now = datetime(2026, 11, 25, 14, tzinfo=timezone.utc)  # KST 23:00

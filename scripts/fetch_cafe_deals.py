@@ -1381,12 +1381,15 @@ def kst_str(dt: datetime) -> str:
 
 
 def load_usage() -> list[datetime]:
-    stamps = set()
+    from collections import Counter
+    stamps = Counter()
     for path in (USAGE_PATH, ROOT / "scripts" / ".api_usage.json"):
         if path.exists():
             raw = json.loads(path.read_text(encoding="utf-8"))
-            stamps.update(datetime.fromisoformat(t) for t in raw.get("requests", []))
-    return sorted(stamps)
+            # Preserve distinct reservations sharing a timestamp. Merge old/new
+            # copies by max count so a migrated ledger is not counted twice.
+            stamps |= Counter(datetime.fromisoformat(t) for t in raw.get("requests", []))
+    return sorted(stamps.elements())
 
 
 def save_usage(stamps: list[datetime]) -> None:
