@@ -137,7 +137,7 @@ class RefreshTests(unittest.TestCase):
         c = dict(b, refreshStatus="not_found")
         self.assertEqual(refresh.freshness_stats([a, b, c], now)["within24Hours"], 1)
 
-    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1, extra_args=None, cohort=None):
+    def run_collector(self, response=None, error=None, usage=None, deals=None, limit=1, extra_args=None, cohort=None, event_name="workflow_dispatch"):
         tmp = tempfile.TemporaryDirectory()
         self.addCleanup(tmp.cleanup)
         root = Path(tmp.name)
@@ -151,7 +151,7 @@ class RefreshTests(unittest.TestCase):
                    patch.object(core, "USAGE_PATH", root / "data/api_usage.json"),
                    patch.object(refresh, "STATE_PATH", root / "data/refresh_state.json"),
                    patch.object(core, "pace_wait", return_value=0),
-                   patch.dict("os.environ", {"COUPANG_ACCESS_KEY": "test", "COUPANG_SECRET_KEY": "test"})]
+                   patch.dict("os.environ", {"COUPANG_ACCESS_KEY": "test", "COUPANG_SECRET_KEY": "test", "GITHUB_EVENT_NAME":event_name})]
         for p in patches:
             p.start()
             self.addCleanup(p.stop)
@@ -200,6 +200,43 @@ class RefreshTests(unittest.TestCase):
         self.assertEqual(report["stopReason"], "queue_complete")
         self.assertEqual({r["status"] for r in report["products"]}, {"not_found"})
         self.assertEqual((report["total"], report["confirmed"], report["unconfirmed"]), (3, 0, 3))
+
+    def test_four_scheduled_runs_recheck_fresh_offers_and_persist_usage(self):
+        now = core.kst_str(datetime.now(timezone.utc))
+        deals = [dict(offer(), lastCheckedAt=now), dict(offer("2","22"), lastCheckedAt=now)]
+        response={"rCode":"0", "data":{"productData":deals}}
+        code,data,state,api=self.run_collector(response, deals=deals, limit=8, event_name="schedule")
+        self.assertEqual(api.call_count,1)
+        for index in range(1,4):
+            with patch.object(core,"api_get",return_value=response) as next_api:
+                self.assertEqual(refresh.main(["--max-requests","600"]),0)
+                self.assertEqual(next_api.call_count,1)
+            report=json.loads((core.ROOT/'data/latest_refresh_run.json').read_text(encoding='utf-8'))
+            self.assertEqual((report['mode'],report['examined'],report['confirmed'],report['notAttempted']),('full_sweep',2,2,0))
+            self.assertEqual(len(core.load_usage()),index+1)
+
+    def test_full_sweep_reuses_previous_group_query(self):
+        now=datetime.now(timezone.utc)
+        deals=[dict(offer(),lastCheckedAt=core.kst_str(now)),dict(offer('2','22'),lastCheckedAt=core.kst_str(now))]
+        state={'products':{}}
+        metrics.record_request(state,now,deals[0]['query'],'group','1','not_found',set(),set())
+        result=refresh.choose_search(deals,state,now,set(),True,True,set())
+        self.assertEqual(result[1:],(deals[0]['query'],'group'))
+
+    def test_rolling_guard_fits_four_full_runs_and_preserves_minute_limit(self):
+        now=datetime.now(timezone.utc)
+        prior=[now-timedelta(hours=2,seconds=8*i) for i in range(4*refresh.RUN_CAP)]
+        self.assertEqual(refresh.budget_wait(prior,now),0)
+        self.assertIsNone(refresh.budget_wait([now-timedelta(hours=2)]*refresh.DAY_CAP,now))
+        self.assertEqual(refresh.budget_wait(prior+[now]*8,now),61)
+
+    def test_full_sweep_reports_unexamined_products_when_safety_budget_stops(self):
+        deals=[offer(),offer('2','22')]
+        _,_,_,api=self.run_collector(usage=[datetime.now(timezone.utc)]*refresh.DAY_CAP,
+                                    deals=deals,event_name='schedule')
+        api.assert_not_called()
+        report=json.loads((core.ROOT/'data/latest_refresh_run.json').read_text(encoding='utf-8'))
+        self.assertEqual((report['examined'],report['notAttempted'],report['stopReason']),(0,2,'safe_budget'))
 
     def test_empty_response_is_persisted_without_faking_price_update(self):
         code, data, state, mock = self.run_collector({"rCode": "0", "data": {"productData": []}})

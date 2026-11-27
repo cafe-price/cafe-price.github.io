@@ -22,10 +22,10 @@ import retry_queries
 
 STATE_PATH = core.ROOT / "data" / "refresh_state.json"
 STALE_HOURS = 24
-# Current /products/search docs (verified 2026-11-26): 50 requests/minute.
+# Current /products/search docs (verified 2026-11-27): 50 requests/minute.
 # Deliberately much lower; old discovery commands retain their legacy limit.
 MINUTE_CAP = 8
-DAY_CAP = 900  # rolling 24 hours, including failed/manual requests
+DAY_CAP = 3000  # local guard, NOT an official quota; 4 x 600 plus delay/manual headroom
 RUN_CAP = 600
 
 
@@ -142,8 +142,9 @@ def choose_search(deals, state, now, used_queries, group_turn, full_sweep=False,
     used_queries = used_queries | ({r["query"] for r in state.get("metrics", {}).get("requests", [])
                                    if r["at"].startswith(today) and r["status"] != "api_error"}
                                    if not full_sweep else set())
-    group_used = {r["query"] for r in state.get("metrics", {}).get("requests", [])
-                  if r["at"].startswith(today) and r["strategy"] == "group"}
+    group_used = ({r["query"] for r in state.get("metrics", {}).get("requests", [])
+                   if r["at"].startswith(today) and r["strategy"] == "group"}
+                  if not full_sweep else set())
     if group_turn:
         # Reuse queries that actually found exact offers, not just their target.
         # The latest normal response replaces older evidence (ranking can change).
@@ -175,8 +176,8 @@ def choose_search(deals, state, now, used_queries, group_turn, full_sweep=False,
         for q in (*saved_queries(d, state), *retry_queries.variants(d), search_query(d, 0)):
             if q and q not in used_queries:
                 return d, q, "individual"
-    # Explicit one-off audit: even duplicate listing names receive a target
-    # result. Normal schedules still never repeat a normal query the same day.
+    # Every full sweep includes duplicate listing names too. Reuse across
+    # separate scheduled sweeps is intentional; deduplicate within this run.
     if full_sweep and candidates:
         d = candidates[0]
         return d, search_query(d, 0), "audit_duplicate"
@@ -217,6 +218,8 @@ def save_run_report(deals, run, outcomes, observed, original_prices, finished=Fa
                   stopReason=reason, total=len(deals), confirmed=len(observed),
                   priceChanged=sum(r["status"] == "ok" and r["price"] != r["previousPrice"] for r in rows),
                   unconfirmed=len(deals)-len(observed), products=rows)
+    not_attempted = sum(r["status"] == "not_attempted" for r in rows)
+    report.update(examined=len(rows)-not_attempted, notAttempted=not_attempted)
     if run.get("targetIds") is not None:
         scope = set(run["targetIds"])
         report.update(targetCount=len(scope), targetConfirmed=len(observed & scope),
@@ -297,7 +300,9 @@ def main(argv):
     previous = core.load_previous()
     deals = previous.get("deals") or []
     state = load_state()
-    full_sweep = "--full-sweep" in argv
+    # GitHub supplies this event name to scheduled runs. Keep manual targeted
+    # modes available, but every schedule always revisits the whole catalog.
+    full_sweep = "--full-sweep" in argv or os.environ.get("GITHUB_EVENT_NAME") == "schedule"
     retry_mode = "--retry-unconfirmed" in argv
     if full_sweep and retry_mode:
         raise ValueError("Choose either full sweep or targeted retry")

@@ -1,4 +1,4 @@
-name: 카페 가격 일일 전체 확인 및 배포
+name: 카페 가격 하루 4회 전체 재조회 및 배포
 
 on:
   schedule:
@@ -13,7 +13,7 @@ on:
         type: choice
         options: ['1', '2', '4', '8', '12', '600']
       full_sweep:
-        description: '전체 상품 1회 실측 (오늘 확인한 상품도 포함, API 안전 제한 유지)'
+        description: '전체 상품 재조회 (예약 실행은 항상 적용, API 안전 제한 유지)'
         type: boolean
         default: false
       retry_unconfirmed:
@@ -97,6 +97,11 @@ jobs:
               out.write('마지막 실행: ' + str(data.get('lastRunAt', '기록 없음')) + '\n\n')
               out.write('실행 통계: `' + json.dumps(data.get('refreshRun', {}), ensure_ascii=False) + '`\n\n')
               out.write('확인 현황: `' + json.dumps(data.get('freshnessStats', {}), ensure_ascii=False) + '`\n')
+              report_path = Path('data/latest_refresh_run.json')
+              if report_path.exists():
+                  report = json.loads(report_path.read_text())
+                  if report.get('githubRunId') == os.environ['GITHUB_RUN_ID']:
+                      out.write('\n이번 실행 전체 조회 결과: `' + json.dumps({k: report.get(k) for k in ('mode', 'total', 'examined', 'notAttempted', 'confirmed', 'unconfirmed', 'stopReason')}, ensure_ascii=False) + '`\n')
           PY
 
   deploy:
