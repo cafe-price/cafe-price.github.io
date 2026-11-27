@@ -5267,8 +5267,8 @@
       "query": "마카다미아 500g"
     },
     "9690864109": {
-      "lastAttemptAt": "2026-11-26 14:39 KST",
-      "attempts": 2,
+      "lastAttemptAt": "2026-11-27 12:51 KST",
+      "attempts": 3,
       "query": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산",
       "status": "ok",
       "consecutiveMisses": 0,
@@ -5276,15 +5276,15 @@
         "productId": "9690864109",
         "vendorItemId": "95912715524",
         "itemId": "28983609318",
-        "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609318&vendorItemId=95912715524&traceid=V0-153-1189edca3bc49506&requestid=20261126143949221323473042&token=31850C%7CMIXED&pt=0&slot=9",
+        "productName": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산, 6개, 100개입",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609318&vendorItemId=95912715524&traceid=V0-153-1189edca3bc49506&clickBeacon=cc809e30-ea15-11f1-91c2-0e01cd4afbcd%7E3&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=1&slot=2",
         "canonicalUrl": "https://www.coupang.com/vp/products/9690864109?itemId=28983609318&vendorItemId=95912715524",
-        "lastSuccessAt": "2026-11-26 14:39 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
           {
             "query": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산",
-            "lastSuccessAt": "2026-11-26 14:39 KST",
-            "successes": 1
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 2
           }
         ]
       }
@@ -5721,7 +5721,7 @@
       "query": "[로켓프레시] 마스카포네 치즈 250g 1개입 1개"
     },
     "7737704602": {
-      "lastAttemptAt": "2026-11-27 03:12 KST",
+      "lastAttemptAt": "2026-11-27 12:51 KST",
       "attempts": 2,
       "query": "매드바닐라 리치 바닐라 시럽 홀빈 1개 300ml",
       "status": "ok",
@@ -5730,11 +5730,16 @@
         "productId": "7737704602",
         "vendorItemId": "72064620821",
         "itemId": "20809447195",
-        "productName": "매드바닐라 리얼 바닐라시럽 홀빈",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7737704602&itemId=20809447195&vendorItemId=72064620821&traceid=V0-153-a47036e9d10276cf&requestid=20261127031235523211362237&token=31850C%7CMIXED&pt=0&slot=2",
+        "productName": "매드바닐라 리얼 바닐라시럽 홀빈, 300ml, 1개",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7737704602&itemId=20809447195&vendorItemId=72064620821&traceid=V0-153-a47036e9d10276cf&clickBeacon=c7b66bf0-ea15-11f1-989b-1ec96fc5c380%7E3&requestid=20261127125109036017121780&token=31850C%7CMIXED&pt=1&slot=4",
         "canonicalUrl": "https://www.coupang.com/vp/products/7737704602?itemId=20809447195&vendorItemId=72064620821",
-        "lastSuccessAt": "2026-11-27 03:12 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
+          {
+            "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 1
+          },
           {
             "query": "매드바닐라 리치 바닐라 시럽 홀빈 1개 300ml",
             "lastSuccessAt": "2026-11-27 03:12 KST",
@@ -6552,10 +6557,15 @@
         "vendorItemId": "86556439800",
         "itemId": "19445528459",
         "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=d6bb5b40-e959-11f1-b496-10f247024050%7E3&requestid=20261126142548842211330638&token=31850C%7CMIXED&pt=1&slot=3",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=c2f64bd0-ea15-11f1-bf76-c6d6a06abc3f%7E3&requestid=20261127125101072249226411&token=31850C%7CMIXED&pt=1&slot=5",
         "canonicalUrl": "https://www.coupang.com/vp/products/7398456407?itemId=19445528459&vendorItemId=86556439800",
-        "lastSuccessAt": "2026-11-26 14:25 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
+          {
+            "query": "엔칸토 한라봉 베이스 1.8kg",
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 2
+          },
           {
             "query": "서울팩토리 자몽에이드 1.8kg 2개",
             "lastSuccessAt": "2026-11-26 14:25 KST",
@@ -6567,20 +6577,17 @@
             "successes": 1
           },
           {
-            "query": "엔칸토 한라봉 베이스 1.8kg",
-            "lastSuccessAt": "2026-11-26 13:46 KST",
-            "successes": 1
-          },
-          {
             "query": "엔칸토 라임모히또",
             "lastSuccessAt": "2026-11-26 13:36 KST",
             "successes": 1
           }
         ]
       },
-      "lastAttemptAt": "2026-11-26 14:25 KST",
+      "lastAttemptAt": "2026-11-27 12:51 KST",
       "consecutiveMisses": 0,
-      "status": "ok"
+      "status": "ok",
+      "attempts": 1,
+      "query": "엔칸토 한라봉 베이스 1.8kg"
     },
     "7958862797": {
       "lastAttemptAt": "2026-11-26 15:08 KST",
@@ -8871,7 +8878,7 @@
       }
     },
     "7398450358": {
-      "lastAttemptAt": "2026-11-26 14:28 KST",
+      "lastAttemptAt": "2026-11-27 12:51 KST",
       "attempts": 2,
       "query": "엔칸토 한라봉 베이스 1.8kg 1개",
       "status": "ok",
@@ -8881,10 +8888,15 @@
         "vendorItemId": "80898764173",
         "itemId": "19143935052",
         "productName": "엔칸토 한라봉 베이스, 1.8kg, 1개",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398450358&itemId=19143935052&vendorItemId=80898764173&traceid=V0-153-0c84cbf577e9a35f&clickBeacon=361c5170-e95a-11f1-8cf3-909115443a23%7E3&requestid=20261126142828864262305465&token=31850C%7CMIXED&pt=1&slot=1",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398450358&itemId=19143935052&vendorItemId=80898764173&traceid=V0-153-0c84cbf577e9a35f&clickBeacon=c2f64bd0-ea15-11f1-914f-347f6f6066e7%7E3&requestid=20261127125101072249226411&token=31850C%7CMIXED&pt=1&slot=1",
         "canonicalUrl": "https://www.coupang.com/vp/products/7398450358?itemId=19143935052&vendorItemId=80898764173",
-        "lastSuccessAt": "2026-11-26 14:28 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
+          {
+            "query": "엔칸토 한라봉 베이스 1.8kg",
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 1
+          },
           {
             "query": "엔칸토 한라봉 베이스 1.8kg 1개",
             "lastSuccessAt": "2026-11-26 14:28 KST",
@@ -10558,8 +10570,8 @@
       }
     },
     "7243710171": {
-      "lastAttemptAt": "2026-11-26 13:54 KST",
-      "attempts": 1,
+      "lastAttemptAt": "2026-11-27 12:51 KST",
+      "attempts": 2,
       "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
       "status": "ok",
       "consecutiveMisses": 0,
@@ -10568,14 +10580,14 @@
         "vendorItemId": "84734652331",
         "itemId": "8744803493",
         "productName": "누티푸드 크리머 스위텐드 연유 시럽",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&requestid=20261126135413956148478015&token=31850C%7CMIXED&pt=0&slot=6",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&requestid=20261127125109036017121780&token=31850C%7CMIXED&pt=0&slot=6",
         "canonicalUrl": "https://www.coupang.com/vp/products/7243710171?itemId=8744803493&vendorItemId=84734652331",
-        "lastSuccessAt": "2026-11-26 13:54 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
           {
             "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
-            "lastSuccessAt": "2026-11-26 13:54 KST",
-            "successes": 1
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 2
           }
         ]
       }
@@ -10699,8 +10711,8 @@
       }
     },
     "8717551596": {
-      "lastAttemptAt": "2026-11-26 13:54 KST",
-      "attempts": 1,
+      "lastAttemptAt": "2026-11-27 12:51 KST",
+      "attempts": 2,
       "query": "안심곳간 가루미강력쌀가루 3kg 1개",
       "status": "ok",
       "consecutiveMisses": 0,
@@ -10708,15 +10720,15 @@
         "productId": "8717551596",
         "vendorItemId": "91712804768",
         "itemId": "25320213645",
-        "productName": "안심곳간 가루미강력쌀가루",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8717551596&itemId=25320213645&vendorItemId=91712804768&traceid=V0-153-0f43f4256f8fd17d&requestid=20261126135453898022896274&token=31850C%7CMIXED&pt=0&slot=6",
+        "productName": "안심곳간 가루미강력쌀가루, 3kg, 1개",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8717551596&itemId=25320213645&vendorItemId=91712804768&traceid=V0-153-0f43f4256f8fd17d&clickBeacon=d1483860-ea15-11f1-baa8-0f489b3dce65%7E3&requestid=20261127125125075047563010&token=31850C%7CMIXED&pt=1&slot=1",
         "canonicalUrl": "https://www.coupang.com/vp/products/8717551596?itemId=25320213645&vendorItemId=91712804768",
-        "lastSuccessAt": "2026-11-26 13:54 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
           {
             "query": "안심곳간 가루미강력쌀가루 3kg 1개",
-            "lastSuccessAt": "2026-11-26 13:54 KST",
-            "successes": 1
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 2
           }
         ]
       }
@@ -12065,7 +12077,7 @@
       }
     },
     "7398453752": {
-      "lastAttemptAt": "2026-11-27 03:17 KST",
+      "lastAttemptAt": "2026-11-27 12:51 KST",
       "attempts": 2,
       "query": "엔칸토 망고 베이스",
       "status": "ok",
@@ -12075,10 +12087,15 @@
         "vendorItemId": "93571711007",
         "itemId": "18892836903",
         "productName": "엔칸토 망고 베이스, 1.8kg, 2개",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398453752&itemId=18892836903&vendorItemId=93571711007&traceid=V0-153-d46d73048ad85213&clickBeacon=9785bf30-e9c5-11f1-bfef-a7ddb0e390bc%7E3&requestid=20261127031708473250721498&token=31850C%7CMIXED&pt=1&slot=1",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398453752&itemId=18892836903&vendorItemId=93571711007&traceid=V0-153-d46d73048ad85213&clickBeacon=c2f64bd0-ea15-11f1-9e10-3dde16017740%7E3&requestid=20261127125101072249226411&token=31850C%7CMIXED&pt=1&slot=4",
         "canonicalUrl": "https://www.coupang.com/vp/products/7398453752?itemId=18892836903&vendorItemId=93571711007",
-        "lastSuccessAt": "2026-11-27 03:17 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
+          {
+            "query": "엔칸토 한라봉 베이스 1.8kg",
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 1
+          },
           {
             "query": "엔칸토 망고 베이스 1.8kg 2개",
             "lastSuccessAt": "2026-11-27 03:17 KST",
@@ -12093,7 +12110,7 @@
       }
     },
     "7398481358": {
-      "lastAttemptAt": "2026-11-27 02:59 KST",
+      "lastAttemptAt": "2026-11-27 12:51 KST",
       "attempts": 3,
       "query": "엔칸토 제주감귤 1.8kg",
       "status": "ok",
@@ -12103,10 +12120,15 @@
         "vendorItemId": "93496242369",
         "itemId": "19144087057",
         "productName": "엔아이에프 엔칸토 제주감귤베이스, 1.8kg, 1개",
-        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398481358&itemId=19144087057&vendorItemId=93496242369&traceid=V0-153-5e1d3c38672707b9&clickBeacon=16cca180-e9c3-11f1-8b02-ed62aed9c35a%7E3&requestid=20261127025913382148471175&token=31850C%7CMIXED&pt=1&slot=4",
+        "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398481358&itemId=19144087057&vendorItemId=93496242369&traceid=V0-153-5e1d3c38672707b9&clickBeacon=c2f64bd0-ea15-11f1-b129-6432ed0d89ce%7E3&requestid=20261127125101072249226411&token=31850C%7CMIXED&pt=1&slot=2",
         "canonicalUrl": "https://www.coupang.com/vp/products/7398481358?itemId=19144087057&vendorItemId=93496242369",
-        "lastSuccessAt": "2026-11-27 02:59 KST",
+        "lastSuccessAt": "2026-11-27 12:51 KST",
         "queries": [
+          {
+            "query": "엔칸토 한라봉 베이스 1.8kg",
+            "lastSuccessAt": "2026-11-27 12:51 KST",
+            "successes": 1
+          },
           {
             "query": "엔칸토 라임모히또",
             "lastSuccessAt": "2026-11-27 02:59 KST",
@@ -32923,6 +32945,167 @@
             "productName": "위크위크 에스프레소 카페 원두 산미없는 고소한 다크골드 블렌드 1Kg 홀빈, 2개, 1kg",
             "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9750439608&itemId=29195779734&vendorItemId=96116420967&traceid=V0-153-3bab26747922003c&clickBeacon=4a252cb0-e9c7-11f1-8a66-b57b8041c402%7E3&requestid=20261127032917593211360155&token=31850C%7CMIXED&pt=1&slot=2",
             "price": 47200,
+            "isRocket": true
+          }
+        ]
+      },
+      {
+        "at": "2026-11-27 12:51 KST",
+        "query": "엔칸토 한라봉 베이스 1.8kg",
+        "strategy": "learned",
+        "targetId": "7398456407",
+        "status": "ok",
+        "observedIds": [
+          "7398450358",
+          "7398453752",
+          "7398456407",
+          "7398481358"
+        ],
+        "newTodayIds": [
+          "7398450358",
+          "7398456407"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 5,
+        "sameProductOffers": [
+          {
+            "productId": "7398456407",
+            "vendorItemId": "86556439800",
+            "productName": "엔칸토 자몽 음료베이스, 2개, 1.8kg",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7398456407&itemId=19445528459&vendorItemId=86556439800&traceid=V0-153-217bfdf38da5c591&clickBeacon=c2f64bd0-ea15-11f1-bf76-c6d6a06abc3f%7E3&requestid=20261127125101072249226411&token=31850C%7CMIXED&pt=1&slot=5",
+            "price": 38000,
+            "isRocket": true
+          }
+        ]
+      },
+      {
+        "at": "2026-11-27 12:51 KST",
+        "query": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개",
+        "strategy": "individual",
+        "targetId": "7243710171",
+        "status": "ok",
+        "observedIds": [
+          "7243710171",
+          "7737704602"
+        ],
+        "newTodayIds": [
+          "7243710171"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 7,
+        "sameProductOffers": [
+          {
+            "productId": "7243710171",
+            "vendorItemId": "96220606189",
+            "productName": "누티푸드 크리머 스위텐드, 385g, 40개",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=29305226783&vendorItemId=96220606189&traceid=V0-153-605b71f8393fff6d&clickBeacon=c7b66bf0-ea15-11f1-96e2-bff4d6595623%7E3&requestid=20261127125109036017121780&token=31850C%7CMIXED&pt=1&slot=1",
+            "price": 77100,
+            "isRocket": true
+          },
+          {
+            "productId": "7243710171",
+            "vendorItemId": "84734652331",
+            "productName": "누티푸드 크리머 스위텐드 연유 시럽",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=8744803493&vendorItemId=84734652331&traceid=V0-153-605b71f8393fff6d&requestid=20261127125109036017121780&token=31850C%7CMIXED&pt=0&slot=6",
+            "price": 46860,
+            "isRocket": true
+          },
+          {
+            "productId": "7243710171",
+            "vendorItemId": "96176932164",
+            "productName": "누티푸드 크리머 스위텐드 연유 시럽 385g 24개 베이킹 제빵사 재료 카페 제과 케이크",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=7243710171&itemId=28397203352&vendorItemId=96176932164&traceid=V0-153-605b71f8393fff6d&requestid=20261127125109036017121780&token=31850C%7CMIXED&pt=0&slot=7",
+            "price": 110900.0,
+            "isRocket": false
+          }
+        ]
+      },
+      {
+        "at": "2026-11-27 12:51 KST",
+        "query": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산",
+        "strategy": "learned",
+        "targetId": "9690864109",
+        "status": "ok",
+        "observedIds": [
+          "9690864109"
+        ],
+        "newTodayIds": [
+          "9690864109"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 9,
+        "sameProductOffers": [
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715523",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산, 5개, 100개입",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609319&vendorItemId=95912715523&traceid=V0-153-1189edca3bc49506&clickBeacon=cc809e30-ea15-11f1-b63b-ad47517b6b12%7E3&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=1&slot=1",
+            "price": 45310,
+            "isRocket": true
+          },
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715524",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산, 6개, 100개입",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609318&vendorItemId=95912715524&traceid=V0-153-1189edca3bc49506&clickBeacon=cc809e30-ea15-11f1-91c2-0e01cd4afbcd%7E3&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=1&slot=2",
+            "price": 54290,
+            "isRocket": true
+          },
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715514",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609320&vendorItemId=95912715514&traceid=V0-153-1189edca3bc49506&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=0&slot=6",
+            "price": 9450.0,
+            "isRocket": true
+          },
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715522",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609313&vendorItemId=95912715522&traceid=V0-153-1189edca3bc49506&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=0&slot=7",
+            "price": 14160.0,
+            "isRocket": true
+          },
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715526",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609317&vendorItemId=95912715526&traceid=V0-153-1189edca3bc49506&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=0&slot=8",
+            "price": 28040.0,
+            "isRocket": true
+          },
+          {
+            "productId": "9690864109",
+            "vendorItemId": "95912715525",
+            "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=9690864109&itemId=28983609315&vendorItemId=95912715525&traceid=V0-153-1189edca3bc49506&requestid=20261127125117052271350190&token=31850C%7CMIXED&pt=0&slot=9",
+            "price": 21030.0,
+            "isRocket": true
+          }
+        ]
+      },
+      {
+        "at": "2026-11-27 12:51 KST",
+        "query": "안심곳간 가루미강력쌀가루 3kg 1개",
+        "strategy": "individual",
+        "targetId": "8717551596",
+        "status": "ok",
+        "observedIds": [
+          "8717551596"
+        ],
+        "newTodayIds": [
+          "8717551596"
+        ],
+        "apiStatus": "ok",
+        "returnedCount": 5,
+        "sameProductOffers": [
+          {
+            "productId": "8717551596",
+            "vendorItemId": "91712804768",
+            "productName": "안심곳간 가루미강력쌀가루, 3kg, 1개",
+            "productUrl": "https://link.coupang.com/re/AFFSDP?lptag=AF1381574&pageKey=8717551596&itemId=25320213645&vendorItemId=91712804768&traceid=V0-153-0f43f4256f8fd17d&clickBeacon=d1483860-ea15-11f1-baa8-0f489b3dce65%7E3&requestid=20261127125125075047563010&token=31850C%7CMIXED&pt=1&slot=1",
+            "price": 16500,
             "isRocket": true
           }
         ]

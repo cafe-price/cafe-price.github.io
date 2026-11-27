@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 03:29 KST",
+  "updatedAt": "2026-11-27 12:51 KST",
   "source": "git snapshots",
   "products": {
     "8436480488": {
@@ -5363,14 +5363,19 @@
           "at": "2026-11-26 14:25 KST",
           "price": 38000,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 38000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 12,
+      "priceCount": 13,
       "avgPrice": 38000,
       "minPrice": 38000,
       "maxPrice": 38000,
       "lastPrice": 38000,
-      "lastAt": "2026-11-26 14:25 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -5419,9 +5424,17 @@
           38000,
           38000,
           4
+        ],
+        [
+          "2026-11-27",
+          38000,
+          38000,
+          38000,
+          38000,
+          1
         ]
       ],
-      "uniqueDays": 6,
+      "uniqueDays": 7,
       "vendorItemId": "86556439800"
     },
     "9755119817": {
@@ -9524,14 +9537,19 @@
           "at": "2026-11-26 13:54 KST",
           "price": 46860,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 46860,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 7,
+      "priceCount": 8,
       "avgPrice": 46860,
       "minPrice": 46860,
       "maxPrice": 46860,
       "lastPrice": 46860,
-      "lastAt": "2026-11-26 13:54 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-16",
@@ -9580,9 +9598,17 @@
           46860,
           46860,
           1
+        ],
+        [
+          "2026-11-27",
+          46860,
+          46860,
+          46860,
+          46860,
+          1
         ]
       ],
-      "uniqueDays": 6,
+      "uniqueDays": 7,
       "vendorItemId": "84734652331"
     },
     "8421621861": {
@@ -16836,14 +16862,19 @@
           "at": "2026-11-27 02:59 KST",
           "price": 18000,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 18000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 18000,
       "minPrice": 18000,
       "maxPrice": 18000,
       "lastPrice": 18000,
-      "lastAt": "2026-11-27 02:59 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16883,7 +16914,7 @@
           18000,
           18000,
           18000,
-          1
+          2
         ]
       ],
       "uniqueDays": 5,
@@ -16907,14 +16938,19 @@
           "at": "2026-11-26 14:28 KST",
           "price": 20500,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 20500,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
+      "priceCount": 4,
       "avgPrice": 20500,
       "minPrice": 20500,
       "maxPrice": 20500,
       "lastPrice": 20500,
-      "lastAt": "2026-11-26 14:28 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -16939,9 +16975,17 @@
           20500,
           20500,
           1
+        ],
+        [
+          "2026-11-27",
+          20500,
+          20500,
+          20500,
+          20500,
+          1
         ]
       ],
-      "uniqueDays": 3,
+      "uniqueDays": 4,
       "vendorItemId": "80898764173"
     },
     "6297288729": {
@@ -22109,7 +22153,7 @@
       "vendorItemId": "90432439667"
     },
     "9690864109": {
-      "productName": "레드 개별포장 11mm 25cm 친환경PLA  롱빨대 국내생산",
+      "productName": "레드 개별포장 11mm 25cm 친환경PLA 롱빨대 국내생산, 6개, 100개입",
       "category": "빨대·홀더",
       "observations": [
         {
@@ -22121,14 +22165,19 @@
           "at": "2026-11-26 14:39 KST",
           "price": 44290,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 54290,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 2,
-      "avgPrice": 49290,
+      "priceCount": 3,
+      "avgPrice": 50957,
       "minPrice": 44290,
       "maxPrice": 54290,
-      "lastPrice": 44290,
-      "lastAt": "2026-11-26 14:39 KST",
+      "lastPrice": 54290,
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -22145,9 +22194,17 @@
           44290,
           44290,
           1
+        ],
+        [
+          "2026-11-27",
+          54290,
+          54290,
+          54290,
+          54290,
+          1
         ]
       ],
-      "uniqueDays": 2,
+      "uniqueDays": 3,
       "vendorItemId": "95912715524"
     },
     "9072084606": {
@@ -22507,14 +22564,19 @@
           "at": "2026-11-27 03:17 KST",
           "price": 35000,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 35000,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 5,
+      "priceCount": 6,
       "avgPrice": 35000,
       "minPrice": 35000,
       "maxPrice": 35000,
       "lastPrice": 35000,
-      "lastAt": "2026-11-27 03:17 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-17",
@@ -22554,7 +22616,7 @@
           35000,
           35000,
           35000,
-          1
+          2
         ]
       ],
       "uniqueDays": 5,
@@ -29334,7 +29396,7 @@
       "vendorItemId": "95636841771"
     },
     "7737704602": {
-      "productName": "매드바닐라 리얼 바닐라시럽 홀빈",
+      "productName": "매드바닐라 리얼 바닐라시럽 홀빈, 300ml, 1개",
       "category": "시럽·소스",
       "observations": [
         {
@@ -29351,14 +29413,19 @@
           "at": "2026-11-27 03:12 KST",
           "price": 16740,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 18600,
+          "source": "기존 상품 재확인"
         }
       ],
-      "priceCount": 3,
-      "avgPrice": 17980,
+      "priceCount": 4,
+      "avgPrice": 18135,
       "minPrice": 16740,
       "maxPrice": 18600,
-      "lastPrice": 16740,
-      "lastAt": "2026-11-27 03:12 KST",
+      "lastPrice": 18600,
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-18",
@@ -29379,10 +29446,10 @@
         [
           "2026-11-27",
           16740,
-          16740,
-          16740,
-          16740,
-          1
+          18600,
+          17670,
+          18600,
+          2
         ]
       ],
       "uniqueDays": 3,
@@ -34681,7 +34748,7 @@
       "uniqueDays": 2
     },
     "8717551596": {
-      "productName": "안심곳간 가루미강력쌀가루",
+      "productName": "안심곳간 가루미강력쌀가루, 3kg, 1개",
       "category": "베이킹 재료",
       "observations": [
         {
@@ -34693,15 +34760,20 @@
           "at": "2026-11-26 13:54 KST",
           "price": 16500,
           "source": "기존 상품 재확인"
+        },
+        {
+          "at": "2026-11-27 12:51 KST",
+          "price": 16500,
+          "source": "기존 상품 재확인"
         }
       ],
       "vendorItemId": "91712804768",
-      "priceCount": 2,
+      "priceCount": 3,
       "avgPrice": 16500,
       "minPrice": 16500,
       "maxPrice": 16500,
       "lastPrice": 16500,
-      "lastAt": "2026-11-26 13:54 KST",
+      "lastAt": "2026-11-27 12:51 KST",
       "dailyHistory": [
         [
           "2026-11-22",
@@ -34718,9 +34790,17 @@
           16500,
           16500,
           1
+        ],
+        [
+          "2026-11-27",
+          16500,
+          16500,
+          16500,
+          16500,
+          1
         ]
       ],
-      "uniqueDays": 2
+      "uniqueDays": 3
     },
     "8670129070": {
       "productName": "26년산 국산 토종 앉은뱅이 통밀가루(강력분) 앉은키 밀가루, 5개, 700g",
